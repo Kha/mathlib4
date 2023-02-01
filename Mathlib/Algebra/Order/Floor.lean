@@ -876,6 +876,10 @@ theorem fract_nonneg (a : α) : 0 ≤ fract a :=
   sub_nonneg.2 <| floor_le _
 #align int.fract_nonneg Int.fract_nonneg
 
+lemma fract_pos : 0 < fract a ↔ a ≠ ⌊a⌋ :=
+(fract_nonneg a).lt_iff_ne.trans $ ne_comm.trans sub_ne_zero
+#align int.fract_pos Int.fract_pos
+
 theorem fract_lt_one (a : α) : fract a < 1 :=
   sub_lt_comm.1 <| sub_one_lt_floor _
 #align int.fract_lt_one Int.fract_lt_one
@@ -1440,11 +1444,12 @@ theorem round_eq (x : α) : round x = ⌊x + 1 / 2⌋ := by
   · have : ⌊fract x + 1 / 2⌋ = 1 := by
       rw [floor_eq_iff]
       constructor
-      . -- Porting note: `add_halves` can be removed, and `norm_num at *` can lose the *, after
-        -- linarith learns about fractions
-        have := add_halves (1:α)
+      . -- norm_num at *
+        -- linarith
+        -- Porting note: linarith broke here after the move to ℚ in norm_num.
+        have := add_le_add_right hx (1/2)
         norm_num at *
-        linarith
+        assumption
       · -- Porting note: `norm_num at *` can lose the *, after linarith learns about fractions
         norm_num at *
         linarith [fract_lt_one x]
