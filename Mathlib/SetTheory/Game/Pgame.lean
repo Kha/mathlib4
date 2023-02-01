@@ -289,10 +289,10 @@ theorem Subsequent.mk_right {xl xr} (xL : xl → Pgame) (xR : xr → Pgame) (j :
 
 -- Porting note: **TODO**: Port this tactic
 /- ./././Mathport/Syntax/Translate/Expr.lean:333:4: warning: unsupported (TODO): `[tacs] -/
-/-- A local tactic for proving well-foundedness of recursive definitions involving pregames. -/
-unsafe def pgame_wf_tac :=
-  sorry
-#align pgame.pgame_wf_tac pgame.pgame_wf_tac
+-- /-- A local tactic for proving well-foundedness of recursive definitions involving pregames. -/
+-- unsafe def pgame_wf_tac :=
+--   sorry
+-- #align pgame.pgame_wf_tac pgame.pgame_wf_tac
 
 /-! ### Basic pre-games -/
 
@@ -364,16 +364,16 @@ def leLf : ∀ x y : Pgame.{u}, Prop × Prop
     mk yl yr yL yR =>-- the orderings of the clauses here are carefully chosen so that
     --   and.left/or.inl refer to moves by Left, and
     --   and.right/or.inr refer to moves by Right.
-    ((∀ i, (le_lf (xL i) ⟨yl, yr, yL, yR⟩).2) ∧ ∀ j, (le_lf ⟨xl, xr, xL, xR⟩ (yR j)).2,
-      (∃ i, (le_lf ⟨xl, xr, xL, xR⟩ (yL i)).1) ∨
-        ∃ j, (le_lf (xR j) ⟨yl, yr, yL, yR⟩).1)decreasing_by
+    ((∀ i, (leLf (xL i) ⟨yl, yr, yL, yR⟩).2) ∧ ∀ j, (leLf ⟨xl, xr, xL, xR⟩ (yR j)).2,
+      (∃ i, (leLf ⟨xl, xr, xL, xR⟩ (yL i)).1) ∨
+        ∃ j, (leLf (xR j) ⟨yl, yr, yL, yR⟩).1)decreasing_by
   pgame_wf_tac -- Porting note: Depends on tactic `pgame_wf_tac`
 #align pgame.le_lf Pgame.leLf
 
 /-- The less or equal relation on pre-games.
 
 If `0 ≤ x`, then Left can win `x` as the second player. -/
-instance : LE Pgame :=
+instance le : LE Pgame :=
   ⟨fun x y => (leLf x y).1⟩
 
 /-- The less or fuzzy relation on pre-games.
@@ -391,7 +391,7 @@ scoped infixl:50 " ⧏ " => Pgame.Lf
 theorem mk_le_mk {xl xr xL xR yl yr yL yR} :
     mk xl xr xL xR ≤ mk yl yr yL yR ↔ (∀ i, xL i ⧏ mk yl yr yL yR) ∧ ∀ j, mk xl xr xL xR ⧏ yR j :=
   show (leLf _ _).1 ↔ _ by
-    rw [le_lf]
+    rw [leLf]
     rfl
 #align pgame.mk_le_mk Pgame.mk_le_mk
 
@@ -413,7 +413,7 @@ theorem le_of_forall_lf {x y : Pgame} (h₁ : ∀ i, x.moveLeft i ⧏ y) (h₂ :
 theorem mk_lf_mk {xl xr xL xR yl yr yL yR} :
     mk xl xr xL xR ⧏ mk yl yr yL yR ↔ (∃ i, mk xl xr xL xR ≤ yL i) ∨ ∃ j, xR j ≤ mk yl yr yL yR :=
   show (leLf _ _).2 ↔ _ by
-    rw [le_lf]
+    rw [leLf]
     rfl
 #align pgame.mk_lf_mk Pgame.mk_lf_mk
 
@@ -425,25 +425,24 @@ theorem lf_iff_exists_le {x y : Pgame} : x ⧏ y ↔ (∃ i, x ≤ y.moveLeft i)
   exact mk_lf_mk
 #align pgame.lf_iff_exists_le Pgame.lf_iff_exists_le
 
-private theorem not_le_lf {x y : Pgame} : (¬x ≤ y ↔ y ⧏ x) ∧ (¬x ⧏ y ↔ y ≤ x) :=
+private theorem not_leLf {x y : Pgame} : (¬x ≤ y ↔ y ⧏ x) ∧ (¬x ⧏ y ↔ y ≤ x) :=
   by
   induction' x with xl xr xL xR IHxl IHxr generalizing y
   induction' y with yl yr yL yR IHyl IHyr
   simp only [mk_le_mk, mk_lf_mk, IHxl, IHxr, IHyl, IHyr, not_and_or, not_or, not_forall, not_exists,
-    and_comm', or_comm', iff_self_iff, and_self_iff]
-#align pgame.not_le_lf pgame.not_le_lf
+    and_comm, or_comm, iff_self_iff, and_self_iff]
 
 @[simp]
 protected theorem not_le {x y : Pgame} : ¬x ≤ y ↔ y ⧏ x :=
-  not_le_lf.1
+  not_leLf.1
 #align pgame.not_le Pgame.not_le
 
 @[simp]
 theorem not_lf {x y : Pgame} : ¬x ⧏ y ↔ y ≤ x :=
-  not_le_lf.2
+  not_leLf.2
 #align pgame.not_lf Pgame.not_lf
 
-theorem LE.le.not_gf {x y : Pgame} : x ≤ y → ¬y ⧏ x :=
+theorem _root_.LE.le.not_gf {x y : Pgame} : x ≤ y → ¬y ⧏ x :=
   not_lf.2
 #align has_le.le.not_gf LE.le.not_gf
 
@@ -461,14 +460,14 @@ theorem move_left_lf_of_le {x y : Pgame} (h : x ≤ y) (i) : x.moveLeft i ⧏ y 
   (le_iff_forall_lf.1 h).1 i
 #align pgame.move_left_lf_of_le Pgame.move_left_lf_of_le
 
-alias move_left_lf_of_le ← _root_.has_le.le.move_left_lf
+alias move_left_lf_of_le ← _root_.LE.le.move_left_lf
 #align has_le.le.move_left_lf LE.le.move_left_lf
 
 theorem lf_move_right_of_le {x y : Pgame} (h : x ≤ y) (j) : x ⧏ y.moveRight j :=
   (le_iff_forall_lf.1 h).2 j
 #align pgame.lf_move_right_of_le Pgame.lf_move_right_of_le
 
-alias lf_move_right_of_le ← _root_.has_le.le.lf_move_right
+alias lf_move_right_of_le ← _root_.LE.le.lf_move_right
 #align has_le.le.lf_move_right LE.le.lf_move_right
 
 theorem lf_of_move_right_le {x y : Pgame} {j} (h : x.moveRight j ≤ y) : x ⧏ y :=
@@ -503,14 +502,13 @@ private theorem le_trans_aux {x y z : Pgame}
     x ≤ z :=
   le_of_forall_lf (fun i => Pgame.not_le.1 fun h => (h₁ hyz h).not_gf <| hxy.move_left_lf i)
     fun j => Pgame.not_le.1 fun h => (h₂ h hxy).not_gf <| hyz.lf_move_right j
-#align pgame.le_trans_aux pgame.le_trans_aux
 
-instance : LT Pgame :=
+instance lt : LT Pgame :=
   ⟨fun x y => x ≤ y ∧ x ⧏ y⟩
 
 instance : Preorder Pgame :=
-  { Pgame.hasLe,
-    Pgame.hasLt with
+  { Pgame.le,
+    Pgame.lt with
     le_refl := fun x => by
       induction' x with _ _ _ _ IHl IHr
       exact
@@ -545,7 +543,7 @@ theorem lf_of_lt {x y : Pgame} (h : x < y) : x ⧏ y :=
   h.2
 #align pgame.lf_of_lt Pgame.lf_of_lt
 
-alias lf_of_lt ← _root_.has_lt.lt.lf
+alias lf_of_lt ← _root_.LT.lt.lf
 #align has_lt.lt.lf LT.lt.lf
 
 theorem lf_irrefl (x : Pgame) : ¬x ⧏ x :=
@@ -569,10 +567,10 @@ theorem lf_of_lf_of_le {x y z : Pgame} (h₁ : x ⧏ y) (h₂ : y ≤ z) : x ⧏
   exact fun h₃ => h₁ (h₂.trans h₃)
 #align pgame.lf_of_lf_of_le Pgame.lf_of_lf_of_le
 
-alias lf_of_le_of_lf ← _root_.has_le.le.trans_lf
+alias lf_of_le_of_lf ← _root_.LE.le.trans_lf
 #align has_le.le.trans_lf LE.le.trans_lf
 
-alias lf_of_lf_of_le ← lf.trans_le
+alias lf_of_lf_of_le ← Lf.trans_le
 #align pgame.lf.trans_le Pgame.Lf.trans_le
 
 @[trans]
@@ -585,10 +583,10 @@ theorem lf_of_lf_of_lt {x y z : Pgame} (h₁ : x ⧏ y) (h₂ : y < z) : x ⧏ z
   h₁.trans_le h₂.le
 #align pgame.lf_of_lf_of_lt Pgame.lf_of_lf_of_lt
 
-alias lf_of_lt_of_lf ← _root_.has_lt.lt.trans_lf
+alias lf_of_lt_of_lf ← _root_.LT.lt.trans_lf
 #align has_lt.lt.trans_lf LT.lt.trans_lf
 
-alias lf_of_lf_of_lt ← lf.trans_lt
+alias lf_of_lf_of_lt ← Lf.trans_lt
 #align pgame.lf.trans_lt Pgame.Lf.trans_lt
 
 theorem move_left_lf {x : Pgame} : ∀ i, x.moveLeft i ⧏ x :=
@@ -611,7 +609,7 @@ theorem mk_lf {xl xr} (xL : xl → Pgame) (xR : xr → Pgame) (j) : mk xl xr xL 
 preferred over `⧏`. -/
 theorem le_of_forall_lt {x y : Pgame} (h₁ : ∀ i, x.moveLeft i < y) (h₂ : ∀ j, x < y.moveRight j) :
     x ≤ y :=
-  le_of_forall_lf (fun i => (h₁ i).Lf) fun i => (h₂ i).Lf
+  le_of_forall_lf (fun i => (h₁ i).lf) fun i => (h₂ i).lf
 #align pgame.le_of_forall_lt Pgame.le_of_forall_lt
 
 /-- The definition of `x ≤ y` on pre-games, in terms of `≤` two moves later. -/
@@ -930,7 +928,7 @@ instance : IsIrrefl _ (· ‖ ·) :=
 
 theorem lf_iff_lt_or_fuzzy {x y : Pgame} : x ⧏ y ↔ x < y ∨ x ‖ y :=
   by
-  simp only [lt_iff_le_and_lf, fuzzy, ← Pgame.not_le]
+  simp only [lt_iff_le_and_lf, Fuzzy, ← Pgame.not_le]
   tauto
 #align pgame.lf_iff_lt_or_fuzzy Pgame.lf_iff_lt_or_fuzzy
 
@@ -938,7 +936,7 @@ theorem lf_of_fuzzy {x y : Pgame} (h : x ‖ y) : x ⧏ y :=
   lf_iff_lt_or_fuzzy.2 (Or.inr h)
 #align pgame.lf_of_fuzzy Pgame.lf_of_fuzzy
 
-alias lf_of_fuzzy ← fuzzy.lf
+alias lf_of_fuzzy ← Fuzzy.lf
 #align pgame.fuzzy.lf Pgame.Fuzzy.lf
 
 theorem lt_or_fuzzy_of_lf {x y : Pgame} : x ⧏ y → x < y ∨ x ‖ y :=
@@ -1027,8 +1025,8 @@ inductive Relabelling : Pgame.{u} → Pgame.{u} → Type (u + 1)
   |
   mk :
     ∀ {x y : Pgame} (L : x.LeftMoves ≃ y.LeftMoves) (R : x.RightMoves ≃ y.RightMoves),
-      (∀ i, relabelling (x.moveLeft i) (y.moveLeft (L i))) →
-        (∀ j, relabelling (x.moveRight j) (y.moveRight (R j))) → relabelling x y
+      (∀ i, Relabelling (x.moveLeft i) (y.moveLeft (L i))) →
+        (∀ j, Relabelling (x.moveRight j) (y.moveRight (R j))) → Relabelling x y
 #align pgame.relabelling Pgame.Relabelling
 
 -- mathport name: pgame.relabelling
@@ -1148,7 +1146,7 @@ def isEmpty (x : Pgame) [IsEmpty x.LeftMoves] [IsEmpty x.RightMoves] : x ≡r 0 
 end Relabelling
 
 theorem Equiv.is_empty (x : Pgame) [IsEmpty x.LeftMoves] [IsEmpty x.RightMoves] : x ≈ 0 :=
-  (Relabelling.isEmpty x).Equiv
+  (Relabelling.isEmpty x).equiv
 #align pgame.equiv.is_empty Pgame.Equiv.is_empty
 
 instance {x y : Pgame} : Coe (x ≡r y) (x ≈ y) :=
@@ -1204,14 +1202,13 @@ theorem neg_def {xl xr xL xR} : -mk xl xr xL xR = mk xr xl (fun j => -xR j) fun 
 #align pgame.neg_def Pgame.neg_def
 
 instance : InvolutiveNeg Pgame :=
-  { Pgame.hasNeg with
+  { inferInstanceAs (Neg Pgame) with
     neg_neg := fun x => by
       induction' x with xl xr xL xR ihL ihR
-      simp_rw [neg_def, ihL, ihR]
-      exact ⟨rfl, rfl, HEq.rfl, HEq.rfl⟩ }
+      simp_rw [neg_def, ihL, ihR] }
 
 instance : NegZeroClass Pgame :=
-  { Pgame.hasZero, Pgame.hasNeg with
+  { inferInstanceAs (Zero Pgame), inferInstanceAs (Neg Pgame) with
     neg_zero := by
       dsimp [Zero.zero, Neg.neg, neg]
       congr <;> funext i <;> cases i }
@@ -1220,8 +1217,8 @@ instance : NegZeroClass Pgame :=
 theorem neg_of_lists (L R : List Pgame) :
     -ofLists L R = ofLists (R.map fun x => -x) (L.map fun x => -x) :=
   by
-  simp only [of_lists, neg_def, List.length_map, List.nthLe_map', eq_self_iff_true, true_and_iff]
-  constructor;
+  simp only [ofLists, neg_def, List.length_map, List.nthLe_map', eq_self_iff_true, true_and_iff]
+  constructor
   all_goals
     apply hfunext
     · simp
@@ -1333,7 +1330,6 @@ private theorem neg_le_lf_neg_iff : ∀ {x y : Pgame.{u}}, (-y ≤ -x ↔ x ≤ 
       apply and_congr <;> exact forall_congr' fun _ => neg_le_lf_neg_iff.2
     · rw [or_comm']
       apply or_congr <;> exact exists_congr fun _ => neg_le_lf_neg_iff.1decreasing_by pgame_wf_tac
-#align pgame.neg_le_lf_neg_iff pgame.neg_le_lf_neg_iff
 
 @[simp]
 theorem neg_le_neg_iff {x y : Pgame} : -y ≤ -x ↔ x ≤ y :=
@@ -1357,7 +1353,7 @@ theorem neg_equiv_neg_iff {x y : Pgame} : (-x ≈ -y) ↔ (x ≈ y) := by
 
 @[simp]
 theorem neg_fuzzy_neg_iff {x y : Pgame} : -x ‖ -y ↔ x ‖ y := by
-  rw [fuzzy, fuzzy, neg_lf_neg_iff, neg_lf_neg_iff, and_comm]
+  rw [Fuzzy, Fuzzy, neg_lf_neg_iff, neg_lf_neg_iff, and_comm]
 #align pgame.neg_fuzzy_neg_iff Pgame.neg_fuzzy_neg_iff
 
 theorem neg_le_iff {x y : Pgame} : -y ≤ x ↔ -x ≤ y := by rw [← neg_neg x, neg_le_neg_iff, neg_neg]
@@ -1430,7 +1426,7 @@ theorem zero_fuzzy_neg_iff {x : Pgame} : 0 ‖ -x ↔ 0 ‖ x := by rw [← neg_
 
 
 /-- The sum of `x = {xL | xR}` and `y = {yL | yR}` is `{xL + y, x + yL | xR + y, x + yR}`. -/
-instance : Add Pgame.{u} :=
+noncomputable instance : Add Pgame.{u} :=
   ⟨fun x y => by
     induction' x with xl xr xL xR IHxl IHxr generalizing y
     induction' y with yl yr yL yR IHyl IHyr
@@ -1442,7 +1438,7 @@ instance : Add Pgame.{u} :=
     · exact IHyr⟩
 
 /-- The pre-game `((0+1)+⋯)+1`. -/
-instance : NatCast Pgame :=
+noncomputable instance : NatCast Pgame :=
   ⟨Nat.unaryCast⟩
 
 @[simp]
