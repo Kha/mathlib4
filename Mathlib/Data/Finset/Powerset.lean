@@ -99,11 +99,6 @@ theorem not_mem_of_mem_powerset_of_not_mem {s t : Finset α} {a : α} (ht : t �
   apply mem_powerset.1 ht
 #align finset.not_mem_of_mem_powerset_of_not_mem Finset.not_mem_of_mem_powerset_of_not_mem
 
-theorem powerset_singleton [DecidableEq α] (a : α) :
-    Finset.powerset {a} = {∅, {a}} := by
-  ext y
-  rw [mem_powerset, subset_singleton_iff, mem_insert, mem_singleton]
-
 theorem powerset_insert [DecidableEq α] (s : Finset α) (a : α) :
     powerset (insert a s) = s.powerset ∪ s.powerset.image (insert a) :=
   by
