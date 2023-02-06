@@ -36,13 +36,6 @@ and can be used to replace a goal with a definitionally equal one. -/
 macro_rules
   | `(tactic| change $e:term) => `(tactic| show $e)
 
-/--
-`by_cases p` makes a case distinction on `p`,
-resulting in two subgoals `h : p ⊢` and `h : ¬ p ⊢`.
--/
-macro "by_cases " e:term : tactic =>
-  `(tactic| by_cases $(mkIdent `h) : $e)
-
 syntax "transitivity" (colGt term)? : tactic
 set_option hygiene false in
 macro_rules
