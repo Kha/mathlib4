@@ -611,6 +611,7 @@ theorem image_perm {s : Set α} {σ : Equiv.Perm α} (hs : { a : α | σ a ≠ a
 end Image
 
 /-! ### Lemmas about the powerset and image. -/
+
 section Powerset
 
 lemma mem_powerset_insert_iff {s t : Set α} {a : α} :
@@ -631,10 +632,6 @@ lemma mem_powerset_insert_iff {s t : Set α} {a : α} :
     · rw [←h₂]
       exact insert_subset_insert h₁
 
-lemma mem_powerset_insert_iff' {s t : Set α} {a : α} :
-    S ∈ 𝒫 (insert x A) ↔ S \ {x} ∈ 𝒫 A := by
-  rw [mem_powerset_iff, mem_powerset_iff, diff_singleton_subset_iff]
-
 lemma powerset_insert {s : Set α} (a : α) :
     𝒫 (insert a s) = 𝒫 s ∪ (𝒫 s).image (insert a) := by
   ext y
@@ -643,7 +640,6 @@ lemma powerset_insert {s : Set α} (a : α) :
 end Powerset
 
 /-! ### Lemmas about range of a function. -/
-
 
 section Range
 
