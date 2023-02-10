@@ -255,6 +255,7 @@ import Mathlib.Control.ULift
 import Mathlib.Control.Writer
 import Mathlib.Data.Array.Basic
 import Mathlib.Data.Array.Defs
+import Mathlib.Data.Array.Lemmas
 import Mathlib.Data.BinaryHeap
 import Mathlib.Data.Bitvec.Core
 import Mathlib.Data.Bool.AllAny
