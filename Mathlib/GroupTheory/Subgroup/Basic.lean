@@ -470,7 +470,7 @@ theorem toSubmonoid_eq {p q : Subgroup G} : p.toSubmonoid = q.toSubmonoid ↔ p 
 #align add_subgroup.to_add_submonoid_eq AddSubgroup.toAddSubmonoid_eq
 
 -- Porting note: Unknown attribute mono
---@[to_additive, mono]
+--@[to_additive (attr := mono)]
 @[to_additive]
 theorem toSubmonoid_strictMono : StrictMono (toSubmonoid : Subgroup G → Submonoid G) := fun _ _ =>
   id
@@ -481,7 +481,7 @@ theorem toSubmonoid_strictMono : StrictMono (toSubmonoid : Subgroup G → Submon
 -- attribute [mono] AddSubgroup.to_add_submonoid_strictMono
 
 -- Porting note: Unknown attribute mono
---@[to_additive, mono]
+--@[to_additive (attr := mono)]
 @[to_additive]
 theorem toSubmonoid_mono : Monotone (toSubmonoid : Subgroup G → Submonoid G) :=
   toSubmonoid_strictMono.monotone
@@ -1163,7 +1163,7 @@ theorem closure_induction {p : G → Prop} {x} (h : x ∈ closure k) (Hk : ∀ x
 #align add_subgroup.closure_induction AddSubgroup.closure_induction
 
 /-- A dependent version of `Subgroup.closure_induction`.  -/
-@[elab_as_elim, to_additive "A dependent version of `AddSubgroup.closure_induction`. "]
+@[to_additive (attr := elab_as_elim) "A dependent version of `AddSubgroup.closure_induction`. "]
 theorem closure_induction' {p : ∀ x, x ∈ closure k → Prop}
     (Hs : ∀ (x) (h : x ∈ k), p x (subset_closure h)) (H1 : p 1 (one_mem _))
     (Hmul : ∀ x hx y hy, p x hx → p y hy → p (x * y) (mul_mem hx hy))
