@@ -10,7 +10,7 @@ Authors: Leonardo de Moura, Mario Carneiro
 -/
 import Mathlib.Control.Traversable.Equiv
 import Mathlib.Data.Vector.Basic
-
+import Mathlib.Init.Data.Array.Basic
 universe u v w
 
 namespace DArray
@@ -329,4 +329,3 @@ theorem read_map₂ : (map₂ f a₁ a₂).read i = f (a₁.read i) (a₂.read i
 end Map₂
 
 end Array'
-
