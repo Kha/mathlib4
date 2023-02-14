@@ -8,12 +8,12 @@ Authors: Mantas Bakšys
 ! Please do not edit these lines, except to modify the commit id
 ! if you have ported upstream changes.
 -/
-import Mathbin.Algebra.BigOperators.Basic
-import Mathbin.Algebra.Order.Module
-import Mathbin.Data.Prod.Lex
-import Mathbin.GroupTheory.Perm.Support
-import Mathbin.Order.Monotone.Monovary
-import Mathbin.Tactic.Abel
+import Mathlib.Algebra.BigOperators.Basic
+import Mathlib.Algebra.Order.Module
+import Mathlib.Data.Prod.Lex
+import Mathlib.GroupTheory.Perm.Support
+import Mathlib.Order.Monotone.Monovary
+import Mathlib.Tactic.Abel
 
 /-!
 # Rearrangement inequality
@@ -165,8 +165,7 @@ which monovary together, is unchanged by a permutation if and only if `f ∘ σ`
 together. Stated by permuting the entries of `f`. -/
 theorem MonovaryOn.sum_comp_perm_smul_eq_sum_smul_iff (hfg : MonovaryOn f g s)
     (hσ : { x | σ x ≠ x } ⊆ s) :
-    ((∑ i in s, f (σ i) • g i) = ∑ i in s, f i • g i) ↔ MonovaryOn (f ∘ σ) g s :=
-  by
+    ((∑ i in s, f (σ i) • g i) = ∑ i in s, f i • g i) ↔ MonovaryOn (f ∘ σ) g s := by
   have hσinv : { x | σ⁻¹ x ≠ x } ⊆ s := (set_support_inv_eq _).Subset.trans hσ
   refine'
     (Iff.trans _ <| hfg.sum_smul_comp_perm_eq_sum_smul_iff hσinv).trans ⟨fun h => _, fun h => _⟩
