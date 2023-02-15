@@ -381,11 +381,17 @@ theorem nth_eq_orderIsoOfNat (i : Infinite (setOf p)) (n : ℕ) :
           exact lt_add_one k
       have H : ∃ n : ℕ, p (↑(Subtype.ofNat (setOf p) k) + n + 1) := ⟨b, hb⟩
       set t := Nat.find H with ht
-      obtain ⟨hp, hmin⟩ := Iff.mp (Nat.find_eq_iff _) ht
-      rw [← ht, ← hk] at hp hmin ⊢
-      rw [nth, infₛ_def ⟨_, nth_mem_of_infinite_aux p hi k.succ⟩, Nat.find_eq_iff]
+      have h := Iff.mp (Nat.find_eq_iff _) ht
+      rcases h with ⟨hp, hmin⟩
+      rw [← ht, ← hk] at hp hmin
+      rw [← hk, nth, Nat.infₛ_def ⟨nth p k.succ, nth_mem_of_infinite_aux p hi k.succ⟩]
+      have : ∀ x, p x ↔ x ∈ { i | p i ∧ ∀ (k_1 : ℕ), k_1 < succ k → nth p k_1 < i } := by
+        sorry
+      simp [← this]
+      rw [Nat.find_eq_iff]
       refine' ⟨⟨by convert hp, fun r hr => _⟩, fun n hn => _⟩
-      · rw [lt_succ_iff] at hr⊢
+      · rw [← succ_eq_add_one]
+        rw [lt_succ_iff] at hr ⊢
         exact (nth_monotone p hi hr).trans (by simp)
       simp only [exists_prop, not_and, not_lt, Set.mem_setOf_eq, not_forall]
       refine' fun hpn => ⟨k, lt_add_one k, _⟩
@@ -394,6 +400,7 @@ theorem nth_eq_orderIsoOfNat (i : Infinite (setOf p)) (n : ℕ) :
       · rw [tsub_lt_iff_left]
         · rw [tsub_lt_iff_left hlt.le]
           convert hn using 1
+          rw [ht]
           ac_rfl
         exact le_tsub_of_add_le_left (succ_le_of_lt hlt)
       refine' hmin (n - nth p k - 1) hn _
@@ -404,4 +411,3 @@ theorem nth_eq_orderIsoOfNat (i : Infinite (setOf p)) (n : ℕ) :
 #align nat.nth_eq_order_iso_of_nat Nat.nth_eq_orderIsoOfNat
 
 end Nat
-
