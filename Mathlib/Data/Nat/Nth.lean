@@ -16,7 +16,7 @@ import Mathlib.Order.OrderIsoNat
 # The `n`th Number Satisfying a Predicate
 
 This file defines a function for "what is the `n`th number that satisifies a given predicate `p`",
-and provides lemmas that deal with this function and its connection to `nat.count`.
+and provides lemmas that deal with this function and its connection to `Nat.count`.
 
 ## Main definitions
 
@@ -25,14 +25,14 @@ and provides lemmas that deal with this function and its connection to `nat.coun
 
 ## Main results
 
-* `nat.nth_set_card`: For a fintely-often true `p`, gives the cardinality of the set of numbers
+* `Nat.nth_set_card`: For a fintely-often true `p`, gives the cardinality of the set of numbers
   satisfying `p` above particular values of `nth p`
-* `nat.count_nth_gc`: Establishes a Galois connection between `nth p` and `count p`.
-* `nat.nth_eq_order_iso_of_nat`: For an infinitely-ofter true predicate, `nth` agrees with the
+* `Nat.count_nth_gc`: Establishes a Galois connection between `nth p` and `count p`.
+* `Nat.nth_eq_orderIsoOfNat`: For an infinitely-ofter true predicate, `nth` agrees with the
   order-isomorphism of the subtype to the natural numbers.
 
 There has been some discussion on the subject of whether both of `nth` and
-`nat.subtype.order_iso_of_nat` should exist. See discussion
+`Nat.Subtype.orderIsoOfNat` should exist. See discussion
 [here](https://github.com/leanprover-community/mathlib/pull/9457#pullrequestreview-767221180).
 Future work should address how lemmas that use these should be written.
 
@@ -373,7 +373,5 @@ theorem nth_zero_of_nth_zero (h₀ : ¬p 0) {a b : ℕ} (hab : a ≤ b) (ha : nt
     rw [← ha]
     exact ⟨hx.1, fun k hk => hx.2 k <| hk.trans_le hab⟩
 #align nat.nth_zero_of_nth_zero Nat.nth_zero_of_nth_zero
-      
 
 end Nat
-
