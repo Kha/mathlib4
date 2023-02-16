@@ -765,12 +765,11 @@ theorem toFinset_eq_univ [Fintype α] [Fintype s] : s.toFinset = Finset.univ ↔
 #align set.to_finset_eq_univ Set.toFinset_eq_univ
 
 @[simp]
-theorem to_finset_set_of [Fintype α] (p : α → Prop) [DecidablePred p] [Fintype { x | p x }] :
-    { x | p x }.toFinset = Finset.univ.filter p :=
-  by
+theorem toFinset_setOf [Fintype α] (p : α → Prop) [DecidablePred p] [Fintype { x | p x }] :
+    { x | p x }.toFinset = Finset.univ.filter p := by
   ext
   simp
-#align set.to_finset_set_of Set.to_finset_set_of
+#align set.to_finset_set_of Set.toFinset_setOf
 
 --@[simp] Porting note: removing simp, simp can prove it
 theorem toFinset_ssubset_univ [Fintype α] {s : Set α} [Fintype s] :
@@ -785,22 +784,19 @@ theorem toFinset_image [DecidableEq β] (f : α → β) (s : Set α) [Fintype s]
 
 @[simp]
 theorem toFinset_range [DecidableEq α] [Fintype β] (f : β → α) [Fintype (Set.range f)] :
-    (Set.range f).toFinset = Finset.univ.image f :=
-  by
+    (Set.range f).toFinset = Finset.univ.image f := by
   ext
   simp
 #align set.to_finset_range Set.toFinset_range
 
-theorem toFinset_singleton (a : α) [Fintype ({a} : Set α)] : ({a} : Set α).toFinset = {a} :=
-  by
+theorem toFinset_singleton (a : α) [Fintype ({a} : Set α)] : ({a} : Set α).toFinset = {a} := by
   ext
   simp
 #align set.to_finset_singleton Set.toFinset_singleton
 
 @[simp]
 theorem toFinset_insert [DecidableEq α] {a : α} {s : Set α} [Fintype (insert a s : Set α)]
-    [Fintype s] : (insert a s).toFinset = insert a s.toFinset :=
-  by
+    [Fintype s] : (insert a s).toFinset = insert a s.toFinset := by
   ext
   simp
 #align set.to_finset_insert Set.toFinset_insert
@@ -813,6 +809,10 @@ theorem filter_mem_univ_eq_toFinset [Fintype α] (s : Set α) [Fintype s] [Decid
 #align set.filter_mem_univ_eq_to_finset Set.filter_mem_univ_eq_toFinset
 
 end Set
+
+@[simp] lemma List.toFinset_subtype [DecidableEq α] (l : List α) [Fintype { x | x ∈ l }] :
+    { x | x ∈ l }.toFinset = l.toFinset :=
+  Finset.ext fun x => by rw [Set.mem_toFinset, List.mem_toFinset, Set.mem_setOf_eq]
 
 @[simp]
 theorem Finset.toFinset_coe (s : Finset α) [Fintype (s : Set α)] : (s : Set α).toFinset = s :=
