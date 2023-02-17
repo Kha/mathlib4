@@ -648,6 +648,7 @@ import Mathlib.Init.Classes.Order
 import Mathlib.Init.Classical
 import Mathlib.Init.Control.Combinators
 import Mathlib.Init.Core
+import Mathlib.Init.Data.Array.Basic
 import Mathlib.Init.Data.Bool.Basic
 import Mathlib.Init.Data.Bool.Lemmas
 import Mathlib.Init.Data.Fin.Basic
