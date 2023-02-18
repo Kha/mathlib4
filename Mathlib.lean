@@ -525,6 +525,7 @@ import Mathlib.Data.Nat.Choose.Basic
 import Mathlib.Data.Nat.Choose.Bounds
 import Mathlib.Data.Nat.Choose.Central
 import Mathlib.Data.Nat.Choose.Dvd
+import Mathlib.Data.Nat.Choose.Multinomial
 import Mathlib.Data.Nat.Choose.Sum
 import Mathlib.Data.Nat.Count
 import Mathlib.Data.Nat.Dist
