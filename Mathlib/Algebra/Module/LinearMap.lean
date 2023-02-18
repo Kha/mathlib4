@@ -5,7 +5,7 @@ Authors: Nathaniel Thomas, Jeremy Avigad, Johannes Hölzl, Mario Carneiro, Anne 
   Frédéric Dupuis, Heather Macbeth
 
 ! This file was ported from Lean 3 source module algebra.module.linear_map
-! leanprover-community/mathlib commit 9003f28797c0664a49e4179487267c494477d853
+! leanprover-community/mathlib commit cc8e88c7c8c7bc80f91f84d11adb584bf9bd658f
 ! Please do not edit these lines, except to modify the commit id
 ! if you have ported upstream changes.
 -/
@@ -231,9 +231,11 @@ def toDistribMulActionHom (f : M →ₗ[R] M₂) : DistribMulActionHom R M M₂ 
 #align linear_map.to_distrib_mul_action_hom LinearMap.toDistribMulActionHom
 
 @[simp]
-theorem to_fun_eq_coe {f : M →ₛₗ[σ] M₃} : f.toFun = (f : M → M₃) :=
-  rfl
-#align linear_map.to_fun_eq_coe LinearMap.to_fun_eq_coe
+theorem coe_toAddHom (f : M →ₛₗ[σ] M₃) : ⇑f.toAddHom = f := rfl
+
+-- porting note: no longer a `simp`
+theorem toFun_eq_coe {f : M →ₛₗ[σ] M₃} : f.toFun = (f : M → M₃) := rfl
+#align linear_map.to_fun_eq_coe LinearMap.toFun_eq_coe
 
 @[ext]
 theorem ext {f g : M →ₛₗ[σ] M₃} (h : ∀ x, f x = g x) : f = g :=
@@ -267,10 +269,16 @@ protected def Simps.apply {R S : Type _} [Semiring R] [Semiring S] (σ : R →+*
 initialize_simps_projections LinearMap (toAddHom_toFun → apply)
 
 @[simp]
-theorem coe_mk {σ : R →+* S} (f : M →+ M₃) (h) :
+theorem coe_mk {σ : R →+* S} (f : AddHom M M₃) (h) :
     ((LinearMap.mk f h : M →ₛₗ[σ] M₃) : M → M₃) = f :=
   rfl
 #align linear_map.coe_mk LinearMap.coe_mk
+
+-- Porting note: This theorem is new.
+@[simp]
+theorem coe_addHom_mk {σ : R →+* S} (f : AddHom M M₃) (h) :
+    ((LinearMap.mk f h : M →ₛₗ[σ] M₃) : AddHom M M₃) = f :=
+  rfl
 
 /-- Identity map as a `LinearMap` -/
 def id : M →ₗ[R] M :=
@@ -933,7 +941,7 @@ theorem comp_neg (f : M →ₛₗ[σ₁₂] N₂) (g : N₂ →ₛₗ[σ₂₃] 
   ext fun _ ↦ g.map_neg _
 #align linear_map.comp_neg LinearMap.comp_neg
 
-/-- The negation of a linear map is linear. -/
+/-- The subtraction of two linear maps is linear. -/
 instance : Sub (M →ₛₗ[σ₁₂] N₂) :=
   ⟨fun f g ↦
     { toFun := f - g
