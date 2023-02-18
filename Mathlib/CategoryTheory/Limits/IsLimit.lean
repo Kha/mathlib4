@@ -19,11 +19,11 @@ In this introduction we only describe the setup for limits;
 it is repeated, with slightly different names, for colimits.
 
 The main structures defined in this file is
-* `is_limit c`, for `c : cone F`, `F : J ⥤ C`, expressing that `c` is a limit cone,
+* `IsLimit c`, for `c : Cone F`, `F : J ⥤ C`, expressing that `c` is a limit cone,
 
-See also `category_theory.limits.has_limits` which further builds:
-* `limit_cone F`, which consists of a choice of cone for `F` and the fact it is a limit cone, and
-* `has_limit F`, asserting the mere existence of some limit cone for `F`.
+See also `CategoryTheory.Limits.HasLimits` which further builds:
+* `LimitCone F`, which consists of a choice of cone for `F` and the fact it is a limit cone, and
+* `HasLimit F`, asserting the mere existence of some limit cone for `F`.
 
 ## Implementation
 At present we simply say everything twice, in order to handle both limits and colimits.
@@ -42,7 +42,7 @@ open CategoryTheory CategoryTheory.Category CategoryTheory.Functor Opposite
 
 namespace CategoryTheory.Limits
 
--- declare the `v`'s first; see `category_theory.category` for an explanation
+-- declare the `v`'s first; see `CategoryTheory.Category` for an explanation
 universe v₁ v₂ v₃ v₄ u₁ u₂ u₃ u₄
 
 variable {J : Type u₁} [Category.{v₁} J] {K : Type u₂} [Category.{v₂} K]
@@ -58,14 +58,19 @@ See <https://stacks.math.columbia.edu/tag/002E>.
   -/
 -- Porting note: removed @[nolint has_nonempty_instance]
 structure IsLimit (t : Cone F) where
+  /-- There is a morphism from any cone vertex to `t.X` -/
   lift : ∀ s : Cone F, s.X ⟶ t.X
+  /-- The map makes the triangle with the two natural transformations commute -/
   fac : ∀ (s : Cone F) (j : J), lift s ≫ t.π.app j = s.π.app j := by aesop_cat
+  /-- It is the unique such map to do this -/
   uniq : ∀ (s : Cone F) (m : s.X ⟶ t.X) (_ : ∀ j : J, m ≫ t.π.app j = s.π.app j), m = lift s := by
     aesop_cat
 #align category_theory.limits.is_limit CategoryTheory.Limits.IsLimit
 #align category_theory.limits.is_limit.fac' CategoryTheory.Limits.IsLimit.fac
 #align category_theory.limits.is_limit.uniq' CategoryTheory.Limits.IsLimit.uniq
 
+-- Porting note: linter claimed it reduced but it did not
+attribute [nolint simpNF] IsLimit.mk.injEq
 
 attribute [reassoc (attr := simp)] IsLimit.fac
 
@@ -116,7 +121,7 @@ def ofExistsUnique {t : Cone F}
   exact ⟨s, hs, hs'⟩
 #align category_theory.limits.is_limit.of_exists_unique CategoryTheory.Limits.IsLimit.ofExistsUnique
 
-/-- Alternative constructor for `is_limit`,
+/-- Alternative constructor for `isLimit`,
 providing a morphism of cones rather than a morphism between the cone points
 and separately the factorisation condition.
 -/
@@ -291,7 +296,7 @@ def postcomposeInvEquiv {F G : J ⥤ C} (α : F ≅ G) (c : Cone G) :
   postcomposeHomEquiv α.symm c
 #align category_theory.limits.is_limit.postcompose_inv_equiv CategoryTheory.Limits.IsLimit.postcomposeInvEquiv
 
-/-- Constructing an equivalence `is_limit c ≃ is_limit d` from a natural isomorphism
+/-- Constructing an equivalence `IsLimit c ≃ IsLimit d` from a natural isomorphism
 between the underlying functors, and then an isomorphism between `c` transported along this and `d`.
 -/
 def equivOfNatIsoOfIso {F G : J ⥤ C} (α : F ≅ G) (c : Cone F) (d : Cone G)
@@ -341,13 +346,13 @@ section Equivalence
 
 open CategoryTheory.Equivalence
 
-/-- If `s : cone F` is a limit cone, so is `s` whiskered by an equivalence `e`.
+/-- If `s : Cone F` is a limit cone, so is `s` whiskered by an equivalence `e`.
 -/
 def whiskerEquivalence {s : Cone F} (P : IsLimit s) (e : K ≌ J) : IsLimit (s.whisker e.functor) :=
   ofRightAdjoint (Cones.whiskeringEquivalence e).functor P
 #align category_theory.limits.is_limit.whisker_equivalence CategoryTheory.Limits.IsLimit.whiskerEquivalence
 
-/-- If `s : cone F` whiskered by an equivalence `e` is a limit cone, so is `s`.
+/-- If `s : Cone F` whiskered by an equivalence `e` is a limit cone, so is `s`.
 -/
 def ofWhiskerEquivalence {s : Cone F} (e : K ≌ J) (P : IsLimit (s.whisker e.functor)) : IsLimit s :=
   equivIsoLimit ((Cones.whiskeringEquivalence e).unitIso.app s).symm
@@ -360,7 +365,7 @@ def whiskerEquivalenceEquiv {s : Cone F} (e : K ≌ J) : IsLimit s ≃ IsLimit (
   ⟨fun h => h.whiskerEquivalence e, ofWhiskerEquivalence e, by aesop_cat, by aesop_cat⟩
 #align category_theory.limits.is_limit.whisker_equivalence_equiv CategoryTheory.Limits.IsLimit.whiskerEquivalenceEquiv
 
-/-- We can prove two cone points `(s : cone F).X` and `(t.cone G).X` are isomorphic if
+/-- We can prove two cone points `(s : Cone F).X` and `(t.Cone G).X` are isomorphic if
 * both cones are limit cones
 * their indexing categories are equivalent via some `e : J ≌ K`,
 * the triangle of functors commutes up to a natural isomorphism: `e.functor ⋙ G ≅ F`.
@@ -424,7 +429,7 @@ def natIso (h : IsLimit t) : yoneda.obj t.X ⋙ uliftFunctor.{u₁} ≅ F.cones 
 #align category_theory.limits.is_limit.nat_iso CategoryTheory.Limits.IsLimit.natIso
 
 /-- Another, more explicit, formulation of the universal property of a limit cone.
-See also `hom_iso`.
+See also `homIso`.
 -/
 def homIso' (h : IsLimit t) (W : C) :
     ULift.{u₁} (W ⟶ t.X : Type v₃) ≅
@@ -452,8 +457,8 @@ def ofFaithful {t : Cone F} {D : Type u₄} [Category.{v₄} D] (G : C ⥤ D) [F
       apply G.map_comp }
 #align category_theory.limits.is_limit.of_faithful CategoryTheory.Limits.IsLimit.ofFaithful
 
-/-- If `F` and `G` are naturally isomorphic, then `F.map_cone c` being a limit implies
-`G.map_cone c` is also a limit.
+/-- If `F` and `G` are naturally isomorphic, then `F.mapCone c` being a limit implies
+`G.mapCone c` is also a limit.
 -/
 def mapConeEquiv {D : Type u₄} [Category.{v₄} D] {K : J ⥤ C} {F G : C ⥤ D} (h : F ≅ G) {c : Cone K}
     (t : IsLimit (mapCone F c)) : IsLimit (mapCone G c) := by
@@ -565,8 +570,11 @@ See <https://stacks.math.columbia.edu/tag/002F>.
 -/
 -- Porting note: remove @[nolint has_nonempty_instance]
 structure IsColimit (t : Cocone F) where
+  /-- `t.X` maps to all other cocone covertices -/
   desc : ∀ s : Cocone F, t.X ⟶ s.X
+  /-- The map `desc` makes the diagram with the natural transformations commute -/
   fac : ∀ (s : Cocone F) (j : J), t.ι.app j ≫ desc s = s.ι.app j := by aesop_cat
+  /-- `desc` is the unique such map -/
   uniq :
     ∀ (s : Cocone F) (m : t.X ⟶ s.X) (_ : ∀ j : J, t.ι.app j ≫ m = s.ι.app j), m = desc s := by
     aesop_cat
@@ -575,6 +583,9 @@ structure IsColimit (t : Cocone F) where
 #align category_theory.limits.is_colimit.uniq' CategoryTheory.Limits.IsColimit.uniq
 
 attribute [reassoc (attr := simp)] IsColimit.fac
+
+-- Porting note: linter claimed it reduced but it did not
+attribute [nolint simpNF] IsColimit.mk.injEq
 
 namespace IsColimit
 
@@ -623,7 +634,7 @@ def ofExistsUnique {t : Cocone F}
   exact ⟨s, hs, hs'⟩
 #align category_theory.limits.is_colimit.of_exists_unique CategoryTheory.Limits.IsColimit.ofExistsUnique
 
-/-- Alternative constructor for `is_colimit`,
+/-- Alternative constructor for `IsColimit`,
 providing a morphism of cocones rather than a morphism between the cocone points
 and separately the factorisation condition.
 -/
@@ -855,14 +866,14 @@ section Equivalence
 
 open CategoryTheory.Equivalence
 
-/-- If `s : cocone F` is a colimit cocone, so is `s` whiskered by an equivalence `e`.
+/-- If `s : Cocone F` is a colimit cocone, so is `s` whiskered by an equivalence `e`.
 -/
 def whiskerEquivalence {s : Cocone F} (P : IsColimit s) (e : K ≌ J) :
     IsColimit (s.whisker e.functor) :=
   ofLeftAdjoint (Cocones.whiskeringEquivalence e).functor P
 #align category_theory.limits.is_colimit.whisker_equivalence CategoryTheory.Limits.IsColimit.whiskerEquivalence
 
-/-- If `s : cocone F` whiskered by an equivalence `e` is a colimit cocone, so is `s`.
+/-- If `s : Cocone F` whiskered by an equivalence `e` is a colimit cocone, so is `s`.
 -/
 def ofWhiskerEquivalence {s : Cocone F} (e : K ≌ J) (P : IsColimit (s.whisker e.functor)) :
     IsColimit s :=
@@ -877,7 +888,7 @@ def whiskerEquivalenceEquiv {s : Cocone F} (e : K ≌ J) :
   ⟨fun h => h.whiskerEquivalence e, ofWhiskerEquivalence e, by aesop_cat, by aesop_cat⟩
 #align category_theory.limits.is_colimit.whisker_equivalence_equiv CategoryTheory.Limits.IsColimit.whiskerEquivalenceEquiv
 
-/-- We can prove two cocone points `(s : cocone F).X` and `(t.cocone G).X` are isomorphic if
+/-- We can prove two cocone points `(s : Cocone F).X` and `(t.Cocone G).X` are isomorphic if
 * both cocones are colimit cocones
 * their indexing categories are equivalent via some `e : J ≌ K`,
 * the triangle of functors commutes up to a natural isomorphism: `e.functor ⋙ G ≅ F`.
@@ -935,7 +946,7 @@ def natIso (h : IsColimit t) : coyoneda.obj (op t.X) ⋙ uliftFunctor.{u₁} ≅
 #align category_theory.limits.is_colimit.nat_iso CategoryTheory.Limits.IsColimit.natIso
 
 /-- Another, more explicit, formulation of the universal property of a colimit cocone.
-See also `hom_iso`.
+See also `homIso`.
 -/
 def homIso' (h : IsColimit t) (W : C) :
     ULift.{u₁} (t.X ⟶ W : Type v₃) ≅
@@ -963,8 +974,8 @@ def ofFaithful {t : Cocone F} {D : Type u₄} [Category.{v₄} D] (G : C ⥤ D) 
       apply G.map_comp }
 #align category_theory.limits.is_colimit.of_faithful CategoryTheory.Limits.IsColimit.ofFaithful
 
-/-- If `F` and `G` are naturally isomorphic, then `F.map_cone c` being a colimit implies
-`G.map_cone c` is also a colimit.
+/-- If `F` and `G` are naturally isomorphic, then `F.mapCocone c` being a colimit implies
+`G.mapCocone c` is also a colimit.
 -/
 def mapCoconeEquiv {D : Type u₄} [Category.{v₄} D] {K : J ⥤ C} {F G : C ⥤ D} (h : F ≅ G)
     {c : Cocone K} (t : IsColimit (mapCocone F c)) : IsColimit (mapCocone G c) := by
