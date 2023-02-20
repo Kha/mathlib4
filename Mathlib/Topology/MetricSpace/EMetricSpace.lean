@@ -9,7 +9,7 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 ! if you have ported upstream changes.
 -/
 import Mathlib.Data.Nat.Interval
-import Mathlib.Data.Real.Ennreal
+import Mathlib.Data.Real.ENNReal
 import Mathlib.Topology.UniformSpace.Pi
 import Mathlib.Topology.UniformSpace.UniformConvergence
 import Mathlib.Topology.UniformSpace.UniformEmbedding
