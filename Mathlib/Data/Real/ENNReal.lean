@@ -14,7 +14,7 @@ import Mathlib.Algebra.Order.Sub.WithTop
 /-!
 # Extended non-negative reals
 
-We define `ennreal = ℝ≥0∞ := with_top ℝ≥0` to be the type of extended nonnegative real numbers,
+We define `ENNReal = ℝ≥0∞ := WithTop ℝ≥0` to be the type of extended nonnegative real numbers,
 i.e., the interval `[0, +∞]`. This type is used as the codomain of a `measure_theory.measure`,
 and of the extended distance `edist` in a `emetric_space`.
 In this file we define some algebraic operations and a linear order on `ℝ≥0∞`
@@ -22,7 +22,7 @@ and prove basic properties of these operations, order, and conversions to/from `
 
 ## Main definitions
 
-* `ℝ≥0∞`: the extended nonnegative real numbers `[0, ∞]`; defined as `with_top ℝ≥0`; it is
+* `ℝ≥0∞`: the extended nonnegative real numbers `[0, ∞]`; defined as `WithTop ℝ≥0`; it is
   equipped with the following structures:
 
   - coercion from `ℝ≥0` defined in the natural way;
@@ -48,20 +48,20 @@ and prove basic properties of these operations, order, and conversions to/from `
 
 * Coercions to/from other types:
 
-  - coercion `ℝ≥0 → ℝ≥0∞` is defined as `has_coe`, so one can use `(p : ℝ≥0)` in a context that
+  - coercion `ℝ≥0 → ℝ≥0∞` is defined as `Coe`, so one can use `(p : ℝ≥0)` in a context that
     expects `a : ℝ≥0∞`, and Lean will apply `coe` automatically;
 
-  - `ennreal.to_nnreal` sends `↑p` to `p` and `∞` to `0`;
+  - `ENNReal.toNNReal` sends `↑p` to `p` and `∞` to `0`;
 
-  - `ennreal.to_real := coe ∘ ennreal.to_nnreal` sends `↑p`, `p : ℝ≥0` to `(↑p : ℝ)` and `∞` to `0`;
+  - `ENNReal.toReal := coe ∘ ENNReal.toNNReal` sends `↑p`, `p : ℝ≥0` to `(↑p : ℝ)` and `∞` to `0`;
 
-  - `ennreal.of_real := coe ∘ real.to_nnreal` sends `x : ℝ` to `↑⟨max x 0, _⟩`
+  - `ENNReal.ofReal := coe ∘ Real.toNNReal` sends `x : ℝ` to `↑⟨max x 0, _⟩`
 
-  - `ennreal.ne_top_equiv_nnreal` is an equivalence between `{a : ℝ≥0∞ // a ≠ 0}` and `ℝ≥0`.
+  - `ENNReal.neTopEquivNNReal` is an equivalence between `{a : ℝ≥0∞ // a ≠ 0}` and `ℝ≥0`.
 
 ## Implementation notes
 
-We define a `can_lift ℝ≥0∞ ℝ≥0` instance, so one of the ways to prove theorems about an `ℝ≥0∞`
+We define a `CanLift ℝ≥0∞ ℝ≥0` instance, so one of the ways to prove theorems about an `ℝ≥0∞`
 number `a` is to consider the cases `a = ∞` and `a ≠ ∞`, and use the tactic `lift a to ℝ≥0 using ha`
 in the second case. This instance is even more useful if one already has `ha : a ≠ ∞` in the
 context, or if we have `(f : α → ℝ≥0∞) (hf : ∀ x, f x ≠ ∞)`.
@@ -397,17 +397,17 @@ theorem two_ne_zero : (2 : ℝ≥0∞) ≠ 0 := ne_of_gt zero_lt_two
 theorem two_ne_top : (2 : ℝ≥0∞) ≠ ∞ := coe_ne_top
 #align ennreal.two_ne_top ENNReal.two_ne_top
 
-/-- `(1 : ℝ≥0∞) ≤ 1`, recorded as a `fact` for use with `Lp` spaces. -/
+/-- `(1 : ℝ≥0∞) ≤ 1`, recorded as a `Fact` for use with `Lp` spaces. -/
 instance _root_.fact_one_le_one_ennreal : Fact ((1 : ℝ≥0∞) ≤ 1) :=
   ⟨le_rfl⟩
 #align fact_one_le_one_ennreal fact_one_le_one_ennreal
 
-/-- `(1 : ℝ≥0∞) ≤ 2`, recorded as a `fact` for use with `Lp` spaces. -/
+/-- `(1 : ℝ≥0∞) ≤ 2`, recorded as a `Fact` for use with `Lp` spaces. -/
 instance _root_.fact_one_le_two_ennreal : Fact ((1 : ℝ≥0∞) ≤ 2) :=
   ⟨one_le_two⟩
 #align fact_one_le_two_ennreal fact_one_le_two_ennreal
 
-/-- `(1 : ℝ≥0∞) ≤ ∞`, recorded as a `fact` for use with `Lp` spaces. -/
+/-- `(1 : ℝ≥0∞) ≤ ∞`, recorded as a `Fact` for use with `Lp` spaces. -/
 instance _root_.fact_one_le_top_ennreal : Fact ((1 : ℝ≥0∞) ≤ ∞) :=
   ⟨le_top⟩
 #align fact_one_le_top_ennreal fact_one_le_top_ennreal
@@ -455,7 +455,7 @@ protected theorem add_top : a + ∞ = ∞ := add_top _
 protected theorem top_add : ∞ + a = ∞ := top_add _
 #align ennreal.top_add ENNReal.top_add
 
-/-- Coercion `ℝ≥0 → ℝ≥0∞` as a `ring_hom`. -/
+/-- Coercion `ℝ≥0 → ℝ≥0∞` as a `RingHom`. -/
 def ofNNRealHom : ℝ≥0 →+* ℝ≥0∞ where
   toFun := some
   map_one' := coe_one
@@ -469,7 +469,7 @@ def ofNNRealHom : ℝ≥0 →+* ℝ≥0∞ where
 
 section Actions
 
-/-- A `mul_action` over `ℝ≥0∞` restricts to a `mul_action` over `ℝ≥0`. -/
+/-- A `MulAction` over `ℝ≥0∞` restricts to a `MulAction` over `ℝ≥0`. -/
 noncomputable instance {M : Type _} [MulAction ℝ≥0∞ M] : MulAction ℝ≥0 M :=
   MulAction.compHom M ofNNRealHom.toMonoidHom
 
@@ -488,16 +488,16 @@ instance sMulCommClass_right {M N : Type _} [MulAction ℝ≥0∞ N] [SMul M N] 
     SMulCommClass M ℝ≥0 N where smul_comm m r := (smul_comm m (r : ℝ≥0∞) : _)
 #align ennreal.smul_comm_class_right ENNReal.sMulCommClass_right
 
-/-- A `distrib_mul_action` over `ℝ≥0∞` restricts to a `distrib_mul_action` over `ℝ≥0`. -/
+/-- A `DistribMulAction` over `ℝ≥0∞` restricts to a `DistribMulAction` over `ℝ≥0`. -/
 noncomputable instance {M : Type _} [AddMonoid M] [DistribMulAction ℝ≥0∞ M] :
     DistribMulAction ℝ≥0 M :=
   DistribMulAction.compHom M ofNNRealHom.toMonoidHom
 
-/-- A `module` over `ℝ≥0∞` restricts to a `module` over `ℝ≥0`. -/
+/-- A `Module` over `ℝ≥0∞` restricts to a `Module` over `ℝ≥0`. -/
 noncomputable instance {M : Type _} [AddCommMonoid M] [Module ℝ≥0∞ M] : Module ℝ≥0 M :=
   Module.compHom M ofNNRealHom
 
-/-- An `algebra` over `ℝ≥0∞` restricts to an `algebra` over `ℝ≥0`. -/
+/-- An `Algebra` over `ℝ≥0∞` restricts to an `Algebra` over `ℝ≥0`. -/
 noncomputable instance {A : Type _} [Semiring A] [Algebra ℝ≥0∞ A] : Algebra ℝ≥0 A where
   smul := (· • ·)
   commutes' r x := by simp [Algebra.commutes]
@@ -1042,7 +1042,7 @@ end Mul
 section Cancel
 
 -- porting note: todo: generalize to `WithTop`
-/-- An element `a` is `add_le_cancellable` if `a + b ≤ a + c` implies `b ≤ c` for all `b` and `c`.
+/-- An element `a` is `AddLECancellable` if `a + b ≤ a + c` implies `b ≤ c` for all `b` and `c`.
   This is true in `ℝ≥0∞` for all elements except `∞`. -/
 theorem addLECancellable_iff_ne {a : ℝ≥0∞} : AddLECancellable a ↔ a ≠ ∞ := by
   constructor
@@ -1089,15 +1089,15 @@ theorem sub_eq_infₛ {a b : ℝ≥0∞} : a - b = infₛ { d | a ≤ d + b } :=
   le_antisymm (le_infₛ fun _ h => tsub_le_iff_right.mpr h) <| infₛ_le <| mem_setOf.2 le_tsub_add
 #align ennreal.sub_eq_Inf ENNReal.sub_eq_infₛ
 
-/-- This is a special case of `with_top.coe_sub` in the `ennreal` namespace -/
+/-- This is a special case of `WithTop.coe_sub` in the `ENNReal` namespace -/
 @[simp] theorem coe_sub : (↑(r - p) : ℝ≥0∞) = ↑r - ↑p := WithTop.coe_sub
 #align ennreal.coe_sub ENNReal.coe_sub
 
-/-- This is a special case of `with_top.top_sub_coe` in the `ennreal` namespace -/
+/-- This is a special case of `WithTop.top_sub_coe` in the `ENNReal` namespace -/
 @[simp] theorem top_sub_coe : ∞ - ↑r = ∞ := WithTop.top_sub_coe
 #align ennreal.top_sub_coe ENNReal.top_sub_coe
 
-/-- This is a special case of `with_top.sub_top` in the `ennreal` namespace -/
+/-- This is a special case of `WithTop.sub_top` in the `ENNReal` namespace -/
 theorem sub_top : a - ∞ = 0 := WithTop.sub_top
 #align ennreal.sub_top ENNReal.sub_top
 
@@ -1240,7 +1240,7 @@ theorem toNNReal_sum {s : Finset α} {f : α → ℝ≥0∞} (hf : ∀ a ∈ s, 
   · exact (sum_lt_top hf).ne
 #align ennreal.to_nnreal_sum ENNReal.toNNReal_sum
 
-/-- seeing `ℝ≥0∞` as `real` does not change their sum, unless one of the `ℝ≥0∞` is infinity -/
+/-- seeing `ℝ≥0∞` as `Real` does not change their sum, unless one of the `ℝ≥0∞` is infinity -/
 theorem toReal_sum {s : Finset α} {f : α → ℝ≥0∞} (hf : ∀ a ∈ s, f a ≠ ∞) :
     ENNReal.toReal (∑ a in s, f a) = ∑ a in s, ENNReal.toReal (f a) := by
   rw [ENNReal.toReal, toNNReal_sum hf, NNReal.coe_sum]
@@ -1508,7 +1508,7 @@ protected theorem inv_lt_one : a⁻¹ < 1 ↔ 1 < a := by rw [inv_lt_iff_inv_lt,
 protected theorem one_lt_inv : 1 < a⁻¹ ↔ a < 1 := by rw [lt_inv_iff_lt_inv, inv_one]
 #align ennreal.one_lt_inv ENNReal.one_lt_inv
 
-/-- The inverse map `λ x, x⁻¹` is an order isomorphism between `ℝ≥0∞` and its `order_dual` -/
+/-- The inverse map `λ x, x⁻¹` is an order isomorphism between `ℝ≥0∞` and its `OrderDual` -/
 @[simps! apply]
 def _root_.OrderIso.invENNReal : ℝ≥0∞ ≃o ℝ≥0∞ᵒᵈ where
   map_rel_iff' := ENNReal.inv_le_inv
@@ -1676,7 +1676,6 @@ theorem mul_div_le : a * (b / a) ≤ b :=
   mul_le_of_le_div' le_rfl
 #align ennreal.mul_div_le ENNReal.mul_div_le
 
--- TODO: add this lemma for an `is_unit` in any `division_monoid`
 theorem eq_div_iff (ha : a ≠ 0) (ha' : a ≠ ∞) : b = c / a ↔ a * b = c :=
   ⟨fun h => by rw [h, ENNReal.mul_div_cancel' ha ha'], fun h => by
     rw [← h, mul_div_assoc, ENNReal.mul_div_cancel' ha ha']⟩
@@ -1747,7 +1746,7 @@ theorem one_sub_inv_two : (1 : ℝ≥0∞) - 2⁻¹ = 2⁻¹ := by
   simpa only [div_eq_mul_inv, one_mul] using sub_half one_ne_top
 #align ennreal.one_sub_inv_two ENNReal.one_sub_inv_two
 
-/-- The birational order isomorphism between `ℝ≥0∞` and the unit interval `set.Iic (1 : ℝ≥0∞)`. -/
+/-- The birational order isomorphism between `ℝ≥0∞` and the unit interval `Set.Iic (1 : ℝ≥0∞)`. -/
 @[simps! apply_coe]
 def orderIsoIicOneBirational : ℝ≥0∞ ≃o Iic (1 : ℝ≥0∞) := by
   refine StrictMono.orderIsoOfRightInverse
@@ -2169,7 +2168,7 @@ theorem smul_toNNReal (a : ℝ≥0) (b : ℝ≥0∞) : (a • b).toNNReal = a * 
 #align ennreal.smul_to_nnreal ENNReal.smul_toNNReal
 
 -- porting note: todo: upgrade to `→*₀`
-/-- `ennreal.to_nnreal` as a `monoid_hom`. -/
+/-- `ENNReal.toNNReal` as a `MonoidHom`. -/
 def toNNRealHom : ℝ≥0∞ →* ℝ≥0 where
   toFun := ENNReal.toNNReal
   map_one' := toNNReal_coe
@@ -2188,7 +2187,7 @@ theorem toNNReal_prod {ι : Type _} {s : Finset ι} {f : ι → ℝ≥0∞} :
 #align ennreal.to_nnreal_prod ENNReal.toNNReal_prod
 
 -- porting note: todo: upgrade to `→*₀`
-/-- `ennreal.to_real` as a `monoid_hom`. -/
+/-- `ENNReal.toReal` as a `MonoidHom`. -/
 def toRealHom : ℝ≥0∞ →* ℝ :=
   (NNReal.toRealHom : ℝ≥0 →* ℝ).comp toNNRealHom
 #align ennreal.to_real_hom ENNReal.toRealHom
@@ -2349,7 +2348,7 @@ theorem infᵢ_sum {f : ι → α → ℝ≥0∞} {s : Finset α} [Nonempty ι]
 #align ennreal.infi_sum ENNReal.infᵢ_sum
 
 /-- If `x ≠ 0` and `x ≠ ∞`, then right multiplication by `x` maps infimum to infimum.
-See also `ennreal.infi_mul` that assumes `[nonempty ι]` but does not require `x ≠ 0`. -/
+See also `ENNReal.infᵢ_mul` that assumes `[Nonempty ι]` but does not require `x ≠ 0`. -/
 theorem infᵢ_mul_of_ne {ι} {f : ι → ℝ≥0∞} {x : ℝ≥0∞} (h0 : x ≠ 0) (h : x ≠ ∞) :
     infᵢ f * x = ⨅ i, f i * x :=
   le_antisymm mul_right_mono.map_infᵢ_le
@@ -2358,7 +2357,7 @@ theorem infᵢ_mul_of_ne {ι} {f : ι → ℝ≥0∞} {x : ℝ≥0∞} (h0 : x �
 #align ennreal.infi_mul_of_ne ENNReal.infᵢ_mul_of_ne
 
 /-- If `x ≠ ∞`, then right multiplication by `x` maps infimum over a nonempty type to infimum. See
-also `ennreal.infi_mul_of_ne` that assumes `x ≠ 0` but does not require `[nonempty ι]`. -/
+also `ENNReal.infᵢ_mul_of_ne` that assumes `x ≠ 0` but does not require `[Nonempty ι]`. -/
 theorem infᵢ_mul {ι} [Nonempty ι] {f : ι → ℝ≥0∞} {x : ℝ≥0∞} (h : x ≠ ∞) :
     infᵢ f * x = ⨅ i, f i * x := by
   by_cases h0 : x = 0
@@ -2367,13 +2366,13 @@ theorem infᵢ_mul {ι} [Nonempty ι] {f : ι → ℝ≥0∞} {x : ℝ≥0∞} (
 #align ennreal.infi_mul ENNReal.infᵢ_mul
 
 /-- If `x ≠ ∞`, then left multiplication by `x` maps infimum over a nonempty type to infimum. See
-also `ennreal.mul_infi_of_ne` that assumes `x ≠ 0` but does not require `[nonempty ι]`. -/
+also `ENNReal.mul_infᵢ_of_ne` that assumes `x ≠ 0` but does not require `[Nonempty ι]`. -/
 theorem mul_infᵢ {ι} [Nonempty ι] {f : ι → ℝ≥0∞} {x : ℝ≥0∞} (h : x ≠ ∞) :
     x * infᵢ f = ⨅ i, x * f i := by simpa only [mul_comm] using infᵢ_mul h
 #align ennreal.mul_infi ENNReal.mul_infᵢ
 
 /-- If `x ≠ 0` and `x ≠ ∞`, then left multiplication by `x` maps infimum to infimum.
-See also `ennreal.mul_infi` that assumes `[nonempty ι]` but does not require `x ≠ 0`. -/
+See also `ENNReal.mul_infᵢ` that assumes `[Nonempty ι]` but does not require `x ≠ 0`. -/
 theorem mul_infᵢ_of_ne {ι} {f : ι → ℝ≥0∞} {x : ℝ≥0∞} (h0 : x ≠ 0) (h : x ≠ ∞) :
     x * infᵢ f = ⨅ i, x * f i := by simpa only [mul_comm] using infᵢ_mul_of_ne h0 h
 #align ennreal.mul_infi_of_ne ENNReal.mul_infᵢ_of_ne
@@ -2462,7 +2461,7 @@ end Set
 --   ENNReal.ofReal_pos.2
 -- #align tactic.ennreal_of_real_pos tactic.ennreal_of_real_pos
 
--- /-- Extension for the `positivity` tactic: `ennreal.of_real` is positive if its input is. -/
+-- /-- Extension for the `positivity` tactic: `ENNReal.ofReal` is positive if its input is. -/
 -- @[positivity]
 -- unsafe def positivity_ennreal_of_real : expr → tactic strictness
 --   | q(ENNReal.ofReal $(r)) => do
@@ -2470,7 +2469,7 @@ end Set
 --     positive <$> mk_app `` ennreal_of_real_pos [p]
 --   |-- This case is handled by `tactic.positivity_canon`
 --     e =>
---     pp e >>= fail ∘ format.bracket "The expression `" "` is not of the form `ennreal.of_real r`"
+--     pp e >>= fail ∘ format.bracket "The expression `" "` is not of the form `ENNReal.ofReal r`"
 -- #align tactic.positivity_ennreal_of_real tactic.positivity_ennreal_of_real
 
 -- end Tactic
