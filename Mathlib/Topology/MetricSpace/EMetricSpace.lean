@@ -123,7 +123,7 @@ theorem edist_triangle4 (x y z t : α) : edist x t ≤ edist x y + edist y z + e
   calc
     edist x t ≤ edist x z + edist z t := edist_triangle x z t
     _ ≤ edist x y + edist y z + edist z t := add_le_add_right (edist_triangle x y z) _
-    
+
 #align edist_triangle4 edist_triangle4
 
 /-- The triangle (polygon) inequality for sequences of points; `finset.Ico` version. -/
@@ -289,21 +289,29 @@ theorem uniformContinuous_iff [PseudoEMetricSpace β] {f : α → β} :
   uniformity_basis_edist.uniformContinuous_iff uniformity_basis_edist
 #align emetric.uniform_continuous_iff EMetric.uniformContinuous_iff
 
-/-- ε-δ characterization of uniform embeddings on pseudoemetric spaces -/
-theorem uniformEmbedding_iff [PseudoEMetricSpace β] {f : α → β} :
-    UniformEmbedding f ↔ Function.Injective f ∧ UniformContinuous f ∧
+nonrec theorem uniformInducing_iff [PseudoEMetricSpace β] {f : α → β} :
+    UniformInducing f ↔ UniformContinuous f ∧
       ∀ δ > 0, ∃ ε > 0, ∀ {a b : α}, edist (f a) (f b) < ε → edist a b < δ :=
-  uniformEmbedding_iff'.trans <| Iff.rfl.and <| Iff.rfl.and <|
+  uniformInducing_iff'.trans <| Iff.rfl.and <|
     ((uniformity_basis_edist.comap _).le_basis_iff uniformity_basis_edist).trans <| by
       simp only [subset_def, Prod.forall]; rfl
+
+/-- ε-δ characterization of uniform embeddings on pseudoemetric spaces -/
+nonrec theorem uniformEmbedding_iff [PseudoEMetricSpace β] {f : α → β} :
+    UniformEmbedding f ↔ Function.Injective f ∧ UniformContinuous f ∧
+      ∀ δ > 0, ∃ ε > 0, ∀ {a b : α}, edist (f a) (f b) < ε → edist a b < δ :=
+  (uniformEmbedding_iff _).trans <| and_comm.trans <| Iff.rfl.and uniformInducing_iff
 #align emetric.uniform_embedding_iff EMetric.uniformEmbedding_iff
 
 /-- If a map between pseudoemetric spaces is a uniform embedding then the edistance between `f x`
-and `f y` is controlled in terms of the distance between `x` and `y`. -/
+and `f y` is controlled in terms of the distance between `x` and `y`.
+
+In fact, this lemma holds for a `UniformInducing` map.
+TODO: generalize? -/
 theorem controlled_of_uniformEmbedding [PseudoEMetricSpace β] {f : α → β} (h : UniformEmbedding f) :
     (∀ ε > 0, ∃ δ > 0, ∀ {a b : α}, edist a b < δ → edist (f a) (f b) < ε) ∧
       ∀ δ > 0, ∃ ε > 0, ∀ {a b : α}, edist (f a) (f b) < ε → edist a b < δ :=
-  ⟨uniformContinuous_iff.1 (uniformEmbedding_iff.1 h).2.1, (uniformEmbedding_iff.1 h).2.2⟩
+  ⟨uniformContinuous_iff.1 h.uniformContinuous, (uniformEmbedding_iff.1 h).2.2⟩
 #align emetric.controlled_of_uniform_embedding EMetric.controlled_of_uniformEmbedding
 
 /-- ε-δ characterization of Cauchy sequences on pseudoemetric spaces -/
@@ -689,13 +697,9 @@ theorem isOpen_ball : IsOpen (ball x ε) :=
 #align emetric.is_open_ball EMetric.isOpen_ball
 
 theorem isClosed_ball_top : IsClosed (ball x ⊤) :=
-  sorry
-  -- isOpen_compl_iff.1 <|
-  --   isOpen_iff.2 fun y hy =>
-  --     ⟨⊤, ENNReal.coe_lt_top,
-  --       (ball_disjoint <| by
-  --           rw [ENNReal.top_add]
-  --           exact le_of_not_lt hy).subset_compl_right⟩
+  isOpen_compl_iff.1 <| isOpen_iff.2 fun _y hy =>
+    ⟨⊤, ENNReal.coe_lt_top, fun _z hzy hzx =>
+      hy (edistLtTopSetoid.trans (edistLtTopSetoid.symm hzy) hzx)⟩
 #align emetric.is_closed_ball_top EMetric.isClosed_ball_top
 
 theorem ball_mem_nhds (x : α) {ε : ℝ≥0∞} (ε0 : 0 < ε) : ball x ε ∈ 𝓝 x :=
@@ -707,13 +711,11 @@ theorem closedBall_mem_nhds (x : α) {ε : ℝ≥0∞} (ε0 : 0 < ε) : closedBa
 #align emetric.closed_ball_mem_nhds EMetric.closedBall_mem_nhds
 
 theorem ball_prod_same [PseudoEMetricSpace β] (x : α) (y : β) (r : ℝ≥0∞) :
-    ball x r ×ˢ ball y r = ball (x, y) r :=
-  ext fun z => max_lt_iff.symm
+    ball x r ×ˢ ball y r = ball (x, y) r := by ext; simp [Prod.edist_eq]
 #align emetric.ball_prod_same EMetric.ball_prod_same
 
 theorem closedBall_prod_same [PseudoEMetricSpace β] (x : α) (y : β) (r : ℝ≥0∞) :
-    closedBall x r ×ˢ closedBall y r = closedBall (x, y) r :=
-  ext fun z => max_le_iff.symm
+    closedBall x r ×ˢ closedBall y r = closedBall (x, y) r := by ext; simp [Prod.edist_eq]
 #align emetric.closed_ball_prod_same EMetric.closedBall_prod_same
 
 /-- ε-characterization of the closure in pseudoemetric spaces -/
@@ -728,7 +730,7 @@ theorem tendsto_nhds {f : Filter β} {u : β → α} {a : α} :
 
 theorem tendsto_atTop [Nonempty β] [SemilatticeSup β] {u : β → α} {a : α} :
     Tendsto u atTop (𝓝 a) ↔ ∀ ε > 0, ∃ N, ∀ n ≥ N, edist (u n) a < ε :=
-  (atTop_basis.tendsto_iffₓ nhds_basis_eball).trans <| by
+  (atTop_basis.tendsto_iff nhds_basis_eball).trans <| by
     simp only [exists_prop, true_and_iff, mem_Ici, mem_ball]
 #align emetric.tendsto_at_top EMetric.tendsto_atTop
 
@@ -740,9 +742,8 @@ theorem inseparable_iff : Inseparable x y ↔ edist x y = 0 := by
 -- see Note [nolint_ge]
 /-- In a pseudoemetric space, Cauchy sequences are characterized by the fact that, eventually,
 the pseudoedistance between its elements is arbitrarily small -/
-@[nolint ge_or_gt]
 theorem cauchySeq_iff [Nonempty β] [SemilatticeSup β] {u : β → α} :
-    CauchySeq u ↔ ∀ ε > 0, ∃ N, ∀ (m) (_ : m ≥ N) (n) (_ : n ≥ N), edist (u m) (u n) < ε :=
+    CauchySeq u ↔ ∀ ε > 0, ∃ N, ∀ m, N ≤ m → ∀ n, N ≤ n → edist (u m) (u n) < ε :=
   uniformity_basis_edist.cauchySeq_iff
 #align emetric.cauchy_seq_iff EMetric.cauchySeq_iff
 
@@ -761,36 +762,33 @@ theorem cauchySeq_iff_NNReal [Nonempty β] [SemilatticeSup β] {u : β → α} :
 
 theorem totallyBounded_iff {s : Set α} :
     TotallyBounded s ↔ ∀ ε > 0, ∃ t : Set α, t.Finite ∧ s ⊆ ⋃ y ∈ t, ball y ε :=
-  ⟨fun H ε ε0 => H _ (edist_mem_uniformity ε0), fun H r ru =>
+  ⟨fun H _ε ε0 => H _ (edist_mem_uniformity ε0), fun H _r ru =>
     let ⟨ε, ε0, hε⟩ := mem_uniformity_edist.1 ru
     let ⟨t, ft, h⟩ := H ε ε0
-    ⟨t, ft, h.trans <| unionᵢ₂_mono fun y yt z => hε⟩⟩
+    ⟨t, ft, h.trans <| unionᵢ₂_mono fun _ _ _ => hε⟩⟩
 #align emetric.totally_bounded_iff EMetric.totallyBounded_iff
 
-/- ./././Mathport/Syntax/Translate/Basic.lean:628:2: warning: expanding binder collection (t «expr ⊆ » s) -/
 theorem totallyBounded_iff' {s : Set α} :
-    TotallyBounded s ↔ ∀ ε > 0, ∃ (t : _)(_ : t ⊆ s), Set.Finite t ∧ s ⊆ ⋃ y ∈ t, ball y ε :=
-  ⟨fun H ε ε0 => (totallyBounded_iff_subset.1 H) _ (edist_mem_uniformity ε0), fun H r ru =>
+    TotallyBounded s ↔ ∀ ε > 0, ∃ t, t ⊆ s ∧ Set.Finite t ∧ s ⊆ ⋃ y ∈ t, ball y ε :=
+  ⟨fun H _ε ε0 => (totallyBounded_iff_subset.1 H) _ (edist_mem_uniformity ε0), fun H _r ru =>
     let ⟨ε, ε0, hε⟩ := mem_uniformity_edist.1 ru
     let ⟨t, _, ft, h⟩ := H ε ε0
-    ⟨t, ft, h.trans <| unionᵢ₂_mono fun y yt z => hε⟩⟩
+    ⟨t, ft, h.trans <| unionᵢ₂_mono fun _ _ _ => hε⟩⟩
 #align emetric.totally_bounded_iff' EMetric.totallyBounded_iff'
 
 section Compact
 
-/- ./././Mathport/Syntax/Translate/Basic.lean:628:2: warning: expanding binder collection (t «expr ⊆ » s) -/
+-- porting note: todo: generalize to a uniform space with metrizable uniformity
 /-- For a set `s` in a pseudo emetric space, if for every `ε > 0` there exists a countable
 set that is `ε`-dense in `s`, then there exists a countable subset `t ⊆ s` that is dense in `s`. -/
 theorem subset_countable_closure_of_almost_dense_set (s : Set α)
     (hs : ∀ ε > 0, ∃ t : Set α, t.Countable ∧ s ⊆ ⋃ x ∈ t, closedBall x ε) :
-    ∃ (t : _)(_ : t ⊆ s), t.Countable ∧ s ⊆ closure t := by
+    ∃ t, t ⊆ s ∧ t.Countable ∧ s ⊆ closure t := by
   rcases s.eq_empty_or_nonempty with (rfl | ⟨x₀, hx₀⟩)
   · exact ⟨∅, empty_subset _, countable_empty, empty_subset _⟩
   choose! T hTc hsT using fun n : ℕ => hs n⁻¹ (by simp)
-  have : ∀ r x, ∃ y ∈ s, closed_ball x r ∩ s ⊆ closed_ball y (r * 2) :=
-    by
-    intro r x
-    rcases(closed_ball x r ∩ s).eq_empty_or_nonempty with (he | ⟨y, hxy, hys⟩)
+  have : ∀ r x, ∃ y ∈ s, closedBall x r ∩ s ⊆ closedBall y (r * 2) := fun r x => by
+    rcases (closedBall x r ∩ s).eq_empty_or_nonempty with (he | ⟨y, hxy, hys⟩)
     · refine' ⟨x₀, hx₀, _⟩
       rw [he]
       exact empty_subset _
@@ -799,48 +797,46 @@ theorem subset_countable_closure_of_almost_dense_set (s : Set α)
         edist z y ≤ edist z x + edist y x := edist_triangle_right _ _ _
         _ ≤ r + r := add_le_add hz.1 hxy
         _ = r * 2 := (mul_two r).symm
-        
-  choose f hfs hf
+  choose f hfs hf using this
   refine'
-    ⟨⋃ n : ℕ, f n⁻¹ '' T n, Union_subset fun n => image_subset_iff.2 fun z hz => hfs _ _,
-      countable_Union fun n => (hTc n).image _, _⟩
+    ⟨⋃ n : ℕ, f n⁻¹ '' T n, unionᵢ_subset fun n => image_subset_iff.2 fun z _ => hfs _ _,
+      countable_unionᵢ fun n => (hTc n).image _, _⟩
   refine' fun x hx => mem_closure_iff.2 fun ε ε0 => _
   rcases ENNReal.exists_inv_nat_lt (ENNReal.half_pos ε0.lt.ne').ne' with ⟨n, hn⟩
-  rcases mem_Union₂.1 (hsT n hx) with ⟨y, hyn, hyx⟩
-  refine' ⟨f n⁻¹ y, mem_Union.2 ⟨n, mem_image_of_mem _ hyn⟩, _⟩
+  rcases mem_unionᵢ₂.1 (hsT n hx) with ⟨y, hyn, hyx⟩
+  refine' ⟨f n⁻¹ y, mem_unionᵢ.2 ⟨n, mem_image_of_mem _ hyn⟩, _⟩
   calc
-    edist x (f n⁻¹ y) ≤ n⁻¹ * 2 := hf _ _ ⟨hyx, hx⟩
+    edist x (f n⁻¹ y) ≤ (n : ℝ≥0∞)⁻¹ * 2 := hf _ _ ⟨hyx, hx⟩
     _ < ε := ENNReal.mul_lt_of_lt_div hn
-    
 #align emetric.subset_countable_closure_of_almost_dense_set EMetric.subset_countable_closure_of_almost_dense_set
 
-/- ./././Mathport/Syntax/Translate/Basic.lean:628:2: warning: expanding binder collection (t «expr ⊆ » s) -/
+-- porting note: todo: generalize to metrizable spaces
 /-- A compact set in a pseudo emetric space is separable, i.e., it is a subset of the closure of a
 countable set.  -/
 theorem subset_countable_closure_of_compact {s : Set α} (hs : IsCompact s) :
-    ∃ (t : _)(_ : t ⊆ s), t.Countable ∧ s ⊆ closure t := by
+    ∃ t, t ⊆ s ∧ t.Countable ∧ s ⊆ closure t := by
   refine' subset_countable_closure_of_almost_dense_set s fun ε hε => _
-  rcases totally_bounded_iff'.1 hs.totally_bounded ε hε with ⟨t, hts, htf, hst⟩
-  exact ⟨t, htf.countable, subset.trans hst <| Union₂_mono fun _ _ => ball_subset_closed_ball⟩
+  rcases totallyBounded_iff'.1 hs.totallyBounded ε hε with ⟨t, -, htf, hst⟩
+  exact ⟨t, htf.countable, hst.trans <| unionᵢ₂_mono fun _ _ => ball_subset_closedBall⟩
 #align emetric.subset_countable_closure_of_compact EMetric.subset_countable_closure_of_compact
 
 end Compact
 
 section SecondCountable
 
-open _Root_.TopologicalSpace
+open TopologicalSpace
 
 variable (α)
 
 /-- A sigma compact pseudo emetric space has second countable topology. This is not an instance
 to avoid a loop with `sigma_compact_space_of_locally_compact_second_countable`.  -/
 theorem second_countable_of_sigma_compact [SigmaCompactSpace α] : SecondCountableTopology α := by
-  suffices separable_space α by exact UniformSpace.secondCountable_of_separable α
-  choose T hTsub hTc hsubT using fun n =>
+  suffices SeparableSpace α by exact UniformSpace.secondCountable_of_separable α
+  choose T _ hTc hsubT using fun n =>
     subset_countable_closure_of_compact (isCompact_compactCovering α n)
-  refine' ⟨⟨⋃ n, T n, countable_Union hTc, fun x => _⟩⟩
-  rcases Union_eq_univ_iff.1 (unionᵢ_compactCovering α) x with ⟨n, hn⟩
-  exact closure_mono (subset_Union _ n) (hsubT _ hn)
+  refine' ⟨⟨⋃ n, T n, countable_unionᵢ hTc, fun x => _⟩⟩
+  rcases unionᵢ_eq_univ_iff.1 (unionᵢ_compactCovering α) x with ⟨n, hn⟩
+  exact closure_mono (subset_unionᵢ _ n) (hsubT _ hn)
 #align emetric.second_countable_of_sigma_compact EMetric.second_countable_of_sigma_compact
 
 variable {α}
@@ -848,12 +844,11 @@ variable {α}
 theorem second_countable_of_almost_dense_set
     (hs : ∀ ε > 0, ∃ t : Set α, t.Countable ∧ (⋃ x ∈ t, closedBall x ε) = univ) :
     SecondCountableTopology α := by
-  suffices separable_space α by exact UniformSpace.secondCountable_of_separable α
-  rcases subset_countable_closure_of_almost_dense_set (univ : Set α) fun ε ε0 => _ with
-    ⟨t, -, htc, ht⟩
-  · exact ⟨⟨t, htc, fun x => ht (mem_univ x)⟩⟩
-  · rcases hs ε ε0 with ⟨t, htc, ht⟩
-    exact ⟨t, htc, univ_subset_iff.2 ht⟩
+  suffices SeparableSpace α from UniformSpace.secondCountable_of_separable α
+  have : ∀ ε > 0, ∃ t : Set α, Set.Countable t ∧ univ ⊆ ⋃ x ∈ t, closedBall x ε
+  · simpa only [univ_subset_iff] using hs
+  rcases subset_countable_closure_of_almost_dense_set (univ : Set α) this with ⟨t, -, htc, ht⟩
+  exact ⟨⟨t, htc, fun x => ht (mem_univ x)⟩⟩
 #align emetric.second_countable_of_almost_dense_set EMetric.second_countable_of_almost_dense_set
 
 end SecondCountable
@@ -864,6 +859,8 @@ section Diam
 noncomputable def diam (s : Set α) :=
   ⨆ (x ∈ s) (y ∈ s), edist x y
 #align emetric.diam EMetric.diam
+
+theorem diam_eq_supₛ (s : Set α) : diam s = supₛ (image2 edist s s) := supₛ_image2.symm
 
 theorem diam_le_iff {d : ℝ≥0∞} : diam s ≤ d ↔ ∀ x ∈ s, ∀ y ∈ s, edist x y ≤ d := by
   simp only [diam, supᵢ_le_iff]
@@ -891,7 +888,7 @@ theorem diam_le {d : ℝ≥0∞} (h : ∀ x ∈ s, ∀ y ∈ s, edist x y ≤ d)
 
 /-- The diameter of a subsingleton vanishes. -/
 theorem diam_subsingleton (hs : s.Subsingleton) : diam s = 0 :=
-  nonpos_iff_eq_zero.1 <| diam_le fun x hx y hy => (hs hx hy).symm ▸ edist_self y ▸ le_rfl
+  nonpos_iff_eq_zero.1 <| diam_le fun _x hx y hy => (hs hx hy).symm ▸ edist_self y ▸ le_rfl
 #align emetric.diam_subsingleton EMetric.diam_subsingleton
 
 /-- The diameter of the empty set vanishes -/
@@ -913,7 +910,7 @@ theorem diam_unionᵢ_mem_option {ι : Type _} (o : Option ι) (s : ι → Set �
 theorem diam_insert : diam (insert x s) = max (⨆ y ∈ s, edist x y) (diam s) :=
   eq_of_forall_ge_iff fun d => by
     simp only [diam_le_iff, ball_insert_iff, edist_self, edist_comm x, max_le_iff, supᵢ_le_iff,
-      zero_le, true_and_iff, forall_and, and_self_iff, ← and_assoc']
+      zero_le, true_and_iff, forall_and, and_self_iff, ← and_assoc]
 #align emetric.diam_insert EMetric.diam_insert
 
 theorem diam_pair : diam ({x, y} : Set α) = edist x y := by
@@ -927,7 +924,7 @@ theorem diam_triple : diam ({x, y, z} : Set α) = max (max (edist x y) (edist x 
 
 /-- The diameter is monotonous with respect to inclusion -/
 theorem diam_mono {s t : Set α} (h : s ⊆ t) : diam s ≤ diam t :=
-  diam_le fun x hx y hy => edist_le_diam_of_mem (h hx) (h hy)
+  diam_le fun _x hx _y hy => edist_le_diam_of_mem (h hx) (h hy)
 #align emetric.diam_mono EMetric.diam_mono
 
 /-- The diameter of a union is controlled by the diameter of the sets, and the edistance
@@ -939,7 +936,7 @@ theorem diam_union {t : Set α} (xs : x ∈ s) (yt : y ∈ t) :
       edist a b ≤ edist a x + edist x y + edist y b := edist_triangle4 _ _ _ _
       _ ≤ diam s + edist x y + diam t :=
         add_le_add (add_le_add (edist_le_diam_of_mem ha xs) le_rfl) (edist_le_diam_of_mem yt hb)
-      
+
   refine' diam_le fun a ha b hb => _
   cases' (mem_union _ _ _).1 ha with h'a h'a <;> cases' (mem_union _ _ _).1 hb with h'b h'b
   ·
@@ -947,7 +944,7 @@ theorem diam_union {t : Set α} (xs : x ∈ s) (yt : y ∈ t) :
       edist a b ≤ diam s := edist_le_diam_of_mem h'a h'b
       _ ≤ diam s + (edist x y + diam t) := le_self_add
       _ = diam s + edist x y + diam t := (add_assoc _ _ _).symm
-      
+
   · exact A a h'a b h'b
   · have Z := A b h'b a h'a
     rwa [edist_comm] at Z
@@ -955,7 +952,7 @@ theorem diam_union {t : Set α} (xs : x ∈ s) (yt : y ∈ t) :
     calc
       edist a b ≤ diam t := edist_le_diam_of_mem h'a h'b
       _ ≤ diam s + edist x y + diam t := le_add_self
-      
+
 #align emetric.diam_union EMetric.diam_union
 
 theorem diam_union' {t : Set α} (h : (s ∩ t).Nonempty) : diam (s ∪ t) ≤ diam s + diam t := by
@@ -969,7 +966,7 @@ theorem diam_closedBall {r : ℝ≥0∞} : diam (closedBall x r) ≤ 2 * r :=
       edist a b ≤ edist a x + edist b x := edist_triangle_right _ _ _
       _ ≤ r + r := add_le_add ha hb
       _ = 2 * r := (two_mul r).symm
-      
+
 #align emetric.diam_closed_ball EMetric.diam_closedBall
 
 theorem diam_ball {r : ℝ≥0∞} : diam (ball x r) ≤ 2 * r :=
@@ -978,7 +975,7 @@ theorem diam_ball {r : ℝ≥0∞} : diam (ball x r) ≤ 2 * r :=
 
 theorem diam_pi_le_of_le {π : β → Type _} [Fintype β] [∀ b, PseudoEMetricSpace (π b)]
     {s : ∀ b : β, Set (π b)} {c : ℝ≥0∞} (h : ∀ b, diam (s b) ≤ c) : diam (Set.pi univ s) ≤ c := by
-  apply diam_le fun x hx y hy => edist_pi_le_iff.mpr _
+  refine diam_le fun x hx y hy => edist_pi_le_iff.mpr ?_
   rw [mem_univ_pi] at hx hy
   exact fun b => diam_le_iff.1 (h b) (x b) (hx b) (y b) (hy b)
 #align emetric.diam_pi_le_of_le EMetric.diam_pi_le_of_le
@@ -1000,12 +997,11 @@ export EMetricSpace (eq_of_edist_eq_zero)
 /-- Characterize the equality of points by the vanishing of their extended distance -/
 @[simp]
 theorem edist_eq_zero {x y : γ} : edist x y = 0 ↔ x = y :=
-  Iff.intro eq_of_edist_eq_zero fun this : x = y => this ▸ edist_self _
+  ⟨eq_of_edist_eq_zero, fun h => h ▸ edist_self _⟩
 #align edist_eq_zero edist_eq_zero
 
 @[simp]
-theorem zero_eq_edist {x y : γ} : 0 = edist x y ↔ x = y :=
-  Iff.intro (fun h => eq_of_edist_eq_zero h.symm) fun this : x = y => this ▸ (edist_self _).symm
+theorem zero_eq_edist {x y : γ} : 0 = edist x y ↔ x = y := eq_comm.trans edist_eq_zero
 #align zero_eq_edist zero_eq_edist
 
 theorem edist_le_zero {x y : γ} : edist x y ≤ 0 ↔ x = y :=
@@ -1021,40 +1017,28 @@ theorem eq_of_forall_edist_le {x y : γ} (h : ∀ ε > 0, edist x y ≤ ε) : x 
   eq_of_edist_eq_zero (eq_of_le_of_forall_le_of_dense bot_le h)
 #align eq_of_forall_edist_le eq_of_forall_edist_le
 
-/-- A map between emetric spaces is a uniform embedding if and only if the edistance between `f x`
-and `f y` is controlled in terms of the distance between `x` and `y` and conversely. -/
-theorem uniformEmbedding_iff' [EMetricSpace β] {f : γ → β} :
-    UniformEmbedding f ↔
-      (∀ ε > 0, ∃ δ > 0, ∀ {a b : γ}, edist a b < δ → edist (f a) (f b) < ε) ∧
-        ∀ δ > 0, ∃ ε > 0, ∀ {a b : γ}, edist (f a) (f b) < ε → edist a b < δ := by
-  constructor
-  · intro h
-    exact
-      ⟨EMetric.uniformContinuous_iff.1 (uniform_embedding_iff.1 h).2.1,
-        (uniform_embedding_iff.1 h).2.2⟩
-  · rintro ⟨h₁, h₂⟩
-    refine' uniform_embedding_iff.2 ⟨_, EMetric.uniformContinuous_iff.2 h₁, h₂⟩
-    intro x y hxy
-    have : edist x y ≤ 0 := by
-      refine' le_of_forall_lt' fun δ δpos => _
-      rcases h₂ δ δpos with ⟨ε, εpos, hε⟩
-      have : edist (f x) (f y) < ε := by simpa [hxy]
-      exact hε this
-    simpa using this
-#align uniform_embedding_iff' uniformEmbedding_iff'
-
 -- see Note [lower instance priority]
 /-- An emetric space is separated -/
 instance (priority := 100) to_separated : SeparatedSpace γ :=
-  separated_def.2 fun x y h =>
-    eq_of_forall_edist_le fun ε ε0 => le_of_lt (h _ (edist_mem_uniformity ε0))
+  separated_def.2 fun _ _ h =>
+    eq_of_forall_edist_le fun _ ε0 => le_of_lt (h _ (edist_mem_uniformity ε0))
 #align to_separated to_separated
 
+/-- A map between emetric spaces is a uniform embedding if and only if the edistance between `f x`
+and `f y` is controlled in terms of the distance between `x` and `y` and conversely. -/
+theorem EMetric.uniformEmbedding_iff' [EMetricSpace β] {f : γ → β} :
+    UniformEmbedding f ↔
+      (∀ ε > 0, ∃ δ > 0, ∀ {a b : γ}, edist a b < δ → edist (f a) (f b) < ε) ∧
+        ∀ δ > 0, ∃ ε > 0, ∀ {a b : γ}, edist (f a) (f b) < ε → edist a b < δ := by
+  rw [uniformEmbedding_iff_uniformInducing, uniformInducing_iff, uniformContinuous_iff]
+#align uniform_embedding_iff' uniformEmbedding_iff'
+
 /-- If a `pseudo_emetric_space` is a T₀ space, then it is an `emetric_space`. -/
+@[reducible] -- porting note: made `reducible`; todo: make it an instance?
 def EMetric.ofT0PseudoEMetricSpace (α : Type _) [PseudoEMetricSpace α] [T0Space α] :
     EMetricSpace α :=
   { ‹PseudoEMetricSpace α› with
-    eq_of_edist_eq_zero := fun x y hdist => Inseparable.eq <| EMetric.inseparable_iff.2 hdist }
+    eq_of_edist_eq_zero := fun h => (EMetric.inseparable_iff.2 h).eq }
 #align emetric.of_t0_pseudo_emetric_space EMetric.ofT0PseudoEMetricSpace
 
 /-- Auxiliary function to replace the uniformity on an emetric space with
@@ -1064,8 +1048,7 @@ specified uniformity. See Note [forgetful inheritance] explaining why having def
 the right uniformity is often important.
 -/
 def EMetricSpace.replaceUniformity {γ} [U : UniformSpace γ] (m : EMetricSpace γ)
-    (H : 𝓤[U] = 𝓤[PseudoEMetricSpace.toUniformSpace]) : EMetricSpace γ
-    where
+    (H : 𝓤[U] = 𝓤[PseudoEMetricSpace.toUniformSpace]) : EMetricSpace γ where
   edist := @edist _ m.toEDist
   edist_self := edist_self
   eq_of_edist_eq_zero := @eq_of_edist_eq_zero _ _
@@ -1077,29 +1060,14 @@ def EMetricSpace.replaceUniformity {γ} [U : UniformSpace γ] (m : EMetricSpace 
 
 /-- The extended metric induced by an injective function taking values in a emetric space. -/
 def EMetricSpace.induced {γ β} (f : γ → β) (hf : Function.Injective f) (m : EMetricSpace β) :
-    EMetricSpace γ where
-  edist x y := edist (f x) (f y)
-  edist_self x := edist_self _
-  eq_of_edist_eq_zero x y h := hf (edist_eq_zero.1 h)
-  edist_comm x y := edist_comm _ _
-  edist_triangle x y z := edist_triangle _ _ _
-  toUniformSpace := UniformSpace.comap f m.toUniformSpace
-  uniformity_edist :=
-    by
-    apply @uniformity_dist_of_mem_uniformity _ _ _ _ _ fun x y => edist (f x) (f y)
-    refine' fun s => mem_comap.trans _
-    constructor <;> intro H
-    · rcases H with ⟨r, ru, rs⟩
-      rcases mem_uniformity_edist.1 ru with ⟨ε, ε0, hε⟩
-      refine' ⟨ε, ε0, fun a b h => rs (hε _)⟩
-      exact h
-    · rcases H with ⟨ε, ε0, hε⟩
-      exact ⟨_, edist_mem_uniformity ε0, fun ⟨a, b⟩ => hε⟩
+    EMetricSpace γ :=
+  { PseudoEMetricSpace.induced f m.toPseudoEMetricSpace with
+    eq_of_edist_eq_zero := fun h => hf (edist_eq_zero.1 h) }
 #align emetric_space.induced EMetricSpace.induced
 
 /-- EMetric space instance on subsets of emetric spaces -/
 instance {α : Type _} {p : α → Prop} [EMetricSpace α] : EMetricSpace (Subtype p) :=
-  EMetricSpace.induced coe Subtype.coe_injective ‹_›
+  EMetricSpace.induced Subtype.val Subtype.coe_injective ‹_›
 
 /-- EMetric space instance on the multiplicative opposite of an emetric space. -/
 @[to_additive "EMetric space instance on the additive opposite of an emetric space."]
@@ -1113,13 +1081,7 @@ instance {α : Type _} [EMetricSpace α] : EMetricSpace (ULift α) :=
 metric spaces. We make sure that the uniform structure thus constructed is the one
 corresponding to the product of uniform spaces, to avoid diamond problems. -/
 instance Prod.emetricSpaceMax [EMetricSpace β] : EMetricSpace (γ × β) :=
-  { Prod.pseudoEMetricSpaceMax with
-    eq_of_edist_eq_zero := fun x y h =>
-      by
-      cases' max_le_iff.1 (le_of_eq h) with h₁ h₂
-      have A : x.fst = y.fst := edist_le_zero.1 h₁
-      have B : x.snd = y.snd := edist_le_zero.1 h₂
-      exact Prod.ext_iff.2 ⟨A, B⟩ }
+  EMetric.ofT0PseudoEMetricSpace _
 #align prod.emetric_space_max Prod.emetricSpaceMax
 
 /-- Reformulation of the uniform structure in terms of the extended distance -/
@@ -1139,12 +1101,7 @@ This construction would also work for infinite products, but it would not give r
 to the product topology. Hence, we only formalize it in the good situation of finitely many
 spaces. -/
 instance emetricSpacePi [∀ b, EMetricSpace (π b)] : EMetricSpace (∀ b, π b) :=
-  { pseudoEMetricSpacePi with
-    eq_of_edist_eq_zero := fun f g eq0 =>
-      by
-      have eq1 : (sup univ fun b : β => edist (f b) (g b)) ≤ 0 := le_of_eq eq0
-      simp only [Finset.sup_le_iff] at eq1
-      exact funext fun b => edist_le_zero.1 <| eq1 b <| mem_univ b }
+  EMetric.ofT0PseudoEMetricSpace _
 #align emetric_space_pi emetricSpacePi
 
 end Pi
@@ -1155,7 +1112,7 @@ namespace EMetric
 theorem countable_closure_of_compact {s : Set γ} (hs : IsCompact s) :
     ∃ t, t ⊆ s ∧ t.Countable ∧ s = closure t := by
   rcases subset_countable_closure_of_compact hs with ⟨t, hts, htc, hsub⟩
-  exact ⟨t, hts, htc, subset.antisymm hsub (closure_minimal hts hs.is_closed)⟩
+  exact ⟨t, hts, htc, hsub.antisymm (closure_minimal hts hs.isClosed)⟩
 #align emetric.countable_closure_of_compact EMetric.countable_closure_of_compact
 
 section Diam
@@ -1163,12 +1120,15 @@ section Diam
 variable {s : Set γ}
 
 theorem diam_eq_zero_iff : diam s = 0 ↔ s.Subsingleton :=
-  ⟨fun h x hx y hy => edist_le_zero.1 <| h ▸ edist_le_diam_of_mem hx hy, diam_subsingleton⟩
+  ⟨fun h _x hx _y hy => edist_le_zero.1 <| h ▸ edist_le_diam_of_mem hx hy, diam_subsingleton⟩
 #align emetric.diam_eq_zero_iff EMetric.diam_eq_zero_iff
 
-theorem diam_pos_iff : 0 < diam s ↔ ∃ x ∈ s, ∃ y ∈ s, x ≠ y := by
-  simp only [pos_iff_ne_zero, Ne.def, diam_eq_zero_iff, Set.Subsingleton, not_forall]
-#align emetric.diam_pos_iff EMetric.diam_pos_iff
+theorem diam_pos_iff : 0 < diam s ↔ s.Nontrivial := by
+  simp only [pos_iff_ne_zero, Ne.def, diam_eq_zero_iff, Set.not_subsingleton_iff]
+
+theorem diam_pos_iff' : 0 < diam s ↔ ∃ x ∈ s, ∃ y ∈ s, x ≠ y := by
+  simp only [diam_pos_iff, Set.Nontrivial, exists_prop]
+#align emetric.diam_pos_iff EMetric.diam_pos_iff'
 
 end Diam
 
@@ -1259,4 +1219,3 @@ instance [PseudoEMetricSpace X] : PseudoEMetricSpace Xᵒᵈ :=
 
 instance [EMetricSpace X] : EMetricSpace Xᵒᵈ :=
   ‹EMetricSpace X›
-
