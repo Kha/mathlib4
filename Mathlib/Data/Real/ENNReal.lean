@@ -1609,6 +1609,12 @@ theorem mul_lt_of_lt_div' (h : a < b / c) : c * a < b :=
   mul_comm a c ▸ mul_lt_of_lt_div h
 #align ennreal.mul_lt_of_lt_div' ENNReal.mul_lt_of_lt_div'
 
+theorem div_lt_of_lt_mul (h : a < b * c) : a / c < b :=
+  mul_lt_of_lt_div <| by rwa [div_eq_mul_inv, inv_inv]
+
+theorem div_lt_of_lt_mul' (h : a < b * c) : a / b < c :=
+  div_lt_of_lt_mul <| by rwa [mul_comm]
+
 theorem inv_le_iff_le_mul (h₁ : b = ∞ → a ≠ 0) (h₂ : a = ∞ → b ≠ 0) : a⁻¹ ≤ b ↔ 1 ≤ a * b := by
   rw [← one_div, ENNReal.div_le_iff_le_mul, mul_comm]
   exacts[or_not_of_imp h₁, not_or_of_imp h₂]
@@ -1796,12 +1802,10 @@ theorem exists_inv_nat_lt {a : ℝ≥0∞} (h : a ≠ 0) : ∃ n : ℕ, (n : ℝ
   inv_inv a ▸ by simp only [ENNReal.inv_lt_inv, ENNReal.exists_nat_gt (inv_ne_top.2 h)]
 #align ennreal.exists_inv_nat_lt ENNReal.exists_inv_nat_lt
 
-theorem exists_nat_pos_mul_gt (ha : a ≠ 0) (hb : b ≠ ∞) : ∃ n > 0, b < (n : ℕ) * a := by
-  have : b / a ≠ ∞ := mul_ne_top hb (inv_ne_top.2 ha)
-  refine' (ENNReal.exists_nat_gt this).imp fun n hn => _
-  have : ↑(0 : ℕ) < (n : ℝ≥0∞) := lt_of_le_of_lt (by simp) hn
-  refine' ⟨coe_nat_lt_coe_nat.1 this, _⟩
-  rwa [← ENNReal.div_lt_iff (Or.inl ha) (Or.inr hb)]
+theorem exists_nat_pos_mul_gt (ha : a ≠ 0) (hb : b ≠ ∞) : ∃ n > 0, b < (n : ℕ) * a :=
+  let ⟨n, hn⟩ := ENNReal.exists_nat_gt (div_lt_top hb ha).ne
+  ⟨n, Nat.cast_pos.1 ((zero_le _).trans_lt hn), by
+    rwa [← ENNReal.div_lt_iff (Or.inl ha) (Or.inr hb)]⟩
 #align ennreal.exists_nat_pos_mul_gt ENNReal.exists_nat_pos_mul_gt
 
 theorem exists_nat_mul_gt (ha : a ≠ 0) (hb : b ≠ ∞) : ∃ n : ℕ, b < n * a :=
@@ -1811,10 +1815,9 @@ theorem exists_nat_mul_gt (ha : a ≠ 0) (hb : b ≠ ∞) : ∃ n : ℕ, b < n *
 theorem exists_nat_pos_inv_mul_lt (ha : a ≠ ∞) (hb : b ≠ 0) :
     ∃ n > 0, ((n : ℕ) : ℝ≥0∞)⁻¹ * a < b := by
   rcases exists_nat_pos_mul_gt hb ha with ⟨n, npos, hn⟩
-  have : (n : ℝ≥0∞) ≠ 0 := Nat.cast_ne_zero.2 npos.lt.ne'
   use n, npos
-  rwa [← one_mul b, ← ENNReal.inv_mul_cancel this (nat_ne_top n), mul_assoc,
-    mul_lt_mul_left (ENNReal.inv_ne_zero.2 <| nat_ne_top _) (inv_ne_top.2 this)]
+  rw [← ENNReal.div_eq_inv_mul]
+  exact div_lt_of_lt_mul' hn
 #align ennreal.exists_nat_pos_inv_mul_lt ENNReal.exists_nat_pos_inv_mul_lt
 
 theorem exists_nnreal_pos_mul_lt (ha : a ≠ ∞) (hb : b ≠ 0) : ∃ n > 0, ↑(n : ℝ≥0) * a < b := by
