@@ -10,7 +10,7 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 -/
 import Mathlib.Tactic.Positivity
 import Mathlib.Topology.Algebra.Order.Compact
-import Mathlib.Topology.MetricSpace.EmetricSpace
+import Mathlib.Topology.MetricSpace.EMetricSpace
 import Mathlib.Topology.Bornology.Constructions
 
 /-!
