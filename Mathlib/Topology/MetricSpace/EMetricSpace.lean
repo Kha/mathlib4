@@ -616,10 +616,9 @@ theorem ordConnected_setOf_ball_subset (x : α) (s : Set α) : OrdConnected { r 
 def edistLtTopSetoid : Setoid α where
   r x y := edist x y < ⊤
   iseqv :=
-    ⟨fun x => by
-      rw [edist_self]
-      exact ENNReal.coe_lt_top, fun x y h => by rwa [edist_comm], fun x y z hxy hyz =>
-      lt_of_le_of_lt (edist_triangle x y z) (ENNReal.add_lt_top.2 ⟨hxy, hyz⟩)⟩
+    ⟨fun x => by rw [edist_self]; exact ENNReal.coe_lt_top,
+      fun h => by rwa [edist_comm], fun hxy hyz =>
+        lt_of_le_of_lt (edist_triangle _ _ _) (ENNReal.add_lt_top.2 ⟨hxy, hyz⟩)⟩
 #align emetric.edist_lt_top_setoid EMetric.edistLtTopSetoid
 
 @[simp]
@@ -662,20 +661,21 @@ variable [PseudoEMetricSpace β] {f : α → β}
 theorem tendsto_nhdsWithin_nhdsWithin {t : Set β} {a b} :
     Tendsto f (𝓝[s] a) (𝓝[t] b) ↔
       ∀ ε > 0, ∃ δ > 0, ∀ ⦃x⦄, x ∈ s → edist x a < δ → f x ∈ t ∧ edist (f x) b < ε :=
-  (nhdsWithin_basis_eball.tendsto_iffₓ nhdsWithin_basis_eball).trans <|
-    forall₂_congr fun ε hε => exists₂_congr fun δ hδ => forall_congr' fun x => by simp <;> itauto
+  (nhdsWithin_basis_eball.tendsto_iff nhdsWithin_basis_eball).trans <|
+    forall₂_congr fun ε _ => exists_congr fun δ => and_congr_right fun _ =>
+      forall_congr' fun x => by simp; tauto
 #align emetric.tendsto_nhds_within_nhds_within EMetric.tendsto_nhdsWithin_nhdsWithin
 
 theorem tendsto_nhdsWithin_nhds {a b} :
     Tendsto f (𝓝[s] a) (𝓝 b) ↔
       ∀ ε > 0, ∃ δ > 0, ∀ {x : α}, x ∈ s → edist x a < δ → edist (f x) b < ε := by
-  rw [← nhdsWithin_univ b, tendsto_nhds_within_nhds_within]
+  rw [← nhdsWithin_univ b, tendsto_nhdsWithin_nhdsWithin]
   simp only [mem_univ, true_and_iff]
 #align emetric.tendsto_nhds_within_nhds EMetric.tendsto_nhdsWithin_nhds
 
 theorem tendsto_nhds_nhds {a b} :
     Tendsto f (𝓝 a) (𝓝 b) ↔ ∀ ε > 0, ∃ δ > 0, ∀ ⦃x⦄, edist x a < δ → edist (f x) b < ε :=
-  nhds_basis_eball.tendsto_iffₓ nhds_basis_eball
+  nhds_basis_eball.tendsto_iff nhds_basis_eball
 #align emetric.tendsto_nhds_nhds EMetric.tendsto_nhds_nhds
 
 end
@@ -685,16 +685,17 @@ theorem isOpen_iff : IsOpen s ↔ ∀ x ∈ s, ∃ ε > 0, ball x ε ⊆ s := by
 #align emetric.is_open_iff EMetric.isOpen_iff
 
 theorem isOpen_ball : IsOpen (ball x ε) :=
-  isOpen_iff.2 fun y => exists_ball_subset_ball
+  isOpen_iff.2 fun _ => exists_ball_subset_ball
 #align emetric.is_open_ball EMetric.isOpen_ball
 
 theorem isClosed_ball_top : IsClosed (ball x ⊤) :=
-  isOpen_compl_iff.1 <|
-    isOpen_iff.2 fun y hy =>
-      ⟨⊤, ENNReal.coe_lt_top,
-        (ball_disjoint <| by
-            rw [ENNReal.top_add]
-            exact le_of_not_lt hy).subset_compl_right⟩
+  sorry
+  -- isOpen_compl_iff.1 <|
+  --   isOpen_iff.2 fun y hy =>
+  --     ⟨⊤, ENNReal.coe_lt_top,
+  --       (ball_disjoint <| by
+  --           rw [ENNReal.top_add]
+  --           exact le_of_not_lt hy).subset_compl_right⟩
 #align emetric.is_closed_ball_top EMetric.isClosed_ball_top
 
 theorem ball_mem_nhds (x : α) {ε : ℝ≥0∞} (ε0 : 0 < ε) : ball x ε ∈ 𝓝 x :=
@@ -705,13 +706,11 @@ theorem closedBall_mem_nhds (x : α) {ε : ℝ≥0∞} (ε0 : 0 < ε) : closedBa
   mem_of_superset (ball_mem_nhds x ε0) ball_subset_closedBall
 #align emetric.closed_ball_mem_nhds EMetric.closedBall_mem_nhds
 
-/- ./././Mathport/Syntax/Translate/Expr.lean:177:8: unsupported: ambiguous notation -/
 theorem ball_prod_same [PseudoEMetricSpace β] (x : α) (y : β) (r : ℝ≥0∞) :
     ball x r ×ˢ ball y r = ball (x, y) r :=
   ext fun z => max_lt_iff.symm
 #align emetric.ball_prod_same EMetric.ball_prod_same
 
-/- ./././Mathport/Syntax/Translate/Expr.lean:177:8: unsupported: ambiguous notation -/
 theorem closedBall_prod_same [PseudoEMetricSpace β] (x : α) (y : β) (r : ℝ≥0∞) :
     closedBall x r ×ˢ closedBall y r = closedBall (x, y) r :=
   ext fun z => max_le_iff.symm
