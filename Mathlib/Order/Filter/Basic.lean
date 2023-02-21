@@ -2995,6 +2995,10 @@ theorem tendsto_infᵢ' {f : α → β} {x : ι → Filter α} {y : Filter β} (
   hi.mono_left <| infᵢ_le _ _
 #align filter.tendsto_infi' Filter.tendsto_infᵢ'
 
+theorem tendsto_infᵢ_infᵢ {f : α → β} {x : ι → Filter α} {y : ι → Filter β}
+    (h : ∀ i, Tendsto f (x i) (y i)) : Tendsto f (infᵢ x) (infᵢ y) :=
+  tendsto_infᵢ.2 fun i => tendsto_infᵢ' i (h i)
+
 @[simp]
 theorem tendsto_sup {f : α → β} {x₁ x₂ : Filter α} {y : Filter β} :
     Tendsto f (x₁ ⊔ x₂) y ↔ Tendsto f x₁ y ∧ Tendsto f x₂ y := by

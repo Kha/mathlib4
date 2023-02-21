@@ -29,11 +29,16 @@ variable {α : Type u} {β : Type v} {γ : Type w} [UniformSpace α] [UniformSpa
 /-- A map `f : α → β` between uniform spaces is called *uniform inducing* if the uniformity filter
 on `α` is the pullback of the uniformity filter on `β` under `Prod.map f f`. If `α` is a separated
 space, then this implies that `f` is injective, hence it is a `UniformEmbedding`. -/
+@[mk_iff uniformInducing_iff]
 structure UniformInducing (f : α → β) : Prop where
   /-- The uniformity filter on the domain is the pullback of the uniformity filter on the codomain
   under `Prod.map f f`. -/
   comap_uniformity : comap (fun x : α × α => (f x.1, f x.2)) (𝓤 β) = 𝓤 α
 #align uniform_inducing UniformInducing
+
+theorem uniformInducing_iff' {f : α → β} :
+    UniformInducing f ↔ UniformContinuous f ∧ comap (Prod.map f f) (𝓤 β) ≤ 𝓤 α := by
+  rw [uniformInducing_iff, UniformContinuous, tendsto_iff_comap, le_antisymm_iff, and_comm]; rfl
 
 theorem UniformInducing.mk' {f : α → β}
     (h : ∀ s, s ∈ 𝓤 α ↔ ∃ t ∈ 𝓤 β, ∀ x y : α, (f x, f y) ∈ t → (x, y) ∈ s) : UniformInducing f :=
@@ -75,6 +80,7 @@ theorem uniformInducing_of_compose {f : α → β} {g : β → γ} (hf : Uniform
 
 /-- A map `f : α → β` between uniform spaces is a *uniform embedding* if it is uniform inducing and
 injective. If `α` is a separated space, then the latter assumption follows from the former. -/
+@[mk_iff uniformEmbedding_iff]
 structure UniformEmbedding (f : α → β) extends UniformInducing f : Prop where
   /-- A uniform embedding is injective. -/
   inj : Function.Injective f
@@ -98,27 +104,22 @@ theorem UniformEmbedding.comp {g : β → γ} (hg : UniformEmbedding g) {f : α 
   { hg.toUniformInducing.comp hf.toUniformInducing with inj := hg.inj.comp hf.inj }
 #align uniform_embedding.comp UniformEmbedding.comp
 
+theorem uniformEmbedding_iff' {f : α → β} :
+    UniformEmbedding f ↔ Injective f ∧ UniformContinuous f ∧ comap (Prod.map f f) (𝓤 β) ≤ 𝓤 α := by
+  rw [uniformEmbedding_iff, and_comm, uniformInducing_iff']
+
 theorem uniformEmbedding_def {f : α → β} :
     UniformEmbedding f ↔
       Function.Injective f ∧ ∀ s, s ∈ 𝓤 α ↔ ∃ t ∈ 𝓤 β, ∀ x y : α, (f x, f y) ∈ t → (x, y) ∈ s := by
-  constructor
-  · rintro ⟨⟨h⟩, h'⟩
-    rw [eq_comm, Filter.ext_iff] at h
-    simp [*, subset_def]
-  · rintro ⟨h, h'⟩
-    refine' UniformEmbedding.mk ⟨_⟩ h
-    rw [eq_comm, Filter.ext_iff]
-    simp [*, subset_def]
+  rw [uniformEmbedding_iff, and_comm, uniformInducing_iff, eq_comm, Filter.ext_iff]
+  simp only [mem_comap, subset_def, Prod.forall]; rfl
 #align uniform_embedding_def uniformEmbedding_def
 
 theorem uniformEmbedding_def' {f : α → β} :
-    UniformEmbedding f ↔
-      Function.Injective f ∧
-        UniformContinuous f ∧ ∀ s, s ∈ 𝓤 α → ∃ t ∈ 𝓤 β, ∀ x y : α, (f x, f y) ∈ t → (x, y) ∈ s := by
-  simp only [uniformEmbedding_def, uniformContinuous_def]
-  exact ⟨fun ⟨I, H⟩ => ⟨I, fun s su => (H _).2 ⟨s, su, fun x y => id⟩, fun s => (H s).1⟩,
-    fun ⟨I, H₁, H₂⟩ => ⟨I, fun s =>
-      ⟨H₂ s, fun ⟨t, tu, h⟩ => mem_of_superset (H₁ t tu) fun ⟨a, b⟩ => h a b⟩⟩⟩
+    UniformEmbedding f ↔ Function.Injective f ∧ UniformContinuous f ∧
+      ∀ s, s ∈ 𝓤 α → ∃ t ∈ 𝓤 β, ∀ x y : α, (f x, f y) ∈ t → (x, y) ∈ s := by
+  rw [uniformEmbedding_iff', ((𝓤 β).basis_sets.comap _).le_iff]
+  simp only [subset_def, Prod.forall]; rfl
 #align uniform_embedding_def' uniformEmbedding_def'
 
 theorem Equiv.uniformEmbedding {α β : Type _} [UniformSpace α] [UniformSpace β] (f : α ≃ β)
