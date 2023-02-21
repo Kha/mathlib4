@@ -17,7 +17,7 @@ import Mathlib.Topology.UniformSpace.UniformEmbedding
 /-!
 # Extended metric spaces
 
-This file is devoted to the definition and study of `emetric_spaces`, i.e., metric
+This file is devoted to the definition and study of `emetric_space`s, i.e., metric
 spaces in which the distance is allowed to take the value ∞. This extended distance is
 called `edist`, and takes values in `ℝ≥0∞`.
 
@@ -33,9 +33,7 @@ to `emetric_space` at the end.
 -/
 
 
-open Set Filter Classical
-
-open uniformity Topology BigOperators Filter NNReal Ennreal
+open Set Filter Classical Uniformity Topology BigOperators NNReal ENNReal
 
 universe u v w
 
@@ -54,11 +52,11 @@ theorem uniformity_dist_of_mem_uniformity [LinearOrder β] {U : Filter (α × α
 #align uniformity_dist_of_mem_uniformity uniformity_dist_of_mem_uniformity
 
 /-- `has_edist α` means that `α` is equipped with an extended distance. -/
-class HasEdist (α : Type _) where
+class Edist (α : Type _) where
   edist : α → α → ℝ≥0∞
-#align has_edist HasEdist
+#align has_edist Edist
 
-export HasEdist (edist)
+export Edist (edist)
 
 /-- Creating a uniform space from an extended distance. -/
 def uniformSpaceOfEdist (edist : α → α → ℝ≥0∞) (edist_self : ∀ x : α, edist x x = 0)
@@ -108,7 +106,7 @@ on a product.
 
 Continuity of `edist` is proved in `topology.instances.ennreal`
 -/
-class PseudoEmetricSpace (α : Type u) extends HasEdist α : Type u where
+class PseudoEmetricSpace (α : Type u) extends Edist α : Type u where
   edist_self : ∀ x : α, edist x x = 0
   edist_comm : ∀ x y : α, edist x y = edist y x
   edist_triangle : ∀ x y z : α, edist x z ≤ edist x y + edist y z
@@ -428,7 +426,7 @@ the right uniformity is often important.
 def PseudoEmetricSpace.replaceUniformity {α} [U : UniformSpace α] (m : PseudoEmetricSpace α)
     (H : 𝓤[U] = 𝓤[PseudoEmetricSpace.toUniformSpace]) : PseudoEmetricSpace α
     where
-  edist := @edist _ m.toHasEdist
+  edist := @edist _ m.toEdist
   edist_self := edist_self
   edist_comm := edist_comm
   edist_triangle := edist_triangle
@@ -1142,7 +1140,7 @@ the right uniformity is often important.
 def EmetricSpace.replaceUniformity {γ} [U : UniformSpace γ] (m : EmetricSpace γ)
     (H : 𝓤[U] = 𝓤[PseudoEmetricSpace.toUniformSpace]) : EmetricSpace γ
     where
-  edist := @edist _ m.toHasEdist
+  edist := @edist _ m.toEdist
   edist_self := edist_self
   eq_of_edist_eq_zero := @eq_of_edist_eq_zero _ _
   edist_comm := edist_comm
@@ -1227,10 +1225,9 @@ end Pi
 
 namespace Emetric
 
-/- ./././Mathport/Syntax/Translate/Basic.lean:628:2: warning: expanding binder collection (t «expr ⊆ » s) -/
 /-- A compact set in an emetric space is separable, i.e., it is the closure of a countable set. -/
 theorem countable_closure_of_compact {s : Set γ} (hs : IsCompact s) :
-    ∃ (t : _)(_ : t ⊆ s), t.Countable ∧ s = closure t := by
+    ∃ t, t ⊆ s ∧ t.Countable ∧ s = closure t := by
   rcases subset_countable_closure_of_compact hs with ⟨t, hts, htc, hsub⟩
   exact ⟨t, hts, htc, subset.antisymm hsub (closure_minimal hts hs.is_closed)⟩
 #align emetric.countable_closure_of_compact Emetric.countable_closure_of_compact
@@ -1262,13 +1259,13 @@ open Additive Multiplicative
 
 section
 
-variable [HasEdist X]
+variable [Edist X]
 
-instance : HasEdist (Additive X) :=
-  ‹HasEdist X›
+instance : Edist (Additive X) :=
+  ‹Edist X›
 
-instance : HasEdist (Multiplicative X) :=
-  ‹HasEdist X›
+instance : Edist (Multiplicative X) :=
+  ‹Edist X›
 
 @[simp]
 theorem edist_ofMul (a b : X) : edist (ofMul a) (ofMul b) = edist a b :=
@@ -1315,10 +1312,9 @@ open OrderDual
 
 section
 
-variable [HasEdist X]
+variable [Edist X]
 
-instance : HasEdist Xᵒᵈ :=
-  ‹HasEdist X›
+instance : Edist Xᵒᵈ := ‹Edist X›
 
 @[simp]
 theorem edist_toDual (a b : X) : edist (toDual a) (toDual b) = edist a b :=
