@@ -874,20 +874,19 @@ theorem le_of_forall_lt_one_mul_le {x y : ℝ≥0} (h : ∀ a < 1, a * x ≤ y) 
 #align nnreal.le_of_forall_lt_one_mul_le NNReal.le_of_forall_lt_one_mul_le
 
 @[deprecated _root_.div_add_div_same]
-nonrec theorem div_add_div_same (a b c : ℝ≥0) : a / c + b / c = (a + b) / c :=
+protected theorem div_add_div_same (a b c : ℝ≥0) : a / c + b / c = (a + b) / c :=
   div_add_div_same _ _ _
 #align nnreal.div_add_div_same NNReal.div_add_div_same
 
 @[deprecated _root_.half_pos]
-nonrec theorem half_pos {a : ℝ≥0} (h : 0 < a) : 0 < a / 2 := half_pos h
+protected theorem half_pos {a : ℝ≥0} (h : 0 < a) : 0 < a / 2 := half_pos h
 #align nnreal.half_pos NNReal.half_pos
 
 @[deprecated _root_.add_halves]
-nonrec theorem add_halves (a : ℝ≥0) : a / 2 + a / 2 = a := add_halves _
+protected theorem add_halves (a : ℝ≥0) : a / 2 + a / 2 = a := add_halves _
 #align nnreal.add_halves NNReal.add_halves
 
-nonrec theorem half_le_self (a : ℝ≥0) : a / 2 ≤ a :=
-  half_le_self bot_le
+nonrec theorem half_le_self (a : ℝ≥0) : a / 2 ≤ a := half_le_self bot_le
 #align nnreal.half_le_self NNReal.half_le_self
 
 nonrec theorem half_lt_self {a : ℝ≥0} (h : a ≠ 0) : a / 2 < a :=

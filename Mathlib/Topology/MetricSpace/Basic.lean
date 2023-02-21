@@ -53,8 +53,7 @@ metric, pseudo_metric, dist
 
 
 open Set Filter TopologicalSpace Bornology
-
-open uniformity Topology BigOperators Filter NNReal Ennreal
+open scoped BigOperators ENNReal NNReal Uniformity Topology
 
 universe u v w
 
@@ -66,31 +65,11 @@ from a distance function and metric space axioms but is also useful when discuss
 metrizable topologies, see `pseudo_metric_space.of_metrizable`. -/
 def UniformSpace.coreOfDist {α : Type _} (dist : α → α → ℝ) (dist_self : ∀ x : α, dist x x = 0)
     (dist_comm : ∀ x y : α, dist x y = dist y x)
-    (dist_triangle : ∀ x y z : α, dist x z ≤ dist x y + dist y z) : UniformSpace.Core α
-    where
-  uniformity := ⨅ ε > 0, 𝓟 { p : α × α | dist p.1 p.2 < ε }
-  refl :=
-    le_infᵢ fun ε =>
-      le_infᵢ <| by
-        simp (config := { contextual := true }) [Set.subset_def, idRel, dist_self, (· > ·)]
-  comp :=
-    le_infᵢ fun ε =>
-      le_infᵢ fun h =>
-        lift'_le
-            (mem_infᵢ_of_mem (ε / 2) <| mem_infᵢ_of_mem (div_pos h zero_lt_two) (Subset.refl _)) <|
-          by
-          have : ∀ a b c : α, dist a c < ε / 2 → dist c b < ε / 2 → dist a b < ε :=
-            fun a b c hac hcb =>
-            calc
-              dist a b ≤ dist a c + dist c b := dist_triangle _ _ _
-              _ < ε / 2 + ε / 2 := add_lt_add hac hcb
-              _ = ε := by rw [div_add_div_same, add_self_div_two]
-              
-          simpa [compRel]
-  symm :=
-    tendsto_infᵢ.2 fun ε =>
-      tendsto_infᵢ.2 fun h =>
-        tendsto_infᵢ' ε <| tendsto_infᵢ' h <| tendsto_principal_principal.2 <| by simp [dist_comm]
+    (dist_triangle : ∀ x y z : α, dist x z ≤ dist x y + dist y z) : UniformSpace.Core α :=
+  .ofFun dist dist_self dist_comm $ fun ε ε0 => ⟨ε / 2, half_pos ε0, fun x y z h₁ h₂ =>
+    calc dist x z ≤ dist x y + dist y z := dist_triangle _ _ _
+    _ < ε / 2 + ε / 2 := add_lt_add h₁ h₂
+    _ = ε := add_halves _⟩
 #align uniform_space.core_of_dist UniformSpace.coreOfDist
 
 /-- Construct a uniform structure from a distance function and metric space axioms -/
@@ -143,11 +122,11 @@ def Bornology.ofDist {α : Type _} (dist : α → α → ℝ) (dist_self : ∀ x
 /-- The distance function (given an ambient metric space on `α`), which returns
   a nonnegative real number `dist x y` given `x y : α`. -/
 @[ext]
-class HasDist (α : Type _) where
+class Dist (α : Type _) where
   dist : α → α → ℝ
-#align has_dist HasDist
+#align has_dist Dist
 
-export HasDist (dist)
+export Dist (dist)
 
 -- the uniform structure and the emetric space structure are embedded in the metric space structure
 -- to avoid instance diamond issues. See Note [forgetful inheritance].
@@ -181,7 +160,7 @@ structure. When instantiating a `pseudo_metric_space` structure, the uniformity 
 necessary, they will be filled in by default. In the same way, each (pseudo) metric space induces a
 (pseudo) emetric space structure. It is included in the structure, but filled in by default.
 -/
-class PseudoMetricSpace (α : Type u) extends HasDist α : Type u where
+class PseudoMetricSpace (α : Type u) extends Dist α : Type u where
   dist_self : ∀ x : α, dist x x = 0
   dist_comm : ∀ x y : α, dist x y = dist y x
   dist_triangle : ∀ x y z : α, dist x z ≤ dist x y + dist y z
@@ -208,7 +187,7 @@ class PseudoMetricSpace (α : Type u) extends HasDist α : Type u where
 /-- Two pseudo metric space structures with the same distance function coincide. -/
 @[ext]
 theorem PseudoMetricSpace.ext {α : Type _} {m m' : PseudoMetricSpace α}
-    (h : m.toHasDist = m'.toHasDist) : m = m' := by
+    (h : m.toDist = m'.toDist) : m = m' := by
   rcases m with ⟨⟩
   rcases m' with ⟨⟩
   dsimp at h
@@ -1358,7 +1337,7 @@ See Note [forgetful inheritance].
 def PseudoMetricSpace.replaceUniformity {α} [U : UniformSpace α] (m : PseudoMetricSpace α)
     (H : 𝓤[U] = 𝓤[PseudoEmetricSpace.toUniformSpace]) : PseudoMetricSpace α
     where
-  dist := @dist _ m.toHasDist
+  dist := @dist _ m.toDist
   dist_self := dist_self
   dist_comm := dist_comm
   dist_triangle := dist_triangle
@@ -3083,7 +3062,7 @@ class MetricSpace (α : Type u) extends PseudoMetricSpace α : Type u where
 
 /-- Two metric space structures with the same distance coincide. -/
 @[ext]
-theorem MetricSpace.ext {α : Type _} {m m' : MetricSpace α} (h : m.toHasDist = m'.toHasDist) :
+theorem MetricSpace.ext {α : Type _} {m m' : MetricSpace α} (h : m.toDist = m'.toDist) :
     m = m' := by
   have h' : m.to_pseudo_metric_space = m'.to_pseudo_metric_space := PseudoMetricSpace.ext h
   rcases m with ⟨⟩
@@ -3483,7 +3462,7 @@ def PseudoMetricQuot (α : Type u) [PseudoMetricSpace α] : Type _ :=
   Quotient (PseudoMetric.distSetoid α)
 #align pseudo_metric_quot PseudoMetricQuot
 
-instance hasDistMetricQuot {α : Type u} [PseudoMetricSpace α] : HasDist (PseudoMetricQuot α)
+instance hasDistMetricQuot {α : Type u} [PseudoMetricSpace α] : Dist (PseudoMetricQuot α)
     where dist :=
     Quotient.lift₂ (fun p q : α => dist p q)
       (by
@@ -3536,13 +3515,13 @@ open Additive Multiplicative
 
 section
 
-variable [HasDist X]
+variable [Dist X]
 
-instance : HasDist (Additive X) :=
-  ‹HasDist X›
+instance : Dist (Additive X) :=
+  ‹Dist X›
 
-instance : HasDist (Multiplicative X) :=
-  ‹HasDist X›
+instance : Dist (Multiplicative X) :=
+  ‹Dist X›
 
 @[simp]
 theorem dist_ofMul (a b : X) : dist (ofMul a) (ofMul b) = dist a b :=
@@ -3621,10 +3600,10 @@ open OrderDual
 
 section
 
-variable [HasDist X]
+variable [Dist X]
 
-instance : HasDist Xᵒᵈ :=
-  ‹HasDist X›
+instance : Dist Xᵒᵈ :=
+  ‹Dist X›
 
 @[simp]
 theorem dist_toDual (a b : X) : dist (toDual a) (toDual b) = dist a b :=
