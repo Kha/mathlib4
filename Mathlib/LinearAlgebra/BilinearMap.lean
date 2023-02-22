@@ -8,8 +8,8 @@ Authors: Kenny Lau, Mario Carneiro
 ! Please do not edit these lines, except to modify the commit id
 ! if you have ported upstream changes.
 -/
-import Mathbin.LinearAlgebra.Basic
-import Mathbin.LinearAlgebra.Basis
+import Mathlib.LinearAlgebra.Basic
+import Mathlib.LinearAlgebra.Basis
 
 /-!
 # Basics on bilinear maps
@@ -360,8 +360,7 @@ theorem compl₂_apply (g : Q →ₛₗ[σ₄₂] N) (m : M) (q : Q) : f.compl�
 omit σ₄₃
 
 @[simp]
-theorem compl₂_id : f.compl₂ LinearMap.id = f :=
-  by
+theorem compl₂_id : f.compl₂ LinearMap.id = f := by
   ext
   rw [compl₂_apply, id_coe, id.def]
 #align linear_map.compl₂_id LinearMap.compl₂_id
@@ -380,16 +379,14 @@ theorem compl₁₂_apply (f : Mₗ →ₗ[R] Nₗ →ₗ[R] Pₗ) (g : Qₗ →
 #align linear_map.compl₁₂_apply LinearMap.compl₁₂_apply
 
 @[simp]
-theorem compl₁₂_id_id (f : Mₗ →ₗ[R] Nₗ →ₗ[R] Pₗ) : f.compl₁₂ LinearMap.id LinearMap.id = f :=
-  by
+theorem compl₁₂_id_id (f : Mₗ →ₗ[R] Nₗ →ₗ[R] Pₗ) : f.compl₁₂ LinearMap.id LinearMap.id = f := by
   ext
   simp_rw [compl₁₂_apply, id_coe, id.def]
 #align linear_map.compl₁₂_id_id LinearMap.compl₁₂_id_id
 
 theorem compl₁₂_inj {f₁ f₂ : Mₗ →ₗ[R] Nₗ →ₗ[R] Pₗ} {g : Qₗ →ₗ[R] Mₗ} {g' : Qₗ' →ₗ[R] Nₗ}
     (hₗ : Function.Surjective g) (hᵣ : Function.Surjective g') :
-    f₁.compl₁₂ g g' = f₂.compl₁₂ g g' ↔ f₁ = f₂ :=
-  by
+    f₁.compl₁₂ g g' = f₂.compl₁₂ g g' ↔ f₁ = f₂ := by
   constructor <;> intro h
   · -- B₁.comp l r = B₂.comp l r → B₁ = B₂
     ext (x y)
@@ -466,8 +463,7 @@ theorem ext_basis {B B' : M →ₛₗ[ρ₁₂] N →ₛₗ[σ₁₂] P} (h : �
 Version for semi-bilinear maps, see `sum_repr_mul_repr_mul` for the bilinear version. -/
 theorem sum_repr_mul_repr_mulₛₗ {B : M →ₛₗ[ρ₁₂] N →ₛₗ[σ₁₂] P} (x y) :
     ((b₁.repr x).Sum fun i xi => (b₂.repr y).Sum fun j yj => ρ₁₂ xi • σ₁₂ yj • B (b₁ i) (b₂ j)) =
-      B x y :=
-  by
+      B x y := by
   conv_rhs => rw [← b₁.total_repr x, ← b₂.total_repr y]
   simp_rw [Finsupp.total_apply, Finsupp.sum, map_sum₂, map_sum, LinearMap.map_smulₛₗ₂,
     LinearMap.map_smulₛₗ]
@@ -478,8 +474,7 @@ theorem sum_repr_mul_repr_mulₛₗ {B : M →ₛₗ[ρ₁₂] N →ₛₗ[σ₁
 Version for bilinear maps, see `sum_repr_mul_repr_mulₛₗ` for the semi-bilinear version. -/
 theorem sum_repr_mul_repr_mul {B : Mₗ →ₗ[R] Nₗ →ₗ[R] Pₗ} (x y) :
     ((b₁'.repr x).Sum fun i xi => (b₂'.repr y).Sum fun j yj => xi • yj • B (b₁' i) (b₂' j)) =
-      B x y :=
-  by
+      B x y := by
   conv_rhs => rw [← b₁'.total_repr x, ← b₂'.total_repr y]
   simp_rw [Finsupp.total_apply, Finsupp.sum, map_sum₂, map_sum, LinearMap.map_smul₂,
     LinearMap.map_smul]
