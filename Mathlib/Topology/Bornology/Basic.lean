@@ -94,10 +94,9 @@ and showing that they satisfy the appropriate conditions. -/
 @[simps]
 def Bornology.ofBounded {α : Type _} (B : Set (Set α))
     (empty_mem : ∅ ∈ B)
-    (subset_mem : ∀ s₁ (_ : s₁ ∈ B) s₂, s₂ ⊆ s₁ → s₂ ∈ B)
-    (union_mem : ∀ s₁ (_ : s₁ ∈ B) s₂ (_ : s₂ ∈ B), s₁ ∪ s₂ ∈ B)
-    (singleton_mem : ∀ x, {x} ∈ B) : Bornology α
-    where
+    (subset_mem : ∀ s₁ ∈ B, ∀ s₂, s₂ ⊆ s₁ → s₂ ∈ B)
+    (union_mem : ∀ s₁ ∈ B, ∀ s₂ ∈ B, s₁ ∪ s₂ ∈ B)
+    (singleton_mem : ∀ x, {x} ∈ B) : Bornology α where
   cobounded' :=
     { sets := { s : Set α | sᶜ ∈ B }
       univ_sets := by rwa [← compl_univ] at empty_mem
@@ -112,17 +111,34 @@ def Bornology.ofBounded {α : Type _} (B : Set (Set α))
 #align bornology.of_bounded Bornology.ofBounded
 #align bornology.of_bounded_cobounded_sets Bornology.ofBounded_cobounded_sets
 
+/-- A constructor for bornologies by specifying the bounded sets, and showing that they satisfy the
+appropriate conditions. This is a version of `Bornology.ofBounded` that requires `union_mem` for
+nonempty sets only.
+
+TODO: should we deprecate `Bornology.ofBounded`?
+-/
+def Bornology.ofBoundedNE {α : Type _} (B : Set (Set α))
+    (empty_mem : ∅ ∈ B)
+    (subset_mem : ∀ s₁ ∈ B, ∀ s₂, s₂ ⊆ s₁ → s₂ ∈ B)
+    (union_mem : ∀ s₁ ∈ B, s₁.Nonempty → ∀ s₂ ∈ B, s₂.Nonempty → s₁ ∪ s₂ ∈ B)
+    (singleton_mem : ∀ x, {x} ∈ B) : Bornology α :=
+  .ofBounded B empty_mem subset_mem (fun s₁ h₁ s₂ h₂ => by
+    rcases s₁.eq_empty_or_nonempty with (rfl | hne₁)
+    · rwa [empty_union]
+    rcases s₂.eq_empty_or_nonempty with (rfl | hne₂)
+    · rwa [union_empty]
+    · exact union_mem s₁ h₁ hne₁ s₂ h₂ hne₂) singleton_mem
+
 /-- A constructor for bornologies by specifying the bounded sets,
 and showing that they satisfy the appropriate conditions. -/
 @[simps!]
 def Bornology.ofBounded' {α : Type _} (B : Set (Set α))
     (empty_mem : ∅ ∈ B)
-    (subset_mem : ∀ s₁ (_ : s₁ ∈ B) s₂, s₂ ⊆ s₁ → s₂ ∈ B)
-    (union_mem : ∀ s₁ (_ : s₁ ∈ B) s₂ (_ : s₂ ∈ B), s₁ ∪ s₂ ∈ B)
+    (subset_mem : ∀ s₁ ∈ B, ∀ s₂, s₂ ⊆ s₁ → s₂ ∈ B)
+    (union_mem : ∀ s₁ ∈ B, ∀ s₂ ∈ B, s₁ ∪ s₂ ∈ B)
     (unionₛ_univ : ⋃₀ B = univ) :
     Bornology α :=
-  Bornology.ofBounded B empty_mem subset_mem union_mem fun x =>
-    by
+  Bornology.ofBounded B empty_mem subset_mem union_mem fun x => by
     rw [unionₛ_eq_univ_iff] at unionₛ_univ
     rcases unionₛ_univ x with ⟨s, hs, hxs⟩
     exact subset_mem s hs {x} (singleton_subset_iff.mpr hxs)

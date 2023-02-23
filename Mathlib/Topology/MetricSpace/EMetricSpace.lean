@@ -130,10 +130,7 @@ theorem edist_triangle4 (x y z t : α) : edist x t ≤ edist x y + edist y z + e
 theorem edist_le_Ico_sum_edist (f : ℕ → α) {m n} (h : m ≤ n) :
     edist (f m) (f n) ≤ ∑ i in Finset.Ico m n, edist (f i) (f (i + 1)) := by
   induction n, h using Nat.le_induction
-  case base =>
-    simp only [Finset.sum_empty, Finset.Ico_self, edist_self]
-    -- TODO: Why doesn't Lean close this goal automatically? Def. of `≤` on `WithTop`?
-    rfl
+  case base => rw [Finset.Ico_self, Finset.sum_empty, edist_self]
   case succ n hle ihn =>
     calc
       edist (f m) (f (n + 1)) ≤ edist (f m) (f n) + edist (f n) (f (n + 1)) := edist_triangle _ _ _
@@ -455,12 +452,8 @@ instance Prod.pseudoEMetricSpaceMax [PseudoEMetricSpace β] : PseudoEMetricSpace
   edist_triangle x y z :=
     max_le (le_trans (edist_triangle _ _ _) (add_le_add (le_max_left _ _) (le_max_left _ _)))
       (le_trans (edist_triangle _ _ _) (add_le_add (le_max_right _ _) (le_max_right _ _)))
-  uniformity_edist := by
-    refine' uniformity_prod.trans _
-    simp only [PseudoEMetricSpace.uniformity_edist, comap_infᵢ]
-    rw [← infᵢ_inf_eq]; congr ; funext
-    rw [← infᵢ_inf_eq]; congr ; funext
-    simp [inf_principal, ext_iff, max_lt_iff, setOf_and]
+  uniformity_edist := uniformity_prod.trans <| by
+    simp [PseudoEMetricSpace.uniformity_edist, ← infᵢ_inf_eq, setOf_and]
   toUniformSpace := inferInstance
 #align prod.pseudo_emetric_space_max Prod.pseudoEMetricSpaceMax
 
@@ -547,8 +540,8 @@ def closedBall (x : α) (ε : ℝ≥0∞) :=
 @[simp] theorem mem_closedBall : y ∈ closedBall x ε ↔ edist y x ≤ ε := Iff.rfl
 #align emetric.mem_closed_ball EMetric.mem_closedBall
 
-theorem mem_closed_ball' : y ∈ closedBall x ε ↔ edist x y ≤ ε := by rw [edist_comm, mem_closedBall]
-#align emetric.mem_closed_ball' EMetric.mem_closed_ball'
+theorem mem_closedBall' : y ∈ closedBall x ε ↔ edist x y ≤ ε := by rw [edist_comm, mem_closedBall]
+#align emetric.mem_closed_ball' EMetric.mem_closedBall'
 
 @[simp]
 theorem closedBall_top (x : α) : closedBall x ∞ = univ :=
@@ -574,7 +567,7 @@ theorem mem_ball_comm : x ∈ ball y ε ↔ y ∈ ball x ε := by rw [mem_ball',
 #align emetric.mem_ball_comm EMetric.mem_ball_comm
 
 theorem mem_closedBall_comm : x ∈ closedBall y ε ↔ y ∈ closedBall x ε := by
-  rw [mem_closed_ball', mem_closedBall]
+  rw [mem_closedBall', mem_closedBall]
 #align emetric.mem_closed_ball_comm EMetric.mem_closedBall_comm
 
 theorem ball_subset_ball (h : ε₁ ≤ ε₂) : ball x ε₁ ⊆ ball x ε₂ := fun _y (yx : _ < ε₁) =>
@@ -810,6 +803,23 @@ theorem subset_countable_closure_of_almost_dense_set (s : Set α)
     _ < ε := ENNReal.mul_lt_of_lt_div hn
 #align emetric.subset_countable_closure_of_almost_dense_set EMetric.subset_countable_closure_of_almost_dense_set
 
+open TopologicalSpace in
+/-- If a set `s` is separable, then the corresponding subtype is separable in a (pseudo extended)
+metric space.  This is not obvious, as the countable set whose closure covers `s` does not need in
+general to be contained in `s`. -/
+theorem _root_.TopologicalSpace.IsSeparable.separableSpace {s : Set α} (hs : IsSeparable s) :
+    SeparableSpace s := by
+  have : ∀ ε > 0, ∃ t : Set α, t.Countable ∧ s ⊆ ⋃ x ∈ t, closedBall x ε := fun ε ε0 => by
+    rcases hs with ⟨t, htc, hst⟩
+    refine ⟨t, htc, hst.trans fun x hx => ?_⟩
+    rcases mem_closure_iff.1 hx ε ε0 with ⟨y, hyt, hxy⟩
+    exact mem_unionᵢ₂.2 ⟨y, hyt, mem_closedBall.2 hxy.le⟩
+  rcases subset_countable_closure_of_almost_dense_set _ this with ⟨t, hts, htc, hst⟩
+  lift t to Set s using hts
+  refine ⟨⟨t, countable_of_injective_of_countable_image (Subtype.coe_injective.injOn _) htc, ?_⟩⟩
+  rwa [inducing_subtype_val.dense_iff, Subtype.forall]
+#align topological_space.is_separable.separable_space TopologicalSpace.IsSeparable.separableSpace
+
 -- porting note: todo: generalize to metrizable spaces
 /-- A compact set in a pseudo emetric space is separable, i.e., it is a subset of the closure of a
 countable set.  -/
@@ -966,7 +976,6 @@ theorem diam_closedBall {r : ℝ≥0∞} : diam (closedBall x r) ≤ 2 * r :=
       edist a b ≤ edist a x + edist b x := edist_triangle_right _ _ _
       _ ≤ r + r := add_le_add ha hb
       _ = 2 * r := (two_mul r).symm
-
 #align emetric.diam_closed_ball EMetric.diam_closedBall
 
 theorem diam_ball {r : ℝ≥0∞} : diam (ball x r) ≤ 2 * r :=
