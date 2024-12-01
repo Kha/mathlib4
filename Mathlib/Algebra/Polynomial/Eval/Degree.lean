@@ -6,6 +6,7 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 import Mathlib.Algebra.Polynomial.Degree.Support
 import Mathlib.Algebra.Polynomial.Degree.Units
 import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
 
 /-!
 # Evaluation of polynomials and degrees
@@ -107,6 +108,21 @@ theorem coeff_comp_degree_mul_degree (hqd0 : natDegree q ≠ 0) :
   case h₁ =>
     simp +contextual
 
+@[simp] lemma comp_C_mul_X_coeff {r : R} {n : ℕ} :
+    (p.comp <| C r * X).coeff n = p.coeff n * r ^ n := by
+  simp_rw [comp, eval₂_eq_sum_range, (commute_X _).symm.mul_pow,
+    ← C_pow, finset_sum_coeff, coeff_C_mul, coeff_X_pow]
+  rw [Finset.sum_eq_single n _ fun h ↦ ?_, if_pos rfl, mul_one]
+  · intro b _ h; simp_rw [if_neg h.symm, mul_zero]
+  · rw [coeff_eq_zero_of_natDegree_lt, zero_mul]
+    rwa [Finset.mem_range_succ_iff, not_le] at h
+
+lemma comp_C_mul_X_eq_zero_iff {r : R} (hr : r ∈ nonZeroDivisors R) :
+    p.comp (C r * X) = 0 ↔ p = 0 := by
+  simp_rw [ext_iff]
+  refine forall_congr' fun n ↦ ?_
+  rw [comp_C_mul_X_coeff, coeff_zero, mul_right_mem_nonZeroDivisors_eq_zero_iff (pow_mem hr _)]
+
 end Comp
 
 section Map
@@ -174,7 +190,7 @@ section
 variable [Semiring R] {p q : R[X]} {x : R} [CommSemiring S] (f : R →+* S)
 
 theorem eval₂_comp {x : S} : eval₂ f x (p.comp q) = eval₂ f (eval₂ f x q) p := by
-  rw [comp, p.as_sum_range]; simp [eval₂_finset_sum, eval₂_pow]
+  rw [comp, p.as_sum_range]; simp? [eval₂_finset_sum, eval₂_pow]
 
 @[simp]
 theorem iterate_comp_eval₂ (k : ℕ) (t : S) :

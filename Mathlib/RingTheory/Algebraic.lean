@@ -434,11 +434,9 @@ instance algebra_isAlgebraic_bot_right [Nontrivial R] :
 end Subalgebra
 
 theorem IsAlgebraic.of_pow {r : A} {n : ℕ} (hn : 0 < n) (ht : IsAlgebraic R (r ^ n)) :
-    IsAlgebraic R r := by
-  obtain ⟨p, p_nonzero, hp⟩ := ht
-  refine ⟨Polynomial.expand _ n p, ?_, ?_⟩
-  · rwa [Polynomial.expand_ne_zero hn]
-  · rwa [Polynomial.expand_aeval n p r]
+    IsAlgebraic R r :=
+  have ⟨p, p_nonzero, hp⟩ := ht
+  ⟨_, by rwa [expand_ne_zero hn], by rwa [expand_aeval n p r]⟩
 
 theorem Transcendental.pow {r : A} (ht : Transcendental R r) {n : ℕ} (hn : 0 < n) :
     Transcendental R (r ^ n) := fun ht' ↦ ht <| ht'.of_pow hn
@@ -787,22 +785,26 @@ theorem of_smul_integral {y : R} (hy : ¬ IsNilpotent y)
   · rw [natDegree_C_mul_X _ hy0]; rintro ⟨⟩
 
 theorem of_smul {y : R} (hy : y ∈ nonZeroDivisors R)
-    (h : IsAlgebraic R (y • z)) : IsAlgebraic R z := by
-  sorry -- need coefficients of p.comp (C y * X)
-
-theorem of_mul [NoZeroDivisors R] {y : S} (hy : y ∈ nonZeroDivisors S)
-    (alg_y : IsAlgebraic R y) (alg_yz : IsAlgebraic R (y * z)) : IsAlgebraic R z := by
-  have ⟨t, ht, r, hr, eq⟩ := alg_y.exists_nonzero_eq_adjoin_mul hy
-  sorry
+    (h : IsAlgebraic R (y • z)) : IsAlgebraic R z :=
+  have ⟨p, hp, eval0⟩ := h
+  ⟨_, mt (comp_C_mul_X_eq_zero_iff hy).mp hp, by simpa [aeval_comp, Algebra.smul_def] using eval0⟩
 
 theorem iff_exists_smul_integral [IsReduced R] (inj : Function.Injective (algebraMap R S)) :
     IsAlgebraic R z ↔ ∃ y ≠ (0 : R), IsIntegral R (y • z) :=
   ⟨(exists_smul_integral · inj), fun ⟨_, hy, int⟩ ↦
     of_smul_integral (by rwa [isNilpotent_iff_eq_zero]) int⟩
 
-theorem trans_isIntegral [IsReduced R] [NoZeroDivisors S] [int : Algebra.IsIntegral R S] {a : A}
-    (inj : Function.Injective (algebraMap S A)) (h : IsAlgebraic S a) :
-    IsAlgebraic R a := by
+section trans
+
+variable (R) [NoZeroDivisors S] (inj : Function.Injective (algebraMap S A))
+include inj
+
+theorem restrictScalars_of_isIntegral  [int : Algebra.IsIntegral R S]
+    {a : A} (h : IsAlgebraic S a) : IsAlgebraic R a := by
+  by_cases hRS : Function.Injective (algebraMap R S)
+  on_goal 2 => exact (Algebra.isAlgebraic_of_not_injective
+    fun h ↦ hRS <| .of_comp (IsScalarTower.algebraMap_eq R S A ▸ h)).1 _
+  have := hRS.noZeroDivisors _ (map_zero _) (map_mul _)
   have ⟨s, hs, int_s⟩ := h.exists_smul_integral inj
   cases subsingleton_or_nontrivial R
   · have := Module.subsingleton R S
@@ -813,11 +815,13 @@ theorem trans_isIntegral [IsReduced R] [NoZeroDivisors S] [int : Algebra.IsInteg
     e, ← Algebra.smul_def, mul_comm, mul_smul]
   exact isIntegral_trans _ (int_s.smul _)
 
-protected theorem trans [NoZeroDivisors R] [NoZeroDivisors S]
-    (hRS : Function.Injective (algebraMap R S)) (hSA : Function.Injective (algebraMap S A))
-    [alg : Algebra.IsAlgebraic R S] {a : A} (h : IsAlgebraic S a) : IsAlgebraic R a := by
+theorem restrictScalars [alg : Algebra.IsAlgebraic R S]
+    {a : A} (h : IsAlgebraic S a) : IsAlgebraic R a := by
   have ⟨p, hp, eval0⟩ := h
   have := (alg.1 0).nontrivial
+  by_cases hRS : Function.Injective (algebraMap R S)
+  on_goal 2 => exact (Algebra.isAlgebraic_of_not_injective
+    fun h ↦ hRS <| .of_comp (IsScalarTower.algebraMap_eq R S A ▸ h)).1 _
   choose r hr int using fun s ↦ (alg.1 s).exists_smul_integral hRS
   let r0 := ∏ n ∈ p.support, r (coeff p n)
   let p := (r0 • p).toSubring (integralClosure R S).toSubring fun s hs ↦ by
@@ -829,24 +833,46 @@ protected theorem trans [NoZeroDivisors R] [NoZeroDivisors S]
   have : IsAlgebraic (integralClosure R S) a := by
     refine ⟨p, ?_, ?_⟩
     · have := NoZeroSMulDivisors.of_algebraMap_injective hRS
+      have := hRS.noZeroDivisors _ (map_zero _) (map_mul _)
       rw [← Polynomial.map_ne_zero_iff (f := Subring.subtype _) Subtype.val_injective,
         map_toSubring, smul_ne_zero_iff, Finset.prod_ne_zero_iff]
       exact ⟨fun _ _ ↦ hr _, hp⟩
     rw [← eval_map_algebraMap, Subalgebra.algebraMap_eq, ← map_map, ← Subalgebra.toSubring_subtype,
       map_toSubring, eval_map_algebraMap, ← AlgHom.restrictScalars_apply R,
       map_smul, AlgHom.restrictScalars_apply, eval0, smul_zero]
-  exact trans_isIntegral (by exact hSA.comp Subtype.val_injective) this
+  exact restrictScalars_of_isIntegral _ (by exact inj.comp Subtype.val_injective) this
 
-variable {a b : S} (ha : IsAlgebraic R a) (hb : IsAlgebraic R b)
+theorem _root_.IsIntegral.trans_isAlgebraic [alg : Algebra.IsAlgebraic R S]
+    {a : A} (h : IsIntegral S a) : IsAlgebraic R a := by
+  have := (alg.1 0).nontrivial
+  cases subsingleton_or_nontrivial A
+  · rw [Subsingleton.elim a 0]; exact isAlgebraic_zero
+  have := Module.nontrivial S A
+  exact h.isAlgebraic.restrictScalars _ inj
+
+end trans
+
+variable [nzd : NoZeroDivisors R] {a b : S} (ha : IsAlgebraic R a) (hb : IsAlgebraic R b)
 include ha
+omit nzd
 
 protected lemma neg : IsAlgebraic R (-a) :=
   have ⟨p, h, eval0⟩ := ha
   ⟨algEquivAevalNegX p, EmbeddingLike.map_ne_zero_iff.mpr h, by simpa [← comp_eq_aeval, aeval_comp]⟩
 
-include hb
+protected lemma smul (r : R) : IsAlgebraic R (r • a) :=
+  have ⟨_, hp, eval0⟩ := ha
+  ⟨_, scaleRoots_ne_zero hp r, Algebra.smul_def r a ▸ scaleRoots_aeval_eq_zero eval0⟩
 
-protected lemma mul [NoZeroDivisors R] : IsAlgebraic R (a * b) := by
+protected lemma nsmul (n : ℕ) : IsAlgebraic R (n • a) :=
+  Nat.cast_smul_eq_nsmul R n a ▸ ha.smul _
+
+protected lemma zsmul (n : ℤ) : IsAlgebraic R (n • a) :=
+  Int.cast_smul_eq_zsmul R n a ▸ ha.smul _
+
+include hb nzd
+
+protected lemma mul : IsAlgebraic R (a * b) := by
   refine (em _).by_cases (fun h ↦ ?_) fun h ↦ (Algebra.isAlgebraic_of_not_injective h).1 _
   have ⟨ra, a0, int_a⟩ := ha.exists_smul_integral h
   have ⟨rb, b0, int_b⟩ := hb.exists_smul_integral h
@@ -854,7 +880,7 @@ protected lemma mul [NoZeroDivisors R] : IsAlgebraic R (a * b) := by
   simp_rw [Algebra.smul_def, map_mul, mul_mul_mul_comm, ← Algebra.smul_def]
   exact int_a.mul int_b
 
-protected lemma add [NoZeroDivisors R] : IsAlgebraic R (a + b) := by
+protected lemma add : IsAlgebraic R (a + b) := by
   refine (em _).by_cases (fun h ↦ ?_) fun h ↦ (Algebra.isAlgebraic_of_not_injective h).1 _
   have ⟨ra, a0, int_a⟩ := ha.exists_smul_integral h
   have ⟨rb, b0, int_b⟩ := hb.exists_smul_integral h
@@ -862,40 +888,35 @@ protected lemma add [NoZeroDivisors R] : IsAlgebraic R (a + b) := by
   rw [smul_add, mul_smul, mul_comm, mul_smul]
   exact (int_a.smul _).add (int_b.smul _)
 
-protected lemma sub [NoZeroDivisors R] : IsAlgebraic R (a - b) :=
+protected lemma sub : IsAlgebraic R (a - b) :=
   sub_eq_add_neg a b ▸ ha.add hb.neg
 
 omit hb
-protected lemma pow [NoZeroDivisors R] (n : ℕ) : IsAlgebraic R (a ^ n) :=
+protected lemma pow (n : ℕ) : IsAlgebraic R (a ^ n) :=
   have := ha.nontrivial
   n.rec (pow_zero a ▸ isAlgebraic_one) fun _ h ↦ pow_succ a _ ▸ h.mul ha
 
-/-- A version of `IsAlgebraic.smul` that only assumes the scalar is not a zero divisor
-rather than the whole base ring has no zero divisors. -/
-protected lemma smul' {r : R} (hr : r ∈ nonZeroDivisors R) : IsAlgebraic R (r • a) := by
-  have ⟨p, hp, eval0⟩ := ha
-  refine ⟨p.scaleRoots r, fun h ↦ hp <| ext fun n ↦ ?_,
-    Algebra.smul_def r a ▸ scaleRoots_aeval_eq_zero eval0⟩
-  apply_fun (coeff · n) at h
-  rwa [coeff_scaleRoots, coeff_zero, mul_right_mem_nonZeroDivisors_eq_zero_iff (pow_mem hr _)] at h
-
-lemma nsmul [NoZeroSMulDivisors ℕ R] (n : ℕ) : IsAlgebraic R (n • a) := by
-  sorry
-
-lemma zsmul [NoZeroSMulDivisors ℤ R] (n : ℤ) : IsAlgebraic R (n • a) := by
-  sorry
-
-protected lemma smul [NoZeroDivisors R] (r : R) : IsAlgebraic R (r • a) :=
-  have := ha.nontrivial
-  Algebra.smul_def r a ▸ (isAlgebraic_algebraMap r).mul ha
-
 end IsAlgebraic
 
+namespace Algebra
+
+variable [NoZeroDivisors S] (inj : Function.Injective (algebraMap S A))
+include inj
+
 /-- Transitivity of algebraicity for algebras over domains. -/
-theorem Algebra.IsAlgebraic.trans' [NoZeroDivisors R] [NoZeroDivisors S]
-    (hRS : Function.Injective (algebraMap R S)) (hSA : Function.Injective (algebraMap S A))
-    [Algebra.IsAlgebraic R S] [alg : Algebra.IsAlgebraic S A] : Algebra.IsAlgebraic R A :=
-  ⟨fun _ ↦ .trans hRS hSA <| alg.1 _⟩
+theorem IsAlgebraic.trans' [Algebra.IsAlgebraic R S] [alg : Algebra.IsAlgebraic S A] :
+    Algebra.IsAlgebraic R A :=
+  ⟨fun _ ↦ (alg.1 _).restrictScalars _ inj⟩
+
+theorem IsIntegral.trans_isAlgebraic [Algebra.IsIntegral R S] [alg : Algebra.IsAlgebraic S A] :
+    Algebra.IsAlgebraic R A :=
+  ⟨fun _ ↦ (alg.1 _).restrictScalars_of_isIntegral _ inj⟩
+
+theorem IsAlgebraic.trans_isIntegral [Algebra.IsAlgebraic R S] [int : Algebra.IsIntegral S A] :
+    Algebra.IsAlgebraic R A :=
+  ⟨fun _ ↦ (int.1 _).trans_isAlgebraic _ inj⟩
+
+end Algebra
 
 variable (R S)
 def Subalgebra.algebraicClosure [IsDomain R] : Subalgebra R S where
@@ -904,39 +925,61 @@ def Subalgebra.algebraicClosure [IsDomain R] : Subalgebra R S where
   add_mem' ha hb := ha.add hb
   algebraMap_mem' := isAlgebraic_algebraMap
 
-lemma integralClosure_le_algebraicClosure [IsDomain R] :
+theorem integralClosure_le_algebraicClosure [IsDomain R] :
     integralClosure R S ≤ Subalgebra.algebraicClosure R S :=
   fun _ ↦ IsIntegral.isAlgebraic
 
 instance [IsDomain R] : Algebra.IsAlgebraic R (Subalgebra.algebraicClosure R S) :=
   (Subalgebra.isAlgebraic_iff _).mp fun _ ↦ id
 
+variable {R S}
+
+theorem Algebra.isAlgebraic_adjoin_iff [IsDomain R] {s : Set S} :
+    (adjoin R s).IsAlgebraic ↔ ∀ x ∈ s, IsAlgebraic R x :=
+  Algebra.adjoin_le_iff (S := Subalgebra.algebraicClosure R S)
+
+theorem Algebra.isAlgebraic_adjoin_of_nonempty [NoZeroDivisors R] {s : Set S} (hs : s.Nonempty) :
+    (adjoin R s).IsAlgebraic ↔ ∀ x ∈ s, IsAlgebraic R x :=
+  ⟨fun h x hx ↦ h _ (subset_adjoin hx), fun h ↦
+    have ⟨x, hx⟩ := hs
+    have := (isDomain_iff_noZeroDivisors_and_nontrivial _).mpr ⟨‹_›, (h x hx).nontrivial⟩
+    isAlgebraic_adjoin_iff.mpr h⟩
+
+theorem Algebra.isAlgebraic_adjoin_singleton_iff [NoZeroDivisors R] {s : S} :
+    (adjoin R {s}).IsAlgebraic ↔ IsAlgebraic R s :=
+  (isAlgebraic_adjoin_of_nonempty <| Set.singleton_nonempty s).trans forall_eq
+
+theorem IsAlgebraic.of_mul [NoZeroDivisors R] {y : S} (hy : y ∈ nonZeroDivisors S)
+    (alg_y : IsAlgebraic R y) (alg_yz : IsAlgebraic R (y * z)) : IsAlgebraic R z := by
+  have ⟨t, ht, r, hr, eq⟩ := alg_y.exists_nonzero_eq_adjoin_mul hy
+  have := alg_yz.mul (Algebra.isAlgebraic_adjoin_singleton_iff.mpr alg_y _ ht)
+  rw [mul_right_comm, eq, ← Algebra.smul_def] at this
+  exact this.of_smul (mem_nonZeroDivisors_of_ne_zero hr)
+
 namespace Transcendental
 
-variable {R S} {a : A} (ha : Transcendental R a)
+variable {a : A} (ha : Transcendental R a)
 include ha
 
-lemma tower_top_of_isIntegral [IsReduced R] [NoZeroDivisors S] [Algebra.IsIntegral R S]
+lemma extendScalars_of_isIntegral [NoZeroDivisors S] [Algebra.IsIntegral R S]
     (inj : Function.Injective (algebraMap S A)) : Transcendental S a := by
   contrapose ha
   rw [Transcendental, not_not] at ha ⊢
-  exact ha.trans_isIntegral inj
+  exact ha.restrictScalars_of_isIntegral _ inj
 
-lemma tower_top [NoZeroDivisors R] [NoZeroDivisors S]
-    (hRS : Function.Injective (algebraMap R S)) (hSA : Function.Injective (algebraMap S A))
-    [Algebra.IsAlgebraic R S] : Transcendental S a := by
+lemma extendScalars [NoZeroDivisors S] [Algebra.IsAlgebraic R S]
+    (inj : Function.Injective (algebraMap S A)) : Transcendental S a := by
   contrapose ha
   rw [Transcendental, not_not] at ha ⊢
-  exact ha.trans hRS hSA
+  exact ha.restrictScalars _ inj
 
-protected lemma integralClosure [IsReduced R] [NoZeroDivisors A] :
+protected lemma integralClosure [NoZeroDivisors A] :
     Transcendental (integralClosure R A) a :=
-  ha.tower_top_of_isIntegral Subtype.val_injective
+  ha.extendScalars_of_isIntegral Subtype.val_injective
 
-protected lemma algebraicClosure [IsDomain R] [NoZeroDivisors A]
-    (hRS : Function.Injective (algebraMap R A)) :
+protected lemma algebraicClosure [IsDomain R] [NoZeroDivisors A] :
     Transcendental (Subalgebra.algebraicClosure R A) a :=
-  ha.tower_top (fun _ _ eq ↦ hRS <| congr($eq.1)) Subtype.val_injective
+  ha.extendScalars Subtype.val_injective
 
 end Transcendental
 
