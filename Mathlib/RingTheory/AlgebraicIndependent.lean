@@ -622,9 +622,9 @@ theorem transcendental_adjoin {s : Set ι} {i : ι} (hi : i ∉ s) :
   convert ← hx.adjoin_of_disjoint (Set.disjoint_singleton_right.mpr hi)
   rw [algebraicIndependent_singleton_iff ⟨i, rfl⟩]
 
-variable [Algebra A' A] [IsScalarTower R A' A]
+variable [Algebra A' A] [IsScalarTower R A' A] [NoZeroDivisors A']
 
-theorem extendScalars [NoZeroDivisors A'] [alg : Algebra.IsAlgebraic R A']
+theorem extendScalars [alg : Algebra.IsAlgebraic R A']
     (inj : Injective (algebraMap A' A)) : AlgebraicIndependent A' x := by
   nontriviality A'
   have := inj.nontrivial
@@ -647,11 +647,19 @@ theorem extendScalars [NoZeroDivisors A'] [alg : Algebra.IsAlgebraic R A']
   show Transcendental A't (x i)
   exact (hx.transcendental_adjoin hi).extendScalars Subtype.val_injective
 
-theorem extendScalars_of_isIntegral [NoZeroDivisors A'] [Algebra.IsIntegral R A']
+theorem extendScalars_of_isIntegral [Algebra.IsIntegral R A']
     (inj : Injective (algebraMap A' A)) : AlgebraicIndependent A' x := by
   nontriviality A'
   have := Module.nontrivial R A'
   exact hx.extendScalars inj
+
+protected theorem algebraicClosure [IsDomain R] [NoZeroDivisors A] :
+    AlgebraicIndependent (Subalgebra.algebraicClosure R A) x :=
+  hx.extendScalars Subtype.val_injective
+
+protected theorem integralClosure [NoZeroDivisors A] :
+    AlgebraicIndependent (integralClosure R A) x :=
+  hx.extendScalars_of_isIntegral Subtype.val_injective
 
 end AlgebraicIndependent
 
