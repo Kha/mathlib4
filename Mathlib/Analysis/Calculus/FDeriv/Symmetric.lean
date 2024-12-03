@@ -32,6 +32,9 @@ requiring that the point under consideration is accumulated by points in the int
 These are written using ad hoc predicates `IsSymmSndFDerivAt` and `IsSymmSndFDerivWithinAt`, which
 increase readability of statements in differential geometry where they show up a lot.
 
+The statements are formulated using a typeclass `IsAdmissibleSmoothness 𝕜 n` which requires
+either that `𝕜` is `ℝ` or `ℂ`, or that the smoothness exponent is `ω`.
+
 ## Implementation note
 
 For the proof, we obtain an asymptotic expansion to order two of `f (x + v + w) - f (x + v)`, by
@@ -57,7 +60,7 @@ rectangle are contained in `s` by convexity. The general case follows by lineari
 
 open Asymptotics Set Filter
 
-open scoped Topology
+open scoped Topology ContDiff
 
 section General
 
@@ -407,11 +410,12 @@ end Real
 
 section IsRCLikeNormedField
 
-variable {𝕜 : Type*} [NontriviallyNormedField 𝕜] [IsRCLikeNormedField 𝕜]
+variable {𝕜 : Type*} [NontriviallyNormedField 𝕜]
   {E F : Type*} [NormedAddCommGroup E] [NormedSpace 𝕜 E] [NormedAddCommGroup F]
   [NormedSpace 𝕜 F] {s : Set E} {f : E → F} {x : E}
 
-theorem second_derivative_symmetric_of_eventually {f' : E → E →L[𝕜] F} {x : E}
+theorem second_derivative_symmetric_of_eventually [IsRCLikeNormedField 𝕜]
+    {f' : E → E →L[𝕜] F} {x : E}
     {f'' : E →L[𝕜] E →L[𝕜] F} (hf : ∀ᶠ y in 𝓝 x, HasFDerivAt f (f' y) y)
     (hx : HasFDerivAt f' f'' x) (v w : E) : f'' v w = f'' w v := by
   let _ := IsRCLikeNormedField.rclike 𝕜
@@ -441,31 +445,51 @@ theorem second_derivative_symmetric_of_eventually {f' : E → E →L[𝕜] F} {x
 
 /-- If a function is differentiable, and has two derivatives at `x`, then the second
 derivative is symmetric. -/
-theorem second_derivative_symmetric {f' : E → E →L[𝕜] F} {f'' : E →L[𝕜] E →L[𝕜] F} {x : E}
+theorem second_derivative_symmetric [IsRCLikeNormedField 𝕜]
+    {f' : E → E →L[𝕜] F} {f'' : E →L[𝕜] E →L[𝕜] F} {x : E}
     (hf : ∀ y, HasFDerivAt f (f' y) y) (hx : HasFDerivAt f' f'' x) (v w : E) : f'' v w = f'' w v :=
   second_derivative_symmetric_of_eventually (Filter.Eventually.of_forall hf) hx v w
 
-/-- If a function is `C^2` at a point, then its second derivative there is symmetric. -/
-theorem ContDiffAt.isSymmSndFDerivAt {n : WithTop ℕ∞} (hf : ContDiffAt 𝕜 n f x) (hn : 2 ≤ n) :
+variable (𝕜) in
+/-- A smoothness exponent is admissible if it is `ω` or the field is ℝ or ℂ. This guarantees that
+second derivatives are symmetric, and more generally good behavior for calculus. -/
+class IsAdmissibleSmoothness (n : WithTop ℕ∞) : Prop where
+  out : n = ω ∨ IsRCLikeNormedField 𝕜
+
+instance (priority := 100) [h : IsRCLikeNormedField 𝕜] (n : WithTop ℕ∞) :
+    IsAdmissibleSmoothness 𝕜 n :=
+  ⟨Or.inr h⟩
+
+instance : IsAdmissibleSmoothness 𝕜 ω := ⟨Or.inl rfl⟩
+
+/-- If a function is `C^2` at a point, then its second derivative there is symmetric. Over a field
+different from `ℝ` or `ℂ`, we should require that the function is analytic. -/
+theorem ContDiffAt.isSymmSndFDerivAt {n : WithTop ℕ∞} [h : IsAdmissibleSmoothness 𝕜 n]
+    (hf : ContDiffAt 𝕜 n f x) (hn : 2 ≤ n) :
     IsSymmSndFDerivAt 𝕜 f x := by
-  intro v w
-  apply second_derivative_symmetric_of_eventually (f := f) (f' := fderiv 𝕜 f) (x := x)
-  · obtain ⟨u, hu, h'u⟩ : ∃ u ∈ 𝓝 x, ContDiffOn 𝕜 2 f u :=
-      (hf.of_le hn).contDiffOn (m := 2) le_rfl (by simp)
-    rcases mem_nhds_iff.1 hu with ⟨v, vu, v_open, xv⟩
-    filter_upwards [v_open.mem_nhds xv] with y hy
-    have : DifferentiableAt 𝕜 f y := by
-      have := (h'u.mono vu y hy).contDiffAt (v_open.mem_nhds hy)
-      exact this.differentiableAt one_le_two
-    exact DifferentiableAt.hasFDerivAt this
-  · have : DifferentiableAt 𝕜 (fderiv 𝕜 f) x := by
-      apply ContDiffAt.differentiableAt _ le_rfl
-      exact hf.fderiv_right hn
-    exact DifferentiableAt.hasFDerivAt this
+  rcases h.out with rfl | hk
+  -- first deal with the case of analytic functions over an arbitrary normed field
+  · sorry
+  -- then deal with the `ℝ` or `ℂ` case, where `C^2` is enough.
+  · intro v w
+    apply second_derivative_symmetric_of_eventually (f := f) (f' := fderiv 𝕜 f) (x := x)
+    · obtain ⟨u, hu, h'u⟩ : ∃ u ∈ 𝓝 x, ContDiffOn 𝕜 2 f u :=
+        (hf.of_le hn).contDiffOn (m := 2) le_rfl (by simp)
+      rcases mem_nhds_iff.1 hu with ⟨v, vu, v_open, xv⟩
+      filter_upwards [v_open.mem_nhds xv] with y hy
+      have : DifferentiableAt 𝕜 f y := by
+        have := (h'u.mono vu y hy).contDiffAt (v_open.mem_nhds hy)
+        exact this.differentiableAt one_le_two
+      exact DifferentiableAt.hasFDerivAt this
+    · have : DifferentiableAt 𝕜 (fderiv 𝕜 f) x := by
+        apply ContDiffAt.differentiableAt _ le_rfl
+        exact hf.fderiv_right hn
+      exact DifferentiableAt.hasFDerivAt this
 
 /-- If a function is `C^2` within a set at a point, and accumulated by points in the interior
 of the set, then its second derivative there is symmetric. -/
-theorem ContDiffWithinAt.isSymmSndFDerivWithinAt {n : WithTop ℕ∞} (hf : ContDiffWithinAt 𝕜 n f s x)
+theorem ContDiffWithinAt.isSymmSndFDerivWithinAt {n : WithTop ℕ∞}
+    [IsAdmissibleSmoothness 𝕜 n] (hf : ContDiffWithinAt 𝕜 n f s x)
     (hn : 2 ≤ n) (hs : UniqueDiffOn 𝕜 s) (hx : x ∈ closure (interior s)) (h'x : x ∈ s) :
     IsSymmSndFDerivWithinAt 𝕜 f s x := by
   /- We argue that, at interior points, the second derivative is symmetric, and moreover by
