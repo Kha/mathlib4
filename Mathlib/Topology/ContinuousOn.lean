@@ -27,8 +27,6 @@ equipped with the subspace topology.
 
 -/
 
-assert_not_exists Monoid
-
 open Set Filter Function Topology Filter
 
 variable {α β γ δ : Type*}
