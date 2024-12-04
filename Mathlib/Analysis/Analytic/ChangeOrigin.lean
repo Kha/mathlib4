@@ -63,6 +63,22 @@ def changeOriginSeriesTerm (k l : ℕ) (s : Finset (Fin (k + l))) (hs : s.card =
     (by rw [Finset.card_compl, Fintype.card_fin, hs, add_tsub_cancel_right])
   a (p (k + l))
 
+/-- Formula for the application of `changeOriginSeriesTerm` on nonconstant vectors. -/
+theorem changeOriginSeriesTerm_apply' {k l : ℕ} (s : Finset (Fin (k + l))) (hs : s.card = l)
+    (z : Fin (k + l) → E) :
+    p.changeOriginSeriesTerm k l s hs (fun (i : Fin l) ↦ z (s.orderEmbOfFin hs i))
+      (fun (j : Fin k) ↦ z (sᶜ.orderEmbOfFin
+        (by rw [Finset.card_compl, Fintype.card_fin, hs, add_tsub_cancel_right]) j)) =
+    p (k + l) z := by
+  have h's : sᶜ.card = k := by
+    rw [Finset.card_compl, Fintype.card_fin, hs, add_tsub_cancel_right]
+  simp only [changeOriginSeriesTerm, ContinuousMultilinearMap.curryFinFinset_apply]
+  congr with i
+  set m := (finSumEquivOfFinset hs h's).symm i
+  have im : i = finSumEquivOfFinset hs h's m := by simp [m]
+  clear_value m
+  cases m <;> simp [im]
+
 theorem changeOriginSeriesTerm_apply (k l : ℕ) (s : Finset (Fin (k + l))) (hs : s.card = l)
     (x y : E) :
     (p.changeOriginSeriesTerm k l s hs (fun _ => x) fun _ => y) =
@@ -95,6 +111,51 @@ Given a formal multilinear series `p` and a point `x` in its ball of convergence
 the series `p.changeOriginSeries k`. -/
 def changeOriginSeries (k : ℕ) : FormalMultilinearSeries 𝕜 E (E[×k]→L[𝕜] F) := fun l =>
   ∑ s : { s : Finset (Fin (k + l)) // Finset.card s = l }, p.changeOriginSeriesTerm k l s s.2
+
+/-- Two strictly monotone functions from `Fin n` are equal provided that their ranges are included
+in one another. -/
+lemma _root_.Fin.strictMono_unique_of_range_subset {α : Type*} [Preorder α] {n : ℕ}
+    {f g : Fin n → α} (hf : StrictMono f) (hg : StrictMono g)
+    (h : range f ⊆ range g) : f = g := by
+  apply (hf.range_inj hg).1
+  apply Finite.eq_of_subset_of_card_le (finite_range g) h
+  rw [Nat.card_range_of_injective hf.injective, Nat.card_range_of_injective hg.injective]
+
+lemma changeOriginSeries_zero :
+    p.changeOriginSeries 0 =
+      ((continuousMultilinearCurryFin0 𝕜 E F).symm.toContinuousLinearEquiv
+        |>.toContinuousLinearMap.compFormalMultilinearSeries p) := by
+  ext i v w
+  simp only [ContinuousLinearMap.compFormalMultilinearSeries_apply,
+    ContinuousLinearMap.compContinuousMultilinearMap_coe, ContinuousLinearEquiv.coe_coe,
+    LinearIsometryEquiv.coe_toContinuousLinearEquiv, Function.comp_apply,
+    continuousMultilinearCurryFin0_symm_apply]
+  simp only [FormalMultilinearSeries.changeOriginSeries,
+    ContinuousMultilinearMap.sum_apply,
+    ContinuousMultilinearMap.curryFinFinset_apply]
+  let A : Inhabited { s : Finset (Fin (0 + i)) // s.card = i } := ⟨Finset.univ, by simp⟩
+  let B : Unique { s : Finset (Fin (0 + i)) // s.card = i } := by
+    constructor
+    rintro ⟨s, hs⟩
+    apply Subtype.eq
+    apply Finset.eq_univ_of_card
+    simp [hs]
+  rw [Finset.sum_unique_nonempty _ _ Finset.univ_nonempty]
+  have C : 0 + i = i := by exact Nat.zero_add i
+  have : p i v = p (0 + i) (v ∘ (Fin.cast C)) := p.congr C.symm (by simp)
+  rw [this, ← changeOriginSeriesTerm_apply' p Finset.univ (by simp)]
+  congr
+  · ext j
+    congr
+    have D : Fintype.card (Fin (0 + i)) = i := by simp
+    have : Fin.cast C ∘ (Finset.univ.orderEmbOfFin D) = id := by
+      apply Fin.strictMono_unique_of_range_subset
+      · exact StrictMono.comp (Fin.cast_strictMono _) (OrderEmbedding.strictMono _)
+      · exact strictMono_id
+      · simp
+    change j = (Fin.cast C ∘ (Finset.univ.orderEmbOfFin D)) j
+    rw [this, id_eq]
+  · exact List.ofFn_inj.mp rfl
 
 theorem nnnorm_changeOriginSeries_le_tsum (k l : ℕ) :
     ‖p.changeOriginSeries k l‖₊ ≤

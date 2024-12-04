@@ -206,6 +206,37 @@ protected theorem HasFPowerSeriesOnBall.fderiv [CompleteSpace F]
   rw [← h.fderiv_eq, add_sub_cancel]
   simpa only [edist_eq_coe_nnnorm_sub, EMetric.mem_ball] using hz
 
+variable [CompleteSpace F]
+
+#check ContinuousMultilinearMap.iteratedFDeriv
+
+lemma glouk (h : HasFPowerSeriesOnBall f p x r) :
+    HasFPowerSeriesOnBall (iteratedFDeriv 𝕜 1 f) (p.changeOriginSeries 1) x r := by
+  refine .congr (f := fun z ↦ (p.changeOrigin (z - x) 1)) ?_
+    fun z hz ↦ ?_
+  · simpa using ((p.hasFPowerSeriesOnBall_changeOrigin 1
+      (h.r_pos.trans_le h.r_le)).mono h.r_pos h.r_le).comp_sub x
+  dsimp only
+  ext w
+  rw [iteratedFDeriv_one_apply]
+  have : z = x + (z - x) := by abel
+  rw [this, h.fderiv_eq, add_sub_cancel]
+  · simp only [Fin.isValue, continuousMultilinearCurryFin1_apply, Matrix.zero_empty]
+    congr
+    exact List.ofFn_inj.mp rfl
+  · simpa only [edist_eq_coe_nnnorm_sub, EMetric.mem_ball] using hz
+
+lemma glouk2 (h : HasFPowerSeriesOnBall f p x r) (n : ℕ) :
+    HasFPowerSeriesOnBall (iteratedFDeriv 𝕜 n f) (p.changeOriginSeries n) x r := by
+  induction n with
+  | zero =>
+    simp [iteratedFDeriv_zero_eq_comp, changeOriginSeries_zero]
+    sorry
+  | succ n ih =>
+    sorry
+
+#exit
+
 /-- If a function has a power series within a set on a ball, then so does its derivative. -/
 protected theorem HasFPowerSeriesWithinOnBall.fderivWithin [CompleteSpace F]
     (h : HasFPowerSeriesWithinOnBall f p s x r) (hu : UniqueDiffOn 𝕜 (insert x s)) :
