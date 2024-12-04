@@ -230,9 +230,11 @@ lemma glouk2 (h : HasFPowerSeriesOnBall f p x r) (n : ℕ) :
     HasFPowerSeriesOnBall (iteratedFDeriv 𝕜 n f) (p.changeOriginSeries n) x r := by
   induction n with
   | zero =>
-    simp [iteratedFDeriv_zero_eq_comp, changeOriginSeries_zero]
-    sorry
+    simp only [iteratedFDeriv_zero_eq_comp, FormalMultilinearSeries.changeOriginSeries_zero]
+    exact (continuousMultilinearCurryFin0 𝕜 E F).symm
+      |>.toContinuousLinearEquiv.toContinuousLinearMap.comp_hasFPowerSeriesOnBall h
   | succ n ih =>
+    simp_rw [iteratedFDeriv_succ_eq_comp_right]
     sorry
 
 #exit

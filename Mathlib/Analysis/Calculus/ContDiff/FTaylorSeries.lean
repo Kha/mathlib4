@@ -815,10 +815,10 @@ theorem iteratedFDeriv_succ_apply_right {n : ℕ} (m : Fin (n + 1) → E) :
 /-- Writing explicitly the `n+1`-th derivative as the composition of a currying linear equiv,
 and the `n`-th derivative of the derivative. -/
 theorem iteratedFDeriv_succ_eq_comp_right {n : ℕ} :
-    iteratedFDeriv 𝕜 (n + 1) f x =
+    iteratedFDeriv 𝕜 (n + 1) f =
       ((continuousMultilinearCurryRightEquiv' 𝕜 n E F).symm ∘
-          iteratedFDeriv 𝕜 n fun y => fderiv 𝕜 f y) x := by
-  ext m; rw [iteratedFDeriv_succ_apply_right]; rfl
+          iteratedFDeriv 𝕜 n fun y => fderiv 𝕜 f y) := by
+  ext x m; rw [iteratedFDeriv_succ_apply_right]; rfl
 
 theorem norm_iteratedFDeriv_fderiv {n : ℕ} :
     ‖iteratedFDeriv 𝕜 n (fderiv 𝕜 f) x‖ = ‖iteratedFDeriv 𝕜 (n + 1) f x‖ := by
