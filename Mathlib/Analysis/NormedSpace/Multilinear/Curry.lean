@@ -554,27 +554,32 @@ section
 
 variable (𝕜 G G') {k l : ℕ} {s : Finset (Fin n)}
 
-#where
+/-- Given an embedding of `Fin k` in `Fin n`, one gets an isomorphism between `Fin l ⊕ Fin k`
+and `Fin n` by using `e` along the second summand, and the only increasing bijection between
+`Fin l` and the complement of the range of `e`, along the first summand. -/
+def finSumEquivOfEmbedding {k l n : ℕ} (hkl : n = k + l) (e : Fin k ↪ Fin n) :
+    Fin l ⊕ Fin k ≃ Fin n := by
+  letI s : Finset (Fin n) := (Set.range e).toFinsetᶜ
+  have A : #s = l := by
+    simp [s, card_compl, card_image_of_injective _ e.injective]
+    omega
+  calc
+    Fin l ⊕ Fin k ≃ {x | x ∈ s} ⊕ (sᶜ : Set (Fin n)) :=
+      Equiv.sumCongr (orderIsoOfFin s A).toEquiv
+        ((e.toEquivRange.trans (Equiv.Set.ofEq (by simp [s]))))
+    _ ≃ Fin n := Equiv.Set.sumCompl _
 
-def finSumEquivOfFinset {α β : Type*} {s : Set ι} (e : {x : ι | x ∈ s} ≃ α)
-    (e' : {x : ι | x ∉ s} ≃ β) [DecidablePred fun x ↦ x ∈ s]
-    [Fintype α] [Fintype β] : α ⊕ β ≃ ι :=
-  (Equiv.sumCongr e.symm e'.symm).trans (Equiv.Set.sumCompl _)
 
-
-/-- If `s : Finset (Fin n)` is a finite set of cardinality `k` and its complement has cardinality
-`l`, then the space of continuous multilinear maps `G [×n]→L[𝕜] G'` of `n` variables is isomorphic
-to the space of continuous multilinear maps `G [×k]→L[𝕜] G [×l]→L[𝕜] G'` of `k` variables taking
-values in the space of continuous multilinear maps of `l` variables. -/
-def coulis {α β : Type*} {s : Finset ι} (e : {x : ι | x ∈ s} ≃ α) (e' : {x : ι | x ∉ s} ≃ β)
-    [Fintype α] [Fintype β] [DecidableEq ι] :
-    ContinuousMultilinearMap 𝕜 (fun (_ : ι) ↦ G) G' ≃ₗᵢ[𝕜]
-    ContinuousMultilinearMap 𝕜 (fun (_ : α) ↦ G) (ContinuousMultilinearMap 𝕜 (fun (_ : β) ↦ G) G')
-    :=
-  (domDomCongrₗᵢ 𝕜 G G' ((Equiv.sumCongr e.symm e'.symm).trans (Equiv.Set.sumCompl _)).symm).trans
-    (currySumEquiv 𝕜 α β G G')
-
-#exit
+/-- If `e` is an embedding of `Fin k` in `Fin n`, then the space of continuous multilinear
+maps `G [×n]→L[𝕜] G'` of `n` variables is isomorphic
+to the space of continuous multilinear maps `G [×l]→L[𝕜] G [×k]→L[𝕜] G'` of `l` variables taking
+values in the space of continuous multilinear maps of `k` variables, by using first the
+variables not in the range of `e` (in an increasing way) and then the variables in the range of `e`
+in the order given by `e`. -/
+def curryFinOfEmbedding {k l n : ℕ} (hkl : n = k + l) (e : Fin k ↪ Fin n) :
+    (G[×n]→L[𝕜] G') ≃ₗᵢ[𝕜] G[×l]→L[𝕜] G[×k]→L[𝕜] G' :=
+  (domDomCongrₗᵢ 𝕜 G G' (finSumEquivOfEmbedding hkl e).symm).trans
+    (currySumEquiv 𝕜 (Fin l) (Fin k) G G')
 
 /-- If `s : Finset (Fin n)` is a finite set of cardinality `k` and its complement has cardinality
 `l`, then the space of continuous multilinear maps `G [×n]→L[𝕜] G'` of `n` variables is isomorphic
