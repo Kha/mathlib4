@@ -226,6 +226,9 @@ lemma glouk (h : HasFPowerSeriesOnBall f p x r) :
     exact List.ofFn_inj.mp rfl
   · simpa only [edist_eq_coe_nnnorm_sub, EMetric.mem_ball] using hz
 
+def mygl (k : ℕ) : FormalMultilinearSeries 𝕜 E (E [×k]→L[𝕜] F) :=
+  fun n ↦ ∑ e : Fin n ↪ Fin (k + n),
+
 lemma glouk2 (h : HasFPowerSeriesOnBall f p x r) (n : ℕ) :
     HasFPowerSeriesOnBall (iteratedFDeriv 𝕜 n f) (p.changeOriginSeries n) x r := by
   induction n with

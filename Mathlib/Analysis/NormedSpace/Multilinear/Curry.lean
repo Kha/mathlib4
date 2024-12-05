@@ -554,20 +554,25 @@ section
 
 variable (𝕜 G G') {k l : ℕ} {s : Finset (Fin n)}
 
+def glouglou {k l : ℕ} (e : Fin k ↪ Fin (k + l)) :
+    Fin l ≃ ((Set.range e)ᶜ : Set (Fin (k + l))) := by
+  letI s : Finset (Fin (k + l)) := ((Set.range e)ᶜ).toFinset
+  have A : #s = l := by simp [s, card_compl, card_image_of_injective _ e.injective]
+  refine (orderIsoOfFin s A).toEquiv.trans (Equiv.Set.ofEq ?_)
+  ext i
+  change i ∈ s ↔ _
+  simp [s]
+
 /-- Given an embedding of `Fin k` in `Fin n`, one gets an isomorphism between `Fin l ⊕ Fin k`
 and `Fin n` by using `e` along the second summand, and the only increasing bijection between
 `Fin l` and the complement of the range of `e`, along the first summand. -/
-def finSumEquivOfEmbedding {k l n : ℕ} (hkl : n = k + l) (e : Fin k ↪ Fin n) :
-    Fin l ⊕ Fin k ≃ Fin n := by
-  letI s : Finset (Fin n) := (Set.range e).toFinsetᶜ
-  have A : #s = l := by
-    simp [s, card_compl, card_image_of_injective _ e.injective]
-    omega
+def finSumEquivOfEmbedding {k l : ℕ} (e : Fin k ↪ Fin (k + l)) :
+    Fin l ⊕ Fin k ≃ Fin (k + l) := by
   calc
-    Fin l ⊕ Fin k ≃ {x | x ∈ s} ⊕ (sᶜ : Set (Fin n)) :=
-      Equiv.sumCongr (orderIsoOfFin s A).toEquiv
-        ((e.toEquivRange.trans (Equiv.Set.ofEq (by simp [s]))))
-    _ ≃ Fin n := Equiv.Set.sumCompl _
+    Fin l ⊕ Fin k ≃ ((Set.range e)ᶜ : Set (Fin (k + l))) ⊕ ((Set.range e)ᶜᶜ : Set (Fin (k + l))) :=
+      Equiv.sumCongr (glouglou e)
+        ((e.toEquivRange.trans (Equiv.Set.ofEq (compl_compl _).symm)))
+    _ ≃ Fin (k + l) := Equiv.Set.sumCompl _
 
 
 /-- If `e` is an embedding of `Fin k` in `Fin n`, then the space of continuous multilinear
@@ -576,10 +581,30 @@ to the space of continuous multilinear maps `G [×l]→L[𝕜] G [×k]→L[𝕜]
 values in the space of continuous multilinear maps of `k` variables, by using first the
 variables not in the range of `e` (in an increasing way) and then the variables in the range of `e`
 in the order given by `e`. -/
-def curryFinOfEmbedding {k l n : ℕ} (hkl : n = k + l) (e : Fin k ↪ Fin n) :
-    (G[×n]→L[𝕜] G') ≃ₗᵢ[𝕜] G[×l]→L[𝕜] G[×k]→L[𝕜] G' :=
-  (domDomCongrₗᵢ 𝕜 G G' (finSumEquivOfEmbedding hkl e).symm).trans
+def curryFinOfEmbedding {k l : ℕ} (e : Fin k ↪ Fin (k + l)) :
+    (G[×(k+l)]→L[𝕜] G') ≃ₗᵢ[𝕜] G[×l]→L[𝕜] G[×k]→L[𝕜] G' :=
+  (domDomCongrₗᵢ 𝕜 G G' (finSumEquivOfEmbedding e).symm).trans
     (currySumEquiv 𝕜 (Fin l) (Fin k) G G')
+
+
+lemma curryFinOfEmbedding_apply' (e : Fin k ↪ Fin (k + l)) {v : Fin (k + l) → G}
+    (f : G[×(k+l)]→L[𝕜] G') :
+    curryFinOfEmbedding 𝕜 G G' e f (fun i ↦ v (glouglou e i)) (v ∘ e) =
+    f v := by
+
+
+
+lemma curryFinOfEmbedding_apply (e : Fin k ↪ Fin (k + l)) {v : Fin l → G} {w : Fin k → G}
+    (f : G[×(k+l)]→L[𝕜] G') :
+    curryFinOfEmbedding 𝕜 G G' e f v w =
+    f (fun i ↦ if hi : i ∈ Set.range e then w (e.toEquivRange.symm ⟨i, hi⟩)
+         else v ((glouglou e).symm ⟨i, hi⟩)) := by
+  simp [curryFinOfEmbedding, finSumEquivOfEmbedding]
+
+
+
+#exit
+
 
 /-- If `s : Finset (Fin n)` is a finite set of cardinality `k` and its complement has cardinality
 `l`, then the space of continuous multilinear maps `G [×n]→L[𝕜] G'` of `n` variables is isomorphic
