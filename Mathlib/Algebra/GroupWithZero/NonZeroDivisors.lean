@@ -19,7 +19,7 @@ non-commutative monoids.
 
 This file declares the notations:
 - `R⁰` for the submonoid of non-zero-divisors of `M₀`, in the locale `nonZeroDivisors`.
-- `R⁰[M]` for the submonoid of non-zero smul-divisors of `M₀` with respect to `M`, in the locale
+- `M₀⁰[M]` for the submonoid of non-zero smul-divisors of `M₀` with respect to `M`, in the locale
   `nonZeroSMulDivisors`
 
 Use the statement `open scoped nonZeroDivisors nonZeroSMulDivisors` to access this notation in
