@@ -43,9 +43,9 @@ the morphisms `U ⟶ V` are not just proofs `U ≤ V`, but rather
 `ULift (PLift (U ≤ V))`.
 -/
 
-
-instance opensHomHasCoeToFun {U V : Opens X} : CoeFun (U ⟶ V) fun _ => U → V :=
-  ⟨fun f x => ⟨x, f.le x.2⟩⟩
+instance opensHom.instFunLike {U V : Opens X} : FunLike (U ⟶ V) U V where
+  coe f := Set.inclusion f.le
+  coe_injective' := by rintro ⟨⟨_⟩⟩ _ _; congr!
 
 /-!
 We now construct as morphisms various inclusions of open sets.

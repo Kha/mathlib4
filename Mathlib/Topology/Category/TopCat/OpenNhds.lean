@@ -66,8 +66,9 @@ instance (x : X) : Inhabited (OpenNhds x) :=
 
 instance openNhdsCategory (x : X) : Category.{u} (OpenNhds x) := inferInstance
 
-instance opensNhdsHomHasCoeToFun {x : X} {U V : OpenNhds x} : CoeFun (U ⟶ V) fun _ => U.1 → V.1 :=
-  ⟨fun f x => ⟨x, f.le x.2⟩⟩
+instance opensNhds.instFunLike {x : X} {U V : OpenNhds x} : FunLike (U ⟶ V) U.1 V.1 where
+  coe f := Set.inclusion f.le
+  coe_injective' := by rintro ⟨⟨_⟩⟩ _ _; congr!
 
 /-- The inclusion `U ⊓ V ⟶ U` as a morphism in the category of open sets. -/
 def infLELeft {x : X} (U V : OpenNhds x) : U ⊓ V ⟶ U :=
