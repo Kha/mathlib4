@@ -169,12 +169,12 @@ def sectionsSubring (U : (Opens (PrimeSpectrum.Top R))ᵒᵖ) :
     rcases ha x with ⟨Va, ma, ia, ra, sa, wa⟩
     rcases hb x with ⟨Vb, mb, ib, rb, sb, wb⟩
     refine ⟨Va ⊓ Vb, ⟨ma, mb⟩, Opens.infLELeft _ _ ≫ ia, ra * sb + rb * sa, sa * sb, ?_⟩
-    intro y
-    rcases wa (Opens.infLELeft _ _ y) with ⟨nma, wa⟩
-    rcases wb (Opens.infLERight _ _ y) with ⟨nmb, wb⟩
+    intro ⟨y, hy⟩
+    rcases wa (Opens.infLELeft _ _ ⟨y, hy⟩) with ⟨nma, wa⟩
+    rcases wb (Opens.infLERight _ _ ⟨y, hy⟩) with ⟨nmb, wb⟩
     fconstructor
-    · intro H; cases y.1.isPrime.mem_or_mem H <;> contradiction
-    · simp only [add_mul, RingHom.map_add, Pi.add_apply, RingHom.map_mul]
+    · intro H; cases y.isPrime.mem_or_mem H <;> contradiction
+    · simp only [Opens.apply_mk, Pi.add_apply, RingHom.map_mul, add_mul, RingHom.map_add] at wa wb ⊢
       rw [← wa, ← wb]
       simp only [mul_assoc]
       congr 2
@@ -195,12 +195,12 @@ def sectionsSubring (U : (Opens (PrimeSpectrum.Top R))ᵒᵖ) :
     rcases ha x with ⟨Va, ma, ia, ra, sa, wa⟩
     rcases hb x with ⟨Vb, mb, ib, rb, sb, wb⟩
     refine ⟨Va ⊓ Vb, ⟨ma, mb⟩, Opens.infLELeft _ _ ≫ ia, ra * rb, sa * sb, ?_⟩
-    intro y
-    rcases wa (Opens.infLELeft _ _ y) with ⟨nma, wa⟩
-    rcases wb (Opens.infLERight _ _ y) with ⟨nmb, wb⟩
+    intro ⟨y, hy⟩
+    rcases wa (Opens.infLELeft _ _ ⟨y, hy⟩) with ⟨nma, wa⟩
+    rcases wb (Opens.infLERight _ _ ⟨y, hy⟩) with ⟨nmb, wb⟩
     fconstructor
-    · intro H; cases y.1.isPrime.mem_or_mem H <;> contradiction
-    · simp only [Pi.mul_apply, RingHom.map_mul]
+    · intro H; cases y.isPrime.mem_or_mem H <;> contradiction
+    · simp only [Opens.apply_mk, Pi.mul_apply, RingHom.map_mul] at wa wb ⊢
       rw [← wa, ← wb]
       simp only [mul_left_comm, mul_assoc, mul_comm]
 
@@ -378,7 +378,7 @@ def toOpen (U : Opens (PrimeSpectrum.Top R)) :
   { toFun f :=
       ⟨fun _ => algebraMap R _ f, fun x =>
         ⟨U, x.2, 𝟙 _, f, 1, fun y =>
-          ⟨(Ideal.ne_top_iff_one _).1 y.1.2.1, by rw [RingHom.map_one, mul_one]⟩⟩⟩
+          ⟨(Ideal.ne_top_iff_one _).1 y.1.2.1, by simp [RingHom.map_one, mul_one]⟩⟩⟩
     map_one' := Subtype.eq <| funext fun _ => RingHom.map_one _
     map_mul' _ _ := Subtype.eq <| funext fun _ => RingHom.map_mul _ _ _
     map_zero' := Subtype.eq <| funext fun _ => RingHom.map_zero _

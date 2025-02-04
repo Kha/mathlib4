@@ -34,7 +34,7 @@ universe u
 
 namespace TopologicalSpace.Opens
 
-variable {X Y Z : TopCat.{u}}
+variable {X Y Z : TopCat.{u}} {U V W : Opens X}
 
 /-!
 Since `Opens X` has a partial order, it automatically receives a `Category` instance.
@@ -43,9 +43,17 @@ the morphisms `U ⟶ V` are not just proofs `U ≤ V`, but rather
 `ULift (PLift (U ≤ V))`.
 -/
 
-instance opensHom.instFunLike {U V : Opens X} : FunLike (U ⟶ V) U V where
+instance opensHom.instFunLike : FunLike (U ⟶ V) U V where
   coe f := Set.inclusion f.le
   coe_injective' := by rintro ⟨⟨_⟩⟩ _ _; congr!
+
+@[simp] lemma apply_mk (f : U ⟶ V) (x : X) (hx) : f ⟨x, hx⟩ = ⟨x, f.le hx⟩ := rfl
+
+@[simp, norm_cast] lemma coe_id (f : U ⟶ U) : ⇑f = id := rfl
+
+lemma id_apply (f : U ⟶ U) (x : U) : f x = x := rfl
+
+@[simp] lemma comp_apply (f : U ⟶ V) (g : V ⟶ W) (x : U) : (f ≫ g) x = g (f x) := rfl
 
 /-!
 We now construct as morphisms various inclusions of open sets.
