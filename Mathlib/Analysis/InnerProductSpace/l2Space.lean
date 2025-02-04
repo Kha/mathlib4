@@ -386,18 +386,19 @@ instance {ι : Type*} : Inhabited (HilbertBasis ι 𝕜 ℓ²(ι, 𝕜)) :=
 
 open Classical in
 /-- `b i` is the `i`th basis vector. -/
-instance instCoeFun : CoeFun (HilbertBasis ι 𝕜 E) fun _ => ι → E where
-  coe b i := b.repr.symm (lp.single 2 i (1 : 𝕜))
+@[coe] def toFun (b : HilbertBasis ι 𝕜 E) (i : ι) : E := b.repr.symm <| lp.single 2 i (1 : 𝕜)
 
--- This is a bad `@[simp]` lemma: the RHS is a coercion containing the LHS.
+/-- `b i` is the `i`th basis vector. -/
+instance instCoeFun : CoeFun (HilbertBasis ι 𝕜 E) fun _ => ι → E where coe := toFun
+
+@[simp]
 protected theorem repr_symm_single [DecidableEq ι] (b : HilbertBasis ι 𝕜 E) (i : ι) :
-    b.repr.symm (lp.single 2 i (1 : 𝕜)) = b i := by
-  convert rfl
+    b.repr.symm (lp.single 2 i (1 : 𝕜)) = b i :=
+  show _ = b.repr.symm _ by congr!
 
 protected theorem repr_self [DecidableEq ι] (b : HilbertBasis ι 𝕜 E) (i : ι) :
     b.repr (b i) = lp.single 2 i (1 : 𝕜) := by
-  simp only [LinearIsometryEquiv.apply_symm_apply]
-  convert rfl
+  simp only [LinearIsometryEquiv.apply_symm_apply, ← b.repr_symm_single]
 
 protected theorem repr_apply_apply (b : HilbertBasis ι 𝕜 E) (v : E) (i : ι) :
     b.repr v i = ⟪b i, v⟫ := by
