@@ -6,7 +6,7 @@ Authors: Paul Lezeau, Lawrence Wu
 import Mathlib.Algebra.Group.Fin.Basic
 import Mathlib.Logic.Equiv.Fin.Basic
 
-/-! # finRotate
+/-! # Maximum order cyclic permutations on `Fin n`
 
 This file defines `finRotate`, which corresponds to the cycle `(1, ..., n)` on `Fin n`, and proves
 various lemmas about it.
