@@ -6,9 +6,11 @@ Authors: Paul Lezeau, Lawrence Wu
 import Mathlib.Algebra.Group.Fin.Basic
 import Mathlib.Logic.Equiv.Fin.Basic
 
-/-! # Some lemmas about equivs involving Fin
+/-! # finRotate
 
-Split out from `Logic.Equiv.Fin.Basic` to reduce its dependencies.
+This file defines `finRotate`, which corresponds to the cycle `(1, ..., n)` on `Fin n`, and proves
+various lemmas about it.
+
 -/
 
 open Nat
