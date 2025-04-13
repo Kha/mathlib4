@@ -26,6 +26,7 @@ theorem algebra_adjoin_le_adjoin : Algebra.adjoin F S ≤ (adjoin F S).toSubalge
 
 namespace algebraAdjoinAdjoin
 
+/-- `IntermediateField.adjoin` as an algebra over `Algebra.adjoin`. -/
 scoped instance : Algebra (Algebra.adjoin F S) (adjoin F S) :=
   (Subalgebra.inclusion <| algebra_adjoin_le_adjoin F S).toAlgebra
 
