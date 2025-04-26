@@ -203,6 +203,17 @@ end Functor
 
 open Functor
 
+namespace Adjunction
+variable {F : C ⥤ D} {G : D ⥤ C} (a : F ⊣ G) [F.Braided] [G.Braided]
+
+/-- An adjunction of braided functors lifts to an adjunction of their lifts to commutative group
+objects. -/
+@[simps!] noncomputable def mapCommGrp : F.mapCommGrp ⊣ G.mapCommGrp where
+  unit := mapCommGrpIdIso.inv ≫ mapCommGrpNatTrans a.unit ≫ mapCommGrpCompIso.hom
+  counit := mapCommGrpCompIso.inv ≫ mapCommGrpNatTrans a.counit ≫ mapCommGrpIdIso.hom
+
+end Adjunction
+
 namespace Equivalence
 variable (e : C ≌ D) [e.functor.Braided] [e.inverse.Braided]
 

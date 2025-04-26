@@ -380,6 +380,16 @@ end Functor
 
 open Functor
 
+namespace Adjunction
+variable {F : C ⥤ D} {G : D ⥤ C} (a : F ⊣ G) [F.Monoidal] [G.Monoidal]
+
+/-- An adjunction of monoidal functors lifts to an adjunction of their lifts to group objects. -/
+@[simps!] noncomputable def mapGrp : F.mapGrp ⊣ G.mapGrp where
+  unit := mapGrpIdIso.inv ≫ mapGrpNatTrans a.unit ≫ mapGrpCompIso.hom
+  counit := mapGrpCompIso.inv ≫ mapGrpNatTrans a.counit ≫ mapGrpIdIso.hom
+
+end Adjunction
+
 namespace Equivalence
 variable (e : C ≌ D) [e.functor.Monoidal] [e.inverse.Monoidal]
 
