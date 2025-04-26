@@ -384,7 +384,7 @@ namespace Equivalence
 variable (e : C ≌ D) [e.functor.Monoidal] [e.inverse.Monoidal]
 
 /-- An equivalence of categories lifts to an equivalence of their group objects. -/
-@[simps!] noncomputable def mapGrp  : Grp_ C ≌ Grp_ D where
+@[simps!] noncomputable def mapGrp : Grp_ C ≌ Grp_ D where
   functor := e.functor.mapGrp
   inverse := e.inverse.mapGrp
   unitIso := mapGrpIdIso.symm ≪≫ mapGrpNatIso e.unitIso ≪≫ mapGrpCompIso
