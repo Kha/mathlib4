@@ -218,7 +218,7 @@ namespace Equivalence
 variable (e : C ≌ D) [e.functor.Braided] [e.inverse.Braided]
 
 /-- An equivalence of categories lifts to an equivalence of their commutative group objects. -/
-@[simps!] noncomputable def mapCommGrp  : CommGrp_ C ≌ CommGrp_ D where
+@[simps!] noncomputable def mapCommGrp : CommGrp_ C ≌ CommGrp_ D where
   functor := e.functor.mapCommGrp
   inverse := e.inverse.mapCommGrp
   unitIso := mapCommGrpIdIso.symm ≪≫ mapCommGrpNatIso e.unitIso ≪≫ mapCommGrpCompIso
