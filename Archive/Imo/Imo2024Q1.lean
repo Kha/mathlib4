@@ -109,7 +109,7 @@ lemma mem_Ico_n_of_mem_Ioo (h : α ∈ Set.Ioo 0 2) {n : ℕ} (hn : 0 < n) :
       have hn11 : k + 1 ∉ Finset.Icc 1 k := by
         rw [Finset.mem_Icc]
         omega
-      rw [← insert_Icc_eq_Icc_add_one_right (Nat.le_add_left 1 k), sum_insert hn11, hks]
+      rw [← insert_Icc_right_eq_Icc_add_one (Nat.le_add_left 1 k), sum_insert hn11, hks]
     specialize hc (k + 1) k.succ_pos
     rw [hs] at hc ⊢
     have hkl' : 2 * k ≤ ⌊(k + 1 : ℕ) * α⌋ := by
