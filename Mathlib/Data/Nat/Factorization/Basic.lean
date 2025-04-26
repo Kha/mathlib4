@@ -6,6 +6,7 @@ Authors: Stuart Presnell
 import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 import Mathlib.Data.Nat.Factorization.Defs
 import Mathlib.Data.Nat.GCD.BigOperators
+import Mathlib.Order.Interval.Finset.Nat
 import Mathlib.Tactic.IntervalCases
 
 /-!
