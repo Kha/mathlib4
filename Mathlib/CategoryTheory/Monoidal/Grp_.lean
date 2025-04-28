@@ -362,7 +362,8 @@ noncomputable def mapGrpCompIso : (F ⋙ G).mapGrp ≅ F.mapGrp ⋙ G.mapGrp :=
 
 /-- Natural transformations between functors lift to group objects. -/
 @[simps!]
-noncomputable def mapGrpNatTrans (f : F ⟶ F') : F.mapGrp ⟶ F'.mapGrp where app X := .mk (f.app _)
+noncomputable def mapGrpNatTrans (f : F ⟶ F') : F.mapGrp ⟶ F'.mapGrp where
+  app X := .mk (f.app _)
 
 /-- Natural isomorphisms between functors lift to group objects. -/
 @[simps!]
