@@ -139,6 +139,19 @@ instance apply_smulCommClass' [SMul S R] [SMul S M] [IsScalarTower S R M] :
     SMulCommClass (M ≃ₗ[R] M) S M :=
   SMulCommClass.symm _ _ _
 
+section SMul
+
+variable {G : Type*} [Group G] [DistribMulAction G M] [SMulCommClass R G M]
+
+/-- Scalar multiplication on the left as a linear equivalence. -/
+@[simps! -fullyApplied apply_toLinearMap apply_apply]
+def smulLeft : G →* M ≃ₗ[R] M where
+  toFun g := { MulAction.toPerm g with toLinearMap := g • .id }
+  map_mul' g₁ g₂ := by ext; simp [coe_mk, mul_smul]
+  map_one' := by ext; simp
+
+end SMul
+
 end Automorphisms
 
 section OfSubsingleton

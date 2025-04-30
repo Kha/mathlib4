@@ -628,6 +628,20 @@ theorem piCongrRight_symm_apply (n : (i : ι) → N i) (i : ι) :
 
 end piCongrRight
 
+section SMul
+
+variable {G : Type*} [Group G] [DistribMulAction G M₁] [ContinuousConstSMul G M₁]
+  [SMulCommClass R₁ G M₁]
+
+/-- Scalar multiplication by a group element as a continuous linear equivalence. -/
+@[simps! apply_toLinearEquiv apply_apply]
+def smulLeft : G →* M₁ ≃L[R₁] M₁ where
+  toFun g := ⟨.smulLeft g, continuous_const_smul _, continuous_const_smul _⟩
+  map_mul' _ _ := toLinearEquiv_injective <| map_mul LinearEquiv.smulLeft _ _
+  map_one' := toLinearEquiv_injective <| map_one LinearEquiv.smulLeft
+
+end SMul
+
 end AddCommMonoid
 
 section AddCommGroup
@@ -642,9 +656,7 @@ variable [IsTopologicalAddGroup M₄]
 /-- Equivalence given by a block lower diagonal matrix. `e` and `e'` are diagonal square blocks,
   and `f` is a rectangular block below the diagonal. -/
 def skewProd (e : M ≃L[R] M₂) (e' : M₃ ≃L[R] M₄) (f : M →L[R] M₄) : (M × M₃) ≃L[R] M₂ × M₄ :=
-  {
-    e.toLinearEquiv.skewProd e'.toLinearEquiv
-      ↑f with
+  { e.toLinearEquiv.skewProd e'.toLinearEquiv ↑f with
     continuous_toFun :=
       (e.continuous_toFun.comp continuous_fst).prodMk
         ((e'.continuous_toFun.comp continuous_snd).add <| f.continuous.comp continuous_fst)
@@ -763,7 +775,7 @@ variable [ContinuousMul R]
 
 /-- Continuous linear equivalences `R ≃L[R] R` are enumerated by `Rˣ`. -/
 def unitsEquivAut : Rˣ ≃ R ≃L[R] R where
-  toFun u :=
+  toFun u := 
     equivOfInverse (ContinuousLinearMap.smulRight (1 : R →L[R] R) ↑u)
       (ContinuousLinearMap.smulRight (1 : R →L[R] R) ↑u⁻¹) (fun x => by simp) fun x => by simp
   invFun e :=

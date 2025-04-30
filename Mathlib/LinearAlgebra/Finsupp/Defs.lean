@@ -234,17 +234,13 @@ This is the `LinearEquiv` version of `Finsupp.finsuppProdEquiv`. -/
 noncomputable def finsuppProdLEquiv {α β : Type*} (R : Type*) {M : Type*} [Semiring R]
     [AddCommMonoid M] [Module R M] : (α × β →₀ M) ≃ₗ[R] α →₀ β →₀ M :=
   { finsuppProdEquiv with
-    map_add' := fun f g => by
-      ext
-      simp [finsuppProdEquiv, curry_apply]
-    map_smul' := fun c f => by
-      ext
-      simp [finsuppProdEquiv, curry_apply] }
+    map_add' f g := by ext; simp
+    map_smul' c f := by ext; simp }
 
 @[simp]
 theorem finsuppProdLEquiv_apply {α β R M : Type*} [Semiring R] [AddCommMonoid M] [Module R M]
     (f : α × β →₀ M) (x y) : finsuppProdLEquiv R f x y = f (x, y) := by
-  rw [finsuppProdLEquiv, LinearEquiv.coe_mk, finsuppProdEquiv, Finsupp.curry_apply]
+  simp [finsuppProdLEquiv]
 
 @[simp]
 theorem finsuppProdLEquiv_symm_apply {α β R M : Type*} [Semiring R] [AddCommMonoid M] [Module R M]
