@@ -53,12 +53,10 @@ instance enoughProjectives [Small.{v} R] : EnoughProjectives (ModuleCat.{v} R) w
     ⟨{p := ModuleCat.of R (M →₀ Shrink.{v} R)
       projective := projective_of_free e
       f := ofHom <| e.constr ℕ _root_.id
-      epi := (epi_iff_range_eq_top _).mpr <| range_eq_top.2 fun m => ⟨Finsupp.single m 1, by
-        simp only [Basis.constr, Finsupp.mapRange.linearEquiv_apply, Finsupp.mapRange_single,
-          LinearEquiv.coe_mk, Finsupp.lmapDomain_id, id_comp, hom_ofHom, LinearMap.coe_comp,
-          Function.comp_apply, LinearEquiv.coe_coe, Shrink.linearEquiv_apply,
-          Finsupp.linearCombination_single, e]
-        rw [show (equivShrink R).symm 1 = 1 from (equivShrink R).symm_apply_apply 1]
-        exact MulAction.one_smul m⟩}⟩
+      epi := by
+        rw [epi_iff_range_eq_top, range_eq_top]
+        intro m
+        use Finsupp.single m 1
+        simp [e, Basis.constr_apply] }⟩
 
 end ModuleCat

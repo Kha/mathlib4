@@ -54,6 +54,16 @@ theorem one_def [One β] :
 noncomputable instance [Small.{v} α] [One α] : One (Shrink.{v} α) :=
   (equivShrink α).symm.one
 
+@[to_additive (attr := simp)]
+theorem _root_.Shrink.equivShrink_one [Small.{v} α] [One α] :
+    equivShrink.{v} α 1 = 1 :=
+  rfl
+
+@[to_additive (attr := simp)]
+theorem _root_.Shrink.equivShrink_symm_one [Small.{v} α] [One α] :
+    (equivShrink.{v} α).symm 1 = 1 :=
+  (equivShrink.{v} α).symm_apply_apply 1
+
 /-- Transfer `Mul` across an `Equiv` -/
 @[to_additive "Transfer `Add` across an `Equiv`"]
 protected abbrev mul [Mul β] : Mul α :=
