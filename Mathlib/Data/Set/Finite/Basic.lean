@@ -3,10 +3,7 @@ Copyright (c) 2017 Johannes Hölzl. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Johannes Hölzl, Mario Carneiro, Kyle Miller
 -/
-import Mathlib.Data.Finite.Defs
-import Mathlib.Data.Finset.Image
 import Mathlib.Data.Fintype.EquivFin
-import Mathlib.Order.Minimal
 import Mathlib.Tactic.Nontriviality
 
 /-!
@@ -882,42 +879,33 @@ variable {ι : Type*} [Preorder α] {s : Set α}
 
 lemma Finite.exists_maximalFor (f : ι → α) (s : Set ι) (h : s.Finite) (hs : s.Nonempty) :
     ∃ i, MaximalFor (· ∈ s) f i := by
-  induction s, h using Set.Finite.induction_on with
-  | empty => exact absurd hs not_nonempty_empty
-  | @insert a s his _ ih =>
-  obtain rfl | hs := s.eq_empty_or_nonempty
-  · exact ⟨a, by simp⟩
-  obtain ⟨b, hb, ih⟩ := ih hs
-  by_cases h : f b ≤ f a
-  · refine ⟨a, Set.mem_insert _ _, ?_⟩
-    rintro c (rfl | hcs) hac
-    · rfl
-    · exact (ih hcs <| h.trans hac).trans h
-  · refine ⟨b, Set.mem_insert_of_mem _ hb, ?_⟩
-    rintro c (rfl | hcs) hbc
-    · cases h hbc
-    · exact ih hcs hbc
+  lift s to Finset ι using h; simpa using s.exists_maximalFor f hs
 
 lemma Finite.exists_minimalFor (f : ι → α) (s : Set ι) (h : s.Finite) (hs : s.Nonempty) :
     ∃ i, MinimalFor (· ∈ s) f i := Finite.exists_maximalFor (α := αᵒᵈ) f s h hs
 
-lemma Finite.exists_maximal {s : Set α} (h : s.Finite) (hs : s.Nonempty) : ∃ i, Maximal (· ∈ s) i :=
+lemma Finite.exists_maximal (h : s.Finite) (hs : s.Nonempty) : ∃ i, Maximal (· ∈ s) i :=
   h.exists_maximalFor id _ hs
 
-lemma Finite.exists_minimal {s : Set α} (h : s.Finite) (hs : s.Nonempty) : ∃ i, Minimal (· ∈ s) i :=
+lemma Finite.exists_minimal (h : s.Finite) (hs : s.Nonempty) : ∃ i, Minimal (· ∈ s) i :=
   h.exists_minimalFor id _ hs
 
 /-- A version of `Finite.exists_maximalFor` with the (weaker) hypothesis that the image of `s`
-  is finite rather than `s` itself. -/
+is finite rather than `s` itself. -/
 lemma Finite.exists_maximalFor' (f : ι → α) (s : Set ι) (h : (f '' s).Finite) (hs : s.Nonempty) :
     ∃ i, MaximalFor (· ∈ s) f i := by
   obtain ⟨_, ⟨a, ha, rfl⟩, hmax⟩ := Finite.exists_maximalFor id (f '' s) h (hs.image f)
   exact ⟨a, ha, fun a' ha' hf ↦ hmax (mem_image_of_mem f ha') hf⟩
 
 /-- A version of `Finite.exists_minimalFor` with the (weaker) hypothesis that the image of `s`
-  is finite rather than `s` itself. -/
+is finite rather than `s` itself. -/
 lemma Finite.exists_minimalFor' (f : ι → α) (s : Set ι) (h : (f '' s).Finite) (hs : s.Nonempty) :
     ∃ i, MinimalFor (· ∈ s) f i := h.exists_maximalFor' (α := αᵒᵈ) f s hs
+
+@[deprecated (since := "2025-05-04")] alias Finite.exists_maximal_wrt := Finite.exists_maximalFor
+@[deprecated (since := "2025-05-04")] alias Finite.exists_minimal_wrt := Finite.exists_minimalFor
+@[deprecated (since := "2025-05-04")] alias Finite.exists_maximal_wrt' := Finite.exists_maximalFor'
+@[deprecated (since := "2025-05-04")] alias Finite.exists_minimal_wrt' := Finite.exists_minimalFor'
 
 variable [Nonempty α]
 
