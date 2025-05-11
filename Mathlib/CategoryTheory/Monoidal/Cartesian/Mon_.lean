@@ -15,10 +15,10 @@ is a presheaf of monoids, by constructing the yoneda embedding `Mon_ C ⥤ Cᵒ�
 showing that it is fully faithful and its (essential) image is the representable functors.
 -/
 
-open CategoryTheory MonoidalCategory Limits Opposite ChosenFiniteProducts Mon_Class
+open CategoryTheory MonoidalCategory Limits Opposite CartesianMonoidalCategory Mon_Class
 
 universe w v u
-variable {C : Type u} [Category.{v} C] [ChosenFiniteProducts C]
+variable {C : Type u} [Category.{v} C] [CartesianMonoidalCategory C]
   {M N X Y : C} [Mon_Class M] [Mon_Class N]
 
 namespace Mon_
