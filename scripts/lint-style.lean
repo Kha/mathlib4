@@ -150,7 +150,12 @@ def lintStyleCli (args : Cli.Parsed) : IO UInt32 := do
   -- file could re-use an outdated version of the nolints file.
   -- (For syntax linters, such a bug actually occurred in mathlib.)
   -- This script is re-run each time, hence is immune to such issues.
-  let nolints ← IO.FS.lines ("scripts" / "nolints-style.txt")
+  let filename : System.FilePath := ("scripts" / "nolints-style.txt")
+  let nolints ← try
+    IO.FS.lines filename
+  catch _ =>
+    IO.eprintln s!"warning: nolints file could not be read; treating as empty: {filename}"
+    pure #[]
   let mut numberErrors ← lintModules nolints allModuleNames style fix
   if ← checkInitImports then numberErrors := numberErrors + 1
   if !(← allScriptsDocumented) then numberErrors := numberErrors + 1
