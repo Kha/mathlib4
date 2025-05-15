@@ -47,7 +47,7 @@ variable {Ω : Type*} {mΩ : MeasurableSpace Ω} {X : Ω → ℝ} {μ : Measure 
 
 variable (X μ) in
 -- Porting note: Consider if `evariance` or `eVariance` is better. Also,
--- consider `eVariationOn` in `Mathlib.Analysis.BoundedVariation`.
+-- consider `eVariationOn` in `Mathlib/Analysis/BoundedVariation.lean`.
 /-- The `ℝ≥0∞`-valued variance of a real-valued random variable defined as the Lebesgue integral of
 `‖X - 𝔼[X]‖^2`. -/
 def evariance : ℝ≥0∞ := ∫⁻ ω, ‖X ω - μ[X]‖ₑ ^ 2 ∂μ
