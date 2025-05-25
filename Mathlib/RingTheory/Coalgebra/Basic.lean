@@ -157,6 +157,17 @@ theorem sum_map_tmul_tmul_eq {B : Type*} [AddCommMonoid B] [Module R B]
     (TensorProduct.map (g : A →ₗ[R] B) (h : A →ₗ[R] B)) at this
   simp_all only [map_sum, TensorProduct.map_tmul, LinearMap.coe_coe]
 
+variable (R A) in
+/-- A coalgebra `A` is cocommutative if its comultiplication `δ : A → A ⊗ A` commutes with the
+swapping `β : A ⊗ A ≃ A ⊗ A` of the factors in the tensor product. -/
+class IsCocomm where
+  protected comul_comm : (TensorProduct.comm R A A).comp comul = comul
+
+variable [IsCocomm R A]
+
+variable (R A) in
+@[simp] lemma comul_comm : (TensorProduct.comm R A A).comp comul = comul := IsCocomm.comul_comm
+
 end Coalgebra
 
 open Coalgebra
@@ -177,6 +188,8 @@ theorem comul_apply (r : R) : comul r = 1 ⊗ₜ[R] r := rfl
 
 @[simp]
 theorem counit_apply (r : R) : counit r = r := rfl
+
+instance : IsCocomm R R where comul_comm' := by ext; simp
 
 end CommSemiring
 
