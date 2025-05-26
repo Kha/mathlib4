@@ -19,7 +19,7 @@ as a coalgebra morphism.
 
 -/
 
-open TensorProduct
+open Coalgebra TensorProduct
 
 variable {R A B : Type*} [CommSemiring R] [AddCommMonoid B] [AddCommMonoid A]
     [Module R A] [Module R B] [Coalgebra R A] [Coalgebra R B]
@@ -135,6 +135,11 @@ instance instCoalgebra : Coalgebra R (A ⊗[R] B) where
       rw [tmul_smul, mul_smul, one_smul, smul_tmul']
     · dsimp
       simp only [one_smul]
+
+instance instIsCocomm [IsCocomm R A] [IsCocomm R B] : IsCocomm R (A ⊗[R] B) where
+  comm_comp_comul := by
+    ext : 1 -- wrong ext lemma!
+    sorry
 
 end TensorProduct
 
