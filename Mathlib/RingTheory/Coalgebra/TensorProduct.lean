@@ -136,6 +136,8 @@ instance instCoalgebra : Coalgebra R (A ⊗[R] B) where
     · dsimp
       simp only [one_smul]
 
+proof_wanted instIsCocomm [IsCocomm R A] [IsCocomm R B] : IsCocomm R (A ⊗[R] B)
+
 end TensorProduct
 
 namespace Coalgebra
