@@ -136,11 +136,6 @@ instance instCoalgebra : Coalgebra R (A ⊗[R] B) where
     · dsimp
       simp only [one_smul]
 
-instance instIsCocomm [IsCocomm R A] [IsCocomm R B] : IsCocomm R (A ⊗[R] B) where
-  comm_comp_comul := by
-    ext : 1 -- wrong ext lemma!
-    sorry
-
 end TensorProduct
 
 namespace Coalgebra
