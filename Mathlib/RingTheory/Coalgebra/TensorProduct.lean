@@ -19,7 +19,7 @@ as a coalgebra morphism.
 
 -/
 
-open Coalgebra TensorProduct
+open TensorProduct
 
 variable {R A B : Type*} [CommSemiring R] [AddCommMonoid B] [AddCommMonoid A]
     [Module R A] [Module R B] [Coalgebra R A] [Coalgebra R B]
