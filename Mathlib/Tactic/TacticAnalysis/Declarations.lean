@@ -7,6 +7,7 @@ import Mathlib.Tactic.TacticAnalysis
 import Mathlib.Tactic.ExtractGoal
 import Mathlib.Tactic.MinImports
 import Lean.Elab.Command
+import Aesop
 
 /-!
 # Tactic linters
