@@ -149,3 +149,5 @@ register_hint (priority := 200) omega
 register_hint (priority := 200) fun_prop
 
 end Hint
+
+-- example : True := by canonical
