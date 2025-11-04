@@ -37,6 +37,7 @@ abbrev mathlibOnlyLinters : Array LeanOption := #[
   ⟨`linter.tacticAnalysis.tryAtEachStepGrind, true⟩,
   ⟨`linter.tacticAnalysis.tryAtEachStepSimpAllSuggestions, true⟩,
   ⟨`linter.tacticAnalysis.tryAtEachStepGrindSuggestions, true⟩,
+  ⟨`linter.tacticAnalysis.tryAtEachStepGrind.fraction, .ofNat 10⟩,
   -- ⟨`linter.nightlyRegressionSet, true⟩,
   -- `latest_import.yml` uses this comment: if you edit it, make sure that the workflow still works
 ]
