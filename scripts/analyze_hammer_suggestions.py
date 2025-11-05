@@ -26,9 +26,12 @@ enable additional tactics. The script analyzes which tactics can replace existin
 tactics at each location, both with and without the +suggestions flag.
 
 Output includes:
-  - Count of locations solvable by each subset of enabled tactics
+  - Three categories based on +suggestions impact:
+    * Regressions: worked without +suggestions but failed with +suggestions
+    * Improvements: failed without +suggestions but worked with +suggestions
+    * Neutral: same result with/without +suggestions
+  - For each category, a binary table showing tactic combinations
   - Grid format showing binary patterns (1=tactic works, 0=doesn't)
-  - Separate tables for base tactics and +suggestions variants
 
 Normalization:
   - Removes 'try ' prefix from tactics
@@ -141,25 +144,6 @@ def print_table(counts, tactics, title):
     # Sort subsets by binary representation for consistent display
     all_subsets.sort(key=lambda s: format_subset(s, tactics), reverse=True)
 
-    # Print header
-    print(f"\n{'Subset':<40} {'Count':>8}")
-    print("-" * 50)
-
-    total = 0
-    for subset in all_subsets:
-        count = counts.get(subset, 0)
-        total += count
-        if count > 0 or subset == frozenset():  # Show zero count for empty set
-            subset_str = '{' + ', '.join(sorted(subset)) + '}' if subset else '{}'
-            print(f"{subset_str:<40} {count:>8}")
-
-    print("-" * 50)
-    print(f"{'Total locations':<40} {total:>8}")
-
-    # Print grid format
-    print(f"\n{title} - Grid Format")
-    print("=" * len(title))
-
     # Create a mapping from binary pattern to count
     pattern_counts = {}
     for subset in all_subsets:
@@ -186,6 +170,50 @@ def print_table(counts, tactics, title):
             print()
 
 
+def categorize_locations(locations, base_tactics):
+    """
+    Categorize locations into three groups based on +suggestions impact:
+    - regression: base works but +suggestions doesn't for at least one tactic
+    - improvement: +suggestions works but base doesn't for at least one tactic (and no regressions)
+    - neutral: same result for all tactics with/without +suggestions
+
+    Returns three dicts mapping location -> frozenset of tactics that worked.
+    """
+    regression_locs = {}
+    improvement_locs = {}
+    neutral_locs = {}
+
+    for location, suggestions in locations.items():
+        has_regression = False
+        has_improvement = False
+
+        base_working = set()
+        sugg_working = set()
+
+        for tactic in base_tactics:
+            base_works = tactic in suggestions
+            sugg_works = f'{tactic} +suggestions' in suggestions
+
+            if base_works:
+                base_working.add(tactic)
+            if sugg_works:
+                sugg_working.add(f'{tactic} +suggestions')
+
+            if base_works and not sugg_works:
+                has_regression = True
+            if sugg_works and not base_works:
+                has_improvement = True
+
+        if has_regression:
+            regression_locs[location] = frozenset(base_working)
+        elif has_improvement:
+            improvement_locs[location] = frozenset(sugg_working)
+        else:
+            neutral_locs[location] = frozenset(base_working)
+
+    return regression_locs, improvement_locs, neutral_locs
+
+
 def output_analysis(locations, enabled_tactics):
     """Output analysis tables."""
     print(f"Found {len(locations)} unique locations with suggestions")
@@ -199,18 +227,30 @@ def output_analysis(locations, enabled_tactics):
 
     print(f"\nAnalyzing tactics: {', '.join(base_tactics)}")
 
-    # Tactics with +suggestions
+    # Categorize locations
+    regression_locs, improvement_locs, neutral_locs = categorize_locations(locations, base_tactics)
+
+    print(f"\nRegressions: {len(regression_locs)} locations")
+    print(f"Improvements: {len(improvement_locs)} locations")
+    print(f"Neutral: {len(neutral_locs)} locations")
+
+    # Create +suggestions tactic names for display
     suggestions_tactics = [f'{t} +suggestions' for t in base_tactics]
 
-    # Analyze base tactics
-    base_support = check_tactic_support(locations, base_tactics)
-    base_counts = count_subsets(base_support)
-    print_table(base_counts, base_tactics, "Counts without +suggestions")
+    # Print regression table (base tactics that worked)
+    if regression_locs:
+        regression_counts = count_subsets(regression_locs)
+        print_table(regression_counts, base_tactics, "REGRESSIONS (worked without +suggestions, failed with +suggestions)")
 
-    # Analyze +suggestions tactics
-    sugg_support = check_tactic_support(locations, suggestions_tactics)
-    sugg_counts = count_subsets(sugg_support)
-    print_table(sugg_counts, suggestions_tactics, "Counts with +suggestions")
+    # Print improvement table (+suggestions tactics that worked)
+    if improvement_locs:
+        improvement_counts = count_subsets(improvement_locs)
+        print_table(improvement_counts, suggestions_tactics, "IMPROVEMENTS (failed without +suggestions, worked with +suggestions)")
+
+    # Print neutral table (base tactics, since same as +suggestions)
+    if neutral_locs:
+        neutral_counts = count_subsets(neutral_locs)
+        print_table(neutral_counts, base_tactics, "NEUTRAL (same result with/without +suggestions)")
 
 
 def main():
