@@ -3,10 +3,12 @@ Copyright (c) 2025 Andrew Yang. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Andrew Yang
 -/
-import Mathlib.NumberTheory.NumberField.Discriminant.Defs
-import Mathlib.RingTheory.DedekindDomain.Different
-import Mathlib.RingTheory.Ideal.Norm.RelNorm
-import Mathlib.Tactic.Qify
+module
+
+public import Mathlib.NumberTheory.NumberField.Discriminant.Defs
+public import Mathlib.RingTheory.DedekindDomain.Different
+public import Mathlib.RingTheory.Ideal.Norm.RelNorm
+public import Mathlib.Tactic.Qify
 
 /-!
 
@@ -19,6 +21,8 @@ import Mathlib.Tactic.Qify
   Formula for the absolute discriminant of `L` in terms of that of `K` in an extension `L/K`.
 
 -/
+
+@[expose] public section
 
 namespace NumberField
 
