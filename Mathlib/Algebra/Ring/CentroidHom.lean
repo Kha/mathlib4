@@ -10,6 +10,7 @@ public import Mathlib.Algebra.Module.Hom
 public import Mathlib.GroupTheory.GroupAction.Ring
 public import Mathlib.Algebra.Ring.Subsemiring.Basic
 public import Mathlib.Algebra.Module.RingHom
+public import Mathlib.Algebra.Algebra.Defs  -- shake: keep (`example` dependency)
 
 /-!
 # Centroid homomorphisms
