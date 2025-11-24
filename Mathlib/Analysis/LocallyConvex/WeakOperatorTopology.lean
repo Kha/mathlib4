@@ -5,7 +5,6 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
 public import Mathlib.Analysis.LocallyConvex.SeparatingDual
 public import Mathlib.Topology.Algebra.Module.StrongTopology
 

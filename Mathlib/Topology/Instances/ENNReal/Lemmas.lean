@@ -5,7 +5,6 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Intervals
 public import Mathlib.Data.ENNReal.BigOperators
 public import Mathlib.Tactic.Bound
 public import Mathlib.Topology.Order.LiminfLimsup

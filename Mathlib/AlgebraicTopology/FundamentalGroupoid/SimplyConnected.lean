@@ -7,7 +7,6 @@ module
 
 public import Mathlib.AlgebraicTopology.FundamentalGroupoid.InducedMaps
 public import Mathlib.Topology.Homotopy.Contractible
-public import Mathlib.CategoryTheory.PUnit
 public import Mathlib.AlgebraicTopology.FundamentalGroupoid.PUnit
 
 /-!

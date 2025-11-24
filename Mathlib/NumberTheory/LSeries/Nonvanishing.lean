@@ -5,9 +5,7 @@ Authors: Michael Stoll, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
 public import Mathlib.NumberTheory.Harmonic.ZetaAsymp
-public import Mathlib.NumberTheory.LSeries.Dirichlet
 public import Mathlib.NumberTheory.LSeries.DirichletContinuation
 public import Mathlib.NumberTheory.LSeries.Positivity
 

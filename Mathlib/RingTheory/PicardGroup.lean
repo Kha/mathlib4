@@ -6,15 +6,10 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Symmetric
-public import Mathlib.Algebra.Module.FinitePresentation
-public import Mathlib.Algebra.Module.LocalizedModule.Submodule
 public import Mathlib.CategoryTheory.Monoidal.Skeleton
 public import Mathlib.LinearAlgebra.Contraction
-public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
 public import Mathlib.LinearAlgebra.TensorProduct.Submodule
 public import Mathlib.RingTheory.Flat.Localization
-public import Mathlib.RingTheory.Localization.BaseChange
 public import Mathlib.RingTheory.LocalRing.Module
 
 /-!

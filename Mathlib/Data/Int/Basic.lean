@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Data.Int.Init
 public import Mathlib.Data.Nat.Basic
-public import Mathlib.Logic.Nontrivial.Defs
 public import Mathlib.Tactic.Conv
 public import Mathlib.Tactic.Convert
 public import Mathlib.Tactic.Lift

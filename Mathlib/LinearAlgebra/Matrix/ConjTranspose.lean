@@ -5,15 +5,9 @@ Authors: Ellen Arlt, Blair Shi, Sean Leather, Mario Carneiro, Johan Commelin, Lu
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.BigOperators.RingEquiv
-public import Mathlib.Algebra.Module.Pi
 public import Mathlib.Algebra.Star.BigOperators
 public import Mathlib.Algebra.Star.Module
-public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Data.Matrix.Basis
-public import Mathlib.Data.Matrix.Mul
 
 /-!
 # Matrices over star rings.

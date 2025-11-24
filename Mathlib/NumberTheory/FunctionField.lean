@@ -6,9 +6,6 @@ Authors: Anne Baanen, Ashvni Narayanan
 module
 
 public import Mathlib.FieldTheory.RatFunc.Degree
-public import Mathlib.RingTheory.DedekindDomain.IntegralClosure
-public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
-public import Mathlib.Topology.Algebra.Valued.ValuedField
 
 /-!
 # Function fields

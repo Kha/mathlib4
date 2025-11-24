@@ -11,7 +11,8 @@ public import Mathlib.Algebra.Field.Subfield.Basic
 public import Mathlib.Algebra.Order.GroupWithZero.Submonoid
 public import Mathlib.Algebra.Order.Ring.Int
 public import Mathlib.RingTheory.Localization.Basic
-public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Algebra.Order.Group.Nat
+public import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Fraction ring / fraction field Frac(R) as localization

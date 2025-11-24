@@ -5,7 +5,6 @@ Authors: Kim Morrison, Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.EpiMono
 public import Mathlib.CategoryTheory.Limits.HasLimits
 
 /-!

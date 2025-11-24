@@ -6,8 +6,6 @@ Authors: Christian Merten
 module
 
 public import Mathlib.RingTheory.Flat.Basic
-public import Mathlib.RingTheory.IsTensorProduct
-public import Mathlib.LinearAlgebra.TensorProduct.Tower
 public import Mathlib.RingTheory.Localization.BaseChange
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
 

@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Analysis.Convex.Basic
 public import Mathlib.Order.Filter.Extr
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Convex and concave functions

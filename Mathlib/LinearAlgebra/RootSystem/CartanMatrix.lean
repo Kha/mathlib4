@@ -9,8 +9,6 @@ public import Mathlib.Algebra.CharZero.Infinite
 public import Mathlib.Algebra.Module.Submodule.Union
 public import Mathlib.LinearAlgebra.Matrix.BilinearForm
 public import Mathlib.LinearAlgebra.RootSystem.Base
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Nondegenerate
 
 /-!
 # Cartan matrices for root systems

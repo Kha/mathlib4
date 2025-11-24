@@ -6,12 +6,9 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.BigOperators.Finprod
-public import Mathlib.Algebra.GroupWithZero.Action.Defs
 public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
-public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
 public import Mathlib.Algebra.Ring.GeomSum
 public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.Data.Nat.Lattice
 public import Mathlib.RingTheory.Nilpotent.Defs
 
 /-!

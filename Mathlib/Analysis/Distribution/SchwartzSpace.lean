@@ -5,11 +5,8 @@ Authors: Moritz Doll
 -/
 module
 
-public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
 public import Mathlib.Analysis.Calculus.LineDeriv.Basic
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
 public import Mathlib.Analysis.Normed.Group.ZeroAtInfty
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.Analysis.Distribution.TemperateGrowth
 public import Mathlib.Topology.Algebra.UniformFilterBasis
 public import Mathlib.MeasureTheory.Integral.IntegralEqImproper

@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.Lie.Free
 public import Mathlib.Algebra.Lie.Quotient
-public import Mathlib.LinearAlgebra.Matrix.Notation
 
 /-!
 # Lie algebras from Cartan matrices

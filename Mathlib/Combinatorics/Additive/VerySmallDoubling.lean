@@ -8,9 +8,8 @@ module
 public import Mathlib.Algebra.Pointwise.Stabilizer
 public import Mathlib.Combinatorics.Additive.Convolution
 public import Mathlib.NumberTheory.Real.GoldenRatio
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
 public import Mathlib.Tactic.Qify
+public import Mathlib.Tactic.Positivity.Finset
 
 /-!
 # Sets with very small doubling

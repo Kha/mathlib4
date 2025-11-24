@@ -5,7 +5,6 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Tactic.StacksAttribute
 public import Mathlib.Topology.ContinuousMap.Basic
 public import Mathlib.Topology.Maps.Proper.Basic
 

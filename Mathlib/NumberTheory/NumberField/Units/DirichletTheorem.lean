@@ -7,7 +7,6 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Gershgorin
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.ConvexBody
-public import Mathlib.NumberTheory.NumberField.Units.Basic
 
 /-!
 # Dirichlet theorem on the group of units of a number field

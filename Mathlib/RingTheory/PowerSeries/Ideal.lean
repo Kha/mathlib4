@@ -7,7 +7,6 @@ module
 
 public import Mathlib.RingTheory.PowerSeries.Inverse
 public import Mathlib.RingTheory.PowerSeries.Trunc
-public import Mathlib.RingTheory.Finiteness.Ideal
 public import Mathlib.RingTheory.Noetherian.OfPrime
 public import Mathlib.Algebra.Module.SpanRank
 

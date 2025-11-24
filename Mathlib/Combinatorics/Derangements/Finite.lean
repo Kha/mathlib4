@@ -8,7 +8,7 @@ module
 public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Combinatorics.Derangements.Basic
 public import Mathlib.Data.Fintype.BigOperators
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Derangements on fintypes

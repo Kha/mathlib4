@@ -6,6 +6,8 @@ Authors: Leonardo de Moura, Miyahara Kō
 module
 
 public meta import Mathlib.Tactic.CC.Addition
+public import Lean.Elab.Tactic.Config
+public import Mathlib.Tactic.CC.Addition
 
 /-!
 # Congruence closure

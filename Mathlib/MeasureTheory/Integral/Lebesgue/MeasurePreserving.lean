@@ -5,7 +5,10 @@ Authors: Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Dynamics.Ergodic.MeasurePreserving
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+public import Mathlib.Tactic.Bound
+public import Mathlib.Data.EReal.Inv
+public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Tactic.Measurability.Init
+public import Mathlib.Topology.Instances.NNReal.Lemmas
 
 deprecated_module (since := "2025-04-15")

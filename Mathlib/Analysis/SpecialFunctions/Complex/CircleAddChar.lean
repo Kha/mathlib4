@@ -8,7 +8,6 @@ module
 public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
 public import Mathlib.NumberTheory.LegendreSymbol.AddCharacter
 public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
-public import Mathlib.Topology.Instances.AddCircle.Real
 
 /-!
 # Additive characters valued in the unit circle

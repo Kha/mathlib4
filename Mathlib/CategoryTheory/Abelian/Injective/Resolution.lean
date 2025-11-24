@@ -7,8 +7,6 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.Injective.Resolution
 public import Mathlib.Algebra.Homology.HomotopyCategory
-public import Mathlib.Data.Set.Subsingleton
-public import Mathlib.Tactic.AdaptationNote
 
 /-!
 # Abelian categories with enough injectives have injective resolutions

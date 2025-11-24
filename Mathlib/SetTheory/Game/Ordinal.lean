@@ -7,7 +7,6 @@ module
 
 public import Mathlib.SetTheory.Game.Basic
 public import Mathlib.SetTheory.Ordinal.NaturalOps
-public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Ordinal` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

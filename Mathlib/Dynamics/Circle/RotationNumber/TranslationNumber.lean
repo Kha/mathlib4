@@ -6,9 +6,7 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Order.Iterate
 public import Mathlib.Order.SemiconjSup
-public import Mathlib.Topology.Order.MonotoneContinuity
 public import Mathlib.Algebra.CharP.Defs
 
 /-!

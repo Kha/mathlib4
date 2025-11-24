@@ -5,12 +5,11 @@ Authors: Yaël Dillies, Christopher Hoskin
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Algebra.Module.Hom
 public import Mathlib.GroupTheory.GroupAction.Ring
-public import Mathlib.RingTheory.NonUnitalSubsemiring.Basic
 public import Mathlib.Algebra.Ring.Subsemiring.Basic
+public import Mathlib.Algebra.Module.RingHom
 
 /-!
 # Centroid homomorphisms

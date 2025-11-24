@@ -5,12 +5,7 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Types.Coequalizers
-public import Mathlib.CategoryTheory.Limits.Types.Coproducts
-public import Mathlib.CategoryTheory.Limits.Types.Equalizers
-public import Mathlib.CategoryTheory.Limits.Types.Multiequalizer
-public import Mathlib.CategoryTheory.Limits.Types.Products
-public import Mathlib.CategoryTheory.Limits.Types.Pullbacks
-public import Mathlib.CategoryTheory.Limits.Types.Pushouts
+public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 
 deprecated_module (since := "2025-11-04")

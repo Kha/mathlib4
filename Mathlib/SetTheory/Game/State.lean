@@ -6,7 +6,6 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.SetTheory.Game.Short
-public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.ConcreteGame` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

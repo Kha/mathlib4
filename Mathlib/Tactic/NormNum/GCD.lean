@@ -5,9 +5,12 @@ Authors: Mario Carneiro, Kyle Miller, Eric Wieser
 -/
 module
 
-public meta import Mathlib.Algebra.Ring.Divisibility.Basic
-public meta import Mathlib.Data.Int.GCD
-public meta import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Algebra.Ring.Divisibility.Basic
+public import Mathlib.Data.Rat.Cast.Order
 
 /-! # `norm_num` extensions for GCD-adjacent functions
 

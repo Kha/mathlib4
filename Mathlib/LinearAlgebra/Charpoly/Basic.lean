@@ -5,8 +5,6 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 public import Mathlib.LinearAlgebra.Determinant
 public import Mathlib.FieldTheory.Minpoly.Field
 

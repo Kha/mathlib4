@@ -5,7 +5,6 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.SymmDiff
 public import Mathlib.Order.SuccPred.Relation
 public import Mathlib.Topology.Irreducible
 

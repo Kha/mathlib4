@@ -5,7 +5,6 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.NatIso
 public import Mathlib.CategoryTheory.ObjectProperty.ClosedUnderIsomorphisms
 public import Mathlib.CategoryTheory.ObjectProperty.FullSubcategory
 

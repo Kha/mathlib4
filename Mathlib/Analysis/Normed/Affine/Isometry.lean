@@ -11,7 +11,6 @@ public import Mathlib.Analysis.Normed.Group.AddTorsor
 public import Mathlib.Analysis.Normed.Module.Basic
 public import Mathlib.LinearAlgebra.AffineSpace.Midpoint
 public import Mathlib.LinearAlgebra.AffineSpace.Restrict
-public import Mathlib.Tactic.FailIfNoProgress
 
 /-!
 # Affine isometries

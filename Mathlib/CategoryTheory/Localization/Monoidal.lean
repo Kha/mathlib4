@@ -6,5 +6,6 @@ Authors: Joël Riou, Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Localization.Monoidal.Basic
+public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-10-20")

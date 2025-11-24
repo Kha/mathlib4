@@ -5,11 +5,8 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Defs
-public import Mathlib.Algebra.Algebra.NonUnitalHom
 public import Mathlib.Algebra.Star.Module
 public import Mathlib.Algebra.Star.NonUnitalSubalgebra
-public import Mathlib.LinearAlgebra.Prod
 public import Mathlib.Tactic.Abel
 
 /-!

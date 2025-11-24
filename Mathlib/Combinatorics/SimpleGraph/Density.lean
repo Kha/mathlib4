@@ -9,10 +9,11 @@ public import Mathlib.Algebra.Order.Field.Basic
 public import Mathlib.Combinatorics.SimpleGraph.Basic
 public import Mathlib.Data.Rat.Cast.Order
 public import Mathlib.Order.Partition.Finpartition
-public import Mathlib.Tactic.GCongr
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.Positivity.Finset
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Edge density

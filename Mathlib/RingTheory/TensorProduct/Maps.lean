@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.Algebra.RestrictScalars
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
-public import Mathlib.Algebra.Module.Rat
 public import Mathlib.RingTheory.TensorProduct.Basic
 
 /-!

@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Divisibility.Units
 public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # The maximal power of one natural number dividing another

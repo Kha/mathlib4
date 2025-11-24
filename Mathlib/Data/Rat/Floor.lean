@@ -6,11 +6,8 @@ Authors: Johannes Hölzl, Mario Carneiro, Kevin Kappelmann
 module
 
 public import Mathlib.Algebra.Order.Round
-public import Mathlib.Data.Rat.Cast.Order
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
-meta import Mathlib.Algebra.Order.Floor.Defs
-meta import Mathlib.Algebra.Order.Round
+public meta import Mathlib.Algebra.Order.Round
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Floor Function for Rational Numbers

@@ -5,7 +5,6 @@ Authors: Julian Komaromy
 -/
 module
 
-public import Mathlib.AlgebraicTopology.SimplicialSet.Basic
 public import Mathlib.AlgebraicTopology.SimplicialSet.CompStructTruncated
 
 /-!

@@ -6,7 +6,6 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.LocalProperties.Basic
-public import Mathlib.RingTheory.Localization.Integer
 public import Mathlib.RingTheory.TensorProduct.Finite
 
 /-!

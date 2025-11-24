@@ -6,7 +6,6 @@ Authors: Mario Carneiro, Evgenia Karunus, Kyle Miller
 module
 
 public import Mathlib.Init
-public meta import Lean.Util.Trace
 
 /-!
 # Explode command: datatypes

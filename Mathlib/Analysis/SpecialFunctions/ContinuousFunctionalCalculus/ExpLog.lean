@@ -6,5 +6,6 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.ExpLog.Basic
+public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-11-15")

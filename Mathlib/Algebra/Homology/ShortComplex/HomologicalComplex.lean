@@ -8,7 +8,11 @@ module
 public import Mathlib.Algebra.Homology.Additive
 public import Mathlib.Algebra.Homology.ShortComplex.Exact
 public import Mathlib.Algebra.Homology.ShortComplex.Preadditive
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # The short complexes attached to homological complexes

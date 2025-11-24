@@ -9,8 +9,11 @@ public import Mathlib.Algebra.Order.Field.Basic
 public import Mathlib.Algebra.Order.Floor.Semiring
 public import Mathlib.Tactic.Abel
 public import Mathlib.Tactic.Field
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Lemmas on `Int.floor`, `Int.ceil` and `Int.fract`

@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Rayleigh
 public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.Algebra.DirectSum.Decomposition
 public import Mathlib.LinearAlgebra.Eigenspace.Minpoly
 public import Mathlib.Data.Fin.Tuple.Sort
 

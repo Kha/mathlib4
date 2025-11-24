@@ -8,8 +8,6 @@ module
 public import Mathlib.AlgebraicTopology.FundamentalGroupoid.SimplyConnected
 public import Mathlib.Topology.Connected.LocPathConnected
 public import Mathlib.Topology.Covering
-public import Mathlib.Topology.Homotopy.Path
-public import Mathlib.Topology.UnitInterval
 
 /-!
 # The homotopy lifting property for covering maps

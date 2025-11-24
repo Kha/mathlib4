@@ -5,7 +5,6 @@ Authors: Matthew Robert Ballard, Damiano Testa
 -/
 module
 
-public meta import Lean.Elab.Command
 public import Mathlib.Init
 
 /-!

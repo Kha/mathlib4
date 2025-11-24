@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Combinatorics.Enumerative.DoubleCounting
 public import Mathlib.Combinatorics.SimpleGraph.AdjMatrix
+public import Batteries.Util.ProofWanted
 
 /-!
 # Strongly regular graphs

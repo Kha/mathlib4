@@ -5,9 +5,7 @@ Authors: Tian Chen, Mantas Bakšys
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Basic
 public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.Algebra.Ring.Int.Parity
 public import Mathlib.Data.Nat.Choose.Sum
 public import Mathlib.Data.Nat.Prime.Int
 public import Mathlib.NumberTheory.Padics.PadicVal.Defs

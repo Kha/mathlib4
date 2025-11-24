@@ -8,7 +8,6 @@ module
 public import Mathlib.Algebra.Order.Group.Abs
 public import Mathlib.Algebra.Order.Group.Basic
 public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Data.Int.Cast.Basic
 public import Mathlib.Order.Interval.Set.Basic
 public import Mathlib.Logic.Pairwise
 

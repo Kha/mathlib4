@@ -5,9 +5,7 @@ Authors: Judith Ludwig, Christian Merten
 -/
 module
 
-public import Mathlib.RingTheory.AdicCompletion.Basic
 public import Mathlib.RingTheory.AdicCompletion.Algebra
-public import Mathlib.Algebra.DirectSum.Basic
 
 /-!
 # Functoriality of adic completions

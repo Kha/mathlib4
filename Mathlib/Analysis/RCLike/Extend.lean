@@ -5,7 +5,6 @@ Authors: Ruben Van de Velde
 -/
 module
 
-public import Mathlib.Algebra.Algebra.RestrictScalars
 public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.LinearAlgebra.Dual.Defs
 

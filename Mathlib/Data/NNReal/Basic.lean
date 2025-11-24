@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.BigOperators.Expect
 public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.Field.Canonical
 public import Mathlib.Algebra.Order.Nonneg.Floor
 public import Mathlib.Data.Real.Pointwise
 public import Mathlib.Data.NNReal.Defs

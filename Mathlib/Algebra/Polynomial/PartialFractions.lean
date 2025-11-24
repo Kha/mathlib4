@@ -6,7 +6,6 @@ Authors: Kevin Buzzard, Sidharth Hariharan
 module
 
 public import Mathlib.Algebra.Polynomial.Div
-public import Mathlib.Logic.Function.Basic
 public import Mathlib.RingTheory.Coprime.Lemmas
 public import Mathlib.RingTheory.Localization.FractionRing
 public import Mathlib.Tactic.FieldSimp

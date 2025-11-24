@@ -5,9 +5,7 @@ Authors: Leonardo de Moura
 -/
 module
 
-public import Batteries.Control.AlternativeMonad
 public import Mathlib.Control.Basic
-public import Mathlib.Data.Set.Defs
 public import Mathlib.Data.Set.Lattice.Image
 public import Mathlib.Data.Set.Notation
 

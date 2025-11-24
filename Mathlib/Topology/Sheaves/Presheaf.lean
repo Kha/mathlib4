@@ -9,7 +9,6 @@ public import Mathlib.Topology.Category.TopCat.Opens
 public import Mathlib.CategoryTheory.Adjunction.Unique
 public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
 public import Mathlib.Topology.Sheaves.Init
-public import Mathlib.Data.Set.Subsingleton
 
 /-!
 # Presheaves on a topological space

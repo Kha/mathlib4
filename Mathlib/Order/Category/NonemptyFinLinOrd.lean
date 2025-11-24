@@ -9,7 +9,6 @@ public import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
 public import Mathlib.CategoryTheory.Limits.Shapes.Images
 public import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 public import Mathlib.Data.Fintype.Order
-public import Mathlib.Data.Set.Subsingleton
 public import Mathlib.Order.Category.FinPartOrd
 public import Mathlib.Order.Category.LinOrd
 

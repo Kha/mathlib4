@@ -5,8 +5,8 @@ Authors: Paul Lezeau, Bhavik Mehta
 -/
 module
 
-public meta import Mathlib.NumberTheory.Divisors
-public meta import Mathlib.Util.Qq
+public import Mathlib.NumberTheory.Divisors
+public import Mathlib.Util.Qq
 
 /-! # Divisor Simprocs
 

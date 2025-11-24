@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Order.Field.Basic
 public import Mathlib.Algebra.Order.Floor.Semiring
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Lemmas on `Nat.floor` and `Nat.ceil` for semifields

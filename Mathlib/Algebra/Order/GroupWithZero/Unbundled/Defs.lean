@@ -6,8 +6,8 @@ Authors: Damiano Testa, Yuyang Zhao
 module
 
 public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
-public import Mathlib.Tactic.MkIffOfInductiveProp
 public import Mathlib.Util.Notation3
+public meta import Mathlib.Util.Notation3
 
 /-!
 # (Strict) monotonicity of multiplication by nonnegative (positive) elements

@@ -6,7 +6,6 @@ Authors: Josha Dekker
 module
 
 public import Mathlib.Topology.Metrizable.Basic
-public import Mathlib.Topology.Compactness.Lindelof
 
 /-!
 # Second-countability of pseudometrizable Lindelöf spaces

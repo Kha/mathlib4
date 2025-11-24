@@ -7,7 +7,9 @@ module
 
 public meta import Mathlib.Tactic.CategoryTheory.Coherence.Normalize
 public meta import Mathlib.Tactic.CategoryTheory.Coherence.PureCoherence
-public meta import Mathlib.CategoryTheory.Category.Basic
+public import Mathlib.CategoryTheory.Category.Basic
+public import Mathlib.Tactic.CategoryTheory.Coherence.Normalize
+public import Mathlib.Tactic.CategoryTheory.Coherence.PureCoherence
 
 /-!
 # The Core function for `monoidal` and `bicategory` tactics

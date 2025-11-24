@@ -5,9 +5,7 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Module.BigOperators
-public import Mathlib.NumberTheory.Divisors
 public import Mathlib.Data.Nat.Squarefree
 public import Mathlib.Data.Nat.GCD.BigOperators
 public import Mathlib.Data.Nat.Factorization.Induction

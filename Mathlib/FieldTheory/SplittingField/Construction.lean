@@ -8,7 +8,6 @@ module
 public import Mathlib.Algebra.CharP.Algebra
 public import Mathlib.FieldTheory.SplittingField.IsSplittingField
 public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.RingTheory.Algebraic.Basic
 
 /-!
 # Splitting fields

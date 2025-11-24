@@ -5,7 +5,6 @@ Authors: Riccardo Brasca, Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.FieldDivision
 public import Mathlib.Algebra.Polynomial.Lifts
 public import Mathlib.FieldTheory.Minpoly.Basic
 public import Mathlib.RingTheory.Algebraic.Integral

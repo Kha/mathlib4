@@ -7,7 +7,6 @@ module
 
 public import Mathlib.CategoryTheory.Abelian.SerreClass.Basic
 public import Mathlib.CategoryTheory.Abelian.DiagramLemmas.KernelCokernelComp
-public import Mathlib.CategoryTheory.MorphismProperty.Composition
 public import Mathlib.CategoryTheory.MorphismProperty.Retract
 public import Mathlib.CategoryTheory.MorphismProperty.IsInvertedBy
 

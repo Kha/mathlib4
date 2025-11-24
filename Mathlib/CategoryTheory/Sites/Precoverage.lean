@@ -6,7 +6,6 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Creates.Pullbacks
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Sites.Sieves
 public import Mathlib.Order.ConditionallyCompleteLattice.Basic
 

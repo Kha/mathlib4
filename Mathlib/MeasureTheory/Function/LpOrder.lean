@@ -5,7 +5,6 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.Normed.Order.Lattice
 public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
 public import Mathlib.MeasureTheory.Function.LpSpace.Basic
 

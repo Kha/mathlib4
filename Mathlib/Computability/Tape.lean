@@ -6,7 +6,6 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Vector.Basic
-public import Mathlib.Logic.Function.Iterate
 public import Mathlib.Tactic.ApplyFun
 public import Mathlib.Data.List.GetD
 

@@ -8,8 +8,6 @@ module
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
-public import Mathlib.CategoryTheory.Limits.Shapes.Terminal
 
 /-!
 # Formal Coproducts

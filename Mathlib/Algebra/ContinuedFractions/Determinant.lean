@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Algebra.ContinuedFractions.ContinuantsRecurrence
 public import Mathlib.Algebra.ContinuedFractions.TerminatedStable
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Determinant Formula for Simple Continued Fraction

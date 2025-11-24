@@ -6,7 +6,6 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.MvPolynomial.Supported
-public import Mathlib.RingTheory.Adjoin.Polynomial
 public import Mathlib.RingTheory.Algebraic.Basic
 
 /-!

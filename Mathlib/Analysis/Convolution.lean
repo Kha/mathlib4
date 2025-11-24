@@ -8,9 +8,7 @@ module
 public import Mathlib.Analysis.Calculus.ContDiff.Basic
 public import Mathlib.Analysis.Calculus.ParametricIntegral
 public import Mathlib.MeasureTheory.Integral.Prod
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
 public import Mathlib.MeasureTheory.Group.Integral
-public import Mathlib.MeasureTheory.Group.Prod
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-!

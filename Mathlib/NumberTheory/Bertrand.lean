@@ -5,7 +5,6 @@ Authors: Patrick Stevens, Bolton Bailey
 -/
 module
 
-public import Mathlib.Data.Nat.Choose.Factorization
 public import Mathlib.NumberTheory.Primorial
 public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
 public import Mathlib.Analysis.Convex.SpecificFunctions.Deriv

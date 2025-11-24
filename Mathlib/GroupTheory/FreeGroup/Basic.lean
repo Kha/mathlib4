@@ -5,11 +5,11 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.Algebra.Group.Subgroup.Ker
 public import Mathlib.Data.List.Chain
 public import Mathlib.Algebra.Group.Int.Defs
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
+public import Mathlib.Data.List.Perm.Basic
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
 
 /-!
 # Free groups

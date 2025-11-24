@@ -8,7 +8,6 @@ module
 public import Mathlib.Algebra.CharP.Two
 public import Mathlib.SetTheory.Nimber.Basic
 public import Mathlib.Tactic.Abel
-public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Nimber.Field` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

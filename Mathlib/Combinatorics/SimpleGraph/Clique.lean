@@ -10,7 +10,6 @@ public import Mathlib.Combinatorics.SimpleGraph.Operations
 public import Mathlib.Combinatorics.SimpleGraph.Paths
 public import Mathlib.Data.Finset.Pairwise
 public import Mathlib.Data.Fintype.Pigeonhole
-public import Mathlib.Data.Fintype.Powerset
 public import Mathlib.Data.Nat.Lattice
 public import Mathlib.SetTheory.Cardinal.Finite
 

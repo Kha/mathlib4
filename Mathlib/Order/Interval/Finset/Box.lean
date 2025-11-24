@@ -9,8 +9,8 @@ public import Mathlib.Algebra.Order.Disjointed
 public import Mathlib.Algebra.Order.Ring.Int
 public import Mathlib.Algebra.Order.Ring.Prod
 public import Mathlib.Data.Int.Interval
-public import Mathlib.Tactic.Ring
 public import Mathlib.Tactic.Zify
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Decomposing a locally finite ordered ring into boxes

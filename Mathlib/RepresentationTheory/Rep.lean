@@ -6,12 +6,10 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Adjunctions
-public import Mathlib.Algebra.Category.ModuleCat.EpiMono
 public import Mathlib.Algebra.Category.ModuleCat.Limits
 public import Mathlib.Algebra.Category.ModuleCat.Colimits
 public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Symmetric
 public import Mathlib.Algebra.Category.ModuleCat.Projective
-public import Mathlib.CategoryTheory.Elementwise
 public import Mathlib.CategoryTheory.Action.Monoidal
 public import Mathlib.RepresentationTheory.Basic
 

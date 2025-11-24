@@ -5,9 +5,6 @@ Authors: Johan Commelin, Reid Barton, Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Creates
-public import Mathlib.CategoryTheory.Comma.Over.Basic
-public import Mathlib.CategoryTheory.IsConnected
 public import Mathlib.CategoryTheory.Filtered.Final
 
 /-!

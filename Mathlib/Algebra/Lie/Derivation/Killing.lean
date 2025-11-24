@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.Lie.Derivation.AdjointAction
 public import Mathlib.Algebra.Lie.Killing
-public import Mathlib.LinearAlgebra.BilinearForm.Orthogonal
 
 /-!
 # Derivations of finite-dimensional Killing Lie algebras

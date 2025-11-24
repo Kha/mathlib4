@@ -9,9 +9,7 @@ public import Mathlib.Algebra.BigOperators.Fin
 public import Mathlib.Algebra.BigOperators.NatAntidiagonal
 public import Mathlib.Data.Nat.Choose.Central
 public import Mathlib.Tactic.Field
-public import Mathlib.Tactic.GCongr
-public import Mathlib.Tactic.Positivity
-import Mathlib.Data.Tree.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 /-!
 # Catalan numbers

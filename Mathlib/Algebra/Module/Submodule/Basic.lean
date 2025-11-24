@@ -9,7 +9,6 @@ public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.Group.Submonoid.BigOperators
 public import Mathlib.Algebra.Module.Submodule.Defs
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
-public import Mathlib.GroupTheory.GroupAction.SubMulAction
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
 
 /-!

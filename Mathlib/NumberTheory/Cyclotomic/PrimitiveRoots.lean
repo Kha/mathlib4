@@ -5,8 +5,6 @@ Authors: Alex J. Best, Riccardo Brasca, Eric Rodriguez
 -/
 module
 
-public import Mathlib.Data.Nat.Factorization.LCM
-public import Mathlib.Data.Nat.Factorization.PrimePow
 public import Mathlib.Data.PNat.Prime
 public import Mathlib.NumberTheory.Cyclotomic.Basic
 public import Mathlib.RingTheory.Adjoin.PowerBasis

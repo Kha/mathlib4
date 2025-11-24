@@ -9,8 +9,6 @@ public import Mathlib.Topology.Algebra.GroupCompletion
 public import Mathlib.Topology.Algebra.Ring.Real
 public import Mathlib.Topology.MetricSpace.Algebra
 public import Mathlib.Topology.MetricSpace.Isometry
-public import Mathlib.Topology.MetricSpace.Lipschitz
-public import Mathlib.Topology.UniformSpace.Completion
 
 /-!
 # The completion of a metric space

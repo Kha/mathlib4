@@ -8,7 +8,6 @@ module
 public import Mathlib.CategoryTheory.Shift.InducedShiftSequence
 public import Mathlib.CategoryTheory.Shift.Localization
 public import Mathlib.Algebra.Homology.HomotopyCategory.Shift
-public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
 public import Mathlib.Algebra.Homology.QuasiIso
 
 /-! # Compatibilities of the homology functor with the shift

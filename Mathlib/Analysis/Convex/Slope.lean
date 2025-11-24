@@ -6,9 +6,8 @@ Authors: Yury Kudryashov, Malo Jaffré
 module
 
 public import Mathlib.Analysis.Convex.Function
-public import Mathlib.Tactic.AdaptationNote
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Slopes of convex functions

@@ -7,11 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Action.Units
 public import Mathlib.Algebra.Group.Nat.Units
-public import Mathlib.Algebra.GroupWithZero.Divisibility
 public import Mathlib.Algebra.Ring.Divisibility.Basic
-public import Mathlib.Algebra.Ring.Hom.Defs
-public import Mathlib.Logic.Basic
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.Algebra.Order.Ring.Defs
 
 /-!
 # Coprime elements of a ring or monoid

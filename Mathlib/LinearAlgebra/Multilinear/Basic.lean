@@ -6,7 +6,6 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Finset.Powerset
-public import Mathlib.Algebra.NoZeroSMulDivisors.Pi
 public import Mathlib.Data.Finset.Sort
 public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Data.Fintype.Powerset

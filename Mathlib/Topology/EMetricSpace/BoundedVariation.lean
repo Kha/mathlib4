@@ -6,7 +6,6 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Order.Interval.Set.ProjIcc
-public import Mathlib.Tactic.Finiteness
 public import Mathlib.Topology.Semicontinuous
 public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
 

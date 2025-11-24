@@ -5,7 +5,6 @@ Authors: Scott Carnahan, Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Module.Submodule.Invariant
 public import Mathlib.LinearAlgebra.RootSystem.Defs
 
 /-!

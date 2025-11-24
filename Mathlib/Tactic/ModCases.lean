@@ -6,7 +6,8 @@ Authors: Mario Carneiro, Heather Macbeth
 module
 
 public meta import Mathlib.Data.Int.ModEq
-public meta import Mathlib.Tactic.HaveI
+public import Mathlib.Tactic.HaveI
+public import Mathlib.Data.Int.ModEq
 
 /-! # `mod_cases` tactic
 

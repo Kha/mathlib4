@@ -5,7 +5,6 @@ Authors: Mitchell Horner
 -/
 module
 
-public import Mathlib.Algebra.Notation.Indicator
 public import Mathlib.Combinatorics.Enumerative.DoubleCounting
 public import Mathlib.Combinatorics.SimpleGraph.Coloring
 public import Mathlib.Combinatorics.SimpleGraph.DegreeSum

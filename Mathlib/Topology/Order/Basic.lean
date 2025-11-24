@@ -8,10 +8,12 @@ module
 public import Mathlib.Order.Filter.Interval
 public import Mathlib.Order.Interval.Set.Pi
 public import Mathlib.Order.OrdContinuous
-public import Mathlib.Tactic.TFAE
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Topology.Order.LeftRight
 public import Mathlib.Topology.Order.OrderClosed
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Theory of topology on ordered spaces

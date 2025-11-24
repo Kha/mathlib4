@@ -5,10 +5,8 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.AffineScheme
 public import Mathlib.AlgebraicGeometry.Pullbacks
 public import Mathlib.CategoryTheory.MorphismProperty.Local
-public import Mathlib.Data.List.TFAE
 
 /-!
 # Properties of morphisms between Schemes

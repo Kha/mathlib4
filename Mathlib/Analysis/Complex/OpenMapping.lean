@@ -5,8 +5,6 @@ Authors: Vincent Beffara
 -/
 module
 
-public import Mathlib.Analysis.Analytic.IsolatedZeros
-public import Mathlib.Analysis.Complex.CauchyIntegral
 public import Mathlib.Analysis.Complex.AbsMax
 public import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
 

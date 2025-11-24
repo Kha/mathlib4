@@ -5,7 +5,6 @@ Authors: Antoine Labelle
 -/
 module
 
-public import Mathlib.RepresentationTheory.Basic
 public import Mathlib.RepresentationTheory.FDRep
 
 /-!

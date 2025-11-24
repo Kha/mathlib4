@@ -7,8 +7,6 @@ module
 
 public import Mathlib.Analysis.Calculus.VectorField
 public import Mathlib.Geometry.Manifold.ContMDiffMFDeriv
-public import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
-public import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
 
 /-!
 # Vector fields in manifolds

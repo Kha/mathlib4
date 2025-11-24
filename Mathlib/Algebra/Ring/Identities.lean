@@ -5,7 +5,7 @@ Authors: Bryan Gin-ge Chen, Kevin Lacker
 -/
 module
 
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Identities

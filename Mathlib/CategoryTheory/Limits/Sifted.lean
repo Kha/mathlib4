@@ -5,7 +5,6 @@ Authors: Robin Carlier
 -/
 module
 
-public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
 public import Mathlib.CategoryTheory.Monoidal.ExternalProduct.Basic
 public import Mathlib.CategoryTheory.Closed.Types
 public import Mathlib.CategoryTheory.Monoidal.Limits.Preserves

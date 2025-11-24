@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Data.Finsupp.AList
 public import Mathlib.SetTheory.Ordinal.Exponential
-public import Mathlib.SetTheory.Ordinal.Family
 
 /-!
 # Cantor Normal Form

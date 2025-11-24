@@ -6,7 +6,6 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Analysis.Normed.Module.Convex
 public import Mathlib.Analysis.RCLike.TangentCone
 public import Mathlib.Data.Bundle
 public import Mathlib.Geometry.Manifold.ChartedSpace

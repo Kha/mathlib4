@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.Exact
 public import Mathlib.Algebra.Lie.Cochain
-public import Mathlib.Algebra.Module.TransferInstance
 
 /-!
 # Extensions of Lie algebras

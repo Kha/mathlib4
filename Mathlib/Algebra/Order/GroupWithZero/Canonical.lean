@@ -16,7 +16,6 @@ public import Mathlib.Algebra.Order.Monoid.Basic
 public import Mathlib.Algebra.Order.Monoid.OrderDual
 public import Mathlib.Algebra.Order.Monoid.TypeTags
 public import Mathlib.Algebra.Group.WithOne.Map
-public import Mathlib.Tactic.Tauto
 
 /-!
 # Linearly ordered commutative groups and monoids with a zero element adjoined

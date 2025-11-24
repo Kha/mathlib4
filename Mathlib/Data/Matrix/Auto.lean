@@ -5,8 +5,17 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.Expr
-public import Mathlib.Data.Matrix.Reflection
+public import Mathlib.Tactic.SetLike
+public import Mathlib.Control.Monad.Basic
+public import Mathlib.Data.Finset.Attr
+public import Mathlib.Data.List.Infix
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.Data.Setoid.Basic
+public import Mathlib.Data.Vector.Basic
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Tactic.Bound.Init
+public import Mathlib.Algebra.Ring.Action.Basic
+public import Mathlib.Data.List.Perm.Subperm
 
 /-! # Automatically generated lemmas for working with concrete matrices
 

@@ -5,7 +5,6 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Data.Finset.Lattice.Prod
 public import Mathlib.Data.Finset.Pairwise
 public import Mathlib.Data.Fintype.Powerset
 public import Mathlib.Data.Setoid.Basic

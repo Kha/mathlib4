@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.End
 public import Mathlib.Data.ZMod.Defs
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Racks and Quandles

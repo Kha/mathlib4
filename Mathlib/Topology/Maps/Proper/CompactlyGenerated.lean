@@ -6,7 +6,6 @@ Authors: Anatole Dedecker, Etienne Marion
 module
 
 public import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
-public import Mathlib.Topology.Maps.Proper.Basic
 
 /-!
 # A map is proper iff preimage of compact sets are compact

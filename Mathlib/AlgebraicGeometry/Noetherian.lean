@@ -6,7 +6,6 @@ Authors: Geno Racklin Asher
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
-public import Mathlib.RingTheory.Localization.Submodule
 public import Mathlib.RingTheory.Spectrum.Prime.Noetherian
 
 /-!

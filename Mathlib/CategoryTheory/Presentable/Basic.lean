@@ -5,11 +5,7 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.Limits
-public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
-public import Mathlib.CategoryTheory.Limits.Types.Filtered
 public import Mathlib.CategoryTheory.Presentable.IsCardinalFiltered
-public import Mathlib.SetTheory.Cardinal.HasCardinalLT
 
 /-! # Presentable objects
 

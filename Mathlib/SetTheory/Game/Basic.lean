@@ -8,7 +8,6 @@ module
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.SetTheory.PGame.Algebra
 public import Mathlib.Tactic.Abel
-public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Basic` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

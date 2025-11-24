@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Data.ENat.Lattice
 public import Mathlib.Order.OrderIsoNat
-public import Mathlib.Tactic.TFAE
 
 /-!
 

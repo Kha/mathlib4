@@ -8,6 +8,7 @@ module
 public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.BilinearMap
 public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Sesquilinear maps

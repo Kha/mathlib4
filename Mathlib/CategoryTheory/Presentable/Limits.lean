@@ -5,8 +5,6 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Types.Filtered
-public import Mathlib.CategoryTheory.Limits.Yoneda
 public import Mathlib.CategoryTheory.Presentable.Basic
 
 /-!

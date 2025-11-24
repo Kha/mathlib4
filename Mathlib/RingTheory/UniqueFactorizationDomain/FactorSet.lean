@@ -6,7 +6,7 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 module
 
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Basic
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Set of factors

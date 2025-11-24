@@ -8,8 +8,6 @@ module
 public import Mathlib.Algebra.Category.Ring.Colimits
 public import Mathlib.Algebra.Category.Ring.Instances
 public import Mathlib.Algebra.Category.Ring.Limits
-public import Mathlib.Algebra.Ring.Subring.Basic
-public import Mathlib.RingTheory.Localization.AtPrime.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
 public import Mathlib.Topology.Sheaves.LocalPredicate
 

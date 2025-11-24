@@ -10,7 +10,7 @@ public import Mathlib.Algebra.Ring.Equiv
 public import Mathlib.Algebra.Ring.PUnit
 public import Mathlib.Order.Hom.BoundedLattice
 public import Mathlib.Tactic.Abel
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Boolean rings

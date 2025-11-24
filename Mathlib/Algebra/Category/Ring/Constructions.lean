@@ -8,10 +8,8 @@ module
 public import Mathlib.Algebra.Category.Ring.Instances
 public import Mathlib.Algebra.Category.Ring.Limits
 public import Mathlib.Algebra.Category.Ring.Colimits
-public import Mathlib.Tactic.Algebraize
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Limits.Shapes.StrictInitial
-public import Mathlib.RingTheory.TensorProduct.Basic
 public import Mathlib.RingTheory.IsTensorProduct
 
 /-!

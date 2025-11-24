@@ -9,6 +9,7 @@ public import Mathlib.Algebra.Order.Group.Unbundled.Abs
 public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.Data.Nat.Cast.Order.Basic
+public import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Cast of natural numbers: lemmas about bundled ordered semirings

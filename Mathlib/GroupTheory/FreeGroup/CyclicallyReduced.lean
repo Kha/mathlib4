@@ -5,10 +5,10 @@ Authors: Amir Livne Bar-on, Bernhard Reinke
 -/
 module
 
-public import Mathlib.Data.List.Induction
-public import Mathlib.GroupTheory.FreeGroup.Basic
 public import Mathlib.GroupTheory.FreeGroup.Reduce
 public import Mathlib.Tactic.Group
+public import Mathlib.Algebra.Order.Group.Nat
+public import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 This file defines some extra lemmas for free groups, in particular about cyclically reduced words.

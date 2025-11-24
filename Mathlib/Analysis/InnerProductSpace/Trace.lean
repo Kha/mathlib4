@@ -5,7 +5,6 @@ Authors: Iván Renison
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.Analysis.InnerProductSpace.Spectrum
 public import Mathlib.LinearAlgebra.Trace
 

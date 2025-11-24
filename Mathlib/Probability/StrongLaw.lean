@@ -6,8 +6,6 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Probability.IdentDistrib
-public import Mathlib.Probability.Independence.Integrable
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
 public import Mathlib.Analysis.SpecificLimits.FloorPow
 public import Mathlib.Analysis.PSeries
 public import Mathlib.Analysis.Asymptotics.SpecificAsymptotics

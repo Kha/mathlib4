@@ -7,9 +7,9 @@ module
 
 public import Mathlib.NumberTheory.Cyclotomic.Discriminant
 public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
-public import Mathlib.RingTheory.Norm.Transitivity
 public import Mathlib.RingTheory.Polynomial.Eisenstein.IsIntegral
 public import Mathlib.RingTheory.Prime
+public import Mathlib.LinearAlgebra.FreeModule.IdealQuotient
 
 /-!
 # Ring of integers of `p ^ n`-th cyclotomic fields

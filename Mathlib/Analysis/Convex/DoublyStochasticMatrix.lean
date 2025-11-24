@@ -5,7 +5,6 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Convex.Basic
 public import Mathlib.LinearAlgebra.Matrix.Permutation
 
 /-!

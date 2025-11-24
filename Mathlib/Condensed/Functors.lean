@@ -5,9 +5,7 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
 public import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
-public import Mathlib.CategoryTheory.Sites.Whiskering
 public import Mathlib.Condensed.Basic
 public import Mathlib.Topology.Category.Stonean.Basic
 

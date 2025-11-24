@@ -8,8 +8,12 @@ module
 public import Mathlib.Algebra.Ring.GeomSum
 public import Mathlib.NumberTheory.Divisors
 public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.Linarith
 public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Factorisation properties of natural numbers

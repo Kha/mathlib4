@@ -10,6 +10,7 @@ public import Mathlib.Algebra.Order.Positive.Ring
 public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.Data.PNat.Equiv
+public import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # The positive natural numbers

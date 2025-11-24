@@ -8,13 +8,10 @@ module
 public import Mathlib.Algebra.Module.FinitePresentation
 public import Mathlib.Algebra.Module.Torsion.Basic
 public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.RingTheory.FiniteType
 public import Mathlib.RingTheory.Flat.EquationalCriterion
 public import Mathlib.RingTheory.Ideal.Quotient.ChineseRemainder
 public import Mathlib.RingTheory.LocalProperties.Exactness
-public import Mathlib.RingTheory.LocalRing.ResidueField.Basic
 public import Mathlib.RingTheory.LocalRing.ResidueField.Ideal
-public import Mathlib.RingTheory.Nakayama
 public import Mathlib.RingTheory.Support
 
 /-!

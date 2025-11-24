@@ -5,7 +5,6 @@ Authors: Leonardo de Moura, Jeremy Avigad, Minchao Wu, Mario Carneiro
 -/
 module
 
-public import Aesop
 public import Mathlib.Data.Multiset.Defs
 public import Mathlib.Data.Set.Pairwise.Basic
 public import Mathlib.Data.SetLike.Basic

@@ -5,9 +5,7 @@ Authors: Thomas Browning, Patrick Lutz
 -/
 module
 
-public import Mathlib.GroupTheory.Solvable
 public import Mathlib.FieldTheory.PolynomialGaloisGroup
-public import Mathlib.RingTheory.RootsOfUnity.Basic
 
 /-!
 # The Abel-Ruffini Theorem

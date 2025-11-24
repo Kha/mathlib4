@@ -9,7 +9,11 @@ public import Mathlib.AlgebraicTopology.SimplexCategory.Defs
 public import Mathlib.Data.Fintype.Sort
 public import Mathlib.Order.Category.NonemptyFinLinOrd
 public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Data.Rat.Cast.Order
 
 /-! # Basic properties of the simplex category
 

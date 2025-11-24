@@ -5,7 +5,6 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Hom.Bounded
 public import Mathlib.Topology.Order.Hom.Basic
 
 /-!

@@ -5,7 +5,6 @@ Authors: Jingting Wang
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.FieldDivision
 public import Mathlib.RingTheory.KrullDimension.PID
 public import Mathlib.RingTheory.LocalRing.ResidueField.Fiber
 

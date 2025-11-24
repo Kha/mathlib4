@@ -5,8 +5,11 @@ Authors: Kyle Miller, Mario Carneiro
 -/
 module
 
-public meta import Mathlib.Data.Nat.Fib.Basic
-public meta import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Nat.Fib.Basic
+public import Mathlib.Data.Rat.Cast.Order
 
 /-! # `norm_num` extension for `Nat.fib`
 

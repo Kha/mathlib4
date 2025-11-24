@@ -5,6 +5,7 @@ Authors: Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.ENNReal.Operations
+public import Mathlib.Data.ENNReal.Real
+public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-13")

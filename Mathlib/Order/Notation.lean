@@ -5,11 +5,10 @@ Authors: Johannes Hölzl, Yury Kudryashov, Yaël Dillies
 -/
 module
 
-public import Qq
 public meta import Mathlib.Lean.PrettyPrinter.Delaborator
-public import Mathlib.Tactic.TypeStar
-public import Mathlib.Tactic.Simps.NotationClass
 public import Mathlib.Tactic.ToDual
+public import Qq.Macro
+public meta import Qq.MetaM
 
 /-!
 # Notation classes for lattice operations

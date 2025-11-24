@@ -5,9 +5,10 @@ Authors: Geoffrey Irving
 -/
 module
 
-public meta import Mathlib.Tactic.Bound.Init
-public meta import Qq
 public meta import Aesop
+public import Qq.Match
+public import Aesop.Frontend.Attribute
+public import Mathlib.Tactic.Bound.Init
 
 /-!
 # The `bound` attribute

@@ -8,9 +8,10 @@ module
 public import Mathlib.Algebra.Group.Units.Basic
 public import Mathlib.Algebra.GroupWithZero.Basic
 public import Mathlib.Data.Int.Basic
-public import Mathlib.Lean.Meta.CongrTheorems
 public import Mathlib.Tactic.Contrapose
 public import Mathlib.Tactic.Spread
+public import Mathlib.Tactic.Nontriviality.Core
+public import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # Lemmas about units in a `MonoidWithZero` or a `GroupWithZero`.

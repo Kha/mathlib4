@@ -6,7 +6,6 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Analysis.Analytic.RadiusLiminf
-public import Mathlib.Analysis.Complex.Liouville
 public import Mathlib.Analysis.Complex.Polynomial.Basic
 public import Mathlib.Analysis.Normed.Algebra.Spectrum
 

@@ -5,7 +5,6 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
 public import Mathlib.Analysis.Calculus.ContDiff.Operations
 public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
 public import Mathlib.Analysis.InnerProductSpace.CanonicalTensor

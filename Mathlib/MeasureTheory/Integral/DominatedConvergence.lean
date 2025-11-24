@@ -6,8 +6,6 @@ Authors: Zhouhang Zhou, Yury Kudryashov, Patrick Massot
 module
 
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.MeasureTheory.Measure.Real
-public import Mathlib.Order.Filter.IndicatorFunction
 
 /-!
 # The dominated convergence theorem

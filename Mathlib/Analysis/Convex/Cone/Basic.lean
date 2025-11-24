@@ -6,10 +6,10 @@ Authors: Apurva Nakade, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.Cone.Closure
-public import Mathlib.Geometry.Convex.Cone.Pointed
 public import Mathlib.Topology.Algebra.Module.ClosedSubmodule
 public import Mathlib.Topology.Algebra.Order.Module
 public import Mathlib.Topology.Order.DenselyOrdered
+public import Batteries.Util.ProofWanted
 
 /-!
 # Proper cones

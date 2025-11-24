@@ -10,7 +10,7 @@ public import Mathlib.Algebra.Ring.Torsion
 public import Mathlib.Algebra.Star.Basic
 public import Mathlib.Data.Real.Basic
 public import Mathlib.Order.Interval.Set.UnorderedInterval
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # The complex numbers

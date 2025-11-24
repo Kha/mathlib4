@@ -6,7 +6,6 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Ideal.IsPrimary
-public import Mathlib.Order.Minimal
 
 /-!
 

@@ -11,7 +11,6 @@ public import Mathlib.Algebra.MonoidAlgebra.NoZeroDivisors
 public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
 public import Mathlib.Algebra.Ring.Action.Rat
 public import Mathlib.Data.Finset.Sort
-public import Mathlib.Tactic.FastInstance
 
 /-!
 # Theory of univariate polynomials

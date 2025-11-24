@@ -6,6 +6,7 @@ Authors: Sebastian Zimmer, Mario Carneiro, Heather Macbeth, Jovan Gerbscheid
 module
 
 public meta import Mathlib.Tactic.GRewrite.Elab
+public import Mathlib.Init
 
 /-!
 

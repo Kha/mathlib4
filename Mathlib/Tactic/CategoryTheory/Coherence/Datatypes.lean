@@ -5,7 +5,6 @@ Authors: Yuma Mizuno
 -/
 module
 
-public meta import Lean.Meta.Basic
 public import Mathlib.Init
 
 /-!

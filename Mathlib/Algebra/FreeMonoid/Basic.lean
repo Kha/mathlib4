@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Algebra.Group.Units.Defs
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
 public import Mathlib.Algebra.Group.Equiv.Defs
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Group.Nat.Defs
+public import Mathlib.Data.List.Perm.Basic
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
 
 /-!
 # Free monoid over a given alphabet

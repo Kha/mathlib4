@@ -6,8 +6,11 @@ Authors: Robert Y. Lewis
 module
 
 public meta import Mathlib.Tactic.Linarith.Frontend
-public meta import Mathlib.Tactic.NormNum
-public meta import Mathlib.Tactic.Hint
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 We register `linarith` with the `hint` tactic.

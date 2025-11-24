@@ -9,9 +9,13 @@ public meta import Mathlib.Data.Ineq
 public meta import Mathlib.Tactic.FieldSimp.Attr
 public meta import Mathlib.Tactic.FieldSimp.Discharger
 public meta import Mathlib.Tactic.FieldSimp.Lemmas
-public meta import Mathlib.Util.AtLocation
 public meta import Mathlib.Util.AtomM.Recurse
-public meta import Mathlib.Util.SynthesizeUsing
+public import Mathlib.Data.Ineq
+public import Mathlib.Util.SynthesizeUsing
+public import Mathlib.Tactic.FieldSimp.Attr
+public import Mathlib.Tactic.FieldSimp.Discharger
+public import Mathlib.Tactic.FieldSimp.Lemmas
+public import Mathlib.Util.AtomM.Recurse
 
 /-!
 # `field_simp` tactic

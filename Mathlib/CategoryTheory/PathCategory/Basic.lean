@@ -5,9 +5,7 @@ Authors: Kim Morrison, Robin Carlier
 -/
 module
 
-public import Mathlib.CategoryTheory.EqToHom
 public import Mathlib.CategoryTheory.Quotient
-public import Mathlib.Combinatorics.Quiver.Path
 
 /-!
 # The category paths on a quiver.

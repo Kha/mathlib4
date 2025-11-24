@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Topology.Order.Compact
 public import Mathlib.Topology.MetricSpace.ProperSpace
-public import Mathlib.Topology.Order.IntermediateValue
 public import Mathlib.Topology.Order.LocalExtr
 
 /-!

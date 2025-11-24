@@ -8,6 +8,7 @@ module
 public import Mathlib.Logic.Equiv.Defs
 public import Mathlib.Tactic.Convert
 public import Mathlib.Tactic.Linter.DeprecatedModule
+public meta import Lean.Meta.Tactic.SolveByElim
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.IGame` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

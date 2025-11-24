@@ -6,7 +6,6 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.SetTheory.Game.State
-public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Specific.Domineering` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

@@ -6,7 +6,6 @@ Authors: Johannes Hölzl, Mario Carneiro, Floris van Doorn, Violeta Hernández P
 module
 
 public import Mathlib.SetTheory.Cardinal.ToNat
-public import Mathlib.SetTheory.Cardinal.ENat
 public import Mathlib.SetTheory.Ordinal.Enum
 
 /-!

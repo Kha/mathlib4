@@ -5,13 +5,12 @@ Authors: Fangming Li, Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.CommRing
 public import Mathlib.Algebra.MvPolynomial.Basic  -- shake: keep (used in `proof_wanted` only)
 public import Mathlib.Order.KrullDimension
-public import Mathlib.RingTheory.Ideal.Quotient.Defs
 public import Mathlib.RingTheory.Ideal.MinimalPrime.Basic
 public import Mathlib.RingTheory.Jacobson.Radical
 public import Mathlib.RingTheory.Spectrum.Prime.Basic
+public import Batteries.Util.ProofWanted
 
 /-!
 # Krull dimensions of (commutative) rings

@@ -6,7 +6,7 @@ Authors: Moritz Firsching
 module
 
 public import Mathlib.Algebra.BigOperators.Intervals
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Superfactorial

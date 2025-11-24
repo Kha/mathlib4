@@ -5,6 +5,7 @@ Authors: Yury Kudryashov, Alex Kontorovich, Heather Macbeth
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 deprecated_module (since := "2025-04-13")

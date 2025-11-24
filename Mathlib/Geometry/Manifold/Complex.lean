@@ -6,7 +6,6 @@ Authors: Heather Macbeth
 module
 
 public import Mathlib.Analysis.Complex.AbsMax
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
 public import Mathlib.Geometry.Manifold.MFDeriv.Basic
 public import Mathlib.Topology.LocallyConstant.Basic
 

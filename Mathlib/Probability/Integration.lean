@@ -5,6 +5,7 @@ Authors: Martin Zinkevich, Vincent Beffara
 -/
 module
 
-public import Mathlib.Probability.Independence.Integration
+public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 deprecated_module (since := "2025-07-30")

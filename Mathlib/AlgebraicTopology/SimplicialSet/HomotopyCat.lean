@@ -5,11 +5,9 @@ Authors: Mario Carneiro, Emily Riehl, Joël Riou
 -/
 module
 
-public import Mathlib.AlgebraicTopology.SimplicialObject.Basic
 public import Mathlib.AlgebraicTopology.SimplicialSet.Coskeletal
 public import Mathlib.AlgebraicTopology.SimplexCategory.Truncated
 public import Mathlib.CategoryTheory.Category.ReflQuiv
-public import Mathlib.Combinatorics.Quiver.ReflQuiver
 public import Mathlib.AlgebraicTopology.SimplicialSet.Monoidal
 public import Mathlib.CategoryTheory.Category.Cat.Terminal
 

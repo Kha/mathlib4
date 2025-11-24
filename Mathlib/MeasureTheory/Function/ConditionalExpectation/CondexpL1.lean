@@ -6,7 +6,6 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Function.ConditionalExpectation.CondexpL2
-public import Mathlib.MeasureTheory.Measure.Real
 
 /-! # Conditional expectation in L1
 

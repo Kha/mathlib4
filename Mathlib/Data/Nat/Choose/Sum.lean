@@ -9,8 +9,12 @@ public import Mathlib.Algebra.BigOperators.Intervals
 public import Mathlib.Algebra.BigOperators.NatAntidiagonal
 public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Order.BigOperators.Group.Finset
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Sums of binomial coefficients

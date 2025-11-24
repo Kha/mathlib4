@@ -6,7 +6,6 @@ Authors: Yury Kudryashov, Patrick Massot, Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Calculus.Deriv.Mul
-public import Mathlib.Analysis.Calculus.Deriv.Slope
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
 
 /-!

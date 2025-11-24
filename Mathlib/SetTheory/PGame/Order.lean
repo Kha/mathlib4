@@ -8,7 +8,6 @@ module
 public import Mathlib.Logic.Small.Defs
 public import Mathlib.Order.GameAdd
 public import Mathlib.SetTheory.PGame.Basic
-public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.IGame` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

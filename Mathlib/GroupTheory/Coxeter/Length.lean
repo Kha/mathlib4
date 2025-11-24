@@ -7,8 +7,10 @@ module
 
 public import Mathlib.Data.ZMod.Basic
 public import Mathlib.GroupTheory.Coxeter.Basic
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Zify
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # The length function, reduced words, and descents

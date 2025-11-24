@@ -8,7 +8,11 @@ module
 public import Mathlib.Computability.Language
 public import Mathlib.Data.Countable.Small
 public import Mathlib.Data.Fintype.Pigeonhole
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Deterministic Finite Automata

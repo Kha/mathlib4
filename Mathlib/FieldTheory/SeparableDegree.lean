@@ -5,9 +5,7 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.FieldTheory.SplittingField.Construction
 public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.FieldTheory.Separable
 public import Mathlib.FieldTheory.Normal.Closure
 public import Mathlib.RingTheory.AlgebraicIndependent.Adjoin
 public import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis

@@ -9,7 +9,6 @@ public import Mathlib.Algebra.Category.Ring.FinitePresentation
 public import Mathlib.AlgebraicGeometry.IdealSheaf.Functorial
 public import Mathlib.AlgebraicGeometry.Morphisms.Separated
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Connected
-public import Mathlib.CategoryTheory.Monad.Limits
 
 /-!
 

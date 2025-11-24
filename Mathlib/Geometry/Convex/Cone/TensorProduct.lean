@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Geometry.Convex.Cone.Dual
 public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.TensorProduct.Basic
 
 /-!
 # Tensor products of cones

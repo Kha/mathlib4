@@ -7,7 +7,6 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Fubini
 public import Mathlib.CategoryTheory.Functor.Currying
-public import Mathlib.CategoryTheory.Limits.HasLimits
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
 
 /-!

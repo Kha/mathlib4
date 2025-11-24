@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Data.Nat.Lattice
 public import Mathlib.Data.Set.Accumulate
-public import Mathlib.Data.Set.Pairwise.Lattice
 public import Mathlib.MeasureTheory.PiSystem
 
 /-! # Semirings and rings of sets

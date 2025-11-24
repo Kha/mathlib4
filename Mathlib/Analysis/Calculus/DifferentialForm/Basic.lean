@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Analysis.NormedSpace.Alternating.Uncurry.Fin
 public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
-public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
 
 /-!
 # Exterior derivative of a differential form on a normed space

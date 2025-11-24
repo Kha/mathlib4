@@ -5,8 +5,8 @@ Authors: Mario Carneiro
 -/
 module
 
-public meta import Mathlib.Algebra.Group.Nat.Defs
-public meta import Mathlib.Tactic.ByContra
+public import Mathlib.Tactic.Push
+public import Mathlib.Algebra.Group.Nat.Defs
 
 /-!
 # `lrat_proof` command

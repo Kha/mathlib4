@@ -5,12 +5,12 @@ Authors: Jireh Loreaux, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Commute
 public import Mathlib.Algebra.Order.Monoid.Submonoid
 public import Mathlib.Algebra.Order.Ring.Abs
 public import Mathlib.Algebra.Order.Star.Basic
 public import Mathlib.Data.NNRat.Order
-public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Data.List.Perm.Basic
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
 
 /-!
 # Star ordered ring structures on `ℚ` and `ℚ≥0`

@@ -6,9 +6,7 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Closed.Ideal
-public import Mathlib.CategoryTheory.Monoidal.Cartesian.FunctorCategory
 public import Mathlib.CategoryTheory.Sites.CartesianMonoidal
-public import Mathlib.CategoryTheory.Sites.Sheafification
 /-!
 
 # Sheaf categories are Cartesian closed

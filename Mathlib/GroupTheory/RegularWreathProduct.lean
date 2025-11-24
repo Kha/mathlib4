@@ -8,7 +8,6 @@ module
 public import Mathlib.GroupTheory.Sylow
 public import Mathlib.Algebra.Group.PUnit
 public import Mathlib.Data.Finite.Perm
-public import Mathlib.Algebra.Group.End
 
 /-!
 # Regular wreath product

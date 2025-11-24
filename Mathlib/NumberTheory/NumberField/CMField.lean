@@ -7,7 +7,6 @@ module
 
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex
 public import Mathlib.NumberTheory.NumberField.Units.Regulator
-public import Mathlib.RingTheory.RootsOfUnity.Complex
 
 /-!
 # CM-extension of number fields

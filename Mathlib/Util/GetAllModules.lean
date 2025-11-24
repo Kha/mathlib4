@@ -6,7 +6,6 @@ Authors: Mario Carneiro, Kim Morrison, Damiano Testa
 module
 
 public import Mathlib.Init
-public meta import Lean.Util.Path
 
 /-!
 # Utility functions for finding all `.lean` files or modules in a project.

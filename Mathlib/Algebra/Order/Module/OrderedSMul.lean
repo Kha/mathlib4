@@ -10,6 +10,7 @@ public import Mathlib.Algebra.Group.Action.Basic
 public import Mathlib.Algebra.GroupWithZero.Action.Pi
 public import Mathlib.Algebra.GroupWithZero.Action.Prod
 public import Mathlib.Algebra.Order.Module.Defs
+public import Mathlib.Tactic.Linter.DeprecatedModule
 
 /-!
 # Ordered scalar product

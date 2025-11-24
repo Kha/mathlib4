@@ -7,7 +7,6 @@ module
 
 public import Mathlib.CategoryTheory.Category.Preorder
 public import Mathlib.CategoryTheory.Limits.IsLimit
-public import Mathlib.Order.CompleteLattice.Basic
 
 /-!
 # The category of "pairwise intersections".

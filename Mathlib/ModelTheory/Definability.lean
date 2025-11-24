@@ -5,7 +5,6 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Data.SetLike.Basic
 public import Mathlib.ModelTheory.Semantics
 
 /-!

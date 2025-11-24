@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Ring.Associated
 public import Mathlib.Algebra.Ring.Regular
+public import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Monoids with normalization functions, `gcd`, and `lcm`

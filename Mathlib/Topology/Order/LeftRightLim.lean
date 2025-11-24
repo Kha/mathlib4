@@ -5,7 +5,6 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.Order.LeftRight
 public import Mathlib.Topology.Order.Monotone
 
 /-!

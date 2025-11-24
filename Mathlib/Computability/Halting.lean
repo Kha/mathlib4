@@ -6,7 +6,6 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Computability.PartrecCode
-public import Mathlib.Data.Set.Subsingleton
 
 /-!
 # Computability theory and the halting problem

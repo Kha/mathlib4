@@ -7,7 +7,7 @@ module
 
 public import Mathlib.NumberTheory.Harmonic.Defs
 public import Mathlib.NumberTheory.Padics.PadicNumbers
-public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.Positivity.Finset
 
 /-!
 

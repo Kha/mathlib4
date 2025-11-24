@@ -5,8 +5,6 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.DivisionRing
-public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
 public import Mathlib.RingTheory.Finiteness.Quotient
 public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
 

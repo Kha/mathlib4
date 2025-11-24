@@ -7,9 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
-public import Mathlib.Tactic.Ring
-public import Mathlib.Util.AtomM
 public meta import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.Tactic.Ring.Basic
 
 /-! # A tactic for normalization over modules
 

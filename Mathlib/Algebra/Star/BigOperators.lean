@@ -6,7 +6,6 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-public import Mathlib.Algebra.Star.Basic
 public import Mathlib.Algebra.Star.SelfAdjoint
 
 /-! # Big-operators lemmas about `star` algebraic operations

@@ -6,9 +6,7 @@ Authors: Kalle Kytölä
 module
 
 public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 public import Mathlib.MeasureTheory.Integral.Layercake
-public import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
 
 /-!
 # Characterizations of weak convergence of finite measures and probability measures

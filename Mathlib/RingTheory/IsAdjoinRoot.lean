@@ -5,9 +5,7 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
-public import Mathlib.RingTheory.PowerBasis
 
 /-!
 # A predicate on adjoining roots of polynomial

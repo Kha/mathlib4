@@ -11,7 +11,6 @@ public import Mathlib.Algebra.Group.Submonoid.BigOperators
 public import Mathlib.Algebra.Module.Submodule.Defs
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Algebra.Module.PUnit
-public import Mathlib.Data.Set.Subsingleton
 public import Mathlib.Data.Finset.Lattice.Fold
 public import Mathlib.Order.ConditionallyCompleteLattice.Basic
 

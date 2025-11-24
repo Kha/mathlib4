@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Analysis.Convex.Combination
 public import Mathlib.LinearAlgebra.AffineSpace.Independent
-public import Mathlib.Tactic.FieldSimp
 
 /-!
 # Carathéodory's convexity theorem

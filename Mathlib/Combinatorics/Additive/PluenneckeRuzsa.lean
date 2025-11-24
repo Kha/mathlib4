@@ -5,13 +5,11 @@ Authors: Yaël Dillies, George Shakan
 -/
 module
 
-public import Mathlib.Algebra.Order.Field.Rat
 public import Mathlib.Combinatorics.Enumerative.DoubleCounting
 public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.GCongr
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Ring
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+public import Mathlib.Tactic.Positivity.Finset
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # The Plünnecke-Ruzsa inequality

@@ -1,5 +1,9 @@
 module
 
-public import Mathlib.Analysis.Normed.Module.Ball.Pointwise
+public import Mathlib.Tactic.Bound
+public import Mathlib.Data.EReal.Inv
+public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Topology.Instances.NNReal.Lemmas
 
 deprecated_module (since := "2025-09-02")

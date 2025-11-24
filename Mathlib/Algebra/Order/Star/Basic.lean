@@ -10,7 +10,6 @@ public import Mathlib.Algebra.GroupWithZero.Regular
 public import Mathlib.Algebra.Order.Module.Defs
 public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Algebra.Order.Group.Opposite
-public import Mathlib.Algebra.Star.SelfAdjoint
 public import Mathlib.Algebra.Star.StarRingHom
 public import Mathlib.Tactic.ContinuousFunctionalCalculus
 public import Mathlib.Algebra.Star.StarProjection

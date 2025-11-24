@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Data.Finset.Pi
 public import Mathlib.Data.Finset.Sigma
-public import Mathlib.Data.Finset.Sum
 public import Mathlib.Data.Set.Finite.Basic
 
 /-!

@@ -6,7 +6,6 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.SetTheory.ZFC.Class
-public import Mathlib.SetTheory.ZFC.Ordinal
 public import Mathlib.SetTheory.ZFC.Rank
 
 /-!

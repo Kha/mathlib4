@@ -6,7 +6,10 @@ Authors: Miyahara Kō
 module
 
 public meta import Mathlib.Tactic.Measurability.Init
-public meta import Mathlib.Tactic.FunProp.Decl
+public import Aesop.Frontend.Attribute
+public import Aesop.Frontend.Tactic
+public import Mathlib.Tactic.FunProp.Decl
+public import Mathlib.Tactic.Measurability.Init
 
 /-!
 # Measurability

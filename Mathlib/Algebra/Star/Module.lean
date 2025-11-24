@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.Star.SelfAdjoint
 public import Mathlib.Algebra.Module.Basic
-public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Algebra.Module.LinearMap.Star
 public import Mathlib.Algebra.Module.Rat
 public import Mathlib.LinearAlgebra.Prod

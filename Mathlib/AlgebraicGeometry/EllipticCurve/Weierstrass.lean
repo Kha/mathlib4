@@ -5,10 +5,7 @@ Authors: Kevin Buzzard, David Kurniadi Angdinata
 -/
 module
 
-public import Mathlib.Algebra.CharP.Defs
 public import Mathlib.Algebra.CubicDiscriminant
-public import Mathlib.RingTheory.Nilpotent.Defs
-public import Mathlib.Tactic.FieldSimp
 public import Mathlib.Tactic.LinearCombination
 
 /-!

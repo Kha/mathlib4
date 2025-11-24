@@ -6,7 +6,11 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Data.ZMod.Basic
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Absolute value in `ZMod n`

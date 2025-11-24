@@ -7,10 +7,8 @@ module
 
 public import Mathlib.Algebra.BigOperators.Associated
 public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.Ring.Abs
 public import Mathlib.Data.Nat.Choose.Sum
 public import Mathlib.Data.Nat.Choose.Dvd
-public import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Primorial

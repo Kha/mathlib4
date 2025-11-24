@@ -118,6 +118,7 @@ public import Mathlib.Util.CountHeartbeats
 public import Mathlib.Util.PrintSorries
 public import Mathlib.Util.TransImports
 public import Mathlib.Util.WhatsNew
+public import Mathlib.Tactic.FunProp.Elab
 
 /-!
 This file imports all tactics which do not have significant theory imports,

@@ -7,8 +7,8 @@ module
 
 public import Mathlib.Topology.Coherent
 public import Mathlib.Topology.UniformSpace.Equiv
-public import Mathlib.Topology.UniformSpace.Pi
 public import Mathlib.Topology.UniformSpace.UniformApproximation
+public import Mathlib.Tactic.ApplyFun
 
 /-!
 # Topology and uniform structure of uniform convergence

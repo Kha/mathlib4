@@ -6,7 +6,6 @@ Authors: Chris Hughes, Anne Baanen
 module
 
 public import Mathlib.LinearAlgebra.Dimension.Subsingleton
-public import Mathlib.SetTheory.Cardinal.ToNat
 
 /-!
 # Finite dimension of vector spaces

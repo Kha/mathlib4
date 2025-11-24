@@ -6,10 +6,18 @@ Authors: Simon Hudon
 module
 
 public meta import Mathlib.Data.Finsupp.ToDFinsupp
-public meta import Mathlib.Algebra.Order.Group.Nat
 public meta import Mathlib.Data.Int.Range
 public meta import Mathlib.Data.List.Sigma
-public meta import Plausible.Functions
+public import Mathlib.Algebra.Order.ZeroLEOne
+public import Mathlib.Data.DFinsupp.Defs
+public import Mathlib.Data.Finsupp.Defs
+public import Mathlib.Data.Int.Range
+public import Mathlib.Data.List.Sigma
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.Tactic.Bound.Init
+public import Mathlib.Algebra.Order.Group.Nat
+public import Mathlib.Algebra.Ring.Action.Basic
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
 
 /-!
 ## `Plausible`: generators for functions

@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.Prod
 public import Mathlib.Data.Fin.SuccPredOrder
-public import Mathlib.Data.Nat.SuccPred
 public import Mathlib.Order.SuccPred.Relation
 public import Mathlib.Tactic.FinCases
 

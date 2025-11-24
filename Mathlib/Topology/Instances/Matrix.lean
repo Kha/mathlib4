@@ -9,9 +9,7 @@ public import Mathlib.Topology.Algebra.InfiniteSum.Basic
 public import Mathlib.Topology.Algebra.Group.Pointwise
 public import Mathlib.Topology.Algebra.Ring.Basic
 public import Mathlib.Topology.Algebra.Star
-public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.FinTwo
-public import Mathlib.LinearAlgebra.Matrix.Trace
 
 /-!
 # Topological properties of matrices

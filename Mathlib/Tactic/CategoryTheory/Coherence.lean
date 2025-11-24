@@ -5,10 +5,10 @@ Authors: Kim Morrison, Yuma Mizuno, Oleksandr Manzyuk
 -/
 module
 
-public meta import Mathlib.CategoryTheory.Monoidal.Free.Coherence
-public meta import Mathlib.Lean.Meta
-public meta import Mathlib.Tactic.CategoryTheory.BicategoryCoherence
-public meta import Mathlib.Tactic.CategoryTheory.MonoidalComp
+public import Mathlib.Tactic.CategoryTheory.BicategoryCoherence
+public import Mathlib.Tactic.CategoryTheory.MonoidalComp
+public import Mathlib.CategoryTheory.Monoidal.Free.Basic
+public meta import Mathlib.CategoryTheory.Monoidal.Free.Basic
 
 /-!
 # A `coherence` tactic for monoidal categories

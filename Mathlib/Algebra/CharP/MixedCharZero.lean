@@ -6,8 +6,6 @@ Authors: Jon Eugster
 module
 
 public import Mathlib.Algebra.CharP.LocalRing
-public import Mathlib.RingTheory.Ideal.Quotient.Basic
-public import Mathlib.Tactic.FieldSimp
 
 /-!
 # Equal and mixed characteristic

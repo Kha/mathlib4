@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Logic.Hydra
 public import Mathlib.SetTheory.Surreal.Basic
-public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Surreal.Multiplication` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

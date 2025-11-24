@@ -6,8 +6,6 @@ Authors: Stephen Morgan, Kim Morrison, Johannes Hölzl
 module
 
 public import Mathlib.CategoryTheory.EpiMono
-public import Mathlib.Data.Set.CoeSort
-public import Mathlib.Tactic.PPWithUniv
 public import Mathlib.Tactic.ToAdditive
 
 /-!

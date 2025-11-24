@@ -8,7 +8,6 @@ module
 public import Mathlib.Algebra.GroupWithZero.Indicator
 public import Mathlib.Algebra.Module.Basic
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
-public import Mathlib.Topology.Homeomorph.Defs
 public import Mathlib.Topology.Separation.Hausdorff
 
 /-!

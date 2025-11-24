@@ -5,7 +5,6 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Projective
 public import Mathlib.AlgebraicTopology.ExtraDegeneracy
 public import Mathlib.CategoryTheory.Abelian.Ext
 public import Mathlib.RepresentationTheory.Rep

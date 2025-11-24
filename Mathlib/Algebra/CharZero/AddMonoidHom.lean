@@ -6,7 +6,6 @@ Authors: Paul Lezeau
 module
 
 public import Mathlib.Algebra.CharZero.Defs
-public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Data.Nat.Cast.Basic
 
 /-!

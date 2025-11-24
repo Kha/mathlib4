@@ -9,7 +9,6 @@ public import Mathlib.AlgebraicTopology.AlternatingFaceMapComplex
 public import Mathlib.AlgebraicTopology.SimplicialSet.StdSimplex
 public import Mathlib.AlgebraicTopology.CechNerve
 public import Mathlib.Algebra.Homology.Homotopy
-public import Mathlib.Tactic.FinCases
 
 /-!
 

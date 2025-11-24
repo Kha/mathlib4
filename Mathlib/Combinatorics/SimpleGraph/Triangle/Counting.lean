@@ -8,7 +8,7 @@ module
 public import Mathlib.Combinatorics.SimpleGraph.Clique
 public import Mathlib.Combinatorics.SimpleGraph.Regularity.Uniform
 public import Mathlib.Data.Real.Basic
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Linarith.Frontend
 
 /-!
 # Triangle counting lemma

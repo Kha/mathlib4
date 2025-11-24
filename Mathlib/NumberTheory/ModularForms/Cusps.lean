@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.EuclideanDomain.Int
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.GroupTheory.Commensurable
 public import Mathlib.RingTheory.Localization.NumDen
 public import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 public import Mathlib.NumberTheory.ModularForms.ArithmeticSubgroups

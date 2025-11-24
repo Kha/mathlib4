@@ -7,10 +7,7 @@ module
 
 public import Mathlib.Algebra.EuclideanDomain.Basic
 public import Mathlib.Algebra.Order.Group.Finset
-public import Mathlib.RingTheory.Coprime.Lemmas
-public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Nat
-public import Mathlib.RingTheory.Nilpotent.Basic
 public import Mathlib.Data.Nat.PrimeFin
 public import Mathlib.Algebra.Squarefree.Basic
 

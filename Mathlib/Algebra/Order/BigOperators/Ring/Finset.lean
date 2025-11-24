@@ -9,7 +9,8 @@ public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Order.AbsoluteValue.Basic
 public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Algebra.Order.BigOperators.Ring.Multiset
-public import Mathlib.Tactic.Ring
+public import Mathlib.Data.PNat.Basic
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Big operators on a finset in ordered rings

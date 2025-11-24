@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Data.Set.Function
 public import Mathlib.Logic.Pairwise
-public import Mathlib.Logic.Relation
 
 /-!
 # Relations holding pairwise

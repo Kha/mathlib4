@@ -10,6 +10,7 @@ public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Combinatorics.SetFamily.Compression.Down
 public import Mathlib.Data.Fintype.Powerset
 public import Mathlib.Order.UpperLower.Basic
+public import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Harris-Kleitman inequality

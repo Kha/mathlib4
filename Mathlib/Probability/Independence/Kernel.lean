@@ -6,7 +6,6 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.ConditionalProbability
-public import Mathlib.Probability.Kernel.Basic
 public import Mathlib.Probability.Kernel.Composition.MeasureComp
 public import Mathlib.Tactic.Peel
 public import Mathlib.MeasureTheory.MeasurableSpace.Pi

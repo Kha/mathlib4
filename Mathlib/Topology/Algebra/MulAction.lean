@@ -7,9 +7,7 @@ module
 
 public import Mathlib.Algebra.AddTorsor.Defs
 public import Mathlib.GroupTheory.GroupAction.SubMulAction
-public import Mathlib.Topology.Algebra.Constructions
 public import Mathlib.Topology.Algebra.ConstMulAction
-public import Mathlib.Topology.Connected.Basic
 
 /-!
 # Continuous monoid action

@@ -6,7 +6,6 @@ Authors: Monica Omar
 module
 
 public import Mathlib.Algebra.Algebra.Bilinear
-public import Mathlib.Algebra.Star.SelfAdjoint
 public import Mathlib.Algebra.Star.TensorProduct
 
 /-!
