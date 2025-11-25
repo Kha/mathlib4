@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.Acyclic
 public import Mathlib.Data.ENat.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Girth of a simple graph

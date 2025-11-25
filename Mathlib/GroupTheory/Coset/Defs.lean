@@ -10,6 +10,11 @@ public import Mathlib.Algebra.Group.Action.Opposite
 public import Mathlib.Algebra.Group.Subgroup.MulOpposite
 public import Mathlib.GroupTheory.GroupAction.Defs
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Cosets

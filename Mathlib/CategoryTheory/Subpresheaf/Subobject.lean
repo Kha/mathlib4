@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Subpresheaf.Image
 public import Mathlib.CategoryTheory.Subobject.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Comparison between `Subpresheaf`, `MonoOver` and `Subobject`

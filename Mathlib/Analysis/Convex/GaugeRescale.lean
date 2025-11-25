@@ -6,7 +6,13 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Convex.Gauge
-public import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 /-!
 # "Gauge rescale" homeomorphism between convex sets
 

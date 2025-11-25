@@ -5,8 +5,17 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Seminorm
-public import Mathlib.GroupTheory.GroupAction.Pointwise
+public import Mathlib.Analysis.LocallyConvex.Basic
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Analysis.Seminorm
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.GroupTheory.GroupAction.Pointwise
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Finite.Lemmas
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # The Minkowski functional, normed field version

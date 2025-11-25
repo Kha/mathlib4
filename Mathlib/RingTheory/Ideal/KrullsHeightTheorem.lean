@@ -5,10 +5,20 @@ Authors: Wanyi He, Jiedong Jiang, Christian Merten, Jingting Wang, Andrew Yang, 
 -/
 module
 
-public import Mathlib.RingTheory.HopkinsLevitzki
 public import Mathlib.RingTheory.Ideal.Height
-public import Mathlib.RingTheory.Localization.Submodule
-public import Mathlib.RingTheory.Nakayama
+public import Mathlib.RingTheory.Artinian.Module
+import Mathlib.RingTheory.HopkinsLevitzki
+import Mathlib.RingTheory.Nakayama
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.KrullDimension.Zero
+import Mathlib.RingTheory.Localization.Submodule
+import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
+import Mathlib.RingTheory.Ideal.Quotient.Noetherian
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Krull's Height Theorem

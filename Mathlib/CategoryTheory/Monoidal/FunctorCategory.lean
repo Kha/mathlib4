@@ -6,8 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
-public import Mathlib.CategoryTheory.Functor.Category
-public import Mathlib.CategoryTheory.Functor.Const
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Monoidal structure on `C ⥤ D` when `D` is monoidal.

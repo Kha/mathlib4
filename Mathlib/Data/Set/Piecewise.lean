@@ -5,7 +5,14 @@ Authors: Jeremy Avigad, Andrew Zipperer, Haitao Zhang, Minchao Wu, Yury Kudryash
 -/
 module
 
-public import Mathlib.Data.Set.Function
+public import Mathlib.Order.BooleanAlgebra.Set
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Prod
 
 /-!
 # Piecewise functions

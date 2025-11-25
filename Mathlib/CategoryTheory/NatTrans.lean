@@ -5,7 +5,8 @@ Authors: Tim Baumann, Stephen Morgan, Kim Morrison, Floris van Doorn
 -/
 module
 
-public import Mathlib.Tactic.CategoryTheory.Reassoc
+public import Mathlib.CategoryTheory.Functor.Basic
+import Mathlib.Tactic.CategoryTheory.Reassoc
 
 /-!
 # Natural transformations

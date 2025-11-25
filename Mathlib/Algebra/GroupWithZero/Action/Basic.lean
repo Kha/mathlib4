@@ -9,6 +9,9 @@ public import Mathlib.Algebra.Group.Action.End
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
 public import Mathlib.Algebra.Group.Action.Prod
 public import Mathlib.Algebra.GroupWithZero.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Action.Units
 
 /-!
 # Definitions of group actions

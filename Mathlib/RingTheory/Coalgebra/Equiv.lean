@@ -6,6 +6,7 @@ Authors: Amelia Livingston
 module
 
 public import Mathlib.RingTheory.Coalgebra.Hom
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Isomorphisms of `R`-coalgebras

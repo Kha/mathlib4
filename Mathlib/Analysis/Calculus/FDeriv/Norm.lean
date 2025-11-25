@@ -5,8 +5,25 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Abs
-public import Mathlib.Analysis.Calculus.LineDeriv.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Data.Sign.Defs
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Sign.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Abs
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.LineDeriv.Basic
 
 /-!
 # Differentiability of the norm in a real normed vector space

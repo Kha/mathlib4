@@ -7,6 +7,10 @@ module
 
 public import Mathlib.GroupTheory.Perm.Centralizer
 public import Mathlib.GroupTheory.SpecificGroups.Alternating
+public import Mathlib.GroupTheory.Commutator.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Int.Units
 
 /-! # Centralizer of an element in the alternating group
 

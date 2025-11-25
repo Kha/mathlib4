@@ -7,8 +7,26 @@ module
 
 public import Mathlib.Analysis.Calculus.ContDiff.Defs
 public import Mathlib.Analysis.Calculus.ContDiff.FaaDiBruno
-public import Mathlib.Analysis.Calculus.FDeriv.Add
-public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 # Higher differentiability of composition

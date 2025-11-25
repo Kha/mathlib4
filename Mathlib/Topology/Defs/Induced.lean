@@ -6,7 +6,10 @@ Authors: Johannes Hölzl, Mario Carneiro, Jeremy Avigad
 module
 
 public import Mathlib.Data.Set.Lattice.Image
-public import Mathlib.Topology.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Topology.Defs.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
 /-!
 # Induced and coinduced topologies
 

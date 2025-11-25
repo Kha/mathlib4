@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf
 public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The monoidal category structure on presheaves of modules

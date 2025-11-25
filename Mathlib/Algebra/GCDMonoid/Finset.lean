@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Data.Finset.Fold
 public import Mathlib.Algebra.GCDMonoid.Multiset
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!
 # GCD and LCM operations on finsets

@@ -5,11 +5,13 @@ Authors: Johan Commelin, Reid Barton, Simon Hudon, Thomas Murrills, Mario Carnei
 -/
 module
 
-public meta import Qq
-public meta import Mathlib.Data.Nat.Notation
 public meta import Mathlib.Util.AtomM
 public meta import Mathlib.Data.List.TFAE  -- shake: keep (dependency of Qq output)
-public meta import Mathlib.Tactic.ExtendDoc
+public import Mathlib.Util.AtomM
+public import Mathlib.Data.Nat.Notation
+import Qq.Match
+import Qq.Typ
+import Mathlib.Tactic.ExtendDoc
 
 /-!
 # The Following Are Equivalent (TFAE)

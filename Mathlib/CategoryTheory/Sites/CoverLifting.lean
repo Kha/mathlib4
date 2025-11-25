@@ -9,6 +9,9 @@ public import Mathlib.CategoryTheory.Adjunction.Restrict
 public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
 public import Mathlib.CategoryTheory.Sites.Continuous
 public import Mathlib.CategoryTheory.Sites.Sheafification
+public import Mathlib.CategoryTheory.Adjunction.Unique
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Cocontinuous functors between sites.

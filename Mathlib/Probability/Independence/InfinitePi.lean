@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Probability.Independence.Basic
 public import Mathlib.Probability.ProductMeasure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Independence of an infinite family of random variables

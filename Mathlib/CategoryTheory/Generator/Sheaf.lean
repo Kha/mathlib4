@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Generator.Presheaf
 public import Mathlib.CategoryTheory.Sites.Sheafification
-public import Mathlib.CategoryTheory.Sites.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Sites.Limits
 
 /-!
 # Generators in the category of sheaves

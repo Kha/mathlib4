@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.DerivedCategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # An exact functor induces a functor on derived categories

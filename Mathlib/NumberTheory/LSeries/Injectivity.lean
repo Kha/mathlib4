@@ -5,9 +5,20 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Tannery
 public import Mathlib.NumberTheory.LSeries.Convergence
-public import Mathlib.NumberTheory.LSeries.Linearity
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.NumberTheory.LSeries.Linearity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Tannery
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # A converging L-series determines its coefficients

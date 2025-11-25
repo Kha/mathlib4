@@ -7,7 +7,15 @@ module
 
 public import Mathlib.NumberTheory.LSeries.HurwitzZetaEven
 public import Mathlib.NumberTheory.LSeries.HurwitzZetaOdd
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # The Hurwitz zeta function

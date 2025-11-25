@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Types.Limits
 public import Mathlib.CategoryTheory.Limits.Shapes.Images
+import Mathlib.Tactic.Lemma
 
 /-!
 # Images in the category of types

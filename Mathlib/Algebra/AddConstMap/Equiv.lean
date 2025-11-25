@@ -6,6 +6,8 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Algebra.AddConstMap.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalences conjugating `(· + a)` to `(· + b)`

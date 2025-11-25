@@ -5,9 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Finset.Max
-public import Mathlib.Data.Finset.Sigma
-public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Finset.Erase
+public import Mathlib.Data.Finset.Insert
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Finset.Max
+import Mathlib.Data.Finset.Sigma
+import Mathlib.Data.Fintype.Basic
 
 /-!
 # Induction principles for `∀ i, Finset (α i)`

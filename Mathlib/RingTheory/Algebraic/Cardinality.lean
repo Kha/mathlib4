@@ -5,9 +5,11 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Cardinal
 public import Mathlib.Algebra.Polynomial.Roots
 public import Mathlib.RingTheory.Algebraic.Defs
+import Mathlib.Algebra.Polynomial.Cardinal
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Algebra.Polynomial.Eval.Coeff
 
 /-!
 # Cardinality of algebraic extensions

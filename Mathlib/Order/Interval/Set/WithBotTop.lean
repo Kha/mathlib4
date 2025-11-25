@@ -5,9 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Image
-public import Mathlib.Order.Interval.Set.Basic
 public import Mathlib.Order.WithBot
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Intervals in `WithTop α` and `WithBot α`

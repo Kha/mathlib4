@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Rat.NatSqrt.Defs
 public import Mathlib.Data.Real.Sqrt
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Data.Rat.Cast.Order
 
 /-!
 Comparisons between rational approximations to the square root of a natural number

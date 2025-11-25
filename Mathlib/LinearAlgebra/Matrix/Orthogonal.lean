@@ -6,6 +6,7 @@ Authors: Lu-Ming Zhang
 module
 
 public import Mathlib.Data.Matrix.Mul
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Orthogonal

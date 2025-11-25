@@ -6,6 +6,9 @@ Authors: Ben Eltschig
 module
 
 public import Mathlib.CategoryTheory.Sites.ConstantSheaf
+public import Mathlib.CategoryTheory.Adjunction.Limits
+public import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Global sections of sheaves

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Opposites
 public import Mathlib.GroupTheory.Congruence.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruences on the opposite of a group

@@ -5,8 +5,13 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Complex.CauchyIntegral
 public import Mathlib.MeasureTheory.Integral.CircleAverage
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Analysis.Calculus.FDeriv.Basic
 
 /-!
 # The Mean Value Property of Complex Differentiable Functions

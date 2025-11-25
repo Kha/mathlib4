@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Monoidal.DayConvolution
 public import Mathlib.CategoryTheory.Closed.Monoidal
 public import Mathlib.CategoryTheory.Limits.Shapes.End
+import Mathlib.Tactic.Lemma
 
 /-! # Internal homs for day convolution
 

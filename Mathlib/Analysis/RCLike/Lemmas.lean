@@ -5,9 +5,21 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Topology.Instances.RealVectorSpace
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Operator.NormedSpace
 
 /-! # Further lemmas about `RCLike` -/
 

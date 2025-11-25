@@ -6,6 +6,7 @@ Authors: Scott Carnahan
 module
 
 public import Mathlib.RingTheory.HahnSeries.Multiplication
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Vertex operators

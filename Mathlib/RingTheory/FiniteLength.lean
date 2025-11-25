@@ -6,6 +6,14 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.RingTheory.Artinian.Module
+import Mathlib.Order.Cover
+import Mathlib.Order.OrderIsoNat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Atoms.Finite
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Modules of finite length

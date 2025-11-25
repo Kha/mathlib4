@@ -5,10 +5,8 @@ Authors: Johannes Hölzl, Patrick Massot, Casper Putz, Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Tower
 public import Mathlib.Data.Finite.Sum
 public import Mathlib.Data.Matrix.Block
-public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.Basis.Fin
 public import Mathlib.LinearAlgebra.Basis.Prod
 public import Mathlib.LinearAlgebra.Basis.SMul
@@ -16,6 +14,13 @@ public import Mathlib.LinearAlgebra.Matrix.Notation
 public import Mathlib.LinearAlgebra.Matrix.StdBasis
 public import Mathlib.RingTheory.AlgebraTower
 public import Mathlib.RingTheory.Ideal.Span
+public import Mathlib.Algebra.Algebra.Bilinear
+public import Mathlib.Data.Finite.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Linear maps and matrices

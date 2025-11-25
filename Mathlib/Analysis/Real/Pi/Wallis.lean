@@ -5,7 +5,15 @@ Authors: Hanting Zhang
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.Algebra.Order.Field
 
 /-! # The Wallis formula for Pi
 

@@ -5,8 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Lipschitz
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Hölder continuous functions

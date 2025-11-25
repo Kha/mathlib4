@@ -5,8 +5,18 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.Probability.Kernel.MeasurableLIntegral
+public import Mathlib.Probability.Kernel.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Measurability of the integral against a kernel

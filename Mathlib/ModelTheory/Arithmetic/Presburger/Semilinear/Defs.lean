@@ -7,6 +7,16 @@ module
 
 public import Mathlib.GroupTheory.Finiteness
 public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Group.Submonoid.Pointwise
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Linear and semilinear sets

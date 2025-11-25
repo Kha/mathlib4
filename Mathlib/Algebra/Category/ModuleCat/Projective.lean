@@ -5,10 +5,12 @@ Authors: Markus Himmel, Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.EpiMono
-public import Mathlib.Algebra.Group.Shrink
 public import Mathlib.Algebra.Module.Projective
 public import Mathlib.CategoryTheory.Preadditive.Projective.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Algebra.Module.Shrink
+import Mathlib.Algebra.Category.ModuleCat.EpiMono
 
 /-!
 # The category of `R`-modules has enough projectives.

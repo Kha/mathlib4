@@ -5,8 +5,18 @@ Authors: Anatole Dedecker
 -/
 module
 
-public import Mathlib.Analysis.LocallyConvex.Bounded
 public import Mathlib.Topology.Algebra.Module.StrongTopology
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.LocallyConvex.Basic
+import Mathlib.GroupTheory.GroupAction.Pointwise
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Compact operators

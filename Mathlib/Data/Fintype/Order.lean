@@ -6,10 +6,14 @@ Authors: Peter Nelson, Yaël Dillies
 module
 
 public import Mathlib.Data.Finset.Lattice.Fold
-public import Mathlib.Data.Finset.Order
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Data.Set.Finite.Range
 public import Mathlib.Order.Atoms
+public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Order.Fin.Basic
+public import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Order
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # Order structures on finite types

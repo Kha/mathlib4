@@ -6,9 +6,13 @@ Authors: Weiyi Wang
 module
 
 public import Mathlib.Algebra.Field.Defs
-public import Mathlib.Algebra.GroupWithZero.Invertible
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
 public import Mathlib.Algebra.Order.Module.Defs
+public import Mathlib.Algebra.Group.Invertible.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Module.NatInt
 
 /-!
 # Further lemmas about monotonicity of scalar multiplication

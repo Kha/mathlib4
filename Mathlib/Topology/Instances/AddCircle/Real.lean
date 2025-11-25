@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Topology.Connected.PathConnected
 public import Mathlib.Topology.Instances.AddCircle.Defs
-public import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Topology.Order.Compact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # The additive circle over `ℝ`

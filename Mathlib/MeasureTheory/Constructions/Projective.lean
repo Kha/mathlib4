@@ -7,6 +7,8 @@ module
 
 public import Mathlib.MeasureTheory.Constructions.Cylinders
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Projective measure families and projective limits

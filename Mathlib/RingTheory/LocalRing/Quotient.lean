@@ -6,14 +6,22 @@ Authors: Andrew Yang, Riccardo Brasca
 module
 
 public import Mathlib.LinearAlgebra.Dimension.DivisionRing
-public import Mathlib.LinearAlgebra.FreeModule.PID
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
-public import Mathlib.RingTheory.Artinian.Ring
 public import Mathlib.RingTheory.Ideal.Over
-public import Mathlib.RingTheory.Ideal.Quotient.Index
 public import Mathlib.RingTheory.LocalRing.ResidueField.Defs
-public import Mathlib.RingTheory.LocalRing.RingHom.Basic
-public import Mathlib.RingTheory.Nakayama
+public import Mathlib.RingTheory.Artinian.Module
+import Mathlib.RingTheory.Nakayama
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Artinian.Ring
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Index
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
 
 /-!
 

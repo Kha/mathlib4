@@ -5,8 +5,19 @@ Authors: Adrian Wüthrich
 -/
 module
 
-public import Mathlib.Analysis.Matrix.Order
 public import Mathlib.Combinatorics.SimpleGraph.AdjMatrix
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.LinearAlgebra.Matrix.PosDef
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Matrix.Order
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Star
 
 /-!
 # Laplacian Matrix

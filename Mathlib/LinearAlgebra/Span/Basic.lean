@@ -6,15 +6,22 @@ Authors: Johannes Hölzl, Mario Carneiro, Kevin Buzzard, Yury Kudryashov, Fréd�
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 public import Mathlib.Algebra.Module.Prod
-public import Mathlib.Algebra.Module.Submodule.EqLocus
 public import Mathlib.Algebra.Module.Submodule.Equiv
-public import Mathlib.Algebra.Module.Submodule.RestrictScalars
-public import Mathlib.Algebra.NoZeroSMulDivisors.Basic
 public import Mathlib.LinearAlgebra.Span.Defs
 public import Mathlib.Order.CompactlyGenerated.Basic
 public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Algebra.Group.Idempotent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Algebra.Group.Submonoid.Membership
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Module.Submodule.EqLocus
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # The span of a set of vectors, as a submodule

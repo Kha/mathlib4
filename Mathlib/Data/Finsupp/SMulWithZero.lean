@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Algebra.Group.Finsupp
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Scalar multiplication on `Finsupp`

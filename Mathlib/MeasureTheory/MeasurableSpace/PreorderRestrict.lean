@@ -7,6 +7,7 @@ module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
 public import Mathlib.Order.Restriction
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurability of the restriction function for functions indexed by a preorder

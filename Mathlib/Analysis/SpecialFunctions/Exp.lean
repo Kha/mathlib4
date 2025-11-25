@@ -5,10 +5,42 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne
 -/
 module
 
-public import Mathlib.Analysis.Complex.Asymptotics
-public import Mathlib.Analysis.Complex.Trigonometric
-public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+public import Mathlib.Analysis.Asymptotics.Theta
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.Exponential
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.Asymptotics
+import Mathlib.Analysis.Complex.Trigonometric
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.Data.Set.Monotone
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Map
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Complex and real exponential

@@ -5,8 +5,14 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Abs
-public import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 # `min` and `max` in linearly ordered groups.

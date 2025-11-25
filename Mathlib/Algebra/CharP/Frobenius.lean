@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.CharP.Lemmas
+public import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 ### The Frobenius endomorphism

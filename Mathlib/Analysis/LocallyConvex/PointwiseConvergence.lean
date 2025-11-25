@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Topology.Algebra.Module.PointwiseConvergence
 public import Mathlib.Analysis.LocallyConvex.WithSeminorms
-public import Mathlib.Analysis.LocallyConvex.StrongTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.LocallyConvex.StrongTopology
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # The topology of pointwise convergence is locally convex

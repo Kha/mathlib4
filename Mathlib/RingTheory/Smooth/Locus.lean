@@ -5,9 +5,14 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Etale.Kaehler
 public import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
-public import Mathlib.RingTheory.Support
+public import Mathlib.RingTheory.Smooth.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Etale.Kaehler
+import Mathlib.RingTheory.LocalRing.Module
+import Mathlib.RingTheory.Localization.LocalizationLocalization
+import Mathlib.RingTheory.Localization.Away.AdjoinRoot
 
 /-!
 # Smooth locus of an algebra

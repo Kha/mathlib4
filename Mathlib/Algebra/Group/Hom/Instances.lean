@@ -9,7 +9,9 @@ module
 public import Mathlib.Algebra.Group.Hom.Basic
 public import Mathlib.Algebra.Group.InjSurj
 public import Mathlib.Algebra.Group.Pi.Basic
-public import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.AssertExists
 
 /-!
 # Instances on spaces of monoid and group morphisms

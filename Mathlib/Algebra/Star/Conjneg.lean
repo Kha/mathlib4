@@ -5,9 +5,14 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Pi
 public import Mathlib.Algebra.Star.Pi
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Algebra.Notation.Support
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Conjugation-negation operator

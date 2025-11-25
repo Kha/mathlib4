@@ -5,8 +5,11 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.MonoidAlgebra.Ideal
-public import Mathlib.Algebra.MvPolynomial.Division
+public import Mathlib.Algebra.MvPolynomial.Basic
+public import Mathlib.RingTheory.Ideal.Span
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MonoidAlgebra.Ideal
+import Mathlib.Algebra.MvPolynomial.Division
 
 /-!
 # Lemmas about ideals of `MvPolynomial`

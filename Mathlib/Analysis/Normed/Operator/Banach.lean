@@ -5,11 +5,37 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.Baire.Lemmas
-public import Mathlib.Topology.Baire.CompleteMetrizable
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
 public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Topology.Baire.CompleteMetrizable
+import Mathlib.Topology.Baire.Lemmas
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Banach open mapping theorem

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Finsupp.ToDFinsupp
 public import Mathlib.Data.DFinsupp.Encodable
+import Mathlib.Tactic.TypeStar
 /-!
 # `Encodable` and `Countable` instances for `α →₀ β`
 

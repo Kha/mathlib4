@@ -5,9 +5,18 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.Complex.AbsMax
-public import Mathlib.NumberTheory.Modular
-public import Mathlib.NumberTheory.ModularForms.QExpansion
+public import Mathlib.NumberTheory.ModularForms.Basic
+public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
+import Mathlib.NumberTheory.Modular
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.AbsMax
+import Mathlib.Analysis.InnerProductSpace.Convex
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.NumberTheory.ModularForms.QExpansion
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
 /-!
 # Level one modular forms
 

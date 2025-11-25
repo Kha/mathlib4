@@ -5,13 +5,24 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Pi
-public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
-public import Mathlib.Algebra.BigOperators.Ring.Multiset
-public import Mathlib.Data.Finset.Max
 public import Mathlib.Data.Fintype.Powerset
-public import Mathlib.Data.Int.Cast.Lemmas
+public import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Data.Fintype.Pi
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Finset.Max
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Pi
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Results about big operators with values in a (semi)ring

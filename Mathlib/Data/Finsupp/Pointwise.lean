@@ -9,6 +9,7 @@ public import Mathlib.Algebra.Group.Finsupp
 public import Mathlib.Algebra.Module.Defs
 public import Mathlib.Algebra.Ring.InjSurj
 public import Mathlib.Algebra.Ring.Pi
+import Mathlib.Tactic.Lemma
 
 /-!
 # The pointwise product on `Finsupp`.

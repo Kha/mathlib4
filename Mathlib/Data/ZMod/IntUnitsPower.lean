@@ -5,9 +5,11 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Divisibility
-public import Mathlib.Data.Int.Order.Units
 public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Algebra.Module.NatInt
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Order.Units
 
 /-!
 # The power operator on `ℤˣ` by `ZMod 2`, `ℕ`, and `ℤ`

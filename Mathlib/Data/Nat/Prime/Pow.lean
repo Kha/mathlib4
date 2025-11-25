@@ -5,8 +5,11 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
-public import Mathlib.Data.Nat.Prime.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Prime numbers

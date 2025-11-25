@@ -9,6 +9,7 @@ public import Mathlib.CategoryTheory.Action
 public import Mathlib.Combinatorics.Quiver.Arborescence
 public import Mathlib.Combinatorics.Quiver.ConnectedComponent
 public import Mathlib.GroupTheory.FreeGroup.IsFreeGroup
+import Mathlib.Tactic.Lemma
 
 /-!
 # The Nielsen-Schreier theorem

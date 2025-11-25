@@ -6,7 +6,14 @@ Authors: María Inés de Frutos-Fernández, Fabrizio Barroero
 module
 
 public import Mathlib.Algebra.Order.Hom.Basic
-public import Mathlib.Data.Nat.Choose.Sum
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Algebra.Order.Ring.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Nonarchimedean functions

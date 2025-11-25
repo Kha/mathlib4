@@ -5,11 +5,24 @@ Authors: Chris Hughes, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Module.BigOperators
-public import Mathlib.GroupTheory.Perm.Basic
-public import Mathlib.GroupTheory.Perm.Finite
 public import Mathlib.GroupTheory.Perm.List
 public import Mathlib.GroupTheory.Perm.Sign
+public import Mathlib.GroupTheory.OrderOfElement
+public import Mathlib.Algebra.Module.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Units
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Finite.Prod
+import Mathlib.GroupTheory.Perm.Basic
+import Mathlib.GroupTheory.Perm.Finite
+import Mathlib.Algebra.Group.Commute.Basic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Cycles of a permutation

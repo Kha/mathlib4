@@ -8,6 +8,8 @@ module
 public import Mathlib.Analysis.CStarAlgebra.Basic
 public import Mathlib.Topology.ContinuousMap.Bounded.Normed
 public import Mathlib.Topology.ContinuousMap.Star
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.Sqrt
 
 /-!
 # Star structures on bounded continuous functions

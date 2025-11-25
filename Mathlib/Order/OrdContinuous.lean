@@ -6,7 +6,8 @@ Authors: Yury Kudryashov, Johannes Hölzl
 module
 
 public import Mathlib.Order.ConditionallyCompleteLattice.Basic
-public import Mathlib.Order.RelIso.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.GaloisConnection.Basic
 
 /-!
 # Order continuity

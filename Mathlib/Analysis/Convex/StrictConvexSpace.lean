@@ -5,9 +5,18 @@ Authors: Yaël Dillies, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.Convex
-public import Mathlib.Analysis.Normed.Module.Ray
-public import Mathlib.Analysis.Normed.Module.Ball.Pointwise
+public import Mathlib.Analysis.Convex.Strict
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Module.Ray
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Strictly convex spaces

@@ -6,6 +6,8 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.ModelTheory.Satisfiability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalence of Formulas

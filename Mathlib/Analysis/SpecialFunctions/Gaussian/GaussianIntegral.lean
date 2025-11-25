@@ -6,9 +6,49 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
-public import Mathlib.Analysis.SpecialFunctions.PolarCoord
-public import Mathlib.Analysis.Complex.Convex
 public import Mathlib.Data.Nat.Factorial.DoubleFactorial
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Complex.Convex
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.SpecialFunctions.PolarCoord
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Integral.ExpDecay
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Gaussian integral

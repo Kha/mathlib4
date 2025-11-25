@@ -8,6 +8,10 @@ module
 public import Mathlib.LinearAlgebra.PerfectPairing.Basic
 public import Mathlib.LinearAlgebra.Matrix.Dual
 public import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Perfect pairings and matrices

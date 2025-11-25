@@ -6,6 +6,7 @@ Authors: Paul Lezeau, Calle Sönne
 module
 
 public import Mathlib.CategoryTheory.FiberedCategory.Cartesian
+import Mathlib.Tactic.Lemma
 
 /-!
 

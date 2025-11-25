@@ -6,10 +6,18 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
-public import Mathlib.Algebra.Polynomial.Expand
 public import Mathlib.RingTheory.Adjoin.Polynomial
-public import Mathlib.RingTheory.Finiteness.Subalgebra
-public import Mathlib.RingTheory.Polynomial.Tower
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Expand
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Subalgebra
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.Tower
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Properties of integral elements.

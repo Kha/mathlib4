@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.OmegaCompletePartialOrder
 public import Mathlib.Topology.Order.ScottTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Scott Topological Spaces

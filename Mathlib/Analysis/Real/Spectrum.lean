@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Algebra.Spectrum.Quasispectrum
 public import Mathlib.Topology.Instances.NNReal.Lemmas
-public import Mathlib.Tactic.ContinuousFunctionalCalculus
+import Mathlib.Tactic.ContinuousFunctionalCalculus
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Some lemmas on the spectrum and quasispectrum of elements and positivity

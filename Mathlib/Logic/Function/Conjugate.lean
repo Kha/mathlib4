@@ -6,6 +6,8 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Logic.Function.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Semiconjugate and commuting maps

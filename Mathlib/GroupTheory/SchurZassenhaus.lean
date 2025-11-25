@@ -6,6 +6,11 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.GroupTheory.Transfer
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # The Schur-Zassenhaus Theorem

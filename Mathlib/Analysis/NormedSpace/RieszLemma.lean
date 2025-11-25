@@ -5,9 +5,17 @@ Authors: Jean Lo, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
-public import Mathlib.Analysis.Seminorm
 public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Algebra.Module.Submodule.Basic
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Analysis.Seminorm
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Applications of the Hausdorff distance in normed spaces

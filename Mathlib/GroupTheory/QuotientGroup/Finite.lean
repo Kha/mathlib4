@@ -7,8 +7,12 @@ Authors: Kevin Buzzard, Patrick Massot
 module
 
 public import Mathlib.Algebra.Group.Subgroup.Finite
-public import Mathlib.Data.Finite.Prod
 public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.Data.Fintype.Prod
+public import Mathlib.GroupTheory.Coset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
 
 /-!
 # Deducing finiteness of a group.

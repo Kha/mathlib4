@@ -5,8 +5,20 @@ Authors: Rémy Degenne, David Ledvinka
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Log.ENNRealLogExp
 public import Mathlib.Order.CompletePartialOrder
+public import Mathlib.Data.Finset.Prod
+public import Mathlib.Topology.EMetricSpace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.SpecialFunctions.Log.ENNRealLogExp
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Pair Reduction

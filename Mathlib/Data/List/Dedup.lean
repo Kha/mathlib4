@@ -5,9 +5,14 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.List.Nodup
-public import Mathlib.Data.List.Lattice
-public import Batteries.Data.List.Pairwise
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.List.Defs
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Batteries.Data.List.Pairwise
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Lattice
+import Mathlib.Data.List.Nodup
 
 /-!
 # Erasure of duplicates in a list

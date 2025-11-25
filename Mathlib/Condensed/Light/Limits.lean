@@ -6,6 +6,8 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.Condensed.Light.Module
+import Mathlib.CategoryTheory.Sites.Limits
+import Mathlib.Algebra.Category.ModuleCat.Limits
 /-!
 
 # Limits in categories of light condensed objects

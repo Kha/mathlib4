@@ -6,14 +6,18 @@ Authors: Johannes Hölzl, Mario Carneiro, Kevin Buzzard, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Group.Subgroup.Lattice
-public import Mathlib.Algebra.Group.Submonoid.Membership
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
 public import Mathlib.Algebra.Module.Submodule.Defs
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Algebra.Module.PUnit
-public import Mathlib.Data.Set.Subsingleton
 public import Mathlib.Data.Finset.Lattice.Fold
 public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Group.Submonoid.Membership
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # The lattice structure on `Submodule`s

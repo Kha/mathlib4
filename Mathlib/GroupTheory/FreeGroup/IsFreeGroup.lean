@@ -6,6 +6,8 @@ Authors: David Wärn, Eric Wieser, Joachim Breitner
 module
 
 public import Mathlib.GroupTheory.FreeGroup.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Free groups structures on arbitrary types

@@ -8,6 +8,10 @@ module
 public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
 public import Mathlib.MeasureTheory.PiSystem
 public import Mathlib.Topology.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
 
 /-!
 # π-systems of cylinders and square cylinders

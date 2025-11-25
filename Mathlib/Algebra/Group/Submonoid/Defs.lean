@@ -6,10 +6,13 @@ Amelia Livingston, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Hom.Defs
 public import Mathlib.Algebra.Group.Subsemigroup.Defs
-public import Mathlib.Tactic.FastInstance
 public import Mathlib.Data.Set.Insert
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Submonoids: definition

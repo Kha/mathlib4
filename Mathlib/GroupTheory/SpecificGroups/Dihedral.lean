@@ -5,12 +5,19 @@ Authors: Shing Tak Lam
 -/
 module
 
-public import Mathlib.Data.Finite.Sum
 public import Mathlib.Data.ZMod.Basic
-public import Mathlib.GroupTheory.Exponent
-public import Mathlib.GroupTheory.GroupAction.CardCommute
-public import Mathlib.GroupTheory.SpecificGroups.Cyclic
 public import Mathlib.GroupTheory.SpecificGroups.KleinFour
+public import Mathlib.Data.Fintype.Sum
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Finite.Sum
+import Mathlib.GroupTheory.GroupAction.CardCommute
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Dihedral Groups

@@ -5,9 +5,12 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández, Filippo A. E.
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.Pointwise
-public import Mathlib.Algebra.GroupWithZero.Submonoid.Instances
 public import Mathlib.Algebra.GroupWithZero.WithZero
+public import Mathlib.Algebra.Group.Subgroup.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Subgroup.Pointwise
+import Mathlib.Algebra.GroupWithZero.Submonoid.Instances
 
 /-! # The range of a MonoidWithZeroHom
 Given a `MonoidWithZeroHom` `f : A → B` whose codomain `B` is a `MonoidWithZero`, we define the

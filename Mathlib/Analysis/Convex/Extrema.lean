@@ -6,9 +6,21 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Analysis.Convex.Function
-public import Mathlib.Topology.Algebra.Affine
 public import Mathlib.Topology.Order.LocalExtr
-public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Topology.Algebra.Group.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Minima and maxima of convex functions

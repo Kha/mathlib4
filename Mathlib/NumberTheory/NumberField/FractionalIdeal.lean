@@ -7,7 +7,12 @@ module
 
 public import Mathlib.NumberTheory.NumberField.Basic
 public import Mathlib.RingTheory.FractionalIdeal.Norm
-public import Mathlib.RingTheory.FractionalIdeal.Operations
+public import Mathlib.RingTheory.Noetherian.Basic
+public import Mathlib.RingTheory.DedekindDomain.Ideal.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 

@@ -5,10 +5,17 @@ Authors: Kenny Lau, Wrenna Robson
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Pi
 public import Mathlib.Algebra.Polynomial.FieldDivision
-public import Mathlib.LinearAlgebra.Vandermonde
 public import Mathlib.RingTheory.Polynomial.Basic
+public import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.GroupTheory.OrderOfElement
+import Mathlib.LinearAlgebra.Vandermonde
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.WithTop
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Lagrange interpolation

@@ -5,11 +5,24 @@ Authors: Ellen Arlt, Blair Shi, Sean Leather, Mario Carneiro, Johan Commelin, Lu
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Regular.Basic
-public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Data.Matrix.Diagonal
+public import Mathlib.Data.Fintype.Sum
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Matrix multiplication

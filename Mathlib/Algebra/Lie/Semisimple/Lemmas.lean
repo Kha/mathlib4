@@ -5,8 +5,17 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Lie.LieTheorem
-public import Mathlib.Algebra.Lie.Semisimple.Basic
+public import Mathlib.Algebra.Lie.Semisimple.Defs
+public import Mathlib.Algebra.Lie.Weights.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Lie.LieTheorem
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Lie.Semisimple.Basic
 
 /-!
 # Lemmas about semisimple Lie algebras

@@ -5,8 +5,13 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 -/
 module
 
-public import Mathlib.Algebra.QuadraticDiscriminant
-public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Algebra.QuadraticDiscriminant
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Analysis.SpecialFunctions.Pow.Complex
 
 /-!
 # Complex trigonometric functions

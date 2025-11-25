@@ -5,7 +5,21 @@ Authors: Damien Thomine
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Order.LiminfLimsup
+public import Mathlib.Data.EReal.Inv
+public import Mathlib.Topology.Order.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Instances.EReal.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Linear growth

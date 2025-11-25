@@ -6,6 +6,8 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot
 module
 
 public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Definitions about topological groups

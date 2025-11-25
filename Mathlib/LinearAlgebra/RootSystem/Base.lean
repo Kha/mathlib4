@@ -6,8 +6,17 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.LinearAlgebra.RootSystem.Chain
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
-public import Mathlib.LinearAlgebra.RootSystem.IsValuedIn
+public import Mathlib.Order.Interval.Finset.Fin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Support
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Module.Defs
+import Mathlib.LinearAlgebra.RootSystem.Finite.CanonicalBilinear
+import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Bases for root pairings / systems

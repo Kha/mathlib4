@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Geometry.Manifold.IsManifold.ExtChartAt
 public import Mathlib.Geometry.Manifold.LocalInvariantProperties
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.ContDiff.Basic
 
 /-!
 # `C^n` functions between manifolds

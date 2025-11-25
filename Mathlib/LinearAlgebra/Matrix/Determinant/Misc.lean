@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
 public import Mathlib.Algebra.Ring.NegOnePow
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Module.Basic
 
 /-!
 # Miscellaneous results about determinant

@@ -6,6 +6,13 @@ Authors: Vasilii Nesterov
 module
 
 public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.MetricSpace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Every compact metric space can be embedded into the Hilbert cube.

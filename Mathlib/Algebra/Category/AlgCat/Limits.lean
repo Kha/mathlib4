@@ -8,9 +8,9 @@ module
 public import Mathlib.Algebra.Algebra.Pi
 public import Mathlib.Algebra.Algebra.Shrink
 public import Mathlib.Algebra.Category.AlgCat.Basic
-public import Mathlib.Algebra.Category.ModuleCat.Basic
-public import Mathlib.Algebra.Category.ModuleCat.Limits
 public import Mathlib.Algebra.Category.Ring.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.ModuleCat.Limits
 
 /-!
 # The category of R-algebras has all limits

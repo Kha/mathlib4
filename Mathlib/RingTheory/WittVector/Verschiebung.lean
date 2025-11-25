@@ -5,8 +5,12 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.RingTheory.WittVector.Basic
 public import Mathlib.RingTheory.WittVector.IsPoly
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Funext
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 ## The Verschiebung operator

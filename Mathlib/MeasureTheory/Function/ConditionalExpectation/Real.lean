@@ -5,9 +5,23 @@ Authors: Rémy Degenne, Kexing Ying
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.ConditionalExpectation.Indicator
 public import Mathlib.MeasureTheory.Function.UniformIntegrable
-public import Mathlib.MeasureTheory.VectorMeasure.Decomposition.RadonNikodym
+public import Mathlib.MeasureTheory.Function.ConditionalExpectation.Basic
+public import Mathlib.MeasureTheory.VectorMeasure.Decomposition.Lebesgue
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Indicator
+import Mathlib.MeasureTheory.Function.LpSeminorm.ChebyshevMarkov
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.VectorMeasure.Decomposition.RadonNikodym
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 

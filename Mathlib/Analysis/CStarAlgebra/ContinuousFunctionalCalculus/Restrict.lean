@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Topology.Algebra.Algebra
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.NonUnital
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-! # Restriction of the continuous functional calculus to a scalar subring
 

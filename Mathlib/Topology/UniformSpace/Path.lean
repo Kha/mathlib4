@@ -7,9 +7,12 @@ module
 
 public import Mathlib.Topology.Path
 public import Mathlib.Topology.UniformSpace.CompactConvergence
-public import Mathlib.Topology.UniformSpace.HeineCantor
-public import Mathlib.Topology.MetricSpace.Lipschitz
-public import Mathlib.Topology.ContinuousMap.Interval
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.ContinuousMap.Interval
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Paths in uniform spaces

@@ -5,8 +5,15 @@ Authors: Eric Rodriguez, Eric Wieser
 -/
 module
 
-public import Mathlib.Data.List.Chain
-public import Mathlib.Data.List.Dedup
+public import Mathlib.Order.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.List.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Chain
+import Mathlib.Data.List.Dedup
+import Mathlib.Data.List.Induction
+import Mathlib.Data.Nat.Basic
 
 /-!
 # Destuttering of Lists

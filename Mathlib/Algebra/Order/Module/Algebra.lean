@@ -8,6 +8,10 @@ module
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Order.Module.Defs
 public import Mathlib.Tactic.Positivity.Core
+public meta import Mathlib.Tactic.Positivity.Core
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Ordered algebras

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Data.Bracket
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # The bracket on a group given by commutator.

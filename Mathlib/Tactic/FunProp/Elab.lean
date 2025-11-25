@@ -5,7 +5,8 @@ Authors: Tomáš Skřivan
 -/
 module
 
-public meta import Mathlib.Tactic.FunProp.Core
+public import Mathlib.Tactic.FunProp.Core
+import Lean.Elab.Tactic.Config
 
 /-!
 ## `funProp` tactic syntax

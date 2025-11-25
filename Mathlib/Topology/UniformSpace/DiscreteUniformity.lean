@@ -6,6 +6,8 @@ Authors: Johannes Hölzl, Mario Carneiro, Antoine Chambert-Loir, María Inés de
 module
 
 public import Mathlib.Topology.UniformSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Prod
 
 /-! # Discrete uniformity
 

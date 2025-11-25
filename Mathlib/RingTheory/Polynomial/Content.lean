@@ -6,9 +6,16 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.Algebra.GCDMonoid.Finset
-public import Mathlib.Algebra.Polynomial.CancelLeads
 public import Mathlib.Algebra.Polynomial.EraseLead
 public import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Polynomial.CancelLeads
+import Mathlib.Data.Nat.WithBot
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Units
 
 /-!
 # GCD structures on polynomials

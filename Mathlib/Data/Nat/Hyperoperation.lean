@@ -5,7 +5,8 @@ Authors: Mark Andrew Gerads, Junyan Xu, Eric Wieser
 -/
 module
 
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Group.Nat.Even
 
 /-!
 # Hyperoperation sequence

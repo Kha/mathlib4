@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Adjunction.Reflective
 public import Mathlib.CategoryTheory.Monad.Algebra
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Adjunctions and (co)monads

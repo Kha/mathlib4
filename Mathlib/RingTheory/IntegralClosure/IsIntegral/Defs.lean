@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Polynomial.Degree.Definitions
 public import Mathlib.Algebra.Polynomial.Eval.Defs
 public import Mathlib.Tactic.Algebraize
+public import Mathlib.Algebra.Algebra.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Integral closure of a subring.

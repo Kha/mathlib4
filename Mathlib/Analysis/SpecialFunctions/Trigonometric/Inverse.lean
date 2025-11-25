@@ -6,7 +6,21 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Topology.OpenPartialHomeomorph
+public import Mathlib.Order.Interval.Set.ProjIcc
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Topology.Order.ProjIcc
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Inverse trigonometric functions.

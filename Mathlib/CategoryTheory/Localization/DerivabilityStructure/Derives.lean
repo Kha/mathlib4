@@ -5,7 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.DerivabilityStructure.PointwiseRightDerived
+public import Mathlib.CategoryTheory.Functor.Derived.PointwiseRightDerived
+public import Mathlib.CategoryTheory.Localization.DerivabilityStructure.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Localization.DerivabilityStructure.PointwiseRightDerived
 
 /-!
 # Deriving functors using a derivability structure

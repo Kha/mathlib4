@@ -5,7 +5,11 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.SetTheory.Ordinal.Family
+public import Mathlib.Order.Hom.Set
+public import Mathlib.SetTheory.Ordinal.Arithmetic
+import Mathlib.Logic.Small.Set
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Tactic.GCongr.CoreAttrs
 
 /-!
 # Enumerating sets of ordinals by ordinals

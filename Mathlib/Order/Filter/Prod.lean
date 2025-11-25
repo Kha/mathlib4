@@ -5,7 +5,16 @@ Authors: Johannes Hölzl, Patrick Massot, Yury Kudryashov, Kevin H. Wilson, Heat
 -/
 module
 
-public import Mathlib.Order.Filter.Tendsto
+public import Mathlib.Order.Filter.Basic
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Product and coproduct filters

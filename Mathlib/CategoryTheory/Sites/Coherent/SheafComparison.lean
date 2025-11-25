@@ -6,11 +6,16 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Sites.Coherent.Comparison
-public import Mathlib.CategoryTheory.Sites.Coherent.ExtensiveSheaves
 public import Mathlib.CategoryTheory.Sites.Coherent.ReflectsPrecoherent
 public import Mathlib.CategoryTheory.Sites.Coherent.ReflectsPreregular
 public import Mathlib.CategoryTheory.Sites.DenseSubsite.InducedTopology
-public import Mathlib.CategoryTheory.Sites.Whiskering
+public import Mathlib.CategoryTheory.EffectiveEpi.Extensive
+public import Mathlib.CategoryTheory.Sites.Coherent.RegularSheaves
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Sites.Coherent.CoherentTopology
+import Mathlib.CategoryTheory.Sites.Coherent.ExtensiveSheaves
+import Mathlib.CategoryTheory.Sites.Coherent.RegularTopology
 /-!
 
 # Categories of coherent sheaves

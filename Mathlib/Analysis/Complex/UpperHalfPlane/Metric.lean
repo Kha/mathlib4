@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
 public import Mathlib.Analysis.SpecialFunctions.Arsinh
-public import Mathlib.Geometry.Euclidean.Inversion.Basic
+import Mathlib.Order.Compare
+import Mathlib.Tactic.Field
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Geometry.Euclidean.Inversion.Basic
 
 /-!
 # Metric on the upper half-plane

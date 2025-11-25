@@ -5,9 +5,13 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
-public import Mathlib.Algebra.Order.Group.Unbundled.Basic
-public import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
+public import Mathlib.Order.ConditionallyCompleteLattice.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
 
 /-!
 # Conditionally complete lattices and groups.

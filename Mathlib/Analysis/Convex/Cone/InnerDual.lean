@@ -7,6 +7,17 @@ module
 
 public import Mathlib.Analysis.Convex.Cone.Dual
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.Analysis.Normed.Order.Lattice
+public import Mathlib.Topology.Algebra.Order.Module
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.InnerProductSpace.Projection.Minimal
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Inner dual cone of a set

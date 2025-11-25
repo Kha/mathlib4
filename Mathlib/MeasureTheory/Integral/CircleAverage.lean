@@ -7,7 +7,16 @@ module
 
 public import Mathlib.MeasureTheory.Integral.CircleIntegral
 public import Mathlib.MeasureTheory.Integral.IntervalAverage
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import Mathlib.MeasureTheory.Topology
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Circle Averages

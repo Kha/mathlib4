@@ -5,7 +5,15 @@ Authors: Zhouhang Zhou, Yury Kudryashov, Sébastien Gouëzel, Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Additivity on measurable sets with finite measure

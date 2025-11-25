@@ -7,6 +7,12 @@ module
 
 public import Mathlib.MeasureTheory.Measure.WithDensity
 public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-! # A lemma about measurability with density under scalar multiplication in normed spaces -/
 

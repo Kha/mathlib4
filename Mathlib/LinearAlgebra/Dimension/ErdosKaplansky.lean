@@ -5,10 +5,20 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.Algebra.Field.Opposite
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.SetTheory.Cardinal.Subfield
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Dimension.Basic
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Opposite
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.Finsupp.Pi
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.SetTheory.Cardinal.Finsupp
+import Mathlib.SetTheory.Cardinal.Subfield
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Erdős-Kaplansky theorem

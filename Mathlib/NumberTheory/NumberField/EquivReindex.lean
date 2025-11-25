@@ -6,6 +6,9 @@ Authors: Michail Karatarakis
 module
 
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic
+import Mathlib.RingTheory.Discriminant
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Matrix.Invertible
 
 /-!
 

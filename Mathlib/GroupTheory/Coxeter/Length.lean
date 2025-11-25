@@ -5,10 +5,16 @@ Authors: Mitchell Lee
 -/
 module
 
-public import Mathlib.Data.ZMod.Basic
 public import Mathlib.GroupTheory.Coxeter.Basic
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Zify
+public import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ZMod.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # The length function, reduced words, and descents

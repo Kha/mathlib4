@@ -5,7 +5,22 @@ Authors: Aaron Anderson, Jalex Stark
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Monic
+public import Mathlib.Data.List.MinMax
+public import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.List
+import Mathlib.Algebra.Order.BigOperators.Group.Multiset
 
 /-!
 # Lemmas for the interaction between polynomials and `∑` and `∏`.

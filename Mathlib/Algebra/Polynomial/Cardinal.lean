@@ -6,7 +6,8 @@ Authors: Chris Hughes, Junyan Xu
 module
 
 public import Mathlib.Algebra.Polynomial.Basic
-public import Mathlib.SetTheory.Cardinal.Finsupp
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.SetTheory.Cardinal.Finsupp
 
 /-!
 # Cardinality of Polynomial Ring

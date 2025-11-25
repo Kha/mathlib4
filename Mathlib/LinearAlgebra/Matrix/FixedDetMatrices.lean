@@ -7,6 +7,16 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.SpecialLinearGroup
 public import Mathlib.Data.Int.Interval
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Abs
 
 /-!
 # Matrices with fixed determinant

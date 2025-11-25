@@ -5,8 +5,9 @@ Authors: Kyle Miller
 -/
 module
 
-public meta import Mathlib.RingTheory.Coprime.Lemmas
-public meta import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.Tactic.NormNum.GCD
+import Mathlib.RingTheory.Coprime.Lemmas
 
 /-! # `norm_num` extension for `IsCoprime`
 

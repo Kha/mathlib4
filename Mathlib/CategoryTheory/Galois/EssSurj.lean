@@ -5,9 +5,17 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.CategoryTheory.Galois.Full
 public import Mathlib.CategoryTheory.Galois.Topology
 public import Mathlib.Topology.Algebra.OpenSubgroup
+public import Mathlib.CategoryTheory.Action.Limits
+public import Mathlib.CategoryTheory.Galois.Action
+public import Mathlib.CategoryTheory.Galois.Examples
+public import Mathlib.CategoryTheory.Limits.FintypeCat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Galois.Decomposition
+import Mathlib.CategoryTheory.Galois.Full
 
 /-!
 

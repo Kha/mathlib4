@@ -5,9 +5,12 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.LocalRing.Module
 public import Mathlib.RingTheory.Smooth.Basic
-public import Mathlib.RingTheory.TensorProduct.Free
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Module
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.RingTheory.TensorProduct.Free
 
 /-!
 # Formally smooth local algebras

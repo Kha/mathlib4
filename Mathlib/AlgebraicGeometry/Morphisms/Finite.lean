@@ -6,7 +6,16 @@ Authors: Christian Merten, Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Integral
-public import Mathlib.Algebra.Category.Ring.Epi
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.AffineAnd
+import Mathlib.AlgebraicGeometry.Morphisms.IsIso
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Monad.Adjunction
+import Mathlib.RingTheory.RingHom.Finite
+import Mathlib.Algebra.Category.Ring.Epi
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.RingTheory.Spectrum.Prime.Jacobson
 
 /-!
 

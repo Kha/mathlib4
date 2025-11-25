@@ -8,7 +8,12 @@ module
 public import Mathlib.Order.SuccPred.Archimedean
 public import Mathlib.Data.Nat.Find
 public import Mathlib.Order.Atoms
-public import Mathlib.Data.SetLike.Basic
+public import Mathlib.Data.Set.Pairwise.Basic
+public import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Rooted trees

@@ -5,8 +5,14 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
-public import Mathlib.MeasureTheory.Integral.MeanInequalities
+public import Mathlib.MeasureTheory.Function.LpSeminorm.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Integral.MeanInequalities
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Triangle inequality for `Lp`-seminorm

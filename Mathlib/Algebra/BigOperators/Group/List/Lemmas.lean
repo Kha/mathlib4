@@ -5,17 +5,26 @@ Authors: Johannes Hölzl, Floris van Doorn, Sébastien Gouëzel, Alex J. Best
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
 public import Mathlib.Algebra.Divisibility.Basic
-public import Mathlib.Algebra.Group.Int.Units
-public import Mathlib.Data.List.Dedup
-public import Mathlib.Data.List.Flatten
-public import Mathlib.Data.List.Pairwise
-public import Mathlib.Data.List.Perm.Basic
 public import Mathlib.Data.List.Range
-public import Mathlib.Data.List.Rotate
-public import Mathlib.Data.List.ProdSigma
 public import Mathlib.Algebra.Group.Opposite
+public import Mathlib.Data.List.Defs
+public import Mathlib.Algebra.Group.Hom.Defs
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Group.Nat.Defs
+public import Mathlib.Algebra.Group.Units.Defs
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Dedup
+import Mathlib.Data.List.Flatten
+import Mathlib.Data.List.Pairwise
+import Mathlib.Data.List.ProdSigma
+import Mathlib.Data.List.Rotate
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Sums and products from lists

@@ -5,8 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.Single
 public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 # The homology of single complexes
 

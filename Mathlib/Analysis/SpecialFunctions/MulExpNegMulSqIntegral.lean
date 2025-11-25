@@ -6,11 +6,25 @@ Authors: Jakob Stiefel
 module
 
 public import Mathlib.Analysis.SpecialFunctions.MulExpNegMulSq
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-public import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.MeasureTheory.Measure.RegularityCompacts
-public import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.MeasureTheory.Measure.RegularityCompacts
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Properties of the integral of `mulExpNegMulSq`

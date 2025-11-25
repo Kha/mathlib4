@@ -5,12 +5,17 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
-public import Mathlib.CategoryTheory.Adjunction.Limits
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Limits.Shapes.StrictInitial
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Constructions.FiniteProductsOfBinaryProducts
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Iso
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 

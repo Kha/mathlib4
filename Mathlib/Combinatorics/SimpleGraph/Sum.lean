@@ -5,9 +5,8 @@ Authors: Iván Renison
 -/
 module
 
-public import Mathlib.Combinatorics.SimpleGraph.Basic
 public import Mathlib.Combinatorics.SimpleGraph.Coloring
-public import Mathlib.Combinatorics.SimpleGraph.Maps
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Disjoint sum of graphs

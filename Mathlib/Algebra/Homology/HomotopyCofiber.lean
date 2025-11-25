@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Homology.HomologicalComplexBiprod
 public import Mathlib.Algebra.Homology.Homotopy
 public import Mathlib.CategoryTheory.MorphismProperty.IsInvertedBy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
 
 /-! The homotopy cofiber of a morphism of homological complexes
 

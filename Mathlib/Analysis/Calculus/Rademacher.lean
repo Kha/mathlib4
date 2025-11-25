@@ -5,13 +5,36 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.LineDeriv.Measurable
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
-public import Mathlib.Analysis.BoundedVariation
-public import Mathlib.MeasureTheory.Group.Integral
-public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
-public import Mathlib.MeasureTheory.Measure.Haar.Disintegration
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.Analysis.Calculus.LineDeriv.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Analysis.BoundedVariation
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Analysis.Calculus.ContDiff.RCLike
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Calculus.LineDeriv.Measurable
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.MeasureTheory.Measure.Haar.Disintegration
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Rademacher's theorem: a Lipschitz function is differentiable almost everywhere

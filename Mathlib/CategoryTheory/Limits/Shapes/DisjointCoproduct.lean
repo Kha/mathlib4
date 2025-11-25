@@ -5,9 +5,11 @@ Authors: Bhavik Mehta, Christian Merten
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Disjoint coproducts

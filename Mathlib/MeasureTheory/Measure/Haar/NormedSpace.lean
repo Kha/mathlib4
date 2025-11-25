@@ -5,9 +5,19 @@ Authors: Floris van Doorn, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Basic properties of Haar measures on real vector spaces

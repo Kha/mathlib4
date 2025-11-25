@@ -6,9 +6,28 @@ Authors: Alexander Bentkamp, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Convex.Strict
-public import Mathlib.Analysis.Convex.StdSimplex
-public import Mathlib.Topology.Algebra.Affine
-public import Mathlib.Topology.Algebra.Module.Basic
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Topology.MetricSpace.ProperSpace
+public import Mathlib.Topology.Order.Compact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.StdSimplex
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.Module.Basic
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Topological properties of convex sets

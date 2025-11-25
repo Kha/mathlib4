@@ -5,7 +5,7 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Lean.Message
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Init
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-08-18")

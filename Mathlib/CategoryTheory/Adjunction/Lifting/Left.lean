@@ -6,7 +6,9 @@ Authors: Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Monad.Adjunction
-public import Mathlib.CategoryTheory.Monad.Coequalizer
+public import Mathlib.CategoryTheory.Limits.Shapes.Reflexive
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Monad.Coequalizer
 
 /-!
 # Adjoint lifting

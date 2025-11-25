@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf
 public import Mathlib.Algebra.Category.ModuleCat.Adjunctions
+import Mathlib.Tactic.Lemma
 
 /-!
 # The free presheaf of modules on a presheaf of sets

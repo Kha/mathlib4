@@ -5,8 +5,8 @@ Authors: Adam Topaz
 -/
 module
 
-public import Mathlib.CategoryTheory.Whiskering
 public import Mathlib.CategoryTheory.Adjunction.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 

@@ -6,9 +6,7 @@ Amelia Livingston, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Submonoid.Basic
-public import Mathlib.Algebra.Ring.Defs
-public import Mathlib.Tactic.MinImports
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-09")

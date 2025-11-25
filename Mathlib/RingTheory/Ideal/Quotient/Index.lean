@@ -5,15 +5,23 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.Data.Finsupp.Fintype
 public import Mathlib.GroupTheory.Index
-public import Mathlib.LinearAlgebra.DirectSum.Finsupp
-public import Mathlib.LinearAlgebra.TensorProduct.Quotient
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
-public import Mathlib.RingTheory.Finiteness.Cardinality
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.TensorProduct.Finite
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Finsupp.Fintype
+import Mathlib.LinearAlgebra.DirectSum.Finsupp
+import Mathlib.LinearAlgebra.TensorProduct.Quotient
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 # Indices of ideals

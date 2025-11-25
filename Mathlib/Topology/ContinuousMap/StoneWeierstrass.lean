@@ -7,12 +7,22 @@ module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Tower
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Topology.Algebra.Star.Real
 public import Mathlib.Topology.Algebra.StarSubalgebra
 public import Mathlib.Topology.Algebra.NonUnitalStarAlgebra
 public import Mathlib.Topology.ContinuousMap.ContinuousMapZero
-public import Mathlib.Topology.ContinuousMap.Lattice
-public import Mathlib.Topology.ContinuousMap.Weierstrass
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Topology.ContinuousMap.Ordered
+public import Mathlib.Topology.ContinuousMap.Polynomial
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.ContinuousMap.Lattice
+import Mathlib.Topology.ContinuousMap.Weierstrass
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Module.Basic
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.Algebra.Star.Real
 
 /-!
 # The Stone-Weierstrass theorem

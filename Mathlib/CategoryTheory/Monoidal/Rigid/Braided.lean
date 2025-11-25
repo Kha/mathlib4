@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.Rigid.Basic
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Deriving `RigidCategory` instance for braided and left/right rigid categories.

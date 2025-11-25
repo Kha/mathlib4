@@ -5,10 +5,16 @@ Authors: Jujian Zhang, Junyan Xu
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Basic
-public import Mathlib.Algebra.Category.Grp.Injective
 public import Mathlib.Topology.Instances.AddCircle.Defs
 public import Mathlib.LinearAlgebra.Isomorphisms
+public import Mathlib.LinearAlgebra.TensorProduct.Basic
+public import Mathlib.RingTheory.Ideal.Span
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Rat.Floor
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Algebra.Category.Grp.Injective
 
 /-!
 # Character module of a module

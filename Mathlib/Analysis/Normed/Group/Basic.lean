@@ -6,10 +6,27 @@ Authors: Patrick Massot, Johannes Hölzl, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Normed.Group.Seminorm
-public import Mathlib.Data.NNReal.Basic
 public import Mathlib.Topology.Algebra.Support
 public import Mathlib.Topology.MetricSpace.Basic
 public import Mathlib.Topology.Order.Real
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.Multiset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Normed (semi)groups

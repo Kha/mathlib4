@@ -7,6 +7,15 @@ module
 
 public import Mathlib.Analysis.LocallyConvex.Bounded
 public import Mathlib.Topology.Algebra.Module.Multilinear.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.LocallyConvex.Basic
+import Mathlib.Order.Filter.Lift
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Group.Defs
 
 /-!
 # Images of (von Neumann) bounded sets under continuous multilinear maps

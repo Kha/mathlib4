@@ -5,8 +5,12 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.GroupTheory.FiniteAbelian.Duality
 public import Mathlib.NumberTheory.MulChar.Basic
+public import Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
+import Mathlib.GroupTheory.FiniteAbelian.Duality
 
 /-!
 # Duality for multiplicative characters

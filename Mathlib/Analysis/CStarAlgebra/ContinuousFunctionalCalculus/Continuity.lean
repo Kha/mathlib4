@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Isometric
 public import Mathlib.Topology.MetricSpace.UniformConvergence
-public import Mathlib.Topology.UniformSpace.CompactConvergence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.UniformApproximation
 
 /-! # Continuity of the continuous functional calculus in each variable
 

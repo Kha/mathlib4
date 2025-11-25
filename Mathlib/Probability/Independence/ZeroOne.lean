@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Probability.Independence.Basic
 public import Mathlib.Probability.Independence.Conditional
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Kolmogorov's 0-1 law

@@ -6,8 +6,13 @@ Authors: Patrick Massot, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Algebra.Support
-public import Mathlib.Topology.UniformSpace.Compact
 public import Mathlib.Topology.UniformSpace.Equicontinuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Prod
+import Mathlib.Topology.UniformSpace.Compact
 
 /-!
 # Compact separated uniform spaces

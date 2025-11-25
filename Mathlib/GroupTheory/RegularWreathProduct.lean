@@ -7,8 +7,17 @@ module
 
 public import Mathlib.GroupTheory.Sylow
 public import Mathlib.Algebra.Group.PUnit
-public import Mathlib.Data.Finite.Perm
-public import Mathlib.Algebra.Group.End
+public import Mathlib.Data.Finite.Card
+public import Mathlib.Data.Finite.Prod
+public import Mathlib.Logic.Equiv.Fin.Basic
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Finite.Perm
+import Mathlib.Data.Nat.Multiplicity
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Regular wreath product

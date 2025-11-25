@@ -5,8 +5,9 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Data.Fintype.EquivFin
 public import Mathlib.Data.Fintype.Inv
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
 
 /-! # Equivalence between fintypes
 

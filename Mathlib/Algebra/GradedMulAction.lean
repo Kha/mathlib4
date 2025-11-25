@@ -6,6 +6,7 @@ Authors: Jujian Zhang, Eric Wieser
 module
 
 public import Mathlib.Algebra.GradedMonoid
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Additively-graded multiplicative action structures

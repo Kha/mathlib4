@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Hypercover.Zero
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
+import Mathlib.Tactic.Lemma
 
 /-!
 # Locality conditions on morphism properties

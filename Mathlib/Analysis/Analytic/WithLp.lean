@@ -5,8 +5,11 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Linear
 public import Mathlib.Analysis.Normed.Lp.PiLp
+public import Mathlib.Analysis.Analytic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.Linear
 
 /-!
 # Analyticity on `WithLp`

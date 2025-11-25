@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Sites.Sheaf
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! Objects which cover the terminal object
 

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Pretopology
 public import Mathlib.CategoryTheory.Sites.IsSheafFor
+import Mathlib.Tactic.Lemma
 
 /-!
 # Sheaves of types on a Grothendieck topology

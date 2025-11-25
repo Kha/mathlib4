@@ -7,6 +7,10 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialObject.Split
 public import Mathlib.AlgebraicTopology.DoldKan.PInfty
+public import Mathlib.CategoryTheory.Idempotents.FunctorExtension
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 

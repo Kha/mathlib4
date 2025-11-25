@@ -6,10 +6,13 @@ Authors: Christian Merten
 module
 
 public import Mathlib.Algebra.Category.Grp.Limits
-public import Mathlib.CategoryTheory.CofilteredSystem
-public import Mathlib.CategoryTheory.Galois.Decomposition
 public import Mathlib.CategoryTheory.Limits.IndYoneda
 public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
+public import Mathlib.CategoryTheory.Galois.GaloisObjects
+public import Mathlib.CategoryTheory.Limits.Types.Filtered
+import Mathlib.CategoryTheory.CofilteredSystem
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Galois.Decomposition
 
 /-!
 # Pro-Representability of fiber functors

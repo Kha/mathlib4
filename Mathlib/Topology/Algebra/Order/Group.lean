@@ -5,9 +5,18 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Basic
 public import Mathlib.Topology.Algebra.Group.Defs
-public import Mathlib.Topology.Order.LeftRightNhds
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Topology on a linear ordered commutative group

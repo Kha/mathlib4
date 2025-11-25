@@ -5,8 +5,10 @@ Authors: Patrick Massot, Michael Rothgang, Thomas Murrills
 -/
 module
 
-public import Mathlib.Geometry.Manifold.ContMDiff.Defs
-public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Geometry.Manifold.ContMDiff.Defs
+import Mathlib.Geometry.Manifold.MFDeriv.Defs
 
 /-!
 # Elaborators for differential geometry

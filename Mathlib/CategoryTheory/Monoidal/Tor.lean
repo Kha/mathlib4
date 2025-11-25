@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Abelian.LeftDerived
 public import Mathlib.CategoryTheory.Monoidal.Preadditive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tor, the left-derived functor of tensor product

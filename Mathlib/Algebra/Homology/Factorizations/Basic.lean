@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Homology.HomologicalComplex
 public import Mathlib.CategoryTheory.Abelian.EpiWithInjectiveKernel
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Basic definitions for factorizations lemmas

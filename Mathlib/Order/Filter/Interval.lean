@@ -5,10 +5,16 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Interval.Set.OrdConnected
 public import Mathlib.Order.Filter.SmallSets
-public import Mathlib.Order.Filter.AtTopBot.Basic
-public import Mathlib.Order.Filter.Bases.Finite
+public import Mathlib.Order.Interval.Set.UnorderedInterval
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.Bases.Finite
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Convergence of intervals

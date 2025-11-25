@@ -7,6 +7,14 @@ module
 
 public import Mathlib.GroupTheory.PGroup
 public import Mathlib.LinearAlgebra.Quotient.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Torsion groups

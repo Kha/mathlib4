@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.SmallObject.IsCardinalForSmallObjectArgument
+import Mathlib.Tactic.Lemma
 
 /-!
 # The small object argument

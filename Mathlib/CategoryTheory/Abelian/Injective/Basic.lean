@@ -5,11 +5,17 @@ Authors: Jakob von Raumer
 -/
 module
 
-public import Mathlib.CategoryTheory.Abelian.Exact
 public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
-public import Mathlib.CategoryTheory.Preadditive.Yoneda.Limits
-public import Mathlib.CategoryTheory.Preadditive.Yoneda.Injective
-public import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+public import Mathlib.CategoryTheory.Abelian.Basic
+public import Mathlib.Algebra.Homology.ShortComplex.PreservesHomology
+public import Mathlib.CategoryTheory.Preadditive.Yoneda.Basic
+import Mathlib.CategoryTheory.Abelian.Exact
+import Mathlib.CategoryTheory.Abelian.Opposite
+import Mathlib.CategoryTheory.Limits.Opposites
+import Mathlib.Algebra.Category.ModuleCat.Abelian
+import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+import Mathlib.CategoryTheory.Preadditive.Yoneda.Injective
+import Mathlib.CategoryTheory.Preadditive.Yoneda.Limits
 
 /-!
 # Injective objects in abelian categories

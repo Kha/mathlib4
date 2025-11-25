@@ -7,7 +7,16 @@ module
 
 public import Mathlib.Order.Disjoint
 public import Mathlib.Order.RelIso.Basic
-public import Mathlib.Tactic.Monotonicity.Attr
+public import Mathlib.Tactic.PPWithUniv
+public import Mathlib.Order.Monotone.Basic
+import Mathlib.Order.Compare
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # Order homomorphisms

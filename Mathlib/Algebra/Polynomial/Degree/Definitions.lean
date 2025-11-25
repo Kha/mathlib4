@@ -5,12 +5,18 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.MonoidAlgebra.Degree
 public import Mathlib.Algebra.Order.Ring.WithTop
 public import Mathlib.Algebra.Polynomial.Basic
-public import Mathlib.Data.Nat.Cast.WithTop
 public import Mathlib.Data.Nat.SuccPred
-public import Mathlib.Order.SuccPred.WithBot
+public import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MonoidAlgebra.Degree
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Data.Nat.Cast.WithTop
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Degree of univariate polynomials

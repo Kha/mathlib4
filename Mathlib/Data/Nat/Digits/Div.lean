@@ -6,7 +6,16 @@ Authors: Kim Morrison, Shing Tak Lam, Mario Carneiro
 module
 
 public import Mathlib.Data.List.Palindrome
-public import Mathlib.Data.Nat.Digits.Lemmas
+public import Mathlib.Data.Int.ModEq
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Data.Nat.Digits.Defs
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
+import Mathlib.Algebra.Ring.Parity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Data.Nat.Digits.Lemmas
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
 
 /-!
 # Divisibility tests for natural numbers in terms of digits.

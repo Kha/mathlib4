@@ -5,11 +5,28 @@ Authors: Alex Meiburg, Snir Broshi
 -/
 module
 
-public import Mathlib.Analysis.Complex.IsIntegral
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-public import Mathlib.RingTheory.Polynomial.RationalRoot
-public import Mathlib.Tactic.Peel
-public import Mathlib.Tactic.Rify
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Analysis.Complex.IsIntegral
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.Interval
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Polynomial.RationalRoot
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-! # Niven's Theorem
 

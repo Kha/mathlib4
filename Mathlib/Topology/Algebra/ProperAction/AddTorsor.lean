@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Algebra.Group.AddTorsor
 public import Mathlib.Topology.Algebra.ProperAction.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The action underlying a topological additive torsor is proper.

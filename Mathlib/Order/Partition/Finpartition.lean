@@ -5,14 +5,19 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Data.Finset.Lattice.Prod
-public import Mathlib.Data.Finset.Pairwise
 public import Mathlib.Data.Fintype.Powerset
-public import Mathlib.Data.Setoid.Basic
 public import Mathlib.Order.Atoms
 public import Mathlib.Order.SupIndep
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Data.Finset.Basic
+public import Mathlib.Data.Finset.Lattice.Union
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Pairwise
+import Mathlib.Data.Setoid.Basic
+import Mathlib.Data.Finset.Lattice.Prod
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Finite partitions

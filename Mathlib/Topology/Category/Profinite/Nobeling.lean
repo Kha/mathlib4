@@ -10,5 +10,6 @@ public import Mathlib.Topology.Category.Profinite.Nobeling.Induction
 public import Mathlib.Topology.Category.Profinite.Nobeling.Span
 public import Mathlib.Topology.Category.Profinite.Nobeling.Successor
 public import Mathlib.Topology.Category.Profinite.Nobeling.ZeroLimit
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-13")

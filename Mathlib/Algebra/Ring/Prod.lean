@@ -8,7 +8,8 @@ module
 public import Mathlib.Data.Int.Cast.Prod
 public import Mathlib.Algebra.GroupWithZero.Prod
 public import Mathlib.Algebra.Ring.CompTypeclasses
-public import Mathlib.Algebra.Ring.Equiv
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
 
 /-!
 # Semiring, ring etc. structures on `R × S`

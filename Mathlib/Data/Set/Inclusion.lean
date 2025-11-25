@@ -6,6 +6,7 @@ Authors: Jeremy Avigad, Leonardo de Moura
 module
 
 public import Mathlib.Data.Set.Basic
+import Mathlib.Tactic.TypeStar
 
 /-! # Lemmas about `inclusion`, the injection of subtypes induced by `⊆` -/
 

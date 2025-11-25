@@ -5,7 +5,10 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.LinearAlgebra.Eigenspace.Triangularizable
+public import Mathlib.LinearAlgebra.Eigenspace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Eigenspace.Triangularizable
 
 /-!
 # Simultaneous eigenvectors and eigenvalues for families of endomorphisms

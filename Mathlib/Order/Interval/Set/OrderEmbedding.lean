@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Interval.Set.UnorderedInterval
 public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Preimages of intervals under order embeddings

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Group.Opposite
 public import Mathlib.Algebra.Group.Submonoid.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Image
 
 /-!
 # Submonoid of opposite monoids

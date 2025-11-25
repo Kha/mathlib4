@@ -6,8 +6,11 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Order.Hom.Ring
-public import Mathlib.Algebra.Order.Ring.InjSurj
 public import Mathlib.Algebra.Ring.Subring.Defs
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.InjSurj
 
 /-!
 

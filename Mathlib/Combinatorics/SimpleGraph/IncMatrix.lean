@@ -6,8 +6,12 @@ Authors: Gabriel Moise, Yaël Dillies, Kyle Miller
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Finite
-public import Mathlib.Data.Finset.Sym
 public import Mathlib.Data.Matrix.Mul
+public import Mathlib.Algebra.Notation.Indicator
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Incidence matrix of a simple graph

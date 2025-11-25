@@ -5,10 +5,14 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Pseudo.Basic
-public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 public import Mathlib.Topology.MetricSpace.Pseudo.Pi
 public import Mathlib.Topology.MetricSpace.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Basic properties of metric spaces, and instances.

@@ -5,10 +5,17 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Pi
-public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
-public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.GroupTheory.GroupAction.DomAct.Basic
+public import Mathlib.Algebra.Notation.Support
+public import Mathlib.Algebra.Group.Action.Pi
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Translation operator

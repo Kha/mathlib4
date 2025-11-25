@@ -5,15 +5,22 @@ Authors: Fabrizio Barroero
 -/
 module
 
-public import Mathlib.Algebra.Order.Archimedean.Submonoid
-public import Mathlib.Algebra.GroupWithZero.Range
-public import Mathlib.Data.Int.WithZero
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Embeddings
 public import Mathlib.RingTheory.DedekindDomain.AdicValuation
 public import Mathlib.RingTheory.DedekindDomain.Factorization
-public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
-public import Mathlib.RingTheory.Valuation.Archimedean
 public import Mathlib.Topology.Algebra.Valued.NormedValued
+public import Mathlib.RingTheory.DiscreteValuationRing.Basic
+import Mathlib.GroupTheory.ArchimedeanDensely
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Range
+import Mathlib.Data.Int.Interval
+import Mathlib.LinearAlgebra.FreeModule.IdealQuotient
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Valuation.Archimedean
+import Mathlib.Algebra.Order.Archimedean.Submonoid
+import Mathlib.Algebra.Order.Ring.IsNonarchimedean
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Finite places of number fields

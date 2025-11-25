@@ -7,9 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.Category.Cat
 public import Mathlib.CategoryTheory.Category.Preorder
-public import Mathlib.CategoryTheory.Elementwise
-public import Mathlib.Order.Hom.Basic
-public import Mathlib.Order.CompleteBooleanAlgebra
+public import Mathlib.CategoryTheory.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Category of preorders

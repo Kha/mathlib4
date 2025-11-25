@@ -5,11 +5,35 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
 public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-public import Mathlib.MeasureTheory.Constructions.HaarToSphere
-public import Mathlib.MeasureTheory.Integral.Gamma
-public import Mathlib.MeasureTheory.Integral.Pi
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.Analysis.Normed.Lp.MeasurableSpace
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.MeasureTheory.Constructions.HaarToSphere
+import Mathlib.MeasureTheory.Integral.Gamma
+import Mathlib.MeasureTheory.Integral.Pi
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Volume of balls

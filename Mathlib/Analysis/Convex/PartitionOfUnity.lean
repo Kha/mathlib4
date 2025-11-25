@@ -6,7 +6,11 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.PartitionOfUnity
-public import Mathlib.Analysis.Convex.Combination
+public import Mathlib.Analysis.Convex.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Combination
 
 /-!
 # Partition of unity and convex sets

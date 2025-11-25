@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Analysis.Normed.Module.Basic
 public import Mathlib.Analysis.Normed.Operator.LinearIsometry
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Conformal Linear Maps

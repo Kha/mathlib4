@@ -5,11 +5,29 @@ Authors: Eric Rodriguez
 -/
 module
 
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
-public import Mathlib.Tactic.ByContra
-public import Mathlib.Topology.Algebra.Polynomial
-public import Mathlib.NumberTheory.Padics.PadicVal.Basic
-public import Mathlib.Analysis.Complex.Arg
+public import Mathlib.RingTheory.Polynomial.Cyclotomic.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Analysis.Complex.Arg
+import Mathlib.Analysis.InnerProductSpace.Convex
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Units
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.GeomSum
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.NumberTheory.Padics.PadicVal.Basic
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Evaluating cyclotomic polynomials

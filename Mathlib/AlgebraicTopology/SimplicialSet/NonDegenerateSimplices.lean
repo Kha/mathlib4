@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Degenerate
 public import Mathlib.AlgebraicTopology.SimplicialSet.Simplices
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 
 /-!
 # The partially ordered type of non degenerate simplices of a simplicial set

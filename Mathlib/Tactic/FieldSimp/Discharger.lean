@@ -5,9 +5,11 @@ Authors: Sébastien Gouëzel, David Renshaw
 -/
 module
 
-public meta import Mathlib.Tactic.Positivity.Core
-public meta import Mathlib.Util.DischargerAsTactic
 import all Lean.Meta.Tactic.Simp.Rewrite
+public import Mathlib.Util.DischargerAsTactic
+public import Mathlib.Tactic.Positivity.Core
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Basic
 
 /-!
 # Discharger for `field_simp` tactic

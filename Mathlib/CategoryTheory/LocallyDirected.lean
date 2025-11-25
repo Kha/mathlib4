@@ -6,6 +6,7 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.WidePullbacks
+import Mathlib.Tactic.TypeStar
 
 /-!
 ## Locally directed gluing

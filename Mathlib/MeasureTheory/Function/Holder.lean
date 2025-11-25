@@ -6,6 +6,12 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
 
 /-! # Continuous bilinear maps on `MeasureTheory.Lp` spaces
 

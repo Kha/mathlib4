@@ -8,6 +8,8 @@ module
 public import Mathlib.NumberTheory.ClassNumber.AdmissibleCardPowDegree
 public import Mathlib.NumberTheory.ClassNumber.Finite
 public import Mathlib.NumberTheory.FunctionField
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monomial
 
 /-!
 # Class numbers of function fields

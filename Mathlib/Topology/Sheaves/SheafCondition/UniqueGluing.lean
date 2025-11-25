@@ -5,8 +5,9 @@ Authors: Justus Springer
 -/
 module
 
-public import Mathlib.Topology.Sheaves.Forget
 public import Mathlib.Topology.Sheaves.SheafCondition.PairwiseIntersections
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sheaves.Forget
 
 /-!
 # The sheaf condition in terms of unique gluings

@@ -5,7 +5,18 @@ Authors: Patrick Massot, Kim Morrison, Mario Carneiro, Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.Category.TopCat.Limits.Products
+public import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
+public import Mathlib.Topology.Category.TopCat.Limits.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.Topology.Maps.Basic
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.Topology.Category.TopCat.Adjunctions
+import Mathlib.Topology.Category.TopCat.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Iso
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
+import Mathlib.Topology.Category.TopCat.Limits.Products
 
 /-!
 # Pullbacks and pushouts in the category of topological spaces

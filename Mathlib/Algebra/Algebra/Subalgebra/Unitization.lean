@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Algebra.Unitization
 public import Mathlib.Algebra.Star.Subalgebra
 public import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Relating unital and non-unital substructures

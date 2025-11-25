@@ -6,7 +6,20 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Function.L1Space.Integrable
-public import Mathlib.MeasureTheory.Order.Group.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Order.Group.Lattice
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Domain of the moment-generating function

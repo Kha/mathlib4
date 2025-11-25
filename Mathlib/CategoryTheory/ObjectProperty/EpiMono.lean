@@ -5,8 +5,8 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.ObjectProperty.ClosedUnderIsomorphisms
 public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+import Mathlib.Tactic.Lemma
 
 /-!
 # Properties of objects that are closed under subobjects and quotients

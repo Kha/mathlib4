@@ -5,8 +5,14 @@ Authors: Floris van Doorn, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Add
-public import Mathlib.Analysis.Calculus.FDeriv.Const
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Topology.Algebra.Module.LinearMapPiProd
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
 
 /-!
 # Derivatives on pi-types.

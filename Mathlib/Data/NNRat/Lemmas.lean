@@ -6,10 +6,15 @@ Authors: Yaël Dillies, Bhavik Mehta
 module
 
 public import Mathlib.Algebra.Field.Rat
-public import Mathlib.Algebra.Group.Indicator
-public import Mathlib.Algebra.Order.Field.Rat
-public import Mathlib.Data.Rat.Lemmas
-public import Mathlib.Tactic.Zify
+public import Mathlib.Algebra.Notation.Indicator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Field and action structures on the nonnegative rationals

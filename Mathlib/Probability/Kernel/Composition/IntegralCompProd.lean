@@ -5,8 +5,21 @@ Authors: Rémy Degenne, Etienne Marion
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.MeasureComp
-public import Mathlib.Probability.Kernel.MeasurableIntegral
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Probability.Kernel.Composition.CompNotation
+public import Mathlib.Probability.Kernel.Composition.MeasureCompProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Probability.Kernel.MeasurableIntegral
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Bochner integral of a function against the composition and the composition-products of two kernels

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Module.Prod
 public import Mathlib.Algebra.Module.Torsion.Free
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Product of torsion-free modules

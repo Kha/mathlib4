@@ -6,6 +6,8 @@ Authors: Yaël Dillies, Andrew Yang
 module
 
 public import Mathlib.Order.SuccPred.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Successor function on `WithBot`

@@ -5,10 +5,30 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Field.Periodic
 public import Mathlib.Algebra.Field.Subfield.Basic
-public import Mathlib.Topology.Algebra.Order.Archimedean
-public import Mathlib.Topology.Algebra.Ring.Real
+public import Mathlib.Algebra.Ring.Periodic
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Field.Periodic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.MetricSpace.Basic
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Order.Archimedean
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Topological properties of ℝ

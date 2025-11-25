@@ -5,12 +5,23 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Algebra.Pointwise.Stabilizer
 public import Mathlib.Data.Setoid.Partition
-public import Mathlib.GroupTheory.GroupAction.Pointwise
 public import Mathlib.GroupTheory.GroupAction.SubMulAction
 public import Mathlib.GroupTheory.Index
-public import Mathlib.Tactic.IntervalCases
+public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Pointwise.Stabilizer
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.GroupTheory.GroupAction.Basic
+import Mathlib.GroupTheory.GroupAction.Pointwise
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-! # Blocks
 

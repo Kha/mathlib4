@@ -5,10 +5,13 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.FieldTheory.Minpoly.Field
+public import Mathlib.Algebra.Polynomial.Div
+public import Mathlib.FieldTheory.Minpoly.Basic
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 /-!
 

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Subgroup.Defs
 public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Subgroups of normed (semi)groups

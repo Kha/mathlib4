@@ -5,9 +5,12 @@ Authors: Adam Topaz, Junyan Xu
 -/
 module
 
-public import Mathlib.RingTheory.Localization.LocalizationLocalization
-public import Mathlib.LinearAlgebra.FreeModule.Basic
-public import Mathlib.Algebra.Algebra.Subalgebra.Tower
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.Algebra.Algebra.Subalgebra.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.RingTheory.Localization.LocalizationLocalization
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
 
 /-!
 

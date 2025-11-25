@@ -5,8 +5,13 @@ Authors: Johan Commelin, Kenny Lau
 -/
 module
 
-public import Mathlib.RingTheory.PowerSeries.Order
-public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Ideal.Prime
+public import Mathlib.RingTheory.Ideal.Span
+public import Mathlib.RingTheory.PowerSeries.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.RingTheory.PowerSeries.Order
 
 /-!
 # Power series over rings with no zero divisors

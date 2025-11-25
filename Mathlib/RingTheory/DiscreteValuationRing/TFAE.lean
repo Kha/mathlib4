@@ -7,8 +7,17 @@ module
 
 public import Mathlib.RingTheory.DedekindDomain.Basic
 public import Mathlib.RingTheory.DiscreteValuationRing.Basic
-public import Mathlib.RingTheory.Finiteness.Ideal
 public import Mathlib.RingTheory.Ideal.Cotangent
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+import Mathlib.RingTheory.Bezout
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Ideal
+import Mathlib.RingTheory.Noetherian.UniqueFactorizationDomain
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 

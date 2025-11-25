@@ -6,8 +6,11 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Extension.Cotangent.Basic
-public import Mathlib.RingTheory.Extension.Generators
 public import Mathlib.Algebra.Module.SnakeLemma
+public import Mathlib.LinearAlgebra.Basis.Prod
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
 
 /-!
 

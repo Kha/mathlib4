@@ -5,9 +5,15 @@ Authors: Mario Carneiro, Aurélien Saue, Anne Baanen
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Inv
-public meta import Mathlib.Tactic.NormNum.Pow
 public meta import Mathlib.Util.AtomM
+public import Mathlib.Util.AtomM
+public import Mathlib.Tactic.NormNum.Inv
+public import Mathlib.Tactic.NormNum.Pow
+public meta import Mathlib.Algebra.Ring.Int.Defs
+public meta import Mathlib.Algebra.Order.Ring.Unbundled.Rat
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Data.Int.Cast.Lemmas
 
 /-!
 # `ring` tactic

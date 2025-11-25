@@ -6,6 +6,8 @@ Authors: Reid Barton, Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Opposites
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Morphisms from equations between objects.

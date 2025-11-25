@@ -5,9 +5,19 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.LinearMap
 public import Mathlib.RingTheory.IntegralClosure.Algebra.Defs
-public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.RingTheory.TensorProduct.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Subalgebra
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.LinearAlgebra.Matrix.Charpoly.LinearMap
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Integral closure of a subring.

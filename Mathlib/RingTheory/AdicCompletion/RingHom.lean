@@ -6,6 +6,7 @@ Authors: Jiedong Jiang
 module
 
 public import Mathlib.RingTheory.AdicCompletion.Algebra
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lift of ring homomorphisms to adic completions

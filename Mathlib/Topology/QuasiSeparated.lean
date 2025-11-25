@@ -5,8 +5,10 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.Compactness.Bases
 public import Mathlib.Topology.NoetherianSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.Bases
 
 /-!
 # Quasi-separated spaces

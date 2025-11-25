@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.Ring.Basic
 public import Mathlib.CategoryTheory.Limits.HasLimits
+public import Batteries.Tactic.Init
 
 /-!
 # The category of commutative rings has all colimits.

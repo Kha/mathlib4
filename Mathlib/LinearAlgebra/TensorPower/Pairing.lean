@@ -8,6 +8,8 @@ module
 public import Mathlib.GroupTheory.MonoidLocalization.Basic
 public import Mathlib.LinearAlgebra.Dual.Defs
 public import Mathlib.LinearAlgebra.TensorPower.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The pairing between the tensor power of the dual and the tensor power

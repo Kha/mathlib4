@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.TwoDim
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Data.Sign.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
 
 /-!
 # Oriented angles.

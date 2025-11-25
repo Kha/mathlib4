@@ -5,8 +5,11 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Dynamics.FixedPoints.Basic
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.Group.Pi.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Dynamics.FixedPoints.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Birkhoff sums

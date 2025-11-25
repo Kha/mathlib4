@@ -5,8 +5,24 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Complex.AbsMax
-public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.Calculus.DSlope
+public import Mathlib.Analysis.Convex.StrictConvexSpace
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Complex.AbsMax
+import Mathlib.Analysis.Complex.RemovableSingularity
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Module.HahnBanach
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Schwarz lemma

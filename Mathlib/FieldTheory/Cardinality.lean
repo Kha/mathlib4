@@ -5,13 +5,18 @@ Authors: Eric Rodriguez
 -/
 module
 
-public import Mathlib.Algebra.Field.TransferInstance
-public import Mathlib.Algebra.Field.ULift
-public import Mathlib.Algebra.MvPolynomial.Cardinal
-public import Mathlib.Data.Rat.Encodable
-public import Mathlib.FieldTheory.Finite.GaloisField
-public import Mathlib.RingTheory.Localization.Cardinality
-public import Mathlib.SetTheory.Cardinal.Divisibility
+public import Mathlib.Algebra.IsPrimePow
+public import Mathlib.Algebra.Field.IsField
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Algebra.Field.TransferInstance
+import Mathlib.Algebra.Field.ULift
+import Mathlib.Algebra.MvPolynomial.Cardinal
+import Mathlib.Data.Rat.Encodable
+import Mathlib.FieldTheory.Finite.GaloisField
+import Mathlib.RingTheory.Localization.Cardinality
+import Mathlib.SetTheory.Cardinal.Divisibility
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Order.Interval.Set.Infinite
 
 /-!
 # Cardinality of Fields

@@ -7,8 +7,21 @@ module
 
 public import Mathlib.Data.Nat.Lattice
 public import Mathlib.Data.Int.ConditionallyCompleteOrder
-public import Mathlib.Data.Int.Interval
-public import Mathlib.Data.Int.SuccPred
+public import Mathlib.Data.Int.Init
+public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.Interval
+import Mathlib.Data.Int.SuccPred
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Order.Preorder.Finite
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Order-connected subsets of linear orders

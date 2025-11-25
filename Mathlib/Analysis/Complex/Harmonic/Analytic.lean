@@ -5,10 +5,28 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
-public import Mathlib.Analysis.Complex.Conformal
-public import Mathlib.Analysis.Complex.HasPrimitives
 public import Mathlib.Analysis.InnerProductSpace.Harmonic.Basic
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Complex.Conformal
+import Mathlib.Analysis.Complex.HasPrimitives
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Normed.Module.Convex
 
 /-!
 # Analyticity of Harmonic Functions

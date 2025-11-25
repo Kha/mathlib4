@@ -9,6 +9,10 @@ public import Mathlib.Algebra.Algebra.NonUnitalHom
 public import Mathlib.Data.Set.UnionLift
 public import Mathlib.LinearAlgebra.Span.Basic
 public import Mathlib.RingTheory.NonUnitalSubring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Non-unital Subalgebras over Commutative Semirings

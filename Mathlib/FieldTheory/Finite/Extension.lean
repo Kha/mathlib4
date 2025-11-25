@@ -6,6 +6,13 @@ Authors: Kenny Lau, Kevin Buzzard
 module
 
 public import Mathlib.FieldTheory.Finite.GaloisField
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Extensions of finite fields

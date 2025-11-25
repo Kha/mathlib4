@@ -7,6 +7,23 @@ module
 
 public import Mathlib.MeasureTheory.Measure.GiryMonad
 public import Mathlib.MeasureTheory.Measure.OpenPos
+public import Mathlib.Dynamics.Ergodic.MeasurePreserving
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The product measure

@@ -6,7 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Basic
-public import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.LinearAlgebra.Span.Basic
 
 /-!
 # Tannaka duality for rings

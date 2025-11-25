@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Adjunction.Mate
 public import Mathlib.CategoryTheory.Bicategory.Functor.Pseudofunctor
+import Mathlib.Tactic.Lemma
 
 /-!
 # The bicategory of adjunctions in a bicategory

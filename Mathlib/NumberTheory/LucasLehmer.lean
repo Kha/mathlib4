@@ -5,8 +5,27 @@ Authors: Mario Carneiro, Alastair Irving, Kim Morrison, Ainsley Pahljina
 -/
 module
 
-public import Mathlib.NumberTheory.Fermat
-public import Mathlib.RingTheory.Fintype
+public import Mathlib.NumberTheory.LegendreSymbol.Basic
+public import Mathlib.Tactic.Positivity.Core
+public meta import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.NumberTheory.Fermat
+import Mathlib.RingTheory.Fintype
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.CharP.Lemmas
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Int.Basic
+import Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Star.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # The Lucas-Lehmer test for Mersenne primes

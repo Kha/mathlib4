@@ -6,6 +6,14 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Data.Nat.Fib.Basic
+public import Mathlib.Algebra.GroupWithZero.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Data.List.Chain
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Zeckendorf's Theorem

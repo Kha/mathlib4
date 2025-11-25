@@ -5,10 +5,16 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.LocalRing.Module
-public import Mathlib.RingTheory.LocalRing.ResidueField.Ideal
-public import Mathlib.RingTheory.Unramified.Field
 public import Mathlib.RingTheory.Unramified.Locus
+public import Mathlib.FieldTheory.Separable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Artinian.Ring
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Module
+import Mathlib.RingTheory.Unramified.Field
+import Mathlib.RingTheory.Unramified.Finite
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Unramified algebras over local rings

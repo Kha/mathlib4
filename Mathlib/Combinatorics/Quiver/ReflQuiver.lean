@@ -5,8 +5,10 @@ Authors: Mario Carneiro, Emily Riehl
 -/
 module
 
-public import Mathlib.Data.Set.Function
 public import Mathlib.CategoryTheory.Category.Cat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
 
 /-!
 # Reflexive Quivers

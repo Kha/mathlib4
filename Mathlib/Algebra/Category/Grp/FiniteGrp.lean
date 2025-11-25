@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Finite.Defs
 public import Mathlib.Algebra.Category.Grp.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 

@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Notation.Pi.Basic
 public import Mathlib.Data.Fin.VecNotation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Algebraic properties of tuples

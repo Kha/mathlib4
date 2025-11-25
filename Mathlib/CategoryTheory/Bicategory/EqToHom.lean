@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.EqToHom
 public import Mathlib.CategoryTheory.Bicategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # `eqToHom` in bicategories

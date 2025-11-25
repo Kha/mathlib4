@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Composition
 public import Mathlib.CategoryTheory.MorphismProperty.Factorization
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Morphism properties defined in concrete categories

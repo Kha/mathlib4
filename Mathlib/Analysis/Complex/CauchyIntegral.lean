@@ -5,15 +5,33 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Uniqueness
 public import Mathlib.Analysis.Calculus.DiffContOnCl
-public import Mathlib.Analysis.Calculus.DSlope
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
-public import Mathlib.Analysis.Complex.ReImTopology
-public import Mathlib.Analysis.Real.Cardinality
 public import Mathlib.MeasureTheory.Integral.CircleIntegral
-public import Mathlib.MeasureTheory.Integral.DivergenceTheorem
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Analytic.Uniqueness
+import Mathlib.Analysis.Analytic.Within
+import Mathlib.Analysis.Calculus.DSlope
+import Mathlib.Analysis.Complex.ReImTopology
+import Mathlib.Analysis.Real.Cardinality
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.MeasureTheory.Integral.DivergenceTheorem
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Cauchy integral formula

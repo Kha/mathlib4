@@ -5,7 +5,10 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.OpenImmersion
+public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.OpenImmersion
+import Mathlib.Topology.Homeomorph.Lemmas
 
 /-!
 

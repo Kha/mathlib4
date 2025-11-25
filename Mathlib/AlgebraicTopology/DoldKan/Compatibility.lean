@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Equivalence
+import Mathlib.Tactic.TypeStar
 
 /-! Tools for compatibilities between Dold-Kan equivalences
 

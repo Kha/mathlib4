@@ -5,8 +5,9 @@ Authors: Jujian Zhang, Fangming Li
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.Decomposition
 public import Mathlib.RingTheory.GradedAlgebra.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Homogeneous subsemirings of a graded semiring

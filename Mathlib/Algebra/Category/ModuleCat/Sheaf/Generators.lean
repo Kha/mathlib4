@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Free
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PushforwardContinuous
 public import Mathlib.CategoryTheory.Sites.CoversTop
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 
 /-!
 # Generating sections of sheaves of modules

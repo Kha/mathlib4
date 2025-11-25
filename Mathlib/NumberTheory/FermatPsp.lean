@@ -5,10 +5,26 @@ Authors: Niels Voss
 -/
 module
 
-public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.Order.Filter.Cofinite
-public import Mathlib.Tactic.GCongr
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Nat.ModEq
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Order.Filter.Cofinite
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Infinite
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Fermat Pseudoprimes

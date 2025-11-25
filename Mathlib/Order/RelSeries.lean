@@ -7,13 +7,22 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Nat
 public import Mathlib.Algebra.Order.Group.Nat
-public import Mathlib.Algebra.Order.Monoid.NatCast
-public import Mathlib.Data.Fin.VecNotation
 public import Mathlib.Data.Fintype.Pi
-public import Mathlib.Data.Fintype.Pigeonhole
 public import Mathlib.Data.Fintype.Sigma
 public import Mathlib.Data.Rel
-public import Mathlib.Order.OrderIsoNat
+public import Mathlib.Algebra.NeZero
+public import Mathlib.Algebra.Order.ZeroLEOne
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Data.List.Chain
+public import Mathlib.Data.List.OfFn
+public import Mathlib.Order.Fin.Basic
+import Mathlib.Order.OrderIsoNat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fin.VecNotation
+import Mathlib.Data.Fintype.Pigeonhole
+import Mathlib.Algebra.Group.Int.Defs
+import Mathlib.Algebra.Order.Monoid.NatCast
 
 /-!
 # Series of a relation

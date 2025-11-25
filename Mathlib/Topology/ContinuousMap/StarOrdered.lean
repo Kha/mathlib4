@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Order.Star.Basic
 public import Mathlib.Topology.ContinuousMap.ContinuousMapZero
 public import Mathlib.Topology.ContinuousMap.Ordered
+import Mathlib.Tactic.TypeStar
 
 /-! # Continuous functions as a star-ordered ring
 

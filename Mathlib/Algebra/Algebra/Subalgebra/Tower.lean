@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Tactic.Lemma
 
 /-!
 # Subalgebras in towers of algebras

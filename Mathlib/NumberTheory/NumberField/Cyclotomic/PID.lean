@@ -5,9 +5,15 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.NumberTheory.NumberField.ClassNumber
-public import Mathlib.NumberTheory.NumberField.Cyclotomic.Basic
-public import Mathlib.NumberTheory.NumberField.Cyclotomic.Embeddings
+public import Mathlib.NumberTheory.Cyclotomic.Basic
+import Mathlib.NumberTheory.NumberField.ClassNumber
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.NumberTheory.NumberField.Cyclotomic.Basic
+import Mathlib.NumberTheory.NumberField.Cyclotomic.Embeddings
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 /-!
 # Cyclotomic fields whose ring of integers is a PID.

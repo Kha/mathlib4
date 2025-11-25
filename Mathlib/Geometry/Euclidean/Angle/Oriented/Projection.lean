@@ -6,7 +6,10 @@ Authors: Joseph Myers
 module
 
 public import Mathlib.Geometry.Euclidean.Angle.Oriented.Affine
-public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Projection
+public import Mathlib.Geometry.Euclidean.Projection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Geometry.Euclidean.Angle.Unoriented.Projection
 
 /-!
 # Oriented angles and orthogonal projection.

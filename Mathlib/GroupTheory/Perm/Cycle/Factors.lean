@@ -6,10 +6,17 @@ Authors: Chris Hughes, Yaël Dillies
 module
 
 public import Mathlib.Data.List.Iterate
-public import Mathlib.Data.Set.Pairwise.List
 public import Mathlib.GroupTheory.Perm.Cycle.Basic
 public import Mathlib.GroupTheory.NoncommPiCoprod
-public import Mathlib.Tactic.Group
+public import Mathlib.Algebra.Group.Commute.Basic
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.Perm.Finite
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Set.Pairwise.List
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
 
 /-!
 # Cycle factors of a permutation

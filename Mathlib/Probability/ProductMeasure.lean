@@ -5,8 +5,20 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.MeasureComp
 public import Mathlib.Probability.Kernel.IonescuTulcea.Traj
+public import Mathlib.MeasureTheory.Integral.Marginal
+public import Mathlib.Probability.Kernel.Composition.CompNotation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.FactorsThrough
+import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Probability.Kernel.Composition.CompMap
+import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Infinite product of probability measures

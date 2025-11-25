@@ -5,15 +5,29 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Finite.Prod
-public import Mathlib.Data.Fintype.Pi
-public import Mathlib.Data.Set.Finite.Lemmas
-public import Mathlib.Order.ConditionallyCompleteLattice.Basic
 public import Mathlib.Order.Filter.CountablyGenerated
-public import Mathlib.Order.Filter.Ker
 public import Mathlib.Order.Filter.Pi
-public import Mathlib.Order.Filter.Prod
-public import Mathlib.Order.Filter.AtTopBot.Basic
+public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Order.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Fintype.Pi
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Ker
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # The cofinite filter

@@ -5,9 +5,15 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.Free
-public import Mathlib.LinearAlgebra.Dimension.Subsingleton
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.Tactic.Nontriviality.Core
 
 /-!
 

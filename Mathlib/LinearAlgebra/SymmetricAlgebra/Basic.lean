@@ -6,6 +6,10 @@ Authors: Raphael Douglas Giles, Zhixuan Dai, Zhenyan Fu, Yiming Fu, Jingting Wan
 module
 
 public import Mathlib.LinearAlgebra.TensorAlgebra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Logic.Nontrivial.Basic
 
 /-!
 # Symmetric Algebras

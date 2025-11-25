@@ -6,8 +6,8 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Group.Hom.Defs
-public import Mathlib.CategoryTheory.Discrete.Basic
 public import Mathlib.CategoryTheory.Monoidal.NaturalTransformation
+import Mathlib.Tactic.Lemma
 
 /-!
 # Monoids as discrete monoidal categories

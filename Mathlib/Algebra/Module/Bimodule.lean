@@ -6,6 +6,7 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.RingTheory.TensorProduct.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bimodules

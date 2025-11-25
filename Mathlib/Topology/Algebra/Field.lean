@@ -6,11 +6,16 @@ Authors: Patrick Massot, Kim Morrison
 module
 
 public import Mathlib.Algebra.Field.Subfield.Defs
-public import Mathlib.Algebra.GroupWithZero.Divisibility
-public import Mathlib.Algebra.Order.Group.Pointwise.Interval
 public import Mathlib.Topology.Algebra.GroupWithZero
 public import Mathlib.Topology.Algebra.Ring.Basic
 public import Mathlib.Topology.Order.LocalExtr
+public import Mathlib.Algebra.Order.Nonneg.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Topological fields

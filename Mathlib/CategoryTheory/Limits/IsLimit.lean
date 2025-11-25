@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Adjunction.Basic
 public import Mathlib.CategoryTheory.Limits.Cones
 public import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
 
 /-!
 # Limits and colimits

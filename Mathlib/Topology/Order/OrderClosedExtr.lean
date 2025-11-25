@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Order.OrderClosed
 public import Mathlib.Topology.Order.LocalExtr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Local maxima from monotonicity and antitonicity

@@ -5,11 +5,21 @@ Authors: Sophie Morel
 -/
 module
 
-public import Mathlib.Algebra.Category.FGModuleCat.Abelian
-public import Mathlib.Algebra.Category.ModuleCat.Injective
 public import Mathlib.RepresentationTheory.Character
-public import Mathlib.RepresentationTheory.Maschke
-public import Mathlib.RingTheory.SimpleModule.InjectiveProjective
+public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
+import Mathlib.RepresentationTheory.Maschke
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.CategoryTheory.Preadditive.Schur
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleModule.InjectiveProjective
+import Mathlib.Algebra.Category.FGModuleCat.Abelian
+import Mathlib.Algebra.Category.ModuleCat.Injective
+import Mathlib.Algebra.Category.ModuleCat.Projective
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Applications of Maschke's theorem

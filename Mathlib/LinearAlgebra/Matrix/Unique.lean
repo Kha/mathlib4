@@ -6,6 +6,7 @@ Authors: Yunzhou Xie
 module
 
 public import Mathlib.Data.Matrix.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # One by one matrices

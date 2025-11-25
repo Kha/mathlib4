@@ -6,9 +6,17 @@ Authors: Xavier Roblot
 module
 
 public import Mathlib.NumberTheory.NumberField.Cyclotomic.Basic
-public import Mathlib.NumberTheory.RamificationInertia.Galois
-public import Mathlib.RingTheory.Ideal.Int
-public import Mathlib.RingTheory.RootsOfUnity.CyclotomicUnits
+public import Mathlib.NumberTheory.RamificationInertia.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Associated
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.NumberTheory.RamificationInertia.Galois
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Ideal.Int
+import Mathlib.RingTheory.RootsOfUnity.CyclotomicUnits
+import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.Data.Nat.Cast.NeZero
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # Ideals in cyclotomic fields

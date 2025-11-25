@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.SnakeLemma
+public import Mathlib.Algebra.Homology.ShortComplex.Limits
+import Mathlib.Tactic.Lemma
 
 /-!
 # Long exact sequence for the kernel and cokernel of a composition

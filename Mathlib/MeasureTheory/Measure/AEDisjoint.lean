@@ -6,6 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.Measure.MeasureSpaceDef
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Almost everywhere disjoint sets

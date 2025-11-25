@@ -6,13 +6,20 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.Polynomial.GroupRingAction
-public import Mathlib.Algebra.Ring.Action.Field
 public import Mathlib.Algebra.Ring.Action.Invariant
-public import Mathlib.FieldTheory.Finiteness
 public import Mathlib.FieldTheory.Normal.Defs
 public import Mathlib.FieldTheory.Separable
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+public import Mathlib.FieldTheory.Minpoly.Field
+public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.QuotientGroup.Basic
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Algebra.Ring.Action.Field
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # Fixed field under a group action.

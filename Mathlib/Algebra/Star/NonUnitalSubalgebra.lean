@@ -7,9 +7,15 @@ module
 
 public import Mathlib.Algebra.Algebra.NonUnitalSubalgebra
 public import Mathlib.Algebra.Star.StarAlgHom
-public import Mathlib.Algebra.Star.Center
 public import Mathlib.Algebra.Star.SelfAdjoint
 public import Mathlib.Algebra.Star.Prod
+public import Mathlib.Algebra.Star.Pointwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Star.Center
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Non-unital Star Subalgebras

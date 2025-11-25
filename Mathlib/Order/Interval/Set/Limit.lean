@@ -5,8 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Order.SetIsMax
 public import Mathlib.Order.SuccPred.Limit
+import Mathlib.Order.Cover
+import Mathlib.Order.SetIsMax
+import Mathlib.Tactic.Lemma
 
 /-!
 # Limit elements in Set.Ici

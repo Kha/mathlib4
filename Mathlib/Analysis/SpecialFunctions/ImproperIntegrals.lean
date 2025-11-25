@@ -5,11 +5,37 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.JapaneseBracket
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.MeasureTheory.Group.Integral
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.SpecialFunctions.JapaneseBracket
+import Mathlib.Analysis.SpecialFunctions.NonIntegrable
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.ArctanDeriv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Evaluation of specific improper integrals

@@ -5,8 +5,16 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Indicator
 public import Mathlib.MeasureTheory.OuterMeasure.Basic
+public import Mathlib.Algebra.Module.Pi
+public import Mathlib.Topology.Algebra.InfiniteSum.Basic
+public import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.Indicator
 
 /-!
 # Operations on outer measures

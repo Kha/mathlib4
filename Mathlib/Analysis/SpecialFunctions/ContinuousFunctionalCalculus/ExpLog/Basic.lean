@@ -5,10 +5,17 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Exponential
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
-public import Mathlib.Topology.ContinuousMap.ContinuousSqrt
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unital
+public import Mathlib.Analysis.Normed.Algebra.Exponential
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.SpecialFunctions.Exponential
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.ContinuousMap.ContinuousSqrt
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
 
 /-!
 # The exponential and logarithm based on the continuous functional calculus

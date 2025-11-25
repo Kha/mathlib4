@@ -5,7 +5,9 @@ Authors: Robert Y. Lewis
 -/
 module
 
-public import Mathlib.RingTheory.WittVector.Identities
+public import Mathlib.RingTheory.WittVector.Verschiebung
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.WittVector.Identities
 
 /-!
 

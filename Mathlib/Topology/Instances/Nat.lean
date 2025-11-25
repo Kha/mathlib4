@@ -5,8 +5,13 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Nat.Lattice
 public import Mathlib.Topology.Instances.Int
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Algebra.Order.Floor.Semiring
 
 /-!
 # Topology on the natural numbers

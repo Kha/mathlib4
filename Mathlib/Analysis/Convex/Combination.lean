@@ -5,9 +5,28 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 public import Mathlib.Analysis.Convex.Hull
 public import Mathlib.LinearAlgebra.AffineSpace.Basis
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Set.Prod
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Module.LinearMap.Prod
+import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Convex combinations

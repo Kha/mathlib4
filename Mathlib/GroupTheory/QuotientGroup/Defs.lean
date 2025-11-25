@@ -9,6 +9,8 @@ module
 public import Mathlib.Algebra.Group.Subgroup.Ker
 public import Mathlib.GroupTheory.Congruence.Hom
 public import Mathlib.GroupTheory.Coset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quotients of groups by normal subgroups

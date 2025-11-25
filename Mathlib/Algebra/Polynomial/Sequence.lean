@@ -5,8 +5,17 @@ Authors: Aaron Hill, Julian Berman, Austin Letson, Matej Penciak
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Monic
 public import Mathlib.LinearAlgebra.Basis.Basic
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 

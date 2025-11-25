@@ -5,9 +5,12 @@ Authors: Mario Carneiro, Jeremy Avigad, Simon Hudon
 -/
 module
 
-public import Mathlib.Algebra.Notation.Defs
 public import Mathlib.Data.Set.Subsingleton
-public import Mathlib.Logic.Equiv.Defs
+public import Mathlib.Tactic.Translate.ToAdditive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Partial values of a type

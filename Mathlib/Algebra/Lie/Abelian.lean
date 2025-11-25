@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Lie.OfAssociative
 public import Mathlib.Algebra.Lie.IdealOperations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Trivial Lie modules and Abelian Lie algebras

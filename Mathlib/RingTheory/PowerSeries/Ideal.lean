@@ -5,11 +5,16 @@ Authors: Riccardo Brasca, Anthony Fernandes, Marc Robin
 -/
 module
 
-public import Mathlib.RingTheory.PowerSeries.Inverse
-public import Mathlib.RingTheory.PowerSeries.Trunc
-public import Mathlib.RingTheory.Finiteness.Ideal
-public import Mathlib.RingTheory.Noetherian.OfPrime
 public import Mathlib.Algebra.Module.SpanRank
+public import Mathlib.RingTheory.PowerSeries.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Ideal
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.RingTheory.Noetherian.OfPrime
+import Mathlib.RingTheory.PowerSeries.Inverse
+import Mathlib.RingTheory.PowerSeries.Trunc
 
 /-!
 # Ideals in power series.

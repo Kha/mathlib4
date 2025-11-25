@@ -6,10 +6,13 @@ Authors: John Talbot, Lian Bremner Tattersall
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Coloring
-public import Mathlib.Combinatorics.SimpleGraph.Copy
-public import Mathlib.Combinatorics.SimpleGraph.DegreeSum
 public import Mathlib.Combinatorics.SimpleGraph.Extremal.Turan
 public import Mathlib.Combinatorics.SimpleGraph.Hasse
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Complete Multipartite Graphs

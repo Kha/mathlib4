@@ -5,9 +5,27 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Group.Measure
-public import Mathlib.Tactic.Group
-public import Mathlib.Topology.UrysohnsLemma
+public import Mathlib.MeasureTheory.Group.Defs
+public import Mathlib.MeasureTheory.Measure.OpenPos
+public import Mathlib.MeasureTheory.Measure.Regular
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.MeasureTheory.Group.Measure
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Everywhere positive sets in measure spaces

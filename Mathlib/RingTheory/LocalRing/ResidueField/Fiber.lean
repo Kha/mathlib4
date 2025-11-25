@@ -6,9 +6,10 @@ Authors: Jingting Wang, Junyan Xu
 module
 
 public import Mathlib.RingTheory.Spectrum.Prime.RingHom
-public import Mathlib.RingTheory.LocalRing.ResidueField.Ideal
-public import Mathlib.RingTheory.Localization.BaseChange
 public import Mathlib.RingTheory.TensorProduct.Quotient
+public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.BaseChange
 
 /-!
 # The fiber of a ring homomorphism at a prime ideal

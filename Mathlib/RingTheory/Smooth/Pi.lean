@@ -5,8 +5,9 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Idempotents
 public import Mathlib.RingTheory.Smooth.Basic
+import Mathlib.RingTheory.Idempotents
+import Mathlib.Tactic.TypeStar
 
 /-!
 

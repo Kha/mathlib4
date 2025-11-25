@@ -5,8 +5,14 @@ Authors: Kyle Miller, Pim Otte
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Tactic.Zify
+public import Mathlib.Data.Nat.Factorial.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Factorial with big operators

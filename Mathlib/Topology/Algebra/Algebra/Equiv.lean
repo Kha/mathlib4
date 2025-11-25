@@ -6,6 +6,9 @@ Authors: Salvatore Mercuri
 module
 
 public import Mathlib.Topology.Algebra.Algebra
+public import Mathlib.Topology.UniformSpace.UniformEmbedding
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
 
 /-!
 # Isomorphisms of topological algebras

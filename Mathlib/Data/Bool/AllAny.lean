@@ -5,8 +5,8 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Batteries.Tactic.Alias
-public import Mathlib.Tactic.TypeStar
+public import Mathlib.Init
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Boolean quantifiers

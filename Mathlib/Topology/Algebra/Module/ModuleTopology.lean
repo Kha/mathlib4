@@ -6,9 +6,14 @@ Authors: Kevin Buzzard, Will Sawin
 module
 
 public import Mathlib.Topology.Algebra.Module.Equiv
-public import Mathlib.RingTheory.Finiteness.Cardinality
-public import Mathlib.Algebra.Algebra.Bilinear
-public import Mathlib.Algebra.Group.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Bilinear
+import Mathlib.Data.Fintype.Option
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Maps.OpenQuotient
 
 /-!
 # A "module topology" for modules over a topological ring

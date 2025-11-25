@@ -6,6 +6,8 @@ Authors: Zhouhang Zhou
 module
 
 public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # `L¹` space

@@ -5,11 +5,12 @@ Authors: Joël Riou, Christian Merten
 -/
 module
 
-public import Mathlib.CategoryTheory.Bicategory.Functor.Cat
 public import Mathlib.CategoryTheory.Bicategory.LocallyDiscrete
-public import Mathlib.CategoryTheory.Bicategory.Strict.Pseudofunctor
-public import Mathlib.CategoryTheory.Sites.Sheaf
 public import Mathlib.CategoryTheory.Sites.Over
+public import Mathlib.CategoryTheory.Bicategory.Functor.Pseudofunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Bicategory.Functor.Cat
+import Mathlib.CategoryTheory.Bicategory.Strict.Pseudofunctor
 
 /-!
 # Prestacks: descent of morphisms

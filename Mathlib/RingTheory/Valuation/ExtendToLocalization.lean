@@ -7,6 +7,9 @@ module
 
 public import Mathlib.RingTheory.Localization.Defs
 public import Mathlib.RingTheory.Valuation.Basic
+public import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 

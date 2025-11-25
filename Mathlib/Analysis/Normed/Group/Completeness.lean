@@ -5,8 +5,19 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Uniform
-public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Completeness of normed groups

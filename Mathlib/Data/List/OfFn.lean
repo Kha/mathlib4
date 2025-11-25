@@ -6,6 +6,8 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Fin.Tuple.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lists from functions

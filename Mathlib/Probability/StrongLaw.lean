@@ -6,11 +6,40 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Probability.IdentDistrib
-public import Mathlib.Probability.Independence.Integrable
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.Analysis.SpecificLimits.FloorPow
-public import Mathlib.Analysis.PSeries
-public import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.FloorPow
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.MeasureTheory.OuterMeasure.BorelCantelli
+import Mathlib.Probability.Independence.Integrable
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The strong law of large numbers

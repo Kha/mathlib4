@@ -9,7 +9,8 @@ public import Mathlib.Algebra.Group.PUnit
 public import Mathlib.Algebra.Group.TypeTags.Hom
 public import Mathlib.Algebra.Group.ULift
 public import Mathlib.CategoryTheory.Elementwise
-public import Mathlib.CategoryTheory.Functor.ReflectsIso.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Category instances for `Monoid`, `AddMonoid`, `CommMonoid`, and `AddCommMonoid`.

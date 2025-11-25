@@ -5,9 +5,19 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Linear
-public import Mathlib.Analysis.Calculus.FDeriv.Comp
-public import Mathlib.Analysis.Calculus.FDeriv.Const
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 # Additive operations on derivatives

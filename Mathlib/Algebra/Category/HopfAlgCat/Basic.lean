@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.BialgCat.Basic
 public import Mathlib.RingTheory.HopfAlgebra.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of Hopf algebras over a commutative ring

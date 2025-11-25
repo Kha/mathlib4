@@ -5,13 +5,15 @@ Authors: Kenny Lau, Mario Carneiro, Johan Commelin, Amelia Livingston, Anne Baan
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.Field.IsField
-public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
-public import Mathlib.Data.Finite.Prod
-public import Mathlib.GroupTheory.MonoidLocalization.MonoidWithZero
 public import Mathlib.RingTheory.Localization.Defs
-public import Mathlib.RingTheory.OreLocalization.Ring
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Algebra.Algebra.Equiv
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Data.Finite.Prod
 
 /-!
 # Localizations of commutative rings

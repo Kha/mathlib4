@@ -6,8 +6,11 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Constructors
-public import Mathlib.RingTheory.LocalProperties.Basic
 public import Mathlib.RingTheory.RingHom.Locally
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Preserves.Creates.Finite
 
 /-!
 

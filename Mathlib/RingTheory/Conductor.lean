@@ -7,6 +7,9 @@ module
 
 public import Mathlib.RingTheory.Localization.Submodule
 public import Mathlib.RingTheory.PowerBasis
+public import Mathlib.RingTheory.Adjoin.Polynomial
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The conductor ideal

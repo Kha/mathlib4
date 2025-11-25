@@ -9,6 +9,10 @@ public import Mathlib.Logic.IsEmpty
 public import Mathlib.Order.Basic
 public import Mathlib.Tactic.MkIffOfInductiveProp
 public import Batteries.WF
+public import Mathlib.Data.Nat.Notation
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Unbundled relation classes

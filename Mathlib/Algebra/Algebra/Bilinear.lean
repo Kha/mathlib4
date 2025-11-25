@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Algebra.NonUnitalHom
 public import Mathlib.LinearAlgebra.TensorProduct.Basic
+public import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Facts about algebras involving bilinear maps and tensor products

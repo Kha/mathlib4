@@ -6,6 +6,10 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.TotalComplex
+public import Mathlib.CategoryTheory.Linear.Basic
+public import Mathlib.Data.Int.Order.Units
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! The symmetry of the total complex of a bicomplex
 

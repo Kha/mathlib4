@@ -5,14 +5,22 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
-public import Mathlib.Algebra.Order.Interval.Finset.SuccPred
-public import Mathlib.Data.Nat.SuccPred
 public import Mathlib.Order.Interval.Finset.Nat
 public import Mathlib.Topology.EMetricSpace.Defs
-public import Mathlib.Topology.UniformSpace.Compact
 public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
 public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.UniformSpace.Compact
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 # Extended metric spaces

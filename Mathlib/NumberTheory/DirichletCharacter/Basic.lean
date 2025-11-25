@@ -8,6 +8,10 @@ module
 public import Mathlib.Algebra.Group.EvenFunction
 public import Mathlib.Data.ZMod.Units
 public import Mathlib.NumberTheory.MulChar.Basic
+public import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
 
 /-!
 # Dirichlet Characters

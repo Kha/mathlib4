@@ -5,10 +5,30 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Convex.Deriv
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Deligne
-public import Mathlib.Data.Nat.Factorial.Basic
 public import Mathlib.NumberTheory.Harmonic.EulerMascheroni
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Analysis.Convex.Deriv
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Shift
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
+import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Derivative of Γ at positive integers

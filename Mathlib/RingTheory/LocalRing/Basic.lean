@@ -7,6 +7,9 @@ module
 
 public import Mathlib.RingTheory.LocalRing.Defs
 public import Mathlib.RingTheory.Ideal.Nonunits
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Units
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 

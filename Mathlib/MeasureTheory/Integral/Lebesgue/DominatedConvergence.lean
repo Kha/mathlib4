@@ -5,8 +5,25 @@ Authors: Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Sub
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.MeasureTheory.Integral.Lebesgue.Sub
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Dominated convergence theorem

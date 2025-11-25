@@ -5,10 +5,26 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Topology.Algebra.Constructions
 public import Mathlib.Topology.Bases
-public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Topology.UniformSpace.DiscreteUniformity
+public import Mathlib.Order.Filter.Ultrafilter.Defs
+import Mathlib.Order.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Prod
+import Mathlib.Topology.Algebra.Constructions
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Prod
+import Mathlib.Order.Filter.Ultrafilter.Basic
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Theory of Cauchy filters in uniform spaces. Complete uniform spaces. Totally bounded subsets.

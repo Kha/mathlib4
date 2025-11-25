@@ -6,9 +6,9 @@ Authors: Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Closed.Cartesian
-public import Mathlib.CategoryTheory.Limits.Presheaf
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.FunctorCategory
-public import Mathlib.CategoryTheory.Monoidal.Types.Basic
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Presheaf
 
 /-!
 # Cartesian closure of Type

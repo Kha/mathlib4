@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Topology.Order.OrderClosed
 public import Mathlib.Topology.Order.LocalExtr
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
 
 /-!
 # Maximum/minimum on the closure of a set

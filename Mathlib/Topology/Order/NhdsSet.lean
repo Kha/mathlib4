@@ -6,6 +6,11 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Set neighborhoods of intervals

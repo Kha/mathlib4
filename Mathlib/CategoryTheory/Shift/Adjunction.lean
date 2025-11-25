@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Shift.CommShift
 public import Mathlib.CategoryTheory.Adjunction.Mates
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Adjoints commute with shifts

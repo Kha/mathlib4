@@ -6,7 +6,18 @@ Authors: Patrick Massot
 module
 
 public import Mathlib.Analysis.Normed.Group.Hom
-public import Mathlib.Analysis.SpecificLimits.Normed
+public import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-! # Extending a backward bound on a normed group homomorphism from a dense set
 

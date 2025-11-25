@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Homology.Bifunctor
 public import Mathlib.Algebra.Homology.Homotopy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Data.Int.Order.Units
 
 /-!
 # The action of a bifunctor on homological complexes factors through homotopies

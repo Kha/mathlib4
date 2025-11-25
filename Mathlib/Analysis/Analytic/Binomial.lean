@@ -5,12 +5,26 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.IteratedDeriv.ConvergenceOnBall
-public import Mathlib.Analysis.Complex.OperatorNorm
-public import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
 public import Mathlib.Analysis.SpecialFunctions.OrdinaryHypergeometric
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 public import Mathlib.RingTheory.Binomial
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Complex.OperatorNorm
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.List.OfFn
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.IteratedDeriv.ConvergenceOnBall
+import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 
 /-!
 # Binomial Series

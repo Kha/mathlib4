@@ -5,8 +5,18 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Etale.Pi
-public import Mathlib.RingTheory.Unramified.Field
+public import Mathlib.FieldTheory.Separable
+public import Mathlib.RingTheory.Etale.Basic
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Taylor
+import Mathlib.RingTheory.Artinian.Module
+import Mathlib.RingTheory.Etale.Pi
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Unramified.Field
+import Mathlib.RingTheory.Unramified.Finite
 
 /-!
 # Étale algebras over fields

@@ -6,9 +6,20 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Polynomial.Module.Basic
-public import Mathlib.RingTheory.Finiteness.Nakayama
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 public import Mathlib.RingTheory.ReesAlgebra
+public import Mathlib.RingTheory.Jacobson.Ideal
+public import Mathlib.RingTheory.LocalRing.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Nakayama
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Action
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

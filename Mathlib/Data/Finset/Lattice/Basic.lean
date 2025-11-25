@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Finset.Defs
 public import Mathlib.Data.Multiset.FinsetOps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Lattice structure on finite sets

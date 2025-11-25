@@ -6,7 +6,8 @@ Authors: Anne Baanen, Alex J. Best
 module
 
 public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Nontriviality.Core
 
 /-!
 # Determinants in free (finite) modules

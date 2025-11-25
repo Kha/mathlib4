@@ -6,6 +6,14 @@ Authors: Winston Yin
 module
 
 public import Mathlib.Geometry.Manifold.IntegralCurve.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 
 /-!
 # Translation and scaling of integral curves

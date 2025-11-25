@@ -7,6 +7,14 @@ Authors: Jan-David Salchow, Sébastien Gouëzel, Jean Lo, Yury Kudryashov, Fréd
 module
 
 public import Mathlib.Topology.Algebra.Module.LinearMapPiProd
+public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Algebra.Module.Equiv.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Group.Invertible.Basic
 
 /-!
 # Continuous linear equivalences

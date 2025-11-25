@@ -6,9 +6,10 @@ Authors: Kyle Miller
 module
 
 public meta import Mathlib.Lean.Expr.Basic
-public meta import Mathlib.Lean.Meta.CongrTheorems
-public meta import Mathlib.Logic.Basic
-public meta import Mathlib.Tactic.CongrExclamation
+public import Mathlib.Init
+public import Batteries.Tactic.Lint.Misc
+import Lean.Meta.CongrTheorems
+meta import Mathlib.Lean.Meta.CongrTheorems
 
 /-! # `congr(...)` congruence quotations
 

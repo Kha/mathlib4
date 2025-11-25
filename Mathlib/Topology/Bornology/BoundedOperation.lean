@@ -5,9 +5,16 @@ Authors: Kalle Kytölä
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Basic
-public import Mathlib.Topology.MetricSpace.ProperSpace.Real
-public import Mathlib.Analysis.Normed.Ring.Lemmas
+public import Mathlib.Topology.MetricSpace.Algebra
+public import Mathlib.Analysis.Normed.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Bounded operations

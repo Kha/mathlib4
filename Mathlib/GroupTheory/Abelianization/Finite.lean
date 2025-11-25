@@ -7,6 +7,7 @@ module
 
 public import Mathlib.GroupTheory.Abelianization.Defs
 public import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The abelianization of a finite group is finite

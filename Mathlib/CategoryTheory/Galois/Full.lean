@@ -6,6 +6,13 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Galois.Action
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Action.Limits
+import Mathlib.CategoryTheory.Galois.Decomposition
+import Mathlib.CategoryTheory.Galois.Examples
+import Mathlib.CategoryTheory.Limits.FintypeCat
 
 /-!
 

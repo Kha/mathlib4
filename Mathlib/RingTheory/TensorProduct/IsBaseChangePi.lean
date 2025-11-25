@@ -5,9 +5,14 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.Pi
-public import Mathlib.LinearAlgebra.TensorProduct.Prod
-public import Mathlib.RingTheory.Localization.BaseChange
+public import Mathlib.LinearAlgebra.Pi
+public import Mathlib.RingTheory.IsTensorProduct
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.Pi
+import Mathlib.LinearAlgebra.TensorProduct.Prod
+import Mathlib.RingTheory.Localization.BaseChange
 
 /-!
 # Base change commutes with finite products

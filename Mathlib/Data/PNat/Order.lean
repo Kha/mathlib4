@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Order.SuccPred
 public import Mathlib.Data.PNat.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Order related instances for `ℕ+`

@@ -5,9 +5,14 @@ Authors: Pierre-Alexandre Bazin
 -/
 module
 
-public import Mathlib.Algebra.Module.PID
-public import Mathlib.Algebra.Group.TypeTags.Finite
-public import Mathlib.Data.ZMod.QuotientRing
+public import Mathlib.Algebra.Module.Torsion.Basic
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.PID
+import Mathlib.Data.ZMod.QuotientRing
+import Mathlib.Algebra.Group.TypeTags.Finite
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Structure of finite(ly generated) abelian groups

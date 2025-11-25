@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Sober
 public import Mathlib.Topology.Spectral.Prespectral
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Spectral spaces

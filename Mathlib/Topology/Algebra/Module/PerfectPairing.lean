@@ -7,6 +7,8 @@ module
 
 public import Mathlib.LinearAlgebra.BilinearMap
 public import Mathlib.Topology.Algebra.Module.LinearMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous perfect pairings

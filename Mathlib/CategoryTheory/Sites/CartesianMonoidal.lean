@@ -6,7 +6,9 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.FunctorCategory
-public import Mathlib.CategoryTheory.Sites.Limits
+public import Mathlib.CategoryTheory.Sites.Sheaf
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Sites.Limits
 
 /-!
 # Chosen finite products on sheaves

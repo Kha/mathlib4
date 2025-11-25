@@ -5,10 +5,10 @@ Authors: Eric Wieser, Kevin Buzzard, Jujian Zhang, Fangming Li
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.Algebra
 public import Mathlib.Algebra.DirectSum.Decomposition
 public import Mathlib.Algebra.DirectSum.Internal
-public import Mathlib.Algebra.DirectSum.Ring
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Internally-graded rings and algebras

@@ -5,8 +5,21 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Data.Set.Lattice
 public import Mathlib.Order.ConditionallyCompleteLattice.Defs
+public import Mathlib.Order.WithBot
+public import Mathlib.Tactic.Use
+public import Mathlib.Data.Set.Image
+public import Mathlib.Order.CompleteLattice.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.NAry
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Theory of conditionally complete lattices

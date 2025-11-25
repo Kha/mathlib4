@@ -6,6 +6,8 @@ Authors: Daniel Figueroa
 module
 
 public import Mathlib.Dynamics.Minimal
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
 
 /-!
 # Topologically transitive monoid actions

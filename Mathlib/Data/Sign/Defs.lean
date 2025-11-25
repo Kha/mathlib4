@@ -5,13 +5,17 @@ Authors: Eric Rodriguez
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Defs
-public import Mathlib.Algebra.Ring.Defs
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Tactic.DeriveFintype  -- shake: keep (deriving handlers not tracked yet)
-public import Mathlib.Data.Multiset.Defs
-public import Mathlib.Data.Fintype.Defs
 public import Mathlib.Algebra.Group.Equiv.Defs
+public import Mathlib.Algebra.Group.Int.Defs
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Data.List.Nodup
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Sign type

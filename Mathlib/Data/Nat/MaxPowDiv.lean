@@ -5,9 +5,13 @@ Authors: Matthew Robert Ballard
 -/
 module
 
-public import Mathlib.Algebra.Divisibility.Units
-public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Algebra.Divisibility.Units
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # The maximal power of one natural number dividing another

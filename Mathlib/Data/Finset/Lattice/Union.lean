@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Finset.Lattice.Fold
 public import Mathlib.Data.Finset.Union
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Relating `Finset.biUnion` with lattice operations

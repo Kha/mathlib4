@@ -5,10 +5,16 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Order.Filter.AtTopBot.Archimedean
-public import Mathlib.Order.Filter.AtTopBot.Finite
-public import Mathlib.Order.Filter.AtTopBot.Prod
-public import Mathlib.Topology.Algebra.Ring.Real
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finite
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Convergence of subadditive sequences

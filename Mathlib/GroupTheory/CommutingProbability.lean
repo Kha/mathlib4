@@ -5,12 +5,27 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Fin
-public import Mathlib.GroupTheory.Abelianization.Finite
 public import Mathlib.GroupTheory.SpecificGroups.Dihedral
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.LinearCombination
-public import Mathlib.Tactic.Qify
+public import Mathlib.GroupTheory.Commutator.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Group.ConjFinite
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Finite.Prod
+import Mathlib.GroupTheory.Abelianization.Finite
+import Mathlib.GroupTheory.GroupAction.CardCommute
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Nat.Cast.Field
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Commuting Probability

@@ -5,8 +5,14 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov, Patrick Massot
 -/
 module
 
-public import Mathlib.Order.Filter.AtTopBot.Disjoint
-public import Mathlib.Order.Filter.Tendsto
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Disjoint
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Limits of `Filter.atTop` and `Filter.atBot`

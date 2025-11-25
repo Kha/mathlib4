@@ -8,6 +8,8 @@ module
 public import Mathlib.Topology.Connected.TotallyDisconnected
 public import Mathlib.Topology.MetricSpace.Defs
 public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Ultrametric spaces are totally separated

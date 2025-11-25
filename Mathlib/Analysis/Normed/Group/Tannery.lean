@@ -5,8 +5,17 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Tannery's theorem

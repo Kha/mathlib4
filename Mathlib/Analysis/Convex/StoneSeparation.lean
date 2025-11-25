@@ -5,8 +5,19 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Convex.Combination
-public import Mathlib.Analysis.Convex.Join
+public import Mathlib.Analysis.Convex.Hull
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.Analysis.Convex.Join
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Stone's separation theorem

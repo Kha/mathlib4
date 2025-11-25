@@ -5,10 +5,14 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Sites.EqualizerSheafCondition
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Types.Equalizers
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 
 /-!
 # Sheaves preserve products

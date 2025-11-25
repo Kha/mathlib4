@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.TypeStar
 
 /-! # Equip `ℂ` with the Borel sigma-algebra -/
 

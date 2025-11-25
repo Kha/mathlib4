@@ -6,7 +6,19 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Analysis.Fourier.AddCircle
-public import Mathlib.MeasureTheory.Integral.Pi
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.MeasureTheory.Function.ContinuousMapDense
+import Mathlib.MeasureTheory.Integral.Pi
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.MeasureTheory.Function.LpSpace.Complete
+import Mathlib.Topology.Algebra.InfiniteSum.Module
 
 /-!
 # Multivariate Fourier series

@@ -6,7 +6,9 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Calculus.LineDeriv.Basic
-public import Mathlib.Analysis.Calculus.FDeriv.Measurable
+public import Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.FDeriv.Measurable
 
 /-! # Measurability of the line derivative
 

@@ -6,9 +6,12 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.ObjectProperty.LimitsOfShape
-public import Mathlib.CategoryTheory.ObjectProperty.CompleteLattice
 public import Mathlib.Order.TransfiniteIteration
 public import Mathlib.SetTheory.Cardinal.HasCardinalLT
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.ObjectProperty.CompleteLattice
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
 
 /-!
 # Closure of a property of objects under limits of certain shapes

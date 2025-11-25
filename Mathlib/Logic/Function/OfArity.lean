@@ -6,6 +6,7 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Logic.Function.FromTypes
+import Mathlib.Tactic.Lemma
 
 /-! # Function types of a given arity
 

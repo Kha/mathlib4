@@ -6,8 +6,10 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.Abelian
-public import Mathlib.Algebra.Lie.IdealOperations
 public import Mathlib.Algebra.Lie.Quotient
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # The normalizer of Lie submodules and subalgebras.

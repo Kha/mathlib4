@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Basic
 public import Mathlib.CategoryTheory.Comma.StructuredArrow.Basic
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Extensions and lifts in bicategories

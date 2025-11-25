@@ -5,9 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.OrderDual
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
-public import Mathlib.Order.Filter.AtTopBot.Tendsto
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Map
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Convergence to ±infinity in ordered commutative monoids

@@ -6,9 +6,14 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 public import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
+public import Mathlib.CategoryTheory.Functor.EpiMono
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Equiv.Set
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
 
 /-!
 

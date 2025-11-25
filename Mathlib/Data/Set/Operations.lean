@@ -11,6 +11,9 @@ public import Mathlib.Data.Set.CoeSort
 public import Mathlib.Data.SProd
 public import Mathlib.Data.Subtype
 public import Mathlib.Order.Notation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Basic definitions about sets

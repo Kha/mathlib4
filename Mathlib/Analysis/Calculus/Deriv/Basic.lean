@@ -5,10 +5,22 @@ Authors: Gabriel Ebner, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Const
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
-public import Mathlib.Analysis.Calculus.TangentCone.DimOne
-public import Mathlib.Analysis.Calculus.TangentCone.Real
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Analysis.Normed.Operator.Basic
+public import Mathlib.Data.Int.Cast.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Calculus.TangentCone.DimOne
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.Normed.Operator.NormedSpace
 
 /-!
 

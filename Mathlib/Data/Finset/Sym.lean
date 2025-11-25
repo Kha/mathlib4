@@ -8,6 +8,11 @@ module
 public import Mathlib.Data.Finset.Lattice.Fold
 public import Mathlib.Data.Fintype.Vector
 public import Mathlib.Data.Multiset.Sym
+public import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!
 # Symmetric powers of a finset

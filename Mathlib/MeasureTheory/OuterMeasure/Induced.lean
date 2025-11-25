@@ -5,9 +5,22 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.ENNReal.Action
-public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
 public import Mathlib.MeasureTheory.OuterMeasure.Caratheodory
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.Action
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Logic.Encodable.Lattice
+import Mathlib.MeasureTheory.MeasurableSpace.Constructions
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Induced Outer Measure

@@ -5,8 +5,11 @@ Authors: Yury Kudryashov, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Normed.Field.Lemmas
 public import Mathlib.Analysis.Normed.Group.BallSphere
+public import Mathlib.Analysis.Normed.Field.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Field.Lemmas
 
 /-!
 # Algebraic structures on unit balls and spheres

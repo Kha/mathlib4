@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ApproximatesLinearOn
 public import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Tactic.TypeStar
 
 /-!
 # A lemma about `ApproximatesLinearOn` that needs `FiniteDimensional`

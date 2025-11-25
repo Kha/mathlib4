@@ -6,6 +6,10 @@ Authors: Chris Hughes, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Group.Action.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Faithful group actions

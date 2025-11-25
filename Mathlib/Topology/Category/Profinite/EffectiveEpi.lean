@@ -5,10 +5,19 @@ Authors: Dagur Asgeirsson, Boris Bolvig Kjær, Jon Eugster, Sina Hazratpour
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Coherent.ReflectsPreregular
-public import Mathlib.Topology.Category.CompHaus.EffectiveEpi
-public import Mathlib.Topology.Category.Profinite.Limits
 public import Mathlib.Topology.Category.Stonean.Basic
+public import Mathlib.CategoryTheory.EffectiveEpi.Enough
+public import Mathlib.CategoryTheory.EffectiveEpi.Preserves
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+public import Mathlib.Topology.Category.CompHausLike.Limits
+import Mathlib.Tactic.TFAE
+import Mathlib.CategoryTheory.EffectiveEpi.Coproduct
+import Mathlib.CategoryTheory.EffectiveEpi.Extensive
+import Mathlib.CategoryTheory.Sites.Coherent.ReflectsPreregular
+import Mathlib.Topology.Category.CompHaus.EffectiveEpi
+import Mathlib.Topology.Category.CompHaus.Limits
+import Mathlib.Topology.Category.CompHausLike.EffectiveEpi
+import Mathlib.Topology.Category.Profinite.Limits
 /-!
 
 # Effective epimorphisms in `Profinite`

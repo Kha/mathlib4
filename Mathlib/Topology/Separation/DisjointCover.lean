@@ -6,11 +6,17 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Algebra.Notation.Indicator
-public import Mathlib.Data.Fintype.BigOperators
-public import Mathlib.Order.Disjointed
-public import Mathlib.Topology.Separation.Profinite
 public import Mathlib.Topology.Sets.Closeds
 public import Mathlib.Topology.Sets.OpenCover
+public import Mathlib.Topology.Connected.TotallyDisconnected
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsSet
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Separation.Profinite
 
 /-!
 # Disjoint covers of profinite spaces

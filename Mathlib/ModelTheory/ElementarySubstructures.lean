@@ -6,6 +6,7 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.ModelTheory.ElementaryMaps
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Elementary Substructures

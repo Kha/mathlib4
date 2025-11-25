@@ -6,6 +6,9 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Topology.Sets.Opens
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
 
 /-!
 # Open covers

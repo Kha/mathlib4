@@ -5,10 +5,18 @@ Authors: Oliver Nash, Bhavik Mehta, Daniel Weber, Stefan Kebekus
 -/
 module
 
-public import Mathlib.Tactic.TautoSet
-public import Mathlib.Topology.Constructions
-public import Mathlib.Data.Set.Subset
 public import Mathlib.Topology.Separation.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TautoSet
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Subset
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Discrete subsets of topological spaces

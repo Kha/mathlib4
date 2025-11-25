@@ -5,11 +5,18 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.Cardinal
-public import Mathlib.RingTheory.Algebraic.LinearIndependent
-public import Mathlib.RingTheory.Algebraic.MvPolynomial
-public import Mathlib.RingTheory.Localization.Cardinality
-public import Mathlib.RingTheory.MvPolynomial
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.GroupTheory.GroupAction.Ring
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.RingTheory.MvPolynomial
+import Mathlib.Algebra.MvPolynomial.Cardinal
+import Mathlib.RingTheory.Algebraic.Basic
+import Mathlib.RingTheory.Algebraic.LinearIndependent
+import Mathlib.RingTheory.Algebraic.MvPolynomial
+import Mathlib.RingTheory.Localization.Cardinality
+import Mathlib.SetTheory.Cardinal.Finsupp
 
 /-!
 # Rank of multivariate rational function field

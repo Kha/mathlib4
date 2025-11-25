@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Analysis.Normed.Field.Basic
 public import Mathlib.LinearAlgebra.Eigenspace.Basic
-public import Mathlib.LinearAlgebra.Determinant
+public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.IsField
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Gershgorin's circle theorem

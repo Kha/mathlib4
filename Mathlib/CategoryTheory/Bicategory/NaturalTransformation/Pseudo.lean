@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Functor.Pseudofunctor
 public import Mathlib.CategoryTheory.Bicategory.NaturalTransformation.Oplax
+import Mathlib.Tactic.Lemma
 
 /-!
 

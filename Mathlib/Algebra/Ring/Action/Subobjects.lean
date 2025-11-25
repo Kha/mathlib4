@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.Subgroup.Defs
 public import Mathlib.Algebra.Group.Submonoid.DistribMulAction
 public import Mathlib.Algebra.Ring.Action.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Instances of `MulSemiringAction` for subobjects

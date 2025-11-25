@@ -6,6 +6,9 @@ Authors: María Inés de Frutos-Fernández, Filippo A. E. Nuccio
 module
 
 public import Mathlib.Data.NNReal.Defs
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Monoid.TypeTags
 
 /-!
 # WithZero

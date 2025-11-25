@@ -5,7 +5,13 @@ Authors: Floris van Doorn, Mario Carneiro
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Pi

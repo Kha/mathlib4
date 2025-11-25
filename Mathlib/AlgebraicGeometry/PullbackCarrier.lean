@@ -5,8 +5,11 @@ Authors: Qi Ge, Christian Merten, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Category.Ring.LinearAlgebra
 public import Mathlib.AlgebraicGeometry.ResidueField
+public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Category.Ring.LinearAlgebra
 
 /-!
 # Underlying topological space of fibre product of schemes

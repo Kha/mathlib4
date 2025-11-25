@@ -7,9 +7,19 @@ module
 
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Module.BigOperators
 public import Mathlib.Algebra.Module.Pi
-public import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+public import Mathlib.Order.Interval.Finset.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Batteries.Tactic.Congr
+import Mathlib.Order.Cover
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
 
 /-!
 # Incidence algebras

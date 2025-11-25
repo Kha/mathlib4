@@ -5,8 +5,13 @@ Authors: Mario Carneiro, Kevin Buzzard
 -/
 module
 
-public import Mathlib.Order.Filter.AtTopBot.Basic
-public import Mathlib.RingTheory.Finiteness.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Order.OrderIsoNat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Noetherian rings and modules

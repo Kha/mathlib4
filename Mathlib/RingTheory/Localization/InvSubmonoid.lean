@@ -8,6 +8,7 @@ module
 public import Mathlib.GroupTheory.Submonoid.Inverses
 public import Mathlib.RingTheory.FiniteType
 public import Mathlib.RingTheory.Localization.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Submonoid of inverses

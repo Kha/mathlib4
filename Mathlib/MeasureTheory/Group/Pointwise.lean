@@ -6,6 +6,8 @@ Authors: Yury Kudryashov, Alex J. Best
 module
 
 public import Mathlib.MeasureTheory.Group.Arithmetic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Pointwise set operations on `MeasurableSet`s

@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Idempotents.Karoubi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Idempotence of the Karoubi envelope

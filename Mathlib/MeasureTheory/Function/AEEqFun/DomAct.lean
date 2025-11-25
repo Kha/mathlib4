@@ -7,7 +7,6 @@ module
 
 public import Mathlib.MeasureTheory.Function.AEEqFun
 public import Mathlib.MeasureTheory.Group.Action
-public import Mathlib.GroupTheory.GroupAction.DomAct.Basic
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
 /-!
 # Action of `DomMulAct` and `DomAddAct` on `α →ₘ[μ] β`

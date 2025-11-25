@@ -5,9 +5,15 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.FiniteStability
-public import Mathlib.RingTheory.Localization.InvSubmonoid
-public import Mathlib.RingTheory.RingHom.Finite
+public import Mathlib.RingTheory.LocalProperties.Basic
+public import Mathlib.RingTheory.Localization.Integer
+import Mathlib.RingTheory.FiniteStability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Localization.InvSubmonoid
+import Mathlib.RingTheory.RingHom.Finite
+import Mathlib.Algebra.Algebra.Subalgebra.Operations
 
 /-!
 

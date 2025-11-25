@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Conj
 public import Mathlib.Data.Fintype.Units
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conjugacy of elements of finite groups

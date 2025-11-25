@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Hom
 public import Mathlib.Algebra.GroupWithZero.Action.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Morphisms of non-unital algebras

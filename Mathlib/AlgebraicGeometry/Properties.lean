@@ -6,7 +6,9 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.AffineScheme
-public import Mathlib.RingTheory.LocalProperties.Reduced
+import Mathlib.RingTheory.LocalProperties.Reduced
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Algebra.Category.Ring.FilteredColimits
 
 /-!
 # Basic properties of schemes

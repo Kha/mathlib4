@@ -6,8 +6,14 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.SetTheory.Ordinal.Family
-public import Mathlib.Tactic.Abel
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.NatOrdinal` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

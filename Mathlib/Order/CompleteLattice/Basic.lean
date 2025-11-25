@@ -5,10 +5,18 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Data.Set.NAry
-public import Mathlib.Data.ULift
 public import Mathlib.Order.CompleteLattice.Defs
-public import Mathlib.Order.Hom.Set
+public import Mathlib.Order.BooleanAlgebra.Basic
+public import Mathlib.Order.Hom.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Hom.Set
 
 /-!
 # Theory of complete lattices

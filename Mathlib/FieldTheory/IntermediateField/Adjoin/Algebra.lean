@@ -5,9 +5,22 @@ Authors: Thomas Browning, Patrick Lutz
 -/
 module
 
-public import Mathlib.FieldTheory.Finiteness
 public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
-public import Mathlib.FieldTheory.IntermediateField.Algebraic
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Adjoin.FG
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Adjoining Elements to Fields

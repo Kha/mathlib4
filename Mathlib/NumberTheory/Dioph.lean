@@ -5,10 +5,14 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Fin.Fin2
 public import Mathlib.Data.PFun
 public import Mathlib.Data.Vector3
 public import Mathlib.NumberTheory.PellMatiyasevic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Diophantine functions and Matiyasevic's theorem

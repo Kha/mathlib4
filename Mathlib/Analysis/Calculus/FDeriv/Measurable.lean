@@ -6,11 +6,35 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Calculus.Deriv.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Derivative is measurable

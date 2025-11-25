@@ -5,10 +5,20 @@ Authors: Kenji Nakagawa, Anne Baanen, Filippo A. E. Nuccio
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Pointwise
 public import Mathlib.RingTheory.DedekindDomain.Basic
 public import Mathlib.RingTheory.FractionalIdeal.Inverse
-public import Mathlib.RingTheory.Spectrum.Prime.Basic
+public import Mathlib.Algebra.GCDMonoid.Basic
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+public import Mathlib.RingTheory.UniqueFactorizationDomain.Defs
+public import Mathlib.RingTheory.Spectrum.Prime.Defs
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.Algebra.Subalgebra.Pointwise
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.RingTheory.Spectrum.Prime.Basic
 
 /-!
 # Dedekind domains and invertible ideals

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Hom
 public import Mathlib.LinearAlgebra.TensorProduct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Associators and unitors for tensor products of modules over a commutative ring.

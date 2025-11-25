@@ -5,9 +5,11 @@ Authors: Felix Weilacher
 -/
 module
 
-public import Mathlib.Topology.LocallyClosed
-public import Mathlib.MeasureTheory.MeasurableSpace.EventuallyMeasurable
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.LocallyClosed
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Baire category and Baire measurable sets

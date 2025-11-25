@@ -5,10 +5,22 @@ Authors: Winston Yin
 -/
 module
 
-public import Mathlib.Analysis.ODE.Gronwall
-public import Mathlib.Analysis.ODE.PicardLindelof
-public import Mathlib.Geometry.Manifold.IntegralCurve.Transform
 public import Mathlib.Geometry.Manifold.IsManifold.InteriorBoundary
+public import Mathlib.Algebra.Ring.Periodic
+public import Mathlib.Geometry.Manifold.IntegralCurve.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.ODE.Gronwall
+import Mathlib.Analysis.ODE.PicardLindelof
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.RCLike
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Geometry.Manifold.IntegralCurve.Transform
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
 
 /-!
 # Existence and uniqueness of integral curves

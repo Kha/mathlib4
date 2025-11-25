@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.End
 public import Mathlib.Algebra.Ring.Equiv
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ring automorphisms

@@ -6,6 +6,7 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.Topology.Category.Profinite.Basic
+import Mathlib.Tactic.ApplyFun
 
 /-!
 # Compact subsets of products as limits in `Profinite`

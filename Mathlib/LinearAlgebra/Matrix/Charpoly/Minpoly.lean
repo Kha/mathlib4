@@ -5,9 +5,12 @@ Authors: Aaron Anderson, Jalex Stark, Eric Wieser
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
-public import Mathlib.LinearAlgebra.Matrix.ToLin
 public import Mathlib.RingTheory.PowerBasis
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 /-!
 # The minimal polynomial divides the characteristic polynomial of a matrix.

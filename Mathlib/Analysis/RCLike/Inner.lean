@@ -6,6 +6,9 @@ Authors: Yaël Dilies
 module
 
 public import Mathlib.Analysis.InnerProductSpace.PiL2
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
 
 /-!
 # L2 inner product of finite sequences

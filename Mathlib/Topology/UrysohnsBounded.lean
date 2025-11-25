@@ -5,8 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.UrysohnsLemma
 public import Mathlib.Topology.ContinuousMap.Bounded.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Real
 
 /-!
 # Urysohn's lemma for bounded continuous functions

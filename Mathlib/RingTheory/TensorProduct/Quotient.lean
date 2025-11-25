@@ -5,9 +5,11 @@ Authors: Christian Merten, Yi Song, Sihan Su
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.Quotient
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.TensorProduct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.Quotient
 
 /-!
 # Interaction between quotients and tensor products for algebras

@@ -7,7 +7,25 @@ module
 
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.MeasureTheory.Covering.VitaliFamily
-public import Mathlib.Data.Set.Pairwise.Lattice
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Data.Set.Pairwise.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Vitali covering theorems

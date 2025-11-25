@@ -5,11 +5,19 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Batteries.Data.List.Perm
 public import Mathlib.Logic.Relation
-public import Mathlib.Order.RelClasses
-public import Mathlib.Data.List.Forall2
-public import Mathlib.Data.List.InsertIdx
+public import Mathlib.Logic.OpClass
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+public import Mathlib.Data.Nat.Notation
+public import Mathlib.Tactic.GCongr.Core
+import Mathlib.Order.RelClasses
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Perm
+import Mathlib.Data.List.Forall2
+import Mathlib.Data.List.InsertIdx
 
 /-!
 # List Permutations

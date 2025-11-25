@@ -5,9 +5,18 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.Affine
-public import Mathlib.AlgebraicGeometry.PullbackCarrier
 public import Mathlib.RingTheory.RingHom.FaithfullyFlat
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
+public import Mathlib.AlgebraicGeometry.Morphisms.RingHomProperties
+public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.AlgebraicGeometry.PullbackCarrier
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.LocalAtTarget
+import Mathlib.AlgebraicGeometry.Morphisms.Affine
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.RingTheory.Flat.FaithfullyFlat.Algebra
 
 /-!
 # Flat morphisms

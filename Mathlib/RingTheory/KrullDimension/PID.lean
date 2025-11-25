@@ -6,8 +6,10 @@ Authors: Jingting Wang
 module
 
 public import Mathlib.RingTheory.Ideal.Height
-public import Mathlib.RingTheory.KrullDimension.Zero
-public import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.KrullDimension.Zero
 
 /-!
 # The Krull dimension of a principal ideal domain

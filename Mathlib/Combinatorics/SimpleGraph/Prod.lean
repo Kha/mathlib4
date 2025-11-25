@@ -5,8 +5,10 @@ Authors: George Peter Banyard, Yaël Dillies, Kyle Miller
 -/
 module
 
-public import Mathlib.Combinatorics.SimpleGraph.Paths
 public import Mathlib.Combinatorics.SimpleGraph.Metric
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.NatCast
 
 /-!
 # Graph products

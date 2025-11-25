@@ -5,7 +5,9 @@ Authors: Kevin H. Wilson
 -/
 module
 
-public import Mathlib.Order.Filter.Prod
+public import Mathlib.Order.Filter.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Prod
 
 /-!
 # Curried Filters

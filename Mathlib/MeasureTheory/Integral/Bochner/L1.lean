@@ -6,6 +6,17 @@ Authors: Zhouhang Zhou, Yury Kudryashov, Sébastien Gouëzel, Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Integral.SetToL1
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Bochner integral

@@ -7,7 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.AffineSpace.AffineMap
 public import Mathlib.Topology.Algebra.Module.LinearMapPiProd
-public import Mathlib.Topology.Algebra.Affine
+public import Mathlib.Topology.Algebra.Group.AddTorsor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Affine
 
 /-!
 # Continuous affine maps.

@@ -6,7 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Exact
-public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Short exact short complexes

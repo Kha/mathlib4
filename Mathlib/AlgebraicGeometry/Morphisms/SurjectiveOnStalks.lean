@@ -6,9 +6,14 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.RingHomProperties
-public import Mathlib.RingTheory.RingHom.Surjective
-public import Mathlib.RingTheory.Spectrum.Prime.TensorProduct
-public import Mathlib.Topology.LocalAtTarget
+public import Mathlib.RingTheory.SurjectiveOnStalks
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.LocalAtTarget
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.RingTheory.RingHom.Surjective
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.RingTheory.Spectrum.Prime.TensorProduct
 
 /-!
 # Morphisms surjective on stalks

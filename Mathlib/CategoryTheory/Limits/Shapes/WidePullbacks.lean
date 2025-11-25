@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.HasLimits
 public import Mathlib.CategoryTheory.Thin
+public import Mathlib.CategoryTheory.Category.ULift
 
 /-!
 # Wide pullbacks

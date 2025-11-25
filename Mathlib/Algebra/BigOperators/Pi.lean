@@ -6,13 +6,19 @@ Authors: Simon Hudon, Patrick Massot
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Finset.Lemmas
-public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Algebra.Notation.Indicator
 public import Mathlib.Algebra.Ring.Pi
-public import Mathlib.Data.Finset.Lattice.Fold
-public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Algebra.Group.Prod
+public import Mathlib.Data.Finset.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Big operators for Pi Types

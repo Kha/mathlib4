@@ -6,6 +6,11 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.RingTheory.Valuation.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Ring of integers under a given valuation

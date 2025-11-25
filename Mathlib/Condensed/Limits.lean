@@ -6,6 +6,15 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.Condensed.Module
+public import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+public import Mathlib.Topology.Category.CompHaus.EffectiveEpi
+public import Mathlib.Topology.Category.CompHaus.Limits
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Sites.Limits
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+import Mathlib.Algebra.Category.ModuleCat.Limits
 
 /-!
 

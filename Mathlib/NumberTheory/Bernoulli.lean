@@ -5,9 +5,23 @@ Authors: Johan Commelin, Kevin Buzzard
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.RingTheory.PowerSeries.Inverse
 public import Mathlib.RingTheory.PowerSeries.WellKnown
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.RingTheory.PowerSeries.Inverse
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Field
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Bernoulli numbers

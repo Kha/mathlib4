@@ -6,8 +6,9 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Limits.Opposites
-public import Mathlib.CategoryTheory.Limits.Preserves.Limits
 public import Mathlib.CategoryTheory.Limits.Yoneda
+public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 

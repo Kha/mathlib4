@@ -5,9 +5,13 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Module.Projective
-public import Mathlib.LinearAlgebra.Dimension.DivisionRing
-public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+public import Mathlib.LinearAlgebra.Dimension.Basic
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Algebra.Module.Projective
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 # The rank of a linear map

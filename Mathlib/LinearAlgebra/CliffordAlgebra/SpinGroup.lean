@@ -6,11 +6,14 @@ Authors: Jiale Miao, Utensil Song, Eric Wieser
 module
 
 public import Mathlib.Algebra.Ring.Action.ConjAct
-public import Mathlib.GroupTheory.GroupAction.ConjAct
 public import Mathlib.Algebra.Star.Unitary
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Star
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Even
-public import Mathlib.LinearAlgebra.CliffordAlgebra.Inversion
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Invertible
+import Mathlib.LinearAlgebra.CliffordAlgebra.Inversion
+import Mathlib.Algebra.Order.Group.Action
 
 /-!
 # The Pin group and the Spin group

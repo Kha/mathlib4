@@ -5,10 +5,14 @@ Authors: Kim Morrison, Simon Hudon, Adam Topaz, Robin Carlier
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Constructions.FiniteProductsOfBinaryProducts
 public import Mathlib.CategoryTheory.Limits.FullSubcategory
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
+public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Constructions.FiniteProductsOfBinaryProducts
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 
 /-!
 # Categories with chosen finite products

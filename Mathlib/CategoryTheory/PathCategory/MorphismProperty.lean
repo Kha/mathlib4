@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.PathCategory.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Composition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Properties of morphisms in a path category.

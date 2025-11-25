@@ -5,8 +5,15 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Order.CompleteLattice.Chain
-public import Mathlib.Order.Minimal
+public import Mathlib.Order.Bounds.Defs
+public import Mathlib.Order.Preorder.Chain
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.CompleteLattice.Chain
 
 /-!
 # Zorn's lemmas

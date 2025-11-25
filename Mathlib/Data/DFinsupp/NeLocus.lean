@@ -6,6 +6,7 @@ Authors: Damiano Testa, Junyan Xu
 module
 
 public import Mathlib.Data.DFinsupp.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Locus of unequal values of finitely supported dependent functions

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.BooleanAlgebra.Basic
 public import Mathlib.Tactic.Common
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Co-Heyting boundary

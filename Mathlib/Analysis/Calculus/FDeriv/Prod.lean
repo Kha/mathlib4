@@ -5,9 +5,15 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov, Eric Wieser
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Comp
-public import Mathlib.Analysis.Calculus.FDeriv.Const
-public import Mathlib.Analysis.Calculus.FDeriv.Linear
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Topology.Algebra.Module.Equiv
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
 
 /-!
 # Derivative of the Cartesian product of functions

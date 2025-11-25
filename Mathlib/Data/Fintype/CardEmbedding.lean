@@ -6,9 +6,12 @@ Authors: Eric Rodriguez
 module
 
 public import Mathlib.Data.Nat.Factorial.Basic
-public import Mathlib.Data.Fintype.BigOperators
-public import Mathlib.Data.Set.Finite.Range
-public import Mathlib.Logic.Equiv.Embedding
+public import Mathlib.Data.Fintype.Card
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Logic.Equiv.Embedding
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Number of embeddings

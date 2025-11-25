@@ -8,6 +8,8 @@ module
 public import Mathlib.Data.Finset.Insert
 public import Mathlib.Data.Multiset.Range
 public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finite sets made of a range of elements.

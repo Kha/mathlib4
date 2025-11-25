@@ -6,8 +6,12 @@ Authors: Dagur Asgeirsson, Ben Eltschig
 module
 
 public import Mathlib.CategoryTheory.Adjunction.Opposites
-public import Mathlib.CategoryTheory.Adjunction.Unique
-public import Mathlib.CategoryTheory.Monad.Adjunction
+public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Unique
+import Mathlib.CategoryTheory.Monad.Adjunction
 /-!
 
 # Adjoint triples

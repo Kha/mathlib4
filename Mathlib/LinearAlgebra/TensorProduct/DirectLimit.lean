@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Colimit.Module
 public import Mathlib.LinearAlgebra.TensorProduct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tensor product and direct limits commute with each other.

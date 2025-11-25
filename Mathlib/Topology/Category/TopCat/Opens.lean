@@ -6,9 +6,11 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Category.GaloisConnection
-public import Mathlib.CategoryTheory.EqToHom
-public import Mathlib.Topology.Category.TopCat.EpiMono
 public import Mathlib.Topology.Sets.Opens
+public import Mathlib.Topology.Category.TopCat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Category.TopCat.EpiMono
 
 /-!
 # The category of open sets in a topological space.

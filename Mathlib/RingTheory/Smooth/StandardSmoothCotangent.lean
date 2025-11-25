@@ -6,10 +6,12 @@ Authors: Christian Merten
 module
 
 public import Mathlib.LinearAlgebra.Basis.Exact
-public import Mathlib.RingTheory.Extension.Cotangent.Basic
 public import Mathlib.RingTheory.Smooth.StandardSmooth
-public import Mathlib.RingTheory.Smooth.Kaehler
 public import Mathlib.RingTheory.Etale.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Ideal.BigOperators
 
 /-!
 # Cotangent complex of a submersive presentation

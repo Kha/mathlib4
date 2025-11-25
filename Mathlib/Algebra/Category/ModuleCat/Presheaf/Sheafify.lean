@@ -6,7 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.ChangeOfRings
-public import Mathlib.CategoryTheory.Sites.LocallySurjective
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Grp.ForgetCorepresentable
 
 /-!
 # The associated sheaf of a presheaf of modules

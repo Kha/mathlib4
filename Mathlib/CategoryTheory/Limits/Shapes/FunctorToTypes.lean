@@ -9,6 +9,8 @@ public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Types.Limits
 public import Mathlib.CategoryTheory.Limits.Types.Colimits
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
 
 /-!
 # Binary (co)products of type-valued functors

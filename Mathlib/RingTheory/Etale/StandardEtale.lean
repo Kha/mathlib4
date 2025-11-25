@@ -6,8 +6,13 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Polynomial.Bivariate
-public import Mathlib.Algebra.Polynomial.Taylor
 public import Mathlib.RingTheory.Etale.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Taylor
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
 
 /-!
 

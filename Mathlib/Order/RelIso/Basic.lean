@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Logic.Embedding.Basic
 public import Mathlib.Order.RelClasses
+public import Mathlib.Data.Prod.Basic
+public import Mathlib.Data.Sum.Basic
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Relation homomorphisms, embeddings, isomorphisms

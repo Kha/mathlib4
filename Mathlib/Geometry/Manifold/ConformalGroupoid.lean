@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.Calculus.Conformal.NormedSpace
 public import Mathlib.Geometry.Manifold.ChartedSpace
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conformal Groupoid

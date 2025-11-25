@@ -5,9 +5,13 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Expect
-public import Mathlib.Algebra.Group.AddChar
 public import Mathlib.Analysis.RCLike.Inner
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Analysis.Normed.Ring.Finite
 
 /-!
 # Orthogonality of characters of a finite abelian group

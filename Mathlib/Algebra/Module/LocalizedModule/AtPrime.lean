@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
 public import Mathlib.RingTheory.Ideal.Prime
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localizations of modules at the complement of a prime ideal

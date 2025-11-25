@@ -6,7 +6,13 @@ Authors: Yaël Dillies, Michał Mrugała
 module
 
 public import Mathlib.RingTheory.Coalgebra.Equiv
-public import Mathlib.RingTheory.Flat.Domain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+import Mathlib.RingTheory.Flat.Domain
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Group-like elements in a coalgebra

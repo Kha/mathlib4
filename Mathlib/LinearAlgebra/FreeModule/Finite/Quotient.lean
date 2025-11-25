@@ -6,10 +6,16 @@ Authors: Anne Baanen, Xavier Roblot
 module
 
 public import Mathlib.Data.ZMod.QuotientRing
-public import Mathlib.LinearAlgebra.Dimension.Constructions
 public import Mathlib.LinearAlgebra.FreeModule.PID
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 public import Mathlib.LinearAlgebra.Quotient.Pi
+public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.DirectSum.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Basic
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
 
 /-! # Quotient of submodules of full rank in free finite modules over PIDs
 

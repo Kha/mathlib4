@@ -8,6 +8,12 @@ module
 public import Mathlib.GroupTheory.Perm.Cycle.Type
 public import Mathlib.GroupTheory.Perm.Option
 public import Mathlib.Logic.Equiv.Fin.Rotate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Function.CompTypeclasses
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Permutations of `Fin n`

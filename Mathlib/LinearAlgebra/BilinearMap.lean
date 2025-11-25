@@ -6,7 +6,9 @@ Authors: Kenny Lau, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Module.Submodule.Equiv
-public import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
 
 /-!
 # Basics on bilinear maps

@@ -5,9 +5,12 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Eval.Coeff
-public import Mathlib.Algebra.Polynomial.Eval.Degree
-public import Mathlib.Algebra.Prime.Defs
+public import Mathlib.Algebra.Group.Irreducible.Defs
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Mapping irreducible polynomials

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.MeasureTheory.VectorMeasure.Basic
 public import Mathlib.Analysis.Complex.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Complex measure

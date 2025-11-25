@@ -6,7 +6,11 @@ Authors: Robert Y. Lewis, Leonardo de Moura, Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Field.Defs
-public import Mathlib.Algebra.Ring.Int.Parity
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.Ring.Int.Parity
 
 /-!
 # Results about powers in fields or division rings.

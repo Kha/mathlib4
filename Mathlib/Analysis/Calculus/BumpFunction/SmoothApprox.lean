@@ -5,8 +5,18 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.BumpFunction.Convolution
-public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.MetricSpace.Thickening
+import Mathlib.Topology.UniformSpace.CompactConvergence
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+import Mathlib.MeasureTheory.Measure.Haar.Unique
 
 /-!
 # Density of smooth functions in the space of continuous functions

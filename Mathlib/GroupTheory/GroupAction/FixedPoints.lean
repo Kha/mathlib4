@@ -6,9 +6,14 @@ Authors: Emilie Burgun
 module
 
 public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
-public import Mathlib.Algebra.Group.Commute.Basic
 public import Mathlib.Dynamics.PeriodicPts.Defs
 public import Mathlib.GroupTheory.GroupAction.Defs
+public import Mathlib.Algebra.Group.Action.Faithful
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Basic
+import Mathlib.Algebra.Group.Action.Basic
+import Mathlib.Algebra.Group.Commute.Basic
+import Mathlib.Algebra.Group.Int.Defs
 
 /-!
 # Properties of `fixedPoints` and `fixedBy`

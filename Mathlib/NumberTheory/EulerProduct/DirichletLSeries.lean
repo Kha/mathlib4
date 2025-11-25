@@ -5,8 +5,18 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.NumberTheory.EulerProduct.ExpLog
-public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.NumberTheory.SmoothNumbers
+public import Mathlib.NumberTheory.DirichletCharacter.Basic
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.NumberTheory.DirichletCharacter.Bounds
+import Mathlib.NumberTheory.EulerProduct.Basic
+import Mathlib.NumberTheory.EulerProduct.ExpLog
+import Mathlib.NumberTheory.LSeries.Dirichlet
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
 
 /-!
 # The Euler Product for the Riemann Zeta Function and Dirichlet L-Series

@@ -5,11 +5,30 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Geometry.Manifold.MFDeriv.Atlas
 public import Mathlib.Geometry.Manifold.Riemannian.PathELength
 public import Mathlib.Geometry.Manifold.VectorBundle.Riemannian
 public import Mathlib.Geometry.Manifold.VectorBundle.Tangent
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.AddTorsor.AffineMap
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Geometry.Manifold.ContMDiff.Atlas
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-! # Riemannian manifolds
 

@@ -6,6 +6,7 @@ Authors: Paul Lezeau, Calle Sönne
 module
 
 public import Mathlib.CategoryTheory.FiberedCategory.HomLift
+import Mathlib.Tactic.Lemma
 
 /-!
 # Cartesian morphisms

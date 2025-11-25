@@ -6,8 +6,12 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Algebra.Module.LinearMap.Defs
-public import Mathlib.Algebra.Order.Hom.Monoid
-public import Mathlib.Tactic.ContinuousFunctionalCalculus
+public import Mathlib.Order.Hom.Basic
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Hom.Monoid
 
 /-! # Positive linear maps
 

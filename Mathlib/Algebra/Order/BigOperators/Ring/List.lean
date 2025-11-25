@@ -5,7 +5,15 @@ Authors: Stuart Presnell
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Canonical
+public import Mathlib.Tactic.Common
+public import Batteries.Data.List.Basic
+public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Order.Ring.Canonical
 
 /-!
 # Big operators on a list in ordered rings

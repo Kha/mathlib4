@@ -6,13 +6,19 @@ Authors: Johannes Hölzl, Mario Carneiro, Floris van Doorn
 module
 
 public import Mathlib.Algebra.Order.GroupWithZero.Canonical
-public import Mathlib.Algebra.Order.Ring.Canonical
-public import Mathlib.Data.Fintype.Option
 public import Mathlib.Order.InitialSeg
-public import Mathlib.Order.Nat
 public import Mathlib.Order.SuccPred.CompleteLinearOrder
 public import Mathlib.SetTheory.Cardinal.Defs
-public import Mathlib.SetTheory.Cardinal.SchroederBernstein
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Data.ULift
+import Mathlib.Order.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Fintype.Option
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Cardinal.SchroederBernstein
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Ring.Canonical
 
 /-!
 # Order on cardinal numbers

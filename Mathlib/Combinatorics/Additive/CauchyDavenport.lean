@@ -5,8 +5,16 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Combinatorics.Additive.ETransform
 public import Mathlib.GroupTheory.Order.Min
+public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.Additive.ETransform
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Group.Action.Pointwise.Finset
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # The Cauchy-Davenport theorem

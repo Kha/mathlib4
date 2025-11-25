@@ -6,7 +6,14 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.MeasureTheory.VectorMeasure.Basic
-public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
 
 /-!
 

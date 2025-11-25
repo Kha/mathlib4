@@ -6,6 +6,10 @@ Authors: Fabrizio Barroero
 module
 
 public import Mathlib.RingTheory.PowerSeries.GaussNorm
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Gauss norm for polynomials

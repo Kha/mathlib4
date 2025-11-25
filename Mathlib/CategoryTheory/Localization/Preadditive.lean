@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Localization.Predicate
 public import Mathlib.CategoryTheory.Preadditive.FunctorCategory
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization of natural transformations to preadditive categories

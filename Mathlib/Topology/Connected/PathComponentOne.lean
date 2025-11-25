@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Algebra.OpenSubgroup
 public import Mathlib.Topology.Connected.LocPathConnected
+import Mathlib.Tactic.TypeStar
 
 /-! # The path component of the identity in a locally path connected topological group
 

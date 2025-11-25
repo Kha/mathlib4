@@ -9,6 +9,11 @@ public import Mathlib.Algebra.GroupWithZero.Defs
 public import Mathlib.Data.Int.Cast.Defs
 public import Mathlib.Tactic.Spread
 public import Mathlib.Tactic.StacksAttribute
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Notation.Defs
 
 /-!
 # Semirings and rings

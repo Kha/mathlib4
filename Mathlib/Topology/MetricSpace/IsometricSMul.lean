@@ -5,11 +5,11 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Pointwise.Set.Basic
-public import Mathlib.Algebra.Ring.Pointwise.Set
 public import Mathlib.Topology.Algebra.ConstMulAction
 public import Mathlib.Topology.MetricSpace.Isometry
-public import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Group actions by isometries

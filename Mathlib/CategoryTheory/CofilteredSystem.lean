@@ -5,7 +5,8 @@ Authors: Kyle Miller, Adam Topaz, Rémi Bottinelli, Junyan Xu
 -/
 module
 
-public import Mathlib.Topology.Category.TopCat.Limits.Konig
+public import Mathlib.CategoryTheory.Filtered.Basic
+import Mathlib.Topology.Category.TopCat.Limits.Konig
 
 /-!
 # Cofiltered systems

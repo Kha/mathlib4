@@ -6,6 +6,8 @@ Authors: Matej Penciak, Moritz Doll, Fabien Clery
 module
 
 public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Symplectic Group

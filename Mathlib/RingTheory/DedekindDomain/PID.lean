@@ -5,9 +5,18 @@ Authors: Anne Baanen, Kenny Lau
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.Dvr
-public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
-public import Mathlib.RingTheory.PrincipalIdealDomainOfPrime
+public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+public import Mathlib.RingTheory.DedekindDomain.Ideal.Basic
+import Mathlib.RingTheory.PrincipalIdealDomainOfPrime
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.UniqueFactorizationDomain.Ideal
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Criteria under which a Dedekind domain is a PID

@@ -6,6 +6,8 @@ Authors: Kim Morrison, Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.HomologicalComplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bicomplexes

@@ -5,11 +5,13 @@ Authors: Leonardo de Moura, Jeremy Avigad, Minchao Wu, Mario Carneiro
 -/
 module
 
-public import Aesop
 public import Mathlib.Data.Multiset.Defs
-public import Mathlib.Data.Set.Pairwise.Basic
 public import Mathlib.Data.SetLike.Basic
 public import Mathlib.Order.Hom.Basic
+public import Mathlib.Logic.Pairwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Pairwise.Basic
 
 /-!
 # Finite sets

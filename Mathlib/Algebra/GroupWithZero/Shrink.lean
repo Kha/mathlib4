@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.Shrink
 public import Mathlib.Algebra.GroupWithZero.Action.TransferInstance
 public import Mathlib.Algebra.GroupWithZero.TransferInstance
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Transfer group with zero structures from `α` to `Shrink α`

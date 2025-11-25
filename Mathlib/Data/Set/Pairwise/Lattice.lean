@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Data.Set.Lattice
 public import Mathlib.Data.Set.Pairwise.Basic
+public import Mathlib.Logic.Equiv.Set
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Relations holding pairwise

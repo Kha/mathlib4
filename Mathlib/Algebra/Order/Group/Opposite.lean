@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Opposite
 public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Order instances for `MulOpposite`/`AddOpposite`

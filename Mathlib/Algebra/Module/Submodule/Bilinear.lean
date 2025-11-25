@@ -5,8 +5,14 @@ Authors: Kenny Lau, Eric Wieser
 -/
 module
 
-public import Mathlib.LinearAlgebra.Span.Basic
 public import Mathlib.LinearAlgebra.BilinearMap
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.LinearAlgebra.Span.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.NAry
+import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Images of pairs of submodules under bilinear maps

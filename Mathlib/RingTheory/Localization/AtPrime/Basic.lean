@@ -6,10 +6,16 @@ Authors: Kenny Lau, Mario Carneiro, Johan Commelin, Amelia Livingston, Anne Baan
 module
 
 public import Mathlib.RingTheory.Ideal.Over
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 public import Mathlib.RingTheory.Localization.Basic
 public import Mathlib.RingTheory.Localization.Ideal
 public import Mathlib.RingTheory.Ideal.MinimalPrime.Basic
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Localizations of commutative rings at the complement of a prime ideal

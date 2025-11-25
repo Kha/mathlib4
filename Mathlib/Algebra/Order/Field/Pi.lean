@@ -5,11 +5,15 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Notation.Pi.Defs
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.Algebra.Order.Monoid.Unbundled.ExistsOfLE
-public import Mathlib.Data.Finset.Lattice.Fold
-public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Basic
+import Mathlib.Algebra.Notation.Pi.Defs
+import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Lemmas about (finite domain) functions into fields.

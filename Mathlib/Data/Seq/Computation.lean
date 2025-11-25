@@ -6,8 +6,14 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Nat.Find
-public import Mathlib.Data.Stream.Init
 public import Mathlib.Tactic.Common
+public import Mathlib.Logic.Relator
+public import Batteries.Tactic.Lint.Simp
+public import Mathlib.Data.Stream.Defs
+public import Mathlib.Logic.Function.Defs
+public import Mathlib.Order.Defs.Unbundled
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Stream.Init
 
 /-!
 # Coinductive formalization of unbounded computations.

@@ -5,8 +5,11 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Asymptotics.Lemmas
 public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.Analysis.Asymptotics.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
 
 /-!
 # Asymptotic equivalence up to a constant

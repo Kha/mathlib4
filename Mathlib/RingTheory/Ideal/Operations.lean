@@ -6,14 +6,31 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.Algebra.Operations
-public import Mathlib.Algebra.Module.BigOperators
-public import Mathlib.Data.Fintype.Lattice
-public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
-public import Mathlib.RingTheory.Coprime.Lemmas
-public import Mathlib.RingTheory.Ideal.Basic
 public import Mathlib.RingTheory.Nilpotent.Defs
-public import Mathlib.RingTheory.NonUnitalSubsemiring.Basic
-public import Mathlib.Tactic.Order
+public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.RingTheory.Ideal.Maximal
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Data.Fintype.Lattice
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Ideal.Basic
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Action
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # More operations on modules and ideals

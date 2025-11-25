@@ -10,6 +10,7 @@ public import Mathlib.CategoryTheory.Limits.Types.Colimits
 public import Mathlib.CategoryTheory.Types.Set
 public import Mathlib.Data.Set.BooleanAlgebra
 public import Mathlib.Order.CompleteLattice.MulticoequalizerDiagram
+import Mathlib.Tactic.Lemma
 
 /-!
 # Multicoequalizers in the category of types

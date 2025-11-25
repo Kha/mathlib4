@@ -5,11 +5,27 @@ Authors: Kalle Kytölä
 -/
 module
 
-public import Mathlib.Analysis.RCLike.Lemmas
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 public import Mathlib.MeasureTheory.Measure.HasOuterApproxClosed
-public import Mathlib.MeasureTheory.Measure.Prod
 public import Mathlib.Topology.Algebra.Module.WeakDual
+public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Finite measures

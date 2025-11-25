@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Polynomial.Bivariate
 public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Nat.WithBot
 
 /-!
 # Weierstrass equations and the nonsingular condition in affine coordinates

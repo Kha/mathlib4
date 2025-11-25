@@ -5,14 +5,27 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
 public import Mathlib.Algebra.Ring.Action.Subobjects
-public import Mathlib.Algebra.Ring.Equiv
-public import Mathlib.Algebra.Ring.Prod
 public import Mathlib.Algebra.Ring.Subsemiring.Defs
 public import Mathlib.GroupTheory.Submonoid.Centralizer
 public import Mathlib.RingTheory.NonUnitalSubsemiring.Basic
 public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Data.Nat.Cast.Basic
+public import Mathlib.Data.Set.Finite.Range
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Center
+import Mathlib.Algebra.Ring.Centralizer
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Bounds.Image
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Group.Submonoid.Membership
+import Mathlib.Algebra.Ring.Submonoid.Basic
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Bundled subsemirings

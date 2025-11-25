@@ -6,11 +6,27 @@ Authors: Alex Kontorovich, Heather Macbeth, Marc Masdeu
 module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.MoebiusAction
-public import Mathlib.LinearAlgebra.GeneralLinearGroup
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Basic
-public import Mathlib.Topology.Instances.Matrix
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
-public import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Int.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Topology.Instances.Matrix
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The action of the modular group SL(2, ℤ) on the upper half-plane

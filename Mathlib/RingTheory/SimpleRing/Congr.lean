@@ -5,8 +5,13 @@ Authors: Jujian Zhang
 -/
 module
 
-public import Mathlib.RingTheory.SimpleRing.Basic
-public import Mathlib.RingTheory.TwoSidedIdeal.Operations
+public import Mathlib.RingTheory.Ideal.Defs
+public import Mathlib.RingTheory.SimpleRing.Defs
+public import Mathlib.Algebra.Module.Submodule.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.TwoSidedIdeal.Operations
 
 /-!
 # Simpleness is preserved by ring isomorphism/surjective ring homomorphisms

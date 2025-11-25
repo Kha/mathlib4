@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Algebra.Group.Action.Faithful
 public import Mathlib.Algebra.Group.Pi.Basic
-public import Mathlib.Data.Set.Piecewise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Piecewise
 
 /-!
 # Pi instances for multiplicative actions

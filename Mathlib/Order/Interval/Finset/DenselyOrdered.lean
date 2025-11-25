@@ -5,7 +5,11 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Order.Interval.Finset.Basic
+public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Order.Interval.Finset.Basic
 
 /-!
 # Linear locally finite orders are densely ordered iff they are trivial

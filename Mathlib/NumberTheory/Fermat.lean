@@ -5,8 +5,24 @@ Authors: Moritz Firsching
 -/
 module
 
-public import Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity
-public import Mathlib.NumberTheory.LucasPrimality
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.NumberTheory.LucasPrimality
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Star.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Fermat numbers

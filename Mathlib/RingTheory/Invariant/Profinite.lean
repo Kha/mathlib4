@@ -6,9 +6,15 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Invariant.Basic
-public import Mathlib.Topology.Algebra.ClopenNhdofOne
-public import Mathlib.Topology.Algebra.Category.ProfiniteGrp.Limits
-public import Mathlib.CategoryTheory.CofilteredSystem
+public import Mathlib.CategoryTheory.Category.Preorder
+public import Mathlib.CategoryTheory.Types.Basic
+public import Mathlib.Topology.Algebra.OpenSubgroup
+public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.CategoryTheory.CofilteredSystem
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.ClopenNhdofOne
+import Mathlib.Topology.Algebra.Category.ProfiniteGrp.Limits
 
 /-!
 # Invariant Extensions of Rings

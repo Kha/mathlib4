@@ -5,9 +5,11 @@ Authors: Calle Sönne
 -/
 module
 
-public import Mathlib.CategoryTheory.Category.Cat
-public meta import Mathlib.CategoryTheory.Category.Cat
-public meta import Mathlib.Util.AddRelatedDecl
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.AddRelatedDecl
+public import Mathlib.Util.CompileInductive
+public meta import Mathlib.Lean.Meta.Simp
+import Mathlib.CategoryTheory.Category.Cat
 
 /-!
 # The `to_app` attribute

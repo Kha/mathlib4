@@ -5,11 +5,13 @@ Authors: Michael Lee
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Basic
-public import Mathlib.Algebra.MvPolynomial.CommRing
-public import Mathlib.Algebra.MvPolynomial.Rename
-public import Mathlib.Data.Fintype.Basic
 public import Mathlib.RingTheory.MvPolynomial.Symmetric.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Newton's Identities

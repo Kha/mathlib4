@@ -5,10 +5,13 @@ Authors: Jakob von Raumer, Kevin Klinge
 -/
 module
 
-public import Mathlib.Algebra.Group.Submonoid.Defs
-public import Mathlib.Algebra.GroupWithZero.Basic
 public import Mathlib.Algebra.Ring.Regular
 public import Mathlib.GroupTheory.OreLocalization.OreSet
+import Mathlib.Tactic.Choose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.Basic
 
 /-!
 

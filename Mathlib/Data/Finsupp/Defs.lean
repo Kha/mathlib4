@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Notation.Support
 public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Data.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Type of functions with finite support

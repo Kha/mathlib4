@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Nat.Cast.Defs
 public import Mathlib.Order.Synonym
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Cast of natural numbers (additional theorems)

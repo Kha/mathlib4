@@ -5,12 +5,19 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.CharZero.Infinite
-public import Mathlib.Algebra.Module.Submodule.Union
 public import Mathlib.LinearAlgebra.Matrix.BilinearForm
 public import Mathlib.LinearAlgebra.RootSystem.Base
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
 public import Mathlib.LinearAlgebra.RootSystem.Finite.Nondegenerate
+public import Mathlib.LinearAlgebra.RootSystem.Irreducible
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharZero.Infinite
+import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Module.Submodule.Union
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
 
 /-!
 # Cartan matrices for root systems

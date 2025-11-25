@@ -6,8 +6,14 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
-public import Mathlib.Analysis.Matrix.Normed
 public import Mathlib.Topology.UniformSpace.Matrix
+public import Mathlib.Topology.Instances.Matrix
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Matrix.Normed
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
 
 /-!
 # Matrices with entries in a C⋆-algebra

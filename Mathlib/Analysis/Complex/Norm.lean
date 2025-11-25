@@ -8,6 +8,16 @@ module
 public import Mathlib.Analysis.Normed.Group.Basic
 public import Mathlib.Data.Complex.Basic
 public import Mathlib.Data.Real.Sqrt
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
   # Norm on the complex numbers

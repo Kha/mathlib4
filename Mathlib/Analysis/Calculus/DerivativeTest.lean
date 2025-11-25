@@ -5,10 +5,23 @@ Authors: Bjørn Kjos-Hanssen, Patrick Massot, Floris van Doorn, Jireh Loreaux, E
 -/
 module
 
-public import Mathlib.Topology.Order.OrderClosedExtr
-public import Mathlib.Analysis.Calculus.Deriv.MeanValue
-public import Mathlib.Order.Interval.Set.Basic
-public import Mathlib.LinearAlgebra.AffineSpace.Ordered
+public import Mathlib.Data.Sign.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.NhdsWithin
+import Mathlib.LinearAlgebra.AffineSpace.Ordered
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.OrderClosedExtr
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The First- and Second-Derivative Tests

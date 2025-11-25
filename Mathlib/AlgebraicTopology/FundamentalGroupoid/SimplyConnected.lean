@@ -5,10 +5,11 @@ Authors: Praneeth Kolichala
 -/
 module
 
-public import Mathlib.AlgebraicTopology.FundamentalGroupoid.InducedMaps
 public import Mathlib.Topology.Homotopy.Contractible
-public import Mathlib.CategoryTheory.PUnit
-public import Mathlib.AlgebraicTopology.FundamentalGroupoid.PUnit
+public import Mathlib.AlgebraicTopology.FundamentalGroupoid.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.AlgebraicTopology.FundamentalGroupoid.InducedMaps
+import Mathlib.AlgebraicTopology.FundamentalGroupoid.PUnit
 
 /-!
 # Simply connected spaces

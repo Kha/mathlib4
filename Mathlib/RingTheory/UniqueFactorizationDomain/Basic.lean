@@ -5,9 +5,19 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Associated
-public import Mathlib.Data.ENat.Basic
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Defs
+public import Mathlib.Algebra.Group.Equiv.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.Algebra.GroupWithZero.Equiv
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Data.ENat.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Basic results un unique factorization monoids

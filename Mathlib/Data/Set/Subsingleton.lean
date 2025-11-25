@@ -5,8 +5,13 @@ Authors: Jeremy Avigad, Leonardo de Moura
 -/
 module
 
-public import Mathlib.Data.Set.Insert
-public import Mathlib.Tactic.ByContra
+public import Mathlib.Data.Set.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.ByContra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Insert
 
 /-!
 # Subsingleton

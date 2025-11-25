@@ -5,8 +5,12 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Data.List.Nodup
-public import Mathlib.Data.Set.Prod
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Set.Operations
+public import Mathlib.Logic.Equiv.Defs
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Prod
 
 /-!
 # Finite products of types

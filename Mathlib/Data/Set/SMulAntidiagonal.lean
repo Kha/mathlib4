@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Order.AddTorsor
 public import Mathlib.Order.WellFoundedSet
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Antidiagonal for scalar multiplication

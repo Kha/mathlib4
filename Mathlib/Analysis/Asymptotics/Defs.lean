@@ -6,6 +6,18 @@ Authors: Jeremy Avigad, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Normed.Field.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Order.Filter.Prod
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Asymptotics

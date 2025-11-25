@@ -5,8 +5,18 @@ Authors: Judith Ludwig, Florent Schaffhauser, Yunzhou Xie, Jujian Zhang
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.Quotient
-public import Mathlib.RingTheory.Flat.Stability
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.DirectSum.Finsupp
+import Mathlib.LinearAlgebra.DirectSum.TensorProduct
+import Mathlib.LinearAlgebra.TensorProduct.Quotient
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.RingTheory.Flat.Stability
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 # Faithfully flat modules

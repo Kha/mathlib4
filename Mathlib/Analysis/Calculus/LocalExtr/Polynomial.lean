@@ -5,9 +5,15 @@ Authors: Benjamin Davidson, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.LocalExtr.Rolle
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
-public import Mathlib.Topology.Algebra.Polynomial
+public import Mathlib.Algebra.Polynomial.Derivative
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.Data.Real.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Analysis.Calculus.Deriv.Polynomial
+import Mathlib.Analysis.Calculus.LocalExtr.Rolle
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Rolle's Theorem for polynomials

@@ -6,8 +6,8 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Logic.IsEmpty
-public import Mathlib.Tactic.Inhabit
-public import Mathlib.Tactic.Push.Attr
+import Mathlib.Tactic.Inhabit
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Types with a unique term

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Polynomial.Laurent
 public import Mathlib.RingTheory.Coalgebra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The coalgebra structure on monoid algebras

@@ -6,8 +6,12 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Order.Module.Defs
-public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Tactic.Positivity.Core
+public meta import Mathlib.Tactic.Positivity.Core
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Ordered vector spaces

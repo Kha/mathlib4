@@ -6,6 +6,7 @@ Authors: Johannes Hölzl, Johan Commelin, Mario Carneiro
 module
 
 public import Mathlib.Algebra.MvPolynomial.Variables
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Multivariate polynomials over a ring

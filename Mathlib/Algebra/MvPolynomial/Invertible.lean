@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.MvPolynomial.Basic
 public import Mathlib.RingTheory.AlgebraTower
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Invertible polynomials

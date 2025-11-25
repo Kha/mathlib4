@@ -5,12 +5,21 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.Complex.Spectrum
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Restrict
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
-public import Mathlib.Analysis.CStarAlgebra.Unitization
-public import Mathlib.Analysis.Normed.Algebra.Spectrum
-public import Mathlib.Analysis.RCLike.Lemmas
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.Real.Spectrum
+public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.Analysis.Normed.Algebra.Unitization
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.CStarAlgebra.Unitization
+import Mathlib.Analysis.Complex.Spectrum
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Analysis.Normed.Algebra.Spectrum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-! # Instances of the continuous functional calculus
 

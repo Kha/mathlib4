@@ -8,6 +8,10 @@ module
 public import Mathlib.Algebra.MvPolynomial.PDeriv
 public import Mathlib.LinearAlgebra.Determinant
 public import Mathlib.RingTheory.Extension.Presentation.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.TensorProduct.MvPolynomial
 
 /-!
 # Submersive presentations

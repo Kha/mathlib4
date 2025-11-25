@@ -5,8 +5,22 @@ Authors: Benjamin Davidson, Jeremy Tan
 -/
 module
 
-public import Mathlib.Analysis.Complex.AbelLimit
-public import Mathlib.Analysis.SpecialFunctions.Complex.Arctan
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Complex.AbelLimit
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.SpecialFunctions.Complex.Arctan
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-! ### Leibniz's series for `π` -/
 

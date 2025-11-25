@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Category.CompHaus.Basic
 public import Mathlib.Topology.Category.CompHausLike.Limits
+public import Mathlib.Topology.Metrizable.Uniformity
 /-!
 
 # Explicit limits and colimits

@@ -6,10 +6,13 @@ Authors: Christian Merten, Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-public import Mathlib.AlgebraicGeometry.PullbackCarrier
 public import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
-public import Mathlib.CategoryTheory.Limits.Constructions.Over.Products
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Equalizer
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
+import Mathlib.AlgebraicGeometry.PullbackCarrier
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.CategoryTheory.Limits.Constructions.Over.Connected
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Equalizer
 
 /-!
 

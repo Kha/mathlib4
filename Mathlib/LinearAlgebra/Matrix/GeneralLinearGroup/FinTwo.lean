@@ -8,6 +8,17 @@ module
 public import Mathlib.Algebra.Group.AddChar
 public import Mathlib.LinearAlgebra.Matrix.Charpoly.Disc
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # The group `GL (Fin 2) R`

@@ -9,6 +9,12 @@ public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Group.Hom.Defs
 public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.Algebra.Notation.Indicator
+public import Mathlib.Order.SymmDiff
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Data.Set.SymmDiff
 
 /-!
 # Indicator function

@@ -5,9 +5,19 @@ Authors: Kalle Kytölä
 -/
 module
 
-public import Mathlib.Data.ENNReal.Lemmas
 public import Mathlib.Topology.MetricSpace.Thickening
 public import Mathlib.Topology.ContinuousMap.Bounded.Basic
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Thickened indicators

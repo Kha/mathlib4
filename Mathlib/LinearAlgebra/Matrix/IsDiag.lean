@@ -8,6 +8,7 @@ module
 public import Mathlib.LinearAlgebra.Matrix.Kronecker
 public import Mathlib.LinearAlgebra.Matrix.Orthogonal
 public import Mathlib.LinearAlgebra.Matrix.Symmetric
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Diagonal matrices

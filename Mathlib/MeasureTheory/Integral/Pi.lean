@@ -5,7 +5,14 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Prod
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.MeasureTheory.Integral.Prod
 
 /-!
 # Integration with respect to a finite product of measures

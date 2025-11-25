@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Topology.Separation.CompletelyRegular
 public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Topology.MetricSpace.Pseudo.Real
 
 /-!
 # Dirac deltas as probability measures and embedding of a space into probability measures on it

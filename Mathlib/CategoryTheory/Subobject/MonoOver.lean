@@ -8,11 +8,13 @@ module
 public import Mathlib.CategoryTheory.Comma.Over.Pullback
 public import Mathlib.CategoryTheory.Adjunction.Reflective
 public import Mathlib.CategoryTheory.Adjunction.Restrict
-public import Mathlib.CategoryTheory.Limits.FullSubcategory
-public import Mathlib.CategoryTheory.Limits.Shapes.Images
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
-public import Mathlib.CategoryTheory.Functor.ReflectsIso.Basic
-public import Mathlib.CategoryTheory.WithTerminal.Cone
+public import Mathlib.CategoryTheory.ObjectProperty.LimitsOfShape
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.CategoryTheory.Limits.FullSubcategory
+import Mathlib.CategoryTheory.WithTerminal.Cone
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Monomorphisms over a fixed object

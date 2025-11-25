@@ -6,9 +6,19 @@ Authors: Johannes Hölzl, Kim Morrison
 module
 
 public import Mathlib.Algebra.BigOperators.Finsupp.Basic
-public import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
-public import Mathlib.Algebra.Group.Indicator
-public import Mathlib.Data.Rat.BigOperators
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Data.Finset.Preimage
+public import Mathlib.Data.Rat.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.Data.Rat.BigOperators
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Miscellaneous definitions, lemmas, and constructions using finsupp

@@ -9,7 +9,10 @@ public import Mathlib.Algebra.GroupWithZero.ProdHom
 public import Mathlib.Algebra.Order.Group.Equiv
 public import Mathlib.Algebra.Order.Monoid.Lex
 public import Mathlib.Algebra.Order.Hom.MonoidWithZero
-public import Mathlib.Data.Prod.Lex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Group.Units
 
 /-!
 # Order homomorphisms for products of linearly ordered groups with zero

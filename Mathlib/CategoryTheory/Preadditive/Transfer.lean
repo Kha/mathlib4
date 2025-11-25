@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.TransferInstance
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+import Mathlib.Tactic.Lemma
 
 /-!
 # Pulling back a preadditive structure along a fully faithful functor

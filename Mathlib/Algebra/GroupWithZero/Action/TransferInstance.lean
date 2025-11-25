@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Action.TransferInstance
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Transfer algebraic structures across `Equiv`s

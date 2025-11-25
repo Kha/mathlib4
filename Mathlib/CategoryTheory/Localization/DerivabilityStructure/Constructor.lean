@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Localization.DerivabilityStructure.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Constructor for derivability structures

@@ -6,8 +6,10 @@ Authors: Xavier Roblot, Kenny Lau
 module
 
 public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Algebra.CharP.IntermediateField
 public import Mathlib.Algebra.Field.ZMod
+public import Mathlib.Algebra.Field.Subfield.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.IntermediateField
 
 /-!
 # Prime fields

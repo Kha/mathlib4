@@ -7,6 +7,9 @@ module
 
 public import Mathlib.MeasureTheory.Covering.DensityTheorem
 public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.NormNum.Ineq
 
 /-!
 # Covering theorems for Lebesgue measure in one dimension

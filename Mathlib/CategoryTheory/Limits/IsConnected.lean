@@ -5,10 +5,11 @@ Authors: Paul Reichert
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Types.Colimits
-public import Mathlib.CategoryTheory.IsConnected
 public import Mathlib.CategoryTheory.Limits.Final
-public import Mathlib.CategoryTheory.HomCongr
+import Mathlib.CategoryTheory.HomCongr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Chain
 
 /-!
 # Colimits of connected index categories

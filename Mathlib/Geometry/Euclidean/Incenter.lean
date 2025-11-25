@@ -8,8 +8,17 @@ module
 public import Mathlib.Geometry.Euclidean.Altitude
 public import Mathlib.Geometry.Euclidean.SignedDist
 public import Mathlib.Geometry.Euclidean.Sphere.Tangent
-public import Mathlib.Tactic.Positivity.Finset
-public import Mathlib.Topology.Instances.Sign
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Sign.Basic
+import Mathlib.Topology.Instances.Sign
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Normed.Affine.AddTorsor
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Incenters and excenters of simplices.

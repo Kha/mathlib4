@@ -6,6 +6,8 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Integral algebras

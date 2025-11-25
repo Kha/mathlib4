@@ -5,7 +5,15 @@ Authors: Paul Reichert, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Normed.Affine.AddTorsorBases
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Affine.Isometry
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Analysis.Normed.Affine.AddTorsorBases
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-!
 # Intrinsic frontier and interior

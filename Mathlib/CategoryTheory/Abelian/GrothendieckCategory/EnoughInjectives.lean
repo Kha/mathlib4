@@ -5,14 +5,23 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Abelian.CommSq
-public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.ColimCoyoneda
-public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Monomorphisms
-public import Mathlib.CategoryTheory.Abelian.Monomorphisms
-public import Mathlib.CategoryTheory.Preadditive.Injective.LiftingProperties
 public import Mathlib.CategoryTheory.SmallObject.Basic
-public import Mathlib.CategoryTheory.Subobject.HasCardinalLT
 public import Mathlib.Order.TransfiniteIteration
+public import Mathlib.SetTheory.Cardinal.HasCardinalLT
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Basic
+public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
+import Mathlib.Order.SetIsMax
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Abelian.CommSq
+import Mathlib.CategoryTheory.Abelian.Monomorphisms
+import Mathlib.CategoryTheory.SmallObject.TransfiniteCompositionLifting
+import Mathlib.CategoryTheory.Subobject.HasCardinalLT
+import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Colim
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.ColimCoyoneda
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Monomorphisms
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Subobject
+import Mathlib.CategoryTheory.Preadditive.Injective.LiftingProperties
+import Mathlib.Order.Interval.Set.SuccOrder
 
 /-!
 # Grothendieck abelian categories have enough injectives

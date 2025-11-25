@@ -5,8 +5,10 @@ Authors: Anatole Dedecker
 -/
 module
 
-public import Mathlib.Topology.Algebra.UniformConvergence
 public import Mathlib.Topology.UniformSpace.Equicontinuity
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.UniformConvergence
 
 /-!
 # Algebra-related equicontinuity criteria

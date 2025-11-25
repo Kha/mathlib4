@@ -5,11 +5,20 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.GroupTheory.ArchimedeanDensely
-public import Mathlib.GroupTheory.SpecificGroups.Cyclic
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
-public import Mathlib.Topology.Algebra.Order.Archimedean
-public import Mathlib.Topology.Order.DenselyOrdered
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
+import Mathlib.GroupTheory.ArchimedeanDensely
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Order.Archimedean
+import Mathlib.Topology.Algebra.Order.Group
 
 /-!
 # Discreteness of subgroups in archimedean ordered groups

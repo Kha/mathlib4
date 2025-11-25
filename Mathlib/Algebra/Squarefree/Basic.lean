@@ -5,10 +5,23 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.RingTheory.Coprime.Lemmas
-public import Mathlib.RingTheory.Nilpotent.Basic
-public import Mathlib.RingTheory.UniqueFactorizationDomain.GCDMonoid
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
+public import Mathlib.RingTheory.Multiplicity
+public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.RingTheory.UniqueFactorizationDomain.GCDMonoid
+import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.GroupWithZero.Canonical
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Squarefree elements of monoids

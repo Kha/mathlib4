@@ -5,8 +5,11 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.GroupTheory.Congruence.BigOperators
 public import Mathlib.RingTheory.Congruence.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.Congruence.BigOperators
 
 /-!
 # Interactions between `∑, ∏` and `RingCon`

@@ -5,8 +5,11 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Data.SetLike.Basic
 public import Mathlib.ModelTheory.Semantics
+public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Definable Sets

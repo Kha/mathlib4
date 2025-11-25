@@ -5,9 +5,21 @@ Authors: Patrick Massot, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Separation.Regular
 public import Mathlib.Topology.UniformSpace.Defs
 public import Mathlib.Tactic.TautoSet
+public import Mathlib.Topology.NhdsSet
+public import Mathlib.Data.Set.Disjoint
+public import Mathlib.Order.Filter.Prod
+public import Mathlib.Topology.Separation.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Lift
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Separation.Regular
 
 /-!
 # Compact separated uniform spaces

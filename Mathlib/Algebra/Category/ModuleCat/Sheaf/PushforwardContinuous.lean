@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Pushforward
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf
 public import Mathlib.CategoryTheory.Sites.Over
+import Mathlib.Tactic.Lemma
 
 /-!
 # Pushforward of sheaves of modules

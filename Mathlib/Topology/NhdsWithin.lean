@@ -6,6 +6,19 @@ Authors: Jeremy Avigad, Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Neighborhoods relative to a subset

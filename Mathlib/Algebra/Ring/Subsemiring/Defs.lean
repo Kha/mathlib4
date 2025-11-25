@@ -6,6 +6,12 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.RingTheory.NonUnitalSubsemiring.Defs
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.NeZero
 
 /-!
 # Bundled subsemirings

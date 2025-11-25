@@ -7,8 +7,12 @@ module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.MvPolynomial.Eval
-public import Mathlib.Analysis.Analytic.Constructions
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # Polynomials are analytic

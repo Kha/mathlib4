@@ -6,8 +6,15 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ExactSequence
-public import Mathlib.Algebra.Homology.ShortComplex.Limits
-public import Mathlib.CategoryTheory.Abelian.Refinements
+public import Mathlib.CategoryTheory.Abelian.Opposite
+public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Pullbacks
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Abelian.Refinements
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Opposites
+import Mathlib.Algebra.Homology.ShortComplex.Limits
+import Mathlib.CategoryTheory.Limits.Preserves.Creates.Finite
 
 /-!
 # The snake lemma

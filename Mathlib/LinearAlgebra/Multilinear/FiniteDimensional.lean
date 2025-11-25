@@ -5,8 +5,13 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.LinearAlgebra.Multilinear.Curry
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.LinearAlgebra.Multilinear.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Multilinear.Curry
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-! # Multilinear maps over finite-dimensional spaces
 

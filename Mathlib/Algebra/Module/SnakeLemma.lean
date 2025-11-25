@@ -6,6 +6,7 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Exact
+import Mathlib.Tactic.Lemma
 
 /-!
 

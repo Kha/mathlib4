@@ -6,7 +6,35 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Analytic.ConvergenceRadius
-public import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.UniformApproximation
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Analytic functions

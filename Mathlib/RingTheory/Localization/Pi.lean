@@ -5,14 +5,15 @@ Authors: Madison Crim
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Pi
-public import Mathlib.Algebra.BigOperators.Pi
-public import Mathlib.Algebra.Divisibility.Prod
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
-public import Mathlib.Algebra.Group.Subgroup.Basic
-public import Mathlib.RingTheory.Localization.Basic
-public import Mathlib.Algebra.Group.Pi.Units
-public import Mathlib.RingTheory.KrullDimension.Zero
+public import Mathlib.RingTheory.KrullDimension.Basic
+public import Mathlib.RingTheory.LocalRing.Defs
+public import Mathlib.RingTheory.Localization.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Prod
+import Mathlib.RingTheory.KrullDimension.Zero
+import Mathlib.Algebra.Group.Pi.Units
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Localizing a product of commutative rings

@@ -5,11 +5,18 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Colon
-public import Mathlib.RingTheory.Localization.Finiteness
-public import Mathlib.RingTheory.Nakayama
 public import Mathlib.RingTheory.QuotSMulTop
 public import Mathlib.RingTheory.Spectrum.Prime.Basic
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+import Mathlib.RingTheory.Nakayama
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.Colon
+import Mathlib.RingTheory.LocalProperties.Basic
+import Mathlib.RingTheory.Localization.Finiteness
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 

@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Group.Embedding
 public import Mathlib.Order.Interval.Finset.SuccPred
 public import Mathlib.Order.Interval.Multiset
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.Preorder.Finite
+import Mathlib.Order.Interval.Finset.Basic
 
 /-!
 # Finite intervals of naturals

@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Lie.OfAssociative
 public import Mathlib.LinearAlgebra.Matrix.Reindex
 public import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+import Mathlib.Tactic.Lemma
 
 /-!
 # Lie algebras of matrices

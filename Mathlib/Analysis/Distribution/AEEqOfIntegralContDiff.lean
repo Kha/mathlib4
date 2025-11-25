@@ -5,9 +5,27 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Geometry.Manifold.PartitionOfUnity
-public import Mathlib.Geometry.Manifold.Metrizable
-public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Geometry.Manifold.Metrizable
+import Mathlib.Geometry.Manifold.PartitionOfUnity
+import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.EMetricSpace.Paracompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Geometry.Manifold.Algebra.Monoid
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Functions which vanish as distributions vanish as functions

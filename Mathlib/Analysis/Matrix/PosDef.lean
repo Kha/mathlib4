@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Analysis.Matrix.Spectrum
 public import Mathlib.LinearAlgebra.Matrix.PosDef
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Spectrum of positive (semi)definite matrices

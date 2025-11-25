@@ -7,6 +7,8 @@ module
 
 public import Mathlib.NumberTheory.DirichletCharacter.Basic
 public import Mathlib.NumberTheory.GaussSum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Gauss sums for Dirichlet characters

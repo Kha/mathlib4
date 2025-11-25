@@ -9,6 +9,7 @@ public import Mathlib.AlgebraicTopology.ModelCategory.CategoryWithCofibrations
 public import Mathlib.AlgebraicTopology.SimplicialSet.Boundary
 public import Mathlib.AlgebraicTopology.SimplicialSet.Horn
 public import Mathlib.CategoryTheory.MorphismProperty.LiftingProperty
+import Mathlib.Tactic.Lemma
 
 /-!
 # Cofibrations and fibrations in the category of simplicial sets

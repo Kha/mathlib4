@@ -5,13 +5,12 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Abelian
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafify
-public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Limits
-public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-public import Mathlib.CategoryTheory.Sites.LocallyBijective
-public import Mathlib.CategoryTheory.Sites.Sheafification
-public import Mathlib.CategoryTheory.Functor.ReflectsIso.Balanced
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Functor.ReflectsIso.Balanced
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Abelian
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Limits
+import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
 
 /-!
 # The sheafification functor for presheaves of modules

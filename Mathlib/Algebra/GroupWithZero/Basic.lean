@@ -6,9 +6,19 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Group.Basic
-public import Mathlib.Algebra.GroupWithZero.NeZero
 public import Mathlib.Logic.Unique
-public import Mathlib.Tactic.Conv
+public import Mathlib.Algebra.GroupWithZero.Defs
+import Batteries.Tactic.SeqFocus
+import Mathlib.Algebra.NeZero
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Data.Int.Init
 
 /-!
 # Groups with an adjoined zero element

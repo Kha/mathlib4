@@ -5,9 +5,19 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Field.Rat
 public import Mathlib.Data.Rat.Cast.CharZero
 public import Mathlib.Tactic.Positivity.Core
+public meta import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Order.Interval.Set.UnorderedInterval
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Order.Interval.Set.OrderEmbedding
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Casts of rational numbers into linear ordered fields.

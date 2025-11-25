@@ -5,7 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.GuitartExact.VerticalComposition
+public import Mathlib.CategoryTheory.GuitartExact.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.GuitartExact.VerticalComposition
 
 /-!
 # The opposite of a Guitart exact square

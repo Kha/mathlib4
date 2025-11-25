@@ -5,8 +5,15 @@ Authors: Joseph Myers, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.GramSchmidtOrtho
 public import Mathlib.LinearAlgebra.Orientation
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.GramSchmidtOrtho
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Order.Interval.Finset.Fin
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Orientations of real inner product spaces.

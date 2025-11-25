@@ -5,9 +5,17 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.RingTheory.Adjoin.Basic
 public import Mathlib.RingTheory.PowerBasis
 public import Mathlib.LinearAlgebra.Matrix.Basis
+public import Mathlib.RingTheory.Adjoin.Polynomial
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Power basis for `Algebra.adjoin R {x}`

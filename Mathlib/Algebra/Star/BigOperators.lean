@@ -5,9 +5,10 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-public import Mathlib.Algebra.Star.Basic
 public import Mathlib.Algebra.Star.SelfAdjoint
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-! # Big-operators lemmas about `star` algebraic operations
 

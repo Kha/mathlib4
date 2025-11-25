@@ -5,9 +5,17 @@ Authors: Violeta Hernández Palacios, Mario Carneiro
 -/
 module
 
-public import Mathlib.Logic.Small.List
 public import Mathlib.SetTheory.Ordinal.Enum
 public import Mathlib.SetTheory.Ordinal.Exponential
+public import Mathlib.Dynamics.FixedPoints.Basic
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Small.List
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Ordinal.Family
 
 /-!
 # Fixed points of normal functions

@@ -6,7 +6,13 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.MeasureTheory.Measure.Dirac
-public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+public import Mathlib.Data.Real.ENatENNReal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Counting measure

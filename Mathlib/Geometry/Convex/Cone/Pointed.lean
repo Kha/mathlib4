@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.Nonneg.Module
 public import Mathlib.Geometry.Convex.Cone.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pointed cones

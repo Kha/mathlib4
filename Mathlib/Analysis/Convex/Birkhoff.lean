@@ -5,13 +5,15 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Convex.Combination
 public import Mathlib.Analysis.Convex.Extreme
-public import Mathlib.Analysis.Convex.Jensen
-public import Mathlib.Analysis.Normed.Module.Convex
-public import Mathlib.Combinatorics.Hall.Basic
 public import Mathlib.Analysis.Convex.DoublyStochasticMatrix
-public import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Jensen
+import Mathlib.Combinatorics.Hall.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Module.Convex
 
 /-!
 # Birkhoff's theorem

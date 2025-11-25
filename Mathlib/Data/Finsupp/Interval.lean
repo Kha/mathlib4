@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Data.Finset.Finsupp
 public import Mathlib.Data.Finsupp.Order
-public import Mathlib.Order.Interval.Finset.Basic
+public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Finite intervals of finitely supported functions

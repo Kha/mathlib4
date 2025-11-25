@@ -7,8 +7,10 @@ module
 
 public import Mathlib.Order.Interval.Basic
 public import Mathlib.Data.Prod.Lex
-public import Mathlib.Tactic.FastInstance
 meta import Mathlib.Order.Interval.Basic  -- shake: keep (for `#eval` testing)
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.SetLike
+import Mathlib.Tactic.Finiteness.Attr
 
 /-!
 # The lexicographic order on intervals

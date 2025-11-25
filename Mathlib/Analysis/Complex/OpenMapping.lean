@@ -5,10 +5,28 @@ Authors: Vincent Beffara
 -/
 module
 
-public import Mathlib.Analysis.Analytic.IsolatedZeros
-public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.Analysis.Complex.AbsMax
-public import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.Calculus.DiffContOnCl
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.IsolatedZeros
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Analytic.Uniqueness
+import Mathlib.Analysis.Complex.AbsMax
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Topology.Algebra.Module.PerfectSpace
+import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # The open mapping theorem for holomorphic functions

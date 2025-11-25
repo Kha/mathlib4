@@ -5,7 +5,12 @@ Authors: Mario Carneiro, Kenny Lau, Kim Morrison
 -/
 module
 
-public import Mathlib.Data.List.Chain
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Chain
 
 /-!
 # Ranges of naturals as lists

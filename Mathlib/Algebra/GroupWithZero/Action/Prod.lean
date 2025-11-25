@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Action.Prod
 public import Mathlib.Algebra.GroupWithZero.Action.End
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Prod instances for multiplicative actions with zero

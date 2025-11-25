@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Fin.Basic
 public import Mathlib.Logic.Equiv.Fin.Basic
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Cyclic permutations on `Fin n`

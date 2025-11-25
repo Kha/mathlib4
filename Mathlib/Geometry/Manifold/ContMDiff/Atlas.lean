@@ -5,7 +5,12 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Geometry.Manifold.ContMDiff.Basic
+public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
 
 /-!
 ## Smoothness of charts and local structomorphisms

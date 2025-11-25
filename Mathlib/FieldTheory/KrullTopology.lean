@@ -7,7 +7,17 @@ module
 
 public import Mathlib.FieldTheory.Galois.Basic
 public import Mathlib.Topology.Algebra.FilterBasis
-public import Mathlib.Topology.Algebra.OpenSubgroup
+public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Set.Disjoint
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.Topology.Algebra.OpenSubgroup
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # Krull topology

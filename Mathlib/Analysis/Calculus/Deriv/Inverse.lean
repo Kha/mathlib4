@@ -5,8 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Comp
-public import Mathlib.Analysis.Calculus.FDeriv.Equiv
+public import Mathlib.Topology.OpenPartialHomeomorph
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Topology.NhdsWithin
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
 
 /-!
 # Inverse function theorem - the easy half

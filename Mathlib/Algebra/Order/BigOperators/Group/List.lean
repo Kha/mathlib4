@@ -6,8 +6,16 @@ Authors: Yakov Pechersky
 module
 
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
-public import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
+public import Mathlib.Data.List.Forall2
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Order.Monotone.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
 
 /-!
 # Big operators on a list in ordered groups

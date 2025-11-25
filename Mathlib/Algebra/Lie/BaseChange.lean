@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Algebra.RestrictScalars
 public import Mathlib.Algebra.Lie.TensorProduct
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 # Extension and restriction of scalars for Lie algebras and Lie modules

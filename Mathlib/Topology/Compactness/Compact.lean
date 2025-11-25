@@ -5,12 +5,31 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Filter.Tendsto
 public import Mathlib.Data.Set.Accumulate
 public import Mathlib.Topology.Bornology.Basic
-public import Mathlib.Topology.ContinuousOn
-public import Mathlib.Topology.Ultrafilter
 public import Mathlib.Topology.Defs.Ultrafilter
+public import Mathlib.Topology.Constructions
+public import Mathlib.Data.Set.Sigma
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Ultrafilter
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Order.Filter.Ultrafilter.Basic
 
 /-!
 # Compact sets and compact spaces

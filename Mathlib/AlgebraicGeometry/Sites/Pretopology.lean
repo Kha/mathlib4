@@ -5,8 +5,9 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Sites.MorphismProperty
-public import Mathlib.AlgebraicGeometry.PullbackCarrier
+public import Mathlib.AlgebraicGeometry.Pullbacks
+import Mathlib.AlgebraicGeometry.PullbackCarrier
+import Mathlib.Tactic.Lemma
 
 /-!
 # Grothendieck topology defined by a morphism property

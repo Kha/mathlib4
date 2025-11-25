@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Data.Real.ConjExponents
 public import Mathlib.NumberTheory.Real.Irrational
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.SymmDiff
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Rayleigh's theorem on Beatty sequences

@@ -5,8 +5,9 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Batteries.Tactic.Init
-public import Mathlib.Logic.Function.Defs
+public import Mathlib.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Binary map of options

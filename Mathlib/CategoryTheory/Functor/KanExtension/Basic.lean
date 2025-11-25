@@ -6,8 +6,11 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Comma.StructuredArrow.Basic
-public import Mathlib.CategoryTheory.Limits.Shapes.Equivalence
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Shapes.Equivalence
 
 /-!
 # Kan extensions

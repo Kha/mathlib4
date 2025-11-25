@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Sign.Defs
 public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
 
 /-!
 # Topology on `SignType`

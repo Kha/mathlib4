@@ -6,8 +6,10 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Topology.Algebra.Constructions
-public import Mathlib.Topology.ContinuousMap.Defs
 public import Mathlib.Algebra.Star.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Continuity of `star`

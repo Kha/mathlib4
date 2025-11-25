@@ -6,7 +6,7 @@ Authors: Sina Hazratpour, Joël Riou, Fernando Chu
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
-public import Mathlib.Order.Bounds.Defs
+import Mathlib.Tactic.Lemma
 
 /-!
 # (Co)limits in a preorder category

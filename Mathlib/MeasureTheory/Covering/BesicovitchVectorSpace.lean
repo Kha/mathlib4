@@ -5,10 +5,26 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
 public import Mathlib.MeasureTheory.Covering.Besicovitch
-public import Mathlib.Tactic.AdaptationNote
-public import Mathlib.Algebra.EuclideanDomain.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Satellite configurations for Besicovitch covering lemma in vector spaces

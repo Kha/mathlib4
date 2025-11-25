@@ -6,6 +6,8 @@ Authors: Chris Hughes, Yaël Dillies
 module
 
 public import Mathlib.GroupTheory.Perm.Cycle.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.Perm.Finite
 
 /-!
 # Closure results for permutation groups

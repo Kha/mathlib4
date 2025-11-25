@@ -7,6 +7,17 @@ module
 
 public import Mathlib.Probability.Kernel.Disintegration.Density
 public import Mathlib.Probability.Kernel.WithDensity
+public import Mathlib.Probability.Notation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Radon-Nikodym derivative and Lebesgue decomposition for kernels

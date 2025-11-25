@@ -5,8 +5,8 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Elements
 public import Mathlib.AlgebraicTopology.SimplicialSet.Subcomplex
+import Mathlib.Tactic.Lemma
 
 /-!
 # The preordered type of simplices of a simplicial set

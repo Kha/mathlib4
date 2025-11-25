@@ -8,7 +8,10 @@ module
 public import Mathlib.SetTheory.Game.Birthday
 public import Mathlib.SetTheory.Game.Impartial
 public import Mathlib.SetTheory.Nimber.Basic
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Set
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Specific.Nim` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

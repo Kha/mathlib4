@@ -5,11 +5,26 @@ Authors: Sébastien Gouëzel, Sophie Morel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
-public import Mathlib.Logic.Embedding.Basic
-public import Mathlib.Data.Fintype.CardEmbedding
-public import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
 public import Mathlib.Topology.Algebra.Module.Multilinear.Topology
+public import Mathlib.Topology.Hom.ContinuousEval
+public import Mathlib.Analysis.Normed.Operator.Bilinear
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.Fintype.CardEmbedding
+import Mathlib.Data.List.OfFn
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Operator norm on the space of continuous multilinear maps

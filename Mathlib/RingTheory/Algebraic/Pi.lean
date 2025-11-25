@@ -6,6 +6,7 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Algebraic functions

@@ -6,8 +6,8 @@ Authors: Kyle Miller
 module
 
 public import Mathlib.Init
-public meta import Lean.Meta.Tactic.TryThis
 public meta import Lean.Linter.UnusedVariables
+meta import Lean.Meta.Tactic.TryThis
 
 /-!
 # The `variable?` command

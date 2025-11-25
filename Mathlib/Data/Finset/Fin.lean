@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Finset.Card
 public import Mathlib.Data.Fin.Embedding
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Finsets in `Fin n`

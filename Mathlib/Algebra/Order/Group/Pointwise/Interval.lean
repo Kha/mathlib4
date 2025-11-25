@@ -7,12 +7,23 @@ module
 
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
-public import Mathlib.Algebra.Order.Field.Basic
-public import Mathlib.Algebra.Order.Group.MinMax
-public import Mathlib.Algebra.Order.Interval.Set.Monoid
-public import Mathlib.Order.Interval.Set.OrderIso
 public import Mathlib.Order.Interval.Set.UnorderedInterval
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Equiv.Set
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Lattice
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrderIso
+import Mathlib.Algebra.Order.Interval.Set.Monoid
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 # (Pre)images of intervals

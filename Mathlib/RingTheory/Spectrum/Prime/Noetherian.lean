@@ -6,9 +6,10 @@ Authors: Filippo A. E. Nuccio, Andrew Yang
 module
 
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
-public import Mathlib.RingTheory.Ideal.Quotient.Noetherian
 public import Mathlib.RingTheory.Artinian.Module
-public import Mathlib.Topology.NoetherianSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
+import Mathlib.RingTheory.Ideal.Quotient.Noetherian
 
 /-!
 This file proves additional properties of the prime spectrum a ring is Noetherian.

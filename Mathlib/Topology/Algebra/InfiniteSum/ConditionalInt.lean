@@ -5,12 +5,19 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Interval
-public import Mathlib.Algebra.Order.Ring.Star
-public import Mathlib.Order.Filter.AtTopBot.Interval
 public import Mathlib.Topology.Algebra.InfiniteSum.Defs
 public import Mathlib.Topology.Algebra.Monoid.Defs
-public import Mathlib.Tactic.FinCases
+public import Mathlib.Data.Int.Interval
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Interval
+import Mathlib.Algebra.BigOperators.Group.Finset.Interval
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 
 /-!

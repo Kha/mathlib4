@@ -5,8 +5,13 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.EffectiveEpi.Comp
-public import Mathlib.Data.Fintype.EquivFin
+public import Mathlib.CategoryTheory.EffectiveEpi.Basic
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.EffectiveEpi.Comp
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Data.Fintype.EquivFin
 /-!
 
 # Functors preserving effective epimorphisms

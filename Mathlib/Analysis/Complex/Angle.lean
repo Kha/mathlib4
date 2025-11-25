@@ -5,8 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Basic
+public import Mathlib.Analysis.SpecialFunctions.Complex.Arg
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
 
 /-!
 # Angle between complex numbers

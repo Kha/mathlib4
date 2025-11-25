@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Fold
 public import Mathlib.LinearAlgebra.ExteriorAlgebra.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extending an alternating map to the exterior algebra

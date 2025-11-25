@@ -6,6 +6,7 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.KanComplex
+import Mathlib.Tactic.Lemma
 
 /-!
 # Quasicategories

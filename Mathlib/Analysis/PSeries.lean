@@ -6,8 +6,36 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-public import Mathlib.Analysis.SumOverResidueClass
+import Mathlib.Analysis.SumOverResidueClass
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 # Convergence of `p`-series

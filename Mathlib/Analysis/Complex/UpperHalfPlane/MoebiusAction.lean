@@ -8,6 +8,15 @@ module
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
 public import Mathlib.Data.Fintype.Parity
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Group action on the upper half-plane

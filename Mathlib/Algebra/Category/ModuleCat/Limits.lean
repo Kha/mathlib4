@@ -9,6 +9,7 @@ public import Mathlib.Algebra.Category.ModuleCat.Basic
 public import Mathlib.Algebra.Category.Grp.Limits
 public import Mathlib.Algebra.Colimit.Module
 public import Mathlib.Algebra.Module.Shrink
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of R-modules has all limits

@@ -6,6 +6,10 @@ Authors: Kevin Buzzard, David Kurniadi Angdinata
 module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Units
 
 /-!
 # Models of elliptic curves with prescribed j-invariant

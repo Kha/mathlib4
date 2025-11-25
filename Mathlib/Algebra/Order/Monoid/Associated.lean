@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Associated
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Order on associates

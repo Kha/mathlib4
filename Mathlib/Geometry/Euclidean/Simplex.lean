@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Analysis.Normed.Affine.Simplex
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
 
 /-!
 # Simplices in Euclidean spaces.

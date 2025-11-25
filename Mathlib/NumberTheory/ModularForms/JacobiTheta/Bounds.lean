@@ -5,7 +5,29 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.NumberTheory.ModularForms.JacobiTheta.TwoVariable
+public import Mathlib.Analysis.Asymptotics.Defs
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Topology.Instances.AddCircle.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.NumberTheory.ModularForms.JacobiTheta.TwoVariable
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Asymptotic bounds for Jacobi theta functions

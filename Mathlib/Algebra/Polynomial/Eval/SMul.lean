@@ -5,8 +5,13 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Support
 public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Evaluating polynomials and scalar multiplication

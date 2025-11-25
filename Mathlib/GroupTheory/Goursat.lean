@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Group.Graph
 public import Mathlib.Algebra.Group.Subgroup.Basic
 public import Mathlib.GroupTheory.QuotientGroup.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # Goursat's lemma for subgroups

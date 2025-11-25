@@ -7,6 +7,20 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.Regularity.Chunk
 public import Mathlib.Combinatorics.SimpleGraph.Regularity.Energy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Data.Finset.Pairwise
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Increment partition for Szemerédi Regularity Lemma

@@ -5,8 +5,13 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Operations
-public import Mathlib.Data.Nat.WithBot
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Data.Nat.WithBot
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Results on polynomials of specific small degrees

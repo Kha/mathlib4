@@ -5,8 +5,12 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 public import Mathlib.Algebra.Field.Subfield.Defs
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Data.Matrix.Mul
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 
 /-!
 # Matrices and base change

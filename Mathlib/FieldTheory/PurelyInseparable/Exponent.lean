@@ -6,6 +6,11 @@ Authors: Michal Staromiejski
 module
 
 public import Mathlib.FieldTheory.PurelyInseparable.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 /-!
 

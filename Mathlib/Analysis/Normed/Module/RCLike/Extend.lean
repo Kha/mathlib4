@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.RCLike.Extend
 public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Norm properties of the extension of continuous `ℝ`-linear functionals to `𝕜`-linear functionals

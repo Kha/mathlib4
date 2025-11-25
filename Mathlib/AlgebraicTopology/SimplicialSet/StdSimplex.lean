@@ -5,9 +5,19 @@ Authors: Johan Commelin, Kim Morrison, Adam Topaz, Joël Riou
 -/
 module
 
-public import Mathlib.AlgebraicTopology.SimplicialSet.NerveNondegenerate
 public import Mathlib.Data.Fin.VecNotation
-public import Mathlib.Order.Fin.SuccAboveOrderIso
+public import Mathlib.Tactic.FinCases
+public import Mathlib.AlgebraicTopology.SimplicialSet.Degenerate
+public import Mathlib.AlgebraicTopology.SimplicialSet.Nerve
+import Mathlib.Algebra.NeZero
+import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Nat
+import Mathlib.AlgebraicTopology.SimplicialSet.NerveNondegenerate
+import Mathlib.Order.Fin.SuccAboveOrderIso
+import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.CategoryTheory.Limits.Types.Limits
 
 /-!
 # The standard simplex

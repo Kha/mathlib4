@@ -6,6 +6,10 @@ Authors: Christian Merten, Joël Riou
 module
 
 public import Mathlib.RingTheory.RingHom.Flat
+public import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Flat.FaithfullyFlat.Algebra
 
 /-!
 # Faithfully flat ring maps

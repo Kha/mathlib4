@@ -6,6 +6,7 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.SetTheory.Ordinal.FixedPoint
+import Mathlib.Order.Compare
 
 /-!
 # Veblen hierarchy

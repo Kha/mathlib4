@@ -6,11 +6,15 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Module.Congruence.Defs
-public import Mathlib.LinearAlgebra.Basis.Cardinality
-public import Mathlib.LinearAlgebra.DFinsupp
 public import Mathlib.LinearAlgebra.Isomorphisms
-public import Mathlib.LinearAlgebra.StdBasis
-public import Mathlib.RingTheory.Finiteness.Basic
+public import Mathlib.LinearAlgebra.Basis.Defs
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.LinearAlgebra.StdBasis
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
+import Mathlib.LinearAlgebra.Basis.Cardinality
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Finite modules and types with finitely many elements

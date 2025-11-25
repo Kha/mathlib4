@@ -8,6 +8,17 @@ module
 public import Mathlib.Algebra.Module.Defs
 public import Mathlib.Data.Finsupp.Basic
 public import Mathlib.Data.Finsupp.SMulWithZero
+public import Mathlib.Algebra.Group.Prod
+public import Mathlib.Algebra.Ring.Hom.Defs
+public import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Monoid algebras

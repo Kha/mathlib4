@@ -7,8 +7,22 @@ module
 
 public import Mathlib.Analysis.Normed.Group.Constructions
 public import Mathlib.Analysis.Normed.Group.Rat
-public import Mathlib.Analysis.Normed.Group.Uniform
 public import Mathlib.Topology.Order.Lattice
+public import Mathlib.Topology.EMetricSpace.Lipschitz
+public import Mathlib.Algebra.Order.Group.PosPart
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Lattice
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Normed lattice ordered groups

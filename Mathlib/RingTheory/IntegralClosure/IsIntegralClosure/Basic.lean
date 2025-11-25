@@ -9,9 +9,26 @@ public import Mathlib.Algebra.Polynomial.Roots
 public import Mathlib.RingTheory.FiniteType
 public import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
 public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Defs
-public import Mathlib.RingTheory.Polynomial.IntegralNormalization
-public import Mathlib.RingTheory.Polynomial.ScaleRoots
-public import Mathlib.RingTheory.TensorProduct.MvPolynomial
+public import Mathlib.RingTheory.AlgebraTower
+public import Mathlib.RingTheory.PolynomialAlgebra
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Equiv
+import Mathlib.Algebra.Polynomial.Inductions
+import Mathlib.Algebra.Polynomial.Reverse
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.IntegralNormalization
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.TensorProduct.MvPolynomial
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # # Integral closure as a characteristic predicate

@@ -6,6 +6,11 @@ Authors: Martin Zinkevich
 module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Subtraction of measures

@@ -5,12 +5,17 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.LinearAlgebra.Charpoly.BaseChange
-public import Mathlib.LinearAlgebra.Eigenspace.Zero
-public import Mathlib.RingTheory.AdjoinRoot
-public import Mathlib.RingTheory.LocalRing.ResidueField.Ideal
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
 public import Mathlib.RingTheory.TensorProduct.MvPolynomial
+public import Mathlib.LinearAlgebra.Charpoly.Basic
+import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monomial
+import Mathlib.LinearAlgebra.Charpoly.BaseChange
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Eigenspace.Zero
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 
 /-!
 

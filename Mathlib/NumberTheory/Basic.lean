@@ -5,9 +5,15 @@ Authors: Johan Commelin, Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.RingTheory.Ideal.Quotient.Defs
-public import Mathlib.RingTheory.Ideal.Span
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Divisibility.Basic
+public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.RingTheory.Ideal.Span
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Defs
 
 /-!
 # Basic results in number theory

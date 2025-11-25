@@ -5,8 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.MeasureTheory.Group.Action
 public import Mathlib.Order.Filter.EventuallyConst
+public import Mathlib.MeasureTheory.Group.Defs
+public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
+public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Group.Action
 
 /-!
 # A.e. stabilizer of a set

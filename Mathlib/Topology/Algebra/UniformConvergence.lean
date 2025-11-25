@@ -8,6 +8,8 @@ module
 public import Mathlib.Topology.Algebra.UniformMulAction
 public import Mathlib.Algebra.Module.Pi
 public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Algebraic facts about the topology of uniform convergence

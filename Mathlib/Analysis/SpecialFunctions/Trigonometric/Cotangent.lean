@@ -5,15 +5,47 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.Calculus.IteratedDeriv.WithinZpow
-public import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
 public import Mathlib.Analysis.Complex.IntegerCompl
-public import Mathlib.Analysis.Complex.LocallyUniformLimit
-public import Mathlib.Analysis.PSeries
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.EulerSineProd
-public import Mathlib.Analysis.NormedSpace.MultipliableUniformlyOn
-public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Summable
-public import Mathlib.Topology.Algebra.InfiniteSum.TsumUniformlyOn
+public import Mathlib.Analysis.Calculus.LogDeriv
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.UniformOn
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.LocallyUniformLimit
+import Mathlib.Analysis.NormedSpace.MultipliableUniformlyOn
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.Deriv.ZPow
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+import Mathlib.Analysis.Calculus.IteratedDeriv.WithinZpow
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Log.Summable
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.EulerSineProd
+import Mathlib.Data.Int.Cast.Field
+import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Summable
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.InfiniteSum.TsumUniformlyOn
 
 /-!
 # Cotangent

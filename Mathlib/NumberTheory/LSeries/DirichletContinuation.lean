@@ -6,8 +6,30 @@ Authors: David Loeffler, Michael Stoll
 module
 
 public import Mathlib.NumberTheory.LSeries.ZMod
-public import Mathlib.NumberTheory.DirichletCharacter.Basic
-public import Mathlib.NumberTheory.EulerProduct.DirichletLSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Piecewise
+import Mathlib.Analysis.Analytic.Uniqueness
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Complex.RemovableSingularity
+import Mathlib.Analysis.NormedSpace.Connected
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.NumberTheory.EulerProduct.DirichletLSeries
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Data.Int.Cast.Field
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Analytic continuation of Dirichlet L-functions

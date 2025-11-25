@@ -5,8 +5,24 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
 public import Mathlib.MeasureTheory.SetAlgebra
+public import Mathlib.MeasureTheory.Function.LpSpace.Indicator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.SymmDiff
+import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Measure.Decomposition.Exhaustion
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Separable measure

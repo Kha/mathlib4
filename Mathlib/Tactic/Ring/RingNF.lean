@@ -6,11 +6,12 @@ Authors: Mario Carneiro, Anne Baanen
 module
 
 public meta import Mathlib.Tactic.Ring.Basic
-public meta import Mathlib.Tactic.TryThis
-public meta import Mathlib.Tactic.Conv
-public meta import Mathlib.Util.AtLocation
 public meta import Mathlib.Util.AtomM.Recurse
-public meta import Mathlib.Util.Qq
+public import Mathlib.Tactic.Ring.Basic
+public import Mathlib.Util.AtomM.Recurse
+import Mathlib.Tactic.TryThis
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Cast.Basic
 
 /-!
 # `ring_nf` tactic

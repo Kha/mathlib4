@@ -8,6 +8,12 @@ module
 public import Mathlib.Order.Atoms
 public import Mathlib.LinearAlgebra.Span.Defs
 public import Mathlib.LinearAlgebra.AffineSpace.Defs
+public import Mathlib.Data.Fintype.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Affine spaces

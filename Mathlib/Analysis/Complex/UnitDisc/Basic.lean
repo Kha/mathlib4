@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.Complex.Circle
 public import Mathlib.Analysis.Normed.Module.Ball.Action
+import Mathlib.Algebra.Field.IsField
 
 /-!
 # Poincaré disc

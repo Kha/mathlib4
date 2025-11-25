@@ -6,6 +6,7 @@ Authors: Joël Riou, Violeta Hernández Palacios
 module
 
 public import Mathlib.Order.SuccPred.Limit
+import Mathlib.Tactic.Lemma
 
 /-!
 # Transfinite iteration of a function `I → I`

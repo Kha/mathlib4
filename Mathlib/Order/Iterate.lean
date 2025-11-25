@@ -5,8 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Logic.Function.Iterate
-public import Mathlib.Order.Monotone.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Basic
+public import Mathlib.Order.Monotone.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Monotone.Basic
 
 /-!
 # Inequalities on iterates

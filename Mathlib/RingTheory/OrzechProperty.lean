@@ -5,8 +5,13 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.Algebra.Module.TransferInstance
-public import Mathlib.RingTheory.Finiteness.Cardinality
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Logic.UnivLE
+import Mathlib.Algebra.Module.TransferInstance
+import Mathlib.Logic.Small.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
 
 /-!
 

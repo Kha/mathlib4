@@ -6,6 +6,9 @@ Authors: Kenny Lau, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Module.LinearMap.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Algebras over commutative semirings

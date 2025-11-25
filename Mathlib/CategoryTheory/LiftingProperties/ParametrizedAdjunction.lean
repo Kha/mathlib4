@@ -5,9 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.LiftingProperties.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Adjunction.Parametrized
+import Mathlib.Tactic.Lemma
 
 /-!
 # Lifting properties and parametrized adjunctions

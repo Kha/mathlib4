@@ -5,9 +5,21 @@ Authors: Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Continuity
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.Topology.MetricSpace.Thickening
+public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Borel sigma algebras on (pseudo-)metric spaces

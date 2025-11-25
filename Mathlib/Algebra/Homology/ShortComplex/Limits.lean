@@ -6,9 +6,10 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Basic
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
-public import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
 public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Limits and colimits in the category of short complexes

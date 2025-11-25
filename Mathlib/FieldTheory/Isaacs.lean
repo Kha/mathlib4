@@ -5,9 +5,14 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.FieldTheory.Normal.Basic
-public import Mathlib.FieldTheory.PrimitiveElement
-public import Mathlib.GroupTheory.CosetCover
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+import Mathlib.FieldTheory.Extension
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.GroupTheory.CosetCover
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
 
 /-!
 # Algebraic extensions are determined by their sets of minimal polynomials up to isomorphism

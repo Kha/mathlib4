@@ -8,6 +8,7 @@ module
 public import Mathlib.LinearAlgebra.Matrix.Kronecker
 public import Mathlib.LinearAlgebra.Matrix.ToLin
 public import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Connections between `TensorProduct` and `Matrix`

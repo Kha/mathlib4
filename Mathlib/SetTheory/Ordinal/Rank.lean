@@ -5,7 +5,10 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.SetTheory.Ordinal.Family
+public import Mathlib.SetTheory.Ordinal.Basic
+import Mathlib.Logic.UnivLE
+import Mathlib.Logic.Small.Basic
+import Mathlib.SetTheory.Ordinal.Family
 
 /-!
 # Rank in a well-founded relation

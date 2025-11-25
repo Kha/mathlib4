@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Comma.Presheaf.Basic
 public import Mathlib.CategoryTheory.Limits.Preserves.Yoneda
 public import Mathlib.CategoryTheory.Limits.Over
+public import Mathlib.CategoryTheory.Limits.Types.Colimits
+import Mathlib.CategoryTheory.Adjunction.Limits
 
 /-!
 # Relative Yoneda preserves certain colimits

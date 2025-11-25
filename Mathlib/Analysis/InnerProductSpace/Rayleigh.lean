@@ -5,12 +5,18 @@ Authors: Heather Macbeth, Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Calculus
-public import Mathlib.Analysis.InnerProductSpace.Dual
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
-public import Mathlib.Analysis.Calculus.LagrangeMultipliers
 public import Mathlib.LinearAlgebra.Eigenspace.Basic
-public import Mathlib.Algebra.EuclideanDomain.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Analysis.Calculus.LagrangeMultipliers
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Normed.Order.Lattice
 
 /-!
 # The Rayleigh quotient

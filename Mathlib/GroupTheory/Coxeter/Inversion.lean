@@ -6,8 +6,15 @@ Authors: Mitchell Lee, Óscar Álvarez
 module
 
 public import Mathlib.GroupTheory.Coxeter.Length
-public import Mathlib.Data.List.GetD
-public import Mathlib.Tactic.Group
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.GetD
+import Mathlib.Data.ZMod.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Reflections, inversions, and inversion sequences

@@ -6,8 +6,19 @@ Authors: Rohan Mitta, Kevin Buzzard, Alistair Tucker, Johannes Hölzl, Yury Kudr
 module
 
 public import Mathlib.Algebra.Group.End
-public import Mathlib.Tactic.Finiteness
 public import Mathlib.Topology.EMetricSpace.Diam
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Prod
+import Mathlib.Data.Set.Subset
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Lipschitz continuous functions

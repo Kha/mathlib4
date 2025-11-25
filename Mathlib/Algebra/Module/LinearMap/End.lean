@@ -6,8 +6,12 @@ Authors: Nathaniel Thomas, Jeremy Avigad, Johannes Hölzl, Mario Carneiro, Anne 
 -/
 module
 
-public import Mathlib.Algebra.Module.Equiv.Opposite
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
+public import Mathlib.Algebra.Module.Opposite
+public import Mathlib.Algebra.Module.LinearMap.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Equiv.Opposite
 
 /-!
 # Endomorphisms of a module

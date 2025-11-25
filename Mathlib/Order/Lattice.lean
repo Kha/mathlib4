@@ -6,8 +6,16 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Data.Bool.Basic
-public import Mathlib.Order.Monotone.Basic
 public import Mathlib.Order.ULift
+public import Mathlib.Order.Synonym
+public import Mathlib.Data.Nat.Basic
+public import Mathlib.Order.Monotone.Defs
+public import Mathlib.Data.Int.Order.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Monotone.Basic
 
 /-!
 # (Semi-)lattices

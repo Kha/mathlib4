@@ -6,6 +6,9 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Homology.HomologicalComplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Nat
 
 /-!
 # Homological complexes supported in a single degree

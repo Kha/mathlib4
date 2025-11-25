@@ -5,8 +5,22 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Topology.Continuous
 public import Mathlib.Topology.Defs.Induced
+public import Mathlib.Tactic.Continuity
+public import Mathlib.Topology.Basic
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Order.Filter.Bases.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Continuous
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Ordering on topologies and (co)induced topologies

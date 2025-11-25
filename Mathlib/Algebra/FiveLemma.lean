@@ -6,6 +6,8 @@ Authors: Christian Merten
 module
 
 public import Mathlib.Algebra.Exact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The five lemma in terms of modules

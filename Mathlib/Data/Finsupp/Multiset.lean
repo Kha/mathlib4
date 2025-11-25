@@ -5,10 +5,15 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Finset
 public import Mathlib.Data.Finsupp.Basic
 public import Mathlib.Data.Sym.Basic
 public import Mathlib.Order.Preorder.Finsupp
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Finset
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Equivalence between `Multiset` and `ℕ`-valued finitely supported functions

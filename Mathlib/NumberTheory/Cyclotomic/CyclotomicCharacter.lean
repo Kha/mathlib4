@@ -5,11 +5,18 @@ Authors: Kevin Buzzard, Hanneke Wiersema, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Ring.Aut
 public import Mathlib.NumberTheory.Padics.RingHoms
 public import Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity
-public import Mathlib.RingTheory.RootsOfUnity.Minpoly
 public import Mathlib.FieldTheory.KrullTopology
+public import Mathlib.Algebra.Ring.Action.End
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.RootsOfUnity.Minpoly
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 

@@ -6,8 +6,18 @@ Authors: Patrick Massot, Johannes Hölzl
 module
 
 public import Mathlib.Analysis.NormedSpace.Multilinear.Basic
-public import Mathlib.Analysis.Normed.Ring.Units
 public import Mathlib.Analysis.Normed.Operator.Mul
+public import Mathlib.Analysis.Asymptotics.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Analysis.Normed.Ring.Units
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Bounded linear maps

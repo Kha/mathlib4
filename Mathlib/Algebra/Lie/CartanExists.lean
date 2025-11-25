@@ -6,7 +6,19 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Lie.CartanSubalgebra
-public import Mathlib.Algebra.Lie.Rank
+public import Mathlib.Algebra.Lie.EngelSubalgebra
+public import Mathlib.LinearAlgebra.Charpoly.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Lie.Rank
+import Mathlib.Algebra.Polynomial.Roots
+import Mathlib.LinearAlgebra.Dimension.Localization
+import Mathlib.LinearAlgebra.Eigenspace.Zero
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Polynomial.Basic
 
 /-!
 # Existence of Cartan subalgebras

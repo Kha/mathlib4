@@ -5,9 +5,25 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.Module.Projective
-public import Mathlib.LinearAlgebra.Dimension.Finite
 public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Tactic.ApplyFun
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Field.Basic
+public import Mathlib.Data.Finset.NoncommProd
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+public import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Projective
+import Mathlib.Data.Fintype.Lattice
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Finite-dimensional vector spaces

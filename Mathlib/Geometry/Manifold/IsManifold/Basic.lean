@@ -5,11 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
 public import Mathlib.Analysis.Normed.Module.Convex
-public import Mathlib.Analysis.RCLike.TangentCone
 public import Mathlib.Data.Bundle
 public import Mathlib.Geometry.Manifold.ChartedSpace
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Analysis.RCLike.TangentCone
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 # `C^n` manifolds (possibly with boundary or corners)

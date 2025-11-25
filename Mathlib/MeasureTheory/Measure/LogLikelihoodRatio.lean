@@ -6,6 +6,15 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Measure.Tilted
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Log-likelihood Ratio

@@ -5,9 +5,9 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.DirectSum.Module
 public import Mathlib.Algebra.DirectSum.Ring
+import Mathlib.Tactic.TypeStar
 
 /-! # Additively-graded algebra structures on `⨁ i, A i`
 

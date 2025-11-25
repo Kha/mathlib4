@@ -6,5 +6,6 @@ Authors: Eric Rodriguez
 module
 
 public import Mathlib.Data.Sign.Defs
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-05-11")

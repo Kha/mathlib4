@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Functor.ReflectsIso.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Morphism properties that are inverted by a functor

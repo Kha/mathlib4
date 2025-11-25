@@ -5,9 +5,18 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.HasOuterApproxClosedProd
-public import Mathlib.Probability.Independence.Process
 public import Mathlib.Probability.Notation
+public import Mathlib.MeasureTheory.Measure.HasOuterApproxClosed
+public import Mathlib.Probability.Independence.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.HasOuterApproxClosedProd
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Probability.Independence.Process
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Characterizing independence via bounded continuous functions

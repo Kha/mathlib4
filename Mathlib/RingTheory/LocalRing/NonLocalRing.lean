@@ -7,8 +7,14 @@ module
 
 public import Mathlib.Algebra.Ring.Pi
 public import Mathlib.Algebra.Ring.Prod
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
-public import Mathlib.RingTheory.Spectrum.Maximal.Basic
+public import Mathlib.RingTheory.LocalRing.Defs
+public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.RingTheory.Spectrum.Maximal.Basic
 
 /-!
 

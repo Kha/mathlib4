@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.HahnSeries.Multiplication
 public import Mathlib.RingTheory.Valuation.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Valuations on Hahn Series rings

@@ -5,9 +5,27 @@ Authors: Kexing Ying
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.Polish.Basic
-public import Mathlib.MeasureTheory.Function.UniformIntegrable
 public import Mathlib.Probability.Martingale.Upcrossing
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Real
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Unique
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Order.Archimedean
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 

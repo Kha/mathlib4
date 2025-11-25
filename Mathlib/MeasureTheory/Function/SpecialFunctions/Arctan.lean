@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurability of arctan

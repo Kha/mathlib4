@@ -5,7 +5,34 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Polynomial.Factorization
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Algebra.Polynomial.Degree.IsMonicOfDegree
+import Mathlib.Tactic.ComputeDegree
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Polynomial.Factorization
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Algebra.Algebra
+import Mathlib.Topology.Bornology.BoundedOperation
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Complex.Polynomial.Basic
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Instances.Real.Lemmas
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # A (new?) proof of the Gelfand-Mazur Theorem

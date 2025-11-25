@@ -6,7 +6,13 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.MeasureTheory.OuterMeasure.Operations
-public import Mathlib.Analysis.SpecificLimits.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Outer measures from functions

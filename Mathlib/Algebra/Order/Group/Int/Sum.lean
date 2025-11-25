@@ -5,9 +5,12 @@ Authors: Jeremy Tan
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Data.Int.Interval
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Sharp bounds for sums of bounded finsets of integers

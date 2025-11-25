@@ -5,15 +5,26 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
-public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
 public import Mathlib.Algebra.GroupWithZero.Subgroup
-public import Mathlib.Data.Finite.Card
-public import Mathlib.Data.Finite.Prod
 public import Mathlib.Data.Set.Card
-public import Mathlib.GroupTheory.Coset.Card
-public import Mathlib.GroupTheory.GroupAction.Quotient
-public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.GroupTheory.Coset.Defs
+public import Mathlib.Algebra.Group.Subgroup.Actions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Finite.Prod
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.GroupTheory.GroupAction.Quotient
+import Mathlib.GroupTheory.QuotientGroup.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Index of a Subgroup

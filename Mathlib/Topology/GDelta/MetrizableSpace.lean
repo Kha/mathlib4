@@ -5,9 +5,18 @@ Authors: Sébastien Gouëzel, Yury Kudryashov, Aaron Liu
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.HausdorffDistance
 public import Mathlib.Topology.Metrizable.Basic
 public import Mathlib.Topology.Separation.GDelta
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.MetricSpace.HausdorffDistance
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # `Gδ` sets and metrizable spaces

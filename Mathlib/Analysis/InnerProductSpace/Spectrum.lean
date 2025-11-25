@@ -5,11 +5,14 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Rayleigh
 public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.Algebra.DirectSum.Decomposition
 public import Mathlib.LinearAlgebra.Eigenspace.Minpoly
 public import Mathlib.Data.Fin.Tuple.Sort
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Rayleigh
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 
 /-! # Spectral theory of self-adjoint operators
 

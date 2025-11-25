@@ -6,9 +6,20 @@ Authors: Cuma Kökmen, Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.Integral.CircleIntegral
-public import Mathlib.MeasureTheory.Integral.Prod
-public import Mathlib.Order.Fin.Tuple
-public import Mathlib.Util.Superscript
+public import Mathlib.MeasureTheory.Constructions.Pi
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.Superscript
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.Order.Fin.Tuple
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.OrderIso
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Integral over a torus in `ℂⁿ`

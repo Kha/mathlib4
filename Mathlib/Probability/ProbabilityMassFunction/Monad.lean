@@ -6,6 +6,9 @@ Authors: Johannes Hölzl, Devon Tuma
 module
 
 public import Mathlib.Probability.ProbabilityMassFunction.Basic
+public import Mathlib.MeasureTheory.Measure.Dirac
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Monad Operations for Probability Mass Functions

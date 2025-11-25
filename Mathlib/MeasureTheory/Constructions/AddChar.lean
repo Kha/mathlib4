@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.AddChar
 public import Mathlib.MeasureTheory.MeasurableSpace.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurable space instance for additive characters

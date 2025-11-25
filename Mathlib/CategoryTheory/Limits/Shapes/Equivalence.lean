@@ -5,8 +5,8 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.Limits
 public import Mathlib.CategoryTheory.Limits.Shapes.Terminal
+import Mathlib.CategoryTheory.Adjunction.Limits
 
 /-!
 # Transporting existence of specific limits across equivalences

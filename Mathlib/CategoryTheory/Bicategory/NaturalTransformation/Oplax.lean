@@ -6,6 +6,7 @@ Authors: Yuma Mizuno, Calle Sönne
 module
 
 public import Mathlib.CategoryTheory.Bicategory.Functor.Oplax
+import Mathlib.Tactic.Lemma
 
 /-!
 # Transformations between oplax functors

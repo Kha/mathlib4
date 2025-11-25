@@ -5,9 +5,16 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Option
 public import Mathlib.Analysis.BoxIntegral.Box.Basic
-public import Mathlib.Data.Set.Pairwise.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Option
+import Mathlib.Data.Fintype.Powerset
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Finset.Lattice.Union
+import Mathlib.Data.Set.Pairwise.Lattice
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Partitions of rectangular boxes in `ℝⁿ`

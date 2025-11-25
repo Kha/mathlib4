@@ -7,9 +7,14 @@ module
 
 public import Mathlib.Tactic.CategoryTheory.Elementwise
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 public import Mathlib.CategoryTheory.Limits.Preserves.Limits
-public import Mathlib.CategoryTheory.Limits.Types.Coproducts
+public import Mathlib.CategoryTheory.Limits.Types.Colimits
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Iso
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Types.Coproducts
 
 /-!
 # Gluing data

@@ -11,6 +11,7 @@ public import Mathlib.Algebra.Group.Shrink
 public import Mathlib.Algebra.Group.Submonoid.Defs
 public import Mathlib.CategoryTheory.Limits.Creates
 public import Mathlib.CategoryTheory.Limits.Types.Limits
+import Mathlib.Logic.Small.Basic
 
 /-!
 # The category of (commutative) (additive) monoids has all limits

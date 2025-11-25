@@ -6,6 +6,7 @@ Authors: Minchao Wu, Mario Carneiro
 module
 
 public import Mathlib.Computability.Halting
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Strong reducibility and degrees.

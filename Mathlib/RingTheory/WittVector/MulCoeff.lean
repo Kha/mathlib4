@@ -5,8 +5,16 @@ Authors: Robert Y. Lewis, Heather Macbeth
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.Supported
 public import Mathlib.RingTheory.WittVector.Truncated
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Supported
+import Mathlib.LinearAlgebra.Matrix.Notation
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Leading terms of Witt vector multiplication

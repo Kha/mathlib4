@@ -6,6 +6,8 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Multiset.Powerset
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Zip
 
 /-!
 # The antidiagonal on a multiset.

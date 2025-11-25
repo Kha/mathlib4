@@ -7,9 +7,15 @@ module
 
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Field.Subfield.Defs
-public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 public import Mathlib.Algebra.Ring.Subring.Basic
-public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Bounds.Image
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Subfields

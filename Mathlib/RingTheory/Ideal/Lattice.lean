@@ -7,7 +7,8 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.Lattice
 public import Mathlib.RingTheory.Ideal.Defs
-public import Mathlib.Tactic.Ring
+public import Mathlib.Algebra.Field.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The lattice of ideals in a ring

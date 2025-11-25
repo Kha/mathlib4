@@ -5,11 +5,18 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
-public import Mathlib.Algebra.Order.Interval.Finset.SuccPred
-public import Mathlib.Data.Nat.SuccPred
-public import Mathlib.Order.Disjointed
 public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.Order.SuccPred
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Algebra.NeZero
+import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 # Big operators indexed by intervals

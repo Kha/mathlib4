@@ -5,10 +5,16 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Minimal
-public import Mathlib.Order.Zorn
-public import Mathlib.Topology.ContinuousOn
 public import Mathlib.Tactic.StacksAttribute
+public import Mathlib.Topology.Constructions
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Irreducibility in topological spaces

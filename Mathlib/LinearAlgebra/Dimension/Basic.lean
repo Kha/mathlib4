@@ -5,9 +5,18 @@ Authors: Mario Carneiro, Johannes Hölzl, Sander Dahmen, Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Tower
-public import Mathlib.LinearAlgebra.LinearIndependent.Basic
 public import Mathlib.Data.Set.Card
+public import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.LinearAlgebra.LinearIndependent.Basic
+import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
 
 /-!
 # Dimension of modules and vector spaces

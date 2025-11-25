@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
 public import Mathlib.GroupTheory.GroupAction.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The subgroup of fixed points of an action

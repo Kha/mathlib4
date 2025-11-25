@@ -5,9 +5,13 @@ Authors: Arthur Paulino, Damiano Testa
 -/
 module
 
-public meta import Mathlib.Algebra.Group.Basic
 public meta import Mathlib.Lean.Meta
-public meta import Mathlib.Order.Defs.LinearOrder
+public meta import Lean.Elab.Tactic.Simp
+public import Mathlib.Data.Int.Notation
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Order.Defs.LinearOrder
 
 /-!
 

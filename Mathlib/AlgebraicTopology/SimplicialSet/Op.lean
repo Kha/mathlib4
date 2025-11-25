@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialObject.Op
 public import Mathlib.AlgebraicTopology.SimplicialSet.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The covariant involution of the category of simplicial sets

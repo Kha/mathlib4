@@ -8,7 +8,13 @@ module
 public import Mathlib.Algebra.BigOperators.Finprod
 public import Mathlib.Topology.Algebra.InfiniteSum.SummationFilter
 public import Mathlib.Topology.Separation.Hausdorff
-public import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
 
 /-!
 # Infinite sum and product in a topological monoid

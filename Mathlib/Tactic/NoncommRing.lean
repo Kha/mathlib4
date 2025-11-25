@@ -5,8 +5,13 @@ Authors: Jireh Loreaux, Kim Morrison, Oliver Nash
 -/
 module
 
-public meta import Mathlib.Algebra.Group.Action.Defs
-public meta import Mathlib.Tactic.Abel
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Cast.Basic
 
 /-! # The `noncomm_ring` tactic
 

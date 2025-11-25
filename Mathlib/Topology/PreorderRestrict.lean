@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Restriction
 public import Mathlib.Topology.Constructions
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuity of the restriction function for functions indexed by a preorder

@@ -6,6 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Immersion
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.LocallyClosed
+import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
 
 /-!
 

@@ -6,6 +6,13 @@ Authors: Rishikesh Vaishnav
 module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Conditional Probability

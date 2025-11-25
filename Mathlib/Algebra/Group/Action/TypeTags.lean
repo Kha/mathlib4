@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Algebra.Group.TypeTags.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Additive and Multiplicative for group actions

@@ -5,10 +5,14 @@ Authors: Jake Levinson
 -/
 module
 
-public import Mathlib.Data.Finset.Preimage
 public import Mathlib.Data.Finset.Prod
-public import Mathlib.Data.SetLike.Basic
-public import Mathlib.Order.UpperLower.Basic
+public import Mathlib.Data.List.Sort
+public import Mathlib.Data.Nat.Find
+import Mathlib.Algebra.NeZero
+import Batteries.Data.List.Pairwise
+import Mathlib.Data.Finset.Preimage
+import Mathlib.Order.UpperLower.Basic
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Young diagrams

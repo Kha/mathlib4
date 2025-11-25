@@ -5,11 +5,24 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Combinatorics.SimpleGraph.Density
-public import Mathlib.Data.Nat.Cast.Order.Field
 public import Mathlib.Order.Partition.Equipartition
 public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Field
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Graph uniformity and uniform partitions

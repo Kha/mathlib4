@@ -5,9 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
-public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
-public import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
 
 /-!
 # Growth estimates on `x ^ y` for complex `x`, `y`

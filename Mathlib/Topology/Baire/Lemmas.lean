@@ -6,6 +6,10 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.GDelta.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Baire spaces

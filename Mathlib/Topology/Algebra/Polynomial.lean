@@ -5,12 +5,24 @@ Authors: Robert Y. Lewis
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.Inductions
 public import Mathlib.Algebra.Polynomial.Splits
-public import Mathlib.RingTheory.Polynomial.Vieta
 public import Mathlib.Analysis.Normed.Field.Basic
-public import Mathlib.Analysis.Normed.Ring.Lemmas
+public import Mathlib.Topology.MetricSpace.ProperSpace
+public import Mathlib.Topology.Algebra.Ring.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Inductions
+import Mathlib.RingTheory.Polynomial.Vieta
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Monoid
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Polynomials and limits

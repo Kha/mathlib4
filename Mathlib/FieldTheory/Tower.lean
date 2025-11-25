@@ -5,7 +5,10 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.RingTheory.Noetherian.Basic
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.RingTheory.Noetherian.Basic
 
 /-!
 # Finiteness of `IsScalarTower`

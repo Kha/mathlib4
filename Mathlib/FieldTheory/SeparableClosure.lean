@@ -7,6 +7,11 @@ module
 
 public import Mathlib.FieldTheory.SeparableDegree
 public import Mathlib.FieldTheory.IsSepClosed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 /-!
 

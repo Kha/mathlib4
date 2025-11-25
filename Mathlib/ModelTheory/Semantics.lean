@@ -5,9 +5,11 @@ Authors: Aaron Anderson, Jesse Michael Han, Floris van Doorn
 -/
 module
 
-public import Mathlib.Data.Finset.Basic
 public import Mathlib.ModelTheory.Syntax
-public import Mathlib.Data.List.ProdSigma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.ProdSigma
+import Mathlib.Data.Set.Restrict
+import Mathlib.SetTheory.Cardinal.Basic
 
 /-!
 # Basics on First-Order Semantics

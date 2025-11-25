@@ -5,8 +5,11 @@ Authors: María Inés de Frutos-Fernández, Filippo A. E. Nuccio
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Basic
 public import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Cyclic linearly ordered groups

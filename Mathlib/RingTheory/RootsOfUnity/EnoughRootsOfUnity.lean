@@ -6,6 +6,9 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Nat.Units
 
 /-!
 # Commutative monoids with enough roots of unity

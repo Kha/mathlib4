@@ -6,8 +6,14 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.GroupWithZero.Hom
-public import Mathlib.Algebra.Order.Group.Abs
 public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Algebraic order homomorphism classes

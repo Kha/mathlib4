@@ -5,10 +5,14 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Closed.FunctorCategory.Basic
 public import Mathlib.CategoryTheory.Localization.Monoidal.Braided
-public import Mathlib.CategoryTheory.Sites.Equivalence
 public import Mathlib.CategoryTheory.Sites.SheafHom
+public import Mathlib.CategoryTheory.Closed.Enrichment
+public import Mathlib.CategoryTheory.Enriched.FunctorCategory
+public import Mathlib.CategoryTheory.Sites.DenseSubsite.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Sites.Equivalence
+import Mathlib.CategoryTheory.Closed.FunctorCategory.Basic
 
 /-!
 # Monoidal category structure on categories of sheaves

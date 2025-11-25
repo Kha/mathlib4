@@ -6,7 +6,9 @@ Authors: Dion Leijnse
 module
 
 public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.RingTheory.Flat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Flat.Basic
 
 /-!
 # Geometrically reduced algebras

@@ -6,16 +6,34 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Symmetric
-public import Mathlib.Algebra.Module.FinitePresentation
-public import Mathlib.Algebra.Module.LocalizedModule.Submodule
 public import Mathlib.CategoryTheory.Monoidal.Skeleton
 public import Mathlib.LinearAlgebra.Contraction
-public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
 public import Mathlib.LinearAlgebra.TensorProduct.Submodule
-public import Mathlib.RingTheory.Flat.Localization
-public import Mathlib.RingTheory.Localization.BaseChange
-public import Mathlib.RingTheory.LocalRing.Module
+public import Mathlib.RingTheory.Finiteness.Cardinality
+public import Mathlib.RingTheory.LocalRing.Defs
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.NAry
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.Finsupp.Pi
+import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.Matrix.InvariantBasisNumber
+import Mathlib.LinearAlgebra.TensorProduct.Finiteness
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.Logic.Small.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.Flat.Localization
+import Mathlib.RingTheory.LocalProperties.Submodule
+import Mathlib.RingTheory.LocalRing.Module
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # The Picard group of a commutative ring

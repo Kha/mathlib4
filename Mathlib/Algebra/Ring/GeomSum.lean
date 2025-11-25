@@ -5,9 +5,23 @@ Authors: Neil Strickland
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Intervals
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Ring.Opposite
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GrindInstances
+import Mathlib.Algebra.Ring.Opposite
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Partial sums of geometric series in a ring

@@ -5,10 +5,17 @@ Authors: Yury Kudryashov, Alex Kontorovich, Heather Macbeth
 -/
 module
 
-public import Mathlib.MeasureTheory.Group.Action
-public import Mathlib.MeasureTheory.Group.Pointwise
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Map
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.MeasureTheory.Group.Pointwise
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-!
 # Fundamental domain of a group action

@@ -6,6 +6,9 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 module
 
 public import Mathlib.Geometry.Manifold.ChartedSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
 
 /-!
 # Local properties invariant under a groupoid

@@ -5,9 +5,14 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.ConditionalExpectation.Real
 public import Mathlib.MeasureTheory.Integral.Average
 public import Mathlib.Probability.Moments.Variance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Real
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
 
 /-!
 # Conditional variance

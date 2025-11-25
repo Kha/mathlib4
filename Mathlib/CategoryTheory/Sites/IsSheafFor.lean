@@ -6,7 +6,8 @@ Authors: Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Sites.Sieves
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The sheaf condition for a presieve

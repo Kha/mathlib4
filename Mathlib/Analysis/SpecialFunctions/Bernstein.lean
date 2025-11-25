@@ -5,12 +5,27 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.Analysis.Convex.Gauge
-public import Mathlib.Analysis.Normed.Order.Lattice
 public import Mathlib.RingTheory.Polynomial.Bernstein
 public import Mathlib.Topology.Algebra.Module.LocallyConvex
 public import Mathlib.Topology.ContinuousMap.Polynomial
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.Convex.Gauge
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Topology.UniformSpace.CompactConvergence
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Bernstein approximations and Weierstrass' theorem

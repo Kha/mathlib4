@@ -5,9 +5,13 @@ Authors: Geoffrey Irving, Bryan Wang, Oliver Nash
 -/
 module
 
-public import Mathlib.Topology.GDelta.MetrizableSpace
 public import Mathlib.Topology.Separation.CompletelyRegular
-public import Mathlib.Topology.Separation.Profinite
+public import Mathlib.Topology.MetricSpace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Separation.Profinite
 
 /-!
 # Further separation lemmas

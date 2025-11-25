@@ -5,10 +5,14 @@ Authors: Rémy Degenne, Peter Pfaffelhuber
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.MeasureTheory.Measure.Regular
 public import Mathlib.Topology.MetricSpace.Polish
-public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-!
 # Inner regularity of finite measures

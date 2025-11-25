@@ -5,9 +5,22 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
-public import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
-public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Calculus.DSlope
+public import Mathlib.MeasureTheory.Integral.CircleIntegral
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Piecewise
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Removable singularity theorem

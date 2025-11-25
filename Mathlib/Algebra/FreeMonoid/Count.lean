@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.FreeMonoid.Basic
 public import Mathlib.Algebra.Group.TypeTags.Basic
+public import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `List.count` as a bundled homomorphism

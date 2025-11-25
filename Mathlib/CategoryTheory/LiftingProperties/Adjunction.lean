@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.LiftingProperties.Basic
 public import Mathlib.CategoryTheory.Adjunction.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 

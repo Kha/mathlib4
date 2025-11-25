@@ -9,6 +9,9 @@ public import Mathlib.Analysis.Normed.Unbundled.SpectralNorm
 public import Mathlib.NumberTheory.Padics.PadicNumbers
 public import Mathlib.Topology.Algebra.Valued.NormedValued
 public import Mathlib.Topology.Algebra.Valued.ValuedField
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # The field `ℂ_[p]` of `p`-adic complex numbers.

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.InducedCategory
 public import Mathlib.CategoryTheory.ObjectProperty.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The full subcategory associated to a property of objects

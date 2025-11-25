@@ -6,7 +6,11 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Normed.Module.Basic
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import Mathlib.Data.ENNReal.Operations
+public import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.Basis.VectorSpace
 
 /-!
 # Extended norm

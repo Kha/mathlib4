@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Finsupp.Basic
 public import Mathlib.Data.List.AList
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Connections between `Finsupp` and `AList`

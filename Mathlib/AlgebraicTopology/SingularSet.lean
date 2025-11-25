@@ -8,8 +8,7 @@ module
 public import Mathlib.AlgebraicTopology.SimplicialSet.StdSimplex
 public import Mathlib.AlgebraicTopology.TopologicalSimplex
 public import Mathlib.CategoryTheory.Limits.Presheaf
-public import Mathlib.Topology.Category.TopCat.Limits.Basic
-public import Mathlib.Topology.Category.TopCat.ULift
+import Mathlib.Topology.Category.TopCat.Limits.Basic
 
 /-!
 # The singular simplicial set of a topological space and geometric realization of a simplicial set

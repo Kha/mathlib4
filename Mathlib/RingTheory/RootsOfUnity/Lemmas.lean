@@ -5,7 +5,12 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.FieldTheory.KummerExtension
+public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
+import Mathlib.FieldTheory.KummerExtension
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.Ring.GeomSum
 
 /-!
 # More results on primitive roots of unity

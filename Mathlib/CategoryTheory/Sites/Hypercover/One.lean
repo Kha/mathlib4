@@ -6,8 +6,10 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Sites.Coverage
-public import Mathlib.CategoryTheory.Sites.Sheaf
 public import Mathlib.CategoryTheory.Sites.Hypercover.Zero
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Pasting
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # 1-hypercovers

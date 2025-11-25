@@ -6,6 +6,8 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
 /-!
 
 # AB axioms in functor categories

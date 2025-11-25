@@ -5,14 +5,20 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Cover.Open
 public import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
-public import Mathlib.AlgebraicGeometry.Restrict
-public import Mathlib.CategoryTheory.Limits.Opposites
-public import Mathlib.RingTheory.Localization.InvSubmonoid
-public import Mathlib.RingTheory.LocalProperties.Basic
 public import Mathlib.Topology.Sheaves.CommRingCat
-public import Mathlib.CategoryTheory.Monad.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Opposites
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Monad.Limits
+import Mathlib.RingTheory.LocalProperties.Basic
+import Mathlib.RingTheory.LocalProperties.Submodule
+import Mathlib.RingTheory.Localization.InvSubmonoid
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.CategoryTheory.Limits.Preserves.Opposites
+import Mathlib.Topology.Category.TopCat.EpiMono
 
 /-!
 # Affine schemes

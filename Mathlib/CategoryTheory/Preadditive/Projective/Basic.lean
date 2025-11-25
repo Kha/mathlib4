@@ -5,11 +5,14 @@ Authors: Markus Himmel, Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
-public import Mathlib.CategoryTheory.Adjunction.Limits
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
-public import Mathlib.CategoryTheory.Limits.Preserves.Finite
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryBiproducts
+public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Preserves.Finite
 
 /-!
 # Projective objects and categories with enough projectives

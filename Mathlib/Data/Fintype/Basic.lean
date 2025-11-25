@@ -5,13 +5,11 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Finite.Defs
-public import Mathlib.Data.Finset.BooleanAlgebra
-public import Mathlib.Data.Finset.Image
-public import Mathlib.Data.Fintype.Defs
-public import Mathlib.Data.Fintype.OfMap
 public import Mathlib.Data.Fintype.Sets
 public import Mathlib.Data.List.FinRange
+public import Mathlib.Data.Fin.Embedding
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.OfFn
 
 /-!
 # Instances for finite types

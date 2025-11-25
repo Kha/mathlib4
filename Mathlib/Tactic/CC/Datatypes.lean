@@ -7,8 +7,12 @@ module
 
 public meta import Batteries.Classes.Order
 public meta import Mathlib.Lean.Meta.Basic
-public meta import Mathlib.Lean.Meta.CongrTheorems
 public meta import Mathlib.Data.Ordering.Basic
+public import Mathlib.Init
+public import Batteries.Classes.Order
+public meta import Lean.Meta.CongrTheorems
+public import Lean.Meta.CongrTheorems
+public meta import Lean.Meta.Tactic.Rfl
 
 /-!
 # Datatypes for `cc`

@@ -5,14 +5,45 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Congr
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
-public import Mathlib.MeasureTheory.Covering.BesicovitchVectorSpace
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
-public import Mathlib.Analysis.Normed.Module.Ball.Pointwise
-public import Mathlib.MeasureTheory.Constructions.Polish.Basic
 public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ApproximatesLinearOn
 public import Mathlib.Topology.Algebra.Module.Determinant
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Sequences
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Piecewise
+import Mathlib.GroupTheory.GroupAction.Pointwise
+import Mathlib.MeasureTheory.Covering.BesicovitchVectorSpace
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # Change of variables in higher-dimensional integrals

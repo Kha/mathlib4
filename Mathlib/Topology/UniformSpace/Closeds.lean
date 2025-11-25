@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Topology.Sets.Compacts
 public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Order.Filter.Lift
+public import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.GCongr.CoreAttrs
 
 /-!
 # Hausdorff uniformity

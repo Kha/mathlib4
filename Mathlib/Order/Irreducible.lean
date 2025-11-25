@@ -6,6 +6,7 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Irreducible and prime elements in an order

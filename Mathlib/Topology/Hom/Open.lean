@@ -6,6 +6,8 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Topology.ContinuousMap.Basic
+public import Mathlib.Topology.Maps.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous open maps

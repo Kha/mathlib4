@@ -10,6 +10,9 @@ public import Mathlib.Algebra.Module.Defs
 public import Mathlib.Algebra.Notation.Prod
 public import Mathlib.Algebra.Regular.SMul
 public import Mathlib.Algebra.Ring.Action.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Equivariant homomorphisms

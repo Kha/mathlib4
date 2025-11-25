@@ -5,7 +5,15 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Finite
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Infinite Hausdorff topological spaces

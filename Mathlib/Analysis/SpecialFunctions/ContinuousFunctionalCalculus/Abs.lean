@@ -6,8 +6,14 @@ Authors: Jon Bannon, Jireh Loreaux
 module
 
 public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic
-public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.PosPart.Basic
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Commute
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Topology.ContinuousMap.ContinuousSqrt
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Commute
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
 
 
 /-!

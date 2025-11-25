@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Data.Nat.Choose.Basic
 public import Mathlib.Data.Sym.Sym2
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Dedup
+import Mathlib.Data.List.Nodup
 
 /-! # Unordered tuples of elements of a list
 

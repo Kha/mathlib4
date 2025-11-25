@@ -5,11 +5,23 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.IntegralClosure
-public import Mathlib.RingTheory.RingHom.Finite
-public import Mathlib.RingTheory.Localization.LocalizationLocalization
-public import Mathlib.RingTheory.Localization.NormTrace
 public import Mathlib.RingTheory.Norm.Transitivity
+public import Mathlib.FieldTheory.PurelyInseparable.Basic
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+public import Mathlib.RingTheory.Trace.Defs
+public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.Localization.LocalizationLocalization
+import Mathlib.RingTheory.Localization.NormTrace
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.RingHom.Finite
 
 /-!
 # Restriction of various maps between fields to integrally closed subrings.

@@ -9,6 +9,9 @@ public import Mathlib.CategoryTheory.Limits.Shapes.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Types.Colimits
 public import Mathlib.Tactic.CategoryTheory.Elementwise
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Equiv.Set
 
 /-!
 # Coproducts in `Type`

@@ -6,6 +6,8 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Minor.Restrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Some constructions of matroids

@@ -8,7 +8,10 @@ module
 public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
 public import Mathlib.Topology.Category.TopCat.Basic
 public import Mathlib.Topology.Sets.Opens
-public import Mathlib.Data.Set.Subsingleton
+public import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 # Projective spectrum of a graded ring

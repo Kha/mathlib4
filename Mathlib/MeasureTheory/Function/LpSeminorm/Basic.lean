@@ -5,13 +5,35 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Indicator
-public import Mathlib.Data.Fintype.Order
 public import Mathlib.MeasureTheory.Function.AEEqFun
 public import Mathlib.MeasureTheory.Function.LpSeminorm.Defs
-public import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Sub
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Fintype.Order
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.MeasureTheory.Integral.Lebesgue.Sub
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Basic theorems about ℒp space

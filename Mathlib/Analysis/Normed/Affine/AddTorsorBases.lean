@@ -5,8 +5,23 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.LinearAlgebra.AffineSpace.FiniteDimensional
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.LinearAlgebra.AffineSpace.Basis
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.LinearAlgebra.AffineSpace.FiniteDimensional
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Bases in normed affine spaces.

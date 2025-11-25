@@ -7,9 +7,12 @@ module
 
 public import Mathlib.CategoryTheory.Adjunction.Restrict
 public import Mathlib.CategoryTheory.Closed.Monoidal
-public import Mathlib.CategoryTheory.Monad.Adjunction
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
-public import Mathlib.Tactic.TFAE
+public import Mathlib.Data.List.TFAE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Monad.Adjunction
 /-!
 
 # Day's reflection theorem

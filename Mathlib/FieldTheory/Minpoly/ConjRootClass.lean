@@ -6,6 +6,10 @@ Authors: Yuyang Zhao
 module
 
 public import Mathlib.FieldTheory.Minpoly.IsConjRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.LocalRing.Basic
 
 /-!
 # Conjugate root classes

@@ -5,9 +5,20 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
-public import Mathlib.RingTheory.Norm.Transitivity
 public import Mathlib.RingTheory.Trace.Basic
+public import Mathlib.RingTheory.Norm.Defs
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.RingTheory.Norm.Transitivity
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.Field
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
 
 /-!
 # Discriminant of a family of vectors

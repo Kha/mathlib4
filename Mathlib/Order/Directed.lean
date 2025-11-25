@@ -5,7 +5,16 @@ Authors: Johannes Hölzl, Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Set.Image
+public import Mathlib.Order.Lattice
+public import Mathlib.Util.Delaborators
+public import Mathlib.Order.BoundedOrder.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Choose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
 
 /-!
 # Directed indexed families and sets

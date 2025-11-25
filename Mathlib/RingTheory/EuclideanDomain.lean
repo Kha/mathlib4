@@ -7,8 +7,10 @@ module
 
 public import Mathlib.Algebra.GCDMonoid.Basic
 public import Mathlib.Algebra.EuclideanDomain.Basic
-public import Mathlib.RingTheory.Ideal.Basic
-public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.RingTheory.Ideal.Nonunits
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lemmas about Euclidean domains

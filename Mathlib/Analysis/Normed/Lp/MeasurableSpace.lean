@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.Normed.Lp.PiLp
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurable space structure on `WithLp`

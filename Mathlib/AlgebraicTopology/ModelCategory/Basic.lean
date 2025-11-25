@@ -5,13 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.MorphismProperty.Composition
-public import Mathlib.CategoryTheory.MorphismProperty.Factorization
-public import Mathlib.CategoryTheory.MorphismProperty.LiftingProperty
 public import Mathlib.CategoryTheory.MorphismProperty.WeakFactorizationSystem
-public import Mathlib.AlgebraicTopology.ModelCategory.Instances
+public import Mathlib.AlgebraicTopology.ModelCategory.CategoryWithCofibrations
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicTopology.ModelCategory.Instances
 
 /-!
 # Model categories

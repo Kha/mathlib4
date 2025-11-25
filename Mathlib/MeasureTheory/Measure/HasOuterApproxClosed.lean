@@ -5,8 +5,21 @@ Authors: Kalle Kytölä
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
 public import Mathlib.Topology.MetricSpace.ThickenedIndicator
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Data.Nat.Cast.Order.Field
 
 /-!
 # Spaces where indicators of closed sets have decreasing approximations by continuous functions

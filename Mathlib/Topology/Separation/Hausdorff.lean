@@ -8,6 +8,22 @@ module
 public import Mathlib.Topology.Compactness.SigmaCompact
 public import Mathlib.Topology.Irreducible
 public import Mathlib.Topology.Separation.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Ultrafilter
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Order.Filter.Bases.Finite
 
 /-!
 # T₂ and T₂.₅ spaces.

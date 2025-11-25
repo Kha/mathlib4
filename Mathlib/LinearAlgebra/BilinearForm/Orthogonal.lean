@@ -5,8 +5,15 @@ Authors: Andreas Swerdlow, Kexing Ying
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
 public import Mathlib.LinearAlgebra.BilinearForm.Properties
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.IsField
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.LocalRing.Basic
 
 /-!
 # Bilinear form

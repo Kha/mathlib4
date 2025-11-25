@@ -5,8 +5,17 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.Constructions
-public import Mathlib.Tactic.TFAE
+public import Mathlib.Data.List.TFAE
+public import Mathlib.Data.Set.Notation
+public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Topology.Defs.Induced
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Constructions
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Locally closed sets

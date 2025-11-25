@@ -6,8 +6,15 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.LinearAlgebra.Dimension.Free
-public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 # Finite-dimensional vector spaces

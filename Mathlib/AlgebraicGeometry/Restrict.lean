@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicGeometry.Cover.Open
 public import Mathlib.AlgebraicGeometry.Over
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Restriction of Schemes and Morphisms

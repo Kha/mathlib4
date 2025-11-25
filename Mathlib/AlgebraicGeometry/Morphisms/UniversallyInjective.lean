@@ -5,8 +5,8 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.PullbackCarrier
-public import Mathlib.Topology.LocalAtTarget
+public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.AlgebraicGeometry.PullbackCarrier
 
 /-!
 # Universally injective morphism

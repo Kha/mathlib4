@@ -6,7 +6,10 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic
-public import Mathlib.NumberTheory.GaussSum
+public import Mathlib.Algebra.Field.ZMod
+import Mathlib.NumberTheory.GaussSum
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Finite.Basic
 
 /-!
 # Quadratic characters of finite fields

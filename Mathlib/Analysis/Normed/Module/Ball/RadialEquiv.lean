@@ -6,7 +6,10 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Normed.Module.Basic
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Homeomorphism between a normed space and sphere times `(0, +∞)`

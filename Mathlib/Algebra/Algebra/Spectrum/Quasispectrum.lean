@@ -6,8 +6,15 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Algebra.Algebra.Spectrum.Basic
-public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.Algebra.Unitization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.NoncommRing
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Algebra.Field.IsField
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Quasiregularity and quasispectrum

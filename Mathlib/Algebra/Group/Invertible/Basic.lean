@@ -9,6 +9,10 @@ public import Mathlib.Algebra.Group.Commute.Units
 public import Mathlib.Algebra.Group.Invertible.Defs
 public import Mathlib.Algebra.Group.Hom.Defs
 public import Mathlib.Logic.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Units.Basic
 /-!
 # Theorems about invertible elements
 

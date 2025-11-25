@@ -8,6 +8,9 @@ module
 public import Mathlib.LinearAlgebra.Basis.Submodule
 public import Mathlib.LinearAlgebra.Matrix.Reindex
 public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bases and matrices

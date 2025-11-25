@@ -5,11 +5,19 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.Order.Nonneg.Module
 public import Mathlib.LinearAlgebra.Pi
 public import Mathlib.LinearAlgebra.Quotient.Defs
 public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Finset.Preimage
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Algebra.Module.Equiv.Opposite
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Basic results on finitely generated (sub)modules

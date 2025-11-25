@@ -6,6 +6,18 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.MeasureTheory.Integral.IntegrableOn
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.T5
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Locally integrable functions

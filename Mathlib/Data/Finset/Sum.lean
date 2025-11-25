@@ -8,6 +8,8 @@ module
 public import Mathlib.Data.Finset.Card
 public import Mathlib.Data.Finset.Fold
 public import Mathlib.Data.Multiset.Sum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Disjoint sum of finsets

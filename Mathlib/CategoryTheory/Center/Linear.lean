@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Preadditive.FunctorCategory
 public import Mathlib.CategoryTheory.Linear.Basic
 public import Mathlib.CategoryTheory.Center.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Center of a linear category

@@ -6,7 +6,10 @@ Authors: Mohanad Ahmed
 module
 
 public import Mathlib.Data.Matrix.Block
-public import Mathlib.LinearAlgebra.Matrix.SemiringInverse
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.Matrix.SemiringInverse
 
 /-! # Block Matrices from Rows and Columns
 

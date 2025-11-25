@@ -5,13 +5,17 @@ Authors: Jeremy Avigad
 -/
 module
 
-public import Batteries.Data.List.Pairwise
-public import Batteries.Data.List.Perm
-public import Mathlib.Data.List.OfFn
-public import Mathlib.Data.List.Nodup
-public import Mathlib.Data.List.TakeWhile
 public import Mathlib.Order.Fin.Basic
 import all Init.Data.List.Sort.Basic  -- for exposing `mergeSort`
+public import Batteries.Data.List.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Pairwise
+import Batteries.Data.List.Perm
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.List.OfFn
+import Mathlib.Data.List.TakeWhile
 
 /-!
 # Sorting algorithms on lists

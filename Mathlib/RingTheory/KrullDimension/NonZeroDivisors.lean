@@ -5,11 +5,21 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
 public import Mathlib.RingTheory.KrullDimension.Basic
-public import Mathlib.RingTheory.MvPowerSeries.NoZeroDivisors
 public import Mathlib.RingTheory.PowerSeries.Basic
-public import Mathlib.RingTheory.Spectrum.Prime.RingHom
+public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.RingTheory.Spectrum.Prime.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Set.Disjoint
+import Mathlib.RingTheory.MvPowerSeries.NoZeroDivisors
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
+import Mathlib.RingTheory.Spectrum.Prime.RingHom
 
 /-!
 

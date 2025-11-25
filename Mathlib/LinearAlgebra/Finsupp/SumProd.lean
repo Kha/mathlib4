@@ -9,6 +9,7 @@ public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Algebra.Module.Pi
 public import Mathlib.Algebra.Module.Prod
 public import Mathlib.Data.Finsupp.SMul
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `Finsupp`s and sum/product types

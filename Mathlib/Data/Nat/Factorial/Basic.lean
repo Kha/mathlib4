@@ -5,9 +5,12 @@ Authors: Mario Carneiro, Chris Hughes, Floris van Doorn, Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Nat.Basic
 public import Mathlib.Tactic.Common
-public import Mathlib.Tactic.Monotonicity.Attr
+public import Mathlib.Data.Nat.Notation
+public import Mathlib.Tactic.GCongr.Core
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Nat.Basic
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Factorial and variants

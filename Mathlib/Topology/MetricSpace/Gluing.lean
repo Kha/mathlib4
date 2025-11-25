@@ -5,8 +5,16 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Order.ConditionallyCompleteLattice.Group
 public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Tactic.Abel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Order.ConditionallyCompleteLattice.Group
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Metric space gluing

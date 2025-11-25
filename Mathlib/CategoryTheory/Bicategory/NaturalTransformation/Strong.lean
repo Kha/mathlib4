@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.CategoryTheory.Bicategory.Functor.Pseudofunctor
-public import Mathlib.CategoryTheory.Bicategory.NaturalTransformation.Oplax
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-05-11")

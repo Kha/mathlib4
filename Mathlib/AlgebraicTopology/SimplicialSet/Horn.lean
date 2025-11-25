@@ -6,7 +6,14 @@ Authors: Johan Commelin, Kim Morrison, Adam Topaz, Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.StdSimplex
-public import Mathlib.CategoryTheory.Subpresheaf.Equalizer
+public import Mathlib.Algebra.NeZero
+public import Mathlib.Algebra.CharZero.Defs
+public import Mathlib.Algebra.Group.Units.Basic
+public import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.CategoryTheory.Subpresheaf.Equalizer
+import Mathlib.Algebra.Group.Nat.Units
 
 /-!
 # Horns

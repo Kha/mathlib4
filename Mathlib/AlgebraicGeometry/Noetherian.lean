@@ -5,9 +5,13 @@ Authors: Geno Racklin Asher
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
-public import Mathlib.RingTheory.Localization.Submodule
-public import Mathlib.RingTheory.Spectrum.Prime.Noetherian
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Localization.Submodule
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Spectrum.Prime.Noetherian
 
 /-!
 # Noetherian and Locally Noetherian Schemes

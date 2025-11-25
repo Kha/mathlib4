@@ -6,7 +6,21 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Inverse
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # derivatives of the inverse trigonometric functions

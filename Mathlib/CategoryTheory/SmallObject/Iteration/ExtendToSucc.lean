@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.SmallObject.Iteration.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extension of a functor from `Set.Iic j` to `Set.Iic (Order.succ j)`

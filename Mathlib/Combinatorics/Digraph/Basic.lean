@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.CompleteBooleanAlgebra
 public import Mathlib.Data.Fintype.Pi
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Digraphs

@@ -6,6 +6,19 @@ Authors: Sophie Morel
 module
 
 public import Mathlib.Analysis.Analytic.ChangeOrigin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
 
 /-! We specialize the theory of analytic functions to the case of functions that admit a
 development given by a *finite* formal multilinear series. We call them "continuously polynomial",

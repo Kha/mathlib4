@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Logic.Nontrivial.Basic
+public import Batteries.Tactic.Lint.Simp
+public import Mathlib.Algebra.Notation.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
 
 /-!
 # Multiplicative opposite and algebraic operations on it

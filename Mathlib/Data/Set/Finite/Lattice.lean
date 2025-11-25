@@ -5,9 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro, Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Powerset
-public import Mathlib.Data.Set.Finite.Range
-public import Mathlib.Data.Set.Lattice.Image
+public import Mathlib.Data.ULift
+public import Mathlib.Data.Finset.Union
+public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Order.Hom.BoundedLattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Powerset
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Finiteness of unions and intersections

@@ -6,9 +6,20 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 module
 
 public import Mathlib.Algebra.Algebra.Defs
-public import Mathlib.Algebra.CharP.Invertible
 public import Mathlib.Data.Finset.NatAntidiagonal
 public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.Algebra.CharP.Defs
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Data.Nat.Choose.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Invertible
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Group.Units.Hom
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.Commute
 
 /-!
 # Invertibility of factorials

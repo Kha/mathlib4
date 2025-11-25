@@ -7,11 +7,20 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.LinearAlgebra.FreeModule.PID
-public import Mathlib.LinearAlgebra.Matrix.AbsoluteValue
 public import Mathlib.NumberTheory.ClassNumber.AdmissibleAbsoluteValue
 public import Mathlib.RingTheory.ClassGroup
-public import Mathlib.RingTheory.DedekindDomain.IntegralClosure
-public import Mathlib.RingTheory.Norm.Basic
+public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.RingTheory.Trace.Basic
+public import Mathlib.RingTheory.UniqueFactorizationDomain.Finite
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Data.Int.LeastGreatest
+import Mathlib.LinearAlgebra.Matrix.AbsoluteValue
+import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Class numbers of global fields

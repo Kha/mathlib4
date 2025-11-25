@@ -5,9 +5,12 @@ Authors: Ansar Azhdarov
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Range
-public import Mathlib.Data.Set.Finite.Lattice
-public import Mathlib.Order.Zorn
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Teichmuller-Tukey

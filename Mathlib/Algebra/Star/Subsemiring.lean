@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Star.NonUnitalSubsemiring
 public import Mathlib.Algebra.Ring.Subsemiring.Basic
+public import Mathlib.Algebra.Star.Center
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Star subrings

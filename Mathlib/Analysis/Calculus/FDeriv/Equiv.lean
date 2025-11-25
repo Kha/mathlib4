@@ -5,10 +5,26 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
-public import Mathlib.Analysis.Calculus.FDeriv.Comp
-public import Mathlib.Analysis.Calculus.FDeriv.Const
-public import Mathlib.Analysis.Calculus.FDeriv.Linear
+public import Mathlib.Topology.OpenPartialHomeomorph
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Analysis.Normed.Operator.LinearIsometry
+public import Mathlib.Topology.Algebra.Module.StrongTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Normed.Operator.Asymptotics
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # The derivative of a linear equivalence

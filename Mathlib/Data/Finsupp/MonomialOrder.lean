@@ -6,8 +6,10 @@ Authors: Antoine Chambert-Loir
 module
 
 public import Mathlib.Data.Finsupp.Lex
-public import Mathlib.Data.Finsupp.WellFounded
-public import Mathlib.Data.List.TFAE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Order
+import Mathlib.Data.Finsupp.WellFounded
 
 /-! # Monomial orders
 

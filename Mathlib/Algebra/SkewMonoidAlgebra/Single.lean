@@ -6,6 +6,7 @@ Authors: María Inés de Frutos Fernández, Xavier Généreux
 module
 
 public import Mathlib.Algebra.SkewMonoidAlgebra.Basic
+import Mathlib.Tactic.TypeStar
 /-!
 # Modifying skew monoid algebra at exactly one point
 

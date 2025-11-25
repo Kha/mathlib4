@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Group.Equiv.Opposite
 public import Mathlib.Algebra.GroupWithZero.Opposite
 public import Mathlib.Algebra.Ring.Hom.Defs
 public import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
 
 /-!
 # Ring structures on the multiplicative opposite

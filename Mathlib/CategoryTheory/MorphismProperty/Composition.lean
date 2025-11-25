@@ -6,6 +6,8 @@ Authors: Andrew Yang, Joël Riou
 module
 
 public import Mathlib.CategoryTheory.MorphismProperty.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Compatibilities of properties of morphisms with respect to composition

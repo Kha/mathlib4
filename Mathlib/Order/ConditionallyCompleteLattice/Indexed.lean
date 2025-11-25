@@ -6,6 +6,13 @@ Authors: Sébastian Gouëzel
 module
 
 public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Indexed sup / inf in conditionally complete lattices

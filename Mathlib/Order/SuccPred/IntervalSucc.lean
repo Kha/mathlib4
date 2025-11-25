@@ -5,9 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Pairwise.Basic
-public import Mathlib.Data.Set.Lattice
 public import Mathlib.Order.SuccPred.Archimedean
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Pairwise.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Intervals `Ixx (f x) (f (Order.succ x))`

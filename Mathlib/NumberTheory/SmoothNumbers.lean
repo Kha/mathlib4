@@ -6,7 +6,21 @@ Authors: Michael Stoll, Ralf Stephan
 module
 
 public import Mathlib.Data.Nat.Factorization.Defs
-public import Mathlib.Data.Nat.Squarefree
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Data.Finsupp.SMulWithZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Pi
+import Mathlib.Data.List.Prime
+import Mathlib.Data.Nat.Squarefree
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Infinite
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Smooth numbers

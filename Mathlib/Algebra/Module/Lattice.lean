@@ -5,9 +5,24 @@ Authors: Judith Ludwig, Christian Merten
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.Localization
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.LinearAlgebra.FreeModule.PID
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Basis.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.Algebra.Module.Submodule.Pointwise
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Dimension.Localization
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Localization.Module
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.SetTheory.Cardinal.Arithmetic
 
 /-!
 # Lattices

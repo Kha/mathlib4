@@ -7,10 +7,13 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.Bipartite
 public import Mathlib.Combinatorics.SimpleGraph.Circulant
-public import Mathlib.Combinatorics.SimpleGraph.Coloring
 public import Mathlib.Combinatorics.SimpleGraph.CompleteMultipartite
-public import Mathlib.Combinatorics.SimpleGraph.Hasse
-public import Mathlib.Data.Fin.Parity
+public import Mathlib.Tactic.FinCases
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fin.Parity
 
 /-!
 # Concrete colorings of common graphs

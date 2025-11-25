@@ -5,11 +5,11 @@ Authors: Yael Dillies
 -/
 module
 
-public import Batteries.Tactic.Init
-public import Mathlib.Tactic.ToAdditive
-public import Mathlib.Tactic.Lemma
-public import Mathlib.Tactic.TypeStar
-public import Mathlib.Util.AssertExists
+public import Mathlib.Tactic.Translate.ToAdditive
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-! # Lemmas about inequalities with `1`. -/
 

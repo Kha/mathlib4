@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.Monotone.Monovary
 public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Interpreting monovarying functions as monotone functions

@@ -5,11 +5,23 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Geometry.Manifold.Algebra.Structures
 public import Mathlib.Geometry.Manifold.BumpFunction
 public import Mathlib.Geometry.Manifold.VectorBundle.SmoothSection
-public import Mathlib.Topology.MetricSpace.PartitionOfUnity
-public import Mathlib.Topology.ShrinkingLemma
+public import Mathlib.Topology.PartitionOfUnity
+public import Mathlib.Geometry.Manifold.ContMDiffMap
+public import Mathlib.Topology.Compactness.LocallyFinite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.ShrinkingLemma
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.MetricSpace.PartitionOfUnity
+import Mathlib.Geometry.Manifold.Algebra.Structures
+import Mathlib.Geometry.Manifold.ContMDiff.Atlas
 
 /-!
 # Smooth partition of unity

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Sites.CompatiblePlus
 public import Mathlib.CategoryTheory.Sites.ConcreteSheafification
+import Mathlib.Tactic.TypeStar
 
 /-!
 

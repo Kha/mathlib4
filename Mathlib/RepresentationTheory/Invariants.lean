@@ -5,8 +5,11 @@ Authors: Antoine Labelle
 -/
 module
 
-public import Mathlib.RepresentationTheory.Basic
 public import Mathlib.RepresentationTheory.FDRep
+public import Mathlib.LinearAlgebra.Projection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Subspace of invariants a group representation

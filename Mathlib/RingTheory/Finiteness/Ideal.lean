@@ -5,9 +5,16 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
-public import Mathlib.RingTheory.Finiteness.Finsupp
 public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
 
 /-!
 # Finitely generated ideals

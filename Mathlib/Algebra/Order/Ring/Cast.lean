@@ -5,9 +5,16 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Abs
 public import Mathlib.Algebra.Order.Ring.Int
-public import Mathlib.Data.Nat.Cast.Order.Ring
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Order properties of cast of integers

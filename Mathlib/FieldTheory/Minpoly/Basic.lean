@@ -5,7 +5,24 @@ Authors: Chris Hughes, Johan Commelin
 -/
 module
 
-public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Polynomial.RingDivision
+import Mathlib.Data.Nat.WithBot
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Minimal polynomials

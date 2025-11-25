@@ -5,11 +5,19 @@ Authors: Judith Ludwig, Christian Merten
 -/
 module
 
-public import Mathlib.Algebra.FiveLemma
-public import Mathlib.LinearAlgebra.TensorProduct.Pi
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
-public import Mathlib.RingTheory.AdicCompletion.Exactness
-public import Mathlib.RingTheory.Flat.Tensor
+public import Mathlib.RingTheory.AdicCompletion.Functoriality
+public import Mathlib.RingTheory.Flat.Basic
+import Mathlib.Algebra.FiveLemma
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.Pi
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.RingTheory.AdicCompletion.Exactness
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Flat.Tensor
+import Mathlib.RingTheory.Noetherian.Basic
 
 /-!
 

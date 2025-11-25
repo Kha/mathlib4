@@ -5,9 +5,14 @@ Authors: Josha Dekker
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Exponential
 public import Mathlib.Probability.ProbabilityMassFunction.Basic
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Basic
+public import Mathlib.Analysis.Complex.Exponential
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.SpecialFunctions.Exponential
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # Poisson distributions over ℕ
 

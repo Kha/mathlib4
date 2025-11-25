@@ -6,8 +6,10 @@ Authors: Kalle Kytölä
 module
 
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
 public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Normed spaces over R or C

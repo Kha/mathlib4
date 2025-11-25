@@ -6,6 +6,8 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Group.Submonoid.Pointwise
+public import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 

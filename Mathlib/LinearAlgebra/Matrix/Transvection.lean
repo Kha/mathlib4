@@ -5,11 +5,15 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Data.Matrix.Basis
-public import Mathlib.Data.Matrix.DMatrix
-public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
 public import Mathlib.LinearAlgebra.Matrix.Reindex
-public import Mathlib.Tactic.Field
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.List.OfFn
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Transvections

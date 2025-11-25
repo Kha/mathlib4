@@ -5,10 +5,12 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.OrderIso
 public import Mathlib.SetTheory.Game.Ordinal
-public import Mathlib.SetTheory.Ordinal.NaturalOps
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Small.Basic
+import Mathlib.Logic.Small.Set
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Algebra.Order.Group.OrderIso
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Birthday` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

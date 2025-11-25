@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Homology.ComplexShape
 public import Mathlib.Algebra.Ring.NegOnePow
 public import Mathlib.CategoryTheory.GradedObject.Trifunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Order.Units
 
 /-! Signs in constructions on homological complexes
 

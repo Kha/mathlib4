@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Order.Lattice
 public import Mathlib.Order.PartialSups
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuity of `partialSups`

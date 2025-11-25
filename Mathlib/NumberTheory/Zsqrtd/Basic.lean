@@ -5,11 +5,23 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Ring.Associated
 public import Mathlib.Algebra.Star.Unitary
-public import Mathlib.RingTheory.PrincipalIdealDomain
-public import Mathlib.Tactic.Ring
-public import Mathlib.Algebra.EuclideanDomain.Int
+public import Mathlib.Algebra.GroupWithZero.Associated
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.GCD
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-! # ℤ[√d]
 

@@ -6,11 +6,12 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.Algebra.GroupCompletion
-public import Mathlib.Topology.Algebra.Ring.Real
 public import Mathlib.Topology.MetricSpace.Algebra
 public import Mathlib.Topology.MetricSpace.Isometry
-public import Mathlib.Topology.MetricSpace.Lipschitz
-public import Mathlib.Topology.UniformSpace.Completion
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # The completion of a metric space

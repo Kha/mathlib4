@@ -5,10 +5,16 @@ Authors: Zhouhang Zhou, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Pi.Basic
-public import Mathlib.Algebra.Group.Support
 public import Mathlib.Algebra.GroupWithZero.Basic
 public import Mathlib.Algebra.Notation.Indicator
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Support
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Group.Pi.Basic
 
 /-!
 # Indicator functions and support of a function in groups with zero

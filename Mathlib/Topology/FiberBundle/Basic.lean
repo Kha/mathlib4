@@ -6,7 +6,16 @@ Authors: Sébastien Gouëzel, Floris van Doorn, Heather Macbeth
 module
 
 public import Mathlib.Topology.FiberBundle.Trivialization
-public import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Filter.Finite
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Fiber bundles

@@ -6,6 +6,8 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.Order.Bounds.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Intervals in Lattices

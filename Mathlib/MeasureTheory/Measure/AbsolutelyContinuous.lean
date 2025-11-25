@@ -6,6 +6,9 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.MeasureTheory.Measure.Map
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Absolute Continuity of Measures

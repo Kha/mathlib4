@@ -6,6 +6,12 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Polynomial.Module.AEval
+public import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Polynomial module

@@ -6,8 +6,15 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Group.Units.Hom
-public import Mathlib.Algebra.GroupWithZero.Commute
 public import Mathlib.Algebra.GroupWithZero.Hom
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Further lemmas about units in a `MonoidWithZero` or a `GroupWithZero`.

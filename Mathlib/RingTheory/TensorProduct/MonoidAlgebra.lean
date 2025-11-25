@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.MonoidAlgebra.Basic
 public import Mathlib.RingTheory.IsTensorProduct
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Monoid algebras commute with base change

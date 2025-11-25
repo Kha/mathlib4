@@ -6,11 +6,21 @@ Authors: Chris Hughes, Morenikeji Neri
 module
 
 public import Mathlib.Algebra.EuclideanDomain.Basic
-public import Mathlib.Algebra.EuclideanDomain.Field
 public import Mathlib.Algebra.GCDMonoid.Basic
-public import Mathlib.RingTheory.Ideal.Prod
 public import Mathlib.RingTheory.Ideal.Nonunits
-public import Mathlib.RingTheory.Noetherian.UniqueFactorizationDomain
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.RingTheory.UniqueFactorizationDomain.Defs
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.RingTheory.Ideal.Prod
+import Mathlib.RingTheory.Noetherian.UniqueFactorizationDomain
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Ring.Divisibility.Basic
 
 /-!
 # Principal ideal rings, principal ideal domains, and Bézout rings

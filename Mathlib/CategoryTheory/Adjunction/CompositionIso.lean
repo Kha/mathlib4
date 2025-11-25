@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Adjunction.Mates
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Compatibilities for left adjoints from compatibilities satisfied by right adjoints

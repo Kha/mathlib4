@@ -6,6 +6,8 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Analysis.Complex.Norm
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The partial order on the complex numbers

@@ -5,10 +5,18 @@ Authors: Kenny Lau, Patrick Massot
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Operations
 public import Mathlib.Algebra.Ring.Fin
 public import Mathlib.LinearAlgebra.Quotient.Basic
-public import Mathlib.RingTheory.Ideal.Quotient.Basic
+public import Mathlib.RingTheory.Ideal.Lattice
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.Algebra.Algebra.Subalgebra.Basic
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Algebra.Algebra.Subalgebra.Operations
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # More operations on modules and ideals related to quotients

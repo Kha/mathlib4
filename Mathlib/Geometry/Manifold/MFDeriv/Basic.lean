@@ -5,9 +5,19 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Analysis.Calculus.TangentCone.Prod
 public import Mathlib.Geometry.Manifold.MFDeriv.Defs
 public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Prod
 
 /-!
 # Basic properties of the manifold Fréchet derivative

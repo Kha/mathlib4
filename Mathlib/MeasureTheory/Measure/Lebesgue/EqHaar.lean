@@ -5,12 +5,39 @@ Authors: Floris van Doorn, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
-public import Mathlib.MeasureTheory.Group.Pointwise
 public import Mathlib.MeasureTheory.Measure.Doubling
-public import Mathlib.MeasureTheory.Measure.Haar.Basic
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Topology.Algebra.Ring.Real
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.MeasureTheory.Group.Pointwise
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.Pi
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Relationship between the Haar and Lebesgue measures

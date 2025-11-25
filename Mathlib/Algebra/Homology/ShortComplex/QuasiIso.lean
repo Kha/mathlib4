@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Homology
+import Mathlib.Tactic.Lemma
 
 /-!
 # Quasi-isomorphisms of short complexes

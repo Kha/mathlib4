@@ -8,7 +8,10 @@ module
 public import Mathlib.RingTheory.WittVector.Domain
 public import Mathlib.RingTheory.WittVector.MulCoeff
 public import Mathlib.RingTheory.DiscreteValuationRing.Basic
-public import Mathlib.Tactic.LinearCombination
+public import Mathlib.FieldTheory.Perfect
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.WittVector.Identities
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 

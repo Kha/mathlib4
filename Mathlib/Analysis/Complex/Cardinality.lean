@@ -5,8 +5,9 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Analysis.Real.Cardinality
 public import Mathlib.Data.Complex.Basic
+public import Mathlib.SetTheory.Cardinal.Continuum
+import Mathlib.Analysis.Real.Cardinality
 
 /-!
 # The cardinality of the complex numbers

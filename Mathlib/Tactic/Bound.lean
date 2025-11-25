@@ -5,11 +5,14 @@ Authors: Geoffrey Irving
 -/
 module
 
-public meta import Aesop
 public meta import Mathlib.Tactic.Bound.Attribute
-public meta import Mathlib.Tactic.Lemma
 public meta import Mathlib.Tactic.Linarith.Frontend
-public meta import Mathlib.Tactic.NormNum.Core
+public import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Bound.Attribute
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 ## The `bound` tactic

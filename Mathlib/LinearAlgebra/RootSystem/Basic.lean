@@ -5,8 +5,13 @@ Authors: Oliver Nash, Deepro Choudhury, Scott Carnahan
 -/
 module
 
-public import Mathlib.LinearAlgebra.RootSystem.Defs
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Nondegenerate
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.LinearAlgebra.RootSystem.IsValuedIn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.LinearAlgebra.RootSystem.Finite.Nondegenerate
 
 /-!
 # Root data and root systems

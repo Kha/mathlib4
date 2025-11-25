@@ -5,8 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ParametricIntegral
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ParametricIntegral
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
 
 /-!
 # Derivatives of interval integrals depending on parameters

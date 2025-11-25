@@ -6,7 +6,8 @@ Authors: Eric Wieser, Jujian Zhang
 module
 
 public import Mathlib.Algebra.DirectSum.Module
-public import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Decompositions of additive monoids, groups, and modules into direct sums

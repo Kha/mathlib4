@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
 public import Mathlib.Algebra.Notation.Prod
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Prod instances for NoZeroSMulDivisors

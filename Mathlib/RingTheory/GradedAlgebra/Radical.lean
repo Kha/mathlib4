@@ -6,6 +6,10 @@ Authors: Jujian Zhang, Eric Wieser
 module
 
 public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Max
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 

@@ -5,8 +5,12 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Sheaf
-public import Mathlib.Topology.Category.LightProfinite.EffectiveEpi
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+public import Mathlib.Topology.Category.LightProfinite.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+import Mathlib.Topology.Category.LightProfinite.EffectiveEpi
+import Mathlib.Topology.Category.LightProfinite.Limits
 /-!
 
 # Light condensed objects

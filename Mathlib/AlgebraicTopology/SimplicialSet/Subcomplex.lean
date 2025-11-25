@@ -7,6 +7,12 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Basic
 public import Mathlib.CategoryTheory.Subpresheaf.OfSection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
+import Mathlib.CategoryTheory.Limits.Types.Colimits
+import Mathlib.CategoryTheory.Limits.Types.Limits
 
 /-!
 # Subcomplexes of a simplicial set

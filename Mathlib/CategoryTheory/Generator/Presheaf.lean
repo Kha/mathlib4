@@ -6,7 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Generator.Basic
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Generators in the category of presheaves

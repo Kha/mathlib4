@@ -6,6 +6,10 @@ Authors: Damien Thomine, Pietro Monticone
 module
 
 public import Mathlib.Dynamics.TopologicalEntropy.CoverEntropy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Functor
+import Mathlib.Order.CompleteLattice.Finset
 
 /-!
 # Topological entropy of the image of a set under a semiconjugacy

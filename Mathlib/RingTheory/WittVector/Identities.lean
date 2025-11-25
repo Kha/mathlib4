@@ -7,7 +7,9 @@ module
 
 public import Mathlib.RingTheory.WittVector.Frobenius
 public import Mathlib.RingTheory.WittVector.Verschiebung
-public import Mathlib.RingTheory.WittVector.MulP
+public import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.WittVector.MulP
 
 /-!
 ## Identities between operations on the ring of Witt vectors

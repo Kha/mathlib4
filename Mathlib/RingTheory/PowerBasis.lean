@@ -5,9 +5,23 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.FieldTheory.Minpoly.Field
 public import Mathlib.LinearAlgebra.SModEq.Basic
-public import Mathlib.RingTheory.Ideal.BigOperators
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.FieldTheory.Minpoly.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.RingTheory.Polynomial.Tower
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Power basis

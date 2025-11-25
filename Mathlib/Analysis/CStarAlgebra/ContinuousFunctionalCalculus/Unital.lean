@@ -5,12 +5,20 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Spectrum.Quasispectrum
 public import Mathlib.Algebra.Algebra.StrictPositivity
 public import Mathlib.Tactic.ContinuousFunctionalCalculus
-public import Mathlib.Topology.Algebra.Polynomial
 public import Mathlib.Topology.Algebra.Star.Real
 public import Mathlib.Topology.ContinuousMap.StarOrdered
+public import Mathlib.Algebra.Field.IsField
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Algebra.Group.Commute.Hom
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The continuous functional calculus

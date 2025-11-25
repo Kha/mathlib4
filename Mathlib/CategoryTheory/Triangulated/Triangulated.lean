@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Triangulated.Pretriangulated
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Functor.EpiMono
 
 /-!
 # Triangulated Categories

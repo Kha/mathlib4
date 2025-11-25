@@ -5,9 +5,12 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
-public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.LinearAlgebra.TensorProduct.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
 
 /-!
 

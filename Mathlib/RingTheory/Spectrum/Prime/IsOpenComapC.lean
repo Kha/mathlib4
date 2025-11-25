@@ -5,8 +5,9 @@ Authors: Damiano Testa
 -/
 module
 
-public import Mathlib.RingTheory.Polynomial.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Polynomial.Basic
 
 /-!
 The morphism `Spec R[x] --> Spec R` induced by the natural inclusion `R --> R[x]` is an open map.

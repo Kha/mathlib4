@@ -7,6 +7,12 @@ module
 
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 public import Mathlib.MeasureTheory.Integral.Average
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Integral average over an interval

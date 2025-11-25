@@ -5,8 +5,13 @@ Authors: Sophie Morel
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Constructions
 public import Mathlib.Analysis.Analytic.CPolynomialDef
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-! # Properties of continuously polynomial functions
 

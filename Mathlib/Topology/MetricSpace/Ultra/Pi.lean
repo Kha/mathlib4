@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.MetricSpace.Pseudo.Pi
 public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ultrametric distances on pi types

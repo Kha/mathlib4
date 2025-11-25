@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Order.Filter.AtTopBot.Group
 
 /-!
 # A collection of specific limit computations for `RCLike`

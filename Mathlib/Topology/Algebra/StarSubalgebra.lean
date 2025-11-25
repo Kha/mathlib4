@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Star.Subalgebra
 public import Mathlib.Topology.Algebra.Algebra
 public import Mathlib.Topology.Algebra.Star
+public import Mathlib.Topology.Closure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.UniformSpace.UniformEmbedding
 
 /-!
 # Topological star (sub)algebras

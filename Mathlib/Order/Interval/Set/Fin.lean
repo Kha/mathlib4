@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.Fin.Basic
 public import Mathlib.Order.Interval.Set.UnorderedInterval
+import Mathlib.Order.MinMax
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # (Pre)images of set intervals under `Fin` operations

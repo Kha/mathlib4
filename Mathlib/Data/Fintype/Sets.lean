@@ -6,8 +6,14 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Finset.BooleanAlgebra
-public import Mathlib.Data.Finset.SymmDiff
 public import Mathlib.Data.Fintype.OfMap
+public import Mathlib.Order.SymmDiff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.SymmDiff
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.SymmDiff
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Subsets of finite types

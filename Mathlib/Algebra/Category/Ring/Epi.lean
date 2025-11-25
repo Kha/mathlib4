@@ -6,8 +6,13 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Category.Ring.Basic
-public import Mathlib.RingTheory.TensorProduct.Finite
-public import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+public import Mathlib.LinearAlgebra.TensorProduct.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.RingTheory.TensorProduct.Maps
 
 /-!
 # Epimorphisms in `CommRingCat`

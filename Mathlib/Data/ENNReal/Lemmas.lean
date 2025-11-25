@@ -5,9 +5,11 @@ Authors: Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Indicator
 public import Mathlib.Data.ENNReal.Basic
 public import Mathlib.Data.Finset.Lattice.Fold
+public import Mathlib.Algebra.Notation.Indicator
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Indicator
 
 /-!
 # Some lemmas on extended non-negative reals

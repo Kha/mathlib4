@@ -9,6 +9,7 @@ public import Mathlib.Algebra.Category.ModuleCat.Basic
 public import Mathlib.LinearAlgebra.TensorProduct.Associator
 public import Mathlib.CategoryTheory.Monoidal.Linear
 public import Mathlib.CategoryTheory.Monoidal.Transport
+import Mathlib.Tactic.Lemma
 
 /-!
 # The monoidal category structure on R-modules

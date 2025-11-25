@@ -5,8 +5,13 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Set.Lattice.Image
 public import Mathlib.Order.Hom.BoundedLattice
+public import Mathlib.Data.Set.Lattice
+public import Mathlib.Logic.Equiv.Set
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Complete lattice homomorphisms

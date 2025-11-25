@@ -6,7 +6,8 @@ Authors: Yuma Mizuno, Calle Sönne, Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Bicategory.Functor.Lax
-public import Mathlib.Tactic.CategoryTheory.Bicategory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.CategoryTheory.Bicategory.Basic
 
 /-!
 # Transformations between lax functors

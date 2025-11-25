@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.IsTerminal
 public import Mathlib.CategoryTheory.Limits.HasLimits
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Initial and terminal objects in a category.

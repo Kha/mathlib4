@@ -7,5 +7,6 @@ public import Mathlib.Analysis.Calculus.TangentCone.Pi
 public import Mathlib.Analysis.Calculus.TangentCone.Prod
 public import Mathlib.Analysis.Calculus.TangentCone.ProperSpace
 public import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-11-06")

@@ -6,8 +6,9 @@ Authors: Patrick Massot, Johannes Hölzl
 module
 
 public import Mathlib.Topology.Algebra.UniformMulAction
-public import Mathlib.Topology.UniformSpace.Completion
-public import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # Completion of topological groups:

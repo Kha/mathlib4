@@ -9,6 +9,11 @@ public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 public import Mathlib.GroupTheory.Abelianization.Defs
 public import Mathlib.RepresentationTheory.Homological.GroupHomology.Basic
 public import Mathlib.RepresentationTheory.Invariants
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # The low-degree homology of a `k`-linear `G`-representation

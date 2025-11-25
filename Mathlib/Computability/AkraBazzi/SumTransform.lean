@@ -6,9 +6,35 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Computability.AkraBazzi.GrowsPolynomially
-public import Mathlib.Analysis.Calculus.Deriv.Inv
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Data.Set.Monotone
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Akra-Bazzi theorem: the sum transform

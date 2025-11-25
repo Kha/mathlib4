@@ -7,7 +7,17 @@ module
 
 public import Mathlib.MeasureTheory.Measure.Content
 public import Mathlib.Topology.ContinuousMap.CompactlySupported
-public import Mathlib.Topology.PartitionOfUnity
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.PartitionOfUnity
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Riesz–Markov–Kakutani representation theorem

@@ -5,10 +5,17 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 -/
 module
 
-public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Deriv
 public import Mathlib.Analysis.Calculus.LogDeriv
 public import Mathlib.Analysis.SpecialFunctions.Complex.Log
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Deriv
 
 /-!
 # Differentiability of the complex `log` function

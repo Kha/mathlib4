@@ -5,9 +5,18 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Algebra.Group.Embedding
 public import Mathlib.Data.Matrix.Mul
 public import Mathlib.GroupTheory.Perm.Sign
+public import Mathlib.Algebra.Group.Invertible.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Embedding
+import Mathlib.Algebra.Module.End
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Nonsingular inverses over semirings

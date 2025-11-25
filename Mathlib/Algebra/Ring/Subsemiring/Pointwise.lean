@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Submonoid.Pointwise
 public import Mathlib.Algebra.Ring.Subsemiring.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-! # Pointwise instances on `Subsemiring`s
 

@@ -6,6 +6,8 @@ Authors: Johannes Hölzl, Johan Commelin, Mario Carneiro
 module
 
 public import Mathlib.Algebra.MvPolynomial.Eval
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Renaming variables of polynomials

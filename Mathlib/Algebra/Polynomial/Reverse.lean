@@ -6,7 +6,17 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Polynomial.Degree.TrailingDegree
-public import Mathlib.Algebra.Polynomial.EraseLead
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Monomial
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Reverse of a univariate polynomial

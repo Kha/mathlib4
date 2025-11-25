@@ -5,8 +5,17 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Combinatorics.Additive.PluenneckeRuzsa
 public import Mathlib.Data.Finset.Density
+public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.Additive.PluenneckeRuzsa
+import Mathlib.Data.NNRat.Order
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Doubling and difference constants

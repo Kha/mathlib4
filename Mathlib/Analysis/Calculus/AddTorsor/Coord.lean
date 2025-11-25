@@ -5,8 +5,13 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Analysis.Calculus.AddTorsor.AffineMap
-public import Mathlib.Analysis.Normed.Affine.AddTorsorBases
+public import Mathlib.LinearAlgebra.AffineSpace.Basis
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.AddTorsor.AffineMap
+import Mathlib.Analysis.Normed.Affine.AddTorsorBases
 
 /-!
 # Barycentric coordinates are smooth

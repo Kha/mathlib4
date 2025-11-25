@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Combinatorics.Quiver.Path
 public import Mathlib.Combinatorics.Quiver.Push
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
 
 /-!
 ## Symmetric quivers and arrow reversal

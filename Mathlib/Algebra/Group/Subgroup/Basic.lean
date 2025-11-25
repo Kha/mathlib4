@@ -6,9 +6,14 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.Algebra.Group.Conj
-public import Mathlib.Algebra.Group.Pi.Lemmas
 public import Mathlib.Algebra.Group.Subgroup.Ker
-public import Mathlib.Algebra.Group.Torsion
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.End
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Basic results on subgroups

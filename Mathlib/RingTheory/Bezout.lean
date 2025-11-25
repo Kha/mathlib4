@@ -6,6 +6,8 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TFAE
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 

@@ -5,8 +5,17 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Mul
-public import Mathlib.Analysis.Calculus.Deriv.Comp
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
 
 /-!
 # Derivatives of `x ↦ x⁻¹` and `f x / g x`

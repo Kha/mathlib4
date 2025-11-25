@@ -5,8 +5,8 @@ Authors: Rémi Bottinelli
 -/
 module
 
-public import Mathlib.CategoryTheory.Groupoid
 public import Mathlib.CategoryTheory.PathCategory.Basic
+import Batteries.Tactic.Init
 
 /-!
 # Free groupoid on a quiver

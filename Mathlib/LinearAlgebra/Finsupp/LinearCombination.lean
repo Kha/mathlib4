@@ -5,9 +5,16 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Module.Submodule.Equiv
 public import Mathlib.Data.Finsupp.Option
 public import Mathlib.LinearAlgebra.Finsupp.Supported
+public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Module.Submodule.Equiv
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # `Finsupp.linearCombination`

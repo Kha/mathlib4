@@ -5,8 +5,9 @@ Authors: Julian Komaromy
 -/
 module
 
-public import Mathlib.AlgebraicTopology.SimplicialSet.Basic
 public import Mathlib.AlgebraicTopology.SimplicialSet.CompStructTruncated
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.Superscript
 
 /-!
 # 2-truncated quasicategories and homotopy relations

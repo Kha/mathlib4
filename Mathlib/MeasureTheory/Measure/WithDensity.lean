@@ -5,10 +5,34 @@ Authors: Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
-public import Mathlib.MeasureTheory.Measure.Decomposition.Exhaustion
 public import Mathlib.MeasureTheory.Group.Convolution
 public import Mathlib.Analysis.LConvolution
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.NNReal.Basic
+import Mathlib.MeasureTheory.Group.LIntegral
+import Mathlib.MeasureTheory.Group.Prod
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Measure.Decomposition.Exhaustion
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Measure with a given density with respect to another measure

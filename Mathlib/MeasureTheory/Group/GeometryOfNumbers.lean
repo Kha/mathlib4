@@ -6,8 +6,20 @@ Authors: Alex J. Best
 module
 
 public import Mathlib.Analysis.Convex.Body
-public import Mathlib.Analysis.Convex.Measure
 public import Mathlib.MeasureTheory.Group.FundamentalDomain
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Measure
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 
 /-!
 # Geometry of numbers

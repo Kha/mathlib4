@@ -7,6 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.ObjectProperty.Small
 public import Mathlib.CategoryTheory.Limits.Presentation
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Objects that are limits of objects satisfying a certain property

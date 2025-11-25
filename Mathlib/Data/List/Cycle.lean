@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Data.Fintype.List
 public import Mathlib.Data.Fintype.OfMap
+public import Mathlib.Data.List.Chain
+public import Mathlib.Data.List.Rotate
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fin.Basic
+import Mathlib.Data.List.Induction
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.List.Range
 
 /-!
 # Cycles of a list

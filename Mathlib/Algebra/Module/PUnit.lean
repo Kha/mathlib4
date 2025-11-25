@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Module.Defs
 public import Mathlib.Algebra.Ring.Action.Basic
 public import Mathlib.Algebra.Ring.PUnit
+public import Mathlib.Tactic.Subsingleton
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Instances on PUnit

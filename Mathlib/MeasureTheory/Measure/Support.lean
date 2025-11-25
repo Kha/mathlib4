@@ -6,6 +6,12 @@ Authors: Jon Bannon, Jireh Loreaux
 module
 
 public import Mathlib.MeasureTheory.Measure.OpenPos
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Support of a Measure

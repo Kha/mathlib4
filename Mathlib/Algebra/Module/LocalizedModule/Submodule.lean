@@ -5,10 +5,11 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Module.Submodule.Pointwise
 public import Mathlib.LinearAlgebra.Quotient.Basic
 public import Mathlib.RingTheory.Localization.Module
 public import Mathlib.Algebra.Algebra.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization of Submodules

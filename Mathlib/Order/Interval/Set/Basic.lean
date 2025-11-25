@@ -6,8 +6,14 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot, Yury Kudryashov, Rémy
 module
 
 public import Mathlib.Data.Set.Subsingleton
-public import Mathlib.Order.BooleanAlgebra.Set
 public import Mathlib.Order.Interval.Set.Defs
+public import Mathlib.Data.Set.Insert
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.BooleanAlgebra.Set
 
 /-!
 # Intervals

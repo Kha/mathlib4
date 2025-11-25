@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Topology.Instances.RealVectorSpace
 public import Mathlib.Analysis.Normed.Affine.Isometry
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Mazur-Ulam Theorem

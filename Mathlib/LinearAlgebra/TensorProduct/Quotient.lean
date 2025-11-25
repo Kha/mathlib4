@@ -9,6 +9,8 @@ public import Mathlib.LinearAlgebra.Quotient.Basic
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
 public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

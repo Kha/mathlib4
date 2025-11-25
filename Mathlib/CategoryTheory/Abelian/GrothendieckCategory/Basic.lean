@@ -6,10 +6,11 @@ Authors: Paul Reichert
 module
 
 public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Basic
-public import Mathlib.CategoryTheory.Abelian.Subobject
 public import Mathlib.CategoryTheory.Abelian.Transfer
-public import Mathlib.CategoryTheory.Adjunction.AdjointFunctorTheorems
-public import Mathlib.CategoryTheory.Limits.HasLimits
+public import Mathlib.CategoryTheory.Generator.Basic
+import Mathlib.CategoryTheory.Abelian.Subobject
+import Mathlib.CategoryTheory.Adjunction.AdjointFunctorTheorems
+import Mathlib.CategoryTheory.Preadditive.Biproducts
 
 /-!
 

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.ComposableArrows.Basic
 public import Mathlib.CategoryTheory.Localization.CalculusOfFractions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.Opposite
 
 /-! # Essential surjectivity of the functor induced on composable arrows
 

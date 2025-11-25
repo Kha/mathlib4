@@ -5,14 +5,38 @@ Authors: Kexing Ying, Kevin Buzzard, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Pi
-public import Mathlib.Algebra.Group.Indicator
-public import Mathlib.Algebra.Group.Support
-public import Mathlib.Algebra.NoZeroSMulDivisors.Basic
-public import Mathlib.Algebra.Notation.FiniteSupport
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Data.Set.Finite.Lattice
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
+public import Mathlib.Algebra.Notation.Indicator
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Algebra.Group.Equiv.Defs
+public import Mathlib.Algebra.Group.Pi.Basic
+public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Algebra.Group.Support
+import Mathlib.Algebra.Module.End
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Notation.FiniteSupport
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Powerset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Finite products and sums over types and sets

@@ -6,11 +6,17 @@ Authors: Johannes Hölzl, Callum Sutton, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Group.Equiv.Opposite
-public import Mathlib.Algebra.GroupWithZero.Equiv
-public import Mathlib.Algebra.GroupWithZero.InjSurj
 public import Mathlib.Algebra.Notation.Prod
 public import Mathlib.Algebra.Ring.Hom.Defs
-public import Mathlib.Logic.Equiv.Set
+public import Mathlib.Util.Delaborators
+public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.Equiv
+import Mathlib.Algebra.GroupWithZero.InjSurj
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Logic.Equiv.Set
 
 /-!
 # (Semi)ring equivs

@@ -5,9 +5,19 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.LocallyConvex.ContinuousOfBounded
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
 public import Mathlib.Probability.Moments.Variance
+public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Analysis.LocallyConvex.ContinuousOfBounded
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Covariance in Banach spaces

@@ -9,7 +9,16 @@ public import Mathlib.Data.Prod.Lex
 public import Mathlib.Data.Sigma.Lex
 public import Mathlib.Order.RelIso.Set
 public import Mathlib.Order.WellQuasiOrder
-public import Mathlib.Tactic.TFAE
+public import Mathlib.Data.List.Forall2
+public import Mathlib.Data.List.TFAE
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Order.OrderIsoNat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Infix
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Well-founded sets

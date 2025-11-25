@@ -7,8 +7,17 @@ module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Reverse
-public import Mathlib.Algebra.Polynomial.Inductions
 public import Mathlib.RingTheory.Localization.Away.Basic
+public import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Inductions
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Int.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!  # Laurent polynomials
 

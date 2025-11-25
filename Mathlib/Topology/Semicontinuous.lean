@@ -5,9 +5,21 @@ Authors: Sébastien Gouëzel, Antoine Chambert-Loir, Anatole Dedecker
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Indicator
-public import Mathlib.Topology.Piecewise
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Order.Filter.Extr
+public import Mathlib.Topology.Order.Real
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Order.Cover
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Semicontinuous maps

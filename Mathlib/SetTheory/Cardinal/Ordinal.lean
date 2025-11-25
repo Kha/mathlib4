@@ -5,8 +5,17 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.SetTheory.Cardinal.Arithmetic
 public import Mathlib.SetTheory.Ordinal.Principal
+public import Mathlib.SetTheory.Cardinal.Aleph
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Ordinal arithmetic with cardinals

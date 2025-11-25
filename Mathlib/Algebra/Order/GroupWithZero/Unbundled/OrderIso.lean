@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 public import Mathlib.Algebra.GroupWithZero.Units.Equiv
 public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Multiplication by a positive element as an order isomorphism

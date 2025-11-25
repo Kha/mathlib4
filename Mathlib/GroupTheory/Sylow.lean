@@ -5,10 +5,26 @@ Authors: Chris Hughes, Thomas Browning
 -/
 module
 
-public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.Data.SetLike.Fintype
 public import Mathlib.GroupTheory.PGroup
 public import Mathlib.GroupTheory.NoncommPiCoprod
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.GroupTheory.Perm.Cycle.Type
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Sylow theorems

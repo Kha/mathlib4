@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.GaloisConnection.Basic
 
 /-!
 # Theory of sieves

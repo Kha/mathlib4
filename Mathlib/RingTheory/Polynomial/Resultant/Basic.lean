@@ -6,8 +6,19 @@ Authors: Kenny Lau, Anne Baanen, Andrew Yang
 module
 
 public import Mathlib.Algebra.Polynomial.Derivative
-public import Mathlib.Algebra.Polynomial.Div
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+public import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Div
+import Mathlib.GroupTheory.Perm.Fin
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Coeff
 
 /-!
 # Resultant of two polynomials

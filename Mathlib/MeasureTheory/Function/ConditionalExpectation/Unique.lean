@@ -5,8 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
 public import Mathlib.MeasureTheory.Function.ConditionalExpectation.AEMeasurable
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-!
 # Uniqueness of the conditional expectation

@@ -7,8 +7,17 @@ module
 
 public import Mathlib.GroupTheory.Solvable
 public import Mathlib.GroupTheory.Sylow
-public import Mathlib.Algebra.Group.Subgroup.Order
-public import Mathlib.GroupTheory.Commutator.Finite
+public import Mathlib.Tactic.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.GroupTheory.Commutator.Finite
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Algebra.Group.Subgroup.Order
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

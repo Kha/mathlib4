@@ -5,7 +5,12 @@ Authors: Floris van Doorn, Heather Macbeth
 -/
 module
 
-public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
 
 /-! # The groupoid of `C^n`, fiberwise-linear maps
 

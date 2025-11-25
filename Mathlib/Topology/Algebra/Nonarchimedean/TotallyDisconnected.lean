@@ -6,6 +6,10 @@ Authors: Jou Glasheen, Kevin Buzzard, David Loeffler, Yongle Hu, Johan Commelin
 module
 
 public import Mathlib.Topology.Algebra.Nonarchimedean.Basic
+public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
 
 /-!
 # Total separatedness of nonarchimedean groups

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Bialgebra.Basic
 public import Mathlib.RingTheory.Coalgebra.GroupLike
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Group-like elements in a bialgebra

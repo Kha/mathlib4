@@ -6,6 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Rigid.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Transport rigid structures over a monoidal equivalence.

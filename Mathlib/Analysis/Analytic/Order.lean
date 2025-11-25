@@ -5,7 +5,21 @@ Authors: Vincent Beffara, Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Topology.DiscreteSubset
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Data.ENat.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.IsolatedZeros
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Vanishing Order of Analytic Functions

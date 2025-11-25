@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Presentation
 public import Mathlib.CategoryTheory.Presentable.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Presentation of a colimit of objects equipped with a presentation

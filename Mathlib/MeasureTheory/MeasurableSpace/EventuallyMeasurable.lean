@@ -7,6 +7,8 @@ module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.Defs
 public import Mathlib.Order.Filter.CountableInter
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Basic
 
 /-!
 # Measurability modulo a filter

@@ -5,9 +5,14 @@ Authors: Parikshit Khanna, Jeremy Avigad, Leonardo de Moura, Floris van Doorn, M
 -/
 module
 
-public import Mathlib.Order.Basic
-public import Mathlib.Data.Nat.Basic
-public import Mathlib.Tactic.Set
+public import Mathlib.Init
+import Mathlib.Logic.IsEmpty
+import Mathlib.Order.Basic
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Set
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Basic
 
 /-! ### List.takeWhile and List.dropWhile -/
 

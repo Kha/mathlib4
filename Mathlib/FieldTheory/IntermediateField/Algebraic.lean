@@ -7,9 +7,23 @@ module
 
 public import Mathlib.FieldTheory.IntermediateField.Basic
 public import Mathlib.FieldTheory.Minpoly.Basic
-public import Mathlib.FieldTheory.Tower
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
-public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Algebraic.Defs
+import Mathlib.FieldTheory.Tower
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Results on finite dimensionality and algebraicity of intermediate fields.

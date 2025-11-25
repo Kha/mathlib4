@@ -5,8 +5,13 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.RingTheory.Flat.Localization
+public import Mathlib.RingTheory.Flat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.LinearAlgebra.DirectSum.Finsupp
+import Mathlib.RingTheory.Flat.Localization
+import Mathlib.RingTheory.Localization.FractionRing
 
 /-!
 # Flat modules in domains

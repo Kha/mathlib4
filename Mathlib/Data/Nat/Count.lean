@@ -5,8 +5,11 @@ Authors: Yaël Dillies, Vladimir Goryachev, Kyle Miller, Kim Morrison, Eric Rodr
 -/
 module
 
-public import Mathlib.Algebra.Group.Nat.Range
 public import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Finset.Basic
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Group.Nat.Range
 
 /-!
 # Counting on ℕ

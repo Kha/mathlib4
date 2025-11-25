@@ -6,10 +6,12 @@ Authors: Kim Morrison, Eric Wieser
 module
 
 public import Mathlib.Algebra.Star.StarAlgHom
-public import Mathlib.Data.Matrix.Basis
-public import Mathlib.Data.Matrix.Composition
 public import Mathlib.LinearAlgebra.Matrix.Kronecker
 public import Mathlib.RingTheory.TensorProduct.Maps
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Algebra isomorphisms between tensor products and matrices

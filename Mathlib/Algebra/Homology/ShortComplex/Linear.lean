@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Preadditive
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homology of linear categories

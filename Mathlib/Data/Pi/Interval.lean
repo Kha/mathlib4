@@ -5,8 +5,13 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Interval.Finset.Basic
-public import Mathlib.Data.Fintype.BigOperators
+public import Mathlib.Data.Fintype.Pi
+public import Mathlib.Order.Interval.Finset.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Order.Interval.Finset.Basic
 
 /-!
 # Intervals in a pi type

@@ -6,7 +6,14 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 module
 
 public import Mathlib.RingTheory.DividedPowers.DPMorphism
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-! # Sub-divided power-ideals
 

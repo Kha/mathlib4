@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Limits.FinallySmall
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Finally small filtered categories

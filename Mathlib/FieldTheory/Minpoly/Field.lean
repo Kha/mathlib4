@@ -5,11 +5,27 @@ Authors: Riccardo Brasca, Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.FieldDivision
 public import Mathlib.Algebra.Polynomial.Lifts
 public import Mathlib.FieldTheory.Minpoly.Basic
-public import Mathlib.RingTheory.Algebraic.Integral
 public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.GroupTheory.OrderOfElement
+public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.LinearAlgebra.Dimension.Free
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Polynomial.Tower
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Minimal polynomials on an algebra over a field

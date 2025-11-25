@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Algebra.Homology.HomotopyCategory.HomComplex
 public import Mathlib.Algebra.Homology.HomotopyCofiber
+public import Mathlib.Algebra.Module.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
 
 /-! # The mapping cone of a morphism of cochain complexes
 

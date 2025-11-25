@@ -5,8 +5,11 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Basic
 public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Order.Monoid.Basic
 
 /-!
 # Pulling back ordered rings along injective maps

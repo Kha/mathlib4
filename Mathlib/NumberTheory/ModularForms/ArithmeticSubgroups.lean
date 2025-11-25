@@ -5,10 +5,18 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Topology.Algebra.IsUniformGroup.DiscreteSubgroup
-public import Mathlib.Topology.Algebra.Ring.Real
 public import Mathlib.Topology.Instances.Matrix
-public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.GroupTheory.Commensurable
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Instances.Int
+import Mathlib.Topology.MetricSpace.Isometry
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.DiscreteSubgroup
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Arithmetic subgroups of `GL(2, ℝ)`

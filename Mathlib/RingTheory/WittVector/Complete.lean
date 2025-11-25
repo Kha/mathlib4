@@ -5,9 +5,12 @@ Authors: Jiedong Jiang
 -/
 module
 
-public import Mathlib.RingTheory.WittVector.Domain
-public import Mathlib.RingTheory.WittVector.Truncated
 public import Mathlib.RingTheory.AdicCompletion.Basic
+public import Mathlib.RingTheory.WittVector.Frobenius
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.WittVector.Domain
+import Mathlib.RingTheory.WittVector.Identities
+import Mathlib.RingTheory.WittVector.Truncated
 
 /-!
 # The ring of Witt vectors is p-torsion free and p-adically complete

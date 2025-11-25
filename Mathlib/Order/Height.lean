@@ -6,8 +6,15 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Data.ENat.Lattice
-public import Mathlib.Order.OrderIsoNat
-public import Mathlib.Tactic.TFAE
+import Mathlib.Order.OrderIsoNat
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Chain
+import Mathlib.Data.List.OfFn
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 

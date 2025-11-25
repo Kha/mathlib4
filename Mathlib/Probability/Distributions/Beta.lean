@@ -6,6 +6,16 @@ Authors: Tommy Löfgren
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # Beta distributions over ℝ
 

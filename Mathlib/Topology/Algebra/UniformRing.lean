@@ -10,7 +10,10 @@ public import Mathlib.Algebra.Module.Submodule.Lattice
 public import Mathlib.Algebra.Ring.TransferInstance
 public import Mathlib.Topology.Algebra.GroupCompletion
 public import Mathlib.Topology.Algebra.Ring.Ideal
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 
 /-!
 # Completion of topological rings:

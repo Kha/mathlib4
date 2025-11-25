@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Order.BooleanAlgebra.Defs
 public import Mathlib.Order.BooleanAlgebra.Basic
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 
 deprecated_module (since := "2025-06-19")

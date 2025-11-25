@@ -5,8 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.MorphismProperty.Factorization
 public import Mathlib.CategoryTheory.MorphismProperty.LiftingProperty
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The retract argument

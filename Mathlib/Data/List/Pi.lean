@@ -6,6 +6,8 @@ Authors: Yuyang Zhao
 module
 
 public import Mathlib.Data.Multiset.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Cartesian product of lists

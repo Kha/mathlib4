@@ -5,13 +5,29 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Tower
 public import Mathlib.Algebra.MvPolynomial.Equiv
-public import Mathlib.Algebra.MvPolynomial.Monad
 public import Mathlib.Algebra.MvPolynomial.Supported
 public import Mathlib.RingTheory.AlgebraicIndependent.Defs
 public import Mathlib.RingTheory.Ideal.Maps
-public import Mathlib.RingTheory.MvPolynomial.Basic
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+public import Mathlib.SetTheory.Cardinal.Order
+public import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Logic.UnivLE
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Monad
+import Mathlib.Data.Finset.Order
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.MvPolynomial.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.SetTheory.Cardinal.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Algebraic Independence

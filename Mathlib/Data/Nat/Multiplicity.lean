@@ -5,7 +5,24 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.Nat.Choose.Factorization
+public import Mathlib.RingTheory.Multiplicity
+public import Mathlib.Data.Nat.Log
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Data.Nat.Digits.Defs
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.GeomSum
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Choose.Factorization
+import Mathlib.Data.Nat.Digits.Lemmas
 
 /-!
 # Natural number multiplicity

@@ -6,6 +6,6 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Ideal.AssociatedPrime.Basic
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-20")

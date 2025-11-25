@@ -5,9 +5,15 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Data.Bool.Set
-public import Mathlib.Data.Nat.Set
 public import Mathlib.Order.CompleteLattice.Basic
+public import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Bool.Set
+import Mathlib.Data.Nat.Set
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
 
 /-!
 # Theory of complete lattices

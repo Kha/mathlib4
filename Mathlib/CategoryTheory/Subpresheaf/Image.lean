@@ -6,8 +6,12 @@ Authors: Andrew Yang, Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Subpresheaf.Basic
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
-public import Mathlib.CategoryTheory.Limits.Types.Colimits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
+import Mathlib.CategoryTheory.Limits.Types.Colimits
+import Mathlib.CategoryTheory.Limits.Types.Limits
 
 /-!
 # The image of a subpresheaf

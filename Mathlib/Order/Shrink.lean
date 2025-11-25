@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.SuccPred.Basic
 public import Mathlib.Logic.Small.Defs
+import Mathlib.Tactic.Lemma
 
 /-!
 # Order instances on Shrink

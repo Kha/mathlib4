@@ -6,6 +6,11 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.Probability.Process.Adapted
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Predictable σ-algebra

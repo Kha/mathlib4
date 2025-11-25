@@ -6,9 +6,13 @@ Authors: Kenny Lau, Devon Tuma, Wojciech Nawrocki
 module
 
 public import Mathlib.RingTheory.Ideal.IsPrimary
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.TwoSidedIdeal.Operations
 public import Mathlib.RingTheory.Jacobson.Radical
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 # Jacobson radical

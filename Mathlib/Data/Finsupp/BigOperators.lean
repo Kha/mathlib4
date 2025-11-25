@@ -5,9 +5,13 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 public import Mathlib.Algebra.Group.Finsupp
-public import Mathlib.Data.Finset.Pairwise
+public import Mathlib.Data.Finset.Lattice.Fold
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Pairwise
+import Mathlib.Data.List.Dedup
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 

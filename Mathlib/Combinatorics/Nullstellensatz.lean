@@ -5,13 +5,20 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.Equiv
-public import Mathlib.Algebra.Polynomial.Degree.Definitions
-public import Mathlib.Data.Finsupp.MonomialOrder.DegLex
-public import Mathlib.RingTheory.Ideal.Maps
-public import Mathlib.RingTheory.MvPolynomial.Groebner
-public import Mathlib.RingTheory.MvPolynomial.Homogeneous
-public import Mathlib.RingTheory.MvPolynomial.MonomialOrder.DegLex
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.Data.Finsupp.MonomialOrder
+public import Mathlib.Data.Finsupp.Weight
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Algebra.Polynomial.Roots
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Data.Fintype.Option
+import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.RingTheory.MvPolynomial.Groebner
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.RingTheory.MvPolynomial.MonomialOrder.DegLex
 
 /-! # Alon's Combinatorial Nullstellensatz
 

@@ -5,10 +5,17 @@ Authors: Yaël Dillies, Ella Yu
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Data.Finset.Prod
-public import Mathlib.Data.Fintype.Prod
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Prod
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Additive energy

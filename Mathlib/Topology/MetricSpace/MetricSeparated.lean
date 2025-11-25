@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Data.Rel.Separated
 public import Mathlib.Topology.EMetricSpace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Metric separation

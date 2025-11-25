@@ -5,8 +5,18 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Topology.ContinuousMap.Bounded.Star
 public import Mathlib.Topology.ContinuousMap.CocompactMap
+public import Mathlib.Analysis.CStarAlgebra.Basic
+public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.ContinuousMap.Bounded.Star
 
 /-!
 # Continuous functions vanishing at infinity

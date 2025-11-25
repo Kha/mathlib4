@@ -7,6 +7,15 @@ module
 
 public import Mathlib.Probability.Kernel.Composition.Comp
 public import Mathlib.Probability.Kernel.Composition.ParallelComp
+public import Mathlib.MeasureTheory.MeasurableSpace.Prod
+public import Mathlib.Probability.Kernel.Composition.MapComap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
 
 /-!
 # Composition-product of kernels

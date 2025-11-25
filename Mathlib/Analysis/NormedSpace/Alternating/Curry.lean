@@ -8,6 +8,8 @@ module
 public import Mathlib.LinearAlgebra.Alternating.Curry
 public import Mathlib.Analysis.NormedSpace.Alternating.Basic
 public import Mathlib.Analysis.NormedSpace.Multilinear.Curry
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Currying continuous alternating forms

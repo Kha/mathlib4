@@ -6,6 +6,8 @@ Authors: Robin Carlier, Emily Riehl
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Terminal
+public import Mathlib.CategoryTheory.Category.Cat
+import Mathlib.CategoryTheory.EssentiallySmall
 
 /-!
 # Terminal categories

@@ -6,6 +6,8 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Order.CompactlyGenerated.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Generators for Boolean algebras

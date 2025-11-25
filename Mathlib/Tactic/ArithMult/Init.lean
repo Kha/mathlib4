@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Init
 public meta import Aesop
+import Aesop.Frontend.Command
 
 /-!
 # arith_mult Rule Set

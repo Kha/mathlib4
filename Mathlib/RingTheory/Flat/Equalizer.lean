@@ -6,6 +6,8 @@ Authors: Christian Merten
 module
 
 public import Mathlib.RingTheory.Flat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Base change along flat modules preserves equalizers

@@ -5,12 +5,18 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.MeasureCompProd
 public import Mathlib.Probability.Kernel.Disintegration.Basic
 public import Mathlib.Probability.Kernel.Disintegration.CondCDF
 public import Mathlib.Probability.Kernel.Disintegration.Density
-public import Mathlib.Probability.Kernel.Disintegration.CDFToKernel
 public import Mathlib.MeasureTheory.Constructions.Polish.EmbeddingReal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Existence of disintegration of measures and kernels for standard Borel spaces

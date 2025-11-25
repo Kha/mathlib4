@@ -5,12 +5,27 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Continuous
-public import Mathlib.Analysis.Normed.Module.HahnBanach
-public import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
-public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lp
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
-public import Mathlib.Order.Filter.Ring
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.Order.Filter.Ring
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Analysis.Normed.Module.HahnBanach
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lp
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # From equality of integrals to equality of functions
 

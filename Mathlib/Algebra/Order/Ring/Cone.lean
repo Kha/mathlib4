@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.Group.Cone
 public import Mathlib.Algebra.Ring.Subsemiring.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Construct ordered rings from rings with a specified positive cone.

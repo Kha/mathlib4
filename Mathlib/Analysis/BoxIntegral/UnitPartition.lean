@@ -5,10 +5,27 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.Algebra.Module.ZLattice.Basic
-public import Mathlib.Analysis.BoxIntegral.Integrability
-public import Mathlib.Analysis.BoxIntegral.Partition.Measure
-public import Mathlib.Analysis.BoxIntegral.Partition.Tagged
+public import Mathlib.Analysis.BoxIntegral.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Analysis.BoxIntegral.Integrability
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Algebra.Indicator
+import Mathlib.Algebra.Module.ZLattice.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Data.Int.Cast.Field
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # Unit Partition

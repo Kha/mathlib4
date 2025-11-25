@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Connected
 public import Mathlib.CategoryTheory.Limits.Final
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # (Co)limit presentations

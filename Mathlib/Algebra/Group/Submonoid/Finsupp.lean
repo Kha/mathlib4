@@ -6,6 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.BigOperators.Finsupp.Basic
+public import Mathlib.Algebra.Group.Submonoid.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-! # Connection between `Submonoid.closure` and `Finsupp.prod` -/
 

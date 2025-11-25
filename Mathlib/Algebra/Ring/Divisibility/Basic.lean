@@ -5,9 +5,13 @@ Authors: Jeremy Avigad, Leonardo de Moura, Floris van Doorn, Yury Kudryashov, Ne
 -/
 module
 
-public import Mathlib.Algebra.Divisibility.Hom
-public import Mathlib.Algebra.Group.Equiv.Basic
 public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Divisibility.Basic
+public import Mathlib.Algebra.Group.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Group.Equiv.Basic
 
 /-!
 # Lemmas about divisibility in rings

@@ -6,7 +6,9 @@ Authors: Antoine Chambert-Loir, María-Inés de Frutos—Fernández
 module
 
 public import Mathlib.Data.Nat.Choose.Basic
-public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.Util.CompileInductive
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Tactic.Ring.RingNF
 
 /-! # Two lemmas on choose
 

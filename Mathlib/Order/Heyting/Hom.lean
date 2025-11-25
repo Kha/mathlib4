@@ -6,6 +6,7 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Order.Hom.BoundedLattice
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Heyting algebra morphisms

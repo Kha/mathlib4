@@ -5,11 +5,28 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 -/
 module
 
-public import Mathlib.Order.Monotone.Odd
 public import Mathlib.Analysis.Calculus.LogDeriv
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.Trigonometric
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Order.Monotone.Odd
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Differentiability of trigonometric functions

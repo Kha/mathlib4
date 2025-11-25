@@ -5,7 +5,15 @@ Authors: Anatole Dedecker, Etienne Marion
 -/
 module
 
-public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Ultrafilter
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Proper maps between topological spaces

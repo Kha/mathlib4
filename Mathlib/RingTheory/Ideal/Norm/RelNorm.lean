@@ -5,12 +5,28 @@ Authors: Anne Baanen, Alex J. Best
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Torsion
-public import Mathlib.NumberTheory.RamificationInertia.Galois
-public import Mathlib.RingTheory.DedekindDomain.Factorization
-public import Mathlib.RingTheory.DedekindDomain.Instances
-public import Mathlib.RingTheory.Ideal.Int
-public import Mathlib.RingTheory.NormalClosure
+public import Mathlib.NumberTheory.RamificationInertia.Basic
+public import Mathlib.RingTheory.DedekindDomain.Dvr
+public import Mathlib.RingTheory.IntegralClosure.IntegralRestrict
+import Mathlib.FieldTheory.Tower
+import Mathlib.RingTheory.NormalClosure
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.GroupWithZero.Torsion
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.NumberTheory.RamificationInertia.Galois
+import Mathlib.RingTheory.DedekindDomain.Factorization
+import Mathlib.RingTheory.DedekindDomain.Instances
+import Mathlib.RingTheory.DiscreteValuationRing.TFAE
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Ideal.Int
+import Mathlib.RingTheory.Invariant.Basic
+import Mathlib.RingTheory.RingHom.Finite
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 

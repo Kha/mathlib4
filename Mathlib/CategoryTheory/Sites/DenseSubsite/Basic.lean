@@ -5,11 +5,12 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Sheaf
 public import Mathlib.CategoryTheory.Sites.CoverLifting
 public import Mathlib.CategoryTheory.Sites.CoverPreserving
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
 public import Mathlib.CategoryTheory.Sites.LocallyFullyFaithful
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Dense subsites

@@ -6,9 +6,12 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Normed.Group.Completion
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
-public import Mathlib.Topology.Algebra.UniformRing
 public import Mathlib.Topology.Algebra.UniformField
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Normed space structure on the completion of a normed space

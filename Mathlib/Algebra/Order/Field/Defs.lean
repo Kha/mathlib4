@@ -5,9 +5,8 @@ Authors: Robert Y. Lewis, Leonardo de Moura, Mario Carneiro, Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Algebra.Field.Defs
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
 "for `[LinearOrderedSemifield]`, use `[Semifield K] [LinearOrder K] [IsStrictOrderedRing K]` \

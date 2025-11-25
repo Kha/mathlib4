@@ -5,8 +5,13 @@ Authors: Johannes Hölzl, Devon Tuma
 -/
 module
 
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
-public import Mathlib.MeasureTheory.Measure.Dirac
+public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Measure.Dirac
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Probability mass functions

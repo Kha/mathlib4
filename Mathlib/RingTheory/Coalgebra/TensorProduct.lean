@@ -7,6 +7,8 @@ module
 
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
 public import Mathlib.RingTheory.Coalgebra.Equiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tensor products of coalgebras

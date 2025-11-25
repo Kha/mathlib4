@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Presentable.Basic
 public import Mathlib.CategoryTheory.Limits.Types.Filtered
 public import Mathlib.CategoryTheory.Types.Set
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Presentable objects in Type

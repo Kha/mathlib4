@@ -11,6 +11,8 @@ public import Mathlib.Algebra.Homology.Functor
 public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
 public import Mathlib.CategoryTheory.Action.Limits
 public import Mathlib.Topology.ContinuousMap.Algebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

@@ -9,7 +9,12 @@ public import Mathlib.GroupTheory.MonoidLocalization.Away
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.Localization.Defs
 public import Mathlib.RingTheory.Spectrum.Prime.Defs
-public import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Data.Set.Disjoint
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # Ideals in localizations of commutative rings

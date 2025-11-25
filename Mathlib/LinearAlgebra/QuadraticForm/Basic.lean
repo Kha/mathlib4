@@ -6,11 +6,20 @@ Authors: Anne Baanen, Kexing Ying, Eric Wieser
 module
 
 public import Mathlib.Data.Finset.Sym
-public import Mathlib.LinearAlgebra.BilinearMap
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
 public import Mathlib.LinearAlgebra.Matrix.SesquilinearForm
 public import Mathlib.LinearAlgebra.Matrix.Symmetric
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Algebra.Order.Module.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Quadratic maps

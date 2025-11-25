@@ -8,5 +8,6 @@ module
 public import Mathlib.Algebra.Order.Floor.Defs
 public import Mathlib.Algebra.Order.Floor.Ring
 public import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-13")

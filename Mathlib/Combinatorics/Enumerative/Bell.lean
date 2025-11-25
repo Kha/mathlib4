@@ -6,7 +6,12 @@ Authors: Antoine Chambert-Loir, María-Inés de Frutos—Fernández, Yu Shao, Be
 module
 
 public import Mathlib.Data.Nat.Choose.Multinomial
-public import Mathlib.Data.Nat.Choose.Mul
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Choose.Mul
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Multiset
 
 /-! # Bell numbers for multisets
 

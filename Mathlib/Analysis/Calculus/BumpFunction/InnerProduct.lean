@@ -6,8 +6,14 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Calculus.BumpFunction.Basic
-public import Mathlib.Analysis.InnerProductSpace.Calculus
 public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-!
 # Smooth bump functions in inner product spaces

@@ -6,6 +6,10 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Closure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Finite-rank sets

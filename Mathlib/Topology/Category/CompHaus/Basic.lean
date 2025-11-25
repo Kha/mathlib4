@@ -7,9 +7,15 @@ module
 
 public import Mathlib.CategoryTheory.Monad.Limits
 public import Mathlib.Topology.Compactification.StoneCech
-public import Mathlib.Topology.UrysohnsLemma
 public import Mathlib.Topology.Category.CompHausLike.Basic
 public import Mathlib.Topology.Category.TopCat.Limits.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # The category of Compact Hausdorff Spaces

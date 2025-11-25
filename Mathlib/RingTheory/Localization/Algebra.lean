@@ -5,12 +5,14 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.Algebra.Module.LocalizedModule.IsLocalization
 public import Mathlib.RingTheory.Ideal.Maps
-public import Mathlib.RingTheory.Localization.BaseChange
-public import Mathlib.RingTheory.Localization.Basic
-public import Mathlib.RingTheory.Localization.Ideal
-public import Mathlib.RingTheory.PolynomialAlgebra
+public import Mathlib.RingTheory.Localization.Module
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.RingTheory.PolynomialAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.RingTheory.Localization.Ideal
 
 /-!
 # Localization of algebra maps

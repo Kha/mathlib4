@@ -5,11 +5,20 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Meromorphic.Divisor
-public import Mathlib.Analysis.Meromorphic.IsolatedZeros
 public import Mathlib.Analysis.Meromorphic.NormalForm
 public import Mathlib.Analysis.Meromorphic.TrailingCoefficient
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Meromorphic.IsolatedZeros
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
 
 /-!
 # Factorized Rational Functions

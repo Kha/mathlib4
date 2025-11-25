@@ -5,15 +5,32 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.Algebra.Group.TransferInstance
-public import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
-public import Mathlib.CategoryTheory.Limits.FintypeCat
 public import Mathlib.CategoryTheory.Limits.MonoCoprod
-public import Mathlib.CategoryTheory.Limits.Shapes.ConcreteCategory
-public import Mathlib.CategoryTheory.Limits.Shapes.Diagonal
 public import Mathlib.CategoryTheory.Limits.Types.Equalizers
 public import Mathlib.CategoryTheory.SingleObj
-public import Mathlib.Data.Finite.Card
+public import Mathlib.CategoryTheory.FintypeCat
+public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+public import Mathlib.CategoryTheory.Limits.Types.Products
+public import Mathlib.CategoryTheory.Limits.Types.Pullbacks
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.TransferInstance
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.FintypeCat
+import Mathlib.Data.Finite.Card
+import Mathlib.CategoryTheory.Limits.Constructions.BinaryProducts
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Constructions.Equalizers
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
+import Mathlib.CategoryTheory.Limits.Shapes.ConcreteCategory
+import Mathlib.CategoryTheory.Limits.Shapes.Diagonal
+import Mathlib.CategoryTheory.Limits.Types.Coproducts
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Definition and basic properties of Galois categories

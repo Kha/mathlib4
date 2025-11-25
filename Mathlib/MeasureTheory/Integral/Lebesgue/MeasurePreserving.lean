@@ -5,7 +5,8 @@ Authors: Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Dynamics.Ergodic.MeasurePreserving
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-15")

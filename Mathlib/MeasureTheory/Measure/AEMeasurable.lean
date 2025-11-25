@@ -7,6 +7,16 @@ module
 
 public import Mathlib.MeasureTheory.Measure.Trim
 public import Mathlib.MeasureTheory.MeasurableSpace.CountablyGenerated
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Interval.Set.Disjoint
 
 /-!
 # Almost everywhere measurable functions

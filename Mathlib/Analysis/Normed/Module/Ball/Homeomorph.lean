@@ -7,8 +7,16 @@ module
 
 public import Mathlib.Topology.OpenPartialHomeomorph
 public import Mathlib.Analysis.Normed.Group.AddTorsor
-public import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 public import Mathlib.Data.Real.Sqrt
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Module
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # (Local) homeomorphism between a normed space and a ball

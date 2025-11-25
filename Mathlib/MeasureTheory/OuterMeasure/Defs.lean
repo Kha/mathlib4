@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Algebra.InfiniteSum.Defs
 public import Mathlib.Topology.Order.Real
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Definitions of an outer measure and the corresponding `FunLike` class

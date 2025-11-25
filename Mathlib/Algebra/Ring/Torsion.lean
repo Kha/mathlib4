@@ -6,8 +6,10 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.CharZero.Defs
-public import Mathlib.Algebra.GroupWithZero.Basic
-public import Mathlib.Algebra.Ring.Regular
+public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.Ring.Regular
 
 /-!
 # Torsion-free rings

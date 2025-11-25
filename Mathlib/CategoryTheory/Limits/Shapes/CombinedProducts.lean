@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Constructors for combining (co)fans

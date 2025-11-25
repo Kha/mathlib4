@@ -7,8 +7,15 @@ module
 
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Algebra.Group.End
-public import Mathlib.Algebra.Module.NatInt
 public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Algebra.GroupWithZero.Action.Defs
+public import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Maps (semi)conjugating a shift to a shift

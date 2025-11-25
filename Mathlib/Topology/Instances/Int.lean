@@ -5,13 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Int.Interval
-public import Mathlib.Data.Int.ConditionallyCompleteOrder
-public import Mathlib.Topology.Instances.Discrete
-public import Mathlib.Topology.MetricSpace.Bounded
-public import Mathlib.Order.Filter.AtTopBot.Archimedean
 public import Mathlib.Topology.MetricSpace.Basic
 public import Mathlib.Topology.Order.Bornology
+public import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.ConditionallyCompleteOrder
+import Mathlib.Data.Int.Interval
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Group
 
 /-!
 # Topology on the integers

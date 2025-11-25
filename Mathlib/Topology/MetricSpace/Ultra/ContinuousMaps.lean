@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.ContinuousMap.Compact
 public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ultrametric structure on continuous maps

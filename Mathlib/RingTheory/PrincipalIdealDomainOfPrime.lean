@@ -6,7 +6,9 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.RingTheory.Ideal.Oka
-public import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 # Principal ideal domains and prime ideals

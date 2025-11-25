@@ -5,7 +5,10 @@ Authors: Christopher Hoskin
 -/
 module
 
-public import Mathlib.Data.Set.Lattice.Image
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Unions and intersections of bounds

@@ -8,8 +8,9 @@ module
 public import Mathlib.CategoryTheory.Limits.Types.Colimits
 public import Mathlib.CategoryTheory.Limits.Types.Limits
 public import Mathlib.CategoryTheory.SingleObj
-public import Mathlib.Data.Setoid.Basic
 public import Mathlib.GroupTheory.GroupAction.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Setoid.Basic
 
 /-!
 # (Co)limits of functors out of `SingleObj M`

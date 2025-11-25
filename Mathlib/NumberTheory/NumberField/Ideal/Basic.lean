@@ -7,6 +7,10 @@ module
 
 public import Mathlib.NumberTheory.NumberField.Cyclotomic.Basic
 public import Mathlib.NumberTheory.NumberField.Units.Basic
+public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Units
+import Mathlib.RingTheory.DedekindDomain.Dvr
 
 /-!
 # Basic results on integral ideals of a number field

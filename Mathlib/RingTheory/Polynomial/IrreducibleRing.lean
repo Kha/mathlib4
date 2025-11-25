@@ -5,8 +5,20 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Eval.Irreducible
-public import Mathlib.RingTheory.Polynomial.Nilpotent
+public import Mathlib.RingTheory.Nilpotent.Lemmas
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.Ring.Units
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.RingTheory.Polynomial.Nilpotent
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Algebra.Polynomial.Eval.Irreducible
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 

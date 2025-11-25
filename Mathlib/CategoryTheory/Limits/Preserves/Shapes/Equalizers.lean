@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Limits.Shapes.SplitCoequalizer
 public import Mathlib.CategoryTheory.Limits.Shapes.SplitEqualizer
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Preserving (co)equalizers

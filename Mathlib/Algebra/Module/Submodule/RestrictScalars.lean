@@ -8,6 +8,8 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.Lattice
 public import Mathlib.Order.Hom.CompleteLattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

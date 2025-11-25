@@ -5,8 +5,10 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
-public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
+public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Finitely strongly measurable functions in `Lp`

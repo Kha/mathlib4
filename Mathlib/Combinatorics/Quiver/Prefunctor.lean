@@ -6,6 +6,8 @@ Authors: David Wärn, Kim Morrison
 module
 
 public import Mathlib.Combinatorics.Quiver.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Morphisms of quivers

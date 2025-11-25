@@ -8,6 +8,8 @@ module
 public import Mathlib.Data.Fin.Embedding
 public import Mathlib.Data.Fin.Rev
 public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `Fin n` forms a bounded linear order

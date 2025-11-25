@@ -9,7 +9,13 @@ public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.GCDMonoid.Finset
 public import Mathlib.Algebra.GCDMonoid.Nat
 public import Mathlib.Data.Matrix.Mul
-public import Mathlib.Data.Rat.Cast.CharZero
+public import Mathlib.Algebra.Field.Rat
+public import Mathlib.Data.Fintype.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Rat.Cast.CharZero
 
 /-!
 # Lemmas on integer matrices

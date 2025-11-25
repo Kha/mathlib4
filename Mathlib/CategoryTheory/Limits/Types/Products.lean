@@ -9,6 +9,8 @@ public import Mathlib.CategoryTheory.Limits.Shapes.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Types.Limits
 public import Mathlib.Tactic.CategoryTheory.Elementwise
+public import Mathlib.CategoryTheory.EssentiallySmall
+public import Mathlib.Logic.Small.Basic
 
 /-!
 # Products in `Type`

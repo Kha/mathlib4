@@ -5,14 +5,40 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Indicator
-public import Mathlib.Analysis.Normed.Affine.AddTorsor
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.LinearAlgebra.AffineSpace.Ordered
-public import Mathlib.Topology.Algebra.Affine
 public import Mathlib.Topology.ContinuousMap.Algebra
 public import Mathlib.Topology.GDelta.Basic
+public import Mathlib.Algebra.CharP.Invertible
+public import Mathlib.LinearAlgebra.AffineSpace.Midpoint
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.LinearAlgebra.AffineSpace.Ordered
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Affine.AddTorsor
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Urysohn's lemma

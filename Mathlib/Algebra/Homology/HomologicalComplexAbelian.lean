@@ -6,8 +6,10 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.Additive
-public import Mathlib.Algebra.Homology.HomologicalComplexLimits
 public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Homology.HomologicalComplexLimits
 
 /-! # THe category of homological complexes is abelian
 

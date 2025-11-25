@@ -6,8 +6,12 @@ Authors: Mohanad Ahmed
 module
 
 public import Mathlib.Algebra.Algebra.Spectrum.Basic
-public import Mathlib.Algebra.Polynomial.Basic
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 /-!
 # Eigenvalues are characteristic polynomial roots.

@@ -8,6 +8,10 @@ module
 public import Mathlib.CategoryTheory.Category.Cat.AsSmall
 public import Mathlib.CategoryTheory.Elements
 public import Mathlib.CategoryTheory.Comma.Over.Basic
+public import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # The Grothendieck construction

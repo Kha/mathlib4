@@ -6,6 +6,8 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.RingTheory.LocalProperties.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Standard Open Immersion
 

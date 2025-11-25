@@ -5,11 +5,29 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.Analysis.Complex.CauchyIntegral
 public import Mathlib.MeasureTheory.Measure.CharacteristicFunction
 public import Mathlib.Probability.Moments.Basic
 public import Mathlib.Probability.Moments.IntegrableExpMul
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Analytic.IsolatedZeros
+import Mathlib.Analysis.Calculus.ParametricIntegral
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Analysis.SpecialFunctions.Exponential
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.Algebra.Module.PerfectSpace
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The complex-valued moment-generating function

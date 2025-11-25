@@ -7,7 +7,12 @@ module
 
 public import Mathlib.LinearAlgebra.SymmetricAlgebra.Basic
 public import Mathlib.LinearAlgebra.Dimension.Basic
-public import Mathlib.RingTheory.MvPolynomial
+public import Mathlib.RingTheory.MvPolynomial.Basic
+import Mathlib.RingTheory.MvPolynomial
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.SetTheory.Cardinal.Finsupp
 
 /-!
 # A basis for `SymmetricAlgebra R M`

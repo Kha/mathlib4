@@ -7,6 +7,16 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Inverse
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Inverse of the sinh function

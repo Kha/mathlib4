@@ -5,7 +5,8 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.SetTheory.Cardinal.Arithmetic
+public import Mathlib.SetTheory.Cardinal.Aleph
+import Mathlib.SetTheory.Cardinal.Arithmetic
 
 /-!
 # Cardinality of continuum

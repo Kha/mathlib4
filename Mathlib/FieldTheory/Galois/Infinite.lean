@@ -6,8 +6,14 @@ Authors: Nailin Guan
 module
 
 public import Mathlib.FieldTheory.KrullTopology
-public import Mathlib.FieldTheory.Galois.GaloisClosure
 public import Mathlib.Topology.Algebra.Group.ClosedSubgroup
+import Mathlib.FieldTheory.Tower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.FieldTheory.Galois.GaloisClosure
+import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.RingTheory.Noetherian.Basic
 /-!
 
 # The Fundamental Theorem of Infinite Galois Theory

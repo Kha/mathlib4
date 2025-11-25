@@ -5,10 +5,26 @@ Authors: Zhouhang Zhou
 -/
 module
 
-public import Mathlib.Order.Filter.AtTopBot.Field
-public import Mathlib.Tactic.Field
-public import Mathlib.Tactic.LinearCombination
-public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Quadratic discriminants and roots of a quadratic

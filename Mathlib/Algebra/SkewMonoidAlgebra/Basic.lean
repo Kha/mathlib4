@@ -7,6 +7,12 @@ module
 
 public import Mathlib.LinearAlgebra.FreeModule.Basic
 public import Mathlib.Algebra.Algebra.NonUnitalHom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Skew Monoid Algebras

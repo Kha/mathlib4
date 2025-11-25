@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Ring.Int.Defs
 public import Mathlib.Algebra.Ring.Units
-public import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Int.Units
 
 /-!
 # Basic lemmas for `ℤˣ`.

@@ -7,9 +7,13 @@ module
 
 public import Mathlib.Algebra.Notation.Pi.Basic
 public import Mathlib.Data.Set.BooleanAlgebra
-public import Mathlib.Data.Set.Piecewise
-public import Mathlib.Order.Interval.Set.Basic
 public import Mathlib.Order.Interval.Set.UnorderedInterval
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Intervals in `pi`-space

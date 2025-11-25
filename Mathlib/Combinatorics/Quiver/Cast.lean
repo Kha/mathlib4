@@ -5,8 +5,8 @@ Authors: Antoine Labelle, Rémi Bottinelli
 -/
 module
 
-public import Mathlib.Combinatorics.Quiver.Basic
 public import Mathlib.Combinatorics.Quiver.Path
+import Mathlib.Tactic.TypeStar
 
 /-!
 

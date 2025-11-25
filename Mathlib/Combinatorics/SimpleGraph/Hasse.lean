@@ -6,10 +6,11 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Prod
-public import Mathlib.Data.Fin.SuccPredOrder
-public import Mathlib.Data.Nat.SuccPred
-public import Mathlib.Order.SuccPred.Relation
-public import Mathlib.Tactic.FinCases
+public import Mathlib.Order.Cover
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fin.SuccPredOrder
+import Mathlib.Order.SuccPred.Relation
 
 /-!
 # The Hasse diagram as a graph

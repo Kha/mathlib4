@@ -6,7 +6,14 @@ Authors: Anatole Dedecker
 module
 
 public import Mathlib.Algebra.Polynomial.Eval.Defs
-public import Mathlib.LinearAlgebra.Dimension.Constructions
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Linear recurrence

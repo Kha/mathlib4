@@ -5,8 +5,15 @@ Authors: Yury Kudryashov, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Equiv
 public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ApproximatesLinearOn
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Lift
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Normed.Operator.NormedSpace
 
 /-!
 # Inverse function theorem

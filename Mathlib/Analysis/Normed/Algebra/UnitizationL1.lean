@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Algebra.TransferInstance
 public import Mathlib.Algebra.Algebra.Unitization
 public import Mathlib.Analysis.Normed.Lp.ProdLp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Unitization equipped with the $L^1$ norm
 

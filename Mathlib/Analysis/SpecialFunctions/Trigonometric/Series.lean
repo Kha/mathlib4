@@ -6,7 +6,19 @@ Authors: Eric Wieser, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Complex.Trigonometric
-public import Mathlib.Analysis.SpecialFunctions.Exponential
+public import Mathlib.Analysis.Complex.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.SpecialFunctions.Exponential
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Trigonometric functions as sums of infinite series

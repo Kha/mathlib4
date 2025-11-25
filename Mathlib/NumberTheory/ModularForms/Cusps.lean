@@ -5,12 +5,15 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Int
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.GroupTheory.Commensurable
-public import Mathlib.RingTheory.Localization.NumDen
 public import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 public import Mathlib.NumberTheory.ModularForms.ArithmeticSubgroups
+public import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.RingTheory.Localization.NumDen
 
 /-!
 # Cusps

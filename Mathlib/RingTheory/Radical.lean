@@ -6,13 +6,21 @@ Authors: Jineon Baek, Seewoo Lee, Bhavik Mehta, Arend Mellendijk
 module
 
 public import Mathlib.Algebra.EuclideanDomain.Basic
-public import Mathlib.Algebra.Order.Group.Finset
-public import Mathlib.RingTheory.Coprime.Lemmas
-public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Nat
-public import Mathlib.RingTheory.Nilpotent.Basic
 public import Mathlib.Data.Nat.PrimeFin
 public import Mathlib.Algebra.Squarefree.Basic
+public import Mathlib.RingTheory.Coprime.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Associated
+import Mathlib.Data.Finset.Basic
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Order.Group.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Radical of an element of a unique factorization normalization monoid

@@ -7,9 +7,23 @@ module
 
 public import Mathlib.NumberTheory.ClassNumber.AdmissibleAbs
 public import Mathlib.NumberTheory.ClassNumber.Finite
-public import Mathlib.NumberTheory.NumberField.Discriminant.Basic
-public import Mathlib.RingTheory.Ideal.IsPrincipal
-public import Mathlib.NumberTheory.RamificationInertia.Galois
+public import Mathlib.NumberTheory.RamificationInertia.Basic
+public import Mathlib.NumberTheory.NumberField.Discriminant.Defs
+public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.NumberTheory.RamificationInertia.Galois
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Ideal.IsPrincipal
+import Mathlib.RingTheory.Int.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+import Mathlib.NumberTheory.NumberField.Discriminant.Basic
 
 /-!
 # Class numbers of number fields

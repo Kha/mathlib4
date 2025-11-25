@@ -5,10 +5,13 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Category.Ring.Constructions
 public import Mathlib.Geometry.RingedSpace.Basic
-public import Mathlib.Geometry.RingedSpace.Stalks
 public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.RingTheory.LocalRing.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Ring.Constructions
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
 
 /-!
 # The category of locally ringed spaces

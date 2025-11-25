@@ -5,9 +5,29 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.PiNat
 public import Mathlib.Topology.Metrizable.CompletelyMetrizable
 public import Mathlib.Topology.Sets.Opens
+public import Mathlib.Topology.MetricSpace.HausdorffDistance
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.Inv
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.PiNat
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Polish spaces

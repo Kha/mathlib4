@@ -6,6 +6,7 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
+import Mathlib.Tactic.TypeStar
 
 /-!
 

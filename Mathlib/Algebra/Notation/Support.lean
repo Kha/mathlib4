@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Algebra.Notation.Pi.Basic
 public import Mathlib.Algebra.Notation.Prod
-public import Mathlib.Data.Set.Image
+public import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
 
 /-!
 # Support of a function

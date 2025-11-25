@@ -6,6 +6,9 @@ Authors: Anthony Fernandes, Marc Robin
 module
 
 public import Mathlib.RingTheory.Ideal.Colon
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Oka predicates

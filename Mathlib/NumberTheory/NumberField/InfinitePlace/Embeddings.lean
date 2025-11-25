@@ -8,6 +8,24 @@ module
 public import Mathlib.Algebra.Algebra.Hom.Rat
 public import Mathlib.Analysis.Complex.Polynomial.Basic
 public import Mathlib.NumberTheory.NumberField.Basic
+public import Mathlib.FieldTheory.Galois.Basic
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.Interval
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Embeddings of number fields

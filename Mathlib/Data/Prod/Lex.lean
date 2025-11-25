@@ -8,7 +8,12 @@ module
 public import Mathlib.Data.Prod.Basic
 public import Mathlib.Order.Lattice
 public import Mathlib.Order.BoundedOrder.Basic
-public import Mathlib.Tactic.Tauto
+public import Mathlib.Order.RelClasses
+public import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Lean.Meta.CongrTheorems
 
 /-!
 # Lexicographic order

@@ -10,6 +10,15 @@ public import Mathlib.Data.Int.ModEq
 public import Mathlib.Data.Nat.Count
 public import Mathlib.Data.Rat.Floor
 public import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Counting elements in an interval with given residue

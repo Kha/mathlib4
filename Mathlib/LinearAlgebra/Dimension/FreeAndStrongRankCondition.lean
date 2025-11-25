@@ -5,8 +5,19 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.LinearAlgebra.Dimension.Subsingleton
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.Basis.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Basis.Cardinality
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.Finsupp.Pi
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 

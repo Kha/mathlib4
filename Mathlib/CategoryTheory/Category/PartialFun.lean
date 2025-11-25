@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Category.Pointed
 public import Mathlib.Data.PFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Lean.Meta.CongrTheorems
 
 /-!
 # The category of types with partial functions

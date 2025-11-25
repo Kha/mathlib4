@@ -5,8 +5,8 @@ Authors: Anne Baanen, Alex J. Best
 -/
 module
 
-public import Mathlib.LinearAlgebra.Pi
 public import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Submodule quotients and direct sums

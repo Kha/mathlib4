@@ -8,6 +8,10 @@ module
 public import Mathlib.RingTheory.FiniteType
 public import Mathlib.RingTheory.Localization.Defs
 public import Mathlib.RingTheory.TensorProduct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Essentially of finite type algebras

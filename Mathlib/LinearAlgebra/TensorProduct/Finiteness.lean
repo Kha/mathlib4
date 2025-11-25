@@ -5,9 +5,13 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.LinearAlgebra.DFinsupp
-public import Mathlib.RingTheory.Finiteness.Basic
 public import Mathlib.LinearAlgebra.TensorProduct.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.Algebra.BigOperators.Finsupp.Basic
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 

@@ -5,11 +5,16 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
-public import Mathlib.Algebra.Module.BigOperators
-public import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Basic
-public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
-public import Mathlib.Tactic.FinCases
+public import Mathlib.LinearAlgebra.AffineSpace.AffineMap
+public import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
 
 /-!
 # Affine combinations of points

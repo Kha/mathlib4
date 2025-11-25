@@ -5,7 +5,16 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.MeasureComp
+public import Mathlib.Probability.Kernel.Composition.CompNotation
+public import Mathlib.Probability.Kernel.Composition.MeasureCompProd
+public import Mathlib.Probability.Kernel.Composition.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Probability.Kernel.Composition.CompMap
+import Mathlib.Probability.Kernel.Composition.KernelLemmas
+import Mathlib.Probability.Kernel.Composition.MeasureComp
 
 /-!
 # Lemmas relating different ways to compose measures and kernels

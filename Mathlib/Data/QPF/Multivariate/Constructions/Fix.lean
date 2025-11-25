@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.PFunctor.Multivariate.W
 public import Mathlib.Data.QPF.Multivariate.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The initial algebra of a multivariate qpf is again a qpf.

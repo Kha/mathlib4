@@ -5,10 +5,15 @@ Authors: Kenny Lau, Eric Wieser
 -/
 module
 
-public import Mathlib.GroupTheory.OrderOfElement
 public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.RingTheory.Ideal.Nonunits
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
+public import Mathlib.GroupTheory.Index
+public import Mathlib.Algebra.CharP.Defs
+import Mathlib.GroupTheory.OrderOfElement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
 
 /-!
 # Characteristic of quotient rings

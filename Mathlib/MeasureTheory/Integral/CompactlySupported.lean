@@ -5,9 +5,12 @@ Authors: Yongxi Lin, Thomas Zhu
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.Topology.ContinuousMap.CompactlySupported
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
 
 /-!
 # Integrating compactly supported continuous functions

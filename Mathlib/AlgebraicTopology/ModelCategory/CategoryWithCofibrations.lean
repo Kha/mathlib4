@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.MorphismProperty.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Categories with classes of fibrations, cofibrations, weak equivalences

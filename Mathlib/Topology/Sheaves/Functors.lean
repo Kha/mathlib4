@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Sheaves.SheafCondition.Sites
 public import Mathlib.CategoryTheory.Sites.Pullback
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # functors between categories of sheaves

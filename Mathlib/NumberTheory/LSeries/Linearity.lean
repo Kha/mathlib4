@@ -5,8 +5,14 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
 public import Mathlib.NumberTheory.LSeries.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Linearity of the L-series of `f` as a function of `f`

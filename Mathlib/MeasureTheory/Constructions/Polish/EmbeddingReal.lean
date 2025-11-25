@@ -5,8 +5,14 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.Real.Cardinality
 public import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Real.Cardinality
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # A Polish Borel space is measurably equivalent to a set of reals

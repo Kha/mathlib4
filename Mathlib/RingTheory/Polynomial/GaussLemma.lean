@@ -5,10 +5,14 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.FieldTheory.SplittingField.Construction
 public import Mathlib.RingTheory.Localization.Integral
 public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
 public import Mathlib.RingTheory.Polynomial.Content
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GCDMonoid.Nat
+import Mathlib.FieldTheory.SplittingField.Construction
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Gauss's Lemma

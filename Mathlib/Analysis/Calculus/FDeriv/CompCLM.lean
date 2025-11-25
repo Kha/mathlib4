@@ -5,8 +5,16 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Bilinear
 public import Mathlib.Analysis.NormedSpace.Alternating.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Bilinear
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Prod
 
 /-!
 # Multiplicative operations on derivatives

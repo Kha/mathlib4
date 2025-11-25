@@ -6,6 +6,8 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Analysis.Normed.Algebra.Exponential
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # The exponential map from selfadjoint to unitary
 In this file, we establish various properties related to the map

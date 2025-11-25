@@ -5,8 +5,9 @@ Authors: Neil Strickland
 -/
 module
 
-public import Mathlib.Tactic.Ring
 public import Mathlib.Data.PNat.Prime
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Euclidean algorithm for ℕ

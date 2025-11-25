@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Subcomplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 
 /-!
 # Degenerate simplices

@@ -8,6 +8,12 @@ module
 public import Mathlib.Combinatorics.Matroid.Map
 public import Mathlib.Order.Closure
 public import Mathlib.Order.CompleteLatticeIntervals
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Matroid Closure

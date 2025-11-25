@@ -5,9 +5,16 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.IdempotentFG
 public import Mathlib.RingTheory.Unramified.Basic
-public import Mathlib.RingTheory.Flat.Stability
+public import Mathlib.RingTheory.Flat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.RingTheory.Flat.Stability
+import Mathlib.RingTheory.Ideal.IdempotentFG
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Various results about unramified algebras

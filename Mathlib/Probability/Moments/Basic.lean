@@ -6,6 +6,15 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.IdentDistrib
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Probability.Independence.Integration
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Moments and moment-generating function

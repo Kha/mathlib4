@@ -5,8 +5,17 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Data.Nat.Factorial.NatCast
 public import Mathlib.RingTheory.DividedPowers.Basic
+public import Mathlib.Algebra.CharP.Defs
+public import Mathlib.Algebra.Ring.Rat
+public import Mathlib.Tactic.NormNum.Core
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Data.Nat.Factorial.NatCast
 
 /-! # Examples of divided power structures
 

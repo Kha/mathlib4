@@ -6,8 +6,9 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Tactic.CategoryTheory.Elementwise
-public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 import all Mathlib.CategoryTheory.Iso  -- for accessing proofs
+import Mathlib.CategoryTheory.Category.Init
+import Mathlib.Tactic.GCongr.CoreAttrs
 
 /-!
 # Use the `elementwise` attribute to create applied versions of lemmas.

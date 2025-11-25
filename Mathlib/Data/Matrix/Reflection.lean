@@ -6,7 +6,9 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Data.Fin.Tuple.Reflection
-public import Mathlib.LinearAlgebra.Matrix.Notation
+public import Mathlib.Data.Matrix.Mul
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.Notation
 
 /-!
 # Lemmas for concrete matrices `Matrix (Fin m) (Fin n) α`

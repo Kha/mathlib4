@@ -7,8 +7,13 @@ module
 
 public import Mathlib.LinearAlgebra.Basis.Defs
 public import Mathlib.LinearAlgebra.LinearIndependent.Defs
-public import Mathlib.LinearAlgebra.Span.Basic
-public import Mathlib.SetTheory.Cardinal.Pigeonhole
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.SetTheory.Cardinal.Pigeonhole
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Results relating bases and cardinality.

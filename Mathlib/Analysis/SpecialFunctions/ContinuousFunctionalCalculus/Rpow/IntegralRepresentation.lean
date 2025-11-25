@@ -5,9 +5,36 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Integral
-public import Mathlib.Analysis.CStarAlgebra.ApproximateUnit
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.CStarAlgebra.ApproximateUnit
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Data.Set.Monotone
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Integral
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Integral representations of `rpow`

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Combinatorics.Digraph.Basic
 public import Mathlib.Combinatorics.SimpleGraph.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 

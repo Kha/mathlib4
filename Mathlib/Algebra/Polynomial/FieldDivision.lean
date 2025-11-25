@@ -5,12 +5,27 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Finset
 public import Mathlib.Algebra.Polynomial.Derivative
-public import Mathlib.Algebra.Polynomial.Eval.SMul
 public import Mathlib.Algebra.Polynomial.Roots
-public import Mathlib.RingTheory.EuclideanDomain
 public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.RingTheory.SimpleRing.Defs
+import Mathlib.RingTheory.EuclideanDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Group.Finset
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Algebra.Polynomial.Eval.SMul
 
 /-!
 # Theory of univariate polynomials

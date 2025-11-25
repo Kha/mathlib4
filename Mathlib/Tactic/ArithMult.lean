@@ -5,8 +5,10 @@ Authors: Arend Mellendijk
 -/
 module
 
-public meta import Mathlib.Tactic.Basic
 public meta import Mathlib.Tactic.ArithMult.Init
+public import Mathlib.Init
+import Aesop.Frontend.Attribute
+import Aesop.Frontend.Tactic
 
 /-!
 # Multiplicativity

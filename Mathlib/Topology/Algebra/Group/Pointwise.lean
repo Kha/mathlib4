@@ -6,7 +6,13 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot
 module
 
 public import Mathlib.Topology.Algebra.Group.Basic
-public import Mathlib.Topology.Maps.Proper.Basic
+public import Mathlib.Topology.Separation.Regular
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Maps.Proper.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-!
 # Pointwise operations on sets in topological groups

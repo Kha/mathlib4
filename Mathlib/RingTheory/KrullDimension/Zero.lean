@@ -7,6 +7,10 @@ module
 
 public import Mathlib.RingTheory.Jacobson.Ring
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 

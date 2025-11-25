@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Localization.Bifunctor
 public import Mathlib.CategoryTheory.Functor.CurryingThree
-public import Mathlib.CategoryTheory.Products.Associator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lifting of trifunctors

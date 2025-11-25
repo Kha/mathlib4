@@ -7,6 +7,7 @@ module
 
 public import Mathlib.MeasureTheory.Function.AEEqFun.DomAct
 public import Mathlib.MeasureTheory.Function.LpSpace.Indicator
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Action of `Mᵈᵐᵃ` on `Lᵖ` spaces

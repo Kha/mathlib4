@@ -9,6 +9,9 @@ public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Derivative
 public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
 public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.Algebra.Algebra.Bilinear
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Lattice
 
 /-!
 # Wronskian of a pair of polynomial

@@ -5,10 +5,21 @@ Authors: Kenny Lau, Thomas Browning, Patrick Lutz
 -/
 module
 
-public import Mathlib.FieldTheory.Extension
 public import Mathlib.FieldTheory.Normal.Defs
 public import Mathlib.GroupTheory.Solvable
 public import Mathlib.FieldTheory.SplittingField.Construction
+public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.FieldTheory.Extension
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Normal field extensions

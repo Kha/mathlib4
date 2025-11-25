@@ -6,7 +6,13 @@ Authors: Christian Merten
 module
 
 public import Mathlib.Algebra.Module.FinitePresentation
-public import Mathlib.RingTheory.AdjoinRoot
+public import Mathlib.RingTheory.FinitePresentation
+import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
 
 /-!
 # Finitely presented algebras and finitely presented modules

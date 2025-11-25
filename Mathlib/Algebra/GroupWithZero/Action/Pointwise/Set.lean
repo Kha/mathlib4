@@ -6,10 +6,15 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
-public import Mathlib.Algebra.GroupWithZero.Action.Basic
-public import Mathlib.Algebra.GroupWithZero.Action.Units
-public import Mathlib.Algebra.GroupWithZero.Pointwise.Set.Basic
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
+public import Mathlib.Tactic.Common
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.NAry
+import Mathlib.Algebra.GroupWithZero.Action.Basic
+import Mathlib.Algebra.GroupWithZero.Action.Units
+import Mathlib.Algebra.GroupWithZero.Pointwise.Set.Basic
 
 /-!
 # Pointwise operations of sets in a group with zero

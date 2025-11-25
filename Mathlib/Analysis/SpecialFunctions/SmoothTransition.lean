@@ -5,10 +5,28 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Inv
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.Analysis.SpecialFunctions.PolynomialExp
+public import Mathlib.Algebra.Polynomial.Derivative
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Order.Interval.Set.ProjIcc
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.SpecialFunctions.PolynomialExp
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Polynomial
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Infinitely smooth transition function

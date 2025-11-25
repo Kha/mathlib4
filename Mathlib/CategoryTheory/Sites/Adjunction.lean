@@ -8,6 +8,9 @@ module
 public import Mathlib.CategoryTheory.Adjunction.Restrict
 public import Mathlib.CategoryTheory.Adjunction.Whiskering
 public import Mathlib.CategoryTheory.Sites.PreservesSheafification
+public import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

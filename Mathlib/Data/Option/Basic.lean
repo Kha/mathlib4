@@ -8,9 +8,12 @@ module
 public import Mathlib.Control.Combinators
 public import Mathlib.Data.Option.Defs
 public import Mathlib.Logic.IsEmpty
-public import Mathlib.Logic.Relator
 public import Mathlib.Util.CompileInductive
 public import Aesop
+public import Batteries.Tactic.Lint.Simp
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Option of a type

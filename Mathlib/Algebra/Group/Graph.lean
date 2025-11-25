@@ -6,6 +6,9 @@ Authors: Yaël Dillies, David Loeffler
 module
 
 public import Mathlib.Algebra.Group.Subgroup.Ker
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
 
 /-!
 # Vertical line test for group homs

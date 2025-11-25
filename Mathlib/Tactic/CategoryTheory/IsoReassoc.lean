@@ -5,7 +5,8 @@ Authors: Robin Carlier
 -/
 module
 
-public meta import Mathlib.CategoryTheory.Iso
+public import Mathlib.CategoryTheory.Iso
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extension of `reassoc` to isomorphisms.

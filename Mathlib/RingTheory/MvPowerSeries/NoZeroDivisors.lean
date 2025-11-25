@@ -5,9 +5,11 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Data.Finsupp.WellFounded
-public import Mathlib.RingTheory.MvPowerSeries.LexOrder
 public import Mathlib.RingTheory.MvPowerSeries.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.MvPowerSeries.LexOrder
+import Mathlib.SetTheory.Cardinal.Order
 
 /-! # ZeroDivisors in a MvPowerSeries ring
 

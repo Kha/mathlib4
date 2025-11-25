@@ -6,7 +6,15 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.Calculus.ContDiff.Defs
-public import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 ### Restricting Scalars in Iterated Fréchet Derivatives

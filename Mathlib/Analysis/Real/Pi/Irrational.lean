@@ -5,9 +5,29 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Topology.Algebra.Order.Floor
 public import Mathlib.NumberTheory.Real.Irrational
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Data.Int.CharZero
+import Mathlib.Tactic.NormNum.Abs
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Order.Floor
 
 /-!
 # `Real.pi` is irrational

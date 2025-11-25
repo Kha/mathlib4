@@ -8,6 +8,7 @@ module
 public import Mathlib.Data.Fintype.Card
 public import Mathlib.GroupTheory.GroupAction.Defs
 public import Mathlib.GroupTheory.Subgroup.Centralizer
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conjugation action of a group on itself

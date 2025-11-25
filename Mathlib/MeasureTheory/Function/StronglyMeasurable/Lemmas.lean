@@ -5,11 +5,19 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
-public import Mathlib.Dynamics.Ergodic.MeasurePreserving
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
 public import Mathlib.MeasureTheory.Measure.WithDensity
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Topology.Algebra.Module.StrongTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Strongly measurable and finitely strongly measurable functions

@@ -5,8 +5,13 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 public import Mathlib.Algebra.Notation.Support
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.GroupWithZero.Basic
+public import Mathlib.Algebra.Group.Action.Defs
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Support of a function composed with a scalar action

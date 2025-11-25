@@ -6,7 +6,12 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.Order.IsNormal
-public import Mathlib.Topology.Order.IsLUB
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.UpperLower.Basic
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # A normal function is strictly monotone and continuous

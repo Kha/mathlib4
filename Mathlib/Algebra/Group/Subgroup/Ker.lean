@@ -6,7 +6,11 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.Algebra.Group.Subgroup.Map
-public import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Restrict
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Kernel and range of group homomorphisms

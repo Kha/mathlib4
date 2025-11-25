@@ -5,8 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Abelian.Refinements
 public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Abelian.Refinements
 
 /-!
 # Refinements

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Sites.SheafOfTypes
 public import Mathlib.Order.Closure
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Closed sieves

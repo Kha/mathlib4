@@ -5,10 +5,23 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Regular
 public import Mathlib.Topology.Semicontinuous
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
-public import Mathlib.Topology.Instances.EReal.Lemmas
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Vitali-Carathéodory theorem

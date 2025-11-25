@@ -7,7 +7,17 @@ module
 
 public import Mathlib.NumberTheory.LegendreSymbol.AddCharacter
 public import Mathlib.NumberTheory.LegendreSymbol.ZModChar
-public import Mathlib.Algebra.CharP.CharAndCard
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharP.CharAndCard
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Data.PNat.Basic
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Gauss sums

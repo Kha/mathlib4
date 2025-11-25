@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.Homotopy
 public import Mathlib.AlgebraicTopology.DoldKan.Notations
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
 
 /-!
 

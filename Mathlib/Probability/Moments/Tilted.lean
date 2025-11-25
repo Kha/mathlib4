@@ -6,7 +6,13 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Measure.Tilted
-public import Mathlib.Probability.Moments.MGFAnalytic
+public import Mathlib.Probability.Moments.Basic
+public import Mathlib.Probability.Moments.IntegrableExpMul
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Probability.Moments.MGFAnalytic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Results relating `Measure.tilted` to `mgf` and `cgf`

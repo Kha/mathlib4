@@ -6,6 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.UniformSpace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Construct a `UniformSpace` from a `dist`-like function

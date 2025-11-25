@@ -5,9 +5,12 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Data.Finsupp.Encodable
-public import Mathlib.Data.Set.Countable
-public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+public import Mathlib.Data.Countable.Defs
+public import Mathlib.LinearAlgebra.Span.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Encodable
+import Mathlib.Data.Set.Countable
+import Mathlib.LinearAlgebra.Finsupp.LinearCombination
 
 /-!
 # Countable modules

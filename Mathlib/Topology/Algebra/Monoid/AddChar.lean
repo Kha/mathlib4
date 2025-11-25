@@ -6,7 +6,10 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Algebra.Group.AddChar
-public import Mathlib.Topology.DenseEmbedding
+public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.DenseEmbedding
 
 /-!
 # Additive characters of topological monoids

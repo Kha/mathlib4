@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Finset.Defs
 public import Mathlib.Data.Multiset.ZeroCons
+import Qq.Typ
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Empty and nonempty finite sets

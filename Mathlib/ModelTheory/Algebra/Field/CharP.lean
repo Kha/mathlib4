@@ -5,9 +5,13 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.CharP.Basic
 public import Mathlib.ModelTheory.Algebra.Ring.FreeCommRing
 public import Mathlib.ModelTheory.Algebra.Field.Basic
+public import Mathlib.Algebra.CharP.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Algebra.Field.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 # First-order theory of fields

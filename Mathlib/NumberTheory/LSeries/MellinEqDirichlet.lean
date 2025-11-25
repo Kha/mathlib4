@@ -6,6 +6,19 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Deligne
+public import Mathlib.Analysis.MellinTransform
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Data.Sign.Basic
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 /-!
 # Dirichlet series as Mellin transforms
 

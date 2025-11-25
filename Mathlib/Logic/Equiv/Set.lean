@@ -6,8 +6,15 @@ Authors: Leonardo de Moura, Mario Carneiro
 module
 
 public import Mathlib.Data.Set.Function
-public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Tactic.Says
+public import Batteries.Tactic.Init
+public import Mathlib.Data.Prod.Basic
+public import Mathlib.Data.Set.Image
+public import Mathlib.Data.Set.Insert
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Restrict
 
 /-!
 # Equivalences and sets

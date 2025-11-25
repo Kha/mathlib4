@@ -6,6 +6,25 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Analytic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Changing origin in a power series

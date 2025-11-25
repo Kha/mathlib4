@@ -6,7 +6,15 @@ Authors: Yunzhou Xie, Jujian Zhang
 module
 
 public import Mathlib.Algebra.Azumaya.Defs
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+public import Mathlib.Data.Fintype.Prod
+public import Mathlib.LinearAlgebra.Matrix.StdBasis
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
 
 /-!
 # Matrix algebra is an Azumaya algebra over R

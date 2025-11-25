@@ -5,9 +5,16 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
-public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv
 public import Mathlib.LinearAlgebra.Dual.Defs
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Lagrange multipliers

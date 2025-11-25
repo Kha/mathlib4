@@ -7,6 +7,11 @@ module
 
 public import Mathlib.MeasureTheory.Group.Defs
 public import Mathlib.MeasureTheory.Measure.Prod
+public import Mathlib.Topology.Algebra.Module.LinearMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
 
 /-!
 # The multiplicative and additive convolution of measures

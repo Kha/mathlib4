@@ -6,12 +6,17 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.CharP.Frobenius
-public import Mathlib.Algebra.CharP.Pi
-public import Mathlib.Algebra.CharP.Quotient
-public import Mathlib.Algebra.CharP.Subring
-public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 public import Mathlib.FieldTheory.Perfect
 public import Mathlib.RingTheory.Valuation.Integers
+public import Mathlib.Data.NNReal.Defs
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Algebra.CharP.Pi
+import Mathlib.Algebra.CharP.Quotient
+import Mathlib.Algebra.CharP.Subring
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Ring Perfection and Tilt

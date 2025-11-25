@@ -5,10 +5,38 @@ Authors: Sébastien Gouëzel, Felix Weilacher
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
-public import Mathlib.Topology.MetricSpace.Perfect
-public import Mathlib.Topology.Separation.CountableSeparatingOn
+public import Mathlib.Topology.MetricSpace.Polish
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+public import Mathlib.Topology.Algebra.Group.Quotient
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Monotone
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Perfect
+import Mathlib.Topology.MetricSpace.PiNat
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.Separation.CountableSeparatingOn
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # The Borel sigma-algebra on Polish spaces

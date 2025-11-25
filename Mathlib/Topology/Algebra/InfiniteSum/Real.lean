@@ -5,9 +5,25 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Intervals
-public import Mathlib.Topology.Algebra.InfiniteSum.Order
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Infinite sum in the reals

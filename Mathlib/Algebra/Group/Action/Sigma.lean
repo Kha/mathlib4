@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Action.Faithful
 public import Mathlib.Data.Sigma.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Sigma instances for additive and multiplicative actions

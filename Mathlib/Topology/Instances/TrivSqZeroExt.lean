@@ -6,9 +6,12 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.TrivSqZeroExt
-public import Mathlib.Topology.Algebra.InfiniteSum.Basic
-public import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
 public import Mathlib.Topology.Algebra.Module.LinearMapPiProd
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
 
 /-!
 # Topology on `TrivSqZeroExt R M`

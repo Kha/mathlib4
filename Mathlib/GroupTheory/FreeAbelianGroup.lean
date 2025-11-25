@@ -5,9 +5,14 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.Module.NatInt
 public import Mathlib.GroupTheory.Abelianization.Defs
 public import Mathlib.GroupTheory.FreeGroup.Basic
+public import Mathlib.Control.Basic
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.Ring.Hom.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
 
 /-!
 # Free abelian groups

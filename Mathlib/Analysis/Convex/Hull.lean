@@ -6,7 +6,9 @@ Authors: Yury Kudryashov, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.Basic
-public import Mathlib.Order.Closure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Convex hull

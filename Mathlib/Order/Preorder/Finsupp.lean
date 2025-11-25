@@ -6,6 +6,8 @@ Authors: Johan Commelin, Aaron Anderson
 module
 
 public import Mathlib.Data.Finsupp.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pointwise order on finitely supported functions

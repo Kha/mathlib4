@@ -6,7 +6,7 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Seq.Basic
-public import Mathlib.Util.CompileInductive
+import Mathlib.Data.Stream.Init
 
 /-!
 # Partially defined possibly infinite lists

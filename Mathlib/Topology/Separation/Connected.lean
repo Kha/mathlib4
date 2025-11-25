@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Topology.Separation.Basic
 public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.Neighborhoods
 
 /-!
 # Interaction of separation properties with connectedness properties

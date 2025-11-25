@@ -6,6 +6,7 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Normed.Field.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tangent cone

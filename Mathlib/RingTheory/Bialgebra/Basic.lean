@@ -7,6 +7,9 @@ module
 
 public import Mathlib.RingTheory.Coalgebra.Basic
 public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
 
 /-!
 # Bialgebras

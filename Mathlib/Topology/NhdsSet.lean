@@ -5,7 +5,19 @@ Authors: Floris van Doorn, Patrick Massot
 -/
 module
 
-public import Mathlib.Topology.Neighborhoods
+public import Mathlib.Tactic.Common
+public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Order.Filter.Bases.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Neighborhoods of a set

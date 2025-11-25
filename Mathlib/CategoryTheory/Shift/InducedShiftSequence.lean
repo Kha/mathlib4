@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Shift.CommShift
 public import Mathlib.CategoryTheory.Shift.ShiftSequence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Induced shift sequences
 

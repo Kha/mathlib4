@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.CStarAlgebra.Classes
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
 
 /-! # `E →L[ℂ] E` as a C⋆-algebra
 

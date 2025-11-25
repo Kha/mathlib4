@@ -6,8 +6,16 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.LinearAlgebra.RootSystem.Base
-public import Mathlib.LinearAlgebra.RootSystem.Chain
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
+public import Mathlib.LinearAlgebra.RootSystem.Irreducible
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.LinearAlgebra.RootSystem.Finite.CanonicalBilinear
+import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
 
 /-!
 # Properties of the `𝔤₂` root system.

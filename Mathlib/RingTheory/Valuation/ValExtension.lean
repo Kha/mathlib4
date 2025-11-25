@@ -5,6 +5,8 @@ Authors: Jiedong Jiang, Bichang Lei
 -/
 module
 
-public import Mathlib.RingTheory.Valuation.Extension
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-05-06")

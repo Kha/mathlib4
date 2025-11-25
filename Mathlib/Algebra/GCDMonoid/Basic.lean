@@ -5,8 +5,18 @@ Authors: Johannes Hölzl, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Ring.Associated
 public import Mathlib.Algebra.Ring.Regular
+public import Mathlib.Algebra.GroupWithZero.Associated
+public import Mathlib.Algebra.GroupWithZero.Hom
+public import Mathlib.Tactic.Nontriviality.Core
+public import Mathlib.Algebra.Group.Equiv.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Associated
+import Mathlib.Data.Nat.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Monoids with normalization functions, `gcd`, and `lcm`

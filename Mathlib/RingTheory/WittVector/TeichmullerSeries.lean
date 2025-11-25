@@ -5,8 +5,12 @@ Authors: Jiedong Jiang
 -/
 module
 
-public import Mathlib.RingTheory.WittVector.Complete
 public import Mathlib.RingTheory.WittVector.Teichmuller
+public import Mathlib.FieldTheory.Perfect
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.WittVector.Complete
+import Mathlib.RingTheory.WittVector.Identities
+import Mathlib.RingTheory.WittVector.InitTail
 
 /-!
 # Teichmuller Series

@@ -6,7 +6,9 @@ Authors: Lu-Ming Zhang
 module
 
 public import Mathlib.LinearAlgebra.Matrix.Trace
-public import Mathlib.Data.Matrix.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Hadamard product of matrices

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.Sub.Defs
 public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lemma about subtraction in ordered monoids with a top element adjoined.

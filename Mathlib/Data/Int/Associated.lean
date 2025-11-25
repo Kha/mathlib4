@@ -6,7 +6,8 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.Algebra.GroupWithZero.Associated
-public import Mathlib.Algebra.Ring.Int.Units
+public import Mathlib.Algebra.Group.Int.Defs
+import Mathlib.Algebra.Ring.Int.Units
 /-!
 # Associated elements and the integers
 

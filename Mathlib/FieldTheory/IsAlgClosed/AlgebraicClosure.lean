@@ -5,10 +5,16 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.CharP.Algebra
 public import Mathlib.Data.Multiset.Fintype
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
 public import Mathlib.FieldTheory.SplittingField.Construction
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Algebraic Closure

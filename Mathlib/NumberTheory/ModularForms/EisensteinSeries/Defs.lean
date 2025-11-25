@@ -5,10 +5,16 @@ Authors: Chris Birkbeck, David Loeffler
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Int
 public import Mathlib.NumberTheory.ModularForms.SlashInvariantForms
-public import Mathlib.RingTheory.EuclideanDomain
 public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
+import Mathlib.RingTheory.EuclideanDomain
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Set.Disjoint
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Eisenstein Series

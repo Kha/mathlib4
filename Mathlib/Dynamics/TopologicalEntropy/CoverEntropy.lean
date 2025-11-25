@@ -9,6 +9,13 @@ public import Mathlib.Analysis.Asymptotics.ExpGrowth
 public import Mathlib.Data.ENat.Lattice
 public import Mathlib.Data.Real.ENatENNReal
 public import Mathlib.Dynamics.TopologicalEntropy.DynamicalEntourage
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Topological entropy via covers

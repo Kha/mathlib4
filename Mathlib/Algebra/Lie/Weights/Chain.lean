@@ -5,12 +5,30 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.LinearMap
 public import Mathlib.Algebra.Lie.Weights.Cartan
-public import Mathlib.Algebra.Order.Group.Pointwise.Interval
-public import Mathlib.RingTheory.Finiteness.Nilpotent
 public import Mathlib.Data.Int.Interval
-public import Mathlib.Order.Filter.Cofinite
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Algebra.Order.Ring.Nat
+public import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.DirectSum.LinearMap
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.Filter.Cofinite
+import Mathlib.RingTheory.Finiteness.Nilpotent
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Chains of roots and weights

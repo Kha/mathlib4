@@ -5,9 +5,17 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Tactic.Finiteness
-public import Mathlib.Topology.Metrizable.Uniformity
+public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # First Baire theorem

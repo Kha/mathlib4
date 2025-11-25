@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Group.TypeTags.Basic
 public import Mathlib.Topology.Bornology.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Prod
 
 /-!
 # Bornology structure on products and subtypes

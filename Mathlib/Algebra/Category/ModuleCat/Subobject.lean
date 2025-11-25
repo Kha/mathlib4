@@ -7,8 +7,8 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.EpiMono
 public import Mathlib.Algebra.Category.ModuleCat.Kernels
-public import Mathlib.CategoryTheory.Subobject.WellPowered
 public import Mathlib.CategoryTheory.Subobject.Limits
+import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
 
 /-!
 # Subobjects in the category of `R`-modules

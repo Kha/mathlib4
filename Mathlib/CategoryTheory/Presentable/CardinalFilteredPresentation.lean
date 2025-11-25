@@ -5,10 +5,13 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.ObjectProperty.Small
-public import Mathlib.CategoryTheory.Presentable.Limits
-public import Mathlib.CategoryTheory.Presentable.Retracts
 public import Mathlib.CategoryTheory.Generator.StrongGenerator
+public import Mathlib.CategoryTheory.ObjectProperty.Retract
+public import Mathlib.CategoryTheory.Presentable.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Presentable.Limits
+import Mathlib.CategoryTheory.Presentable.Retracts
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Presentable generators

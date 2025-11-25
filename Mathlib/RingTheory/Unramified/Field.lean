@@ -6,10 +6,18 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.FieldTheory.PurelyInseparable.Basic
-public import Mathlib.RingTheory.Artinian.Ring
-public import Mathlib.RingTheory.LocalProperties.Basic
-public import Mathlib.Algebra.Polynomial.Taylor
-public import Mathlib.RingTheory.Unramified.Finite
+public import Mathlib.RingTheory.Unramified.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.Polynomial.Taylor
+import Mathlib.Algebra.Ring.Idempotent
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.RingTheory.Artinian.Ring
+import Mathlib.RingTheory.LocalProperties.Basic
+import Mathlib.RingTheory.Unramified.Finite
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Unramified algebras over fields

@@ -5,8 +5,10 @@ Authors: Chris Hughes, Anne Baanen
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.Subsingleton
-public import Mathlib.SetTheory.Cardinal.ToNat
+public import Mathlib.LinearAlgebra.Dimension.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
 
 /-!
 # Finite dimension of vector spaces

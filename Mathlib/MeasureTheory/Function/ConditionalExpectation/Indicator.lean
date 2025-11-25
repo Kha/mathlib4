@@ -6,6 +6,10 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Function.ConditionalExpectation.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Unique
+import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-!
 

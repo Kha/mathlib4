@@ -5,7 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.AEMeasurable
+public import Mathlib.MeasureTheory.Measure.Trim
+public import Mathlib.Algebra.Group.Subgroup.Actions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.Countable.Basic
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-!
 # Typeclasses for measurability of operations

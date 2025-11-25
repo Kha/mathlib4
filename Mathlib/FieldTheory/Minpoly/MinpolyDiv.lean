@@ -5,9 +5,21 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
-public import Mathlib.FieldTheory.PrimitiveElement
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.FieldTheory.Minpoly.Field
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Results about `minpoly R x / (X - C x)`

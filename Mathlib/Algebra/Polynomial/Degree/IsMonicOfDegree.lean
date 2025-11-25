@@ -6,7 +6,15 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Monic polynomials of given degree

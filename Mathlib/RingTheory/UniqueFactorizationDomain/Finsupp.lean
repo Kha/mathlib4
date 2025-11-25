@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Finsupp.Multiset
 public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Action.Defs
 
 /-!
 # Factors as finsupp

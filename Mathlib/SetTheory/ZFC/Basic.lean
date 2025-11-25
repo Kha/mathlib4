@@ -7,8 +7,12 @@ module
 
 public import Mathlib.Data.Fin.VecNotation
 public import Mathlib.Data.SetLike.Basic
-public import Mathlib.Logic.Small.Basic
 public import Mathlib.SetTheory.ZFC.PSet
+public import Mathlib.Logic.Small.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Small.Basic
 
 /-!
 # A model of ZFC

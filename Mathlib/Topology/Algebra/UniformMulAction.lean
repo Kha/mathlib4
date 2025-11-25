@@ -8,6 +8,10 @@ module
 public import Mathlib.Algebra.Module.Opposite
 public import Mathlib.Topology.UniformSpace.Completion
 public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+public import Mathlib.Algebra.Field.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Action.Prod
 
 /-!
 # Multiplicative action on the completion of a uniform space

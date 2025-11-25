@@ -7,6 +7,8 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Sébasti
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-! # Power function on `ℂ`
 

@@ -6,6 +6,12 @@ Authors: Jiedong Jiang, Bichang Lei, María Inés de Frutos-Fernández, Filippo 
 module
 
 public import Mathlib.RingTheory.Valuation.ValuationSubring
+public import Mathlib.RingTheory.LocalRing.ResidueField.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Extension of Valuations

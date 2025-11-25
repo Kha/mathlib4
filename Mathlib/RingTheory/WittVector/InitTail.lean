@@ -5,8 +5,14 @@ Authors: Johan Commelin, Robert Y. Lewis
 -/
 module
 
-public import Mathlib.RingTheory.WittVector.Basic
 public import Mathlib.RingTheory.WittVector.IsPoly
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.LinearAlgebra.Matrix.Notation
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 

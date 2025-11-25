@@ -5,7 +5,8 @@ Authors: Johan Commelin, Emily Riehl, Nick Ward
 -/
 module
 
-public import Mathlib.AlgebraicTopology.Quasicategory.StrictSegal
+public import Mathlib.AlgebraicTopology.Quasicategory.Basic
+import Mathlib.AlgebraicTopology.Quasicategory.StrictSegal
 
 /-!
 # The nerve of a category is a quasicategory

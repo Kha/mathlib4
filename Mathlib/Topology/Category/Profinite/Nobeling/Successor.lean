@@ -5,8 +5,12 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 public import Mathlib.Topology.Category.Profinite.Nobeling.Basic
+public import Mathlib.Data.List.Chain
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+public import Mathlib.Algebra.Homology.ShortComplex.Exact
+public import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 
 /-!
 # The successor case in the induction for Nöbeling's theorem

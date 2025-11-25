@@ -5,8 +5,15 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov, Patrick Massot
 -/
 module
 
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
-public import Mathlib.Order.Filter.AtTopBot.Tendsto
+public import Mathlib.Order.ConditionallyCompleteLattice.Defs
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # `Filter.atTop` and `Filter.atBot` in (conditionally) complete lattices

@@ -7,9 +7,14 @@ module
 
 public import Mathlib.Algebra.AddTorsor.Defs
 public import Mathlib.GroupTheory.GroupAction.SubMulAction
-public import Mathlib.Topology.Algebra.Constructions
 public import Mathlib.Topology.Algebra.ConstMulAction
 public import Mathlib.Topology.Connected.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Continuous monoid action

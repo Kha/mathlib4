@@ -9,6 +9,8 @@ public import Mathlib.LinearAlgebra.Alternating.Basic
 public import Mathlib.LinearAlgebra.BilinearMap
 public import Mathlib.Topology.Algebra.Module.Equiv
 public import Mathlib.Topology.Algebra.Module.Multilinear.Basic
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous alternating multilinear maps

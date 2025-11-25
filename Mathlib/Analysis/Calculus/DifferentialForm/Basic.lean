@@ -7,7 +7,18 @@ module
 
 public import Mathlib.Analysis.NormedSpace.Alternating.Uncurry.Fin
 public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
-public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 # Exterior derivative of a differential form on a normed space

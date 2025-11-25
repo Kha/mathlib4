@@ -6,7 +6,9 @@ Authors: Xavier Roblot
 module
 
 public import Mathlib.Topology.Order.OrderClosed
-public import Mathlib.Topology.LocallyClosed
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.LocallyClosed
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Intervals are locally closed

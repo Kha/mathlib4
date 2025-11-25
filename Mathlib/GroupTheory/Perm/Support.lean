@@ -6,9 +6,16 @@ Authors: Chris Hughes, Aaron Anderson, Yakov Pechersky
 module
 
 public import Mathlib.Data.Fintype.Card
-public import Mathlib.Algebra.Group.Commute.Basic
 public import Mathlib.Algebra.Group.End
 public import Mathlib.Data.Finset.NoncommProd
+public import Mathlib.Data.Finset.Union
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Algebra.Group.Commute.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
 
 /-!
 # support of a permutation

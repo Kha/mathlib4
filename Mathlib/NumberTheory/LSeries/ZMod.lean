@@ -6,8 +6,31 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Analysis.Fourier.ZMod
-public import Mathlib.Analysis.NormedSpace.Connected
 public import Mathlib.NumberTheory.LSeries.RiemannZeta
+import Mathlib.Analysis.SumOverResidueClass
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Analysis.Analytic.Uniqueness
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Convex.Contractible
+import Mathlib.Analysis.NormedSpace.Connected
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # L-series of functions on `ZMod N`

@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.EssentiallySmall
 public import Mathlib.CategoryTheory.ObjectProperty.Small
 public import Mathlib.CategoryTheory.Retract
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-! # Properties of objects which are stable under retracts
 

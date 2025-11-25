@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicTopology.RelativeCellComplex.AttachCells
 public import Mathlib.CategoryTheory.MorphismProperty.TransfiniteComposition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Relative cell complexes

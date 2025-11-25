@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Finset.Sigma
 public import Mathlib.Data.Fintype.OfMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
 
 /-!
 # fintype instances for sigma types

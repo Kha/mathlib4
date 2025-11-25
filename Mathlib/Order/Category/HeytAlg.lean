@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Order.Category.BddDistLat
 public import Mathlib.Order.Heyting.Hom
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of Heyting algebras

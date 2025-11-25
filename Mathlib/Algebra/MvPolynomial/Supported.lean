@@ -6,6 +6,7 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Algebra.MvPolynomial.Variables
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Polynomials supported by a set of variables

@@ -5,7 +5,12 @@ Authors: Jeremy Avigad, Leonardo de Moura
 -/
 module
 
-public import Mathlib.Data.Set.Disjoint
+public import Mathlib.Data.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # Lemmas about insertion, singleton, and pairs

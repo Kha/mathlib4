@@ -10,7 +10,15 @@ public import Mathlib.Analysis.InnerProductSpace.Orientation
 public import Mathlib.LinearAlgebra.Alternating.Curry
 public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
 public import Mathlib.LinearAlgebra.Complex.Orientation
-public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Topology.Algebra.Module.FiniteDimension
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-!
 # Oriented two-dimensional real inner product spaces

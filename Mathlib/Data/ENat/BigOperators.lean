@@ -5,8 +5,12 @@ Authors: Joachim Breitner, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Data.ENat.Lattice
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Sum of suprema in `ENat`

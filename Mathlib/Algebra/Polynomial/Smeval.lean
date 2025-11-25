@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Group.NatPowAssoc
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Scalar-multiple polynomial evaluation

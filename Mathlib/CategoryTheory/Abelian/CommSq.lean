@@ -5,9 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Abelian.Refinements
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.Algebra.Homology.CommSq
+public import Mathlib.Algebra.Homology.ShortComplex.Exact
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Abelian.Refinements
 
 /-!
 # The exact sequence attached to a pushout square

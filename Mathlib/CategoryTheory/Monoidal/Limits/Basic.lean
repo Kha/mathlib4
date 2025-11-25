@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
 public import Mathlib.CategoryTheory.Limits.HasLimits
+import Mathlib.Tactic.Lemma
 
 /-!
 # `lim : (J ⥤ C) ⥤ C` is lax monoidal when `C` is a monoidal category.

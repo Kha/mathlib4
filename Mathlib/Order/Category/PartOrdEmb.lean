@@ -8,7 +8,10 @@ module
 public import Mathlib.Order.Category.PartOrd
 public import Mathlib.CategoryTheory.Limits.Filtered
 public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
-public import Mathlib.CategoryTheory.Limits.Types.Filtered
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Types.Filtered
 
 /-!
 # Category of partial orders, with order embeddings as morphisms

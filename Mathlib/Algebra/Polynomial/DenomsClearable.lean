@@ -6,8 +6,15 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Algebra.Basic
-public import Mathlib.Algebra.Order.Ring.Abs
-public import Mathlib.Algebra.Polynomial.EraseLead
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Denominators of evaluation of polynomials at ratios

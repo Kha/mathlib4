@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Basic
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pointwise operations of finsets in a group with zero

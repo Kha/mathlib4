@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.MvPowerSeries.Basic
 public import Mathlib.Data.Finsupp.WellFounded
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.AddGroupWithTop
 
 /-! LexOrder of multivariate power series
 

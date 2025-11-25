@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.Order.GroupWithZero.Canonical
-public import Mathlib.Algebra.Order.Ring.Canonical
+public import Mathlib.Tactic.GRewrite.Elab
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Order.Sub.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Canonical
 
 /-!
 # Canonically ordered semifields

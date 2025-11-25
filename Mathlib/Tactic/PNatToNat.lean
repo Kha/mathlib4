@@ -5,8 +5,11 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public meta import Mathlib.Data.PNat.Basic
 import all Lean.Elab.Tactic.Induction
+public import Mathlib.Data.PNat.Basic
+import Qq.Typ
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Attr.Register
 
 
 /-!

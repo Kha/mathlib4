@@ -5,10 +5,14 @@ Authors: Monica Omar
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Instances
 public import Mathlib.Analysis.Matrix.HermitianFunctionalCalculus
-public import Mathlib.Analysis.Matrix.PosDef
 public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic
+public import Mathlib.LinearAlgebra.Matrix.PosDef
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Matrix.PosDef
+import Mathlib.LinearAlgebra.Matrix.DotProduct
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # The partial order on matrices

@@ -7,8 +7,13 @@ module
 
 public import Mathlib.GroupTheory.Commensurable
 public import Mathlib.Topology.Algebra.ContinuousMonoidHom
-public import Mathlib.Topology.Algebra.Group.ClosedSubgroup
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Algebra.Group.ClosedSubgroup
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 
 /-!
 # Discrete subgroups of topological groups

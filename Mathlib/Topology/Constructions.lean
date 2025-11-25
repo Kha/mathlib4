@@ -9,9 +9,28 @@ public import Mathlib.Algebra.Group.TypeTags.Basic
 public import Mathlib.Data.Fin.VecNotation
 public import Mathlib.Data.Finset.Piecewise
 public import Mathlib.Order.Filter.Cofinite
-public import Mathlib.Order.Filter.Curry
 public import Mathlib.Topology.Constructions.SumProd
-public import Mathlib.Topology.NhdsSet
+public import Mathlib.Control.ULift
+public import Mathlib.Data.Finset.Pi
+public import Mathlib.Data.Set.Notation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Data.Bool.Set
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Data.Set.Prod
+import Mathlib.Data.Set.Sigma
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Filter.Curry
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Constructions of new topological spaces from old ones

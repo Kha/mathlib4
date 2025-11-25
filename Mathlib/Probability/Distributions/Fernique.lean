@@ -6,9 +6,28 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Analysis.SpecificLimits.ArithmeticGeometric
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
 public import Mathlib.MeasureTheory.Function.L1Space.Integrable
-public import Mathlib.Topology.MetricSpace.Polish
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.MetricSpace.Polish
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Fernique's theorem for rotation-invariant measures

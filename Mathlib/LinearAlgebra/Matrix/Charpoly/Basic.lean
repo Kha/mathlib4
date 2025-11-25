@@ -5,10 +5,16 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Eval.SMul
-public import Mathlib.LinearAlgebra.Matrix.Adjugate
 public import Mathlib.LinearAlgebra.Matrix.Block
 public import Mathlib.RingTheory.MatrixPolynomialAlgebra
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Data.Nat.Cast.NeZero
 
 /-!
 # Characteristic polynomials and the Cayley-Hamilton theorem

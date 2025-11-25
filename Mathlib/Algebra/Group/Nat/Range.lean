@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.Embedding
 public import Mathlib.Algebra.Group.Nat.Defs
 public import Mathlib.Data.Finset.Image
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `Finset.range` and addition of natural numbers

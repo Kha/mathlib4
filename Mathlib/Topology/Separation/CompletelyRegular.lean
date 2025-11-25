@@ -5,11 +5,24 @@ Authors: Matias Heikkilä
 -/
 module
 
-public import Mathlib.Topology.UrysohnsLemma
 public import Mathlib.Topology.UnitInterval
 public import Mathlib.Topology.Compactification.StoneCech
-public import Mathlib.Topology.Order.Lattice
-public import Mathlib.Analysis.Real.Cardinality
+public import Mathlib.SetTheory.Cardinal.Continuum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TautoSet
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Analysis.Real.Cardinality
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.Lattice
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Completely regular topological spaces.

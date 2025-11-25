@@ -6,6 +6,13 @@ Authors: Kexing Ying, Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.Measure.Restrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Algebra.InfiniteSum.Order
 
 /-! # Mutually singular measures
 

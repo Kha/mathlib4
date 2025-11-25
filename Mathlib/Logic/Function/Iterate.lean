@@ -6,6 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Logic.Function.Conjugate
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Iterations of a function

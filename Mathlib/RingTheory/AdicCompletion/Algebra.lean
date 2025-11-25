@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Algebra.Pi
 public import Mathlib.Algebra.Module.Torsion.Basic
 public import Mathlib.RingTheory.AdicCompletion.Basic
+public import Mathlib.Data.Int.Cast.Pi
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
 
 /-!
 # Algebra instance on adic completion

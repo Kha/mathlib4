@@ -6,12 +6,22 @@ Authors: Patrick Massot, Johannes Hölzl
 module
 
 public import Mathlib.Algebra.Algebra.Pi
-public import Mathlib.Algebra.Algebra.Prod
-public import Mathlib.Algebra.Algebra.Rat
 public import Mathlib.Algebra.Algebra.RestrictScalars
-public import Mathlib.Algebra.Module.Rat
 public import Mathlib.Analysis.Normed.Field.Lemmas
 public import Mathlib.Analysis.Normed.MulAction
+public import Mathlib.Tactic.Abel
+public import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Normed spaces

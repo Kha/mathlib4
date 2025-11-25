@@ -6,9 +6,31 @@ Authors: Jeremy Tan
 module
 
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Tactic.Peel
-public import Mathlib.Tactic.Positivity
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Abel's limit theorem

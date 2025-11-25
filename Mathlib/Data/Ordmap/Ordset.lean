@@ -6,6 +6,14 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Ordmap.Invariants
+public import Mathlib.Order.Monotone.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Verification of `Ordnode`

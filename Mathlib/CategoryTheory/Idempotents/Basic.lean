@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Abelian.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Idempotent complete categories

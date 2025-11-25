@@ -5,8 +5,10 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
 public import Mathlib.CategoryTheory.Sites.Equivalence
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
 /-!
 
 # Coherence and equivalence of categories

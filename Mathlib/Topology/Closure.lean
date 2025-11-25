@@ -5,8 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro, Jeremy Avigad
 -/
 module
 
-public import Mathlib.Order.Filter.Lift
-public import Mathlib.Topology.Basic
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Finset.Defs
+public import Mathlib.Topology.Defs.Basic
+public import Mathlib.Order.Filter.Bases.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Order.Filter.Lift
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Interior, closure and frontier of a set

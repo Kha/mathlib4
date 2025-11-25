@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Idempotents.Basic
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
-public import Mathlib.CategoryTheory.Equivalence
+public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Karoubi envelope of a category

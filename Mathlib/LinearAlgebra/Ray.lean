@@ -5,13 +5,26 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Fin
-public import Mathlib.Algebra.Order.Module.Algebra
 public import Mathlib.Algebra.Ring.Subring.Units
 public import Mathlib.LinearAlgebra.LinearIndependent.Defs
-public import Mathlib.Tactic.LinearCombination
-public import Mathlib.Tactic.Module
-public import Mathlib.Tactic.Positivity.Basic
+public import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.Algebra.Ring.Units
+public import Mathlib.Data.Fin.VecNotation
+public import Mathlib.Algebra.Group.Submonoid.DistribMulAction
+public import Mathlib.Algebra.Order.Module.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Module.Algebra
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Rays in modules

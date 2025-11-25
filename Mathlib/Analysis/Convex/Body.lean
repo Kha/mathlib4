@@ -8,6 +8,18 @@ module
 public import Mathlib.Analysis.Convex.Basic
 public import Mathlib.Analysis.Normed.Module.Basic
 public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Topology.Instances.NNReal.Lemmas
 
 /-!
 # Convex bodies

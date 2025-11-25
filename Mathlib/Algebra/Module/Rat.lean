@@ -5,9 +5,13 @@ Authors: Nathaniel Thomas, Jeremy Avigad, Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Module.Basic
-public import Mathlib.Algebra.Module.End
 public import Mathlib.Algebra.Field.Rat
+public import Mathlib.Algebra.Module.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.Module.End
+import Mathlib.Algebra.GroupWithZero.Action.Units
 
 /-!
 # Basic results about modules over the rationals.

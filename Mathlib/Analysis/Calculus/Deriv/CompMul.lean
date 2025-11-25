@@ -5,8 +5,10 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Equiv
-public import Mathlib.Analysis.Calculus.Deriv.Mul
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
 
 /-!
 # Derivative of `x ↦ f (cx)`

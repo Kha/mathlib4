@@ -5,10 +5,25 @@ Authors: Alexander Bentkamp, Yury Kudryashov, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Ring.Action.Pointwise.Set
 public import Mathlib.Analysis.Convex.Star
-public import Mathlib.Tactic.Field
 public import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.NoncommRing
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.LinearMap.Prod
+import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Ring.Action.Pointwise.Set
 
 /-!
 # Convex sets

@@ -5,10 +5,13 @@ Authors: Joseph Myers, Manuel Candales
 -/
 module
 
-public import Mathlib.Analysis.Normed.Affine.AddTorsor
 public import Mathlib.Geometry.Euclidean.Angle.Oriented.Affine
-public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
-public import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Affine.AddTorsor
 
 /-!
 # Triangles

@@ -7,7 +7,16 @@ module
 
 public import Mathlib.Order.Hom.Basic
 public import Mathlib.Order.Interval.Set.Defs
-public import Mathlib.Order.WellFounded
+public import Mathlib.Data.Set.Subsingleton
+public import Mathlib.Order.BooleanAlgebra.Basic
+public import Mathlib.Order.Bounds.Defs
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
 
 /-!
 # Minimality and Maximality

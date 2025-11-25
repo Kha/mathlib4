@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.GroupWithZero.Hom
 public import Mathlib.Algebra.GroupWithZero.Nat
 public import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Tactic.Lemma
 
 /-!
 # Lemmas about `Int.natAbs`

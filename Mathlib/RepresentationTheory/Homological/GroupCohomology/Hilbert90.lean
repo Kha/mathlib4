@@ -7,6 +7,7 @@ module
 
 public import Mathlib.FieldTheory.Fixed
 public import Mathlib.RepresentationTheory.Homological.GroupCohomology.LowDegree
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Hilbert's Theorem 90

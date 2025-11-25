@@ -6,10 +6,20 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.SetTheory.Cardinal.Finite
-public import Mathlib.Topology.Algebra.InfiniteSum.Basic
 public import Mathlib.Topology.UniformSpace.Cauchy
 public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
-public import Mathlib.Topology.Algebra.Group.Pointwise
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Prod
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Infinite sums and products in topological groups

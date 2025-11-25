@@ -5,9 +5,10 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
 public import Mathlib.CategoryTheory.Limits.IndYoneda
 public import Mathlib.CategoryTheory.Limits.Indization.IndObject
+import Mathlib.CategoryTheory.HomCongr
+import Mathlib.CategoryTheory.Limits.Preserves.Ulift
 
 /-!
 # There are only `v`-many natural transformations between Ind-objects

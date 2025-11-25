@@ -7,9 +7,22 @@ Authors: Riccardo Brasca, Sanyam Gupta, Omar Haddad, David Lowry-Duda,
 module
 
 public import Mathlib.NumberTheory.FLT.Basic
-public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
-public import Mathlib.NumberTheory.NumberField.Cyclotomic.Three
-public import Mathlib.Algebra.Ring.Divisibility.Lemmas
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Noetherian.UniqueFactorizationDomain
+import Mathlib.RingTheory.UniqueFactorizationDomain.GCDMonoid
+import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Divisibility.Lemmas
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
+import Mathlib.NumberTheory.NumberField.Cyclotomic.Three
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Fermat Last Theorem in the case `n = 3`

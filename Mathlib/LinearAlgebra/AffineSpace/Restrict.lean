@@ -6,6 +6,7 @@ Authors: Paul Reichert
 module
 
 public import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Affine map restrictions

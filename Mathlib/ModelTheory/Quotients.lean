@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fintype.Quotient
 public import Mathlib.ModelTheory.Semantics
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quotients of First-Order Structures

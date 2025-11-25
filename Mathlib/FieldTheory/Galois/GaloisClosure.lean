@@ -5,8 +5,12 @@ Authors: Nailin Guan, Yuyang Zhao
 -/
 module
 
-public import Mathlib.FieldTheory.Normal.Closure
-public import Mathlib.FieldTheory.SeparableClosure
+public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.FieldTheory.SeparableClosure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Normal.Basic
 
 /-!
 

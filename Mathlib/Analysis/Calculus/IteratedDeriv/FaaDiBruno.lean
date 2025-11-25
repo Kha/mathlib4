@@ -5,8 +5,15 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
 public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+public import Mathlib.Analysis.Calculus.ContDiff.FaaDiBruno
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 # Iterated derivatives of compositions

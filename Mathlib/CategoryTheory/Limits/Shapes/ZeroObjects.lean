@@ -6,6 +6,8 @@ Authors: Kim Morrison, Johan Commelin
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Terminal
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Zero objects

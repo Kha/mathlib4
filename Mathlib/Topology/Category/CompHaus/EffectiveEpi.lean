@@ -5,8 +5,14 @@ Authors: Adam Topaz, Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Topology.Category.CompHaus.Limits
-public import Mathlib.Topology.Category.CompHausLike.EffectiveEpi
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+public import Mathlib.Topology.Category.CompHaus.Basic
+public import Mathlib.Topology.Category.CompHausLike.Limits
+import Mathlib.Tactic.TFAE
+import Mathlib.CategoryTheory.EffectiveEpi.Coproduct
+import Mathlib.CategoryTheory.EffectiveEpi.Extensive
+import Mathlib.Topology.Category.CompHaus.Limits
+import Mathlib.Topology.Category.CompHausLike.EffectiveEpi
 /-!
 
 # Effective epimorphisms in `CompHaus`

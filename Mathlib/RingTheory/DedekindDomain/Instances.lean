@@ -5,9 +5,15 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.PID
 public import Mathlib.FieldTheory.Separable
-public import Mathlib.RingTheory.RingHom.Finite
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.Localization.LocalizationLocalization
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.DedekindDomain.PID
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.RingHom.Finite
 
 /-!
 # Instances for Dedekind domains

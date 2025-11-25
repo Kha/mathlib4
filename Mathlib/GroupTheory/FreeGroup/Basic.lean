@@ -5,11 +5,14 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.Algebra.Group.Subgroup.Ker
-public import Mathlib.Data.List.Chain
 public import Mathlib.Algebra.Group.Int.Defs
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
+public import Batteries.Data.List.Lemmas
+public import Mathlib.Data.List.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Init
+import Mathlib.Data.List.Chain
 
 /-!
 # Free groups

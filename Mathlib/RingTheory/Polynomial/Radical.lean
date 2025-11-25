@@ -8,7 +8,10 @@ module
 public import Mathlib.Algebra.Polynomial.FieldDivision
 public import Mathlib.RingTheory.Polynomial.Wronskian
 public import Mathlib.RingTheory.Radical
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicative
+import Mathlib.RingTheory.EuclideanDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicative
+import Mathlib.Algebra.Polynomial.Degree.Domain
 
 /-!
 # Radical of a polynomial

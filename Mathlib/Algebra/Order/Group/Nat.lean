@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Nat.Defs
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
 public import Mathlib.Algebra.Order.Sub.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The naturals form a linear ordered monoid

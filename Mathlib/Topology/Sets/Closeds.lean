@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Sets.Opens
 public import Mathlib.Topology.Clopen
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Closed sets

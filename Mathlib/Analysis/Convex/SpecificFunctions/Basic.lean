@@ -5,9 +5,13 @@ Authors: Yury Kudryashov, Sébastien Gouëzel, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Convex.Slope
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Analysis.Convex.Function
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Convex.Slope
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Collection of convex functions

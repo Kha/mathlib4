@@ -8,6 +8,7 @@ module
 public import Mathlib.RingTheory.SimpleModule.Basic
 public import Mathlib.Algebra.Module.Injective
 public import Mathlib.Algebra.Module.Projective
+import Mathlib.Tactic.TypeStar
 
 /-!
 If `R` is a semisimple ring, then any `R`-module is both injective and projective.

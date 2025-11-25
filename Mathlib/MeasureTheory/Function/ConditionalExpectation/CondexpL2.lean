@@ -6,8 +6,17 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
-public import Mathlib.MeasureTheory.Function.ConditionalExpectation.Unique
 public import Mathlib.MeasureTheory.Function.L2Space
+public import Mathlib.MeasureTheory.Function.ConditionalExpectation.AEMeasurable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Unique
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
 
 /-! # Conditional expectation in L2
 

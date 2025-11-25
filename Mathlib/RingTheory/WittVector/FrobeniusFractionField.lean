@@ -5,9 +5,18 @@ Authors: Robert Y. Lewis, Heather Macbeth
 -/
 module
 
-public import Mathlib.Data.Nat.Cast.WithTop
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
-public import Mathlib.RingTheory.WittVector.DiscreteValuationRing
+public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.RingTheory.WittVector.Domain
+public import Mathlib.RingTheory.WittVector.Frobenius
+public import Mathlib.RingTheory.WittVector.MulCoeff
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.WittVector.DiscreteValuationRing
+import Mathlib.RingTheory.WittVector.Identities
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.WithTop
 
 /-!
 # Solving equations about the Frobenius map on the field of fractions of `𝕎 k`

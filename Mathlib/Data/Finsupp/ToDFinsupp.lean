@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Data.DFinsupp.Module
 public import Mathlib.Data.Finsupp.SMul
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conversion between `Finsupp` and homogeneous `DFinsupp`

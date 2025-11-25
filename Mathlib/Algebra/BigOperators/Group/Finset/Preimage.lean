@@ -6,7 +6,10 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Data.Finset.Preimage
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Sums and products over preimages of finite sets.

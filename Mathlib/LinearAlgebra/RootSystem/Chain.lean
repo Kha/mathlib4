@@ -5,8 +5,23 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
-public import Mathlib.Order.Interval.Set.OrdConnectedLinear
+public import Mathlib.Data.Int.ConditionallyCompleteOrder
+public import Mathlib.Data.Nat.Lattice
+public import Mathlib.LinearAlgebra.RootSystem.Reduced
+public import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
+import Mathlib.Order.Interval.Set.OrdConnectedLinear
+import Mathlib.Algebra.Order.Interval.Set.Monoid
 
 /-!
 # Chains of roots

@@ -7,8 +7,9 @@ module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
 public import Mathlib.AlgebraicGeometry.Morphisms.Flat
-public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
-public import Mathlib.RingTheory.Spectrum.Prime.Chevalley
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.LocalAtTarget
+import Mathlib.RingTheory.Spectrum.Prime.Chevalley
 
 /-!
 # Universally open morphism

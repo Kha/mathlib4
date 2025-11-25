@@ -6,6 +6,8 @@ Authors: Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Comma.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of arrows

@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Functor.KanExtension.Pointwise
 public import Mathlib.CategoryTheory.Limits.Shapes.Grothendieck
 public import Mathlib.CategoryTheory.Comma.StructuredArrow.Functor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # The Kan extension functor
 

@@ -5,7 +5,15 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Prod
 
 /-!
 # The derivative of bounded bilinear maps

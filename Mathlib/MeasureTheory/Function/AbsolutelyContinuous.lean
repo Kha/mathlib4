@@ -5,8 +5,18 @@ Authors: Yizheng Zhu
 -/
 module
 
-public import Mathlib.Analysis.BoundedVariation
-public import Mathlib.Order.SuccPred.IntervalSucc
+public import Mathlib.Topology.EMetricSpace.BoundedVariation
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Analysis.BoundedVariation
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.SuccPred.IntervalSucc
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Absolutely Continuous Functions

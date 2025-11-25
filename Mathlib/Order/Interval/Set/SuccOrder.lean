@@ -5,8 +5,11 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Order.LatticeIntervals
 public import Mathlib.Order.SuccPred.Basic
+public import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Order.LatticeIntervals
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Successors in intervals

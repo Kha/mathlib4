@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.CharP.Defs
 public import Mathlib.Algebra.Ring.Pi
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Characteristic of semirings of functions

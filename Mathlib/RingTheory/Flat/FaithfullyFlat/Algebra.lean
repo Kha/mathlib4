@@ -6,10 +6,11 @@ Authors: Christian Merten, Yi Song, Sihan Su
 module
 
 public import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
-public import Mathlib.RingTheory.Ideal.Over
-public import Mathlib.RingTheory.LocalRing.RingHom.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.RingHom
-public import Mathlib.RingTheory.TensorProduct.Quotient
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.TensorProduct.Quotient
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Properties of faithfully flat algebras

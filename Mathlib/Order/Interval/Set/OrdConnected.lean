@@ -5,9 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Interval.Set.OrderEmbedding
 public import Mathlib.Order.Antichain
 public import Mathlib.Order.SetNotation
+public import Mathlib.Order.Interval.Set.UnorderedInterval
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Hom.Set
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrderEmbedding
 
 /-!
 # Order-connected sets

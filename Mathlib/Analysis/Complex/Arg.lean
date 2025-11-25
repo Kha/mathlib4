@@ -5,8 +5,12 @@ Authors: Eric Rodriguez
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Convex
 public import Mathlib.Analysis.SpecialFunctions.Complex.Arg
+public import Mathlib.LinearAlgebra.Ray
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Analysis.InnerProductSpace.Convex
+import Mathlib.Analysis.Normed.Module.Ray
 
 /-!
 # Rays in the complex numbers

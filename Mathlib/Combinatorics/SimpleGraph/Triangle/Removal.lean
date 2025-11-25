@@ -5,11 +5,22 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Combinatorics.SimpleGraph.DegreeSum
-public import Mathlib.Combinatorics.SimpleGraph.Regularity.Lemma
 public import Mathlib.Combinatorics.SimpleGraph.Triangle.Basic
-public import Mathlib.Combinatorics.SimpleGraph.Triangle.Counting
-public import Mathlib.Data.Finset.CastCard
+public import Mathlib.Combinatorics.SimpleGraph.Regularity.Bound
+public import Mathlib.Combinatorics.SimpleGraph.Regularity.Uniform
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+import Mathlib.Data.Finset.CastCard
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Combinatorics.SimpleGraph.Regularity.Lemma
+import Mathlib.Combinatorics.SimpleGraph.Triangle.Counting
+import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Triangle removal lemma

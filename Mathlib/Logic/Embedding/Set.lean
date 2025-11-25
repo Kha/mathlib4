@@ -9,7 +9,13 @@ public import Mathlib.Data.Set.Notation
 public import Mathlib.Order.SetNotation
 public import Mathlib.Logic.Embedding.Basic
 public import Mathlib.Logic.Pairwise
-public import Mathlib.Data.Set.Image
+public import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
 
 /-!
 # Interactions between embeddings and sets.

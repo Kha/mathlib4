@@ -6,7 +6,10 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.Order.Atoms
-public import Mathlib.Algebra.Group.Subgroup.Basic
+public import Mathlib.Algebra.Group.Subgroup.Map
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Subgroup.Basic
 
 /-!
 # Simple groups

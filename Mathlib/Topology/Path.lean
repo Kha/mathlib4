@@ -5,9 +5,27 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Topology.Order.ProjIcc
 public import Mathlib.Topology.CompactOpen
 public import Mathlib.Topology.UnitInterval
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.Ring.Basic
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+public import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Topology.Order.Compact
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.ProjIcc
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Paths in topological spaces

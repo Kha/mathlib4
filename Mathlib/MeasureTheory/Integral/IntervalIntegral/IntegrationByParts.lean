@@ -5,9 +5,20 @@ Authors: Yury Kudryashov, Patrick Massot, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Mul
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integration by parts and by substitution

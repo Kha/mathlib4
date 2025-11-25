@@ -6,9 +6,32 @@ Authors: Kalle Kytölä
 module
 
 public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-public import Mathlib.MeasureTheory.Integral.Layercake
-public import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
+import Mathlib.MeasureTheory.Integral.Layercake
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Characterizations of weak convergence of finite measures and probability measures

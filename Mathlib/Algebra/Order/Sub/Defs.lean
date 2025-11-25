@@ -5,9 +5,11 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
-public import Mathlib.Order.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Ordered Subtraction

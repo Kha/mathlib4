@@ -6,6 +6,11 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Algebra.Group.Subsemigroup.Basic
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Image
 
 /-!
 # Subsemigroups: membership criteria

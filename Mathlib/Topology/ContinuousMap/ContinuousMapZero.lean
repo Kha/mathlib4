@@ -5,8 +5,10 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Topology.ContinuousMap.Algebra
 public import Mathlib.Topology.ContinuousMap.Compact
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous maps sending zero to zero

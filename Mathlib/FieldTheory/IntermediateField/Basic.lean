@@ -9,7 +9,12 @@ public import Mathlib.Algebra.Algebra.Subalgebra.Tower
 public import Mathlib.Algebra.Field.IsField
 public import Mathlib.Algebra.Field.Subfield.Basic
 public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Intermediate fields

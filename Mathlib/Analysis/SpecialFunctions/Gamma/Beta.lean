@@ -5,12 +5,53 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Convolution
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.EulerSineProd
-public import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
-public import Mathlib.Analysis.Analytic.IsolatedZeros
-public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+import Mathlib.Analysis.Convolution
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.Analytic.IsolatedZeros
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.EulerSineProd
+import Mathlib.Data.Nat.Factorial.BigOperators
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Module.PerfectSpace
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The Beta function, and further properties of the Gamma function

@@ -5,9 +5,10 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.RingHomProperties
 public import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
 public import Mathlib.RingTheory.RingHom.StandardSmooth
+import Mathlib.Tactic.Lemma
+import Mathlib.RingTheory.RingHom.FinitePresentation
 
 /-!
 

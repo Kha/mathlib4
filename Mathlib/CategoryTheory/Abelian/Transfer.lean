@@ -6,9 +6,12 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Abelian.Basic
-public import Mathlib.CategoryTheory.Adjunction.Limits
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.AbelianImages
 public import Mathlib.CategoryTheory.Preadditive.Transfer
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.AbelianImages
 
 /-!
 # Transferring "abelian-ness" across a functor

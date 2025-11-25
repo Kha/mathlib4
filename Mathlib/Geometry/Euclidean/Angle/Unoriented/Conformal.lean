@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.Calculus.Conformal.NormedSpace
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.FDeriv.Basic
 
 /-!
 # Angles and conformal maps

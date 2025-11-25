@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 
 # A product as a binary product

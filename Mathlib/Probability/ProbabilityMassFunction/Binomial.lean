@@ -5,9 +5,14 @@ Authors: Joachim Breitner
 -/
 module
 
-public import Mathlib.Data.Nat.Choose.Sum
 public import Mathlib.Probability.ProbabilityMassFunction.Constructions
-public import Mathlib.Tactic.FinCases
+public import Mathlib.Data.ENNReal.BigOperators
+public import Mathlib.Data.Nat.Choose.Basic
+import Mathlib.Tactic.FinCases
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Choose.Sum
 
 /-!
 # The binomial distribution

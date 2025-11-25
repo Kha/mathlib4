@@ -5,9 +5,19 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Asymptotics
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.MeasureTheory.Integral.Asymptotics
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integrals with exponential decay at ∞

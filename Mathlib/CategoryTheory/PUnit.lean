@@ -5,8 +5,8 @@ Authors: Kim Morrison, Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Functor.Const
 public import Mathlib.CategoryTheory.Discrete.Basic
+import Mathlib.Data.ULift
 
 /-!
 # The category `Discrete PUnit`

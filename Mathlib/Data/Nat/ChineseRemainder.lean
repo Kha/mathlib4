@@ -5,9 +5,15 @@ Authors: Shogo Saito. Adapted for mathlib by Hunter Monroe
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.List
 public import Mathlib.Data.Nat.ModEq
 public import Mathlib.Data.Nat.GCD.BigOperators
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Data.List.Nodup
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Chinese Remainder Theorem

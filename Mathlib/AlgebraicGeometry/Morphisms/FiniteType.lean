@@ -6,8 +6,12 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.RingHomProperties
-public import Mathlib.RingTheory.RingHom.FiniteType
-public import Mathlib.RingTheory.Spectrum.Prime.Jacobson
+public import Mathlib.Topology.JacobsonSpace
+public import Mathlib.RingTheory.Jacobson.Ring
+import Mathlib.Tactic.Lemma
+import Mathlib.RingTheory.RingHom.FiniteType
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.RingTheory.Spectrum.Prime.Jacobson
 
 /-!
 # Morphisms of finite type

@@ -5,7 +5,11 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Set.Lattice
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.Substs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Formal concept analysis

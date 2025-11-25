@@ -6,6 +6,9 @@ Authors: Scott Carnahan
 module
 
 public import Mathlib.Algebra.Lie.Abelian
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # Lie algebra cohomology in low degree

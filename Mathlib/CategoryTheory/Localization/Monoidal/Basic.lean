@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Localization.Trifunctor
 public import Mathlib.CategoryTheory.Monoidal.Functor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization of monoidal categories

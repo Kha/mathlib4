@@ -6,8 +6,12 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.LinearAlgebra.CrossProduct
-public import Mathlib.LinearAlgebra.Matrix.DotProduct
 public import Mathlib.LinearAlgebra.Projectivization.Basic
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.LinearAlgebra.Matrix.DotProduct
 
 /-!
 

@@ -5,11 +5,22 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Lie.Matrix
-public import Mathlib.Algebra.Lie.Semisimple.Lemmas
-public import Mathlib.Algebra.Lie.Weights.Linear
 public import Mathlib.LinearAlgebra.RootSystem.GeckConstruction.Basic
-public import Mathlib.RingTheory.Finiteness.Nilpotent
+public import Mathlib.Algebra.Lie.Semisimple.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.NoZeroSMulDivisors.Pi
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Finiteness.Nilpotent
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Lie.Semisimple.Lemmas
+import Mathlib.Algebra.Lie.Weights.Linear
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 /-!
 # Geck's construction of a Lie algebra associated to a root system yields semisimple algebras

@@ -7,10 +7,20 @@ module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Div
-public import Mathlib.Algebra.Polynomial.Identities
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.Nilpotent.Basic
-public import Mathlib.RingTheory.Nilpotent.Lemmas
+public import Mathlib.Algebra.Polynomial.Reverse
+public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Algebra.Polynomial.Identities
+import Mathlib.Algebra.Polynomial.Inductions
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.RingTheory.Nilpotent.Lemmas
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Nilpotency in polynomial rings.

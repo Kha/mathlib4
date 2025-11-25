@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.DFinsupp.Module
 public import Mathlib.Data.Fintype.Quotient
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `DFinsupp` on `Sigma` types

@@ -6,6 +6,8 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.Constructions.SumProd
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Maps equivariantly-homeomorphic to projection in a product

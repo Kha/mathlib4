@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
 public import Mathlib.RingTheory.OreLocalization.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ore Localization over nonZeroDivisors in monoids with zeros.

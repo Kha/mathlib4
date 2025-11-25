@@ -5,7 +5,15 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+public import Mathlib.Data.Multiset.Fold
+public import Mathlib.Algebra.Order.Group.Multiset
+public import Mathlib.Algebra.BigOperators.Group.Multiset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Lattice
+import Mathlib.Data.List.Nodup
+import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Bind operation for multisets

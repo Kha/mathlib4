@@ -5,11 +5,27 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Basic
-public import Mathlib.Algebra.CharP.Defs
-public import Mathlib.Algebra.Polynomial.Degree.Lemmas
-public import Mathlib.Algebra.Polynomial.Eval.Algebra
-public import Mathlib.Tactic.Abel
+public import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+public import Mathlib.Data.Nat.Choose.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Lemmas
+import Mathlib.Algebra.Polynomial.Eval.Algebra
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # The Pochhammer polynomials

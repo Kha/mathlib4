@@ -5,10 +5,15 @@ Authors: Heather Macbeth, Floris van Doorn, Michael Rothgang
 -/
 module
 
-public import Mathlib.Geometry.Manifold.Algebra.LieGroup
-public import Mathlib.Geometry.Manifold.MFDeriv.Basic
-public import Mathlib.Topology.ContinuousMap.Basic
 public import Mathlib.Geometry.Manifold.VectorBundle.Basic
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Geometry.Manifold.Algebra.LieGroup
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
 
 /-!
 # `C^n` sections

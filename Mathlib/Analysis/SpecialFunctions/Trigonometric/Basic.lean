@@ -5,10 +5,32 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 -/
 module
 
-public import Mathlib.Algebra.Field.NegOnePow
-public import Mathlib.Algebra.Field.Periodic
-public import Mathlib.Algebra.QuadraticDiscriminant
-public import Mathlib.Analysis.SpecialFunctions.Exp
+public import Mathlib.Algebra.Ring.Periodic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.Trigonometric
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Algebra.QuadraticDiscriminant
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Closure
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Field.NegOnePow
+import Mathlib.Algebra.Field.Periodic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.SpecialFunctions.Exp
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Order.Interval.Set.Infinite
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Trigonometric functions

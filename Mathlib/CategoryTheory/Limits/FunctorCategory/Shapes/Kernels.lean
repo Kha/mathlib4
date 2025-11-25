@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+import Mathlib.Tactic.TypeStar
 
 /-!
 # (Co)kernels in functor categories

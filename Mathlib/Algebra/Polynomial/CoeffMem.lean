@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Algebra.Operations
 public import Mathlib.Algebra.Polynomial.Div
 public import Mathlib.RingTheory.Ideal.Span
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.Order.GroupWithZero.Canonical
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Bounding the coefficients of the quotient and remainder of polynomials

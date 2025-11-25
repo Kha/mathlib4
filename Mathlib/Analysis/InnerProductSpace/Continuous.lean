@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuity of inner product

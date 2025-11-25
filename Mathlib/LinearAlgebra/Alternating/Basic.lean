@@ -7,7 +7,14 @@ module
 
 public import Mathlib.GroupTheory.Perm.Sign
 public import Mathlib.LinearAlgebra.LinearIndependent.Defs
-public import Mathlib.LinearAlgebra.Multilinear.Basis
+public import Mathlib.LinearAlgebra.Basis.Defs
+public import Mathlib.LinearAlgebra.Multilinear.Basic
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.NoZeroSMulDivisors.Pi
+import Mathlib.LinearAlgebra.Multilinear.Basis
+import Mathlib.Data.Int.Order.Units
 
 /-!
 # Alternating Maps

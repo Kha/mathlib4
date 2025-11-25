@@ -5,11 +5,16 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Data.DFinsupp.BigOperators
 public import Mathlib.Data.DFinsupp.Order
-public import Mathlib.Order.Interval.Finset.Basic
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+public import Mathlib.Data.Nat.Cast.Basic
+public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Order.Interval.Finset.Basic
 
 /-!
 # Finite intervals of finitely supported functions

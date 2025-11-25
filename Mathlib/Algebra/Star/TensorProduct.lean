@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Star.Module
 public import Mathlib.LinearAlgebra.TensorProduct.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The star structure on tensor products

@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Monad.Basic
 public import Mathlib.CategoryTheory.Adjunction.Basic
-public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Functor.EpiMono
 
 /-!
 # Eilenberg-Moore (co)algebras for a (co)monad

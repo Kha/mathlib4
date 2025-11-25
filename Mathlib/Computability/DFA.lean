@@ -6,9 +6,13 @@ Authors: Fox Thomson, Chris Wong
 module
 
 public import Mathlib.Computability.Language
-public import Mathlib.Data.Countable.Small
-public import Mathlib.Data.Fintype.Pigeonhole
-public import Mathlib.Tactic.NormNum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.ZeroLEOne
+import Mathlib.Data.Countable.Small
+import Mathlib.Data.Fintype.Pigeonhole
+import Mathlib.Data.List.Induction
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Deterministic Finite Automata

@@ -10,8 +10,11 @@ public import Mathlib.Data.Fin.Basic
 public import Mathlib.Data.Nat.Find
 public import Mathlib.Data.PNat.Equiv
 public import Mathlib.Logic.Equiv.Nat
-public import Mathlib.Order.Directed
-public import Mathlib.Order.RelIso.Basic
+public import Mathlib.Logic.Embedding.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.RelIso.Basic
+import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # Encodable types

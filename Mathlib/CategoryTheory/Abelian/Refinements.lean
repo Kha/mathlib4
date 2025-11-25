@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Exact
+import Mathlib.Tactic.Lemma
 
 /-!
 # Refinements

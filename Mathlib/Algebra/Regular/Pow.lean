@@ -6,7 +6,9 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
-public import Mathlib.Algebra.Regular.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Regular.Basic
 
 /-!
 # Product of regular elements

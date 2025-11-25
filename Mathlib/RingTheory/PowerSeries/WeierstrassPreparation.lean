@@ -5,11 +5,18 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.RingTheory.LocalRing.ResidueField.Basic
 public import Mathlib.RingTheory.Polynomial.Eisenstein.Distinguished
-public import Mathlib.RingTheory.PowerSeries.CoeffMulMem
-public import Mathlib.RingTheory.PowerSeries.Inverse
 public import Mathlib.RingTheory.PowerSeries.Trunc
+public import Mathlib.RingTheory.AdicCompletion.Basic
+public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import Mathlib.RingTheory.LocalRing.ResidueField.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.PowerSeries.CoeffMulMem
+import Mathlib.RingTheory.PowerSeries.Inverse
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.RingTheory.LocalRing.ResidueField.Basic
 
 /-!
 

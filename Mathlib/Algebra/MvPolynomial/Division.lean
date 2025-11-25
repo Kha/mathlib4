@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.MonoidAlgebra.Division
 public import Mathlib.Algebra.MvPolynomial.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Division of `MvPolynomial` by monomials

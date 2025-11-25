@@ -6,9 +6,19 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Geometry.Euclidean.Inversion.Basic
-public import Mathlib.Analysis.InnerProductSpace.Calculus
-public import Mathlib.Analysis.Calculus.Deriv.Inv
-public import Mathlib.Tactic.AdaptationNote
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.InnerProductSpace.Projection.Reflection
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 
 /-!
 # Derivative of the inversion

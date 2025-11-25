@@ -5,7 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Filter.Map
+public import Mathlib.Order.Filter.Basic
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Filter.Map
 
 /-!
 # Kernel of a filter

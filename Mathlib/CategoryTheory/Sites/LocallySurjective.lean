@@ -5,9 +5,13 @@ Authors: Andrew Yang, Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Subsheaf
-public import Mathlib.CategoryTheory.Sites.CompatibleSheafification
 public import Mathlib.CategoryTheory.Sites.LocallyInjective
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.CategoryTheory.Sites.LeftExact
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
 /-!
 
 # Locally surjective morphisms

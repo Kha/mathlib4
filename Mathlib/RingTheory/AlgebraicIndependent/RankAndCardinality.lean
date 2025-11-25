@@ -5,12 +5,22 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
-public import Mathlib.FieldTheory.MvRatFunc.Rank
-public import Mathlib.RingTheory.Algebraic.Cardinality
-public import Mathlib.RingTheory.AlgebraicIndependent.Adjoin
-public import Mathlib.RingTheory.AlgebraicIndependent.Transcendental
-public import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.AlgebraicIndependent.Defs
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+import Mathlib.Algebra.MvPolynomial.Cardinal
+import Mathlib.FieldTheory.MvRatFunc.Rank
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Algebraic.Cardinality
+import Mathlib.RingTheory.AlgebraicIndependent.Adjoin
+import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
+import Mathlib.RingTheory.Localization.Cardinality
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 /-!
 # Cardinality of a transcendence basis

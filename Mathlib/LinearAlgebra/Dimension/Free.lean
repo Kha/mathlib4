@@ -7,8 +7,13 @@ module
 
 public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
 public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
-public import Mathlib.RingTheory.AlgebraTower
-public import Mathlib.SetTheory.Cardinal.Finsupp
+public import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.RingTheory.AlgebraTower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.SetTheory.Cardinal.Finsupp
 
 /-!
 # Rank of free modules

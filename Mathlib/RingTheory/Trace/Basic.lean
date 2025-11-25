@@ -8,11 +8,26 @@ module
 public import Mathlib.FieldTheory.Galois.Basic
 public import Mathlib.FieldTheory.Minpoly.MinpolyDiv
 public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.FieldTheory.PurelyInseparable.Basic
-public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Minpoly
 public import Mathlib.LinearAlgebra.Vandermonde
 public import Mathlib.RingTheory.Trace.Defs
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.FieldTheory.Tower
+import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.IntermediateField
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.PurelyInseparable.Basic
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Minpoly
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Trace for (finite) ring extensions.

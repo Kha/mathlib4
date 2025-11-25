@@ -5,8 +5,10 @@ Authors: Kevin Buzzard, Johan Commelin, Patrick Massot
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.Valuation.Basic
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 # The valuation on a quotient ring

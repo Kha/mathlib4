@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Condensed.Light.Basic
 public import Mathlib.Condensed.TopComparison
+public import Mathlib.Topology.Category.LightProfinite.Limits
+import Mathlib.Topology.Category.LightProfinite.EffectiveEpi
 
 /-!
 

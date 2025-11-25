@@ -5,8 +5,15 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.RingTheory.Flat.Stability
-public import Mathlib.RingTheory.LocalProperties.Exactness
+public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.Algebra.Module.LocalizedModule.AtPrime
+public import Mathlib.Algebra.Module.LocalizedModule.Away
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Flat.Stability
+import Mathlib.RingTheory.LocalProperties.Exactness
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.Algebra.Module.LocalizedModule.Submodule
 
 /-!
 # Flatness and localization

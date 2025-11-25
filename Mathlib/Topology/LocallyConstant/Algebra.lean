@@ -6,9 +6,11 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Algebra.Pi
-public import Mathlib.Algebra.GroupWithZero.Indicator
 public import Mathlib.LinearAlgebra.Pi
 public import Mathlib.Topology.LocallyConstant.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
 
 /-!
 # Algebraic structure on locally constant functions

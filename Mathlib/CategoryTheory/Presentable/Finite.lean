@@ -7,9 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Filtered
 public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
-public import Mathlib.CategoryTheory.Limits.Types.Filtered
-public import Mathlib.CategoryTheory.MorphismProperty.Basic
 public import Mathlib.CategoryTheory.Presentable.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Types.Filtered
 
 /-!
 # Finitely Presentable Objects

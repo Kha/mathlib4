@@ -6,6 +6,11 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Laplacian
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-!
 # Harmonic Functions

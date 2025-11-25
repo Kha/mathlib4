@@ -7,7 +7,11 @@ module
 
 public import Mathlib.NumberTheory.Real.Irrational
 public import Mathlib.Topology.Instances.AddCircle.Defs
-public import Mathlib.Topology.Algebra.Order.Archimedean
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.Order.Archimedean
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Irrational rotation is minimal

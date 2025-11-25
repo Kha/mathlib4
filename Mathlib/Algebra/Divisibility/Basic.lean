@@ -6,8 +6,13 @@ Neil Strickland, Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Group.Defs
+public import Mathlib.Tactic.GCongr.Core
+import Batteries.Tactic.SeqFocus
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
 
 /-!
 # Divisibility

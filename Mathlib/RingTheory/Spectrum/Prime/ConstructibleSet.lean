@@ -5,8 +5,11 @@ Authors: Yaël Dillies, Andrew Yang
 -/
 module
 
-public import Mathlib.Order.SuccPred.WithBot
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
+public import Mathlib.Data.Finite.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.CompleteLattice.Finset
 
 /-!
 # Constructible sets in the prime spectrum

@@ -8,6 +8,7 @@ module
 public import Mathlib.Order.Category.Frm
 public import Mathlib.Topology.Category.CompHaus.Basic
 public import Mathlib.Topology.Sets.Opens
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-! The forgetful functor from `TopCatᵒᵖ` to `Frm`. -/
 

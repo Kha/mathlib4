@@ -6,6 +6,13 @@ Authors: Moritz Doll
 module
 
 public import Mathlib.Analysis.LocallyConvex.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Balanced Core and Balanced Hull

@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Join.Basic
 public import Mathlib.CategoryTheory.Limits.Final
-public import Mathlib.CategoryTheory.Limits.IsConnected
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.IsConnected
 
 /-!
 # (Co)Finality of the inclusions in joins of categories

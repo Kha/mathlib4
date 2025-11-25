@@ -7,6 +7,7 @@ module
 
 public import Mathlib.ModelTheory.Algebra.Ring.Basic
 public import Mathlib.RingTheory.FreeCommRing
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Making a term in the language of rings from an element of the FreeCommRing

@@ -5,9 +5,9 @@ Authors: Kim Morrison, Hanting Zhang
 -/
 module
 
-public meta import Mathlib.Tactic.Core
-public meta import Mathlib.Lean.Expr.Basic
-public meta import Mathlib.Data.Fintype.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Data.Fintype.Defs
 
 /-!
 # The `fin_cases` tactic.

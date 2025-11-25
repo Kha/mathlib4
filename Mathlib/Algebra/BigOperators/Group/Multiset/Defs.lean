@@ -5,10 +5,11 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.List.Defs
 public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Data.Multiset.Basic
 public import Mathlib.Data.Multiset.Filter
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.List.Defs
 
 /-!
 # Sums and products over multisets

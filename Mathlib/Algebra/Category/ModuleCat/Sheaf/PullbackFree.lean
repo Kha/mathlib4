@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Free
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackContinuous
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
-public import Mathlib.CategoryTheory.Limits.Final.Type
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.CategoryTheory.Limits.Final.Type
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Sheaf.Colimits
 
 /-!
 # Pullbacks of free sheaves of modules

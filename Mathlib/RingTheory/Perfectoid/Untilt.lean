@@ -5,9 +5,15 @@ Authors: Jiedong Jiang
 -/
 module
 
-public import Mathlib.NumberTheory.Basic
 public import Mathlib.RingTheory.AdicCompletion.Basic
 public import Mathlib.RingTheory.Perfection
+import Mathlib.NumberTheory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Analysis.Normed.Ring.Lemmas
 
 /-!
 # Untilt Function

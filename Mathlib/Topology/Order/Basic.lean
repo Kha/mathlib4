@@ -6,12 +6,28 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 module
 
 public import Mathlib.Order.Filter.Interval
-public import Mathlib.Order.Interval.Set.Pi
 public import Mathlib.Order.OrdContinuous
-public import Mathlib.Tactic.TFAE
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Topology.Order.LeftRight
 public import Mathlib.Topology.Order.OrderClosed
+import Mathlib.Order.Cover
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.UpperLower.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Order.Filter.Bases.Finite
+import Mathlib.Order.Filter.Ultrafilter.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Order.Interval.Set.Pi
 
 /-!
 # Theory of topology on ordered spaces

@@ -9,6 +9,13 @@ public import Mathlib.NumberTheory.KummerDedekind
 public import Mathlib.NumberTheory.NumberField.Basic
 public import Mathlib.NumberTheory.RamificationInertia.Basic
 public import Mathlib.RingTheory.Ideal.Int
+public import Mathlib.Algebra.Field.ZMod
+public import Mathlib.Data.ZMod.QuotientRing
+public import Mathlib.RingTheory.DedekindDomain.Dvr
+public import Mathlib.RingTheory.Polynomial.UniqueFactorization
+public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Kummer-Dedekind criterion for the splitting of prime numbers

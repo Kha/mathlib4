@@ -6,8 +6,13 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Group.Submonoid.Defs
-public import Mathlib.Algebra.Order.Monoid.Basic
 public import Mathlib.Order.Interval.Set.Defs
+public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Order.Monoid.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Ordered instances on submonoids

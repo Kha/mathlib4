@@ -5,11 +5,20 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.GroupTheory.Abelianization.Finite
 public import Mathlib.GroupTheory.Nilpotent
-public import Mathlib.GroupTheory.SchurZassenhaus
 public import Mathlib.GroupTheory.SemidirectProduct
+public import Mathlib.Algebra.Squarefree.Basic
+public import Mathlib.GroupTheory.Abelianization.Defs
+import Mathlib.GroupTheory.SchurZassenhaus
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.GroupTheory.Abelianization.Finite
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Z-Groups

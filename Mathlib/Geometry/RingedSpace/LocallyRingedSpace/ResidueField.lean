@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Geometry.RingedSpace.LocallyRingedSpace
 public import Mathlib.RingTheory.LocalRing.ResidueField.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 

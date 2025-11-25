@@ -7,6 +7,9 @@ module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.Embedding
 public import Mathlib.MeasureTheory.PiSystem
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
 
 /-!
 # The product sigma algebra

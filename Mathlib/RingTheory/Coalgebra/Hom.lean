@@ -6,6 +6,7 @@ Authors: Kenny Lau, Yury Kudryashov, Amelia Livingston
 module
 
 public import Mathlib.RingTheory.Coalgebra.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homomorphisms of `R`-coalgebras

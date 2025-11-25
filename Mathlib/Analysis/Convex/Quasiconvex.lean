@@ -6,6 +6,7 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.Function
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quasiconvex and quasiconcave functions

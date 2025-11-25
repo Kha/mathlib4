@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Isometric
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
 
 /-! # Properties of `rpow` and `sqrt` over an algebra with an isometric CFC
 

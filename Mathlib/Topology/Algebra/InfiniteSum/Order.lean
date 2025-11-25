@@ -6,10 +6,27 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Topology.Algebra.InfiniteSum.NatInt
-public import Mathlib.Topology.Algebra.Order.Field
-public import Mathlib.Topology.Order.MonotoneConvergence
+public import Mathlib.Tactic.NormNum.Basic
+public meta import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Infinite sum or product in an order

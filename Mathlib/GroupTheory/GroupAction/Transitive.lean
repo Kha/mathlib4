@@ -7,6 +7,7 @@ module
 
 public import Mathlib.GroupTheory.GroupAction.Defs
 public import Mathlib.GroupTheory.GroupAction.Hom
+import Mathlib.Tactic.TypeStar
 
 /-! # Complements to pretransitive actions
 

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Abelian.SerreClass.MorphismProperty
 public import Mathlib.CategoryTheory.Localization.Bousfield
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.Adjunction
 
 /-!
 # Bousfield localizations with respect to Serre classes

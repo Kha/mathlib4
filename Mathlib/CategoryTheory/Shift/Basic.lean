@@ -6,9 +6,13 @@ Authors: Kim Morrison, Johan Commelin, Andrew Yang, Joël Riou
 module
 
 public import Mathlib.Algebra.Group.Basic
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Zero
 public import Mathlib.CategoryTheory.Monoidal.End
 public import Mathlib.CategoryTheory.Monoidal.Discrete
+public import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Zero
 
 /-!
 # Shift

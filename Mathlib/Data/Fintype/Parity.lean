@@ -8,6 +8,7 @@ module
 public import Mathlib.Data.Fintype.Card
 public import Mathlib.Algebra.Group.Even
 import all Init.Data.Fin.Fold  -- for exposing `Fin.foldr`
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The cardinality of `Fin 2` is even.

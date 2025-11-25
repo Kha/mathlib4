@@ -5,8 +5,15 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Batteries.Data.List.Perm
-public import Mathlib.Data.List.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+import Batteries.Tactic.Init
+import Batteries.Tactic.Trans
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Perm
+import Mathlib.Data.List.Basic
 
 /-!
 # List Sub-permutations

@@ -5,14 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Powerset
-public import Mathlib.Algebra.NoZeroSMulDivisors.Pi
 public import Mathlib.Data.Finset.Sort
-public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Data.Fintype.Powerset
 public import Mathlib.LinearAlgebra.Pi
 public import Mathlib.Logic.Equiv.Fintype
 public import Mathlib.Tactic.Abel
+public import Mathlib.Data.Fintype.Pi
+public import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Pi
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.List.OfFn
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Powerset
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Multilinear maps

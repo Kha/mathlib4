@@ -6,9 +6,9 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Functor.Hom
-public import Mathlib.CategoryTheory.Products.Basic
-public import Mathlib.Data.ULift
-public import Mathlib.Logic.Function.ULift
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Yoneda embedding

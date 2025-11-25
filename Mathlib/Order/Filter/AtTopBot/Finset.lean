@@ -5,10 +5,17 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov, Patrick Massot
 -/
 module
 
-public import Mathlib.Data.Finset.Order
-public import Mathlib.Order.Filter.AtTopBot.Basic
-public import Mathlib.Order.Filter.Finite
 public import Mathlib.Order.Interval.Finset.Defs
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Order
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
 
 /-!
 # `Filter.atTop` and `Filter.atBot` filters and finite sets.

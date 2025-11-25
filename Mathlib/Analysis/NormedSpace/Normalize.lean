@@ -5,8 +5,13 @@ Authors: Ilmārs Cīrulis, Alex Meiburg
 -/
 module
 
-public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.Data.Sign.Defs
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Tactic.Linarith.Frontend
 
 /-!
 # Normalized vector

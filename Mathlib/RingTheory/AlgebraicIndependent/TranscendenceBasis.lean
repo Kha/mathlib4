@@ -5,10 +5,21 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Combinatorics.Matroid.IndepAxioms
 public import Mathlib.Combinatorics.Matroid.Rank.Cardinal
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
-public import Mathlib.RingTheory.AlgebraicIndependent.Transcendental
+public import Mathlib.RingTheory.FiniteType
+public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.RingTheory.AlgebraicIndependent.Basic
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.AlgebraicIndependent.Transcendental
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
 
 /-!
 # Transcendence basis

@@ -6,8 +6,16 @@ Authors: Wanyi He, Jiedong Jiang, Xuchun Li, Christian Merten, Jingting Wang, An
 module
 
 public import Mathlib.Data.ENat.Lattice
-public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
-public import Mathlib.RingTheory.Finiteness.Ideal
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Ideal
 
 /-!
 # Minimum Cardinality of generating set of a submodule

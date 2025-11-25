@@ -5,8 +5,11 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.EqToHom
 public import Mathlib.CategoryTheory.Products.Basic
+import Mathlib.CategoryTheory.EqToHom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Prod.Basic
 
 /-!
 # Curry and uncurry, as functors.

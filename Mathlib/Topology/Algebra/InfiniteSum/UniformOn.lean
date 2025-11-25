@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Topology.Algebra.InfiniteSum.Defs
 public import Mathlib.Topology.Algebra.UniformConvergence
-public import Mathlib.Order.Filter.AtTopBot.Finset
+public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Infinite sum and products that converge uniformly on a set

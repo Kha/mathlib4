@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.AnodyneExtensions.Pairing
+import Mathlib.Tactic.Lemma
 
 /-!
 # Helper structure in order to construct pairings

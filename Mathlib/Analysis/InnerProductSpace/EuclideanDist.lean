@@ -5,9 +5,15 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Calculus
 public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Euclidean distance on a finite-dimensional space

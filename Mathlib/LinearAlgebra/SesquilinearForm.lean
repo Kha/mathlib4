@@ -6,5 +6,6 @@ Authors: Andreas Swerdlow
 module
 
 public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-10-06")

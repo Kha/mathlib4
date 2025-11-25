@@ -5,10 +5,26 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot
 -/
 module
 
-public import Mathlib.Data.Rel
 public import Mathlib.Order.Filter.SmallSets
 public import Mathlib.Topology.UniformSpace.Defs
-public import Mathlib.Topology.ContinuousOn
+public import Mathlib.Algebra.Opposites
+public import Mathlib.Data.Set.Restrict
+public import Mathlib.Order.Filter.CountablyGenerated
+public import Mathlib.Order.Filter.Finite
+public import Mathlib.Order.Filter.Map
+public import Mathlib.Order.Filter.Tendsto
+public import Mathlib.Topology.Constructions.SumProd
+public import Mathlib.Algebra.Group.TypeTags.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Prod
 
 /-!
 # Basic results on uniform spaces

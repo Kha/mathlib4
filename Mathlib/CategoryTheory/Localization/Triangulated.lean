@@ -5,10 +5,13 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.CalculusOfFractions.ComposableArrows
 public import Mathlib.CategoryTheory.Localization.CalculusOfFractions.Preadditive
 public import Mathlib.CategoryTheory.Triangulated.Functor
 public import Mathlib.CategoryTheory.Shift.Localization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.CategoryTheory.Localization.CalculusOfFractions.ComposableArrows
 
 /-! # Localization of triangulated categories
 

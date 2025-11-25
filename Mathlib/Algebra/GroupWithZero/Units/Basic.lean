@@ -5,12 +5,23 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Group.Units.Basic
 public import Mathlib.Algebra.GroupWithZero.Basic
-public import Mathlib.Data.Int.Basic
-public import Mathlib.Lean.Meta.CongrTheorems
-public import Mathlib.Tactic.Contrapose
 public import Mathlib.Tactic.Spread
+public import Mathlib.Algebra.NeZero
+public import Mathlib.Algebra.GroupWithZero.NeZero
+public import Mathlib.Algebra.Group.Units.Defs
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Lean.Meta.CongrTheorems
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Lemmas about units in a `MonoidWithZero` or a `GroupWithZero`.

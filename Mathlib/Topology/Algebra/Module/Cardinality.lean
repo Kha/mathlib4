@@ -5,12 +5,21 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Algebra.Module.Card
-public import Mathlib.Analysis.SpecificLimits.Normed
 public import Mathlib.SetTheory.Cardinal.Continuum
-public import Mathlib.SetTheory.Cardinal.CountableCover
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.Topology.MetricSpace.Perfect
+public import Mathlib.Analysis.Normed.Field.Basic
+public import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.Card
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.SetTheory.Cardinal.CountableCover
+import Mathlib.Topology.MetricSpace.Perfect
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Cardinality of open subsets of vector spaces

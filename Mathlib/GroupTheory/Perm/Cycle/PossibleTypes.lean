@@ -5,7 +5,10 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.GroupTheory.Perm.Cycle.Concrete
+public import Mathlib.GroupTheory.Perm.Cycle.Type
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.Perm.Cycle.Concrete
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
 
 /-! # Possible cycle types of permutations
 

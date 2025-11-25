@@ -6,10 +6,21 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Analysis.RCLike.Lemmas
 public import Mathlib.Topology.TietzeExtension
-public import Mathlib.Analysis.Normed.Module.Ball.Homeomorph
-public import Mathlib.Analysis.Normed.Module.RCLike.Basic
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Piecewise
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Data.Set.Piecewise
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Analysis.Normed.Affine.AddTorsor
+import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Module.Ball.Homeomorph
+import Mathlib.Analysis.Normed.Module.RCLike.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 /-!
 # Finite-dimensional topological vector spaces over `ℝ` satisfy the Tietze extension property
 

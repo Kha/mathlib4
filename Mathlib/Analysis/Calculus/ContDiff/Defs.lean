@@ -5,9 +5,23 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Within
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
 public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
+public import Mathlib.Analysis.Analytic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Data.Set.Order
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Group.Fin.Tuple
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 
 /-!
 # Higher differentiability

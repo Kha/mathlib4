@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Functor.Prelax
 public import Mathlib.Tactic.CategoryTheory.ToApp
+public import Mathlib.CategoryTheory.Category.Cat
+import Mathlib.Tactic.Lemma
 
 /-!
 # Oplax functors

@@ -6,7 +6,12 @@ Authors: Ruben Van de Velde
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Multiset.Defs
-public import Mathlib.Algebra.Order.BigOperators.Ring.List
+public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.BigOperators.Ring.List
 
 /-!
 # Big operators on a multiset in ordered rings

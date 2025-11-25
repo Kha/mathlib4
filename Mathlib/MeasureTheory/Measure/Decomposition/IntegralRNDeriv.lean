@@ -5,9 +5,19 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 -/
 module
 
-public import Mathlib.Analysis.Convex.Continuous
-public import Mathlib.Analysis.Convex.Integral
-public import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Continuous
+import Mathlib.Analysis.Convex.Integral
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
 
 /-!
 # Integrals of functions of Radon-Nikodym derivatives

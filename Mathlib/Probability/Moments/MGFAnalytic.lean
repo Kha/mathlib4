@@ -5,9 +5,24 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Moments.ComplexMGF
-public import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
-public import Mathlib.Analysis.Calculus.Taylor
+public import Mathlib.Probability.Moments.Basic
+public import Mathlib.Probability.Moments.IntegrableExpMul
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Calculus.Taylor
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Probability.Moments.ComplexMGF
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
+import Mathlib.Analysis.SpecialFunctions.Log.Deriv
 
 /-!
 # The moment-generating function is analytic

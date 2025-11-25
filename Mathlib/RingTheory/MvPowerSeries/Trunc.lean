@@ -8,6 +8,7 @@ module
 public import Mathlib.RingTheory.MvPowerSeries.Basic
 public import Mathlib.Data.Finsupp.Interval
 public import Mathlib.Algebra.MvPolynomial.Eval
+import Mathlib.Tactic.TypeStar
 
 /-!
 

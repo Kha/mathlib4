@@ -6,7 +6,9 @@ Authors: Yuma Mizuno
 module
 
 public meta import Mathlib.Tactic.CategoryTheory.Coherence.Datatypes
-public meta import Mathlib.Tactic.CategoryTheory.MonoidalComp
+public import Qq.Typ
+public import Mathlib.Tactic.CategoryTheory.MonoidalComp
+public import Mathlib.Tactic.CategoryTheory.Coherence.Datatypes
 
 /-!
 # Expressions for monoidal categories

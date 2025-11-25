@@ -5,12 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot, Yury Kudryashov, Rémy
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Abs
-public import Mathlib.Algebra.Order.Group.Basic
 public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Data.Int.Cast.Basic
-public import Mathlib.Order.Interval.Set.Basic
 public import Mathlib.Logic.Pairwise
+public import Mathlib.Order.BooleanAlgebra.Set
+public import Mathlib.Order.Interval.Set.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Order.Interval.Set.Basic
 
 /-! ### Lemmas about arithmetic operations and intervals. -/
 

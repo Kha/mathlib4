@@ -6,11 +6,16 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
-public import Mathlib.Algebra.Group.Pointwise.Set.Lattice
-public import Mathlib.Algebra.Order.Group.Defs
-public import Mathlib.Algebra.Order.Group.OrderIso
-public import Mathlib.Algebra.Order.Monoid.OrderDual
 public import Mathlib.Order.UpperLower.Closure
+public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-!
 # Algebraic operations on upper/lower sets

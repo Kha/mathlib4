@@ -6,7 +6,12 @@ Authors: Devon Tuma
 module
 
 public import Mathlib.RingTheory.Jacobson.Ideal
-public import Mathlib.RingTheory.Polynomial.Quotient
+public import Mathlib.Algebra.Polynomial.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.Quotient
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 /-!
 # Jacobson radical of polynomial ring
 

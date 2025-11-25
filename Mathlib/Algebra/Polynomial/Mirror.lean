@@ -5,8 +5,18 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.NatAntidiagonal
 public import Mathlib.Algebra.Polynomial.Reverse
+public import Mathlib.Algebra.Divisibility.Units
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # "Mirror" of a univariate polynomial

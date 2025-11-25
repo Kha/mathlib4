@@ -5,8 +5,13 @@ Authors: Adam Topaz
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
-public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 

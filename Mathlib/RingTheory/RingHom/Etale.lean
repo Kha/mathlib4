@@ -7,6 +7,9 @@ module
 
 public import Mathlib.RingTheory.RingHom.Smooth
 public import Mathlib.RingTheory.RingHom.Unramified
+public import Mathlib.RingTheory.Etale.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Étale ring homomorphisms

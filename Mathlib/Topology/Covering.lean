@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Topology.IsLocalHomeomorph
 public import Mathlib.Topology.FiberBundle.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Covering Maps

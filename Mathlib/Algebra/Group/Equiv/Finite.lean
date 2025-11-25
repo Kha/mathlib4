@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Data.Fintype.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finite types with addition/multiplications

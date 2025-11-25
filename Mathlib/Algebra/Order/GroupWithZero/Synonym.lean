@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Defs
 public import Mathlib.Algebra.Order.Group.Synonym
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Group with zero structure on the order type synonyms

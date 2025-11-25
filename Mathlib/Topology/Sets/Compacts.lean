@@ -5,8 +5,13 @@ Authors: Floris van Doorn, Yaël Dillies
 -/
 module
 
-public import Mathlib.Topology.Sets.Closeds
 public import Mathlib.Topology.QuasiSeparated
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Prod
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # Compact sets

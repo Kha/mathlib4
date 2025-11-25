@@ -5,13 +5,21 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.CharP.Basic
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
 public import Mathlib.Algebra.Group.Submonoid.Defs
-public import Mathlib.Algebra.Order.BigOperators.Group.Multiset
-public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Data.ZMod.Defs
+public import Mathlib.Algebra.Group.Prod
+public import Mathlib.Order.Fin.Basic
+public import Mathlib.Algebra.BigOperators.Group.Multiset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Multiset
 
 /-!
 # Freiman homomorphisms

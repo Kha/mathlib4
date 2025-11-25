@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.GroupWithZero.Action.End
 public import Mathlib.Algebra.Module.Defs
 public import Mathlib.Algebra.Ring.Hom.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Composing modules with a ring hom

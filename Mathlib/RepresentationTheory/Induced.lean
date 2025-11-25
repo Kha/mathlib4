@@ -6,6 +6,8 @@ Authors: Amelia Livingston
 module
 
 public import Mathlib.RepresentationTheory.Coinvariants
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Induced representations

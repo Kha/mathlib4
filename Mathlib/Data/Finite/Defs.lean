@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Data.Set.CoeSort
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Tactic.Set
-public import Mathlib.Util.AssertExists
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Definition of the `Finite` typeclass

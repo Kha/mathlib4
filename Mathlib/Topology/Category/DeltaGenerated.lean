@@ -6,8 +6,10 @@ Authors: Ben Eltschig
 module
 
 public import Mathlib.CategoryTheory.Monad.Limits
-public import Mathlib.Topology.Category.TopCat.Limits.Basic
 public import Mathlib.Topology.Compactness.DeltaGeneratedSpace
+public import Mathlib.Topology.Category.TopCat.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Category.TopCat.Limits.Basic
 
 /-!
 # Delta-generated topological spaces

@@ -5,12 +5,28 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.CharP.Two
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Data.Nat.Cast.Field
-public import Mathlib.Data.Nat.Factorization.Basic
-public import Mathlib.Data.Nat.Factorization.Induction
-public import Mathlib.Data.Nat.Periodic
+public import Mathlib.NumberTheory.Divisors
+public import Mathlib.SetTheory.Cardinal.Finite
+public meta import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Data.Nat.Factorization.Defs
+import Mathlib.Algebra.CharP.Two
+import Mathlib.Algebra.Field.Rat
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Fintype.Units
+import Mathlib.Data.Nat.Periodic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Field
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Factorization.Induction
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 # Euler's totient function

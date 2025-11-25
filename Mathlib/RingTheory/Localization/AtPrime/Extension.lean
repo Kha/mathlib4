@@ -5,7 +5,12 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.Dvr
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Primes in an extension of localization at prime

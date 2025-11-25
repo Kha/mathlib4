@@ -5,10 +5,16 @@ Authors: Kenny Lau, Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
-public import Mathlib.Algebra.GroupWithZero.Invertible
 public import Mathlib.LinearAlgebra.Prod
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+public import Mathlib.Algebra.Algebra.Opposite
+public import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Trivial Square-Zero Extension

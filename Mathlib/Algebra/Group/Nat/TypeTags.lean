@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Nat.Defs
 public import Mathlib.Algebra.Group.TypeTags.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.AssertExists
 
 /-!
 # Lemmas about `Multiplicative ℕ`

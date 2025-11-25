@@ -5,9 +5,11 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Nat.Factorial.Basic
 public import Mathlib.Data.Nat.Prime.Defs
-public import Mathlib.Order.Bounds.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Order.Bounds.Defs
+import Mathlib.Order.Bounds.Basic
+import Mathlib.Data.Nat.Factorial.Basic
 
 /-!
 ## Notable Theorems

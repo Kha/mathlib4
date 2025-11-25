@@ -5,10 +5,23 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Calculus
-public import Mathlib.Geometry.Manifold.ContMDiff.Basic
 public import Mathlib.Geometry.Manifold.Instances.Real
-public import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Topology.Order.ProjIcc
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.ContDiff.WithLp
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
 
 /-! # Manifold structure on real intervals
 

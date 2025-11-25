@@ -5,7 +5,13 @@ Authors: Christopher Hoskin
 -/
 module
 
-public import Mathlib.Order.Bounds.Basic
+public import Mathlib.Order.Directed
+public import Mathlib.Order.Bounds.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Order.Bounds.Basic
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Scott continuity

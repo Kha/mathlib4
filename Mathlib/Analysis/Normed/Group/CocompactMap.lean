@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Analysis.Normed.Group.Basic
 public import Mathlib.Topology.ContinuousMap.CocompactMap
-public import Mathlib.Topology.MetricSpace.Bounded
+public import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Bounded
 
 /-!
 # Cocompact maps in normed groups

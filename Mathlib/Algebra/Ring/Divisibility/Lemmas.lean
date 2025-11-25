@@ -5,11 +5,17 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Divisibility
-public import Mathlib.Algebra.Ring.Divisibility.Basic
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.GroupTheory.GroupAction.Ring
 public import Mathlib.Algebra.GCDMonoid.Basic
+public import Mathlib.Algebra.Group.Action.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Associated
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GrindInstances
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Data.Nat.Choose.Sum
 
 /-!
 # Lemmas about divisibility in rings

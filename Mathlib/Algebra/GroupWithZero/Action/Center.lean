@@ -5,8 +5,10 @@ Authors: Kexing Ying
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
 public import Mathlib.GroupTheory.Subgroup.Center
+public import Mathlib.Algebra.GroupWithZero.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Basic
 
 /-!
 # The center of a group with zero

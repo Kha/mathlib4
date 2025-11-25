@@ -6,9 +6,23 @@ Authors: David Kurniadi Angdinata
 module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Formula
-public import Mathlib.LinearAlgebra.FreeModule.Norm
 public import Mathlib.RingTheory.ClassGroup
-public import Mathlib.RingTheory.Polynomial.UniqueFactorization
+public import Mathlib.RingTheory.Norm.Defs
+import Mathlib.Order.Compare
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.LinearAlgebra.FreeModule.Norm
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Polynomial.Ideal
+import Mathlib.RingTheory.Polynomial.UniqueFactorization
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
 
 /-!
 # Nonsingular points and the group law in affine coordinates

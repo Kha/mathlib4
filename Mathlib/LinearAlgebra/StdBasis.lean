@@ -6,9 +6,14 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Algebra.Algebra.Pi
-public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
 public import Mathlib.LinearAlgebra.FreeModule.Basic
-public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.LinearAlgebra.Finsupp.SumProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+import Mathlib.LinearAlgebra.LinearIndependent.Basic
 
 /-!
 # The standard basis

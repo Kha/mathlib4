@@ -5,10 +5,10 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.CategoryTheory.Preadditive.Projective.Resolution
 public import Mathlib.RepresentationTheory.Homological.GroupHomology.Basic
 public import Mathlib.RepresentationTheory.Coinduced
 public import Mathlib.RepresentationTheory.Induced
+public import Mathlib.CategoryTheory.Adjunction.Limits
 
 /-!
 # Shapiro's lemma for group homology

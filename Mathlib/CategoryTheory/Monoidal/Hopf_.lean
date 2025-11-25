@@ -6,7 +6,8 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Bimon_
-public import Mathlib.CategoryTheory.Monoidal.Conv
+import Mathlib.CategoryTheory.Monoidal.Conv
+import Mathlib.Tactic.CategoryTheory.Monoidal.Basic
 
 /-!
 # The category of Hopf monoids in a braided monoidal category.

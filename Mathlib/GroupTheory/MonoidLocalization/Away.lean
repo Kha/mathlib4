@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Membership
 public import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localizing commutative monoids away from an element

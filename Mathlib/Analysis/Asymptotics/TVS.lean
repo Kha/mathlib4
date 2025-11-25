@@ -6,12 +6,21 @@ Authors: Yury Kudryashov, Eric Wieser
 module
 
 public import Mathlib.Analysis.Convex.EGauge
-public import Mathlib.Analysis.LocallyConvex.BalancedCoreHull
-public import Mathlib.Analysis.Seminorm
-public import Mathlib.Tactic.Peel
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
 public import Mathlib.Analysis.Asymptotics.Defs
-public import Mathlib.Topology.Algebra.Module.LinearMapPiProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.LocallyConvex.BalancedCoreHull
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Algebra.Module.LinearMapPiProd
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Asymptotics in a Topological Vector Space

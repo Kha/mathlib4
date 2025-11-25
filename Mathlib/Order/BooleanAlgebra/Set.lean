@@ -5,8 +5,14 @@ Authors: Jeremy Avigad, Leonardo de Moura
 -/
 module
 
-public import Mathlib.Data.Set.Insert
 public import Mathlib.Order.BooleanAlgebra.Basic
+public import Mathlib.Data.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Insert
 
 /-!
 # Boolean algebra of sets

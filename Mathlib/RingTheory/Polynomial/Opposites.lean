@@ -5,8 +5,15 @@ Authors: Damiano Testa
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Support
-public import Mathlib.Tactic.NoncommRing
+public import Mathlib.Algebra.MonoidAlgebra.Opposite
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.NoncommRing
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.Support
 
 /-! # Interactions between `R[X]` and `Rᵐᵒᵖ[X]`
 

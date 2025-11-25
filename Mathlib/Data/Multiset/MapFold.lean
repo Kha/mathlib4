@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Data.List.Perm.Basic
 public import Mathlib.Data.Multiset.Replicate
-public import Mathlib.Data.Set.List
+public import Batteries.Tactic.Lint.Simp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.Set.List
 
 /-!
 # Mapping and folding multisets

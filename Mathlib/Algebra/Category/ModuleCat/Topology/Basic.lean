@@ -5,10 +5,18 @@ Authors: Richard Hill, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Colimits
-public import Mathlib.Algebra.Category.ModuleCat.Limits
 public import Mathlib.Topology.Algebra.Module.ModuleTopology
-public import Mathlib.Topology.Category.TopCat.Limits.Basic
+public import Mathlib.Algebra.Module.TransferInstance
+public import Mathlib.LinearAlgebra.Finsupp.LSum
+public import Mathlib.Tactic.GRewrite.Elab
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+public import Mathlib.Topology.Category.TopCat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Limits
+import Mathlib.Topology.Category.TopCat.Limits.Basic
 
 /-!
 # The category `TopModuleCat R` of topological modules

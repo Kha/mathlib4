@@ -5,12 +5,30 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.BoxIntegral.DivergenceTheorem
-public import Mathlib.Analysis.BoxIntegral.Integrability
 public import Mathlib.Analysis.Calculus.Deriv.Basic
-public import Mathlib.Analysis.Calculus.FDeriv.Equiv
-public import Mathlib.MeasureTheory.Integral.Prod
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.MeasureTheory.Constructions.Pi
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Analysis.BoxIntegral.DivergenceTheorem
+import Mathlib.Analysis.BoxIntegral.Integrability
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.Order.Fin.Tuple
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.OrderIso
+import Mathlib.Order.Interval.Set.Pi
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Divergence theorem for Bochner integral

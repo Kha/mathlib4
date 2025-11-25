@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Analysis.NormedSpace.Multilinear.Basic
 public import Mathlib.LinearAlgebra.PiTensorProduct
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.Pointwise
+import Mathlib.Order.ConditionallyCompleteLattice.Group
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.Order.BigOperators.Group.List
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Projective seminorm on the tensor of a finite family of normed spaces.

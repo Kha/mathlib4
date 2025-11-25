@@ -8,6 +8,9 @@ module
 public import Mathlib.RingTheory.Jacobson.Ideal
 public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
 public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 

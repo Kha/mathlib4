@@ -6,10 +6,16 @@ Amelia Livingston, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Hom.Defs
 public import Mathlib.Algebra.Group.Submonoid.Defs
 public import Mathlib.Algebra.Group.Subsemigroup.Basic
 public import Mathlib.Algebra.Group.Units.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Bounds.Image
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Submonoids: `CompleteLattice` structure

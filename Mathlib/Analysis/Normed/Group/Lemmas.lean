@@ -5,7 +5,12 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Uniform
+public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Further lemmas about normed groups

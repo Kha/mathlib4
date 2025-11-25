@@ -5,8 +5,9 @@ Authors: Peter Nelson
 -/
 module
 
-public import Mathlib.Data.SetLike.Basic
 public import Mathlib.Order.SupIndep
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Partitions

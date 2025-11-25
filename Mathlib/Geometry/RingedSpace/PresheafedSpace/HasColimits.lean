@@ -6,9 +6,11 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Geometry.RingedSpace.PresheafedSpace
-public import Mathlib.Topology.Category.TopCat.Limits.Basic
-public import Mathlib.Topology.Sheaves.Limits
-public import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
+public import Mathlib.CategoryTheory.Limits.Opposites
+public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
+import Mathlib.Topology.Sheaves.Limits
+import Mathlib.Topology.Category.TopCat.Limits.Basic
 
 /-!
 # `PresheafedSpace C` has colimits.

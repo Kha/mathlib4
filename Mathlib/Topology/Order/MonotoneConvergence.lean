@@ -6,6 +6,13 @@ Authors: Heather Macbeth, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Monotone
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
 
 /-!
 # Bounded monotone sequences converge

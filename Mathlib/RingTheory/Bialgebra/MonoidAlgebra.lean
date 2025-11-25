@@ -7,6 +7,10 @@ module
 
 public import Mathlib.RingTheory.Bialgebra.Hom
 public import Mathlib.RingTheory.Coalgebra.MonoidAlgebra
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # The bialgebra structure on monoid algebras

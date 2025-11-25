@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.GradedAlgebra.Basic
 public import Mathlib.Algebra.GradedMulAction
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homogeneous submodules of a graded module

@@ -5,8 +5,9 @@ Authors: Andrew Yang, Fangming Li
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.AffineScheme
 public import Mathlib.AlgebraicGeometry.Morphisms.Preimmersion
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Ring.Instances
 
 /-!
 # Stalks of a Scheme

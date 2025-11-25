@@ -5,10 +5,27 @@ Authors: Kexing Ying
 -/
 module
 
-public import Mathlib.Algebra.Order.Archimedean.IndicatorCard
 public import Mathlib.Probability.Martingale.Centering
-public import Mathlib.Probability.Martingale.Convergence
-public import Mathlib.Probability.Martingale.OptionalStopping
+public import Mathlib.Probability.Process.HittingTime
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.Countable.Basic
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Probability.Martingale.Convergence
+import Mathlib.Probability.Martingale.OptionalStopping
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Archimedean.IndicatorCard
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 

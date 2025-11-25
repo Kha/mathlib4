@@ -5,7 +5,18 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+import Mathlib.FieldTheory.IsSepClosed
+import Mathlib.FieldTheory.Tower
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Normal closure of an extension of domains

@@ -6,6 +6,7 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.CategoryTheory.Category.Pointed
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of bipointed types

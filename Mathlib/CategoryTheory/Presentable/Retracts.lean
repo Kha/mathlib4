@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Presentable.Basic
 public import Mathlib.CategoryTheory.ObjectProperty.Retract
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Types.Filtered
 
 /-!
 # Presentable objects are stable under retracts

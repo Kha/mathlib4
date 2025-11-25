@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fintype.Option
 public import Mathlib.GroupTheory.Perm.Sign
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Permutations of `Option α`

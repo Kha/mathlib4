@@ -5,8 +5,12 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Aesop
-public import Mathlib.Order.BoundedOrder.Lattice
+public import Mathlib.Order.Lattice
+public import Mathlib.Order.BoundedOrder.Basic
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Disjointness and complements

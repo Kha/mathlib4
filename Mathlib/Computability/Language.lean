@@ -6,10 +6,27 @@ Authors: Fox Thomson, Martin Dvorak
 module
 
 public import Mathlib.Algebra.Order.Kleene
-public import Mathlib.Algebra.Ring.Hom.Defs
-public import Mathlib.Data.Set.Lattice
 public import Mathlib.Tactic.DeriveFintype
-import Mathlib.Data.Fintype.Sum
+public import Mathlib.Data.Fintype.Sum
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Data.Set.NAry
+public import Mathlib.Algebra.Order.Sub.Defs
+import Mathlib.Control.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SetLike
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Attr
+import Mathlib.Data.List.Infix
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Data.List.Perm.Subperm
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Languages

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fin.SuccPred
 public import Mathlib.Logic.Embedding.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Embeddings of `Fin n`

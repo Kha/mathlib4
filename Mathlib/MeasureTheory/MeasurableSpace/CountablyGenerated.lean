@@ -8,6 +8,9 @@ module
 public import Mathlib.MeasureTheory.MeasurableSpace.Embedding
 public import Mathlib.Data.Set.MemPartition
 public import Mathlib.Order.Filter.CountableSeparatingOn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
 
 /-!
 # Countably generated measurable spaces

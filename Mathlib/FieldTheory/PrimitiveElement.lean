@@ -5,11 +5,28 @@ Authors: Thomas Browning, Patrick Lutz
 -/
 module
 
-public import Mathlib.Data.Fintype.Pigeonhole
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
-public import Mathlib.FieldTheory.SplittingField.Construction
-public import Mathlib.RingTheory.IntegralDomain
-public import Mathlib.RingTheory.Polynomial.UniqueFactorization
+public import Mathlib.FieldTheory.Minpoly.Field
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.FieldTheory.Extension
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Pigeonhole
+import Mathlib.Data.Fintype.Units
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.SplittingField.Construction
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Adjoin.Field
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Polynomial.UniqueFactorization
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
 
 /-!
 # Primitive Element Theorem

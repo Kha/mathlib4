@@ -9,5 +9,6 @@ public import Mathlib.MeasureTheory.Measure.Typeclasses.Finite
 public import Mathlib.MeasureTheory.Measure.Typeclasses.NoAtoms
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
 public import Mathlib.MeasureTheory.Measure.Typeclasses.SFinite
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-13")

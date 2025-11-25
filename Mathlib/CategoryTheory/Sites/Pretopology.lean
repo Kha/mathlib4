@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Grothendieck
 public import Mathlib.CategoryTheory.Sites.Precoverage
+public import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.Bounds.Image
 
 /-!
 # Grothendieck pretopologies

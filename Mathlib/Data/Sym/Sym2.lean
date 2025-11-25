@@ -7,9 +7,12 @@ module
 
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Data.Finset.Prod
-public import Mathlib.Data.SetLike.Basic
 public import Mathlib.Data.Sym.Basic
 public import Mathlib.Data.Sym.Sym2.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Logic.Nontrivial.Basic
 
 /-!
 # The symmetric square

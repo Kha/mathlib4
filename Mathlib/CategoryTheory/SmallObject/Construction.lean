@@ -5,10 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.Products
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
 public import Mathlib.AlgebraicTopology.RelativeCellComplex.AttachCells
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Construction for the small object argument

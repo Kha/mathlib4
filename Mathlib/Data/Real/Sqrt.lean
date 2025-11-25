@@ -6,7 +6,25 @@ Authors: Mario Carneiro, Floris van Doorn, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Instances.NNReal.Lemmas
-public import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Sqrt
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Square root of a real number

@@ -5,11 +5,24 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Complex.Harmonic.MeanValue
-public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Analysis.SpecialFunctions.Integrals.LogTrigonometric
 public import Mathlib.MeasureTheory.Integral.CircleAverage
+public import Mathlib.Analysis.SpecialFunctions.Log.PosLog
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Analytic.Order
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Complex.Harmonic.MeanValue
+import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+import Mathlib.Analysis.SpecialFunctions.Integrability.LogMeromorphic
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Analysis.SpecialFunctions.Integrals.LogTrigonometric
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Representation of `log⁺` as a Circle Average

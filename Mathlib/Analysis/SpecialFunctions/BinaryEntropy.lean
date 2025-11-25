@@ -6,7 +6,27 @@ Authors: Adomas Baliuka
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Log.NegMulLog
-public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Convex.Deriv
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Shift
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+import Mathlib.Order.Filter.AtTopBot.Group
 
 /-!
 # Properties of Shannon q-ary entropy and binary entropy functions

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Projective.Formula
+import Mathlib.Tactic.Lemma
 
 /-!
 # Nonsingular points and the group law in projective coordinates

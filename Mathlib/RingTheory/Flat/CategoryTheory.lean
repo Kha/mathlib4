@@ -6,8 +6,10 @@ Authors: Jujian Zhang
 module
 
 public import Mathlib.RingTheory.Flat.Basic
-public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Basic
+public import Mathlib.Algebra.Homology.ShortComplex.Exact
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 
 /-!
 # Tensoring with a flat module is an exact functor

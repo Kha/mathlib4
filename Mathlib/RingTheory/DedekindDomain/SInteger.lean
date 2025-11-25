@@ -6,6 +6,7 @@ Authors: David Kurniadi Angdinata
 module
 
 public import Mathlib.RingTheory.DedekindDomain.AdicValuation
+import Mathlib.Tactic.Lemma
 
 /-!
 # `S`-integers and `S`-units of fraction fields of Dedekind domains

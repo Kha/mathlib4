@@ -6,6 +6,8 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.InnerProductSpace.PiL2
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
 
 /-!
 # Canonical tensors in real inner product spaces

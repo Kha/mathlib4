@@ -7,6 +7,10 @@ module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
 public import Mathlib.AlgebraicGeometry.Properties
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.LocalAtTarget
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
 
 /-!
 # Ideal sheaves on schemes

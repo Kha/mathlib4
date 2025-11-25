@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Analysis.Normed.Group.Hom
 public import Mathlib.Topology.Algebra.SeparationQuotient.Hom
+public import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Lifts of maps to separation quotients of seminormed groups

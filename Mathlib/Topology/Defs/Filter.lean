@@ -8,7 +8,9 @@ module
 public import Mathlib.Topology.Defs.Basic
 public import Mathlib.Data.Setoid.Basic
 public import Mathlib.Order.Filter.Defs
-public import Mathlib.Tactic.IrreducibleDef
+import Mathlib.Tactic.IrreducibleDef
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Definitions about filters in topological spaces

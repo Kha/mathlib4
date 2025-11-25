@@ -5,8 +5,8 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.Expr
-public import Mathlib.Data.Matrix.Reflection
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
 
 /-! # Automatically generated lemmas for working with concrete matrices
 

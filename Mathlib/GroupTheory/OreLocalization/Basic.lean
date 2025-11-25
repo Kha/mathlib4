@@ -9,7 +9,8 @@ public import Mathlib.GroupTheory.OreLocalization.OreSet
 public import Mathlib.Tactic.Common
 public import Mathlib.Algebra.Group.Submonoid.MulAction
 public import Mathlib.Algebra.Group.Units.Defs
-public import Mathlib.Algebra.Group.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
 
 /-!
 

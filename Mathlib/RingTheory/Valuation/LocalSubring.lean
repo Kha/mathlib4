@@ -5,10 +5,21 @@ Authors: Andrew Yang, Yaël Dillies, Javier López-Contreras
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.GoingUp
 public import Mathlib.RingTheory.LocalRing.LocalSubring
-public import Mathlib.RingTheory.Polynomial.Ideal
 public import Mathlib.RingTheory.Valuation.ValuationSubring
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Polynomial.Reverse
+import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Polynomial.Ideal
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
 
 /-!
 

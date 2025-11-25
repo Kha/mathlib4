@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
 public import Mathlib.Algebra.SkewMonoidAlgebra.Basic
+public import Mathlib.Algebra.Group.Embedding
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lemmas about the support of an element of a skew monoid algebra

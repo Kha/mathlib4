@@ -5,11 +5,21 @@ Authors: Damiano Testa, Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.DenomsClearable
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
 public import Mathlib.NumberTheory.Real.Irrational
-public import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.DenomsClearable
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Data.Int.Basic
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Analysis.Calculus.Deriv.Polynomial
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Algebra.Order.Interval.Set.Group
 
 /-!
 

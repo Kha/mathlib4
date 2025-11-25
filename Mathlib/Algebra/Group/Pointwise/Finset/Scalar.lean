@@ -6,8 +6,10 @@ Authors: Floris van Doorn, Yaël Dillies
 module
 
 public import Mathlib.Data.Finset.NAry
-public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
 public import Mathlib.Algebra.Group.Pointwise.Set.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Pointwise operations of finsets

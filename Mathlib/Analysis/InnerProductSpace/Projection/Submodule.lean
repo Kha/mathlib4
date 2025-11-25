@@ -6,6 +6,15 @@ Authors: Zhouhang Zhou, Frédéric Dupuis, Heather Macbeth
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Subspaces associated with orthogonal projections

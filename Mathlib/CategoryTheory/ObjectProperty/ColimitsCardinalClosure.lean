@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.ObjectProperty.ColimitsClosure
 public import Mathlib.CategoryTheory.SmallRepresentatives
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Closure of a property of objects under colimits of bounded cardinality

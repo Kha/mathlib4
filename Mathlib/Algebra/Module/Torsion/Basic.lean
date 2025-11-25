@@ -5,16 +5,25 @@ Authors: Pierre-Alexandre Bazin
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.Module
 public import Mathlib.Algebra.Module.ZMod
-public import Mathlib.Algebra.Regular.Opposite
 public import Mathlib.GroupTheory.Torsion
 public import Mathlib.LinearAlgebra.Isomorphisms
-public import Mathlib.RingTheory.Coprime.Ideal
-public import Mathlib.RingTheory.Finiteness.Defs
-public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
 public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.Algebra.DirectSum.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.DirectSum.Module
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.List.MinMax
+import Mathlib.RingTheory.Coprime.Ideal
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Torsion submodules

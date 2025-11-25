@@ -6,6 +6,8 @@ Authors: Jz Pan
 module
 
 public import Mathlib.Algebra.Module.Submodule.Ker
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 

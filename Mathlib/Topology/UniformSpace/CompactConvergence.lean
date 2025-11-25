@@ -8,8 +8,15 @@ module
 public import Mathlib.Topology.CompactOpen
 public import Mathlib.Topology.Compactness.CompactlyCoherentSpace
 public import Mathlib.Topology.Maps.Proper.Basic
-public import Mathlib.Topology.UniformSpace.Compact
 public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
+public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Topology.Compactness.LocallyFinite
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.UniformSpace.Compact
 
 /-!
 # Compact convergence (uniform convergence on compact sets)

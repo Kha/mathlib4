@@ -5,10 +5,20 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.CharP.Frobenius
 public import Mathlib.Algebra.Polynomial.Derivative
-public import Mathlib.Algebra.Polynomial.RingDivision
-public import Mathlib.RingTheory.Polynomial.Basic
+public import Mathlib.Algebra.CharP.Lemmas
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.Algebra.Polynomial.Div
+public import Mathlib.RingTheory.Coprime.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Algebra.Polynomial.RingDivision
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Irreducible.Lemmas
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Coeff
 
 /-!
 # Expand a polynomial by a factor of p, so `∑ aₙ xⁿ` becomes `∑ aₙ xⁿᵖ`.

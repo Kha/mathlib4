@@ -5,11 +5,15 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Int
-public import Mathlib.Algebra.MvPolynomial.Eval
-public import Mathlib.RingTheory.Adjoin.Basic
-public import Mathlib.RingTheory.Polynomial.Basic
-public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.Algebra.Algebra.Subalgebra.Prod
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Adjoining elements to form subalgebras

@@ -5,12 +5,23 @@ Authors: Heather Macbeth, Arend Mellendijk, Michael Rothgang
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
 public import Mathlib.Algebra.Field.Power  -- shake: keep (Qq dependency)
-public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 public import Mathlib.Util.Qq
-meta import Mathlib.Algebra.Group.Nat.Even
-meta import Mathlib.Algebra.Group.Int.Even
+public import Batteries.Data.List.Basic
+public import Mathlib.Algebra.Order.ZeroLEOne
+public meta import Mathlib.Algebra.Group.Int.Even
+public meta import Mathlib.Algebra.Group.Nat.Even
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Prod.Basic
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-! # Lemmas for the field_simp tactic
 

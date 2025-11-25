@@ -5,8 +5,9 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Sheaf
 public import Mathlib.CategoryTheory.Sites.Whiskering
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Preserves.Ulift
 
 /-!
 # The canonical topology on a category

@@ -5,11 +5,17 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Order.CompleteLattice.Group
-public import Mathlib.Topology.ContinuousMap.Bounded.Basic
 public import Mathlib.Topology.ContinuousMap.Compact
-public import Mathlib.Topology.MetricSpace.Lipschitz
-public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
+public import Mathlib.Data.ENNReal.Operations
+public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+public import Mathlib.Topology.UniformSpace.Equicontinuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.CompleteLattice.Group
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-! # Metric structure on `α →ᵤ β` and `α →ᵤ[𝔖] β` for finite `𝔖`
 

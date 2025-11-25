@@ -6,8 +6,14 @@ Authors: David Loeffler
 module
 
 public import Mathlib.NumberTheory.Padics.MahlerBasis
-public import Mathlib.Topology.Algebra.Monoid.AddChar
 public import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.NumberTheory.Padics.RingHoms
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Topology.Algebra.Monoid.AddChar
 
 /-!
 # Additive characters of `ℤ_[p]`

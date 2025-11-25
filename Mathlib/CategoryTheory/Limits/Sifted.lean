@@ -5,13 +5,17 @@ Authors: Robin Carlier
 -/
 module
 
-public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
 public import Mathlib.CategoryTheory.Monoidal.ExternalProduct.Basic
 public import Mathlib.CategoryTheory.Closed.Types
 public import Mathlib.CategoryTheory.Monoidal.Limits.Preserves
 public import Mathlib.CategoryTheory.Limits.Preserves.Bifunctor
-public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
-public import Mathlib.CategoryTheory.Limits.IsConnected
+public import Mathlib.CategoryTheory.Adjunction.Limits
+public import Mathlib.CategoryTheory.Limits.Fubini
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.IsConnected
+import Mathlib.Data.List.Chain
+import Mathlib.CategoryTheory.Limits.Constructions.FiniteProductsOfBinaryProducts
+import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
 /-!
 # Sifted categories
 

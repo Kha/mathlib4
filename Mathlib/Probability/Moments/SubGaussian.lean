@@ -6,8 +6,25 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.Kernel.Condexp
-public import Mathlib.Probability.Moments.MGFAnalytic
-public import Mathlib.Probability.Moments.Tilted
+public import Mathlib.Probability.Moments.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Probability.Moments.MGFAnalytic
+import Mathlib.Probability.Moments.Tilted
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Probability.Kernel.Composition.IntegralCompProd
+import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Topology.Algebra.Order.Archimedean
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Sub-Gaussian random variables

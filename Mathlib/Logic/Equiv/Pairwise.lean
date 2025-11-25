@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.FunLike.Equiv
 public import Mathlib.Logic.Pairwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Interaction of equivalences with `Pairwise`

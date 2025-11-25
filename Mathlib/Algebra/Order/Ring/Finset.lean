@@ -5,9 +5,13 @@ Authors: Eric Wieser, Yaël Dillies, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Canonical
 public import Mathlib.Data.Finset.Lattice.Fold
-public import Mathlib.Data.Nat.Cast.Order.Ring
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # `Finset.sup` and ring operations

@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Group.Pi.Units
 public import Mathlib.Algebra.Group.Submonoid.Units
 public import Mathlib.Topology.Algebra.Constructions
 public import Mathlib.Topology.Algebra.ContinuousMonoidHom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Topological properties of units

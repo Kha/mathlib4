@@ -5,11 +5,29 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Convex.Topology
-public import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 public import Mathlib.Analysis.Seminorm
 public import Mathlib.Analysis.LocallyConvex.Bounded
 public import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Data.Real.Pointwise
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Ring.Action.Pointwise.Set
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # The Minkowski functional

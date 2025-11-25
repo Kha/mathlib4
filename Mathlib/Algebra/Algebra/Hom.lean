@@ -6,6 +6,8 @@ Authors: Kenny Lau, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homomorphisms of `R`-algebras

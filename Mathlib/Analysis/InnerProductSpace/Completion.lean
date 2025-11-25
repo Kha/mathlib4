@@ -5,8 +5,14 @@ Authors: Zhouhang Zhou, Sébastien Gouëzel, Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.LinearMap
 public import Mathlib.Analysis.Normed.Module.Completion
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Analysis.InnerProductSpace.LinearMap
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Completion of an inner product space

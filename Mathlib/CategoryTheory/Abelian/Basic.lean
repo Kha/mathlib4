@@ -5,12 +5,16 @@ Authors: Markus Himmel, Johan Commelin, Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Constructions.Pullbacks
-public import Mathlib.CategoryTheory.Preadditive.Biproducts
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
-public import Mathlib.CategoryTheory.Limits.Shapes.Images
-public import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
 public import Mathlib.CategoryTheory.Abelian.NonPreadditive
+public import Mathlib.CategoryTheory.Limits.Shapes.BinaryBiproducts
+public import Mathlib.CategoryTheory.Limits.Shapes.NormalMono.Equalizers
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Preadditive.Biproducts
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
+import Mathlib.CategoryTheory.Limits.Constructions.Pullbacks
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Abelian categories

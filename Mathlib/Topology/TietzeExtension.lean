@@ -5,9 +5,29 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Interval.Set.IsoIoo
 public import Mathlib.Topology.ContinuousMap.Bounded.Normed
-public import Mathlib.Topology.UrysohnsBounded
+public import Mathlib.Topology.Maps.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.UrysohnsBounded
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Order.Interval.Set.IsoIoo
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Order.Interval.Set.OrderIso
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Tietze extension theorem

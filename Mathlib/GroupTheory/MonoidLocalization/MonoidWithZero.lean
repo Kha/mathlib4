@@ -5,11 +5,13 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Hom
 public import Mathlib.GroupTheory.MonoidLocalization.Basic
-public import Mathlib.RingTheory.OreLocalization.Basic
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
 public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.RingTheory.OreLocalization.Basic
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Localizations of commutative monoids with zeroes

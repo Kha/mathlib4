@@ -8,6 +8,12 @@ module
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Div
 public import Mathlib.RingTheory.Coprime.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Theory of univariate polynomials

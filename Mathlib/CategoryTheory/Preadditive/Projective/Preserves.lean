@@ -6,6 +6,9 @@ Authors: Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Preadditive.Projective.Basic
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Preserves.Finite
 
 /-!
 # Preservation of projective objects

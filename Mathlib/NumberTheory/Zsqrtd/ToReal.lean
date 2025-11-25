@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Real.Sqrt
 public import Mathlib.NumberTheory.Zsqrtd.Basic
+import Mathlib.Algebra.Order.Ring.Cast
 
 /-!
 # Image of `Zsqrtd` in `ℝ`

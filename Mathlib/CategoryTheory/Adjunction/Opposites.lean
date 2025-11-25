@@ -6,8 +6,7 @@ Authors: Bhavik Mehta, Thomas Read, Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Adjunction.Basic
-public import Mathlib.CategoryTheory.Yoneda
-public import Mathlib.CategoryTheory.Opposites
+import Mathlib.Tactic.Lemma
 
 /-!
 # Opposite adjunctions

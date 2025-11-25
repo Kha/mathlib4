@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.LinearAlgebra.Matrix.Block
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Order.Interval.Set.Image
+import Mathlib.Analysis.Normed.Module.RCLike.Basic
 
 /-!
 # Gram-Schmidt Orthogonalization and Orthonormalization

@@ -5,8 +5,11 @@ Authors: Yaël Dillies, Sara Rousta
 -/
 module
 
-public import Mathlib.Order.Interval.Set.OrderIso
 public import Mathlib.Order.UpperLower.CompleteLattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrderIso
 
 /-!
 # Principal upper/lower sets

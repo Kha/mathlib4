@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Ring.Subsemiring.MulOpposite
 public import Mathlib.Algebra.Ring.Subring.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.TypeStar
 
 /-!
 

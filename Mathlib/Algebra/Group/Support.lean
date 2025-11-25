@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Notation.Support
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Support of a function

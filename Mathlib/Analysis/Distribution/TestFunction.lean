@@ -5,8 +5,15 @@ Authors: Luigi Massacci
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+public import Mathlib.Topology.Sets.Opens
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Topology.ContinuousMap.Bounded.Basic
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Topology.ContinuousMap.Bounded.Normed
 
 /-!
 # Continuously differentiable functions with compact support

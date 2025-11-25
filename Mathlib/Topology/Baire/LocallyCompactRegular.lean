@@ -5,7 +5,9 @@ Authors: Damien Thomine
 -/
 module
 
-public import Mathlib.Topology.Sets.Compacts
+public import Mathlib.Topology.Separation.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sets.Compacts
 
 /-!
 # Second Baire theorem

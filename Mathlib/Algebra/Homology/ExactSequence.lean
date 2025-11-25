@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Exact
 public import Mathlib.CategoryTheory.ComposableArrows.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Exact sequences

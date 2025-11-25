@@ -5,10 +5,30 @@ Authors: Michael Geißer, Michael Stoll
 -/
 module
 
-public import Mathlib.Data.ZMod.Basic
-public import Mathlib.NumberTheory.DiophantineApproximation.Basic
 public import Mathlib.NumberTheory.Zsqrtd.Basic
-public import Mathlib.Tactic.Qify
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Qify
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.CharZero
+import Mathlib.Data.Int.Interval
+import Mathlib.Data.ZMod.Basic
+import Mathlib.NumberTheory.DiophantineApproximation.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Pell's Equation

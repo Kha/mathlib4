@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.GroupWithZero.Action.ConjAct
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conjugation action on a field on itself

@@ -5,8 +5,22 @@ Authors: Floris van Doorn, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Calculus
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Analysis.InnerProductSpace.LinearMap
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 
 /-!
 # Properties about the powers of the norm

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.QuadraticForm.TensorProduct
 public import Mathlib.LinearAlgebra.QuadraticForm.IsometryEquiv
+import Mathlib.Tactic.Lemma
 
 /-!
 # Linear equivalences of tensor products as isometries

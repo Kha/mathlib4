@@ -6,9 +6,26 @@ Authors: Devon Tuma
 module
 
 public import Mathlib.RingTheory.Localization.Away.Basic
-public import Mathlib.RingTheory.Ideal.GoingUp
-public import Mathlib.RingTheory.Jacobson.Polynomial
 public import Mathlib.RingTheory.Artinian.Module
+public import Mathlib.RingTheory.FiniteType
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.RingTheory.Jacobson.Ideal
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Algebra.Polynomial.Monomial
+import Mathlib.Data.Set.Disjoint
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Jacobson.Polynomial
+import Mathlib.RingTheory.Localization.Ideal
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.Quotient
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Jacobson Rings

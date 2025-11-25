@@ -5,8 +5,12 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.PositiveLinearMap
 public import Mathlib.Analysis.CStarAlgebra.CStarMatrix
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.CStarAlgebra.PositiveLinearMap
+import Mathlib.Analysis.CStarAlgebra.Spectrum
+import Mathlib.Algebra.Order.Group.Defs
 
 /-! # Completely positive maps
 

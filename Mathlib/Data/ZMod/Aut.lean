@@ -6,7 +6,8 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.Algebra.Ring.AddAut
-public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Data.ZMod.Defs
+import Mathlib.Data.ZMod.Basic
 
 /-!
 # Automorphism Group of `ZMod`.

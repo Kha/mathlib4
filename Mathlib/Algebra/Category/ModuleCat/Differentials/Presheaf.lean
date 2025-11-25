@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf
 public import Mathlib.Algebra.Category.ModuleCat.Differentials.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The presheaf of differentials of a presheaf of modules

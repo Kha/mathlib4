@@ -5,12 +5,12 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Computability.Halting
 public import Mathlib.Computability.TuringMachine
 public import Mathlib.Data.Num.Lemmas
 public import Mathlib.Tactic.DeriveFintype
 public import Mathlib.Computability.TMConfig
-public import Mathlib.Tactic.DeriveFintype  -- shake: keep (deriving handlers not tracked yet)
+import Mathlib.Data.List.Infix
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!
 # Modelling partial recursive functions using Turing machines

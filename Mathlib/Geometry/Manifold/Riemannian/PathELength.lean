@@ -5,12 +5,32 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.AddTorsor.AffineMap
-public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
-public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
 public import Mathlib.Geometry.Manifold.Instances.Icc
 public import Mathlib.MeasureTheory.Constructions.UnitInterval
-public import Mathlib.MeasureTheory.Function.JacobianOneDim
+public import Mathlib.Topology.Algebra.ContinuousAffineMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Piecewise
+import Mathlib.MeasureTheory.Function.JacobianOneDim
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.AddTorsor.AffineMap
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-! # Lengths of paths in manifolds
 

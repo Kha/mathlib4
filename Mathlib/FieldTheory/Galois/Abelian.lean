@@ -5,7 +5,12 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.FieldTheory.Galois.Infinite
+public import Mathlib.FieldTheory.Galois.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Galois.Infinite
+import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
 
 /-!
 

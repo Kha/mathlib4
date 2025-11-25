@@ -9,6 +9,14 @@ public import Mathlib.Logic.Equiv.Option
 public import Mathlib.Logic.Equiv.Sum
 public import Mathlib.Logic.Function.Conjugate
 public import Mathlib.Tactic.Lift
+public import Mathlib.Data.Int.Notation
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalence between types

@@ -6,6 +6,9 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
 
 /-!
 # Uniform approximation

@@ -5,11 +5,20 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Basic
 public import Mathlib.Algebra.EuclideanDomain.Int
-public import Mathlib.Algebra.GCDMonoid.Nat
-public import Mathlib.Data.Nat.Prime.Int
-public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.RingTheory.Ideal.Span
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Algebra.GCDMonoid.Nat
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Ring.Int.Units
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Int
 
 /-!
 # Divisibility over ℤ

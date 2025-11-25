@@ -5,11 +5,8 @@ Authors: Kyle Miller
 -/
 module
 
-public meta import Mathlib.Tactic.ProxyType
-public meta import Mathlib.Data.Fintype.Basic
-public meta import Mathlib.Data.Fintype.Sigma
-public meta import Mathlib.Data.Fintype.Sum
 public import Mathlib.Data.Fintype.OfMap  -- shake: keep (metaprogram output dependency)
+import Mathlib.Tactic.ProxyType
 
 /-!
 # The `Fintype` derive handler

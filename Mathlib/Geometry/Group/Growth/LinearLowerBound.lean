@@ -5,9 +5,16 @@ Authors: Yaël Dillies, Patrick Luo, Eric Rodriguez
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Pointwise.Finset
-public import Mathlib.Algebra.Group.Subgroup.Pointwise
-public import Mathlib.Data.Nat.SuccPred
+public import Mathlib.Algebra.Group.Subgroup.Lattice
+public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Algebra.Group.Subgroup.Pointwise
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Group.Action.Pointwise.Finset
 
 /-!
 # Linear lower bound on the growth of a generating set

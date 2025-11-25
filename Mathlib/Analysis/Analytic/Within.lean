@@ -5,8 +5,15 @@ Authors: Geoffrey Irving
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Constructions
-public import Mathlib.Analysis.Analytic.ChangeOrigin
+public import Mathlib.Analysis.Analytic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Analytic.ChangeOrigin
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Properties of analyticity restricted to a set

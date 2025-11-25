@@ -5,9 +5,16 @@ Authors: Chris Birkbeck, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
 public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Defs
-public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Summable
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Int.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Summable
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Uniform convergence of Eisenstein series

@@ -5,15 +5,23 @@ Authors: Giulio Caflisch, David Loeffler, Yu Shao, Weijie Jiang, BeiBei Xiong
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Pi
 public import Mathlib.Algebra.Group.AddChar
-public import Mathlib.Algebra.Module.Submodule.LinearMap
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.Tactic.Abel
-public import Mathlib.Algebra.GroupWithZero.Action.Pi
-public import Mathlib.Algebra.Polynomial.Basic
 public import Mathlib.Algebra.Polynomial.Degree.Definitions
-public import Mathlib.Algebra.Polynomial.Eval.Degree
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+public import Mathlib.Data.Nat.Cast.Basic
+public import Mathlib.Data.Nat.Choose.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Module.Submodule.LinearMap
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Forward difference operators and Newton series

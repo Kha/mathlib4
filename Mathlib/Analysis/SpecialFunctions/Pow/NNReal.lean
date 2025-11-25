@@ -7,6 +7,16 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Sébasti
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.List
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 # Power function on `ℝ≥0` and `ℝ≥0∞`

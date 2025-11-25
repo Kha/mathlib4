@@ -5,11 +5,15 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Regular
-public import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
-public import Mathlib.Topology.UrysohnsLemma
 public import Mathlib.MeasureTheory.Function.LpSpace.ContinuousFunctions
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Approximation in Lᵖ by continuous functions

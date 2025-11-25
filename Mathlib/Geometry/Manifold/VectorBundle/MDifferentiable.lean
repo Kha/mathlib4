@@ -6,8 +6,15 @@ Authors: Sébastien Gouëzel, Patrick Massot, Michael Rothgang
 module
 
 public import Mathlib.Geometry.Manifold.VectorBundle.Basic
-public import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
-public import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
 
 /-!
 # Differentiability of functions in vector bundles

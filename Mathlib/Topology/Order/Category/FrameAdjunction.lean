@@ -6,6 +6,8 @@ Authors: Anne Baanen, Sam van Gool, Leo Mayer, Brendan Murphy
 module
 
 public import Mathlib.Topology.Category.Locale
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Adjunction between Locales and Topological Spaces

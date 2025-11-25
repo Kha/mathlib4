@@ -6,6 +6,9 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 module
 
 public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+public import Mathlib.Data.Finset.Prod
+public import Mathlib.Data.Multiset.Powerset
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finiteness of divisors

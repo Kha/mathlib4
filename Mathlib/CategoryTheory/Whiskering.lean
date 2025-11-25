@@ -5,9 +5,10 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Tactic.CategoryTheory.IsoReassoc
-public import Mathlib.CategoryTheory.Functor.Category
 public import Mathlib.CategoryTheory.Functor.FullyFaithful
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.CategoryTheory.IsoReassoc
 
 /-!
 # Whiskering

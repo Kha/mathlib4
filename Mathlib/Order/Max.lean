@@ -6,6 +6,7 @@ Authors: Jeremy Avigad, Yury Kudryashov, Yaël Dillies
 module
 
 public import Mathlib.Order.Synonym
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Minimal/maximal and bottom/top elements

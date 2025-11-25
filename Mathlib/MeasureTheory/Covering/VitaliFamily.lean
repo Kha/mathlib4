@@ -6,6 +6,7 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.MeasureTheory.Measure.AbsolutelyContinuous
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Vitali families

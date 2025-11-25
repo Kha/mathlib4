@@ -6,6 +6,8 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Combinatorics.Additive.FreimanHom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Corners

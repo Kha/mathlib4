@@ -7,6 +7,24 @@ module
 
 public import Mathlib.MeasureTheory.Function.L1Space.Integrable
 public import Mathlib.MeasureTheory.Function.LpSpace.Indicator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
+import Mathlib.MeasureTheory.Integral.Lebesgue.Norm
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-! # Functions integrable on a set and at a filter
 

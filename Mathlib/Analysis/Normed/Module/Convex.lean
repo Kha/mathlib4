@@ -5,12 +5,22 @@ Authors: Alexander Bentkamp, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Convex.Jensen
-public import Mathlib.Analysis.Convex.PathConnected
-public import Mathlib.Analysis.Convex.Topology
-public import Mathlib.Analysis.Normed.Group.Pointwise
 public import Mathlib.Analysis.Normed.Module.Basic
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
+public import Mathlib.Analysis.Convex.Function
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.Topology.Connected.PathConnected
+public import Mathlib.Topology.MetricSpace.Thickening
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Jensen
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Metric properties of convex sets in normed spaces

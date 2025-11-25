@@ -7,9 +7,11 @@ Authors: Nathaniel Thomas, Jeremy Avigad, Johannes Hölzl, Mario Carneiro, Anne 
 module
 
 public import Mathlib.Algebra.Module.LinearMap.Defs
-public import Mathlib.Algebra.NoZeroSMulDivisors.Pi
 public import Mathlib.Algebra.Ring.Opposite
 public import Mathlib.GroupTheory.GroupAction.DomAct.Basic
+public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Pi
 
 /-!
 # Further results on (semi)linear maps

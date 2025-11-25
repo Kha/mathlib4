@@ -5,11 +5,17 @@ Authors: Patrick Massot, Kim Morrison, Mario Carneiro, Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.Category.TopCat.Adjunctions
-public import Mathlib.CategoryTheory.Limits.Types.Limits
-public import Mathlib.CategoryTheory.Limits.Types.Colimits
 public import Mathlib.CategoryTheory.Limits.Shapes.Terminal
-public import Mathlib.CategoryTheory.Adjunction.Limits
+public import Mathlib.CategoryTheory.EssentiallySmall
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+public import Mathlib.CategoryTheory.Limits.Types.ColimitType
+public import Mathlib.Topology.Category.TopCat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.Logic.Small.Basic
+import Mathlib.CategoryTheory.Limits.Types.Colimits
+import Mathlib.CategoryTheory.Limits.Types.Limits
+import Mathlib.Topology.Category.TopCat.Adjunctions
 
 /-!
 # The category of topological spaces has all limits and colimits

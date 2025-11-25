@@ -5,10 +5,12 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Linear.Basic
 public import Mathlib.Algebra.Homology.ComplexShapeSigns
 public import Mathlib.Algebra.Homology.HomologicalBicomplex
-public import Mathlib.Algebra.Module.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.CategoryTheory.Linear.Basic
 
 /-!
 # The total complex of a bicomplex

@@ -5,8 +5,11 @@ Authors: Paul Lezeau, Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Basic
-public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.RingTheory.SimpleRing.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 # Facts about algebras when the coefficient ring is a simple ring

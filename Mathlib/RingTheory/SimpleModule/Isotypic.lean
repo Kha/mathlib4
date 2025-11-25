@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Algebra.Pi
 public import Mathlib.Order.CompleteSublattice
 public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Isotypic modules and isotypic components

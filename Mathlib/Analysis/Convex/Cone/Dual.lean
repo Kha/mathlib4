@@ -6,9 +6,16 @@ Authors: Yaël Dillies, Andrew Yang
 module
 
 public import Mathlib.Analysis.Convex.Cone.Basic
-public import Mathlib.Analysis.LocallyConvex.Separation
 public import Mathlib.Geometry.Convex.Cone.Dual
 public import Mathlib.Topology.Algebra.Module.PerfectPairing
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.Topology.Algebra.Module.LocallyConvex
+public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.LocallyConvex.Separation
 
 /-!
 # The topological dual of a cone and Farkas' lemma

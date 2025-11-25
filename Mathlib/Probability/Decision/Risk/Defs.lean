@@ -6,6 +6,10 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 module
 
 public import Mathlib.Probability.Kernel.Composition.Comp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
 
 /-!
 # Risk of an estimator

@@ -6,8 +6,20 @@ Authors: Fabrizio Barroero, Laura Capuano, Amos Turchet
 module
 
 public import Mathlib.Analysis.Matrix.Normed
-public import Mathlib.Data.Pi.Interval
-public import Mathlib.Tactic.Rify
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Interval
+import Mathlib.Data.Pi.Interval
+import Mathlib.Data.Rat.BigOperators
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.PosPart
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Siegel's Lemma

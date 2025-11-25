@@ -6,6 +6,8 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 module
 
 public import Mathlib.Topology.EMetricSpace.Pi
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
 
 /-!
 # Diameters of sets in extended metric spaces

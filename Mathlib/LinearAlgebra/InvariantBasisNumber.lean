@@ -5,11 +5,18 @@ Authors: Markus Himmel, Kim Morrison
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Quotient.Basic
-public import Mathlib.RingTheory.Noetherian.Orzech
 public import Mathlib.RingTheory.OrzechProperty
-public import Mathlib.RingTheory.PrincipalIdealDomain
-public import Mathlib.LinearAlgebra.Finsupp.Pi
+public import Mathlib.Data.Finsupp.SMul
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.LinearAlgebra.Finsupp.Pi
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Noetherian.Orzech
+import Mathlib.Algebra.Group.Fin.Tuple
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # Invariant basis number property

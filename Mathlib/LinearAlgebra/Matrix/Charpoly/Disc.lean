@@ -5,8 +5,11 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 public import Mathlib.RingTheory.Polynomial.Resultant.Basic
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 
 /-!

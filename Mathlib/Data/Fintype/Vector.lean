@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fintype.Pi
 public import Mathlib.Data.Sym.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `Vector α n` and `Sym α n` are fintypes when `α` is.

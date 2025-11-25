@@ -5,9 +5,11 @@ Authors: Stephen Morgan, Kim Morrison, Floris van Doorn
 -/
 module
 
-public import Mathlib.CategoryTheory.EqToHom
 public import Mathlib.CategoryTheory.Pi.Basic
-public import Mathlib.Data.ULift
+import Batteries.Tactic.Init
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Discrete categories

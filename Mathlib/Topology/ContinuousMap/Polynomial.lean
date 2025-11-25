@@ -9,6 +9,14 @@ public import Mathlib.Topology.Algebra.Polynomial
 public import Mathlib.Topology.ContinuousMap.Star
 public import Mathlib.Topology.UnitInterval
 public import Mathlib.Algebra.Star.Subalgebra
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Constructions relating polynomial functions and continuous functions.

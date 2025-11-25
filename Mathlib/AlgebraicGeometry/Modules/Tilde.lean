@@ -5,12 +5,14 @@ Authors: Kevin Buzzard, Johan Commelin, Amelia Livingston, Sophie Morel, Jujian 
 -/
 module
 
-public import Mathlib.Algebra.Module.LocalizedModule.Basic
-public import Mathlib.AlgebraicGeometry.StructureSheaf
 public import Mathlib.AlgebraicGeometry.Modules.Sheaf
-public import Mathlib.Algebra.Category.ModuleCat.Sheaf
-public import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
-public import Mathlib.CategoryTheory.Limits.ConcreteCategory.WithAlgebraicStructures
+public import Mathlib.Algebra.Category.Grp.Colimits
+public import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Sheaves.Forget
+import Mathlib.Algebra.Category.Grp.Limits
+import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.WithAlgebraicStructures
 
 /-!
 

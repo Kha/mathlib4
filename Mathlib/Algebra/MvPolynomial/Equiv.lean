@@ -5,13 +5,20 @@ Authors: Johannes Hölzl, Johan Commelin, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Finsupp.Fin
 public import Mathlib.Algebra.MvPolynomial.Degrees
-public import Mathlib.Algebra.MvPolynomial.Rename
 public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.Degree.Lemmas
 public import Mathlib.Data.Finsupp.Option
 public import Mathlib.Logic.Equiv.Fin.Basic
+public import Mathlib.Data.Finsupp.Fin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Polynomial.Monomial
+import Mathlib.Algebra.BigOperators.Finsupp.Fin
+import Mathlib.Algebra.Order.Group.Finset
+import Mathlib.Algebra.Polynomial.Degree.Lemmas
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Data.Nat.Cast.WithTop
 
 /-!
 # Equivalences between polynomial rings

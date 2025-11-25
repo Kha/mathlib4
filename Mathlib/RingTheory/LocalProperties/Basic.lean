@@ -8,8 +8,11 @@ module
 public import Mathlib.RingTheory.Localization.AtPrime.Basic
 public import Mathlib.RingTheory.Localization.BaseChange
 public import Mathlib.RingTheory.Localization.Submodule
-public import Mathlib.RingTheory.LocalProperties.Submodule
 public import Mathlib.RingTheory.RingHomProperties
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalProperties.Submodule
 
 /-!
 # Local properties of commutative rings

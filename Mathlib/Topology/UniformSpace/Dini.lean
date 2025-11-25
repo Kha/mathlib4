@@ -7,7 +7,15 @@ module
 
 public import Mathlib.Analysis.Normed.Order.Lattice
 public import Mathlib.Topology.ContinuousMap.Ordered
-public import Mathlib.Topology.UniformSpace.CompactConvergence
+public import Mathlib.Topology.CompactOpen
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.UniformSpace.CompactConvergence
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-! # Dini's Theorem
 

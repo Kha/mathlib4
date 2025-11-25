@@ -5,8 +5,10 @@ Authors: Patrick Massot, Kim Morrison, Mario Carneiro, Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.Category.TopCat.Limits.Basic
 public import Mathlib.CategoryTheory.Filtered.Basic
+public import Mathlib.Topology.Category.TopCat.Basic
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Topology.Category.TopCat.Limits.Basic
 
 /-!
 # Cofiltered limits in the category of topological spaces

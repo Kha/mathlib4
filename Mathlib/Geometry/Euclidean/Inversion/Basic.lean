@@ -5,9 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.Normed.Group.AddTorsor
-public import Mathlib.Tactic.AdaptationNote
+public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Inversion in an affine space

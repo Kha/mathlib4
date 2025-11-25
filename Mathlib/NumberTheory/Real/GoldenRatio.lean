@@ -5,13 +5,25 @@ Authors: Anatole Dedecker, Alexey Soloyev, Junyan Xu, Kamila Szewczyk
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Basic
 public import Mathlib.Algebra.LinearRecurrence
-public import Mathlib.Data.Fin.VecNotation
 public import Mathlib.Data.Nat.Fib.Basic
 public import Mathlib.NumberTheory.Real.Irrational
-public import Mathlib.Tactic.NormNum.NatFib
-public import Mathlib.Tactic.NormNum.Prime
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.NatFib
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Tactic.NormNum.Prime
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The golden ratio and its conjugate

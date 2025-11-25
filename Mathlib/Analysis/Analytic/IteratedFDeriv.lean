@@ -5,9 +5,17 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Analysis.Calculus.ContDiff.CPolynomial
 public import Mathlib.Data.Fintype.Perm
+public import Mathlib.Analysis.Analytic.ChangeOrigin
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.CPolynomial
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 # The iterated derivative of an analytic function

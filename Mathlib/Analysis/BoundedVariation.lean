@@ -5,10 +5,19 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Equiv
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
-public import Mathlib.Analysis.Calculus.Monotone
 public import Mathlib.Topology.EMetricSpace.BoundedVariation
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.Monotone
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Almost everywhere differentiability of functions with locally bounded variation

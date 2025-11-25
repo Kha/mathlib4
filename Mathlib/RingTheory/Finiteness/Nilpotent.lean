@@ -5,8 +5,13 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.RingTheory.Finiteness.Basic
-public import Mathlib.RingTheory.Nilpotent.Lemmas
+public import Mathlib.Data.Matrix.Mul
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Nilpotent.Lemmas
 
 /-!
 # Nilpotent maps on finite modules

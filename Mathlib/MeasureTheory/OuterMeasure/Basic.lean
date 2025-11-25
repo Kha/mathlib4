@@ -5,11 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Countable.Basic
-public import Mathlib.Data.Fin.VecNotation
-public import Mathlib.Order.Disjointed
 public import Mathlib.MeasureTheory.OuterMeasure.Defs
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Outer Measures

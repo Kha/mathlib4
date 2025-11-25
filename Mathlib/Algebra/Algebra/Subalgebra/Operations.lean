@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Algebra.Subalgebra.Basic
 public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.Algebra.Ring.Action.Submonoid
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # More operations on subalgebras

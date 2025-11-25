@@ -5,8 +5,14 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Data.Set.Function
-public import Mathlib.Order.Interval.Set.LinearOrder
+public import Mathlib.Order.Lattice
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Image
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Monotone surjective functions are surjective on intervals

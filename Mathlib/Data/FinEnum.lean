@@ -5,10 +5,14 @@ Authors: Simon Hudon
 -/
 module
 
-public import Mathlib.Data.Fintype.Basic
-public import Mathlib.Data.Fintype.EquivFin
 public import Mathlib.Data.List.ProdSigma
 public import Mathlib.Data.List.Pi
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Data.List.Dedup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Fintype.EquivFin
 
 /-!
 Type class for finitely enumerable types. The property is stronger

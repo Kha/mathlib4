@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Fintype.Perm
 public import Mathlib.LinearAlgebra.Matrix.RowCol
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
 /-!
 # Permanent of a matrix
 

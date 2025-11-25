@@ -8,6 +8,7 @@ module
 public import Mathlib.AlgebraicTopology.SimplicialSet.StdSimplex
 public import Mathlib.CategoryTheory.Closed.FunctorToTypes
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.FunctorCategory
+import Mathlib.Tactic.Lemma
 
 /-!
 # The monoidal category structure on simplicial sets

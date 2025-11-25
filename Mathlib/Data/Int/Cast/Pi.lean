@@ -5,11 +5,10 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Batteries.Tactic.Alias
 public import Mathlib.Data.Int.Notation
-public import Mathlib.Tactic.TypeStar
-public import Mathlib.Util.AssertExists
 public import Mathlib.Tactic.Push.Attr
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Cast of integers to function types

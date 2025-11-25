@@ -6,7 +6,17 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot
 module
 
 public import Mathlib.Topology.Order
-public import Mathlib.Topology.NhdsSet
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Continuous
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Specific classes of maps between topological spaces

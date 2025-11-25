@@ -5,10 +5,18 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Tactic.GCongr
 public import Mathlib.Topology.Compactness.Paracompact
-public import Mathlib.Topology.EMetricSpace.Basic
-public import Mathlib.SetTheory.Cardinal.Order
+public import Mathlib.Topology.EMetricSpace.Defs
+import Mathlib.Order.OmegaCompletePartialOrder
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.EMetricSpace.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # (Extended) metric spaces are paracompact

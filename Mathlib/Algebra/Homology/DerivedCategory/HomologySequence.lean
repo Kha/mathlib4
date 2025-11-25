@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.DerivedCategory.Basic
+public import Mathlib.Algebra.Homology.HomotopyCategory.ShiftSequence
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Homology.HomotopyCategory.HomologicalFunctor
 
 /-!
 # The homology sequence

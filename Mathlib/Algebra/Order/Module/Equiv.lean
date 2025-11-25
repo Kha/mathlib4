@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Module.Equiv.Basic
 public import Mathlib.Algebra.Order.Group.Equiv
 public import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Linear equivalence for order type synonyms

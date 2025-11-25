@@ -6,6 +6,8 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Topology.Bornology.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Map
 
 /-!
 # Locally bounded maps

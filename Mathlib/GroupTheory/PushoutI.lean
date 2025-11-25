@@ -8,6 +8,9 @@ module
 public import Mathlib.GroupTheory.CoprodI
 public import Mathlib.GroupTheory.Coprod.Basic
 public import Mathlib.GroupTheory.Complement
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 

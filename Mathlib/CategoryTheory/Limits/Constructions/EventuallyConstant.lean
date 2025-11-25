@@ -6,7 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Filtered.Basic
-public import Mathlib.CategoryTheory.Limits.HasLimits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Limits of eventually constant functors

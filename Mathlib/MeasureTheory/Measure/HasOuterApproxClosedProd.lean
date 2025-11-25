@@ -5,8 +5,22 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Prod
 public import Mathlib.MeasureTheory.Measure.HasOuterApproxClosed
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.MeasurableSpace.Pi
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Characterization of a finite measure by the integrals of products of bounded functions

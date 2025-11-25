@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.Pointwise
 public import Mathlib.Geometry.Convex.Cone.Pointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The algebraic dual of a cone

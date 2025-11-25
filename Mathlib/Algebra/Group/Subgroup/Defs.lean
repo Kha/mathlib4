@@ -7,9 +7,12 @@ module
 
 public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Group.Submonoid.Defs
-public import Mathlib.Data.Set.Inclusion
 public import Mathlib.Tactic.Common
-public import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Inclusion
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Subgroups

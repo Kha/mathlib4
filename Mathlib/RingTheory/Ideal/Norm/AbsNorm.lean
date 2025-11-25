@@ -5,15 +5,32 @@ Authors: Anne Baanen, Alex J. Best
 -/
 module
 
-public import Mathlib.Algebra.CharP.Quotient
-public import Mathlib.LinearAlgebra.FreeModule.Determinant
-public import Mathlib.LinearAlgebra.FreeModule.Finite.CardQuotient
-public import Mathlib.LinearAlgebra.FreeModule.IdealQuotient
-public import Mathlib.RingTheory.DedekindDomain.Dvr
-public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
-public import Mathlib.RingTheory.Ideal.Basis
-public import Mathlib.RingTheory.Norm.Basic
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicative
+public import Mathlib.GroupTheory.Index
+public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.EuclideanDomain.Int
+public import Mathlib.Algebra.GCDMonoid.Nat
+public import Mathlib.Data.Int.Basic
+public import Mathlib.LinearAlgebra.FreeModule.PID
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Quotient
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Data.Finsupp.Fintype
+import Mathlib.LinearAlgebra.FreeModule.Determinant
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Ideal.Basis
+import Mathlib.RingTheory.Int.Basic
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicative
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.LinearAlgebra.FreeModule.Finite.CardQuotient
+import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
 
 /-!
 

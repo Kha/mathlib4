@@ -6,7 +6,8 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
-public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Preservation of Kan extensions

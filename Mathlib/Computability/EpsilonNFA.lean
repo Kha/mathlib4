@@ -6,7 +6,9 @@ Authors: Fox Thomson, Yaël Dillies, Anthony DeRossi
 module
 
 public import Mathlib.Computability.NFA
-public import Mathlib.Data.List.ReduceOption
+import Mathlib.Data.List.Induction
+import Mathlib.Data.List.ReduceOption
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Epsilon Nondeterministic Finite Automata

@@ -6,7 +6,10 @@ Authors: Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.ModuleEmbedding.Opposite
-public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Indization
+public import Mathlib.CategoryTheory.Abelian.Indization
+public import Mathlib.CategoryTheory.Abelian.Opposite
+import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Indization
+import Mathlib.CategoryTheory.Limits.Preserves.Opposites
 
 /-!
 # The Freyd-Mitchell embedding theorem

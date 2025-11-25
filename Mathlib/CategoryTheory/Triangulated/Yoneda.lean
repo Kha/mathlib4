@@ -5,11 +5,13 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.Ab
 public import Mathlib.CategoryTheory.Preadditive.Yoneda.Basic
 public import Mathlib.CategoryTheory.Shift.ShiftedHomOpposite
-public import Mathlib.CategoryTheory.Triangulated.HomologicalFunctor
 public import Mathlib.CategoryTheory.Triangulated.Opposite.Pretriangulated
+public import Mathlib.Algebra.Category.Grp.Abelian
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Homology.ShortComplex.Ab
 
 /-!
 # The Yoneda functors are homological

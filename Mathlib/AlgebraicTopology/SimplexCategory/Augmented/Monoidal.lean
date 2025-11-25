@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Augmented.Basic
 public import Mathlib.CategoryTheory.Monoidal.Category
+import Mathlib.Tactic.Lemma
 
 /-!
 # Monoidal structure on the augmented simplex category

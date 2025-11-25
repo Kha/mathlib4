@@ -6,10 +6,26 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 module
 
 public import Mathlib.Data.ENNReal.Real
-public import Mathlib.Tactic.Bound.Attribute
 public import Mathlib.Topology.Bornology.Basic
 public import Mathlib.Topology.EMetricSpace.Defs
-public import Mathlib.Topology.UniformSpace.Basic
+public import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Prod
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 ## Pseudo-metric spaces

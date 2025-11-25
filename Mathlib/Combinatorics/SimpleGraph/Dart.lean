@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.Basic
 public import Mathlib.Data.Fintype.Sigma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Darts in graphs

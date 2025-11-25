@@ -7,6 +7,10 @@ module
 
 public import Mathlib.RingTheory.LocalRing.ResidueField.Ideal
 public import Mathlib.FieldTheory.Separable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-! # Instances on residue fields -/
 

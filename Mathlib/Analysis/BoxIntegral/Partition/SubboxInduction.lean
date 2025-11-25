@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.BoxIntegral.Box.SubboxInduction
 public import Mathlib.Analysis.BoxIntegral.Partition.Tagged
+public import Mathlib.Data.Fintype.Powerset
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
 
 /-!
 # Induction on subboxes

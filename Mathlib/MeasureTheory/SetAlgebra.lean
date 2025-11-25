@@ -5,8 +5,13 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.Data.Finite.Prod
 public import Mathlib.MeasureTheory.SetSemiring
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Algebra of sets

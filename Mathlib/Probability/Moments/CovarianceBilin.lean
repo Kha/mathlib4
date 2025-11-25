@@ -7,9 +7,17 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Positive
 public import Mathlib.Analysis.Normed.Lp.MeasurableSpace
-public import Mathlib.MeasureTheory.SpecificCodomains.WithLp
-public import Mathlib.Probability.Moments.Basic
 public import Mathlib.Probability.Moments.CovarianceBilinDual
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.MeasureTheory.SpecificCodomains.WithLp
+import Mathlib.Probability.Moments.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
 
 /-!
 # Covariance in Hilbert spaces

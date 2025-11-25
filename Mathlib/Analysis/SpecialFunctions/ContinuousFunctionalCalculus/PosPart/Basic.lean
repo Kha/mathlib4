@@ -5,9 +5,15 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
-public import Mathlib.Topology.ContinuousMap.ContinuousSqrt
-public import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.NonUnital
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Topology.ContinuousMap.ContinuousSqrt
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
 
 /-! # The positive (and negative) parts of a selfadjoint element in a C⋆-algebra
 

@@ -5,12 +5,16 @@ Authors: Kyle Miller
 -/
 module
 
-public meta import Lean.Elab.Tactic.Config
 public meta import Lean.Elab.Tactic.RCases
-public meta import Lean.Meta.Tactic.Assumption
 public meta import Lean.Meta.Tactic.Rfl
 public meta import Mathlib.Lean.Meta.CongrTheorems
-public meta import Mathlib.Logic.Basic
+public import Mathlib.Init
+public meta import Lean.Meta.Tactic.Replace
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.TypeStar
+import Lean.Elab.Tactic.RCases
+import Mathlib.Lean.Meta.CongrTheorems
+meta import Lean.Meta.Tactic.Simp.SimpCongrTheorems
 
 /-!
 # The `congr!` tactic

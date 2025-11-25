@@ -5,8 +5,11 @@ Authors: Jakob Scholbach
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.FieldTheory.Separable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 

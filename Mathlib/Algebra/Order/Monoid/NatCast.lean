@@ -5,9 +5,13 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro, Johannes Hölzl, Yuya
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 public import Mathlib.Algebra.Order.ZeroLEOne
 public import Mathlib.Data.Nat.Cast.Defs
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Order of numerals in an `AddMonoidWithOne`.

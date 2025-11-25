@@ -6,7 +6,10 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf
-public import Mathlib.Algebra.Category.ModuleCat.Colimits
+public import Mathlib.CategoryTheory.Limits.Preserves.Limits
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 
 /-! # Colimits in categories of presheaves of modules
 

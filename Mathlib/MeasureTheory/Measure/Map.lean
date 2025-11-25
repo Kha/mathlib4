@@ -7,6 +7,11 @@ module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.Embedding
 public import Mathlib.MeasureTheory.Measure.MeasureSpace
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Pushforward of a measure

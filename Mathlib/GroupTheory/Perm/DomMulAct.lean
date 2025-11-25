@@ -10,6 +10,10 @@ public import Mathlib.Data.Fintype.Perm
 public import Mathlib.Data.Set.Card
 public import Mathlib.GroupTheory.GroupAction.Defs
 public import Mathlib.GroupTheory.GroupAction.DomAct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Restrict
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Subgroup of `Equiv.Perm α` preserving a function

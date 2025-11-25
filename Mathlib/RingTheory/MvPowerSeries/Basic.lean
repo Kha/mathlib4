@@ -7,9 +7,15 @@ module
 
 public import Mathlib.Algebra.Order.Antidiag.Finsupp
 public import Mathlib.Data.Finsupp.Weight
-public import Mathlib.Tactic.Linarith
 public import Mathlib.LinearAlgebra.Pi
-public import Mathlib.Algebra.MvPolynomial.Eval
+public import Mathlib.Algebra.MvPolynomial.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Formal (multivariate) power series

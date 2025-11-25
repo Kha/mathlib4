@@ -8,6 +8,10 @@ module
 
 public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Group.Hom.Defs
+public import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Additional lemmas about monoid and group homomorphisms

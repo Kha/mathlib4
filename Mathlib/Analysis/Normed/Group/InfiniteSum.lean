@@ -5,10 +5,23 @@ Authors: Sébastien Gouëzel, Heather Macbeth, Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Intervals
-public import Mathlib.Analysis.Normed.Group.Uniform
-public import Mathlib.Topology.Instances.NNReal.Lemmas
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
+public import Mathlib.Topology.UniformSpace.Real
+public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Infinite sums in (semi)normed groups

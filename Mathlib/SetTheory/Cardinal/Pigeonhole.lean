@@ -5,8 +5,14 @@ Authors: Mario Carneiro, Floris van Doorn
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Lattice
-public import Mathlib.SetTheory.Cardinal.Regular
+public import Mathlib.SetTheory.Cardinal.Cofinality
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.SetTheory.Cardinal.Regular
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Infinite pigeonhole principle

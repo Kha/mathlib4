@@ -6,9 +6,19 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
-public import Mathlib.Algebra.Order.Ring.Nat
-public import Mathlib.Algebra.Order.Sub.Basic
-public import Mathlib.Data.Nat.Cast.Order.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Group.Nat.Defs
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Order.Sub.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Cast of natural numbers: lemmas about bundled ordered semirings

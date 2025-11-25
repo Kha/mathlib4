@@ -5,7 +5,15 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+public import Mathlib.Order.Lattice
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Lemmas about `min` and `max` in an ordered monoid.

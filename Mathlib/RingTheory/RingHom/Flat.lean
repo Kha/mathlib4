@@ -5,9 +5,15 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.RingTheory.Flat.Localization
 public import Mathlib.RingTheory.LocalProperties.Basic
-public import Mathlib.RingTheory.Ideal.GoingDown
+public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.RingTheory.Spectrum.Prime.Topology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Flat.Localization
+import Mathlib.RingTheory.Flat.Stability
+import Mathlib.RingTheory.Ideal.GoingDown
+import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
 
 /-!
 # Flat ring homomorphisms

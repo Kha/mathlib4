@@ -5,8 +5,13 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.CharP.Lemmas
 public import Mathlib.GroupTheory.OrderOfElement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Lemmas
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Lemmas about rings of characteristic two

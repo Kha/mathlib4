@@ -5,8 +5,14 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
 public import Mathlib.RingTheory.AlgebraicIndependent.Defs
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.GroupTheory.GroupAction.Ring
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
 
 /-!
 # Algebraic Independence

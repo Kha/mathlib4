@@ -5,10 +5,15 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Colimits
-public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Limits
-public import Mathlib.Algebra.Category.ModuleCat.Abelian
 public import Mathlib.CategoryTheory.Abelian.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf
+import Mathlib.Logic.Small.Basic
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Abelian
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Limits
 
 /-!
 # The category of presheaves of modules is abelian

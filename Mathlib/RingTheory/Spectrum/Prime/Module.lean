@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
 public import Mathlib.RingTheory.Support
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

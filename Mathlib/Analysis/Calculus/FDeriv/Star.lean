@@ -5,11 +5,15 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Linear
-public import Mathlib.Analysis.Calculus.FDeriv.Comp
-public import Mathlib.Analysis.Calculus.FDeriv.Equiv
 public import Mathlib.Analysis.CStarAlgebra.Basic
-public import Mathlib.Topology.Algebra.Module.Star
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Linear
 
 /-!
 # Star operations on derivatives

@@ -5,10 +5,15 @@ Authors: Andrew Yang, Qi Ge, Christian Merten
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.Immersion
 public import Mathlib.AlgebraicGeometry.Morphisms.Proper
-public import Mathlib.RingTheory.RingHom.Injective
-public import Mathlib.RingTheory.Valuation.LocalSubring
+public import Mathlib.RingTheory.Valuation.ValuationRing
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.Immersion
+import Mathlib.AlgebraicGeometry.Morphisms.IsIso
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.RingTheory.RingHom.Injective
+import Mathlib.RingTheory.Valuation.LocalSubring
+import Mathlib.Algebra.Category.Ring.Instances
 
 /-!
 # Valuative criterion

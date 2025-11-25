@@ -6,6 +6,10 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.BoxIntegral.Partition.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Split a box along one or more hyperplanes

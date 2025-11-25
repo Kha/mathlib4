@@ -5,8 +5,12 @@ Authors: Floris van Doorn
 -/
 module
 
-public meta import Batteries.Tactic.Lint
-public meta import Mathlib.Tactic.DeclarationNames
+public meta import Lean.Elab.Command
+public meta import Lean.Linter.Basic
+public import Mathlib.Tactic.DeclarationNames
+public meta import Batteries.Tactic.Lint.Basic
+public import Batteries.Tactic.Lint.Basic
+import Lean.Linter.Deprecated
 
 /-!
 # Linters for Mathlib

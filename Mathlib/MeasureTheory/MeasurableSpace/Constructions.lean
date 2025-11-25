@@ -12,6 +12,13 @@ public import Mathlib.GroupTheory.Coset.Defs
 public import Mathlib.MeasureTheory.MeasurableSpace.Basic
 public import Mathlib.MeasureTheory.MeasurableSpace.Instances
 public import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Bool.Set
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.FunProp.Elab
 
 /-!
 # Constructions for measurable spaces and functions

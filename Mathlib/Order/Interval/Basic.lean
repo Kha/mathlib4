@@ -5,9 +5,17 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Interval.Set.Basic
-public import Mathlib.Data.Set.Lattice.Image
 public import Mathlib.Data.SetLike.Basic
+public import Mathlib.Order.WithBot
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Order intervals

@@ -6,7 +6,12 @@ Authors: Neil Strickland, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Group.Commute.Defs
-public import Mathlib.Algebra.Group.Semiconj.Basic
+public import Mathlib.Algebra.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Semiconj.Basic
 
 /-!
 # Additional lemmas about commuting pairs of elements in monoids

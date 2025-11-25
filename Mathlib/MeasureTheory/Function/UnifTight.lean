@@ -5,8 +5,14 @@ Authors: Igor Khavkine
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
 public import Mathlib.MeasureTheory.Function.UniformIntegrable
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
 
 /-!
 # Uniform tightness

@@ -5,13 +5,25 @@ Authors: Johan Commelin, Floris van Doorn, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Basic
 public import Mathlib.Algebra.Group.Action.Opposite
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
-public import Mathlib.Algebra.Group.Units.Equiv
-public import Mathlib.Data.Set.Lattice.Image
 public import Mathlib.Data.Set.Pairwise.Basic
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Algebra.Group.Prod
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Algebra.Group.Invertible.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Prod
+import Mathlib.Logic.Equiv.Set
+import Mathlib.Algebra.Group.Action.Basic
+import Mathlib.Algebra.Group.Action.Units
+import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Pointwise actions on sets

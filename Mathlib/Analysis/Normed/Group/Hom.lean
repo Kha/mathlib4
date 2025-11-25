@@ -5,9 +5,17 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Int
 public import Mathlib.Analysis.Normed.Group.Subgroup
-public import Mathlib.Analysis.Normed.Group.Uniform
+public import Mathlib.Topology.MetricSpace.Algebra
+public import Mathlib.Topology.MetricSpace.Isometry
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Normed.Group.Int
+import Mathlib.Analysis.Normed.Group.Uniform
 
 /-!
 # Normed groups homomorphisms

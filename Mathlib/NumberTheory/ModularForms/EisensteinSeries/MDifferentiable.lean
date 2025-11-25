@@ -5,10 +5,21 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.UniformConvergence
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Manifold
-public import Mathlib.Analysis.Complex.LocallyUniformLimit
-public import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.LocallyUniformLimit
+import Mathlib.Analysis.Calculus.Deriv.ZPow
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.NumberTheory.ModularForms.EisensteinSeries.UniformConvergence
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Holomorphicity of Eisenstein series

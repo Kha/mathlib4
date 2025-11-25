@@ -5,9 +5,13 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
-public import Mathlib.Topology.Spectral.Hom
 public import Mathlib.AlgebraicGeometry.Limits
+public import Mathlib.AlgebraicGeometry.Morphisms.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.Data.Set.Subset
+import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Quasi-compact morphisms

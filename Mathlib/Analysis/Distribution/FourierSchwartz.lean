@@ -6,8 +6,13 @@ Authors: Sébastien Gouëzel, Moritz Doll
 module
 
 public import Mathlib.Analysis.Distribution.SchwartzSpace
-public import Mathlib.Analysis.Fourier.FourierTransformDeriv
-public import Mathlib.Analysis.Fourier.Inversion
+public import Mathlib.Analysis.Fourier.FourierTransform
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Fourier.FourierTransformDeriv
+import Mathlib.Analysis.Fourier.Inversion
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # Fourier transform on Schwartz functions

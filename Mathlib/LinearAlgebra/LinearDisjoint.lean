@@ -5,11 +5,18 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.Tower
-public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
 public import Mathlib.LinearAlgebra.TensorProduct.Submodule
-public import Mathlib.LinearAlgebra.Dimension.Finite
 public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.LinearAlgebra.Dimension.Basic
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.LinearIndependent.Basic
+import Mathlib.LinearAlgebra.TensorProduct.Finiteness
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
 
 /-!
 

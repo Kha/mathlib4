@@ -6,10 +6,19 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
-public import Mathlib.Analysis.CStarAlgebra.Unitization
 public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Isometric
-public import Mathlib.Topology.ContinuousMap.ContinuousSqrt
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.CStarAlgebra.Spectrum
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.ContinuousMap.ContinuousSqrt
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Analysis.Normed.Group.AddTorsor
 
 /-! # Facts about star-ordered rings that depend on the continuous functional calculus
 

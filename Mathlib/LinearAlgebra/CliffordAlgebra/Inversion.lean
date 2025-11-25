@@ -6,6 +6,7 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Contraction
+import Mathlib.Tactic.TypeStar
 
 /-! # Results about inverses in Clifford algebras
 

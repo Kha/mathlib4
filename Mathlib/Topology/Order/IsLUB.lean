@@ -5,7 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Order.LeftRightNhds
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Order.Nat
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Properties of LUB and GLB in an order topology

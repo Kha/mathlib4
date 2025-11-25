@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Matrix.Basis
 public import Mathlib.LinearAlgebra.StdBasis
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Standard basis on matrices

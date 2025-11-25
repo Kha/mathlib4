@@ -6,10 +6,15 @@ Authors: Andrew Yang, David Swinarski
 module
 
 public import Mathlib.Algebra.Module.FinitePresentation
-public import Mathlib.Algebra.Module.Projective
-public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
-public import Mathlib.RingTheory.LocalProperties.Submodule
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.RingTheory.LocalProperties.Submodule
+import Mathlib.RingTheory.Localization.BaseChange
 
 /-!
 

@@ -5,8 +5,37 @@ Authors: Sébastien Gouëzel, Yury Kudryashov, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Convex.Slope
-public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.LinearAlgebra.AffineSpace.Slope
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Convex.Slope
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Data.Set.Monotone
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Convexity of functions and derivatives

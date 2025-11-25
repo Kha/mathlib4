@@ -9,6 +9,9 @@ public import Mathlib.LinearAlgebra.QuadraticForm.IsometryEquiv
 public import Mathlib.Data.Sign.Basic
 public import Mathlib.Algebra.CharP.Invertible
 public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Positivity.Basic
 
 /-!
 # Real quadratic forms

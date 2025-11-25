@@ -5,8 +5,16 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Topology.Continuous
-public import Mathlib.Topology.NhdsSet
+public import Mathlib.Tactic.Common
+public import Mathlib.Order.Filter.Basic
+public import Mathlib.Topology.Defs.Filter
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Continuous
+import Mathlib.Topology.NhdsSet
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Separated neighbourhoods

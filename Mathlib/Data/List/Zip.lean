@@ -5,8 +5,13 @@ Authors: Mario Carneiro, Kenny Lau
 -/
 module
 
-public import Mathlib.Data.List.Forall2
-public import Mathlib.Data.Nat.Basic
+public import Mathlib.Logic.OpClass
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.List.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Forall2
+import Mathlib.Data.Nat.Basic
 
 /-!
 # zip & unzip

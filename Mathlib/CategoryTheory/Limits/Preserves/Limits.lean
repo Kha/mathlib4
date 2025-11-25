@@ -6,6 +6,7 @@ Authors: Kim Morrison, Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Isomorphisms about functors which preserve (co)limits

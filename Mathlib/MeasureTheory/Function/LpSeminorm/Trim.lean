@@ -5,7 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+public import Mathlib.MeasureTheory.Function.LpSeminorm.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Lp seminorm with respect to trimmed measure

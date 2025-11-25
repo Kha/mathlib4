@@ -5,9 +5,20 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Gershgorin
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.ConvexBody
-public import Mathlib.NumberTheory.NumberField.Units.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.Matrix.Gershgorin
+import Mathlib.Order.Preorder.Finite
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Dirichlet theorem on the group of units of a number field

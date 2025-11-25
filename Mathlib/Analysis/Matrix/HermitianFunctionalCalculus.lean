@@ -5,9 +5,16 @@ Authors: Jon Bannon, Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
 public import Mathlib.Analysis.Matrix.Spectrum
-public import Mathlib.Topology.ContinuousMap.Units
+public import Mathlib.Topology.Instances.Matrix
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unital
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Eigenspace.Matrix
+import Mathlib.Topology.ContinuousMap.Units
+import Mathlib.Topology.Order.T5
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # Continuous Functional Calculus for Hermitian Matrices

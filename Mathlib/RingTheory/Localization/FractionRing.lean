@@ -6,12 +6,20 @@ Authors: Kenny Lau, Mario Carneiro, Johan Commelin, Amelia Livingston, Anne Baan
 module
 
 public import Mathlib.Algebra.Ring.Hom.InjSurj
-public import Mathlib.Algebra.Field.Equiv
 public import Mathlib.Algebra.Field.Subfield.Basic
 public import Mathlib.Algebra.Order.GroupWithZero.Submonoid
 public import Mathlib.Algebra.Order.Ring.Int
 public import Mathlib.RingTheory.Localization.Basic
-public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Algebra.Algebra.Tower
+public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Equiv
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Fraction ring / fraction field Frac(R) as localization

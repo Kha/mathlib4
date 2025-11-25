@@ -6,7 +6,13 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Data.ZMod.Basic
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Data.Fintype.Units
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Some facts about finite rings

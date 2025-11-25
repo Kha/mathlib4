@@ -5,10 +5,16 @@ Authors: Kenji Nakagawa, Anne Baanen, Filippo A. E. Nuccio
 -/
 module
 
-public import Mathlib.LinearAlgebra.BilinearForm.DualLattice
-public import Mathlib.LinearAlgebra.FreeModule.PID
 public import Mathlib.RingTheory.DedekindDomain.Basic
 public import Mathlib.RingTheory.Trace.Basic
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.BilinearForm.DualLattice
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.Localization.Module
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Integral closure of Dedekind domains

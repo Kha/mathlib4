@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.ObjectProperty.LimitsClosure
 public import Mathlib.CategoryTheory.ObjectProperty.ColimitsOfShape
+import Mathlib.Tactic.Lemma
 
 /-!
 # Closure of a property of objects under colimits of certain shapes

@@ -5,11 +5,10 @@ Authors: Leonardo de Moura, Mario Carneiro
 -/
 module
 
-public import Lean.Linter.Deprecated
 public import Mathlib.Data.Nat.Notation
 public import Mathlib.Data.Int.Notation
 public import Mathlib.Data.Nat.BinaryRec
-public import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Binary representation of integers using inductive types

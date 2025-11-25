@@ -6,6 +6,7 @@ Authors: Miyahara Kō
 module
 
 public import Mathlib.Topology.Instances.Nat
+import Mathlib.Logic.Denumerable
 
 /-!
 # Topology on the positive natural numbers

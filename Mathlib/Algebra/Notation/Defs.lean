@@ -5,10 +5,11 @@ Authors: Jeremy Avigad, Leonardo de Moura, Simon Hudon, Mario Carneiro
 -/
 module
 
-public import Mathlib.Tactic.Lemma
-public import Mathlib.Tactic.TypeStar
-public import Mathlib.Tactic.ToAdditive
-public import Mathlib.Util.AssertExists
+public import Mathlib.Tactic.Translate.ToAdditive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Tactic.Simps.NotationClass
 
 /-!
 # Typeclasses for algebraic operations

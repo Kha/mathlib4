@@ -5,7 +5,16 @@ Authors: Yury Kudryashov, Yaël Dillies
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integral average of a function

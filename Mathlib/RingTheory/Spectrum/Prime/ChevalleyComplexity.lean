@@ -5,11 +5,28 @@ Authors: Yaël Dillies, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Order.SuccPred.WithBot
-public import Mathlib.Algebra.Polynomial.CoeffMem
-public import Mathlib.Data.DFinsupp.WellFounded
 public import Mathlib.RingTheory.Spectrum.Prime.ConstructibleSet
-public import Mathlib.RingTheory.Spectrum.Prime.Polynomial
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Algebra.Polynomial.CoeffMem
+import Mathlib.Data.DFinsupp.WellFounded
+import Mathlib.Data.Multiset.OrderedMonoid
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.SuccPred.WithBot
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.Spectrum.Prime.Polynomial
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Chevalley's theorem with complexity bound

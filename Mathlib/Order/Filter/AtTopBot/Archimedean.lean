@@ -6,9 +6,25 @@ Authors: Johannes Hölzl, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.Order.Filter.AtTopBot.Group
 public import Mathlib.Order.Filter.CountablyGenerated
-public import Mathlib.Tactic.GCongr
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # `Filter.atTop` filter and archimedean (semi)rings/fields

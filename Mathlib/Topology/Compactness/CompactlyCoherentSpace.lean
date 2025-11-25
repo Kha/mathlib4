@@ -5,8 +5,13 @@ Authors: Floris van Doorn, Hannah Scholz
 -/
 module
 
-public import Mathlib.Topology.Coherent
-public import Mathlib.Topology.Compactness.Compact
+public import Mathlib.Data.Set.Notation
+public import Mathlib.Topology.Defs.Induced
+public import Mathlib.Topology.Defs.Sequences
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Coherent
+import Mathlib.Topology.Compactness.Compact
 
 /-!
 # Compactly coherent spaces and the k-ification

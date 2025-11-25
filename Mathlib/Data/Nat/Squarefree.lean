@@ -5,11 +5,25 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Squarefree.Basic
-public import Mathlib.Data.Nat.Factorization.Basic
 public import Mathlib.NumberTheory.Divisors
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Nat
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Data.Nat.Sqrt
+public import Mathlib.Data.Nat.Factorization.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.Data.Finset.Max
+import Mathlib.RingTheory.UniqueFactorizationDomain.GCDMonoid
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Lemmas about squarefreeness of natural numbers

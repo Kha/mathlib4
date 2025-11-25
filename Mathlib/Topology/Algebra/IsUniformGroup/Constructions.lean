@@ -8,6 +8,8 @@ module
 public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
 public import Mathlib.Topology.UniformSpace.Pi
 public import Mathlib.Topology.UniformSpace.UniformEmbedding
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Constructions of new uniform groups from old ones

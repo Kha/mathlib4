@@ -6,8 +6,12 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Algebra.Order.WithTop.Untop0
-public import Mathlib.Analysis.SpecialFunctions.Integrability.LogMeromorphic
 public import Mathlib.MeasureTheory.Integral.CircleAverage
+public import Mathlib.Analysis.Meromorphic.Basic
+public import Mathlib.Analysis.SpecialFunctions.Log.PosLog
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecialFunctions.Integrability.LogMeromorphic
 
 
 /-!

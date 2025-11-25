@@ -6,9 +6,13 @@ Authors: Antoine Chambert-Loir, Oliver Nash
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.Identities
-public import Mathlib.RingTheory.Nilpotent.Lemmas
-public import Mathlib.RingTheory.Polynomial.Nilpotent
+public import Mathlib.Algebra.Polynomial.Derivative
+public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Identities
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.RingTheory.Polynomial.Nilpotent
+import Mathlib.Algebra.Ring.Divisibility.Basic
 
 /-!
 # Newton-Raphson method

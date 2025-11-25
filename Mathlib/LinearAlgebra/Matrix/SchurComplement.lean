@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Matrix.Invertible
 public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+import Mathlib.Tactic.TypeStar
 
 /-! # 2×2 block matrices and the Schur complement
 

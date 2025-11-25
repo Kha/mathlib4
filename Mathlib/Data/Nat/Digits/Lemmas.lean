@@ -5,13 +5,29 @@ Authors: Kim Morrison, Shing Tak Lam, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Intervals
-public import Mathlib.Algebra.BigOperators.Ring.List
 public import Mathlib.Data.Int.ModEq
 public import Mathlib.Data.Nat.Bits
 public import Mathlib.Data.Nat.Log
-public import Mathlib.Tactic.IntervalCases
 public import Mathlib.Data.Nat.Digits.Defs
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Digits of a natural number

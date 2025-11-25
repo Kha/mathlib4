@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Defs
 public import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Submonoid of primal elements

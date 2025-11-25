@@ -5,9 +5,16 @@ Authors: Anne Baanen, Yury Kudryashov, Joseph Myers, Heather Macbeth, Kim Morris
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Action.Units
-public import Mathlib.Algebra.Module.End
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.End
+import Mathlib.Algebra.GroupWithZero.Action.Units
+import Mathlib.Data.Int.Cast.Lemmas
 
 /-!
 # `NoZeroSMulDivisors`

@@ -6,8 +6,9 @@ Authors: Manuel Candales, Benjamin Davidson
 module
 
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
-public import Mathlib.Geometry.Euclidean.Sphere.Basic
 public import Mathlib.Geometry.Euclidean.Sphere.Tangent
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Power of a point (intersecting chords and secants)

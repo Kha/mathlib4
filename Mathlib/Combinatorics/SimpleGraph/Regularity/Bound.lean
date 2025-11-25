@@ -5,10 +5,21 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.Algebra.Order.Chebyshev
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.Order.Partition.Equipartition
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Order.Iterate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.Order.Chebyshev
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Numerical bounds for Szemerédi Regularity Lemma

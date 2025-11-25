@@ -5,9 +5,12 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Basic
 public import Mathlib.NumberTheory.DirichletCharacter.Basic
-public import Mathlib.NumberTheory.MulChar.Duality
+public import Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.NumberTheory.MulChar.Duality
 
 /-!
 # Orthogonality relations for Dirichlet characters

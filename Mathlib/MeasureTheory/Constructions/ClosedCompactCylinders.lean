@@ -7,6 +7,7 @@ module
 
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.MeasureTheory.Constructions.Cylinders
+import Mathlib.Tactic.TypeStar
 
 /-! # Cylinders with closed compact bases
 

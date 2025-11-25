@@ -6,6 +6,9 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Analysis.Normed.Ring.Lemmas
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Int.Units
 
 /-!
 # The integers as normed ring

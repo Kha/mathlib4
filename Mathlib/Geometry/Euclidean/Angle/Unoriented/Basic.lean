@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Subspace
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse
+import Batteries.Util.ProofWanted
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Angles between vectors

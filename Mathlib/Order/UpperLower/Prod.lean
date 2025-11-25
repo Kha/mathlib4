@@ -6,6 +6,9 @@ Authors: Yaël Dillies, Sara Rousta
 module
 
 public import Mathlib.Order.UpperLower.Closure
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Upper and lower set product

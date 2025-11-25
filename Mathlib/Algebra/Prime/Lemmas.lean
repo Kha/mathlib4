@@ -5,11 +5,19 @@ Authors: Johannes Hölzl, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Divisibility.Hom
-public import Mathlib.Algebra.Group.Irreducible.Lemmas
-public import Mathlib.Algebra.GroupWithZero.Equiv
 public import Mathlib.Algebra.Prime.Defs
-public import Mathlib.Order.Monotone.Defs
+public import Mathlib.Algebra.Group.Even
+public import Mathlib.Algebra.GroupWithZero.Divisibility
+public import Mathlib.Algebra.GroupWithZero.Hom
+public import Mathlib.Algebra.Group.Equiv.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.GroupWithZero.Equiv
+import Mathlib.Data.Nat.Basic
+import Mathlib.Order.Monotone.Defs
+import Mathlib.Algebra.Group.Irreducible.Lemmas
 
 /-!
 # Associated, prime, and irreducible elements.

@@ -6,6 +6,8 @@ Authors: Adam Topaz
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 
 # Effective epimorphisms

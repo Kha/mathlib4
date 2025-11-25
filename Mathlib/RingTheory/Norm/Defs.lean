@@ -6,6 +6,10 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
 
 /-!
 # Norm for (finite) ring extensions

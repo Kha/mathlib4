@@ -8,6 +8,10 @@ module
 public import Mathlib.Analysis.Convex.Side
 public import Mathlib.Geometry.Euclidean.Angle.Oriented.Rotation
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.AffineSubspace
+import Mathlib.Analysis.Normed.Module.Convex
 
 /-!
 # Oriented angles.

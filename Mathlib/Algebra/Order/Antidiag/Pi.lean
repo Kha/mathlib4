@@ -9,6 +9,14 @@ module
 public import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
 public import Mathlib.Data.Fin.Tuple.NatAntidiagonal
 public import Mathlib.Data.Finset.Sym
+public import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # Antidiagonal of functions as finsets

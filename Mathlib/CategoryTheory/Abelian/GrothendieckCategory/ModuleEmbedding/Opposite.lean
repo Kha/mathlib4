@@ -5,9 +5,17 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Abelian.Yoneda
-public import Mathlib.CategoryTheory.Generator.Abelian
-public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Basic
+public import Mathlib.CategoryTheory.Preadditive.Yoneda.Basic
+import Mathlib.CategoryTheory.Abelian.Opposite
+import Mathlib.CategoryTheory.Abelian.Yoneda
+import Mathlib.CategoryTheory.Generator.Abelian
+import Mathlib.CategoryTheory.Generator.Preadditive
+import Mathlib.CategoryTheory.Limits.Opposites
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
+import Mathlib.CategoryTheory.Abelian.Projective.Basic
+import Mathlib.CategoryTheory.Preadditive.Yoneda.Limits
+import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
 
 /-!
 # Embedding opposites of Grothendieck categories

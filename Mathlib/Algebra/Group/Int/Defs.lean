@@ -6,6 +6,8 @@ Authors: Jeremy Avigad
 module
 
 public import Mathlib.Algebra.Group.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.AssertExists
 
 /-!
 # The integers form a group

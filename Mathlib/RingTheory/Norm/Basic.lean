@@ -6,9 +6,17 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.RingTheory.Norm.Defs
-public import Mathlib.FieldTheory.PrimitiveElement
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Minpoly
-public import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.FieldTheory.Tower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Minpoly
+import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Norm for (finite) ring extensions

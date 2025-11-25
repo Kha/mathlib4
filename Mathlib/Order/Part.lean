@@ -8,6 +8,8 @@ module
 public import Mathlib.Data.Part
 public import Mathlib.Order.Hom.Basic
 public import Mathlib.Tactic.Common
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Monotonicity of monadic operations on `Part`

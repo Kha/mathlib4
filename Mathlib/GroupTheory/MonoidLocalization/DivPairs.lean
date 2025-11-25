@@ -6,6 +6,8 @@ Authors: Yaël Dillies, Michał Mrugała
 module
 
 public import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Submonoid of pairs with quotient in a submonoid

@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Geometry.Manifold.Sheaf.Smooth
 public import Mathlib.Geometry.RingedSpace.LocallyRingedSpace
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Ideal.Nonunits
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-! # Smooth manifolds as locally ringed spaces
 

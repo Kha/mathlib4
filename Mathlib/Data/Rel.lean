@@ -5,9 +5,16 @@ Authors: Jeremy Avigad
 -/
 module
 
-public import Mathlib.Data.Set.Prod
 public import Mathlib.Order.RelIso.Basic
 public import Mathlib.Order.SetNotation
+public import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Tactic.Choose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Prod
 
 /-!
 # Relations as sets of pairs

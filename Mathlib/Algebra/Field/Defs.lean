@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Ring.Defs
 public import Mathlib.Data.Rat.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Division (semi)rings and (semi)fields

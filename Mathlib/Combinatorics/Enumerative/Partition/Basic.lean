@@ -7,7 +7,13 @@ module
 
 public import Mathlib.Algebra.Order.Antidiag.Finsupp
 public import Mathlib.Combinatorics.Enumerative.Composition
-public import Mathlib.Tactic.ApplyFun
+public import Mathlib.Algebra.Order.BigOperators.Group.Multiset
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Partitions

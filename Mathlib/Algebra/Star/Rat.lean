@@ -5,10 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Field.Opposite
 public import Mathlib.Algebra.Star.Basic
-public import Mathlib.Data.NNRat.Defs
-public import Mathlib.Data.Rat.Cast.Defs
+public import Mathlib.Algebra.Field.Rat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Opposite
+import Mathlib.Data.Rat.Cast.Defs
 
 /-!
 # *-ring structure on ℚ and ℚ≥0.

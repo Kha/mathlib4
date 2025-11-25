@@ -5,9 +5,11 @@ Authors: Dion Leijnse
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
 public import Mathlib.RingTheory.TensorProduct.Maps
 public import Mathlib.RingTheory.Adjoin.FG
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.Finiteness
 
 /-!
 # Finitely generated subalgebras of a base change obtained from an element

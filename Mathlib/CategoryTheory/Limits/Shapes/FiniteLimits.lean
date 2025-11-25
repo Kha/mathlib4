@@ -6,12 +6,11 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback  -- shake: keep (`example`)
-public import Mathlib.CategoryTheory.FinCategory.AsType
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
-public import Mathlib.CategoryTheory.Limits.Shapes.WidePullbacks
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
 public import Mathlib.Data.Fintype.Option
+public import Mathlib.CategoryTheory.FinCategory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.FinCategory.AsType
 
 /-!
 # Categories with finite limits.

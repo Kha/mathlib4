@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Max
 public import Mathlib.Data.Set.CoeSort
+import Mathlib.Tactic.Lemma
 
 /-!
 # Maximal elements of subsets

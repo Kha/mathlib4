@@ -5,9 +5,20 @@ Authors: Kevin Kappelmann
 -/
 module
 
-public import Mathlib.Algebra.ContinuedFractions.Computation.Approximations
-public import Mathlib.Algebra.ContinuedFractions.Computation.CorrectnessTerminating
 public import Mathlib.Data.Rat.Floor
+public import Mathlib.Algebra.ContinuedFractions.Computation.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.ContinuedFractions.ContinuantsRecurrence
+import Mathlib.Algebra.ContinuedFractions.TerminatedStable
+import Mathlib.Algebra.ContinuedFractions.Translations
+import Mathlib.Data.Seq.Basic
+import Mathlib.Algebra.ContinuedFractions.Computation.Approximations
+import Mathlib.Algebra.ContinuedFractions.Computation.CorrectnessTerminating
+import Mathlib.Algebra.ContinuedFractions.Computation.Translations
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Termination of Continued Fraction Computations (`GenContFract.of`)

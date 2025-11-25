@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Geometry.Manifold.ContMDiffMap
 public import Mathlib.Geometry.Manifold.VectorBundle.Basic
+import Mathlib.Tactic.TypeStar
 
 /-! # Pullbacks of `C^n` vector bundles
 

@@ -6,6 +6,8 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.CompactOpen
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Equivalence between `C(X, Σ i, Y i)` and `Σ i, C(X, Y i)`

@@ -6,8 +6,13 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.AlgebraicGeometry.Spec
-public import Mathlib.Algebra.Category.Ring.Constructions
-public import Mathlib.CategoryTheory.Elementwise
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Category.Ring.Constructions
+import Mathlib.Topology.Sheaves.SheafCondition.Sites
 
 /-!
 # The category of schemes

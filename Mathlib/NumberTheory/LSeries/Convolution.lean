@@ -5,10 +5,19 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
 public import Mathlib.NumberTheory.ArithmeticFunction
 public import Mathlib.NumberTheory.LSeries.Convergence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Ring.InfiniteSum
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Dirichlet convolution of sequences and products of L-series

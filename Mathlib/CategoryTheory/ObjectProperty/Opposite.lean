@@ -5,8 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.ObjectProperty.ClosedUnderIsomorphisms
 public import Mathlib.CategoryTheory.Opposites
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The opposite of a property of objects

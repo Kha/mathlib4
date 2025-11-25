@@ -6,7 +6,10 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.Algebra.Polynomial.UnitTrinomial
-public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.Data.Complex.Basic
+import Mathlib.Data.Int.CharZero
+import Mathlib.Analysis.Complex.Polynomial.Basic
 
 /-!
 # Irreducibility of unit trinomials

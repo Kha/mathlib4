@@ -5,7 +5,11 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Data.ENNReal.Inv
+public import Mathlib.Data.ENNReal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-! # Hölder triples
 

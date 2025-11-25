@@ -7,7 +7,17 @@ module
 
 public import Mathlib.CategoryTheory.Galois.Prorepresentability
 public import Mathlib.Topology.Algebra.ContinuousMonoidHom
-public import Mathlib.Topology.Algebra.Group.Basic
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.CategoryTheory.Galois.Decomposition
+import Mathlib.CategoryTheory.Limits.FintypeCat
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Topology.Algebra.Group.Basic
 
 /-!
 

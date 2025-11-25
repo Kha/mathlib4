@@ -5,9 +5,12 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
-public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Filtered
-public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
+public import Mathlib.CategoryTheory.Limits.Filtered
+public import Mathlib.CategoryTheory.Limits.Shapes.FiniteProducts
+import Mathlib.Data.Finset.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
+import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Filtered
+import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
 
 /-!
 # Constructing colimits from finite colimits and filtered colimits

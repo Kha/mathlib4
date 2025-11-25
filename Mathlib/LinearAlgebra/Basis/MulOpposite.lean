@@ -6,6 +6,13 @@ Authors: Monica Omar
 module
 
 public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.Algebra.Module.Equiv.Opposite
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 # Basis of an opposite space

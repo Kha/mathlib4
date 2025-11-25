@@ -5,9 +5,15 @@ Authors: Frédéric Dupuis, Attila Gáspár
 -/
 module
 
-public import Mathlib.LinearAlgebra.AffineSpace.AffineMap
 public import Mathlib.LinearAlgebra.AffineSpace.Midpoint
 public import Mathlib.Topology.Algebra.Group.AddTorsor
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Topological properties of affine spaces and maps

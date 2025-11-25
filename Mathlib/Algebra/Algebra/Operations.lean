@@ -6,14 +6,23 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.Algebra.Bilinear
-public import Mathlib.Algebra.Algebra.Opposite
-public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
-public import Mathlib.Algebra.Group.Pointwise.Set.BigOperators
 public import Mathlib.Algebra.Module.Submodule.Pointwise
-public import Mathlib.Algebra.Ring.NonZeroDivisors
 public import Mathlib.Algebra.Ring.Submonoid.Pointwise
 public import Mathlib.Data.Set.Semiring
 public import Mathlib.GroupTheory.GroupAction.SubMulAction.Pointwise
+public import Mathlib.Algebra.Algebra.Equiv
+public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
+public import Mathlib.Algebra.Module.Equiv.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Opposite
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Algebra.Order.Group.Action
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.BigOperators
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Multiplication and division of submodules of an algebra.

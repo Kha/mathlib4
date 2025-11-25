@@ -5,9 +5,12 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Dynamics.Newton
 public import Mathlib.LinearAlgebra.Semisimple
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+import Mathlib.Dynamics.Newton
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # Jordan-Chevalley-Dunford decomposition

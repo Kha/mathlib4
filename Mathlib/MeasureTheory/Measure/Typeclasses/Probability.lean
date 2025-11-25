@@ -7,6 +7,10 @@ module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Finite
 public import Mathlib.Topology.UnitInterval
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-!
 # Classes for probability measures

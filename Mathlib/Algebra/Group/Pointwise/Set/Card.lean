@@ -5,9 +5,14 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Basic
-public import Mathlib.Algebra.Group.Pointwise.Set.Finite
 public import Mathlib.Data.Set.Card
+public import Mathlib.Algebra.Group.Action.Defs
+public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Action.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.Finite
 
 /-!
 # Cardinalities of pointwise operations on sets

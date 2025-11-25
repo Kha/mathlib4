@@ -5,9 +5,16 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Logic.Encodable.Pi
-public import Mathlib.Logic.Function.Iterate
+public import Mathlib.Algebra.Group.Nat.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Sqrt
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # The primitive recursive functions

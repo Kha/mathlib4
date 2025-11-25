@@ -6,7 +6,7 @@ Authors: Rémi Bottinelli
 module
 
 public import Mathlib.CategoryTheory.Groupoid
-public import Mathlib.Combinatorics.Quiver.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 This file defines a few basic properties of groupoids.

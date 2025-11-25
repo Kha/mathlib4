@@ -8,6 +8,15 @@ module
 public import Mathlib.Probability.Independence.Kernel
 public import Mathlib.MeasureTheory.Constructions.Pi
 public import Mathlib.MeasureTheory.Group.Convolution
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Independence of sets of sets and measure spaces (σ-algebras)

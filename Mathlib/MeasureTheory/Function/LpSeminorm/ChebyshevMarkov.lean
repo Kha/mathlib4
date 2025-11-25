@@ -5,7 +5,14 @@ Authors: Kexing Ying
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+public import Mathlib.MeasureTheory.Function.LpSeminorm.Defs
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
 
 /-!
 # Chebyshev-Markov inequality in terms of Lp seminorms

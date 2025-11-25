@@ -6,7 +6,11 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Sites.Precoverage
-public import Mathlib.CategoryTheory.Limits.Types.Pullbacks
+public import Mathlib.CategoryTheory.Limits.Types.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Types.Pullbacks
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
 
 /-!
 # The jointly surjective precoverage

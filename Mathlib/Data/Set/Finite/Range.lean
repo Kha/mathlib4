@@ -5,8 +5,9 @@ Authors: Johannes Hölzl, Mario Carneiro, Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Fintype.EquivFin
 public import Mathlib.Data.ULift
+public import Mathlib.Data.Finset.Image
+import Mathlib.Data.Fintype.EquivFin
 
 /-!
 # Finiteness of `Set.range`

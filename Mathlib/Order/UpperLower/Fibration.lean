@@ -5,7 +5,15 @@ Authors: Yaël Dillies, Sara Rousta
 -/
 module
 
-public import Mathlib.Order.UpperLower.Basic
+public import Mathlib.Logic.Relation
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Order.Monotone.Defs
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Order.UpperLower.Basic
 
 /-!
 # Upper/lower sets and fibrations

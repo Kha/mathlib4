@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.GroupTheory.Congruence.Basic
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruence relations respecting scalar multiplication

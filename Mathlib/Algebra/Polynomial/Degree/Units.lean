@@ -5,8 +5,15 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Domain
-public import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Divisibility.Units
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
 
 /-!
 # Degree of polynomials that are units

@@ -6,10 +6,16 @@ Authors: Johan Commelin, Kim Morrison, Adam Topaz, Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Defs
-public import Mathlib.Data.Fintype.Sort
 public import Mathlib.Order.Category.NonemptyFinLinOrd
-public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Nat
+import Mathlib.Algebra.Order.ZeroLEOne
+import Mathlib.Data.Fintype.Sort
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 
 /-! # Basic properties of the simplex category
 

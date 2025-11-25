@@ -7,7 +7,16 @@ module
 
 public import Mathlib.Analysis.Convex.Basic
 public import Mathlib.Order.Filter.Extr
-public import Mathlib.Tactic.NormNum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Tactic.NormNum.Inv
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Convex and concave functions

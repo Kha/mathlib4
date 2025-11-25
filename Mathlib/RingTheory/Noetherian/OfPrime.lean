@@ -7,7 +7,13 @@ module
 
 public import Mathlib.RingTheory.Ideal.Oka
 public import Mathlib.RingTheory.Noetherian.Defs
-public import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Noetherian rings and prime ideals

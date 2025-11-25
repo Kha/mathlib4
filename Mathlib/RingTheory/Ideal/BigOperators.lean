@@ -5,8 +5,10 @@ Authors: Kenny Lau, Chris Hughes, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Module.Submodule.Basic
 public import Mathlib.RingTheory.Ideal.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 

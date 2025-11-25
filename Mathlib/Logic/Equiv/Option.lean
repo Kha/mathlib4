@@ -8,7 +8,8 @@ module
 public import Mathlib.Control.EquivFunctor
 public import Mathlib.Data.Option.Basic
 public import Mathlib.Data.Subtype
-public import Mathlib.Logic.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalences for `Option α`

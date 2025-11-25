@@ -5,8 +5,23 @@ Authors: Xavier Généreux
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-public import Mathlib.Analysis.Complex.PhragmenLindelof
+public import Mathlib.Analysis.Calculus.DiffContOnCl
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Complex.PhragmenLindelof
+import Mathlib.Analysis.Complex.ReImTopology
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 
 /-!
 # Hadamard three-lines Theorem

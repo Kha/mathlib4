@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Dual
 public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+public import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 
 /-!
 # Adjoint of operators on Hilbert spaces

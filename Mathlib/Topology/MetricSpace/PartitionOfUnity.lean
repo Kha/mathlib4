@@ -5,9 +5,24 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.EMetricSpace.Paracompact
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
-public import Mathlib.Analysis.Convex.PartitionOfUnity
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Topology.MetricSpace.Defs
+public import Mathlib.Topology.Order.Real
+public import Mathlib.Topology.UniformSpace.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.PartitionOfUnity
+import Mathlib.Topology.EMetricSpace.Paracompact
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Lemmas about (e)metric spaces that need partition of unity

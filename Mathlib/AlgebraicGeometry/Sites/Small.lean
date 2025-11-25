@@ -9,6 +9,10 @@ public import Mathlib.AlgebraicGeometry.Cover.Over
 public import Mathlib.AlgebraicGeometry.Sites.Pretopology
 public import Mathlib.CategoryTheory.Sites.DenseSubsite.InducedTopology
 public import Mathlib.CategoryTheory.Sites.Over
+public import Mathlib.AlgebraicGeometry.PullbackCarrier
+public import Mathlib.CategoryTheory.Limits.MorphismProperty
+public import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Small sites

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Algebra.Module.Opposite
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Module operations on `Mᵐᵒᵖ`

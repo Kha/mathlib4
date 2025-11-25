@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.DeleteEdges
 public import Mathlib.Data.Fintype.Powerset
+public import Mathlib.Tactic.ApplyFun
+public import Mathlib.Data.Fintype.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Subgraphs of a simple graph

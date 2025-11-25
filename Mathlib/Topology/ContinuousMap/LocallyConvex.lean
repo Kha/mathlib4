@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.ContinuousMap.Algebra
 public import Mathlib.Topology.Algebra.Module.LocallyConvex
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The space of continuous maps is a locally convex space

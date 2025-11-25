@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 public import Mathlib.CategoryTheory.Adjunction.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of pointed types

@@ -5,11 +5,15 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.HomotopyCategory.HomologicalFunctor
-public import Mathlib.Algebra.Homology.HomotopyCategory.ShiftSequence
 public import Mathlib.Algebra.Homology.HomotopyCategory.SingleFunctors
-public import Mathlib.Algebra.Homology.HomotopyCategory.Triangulated
 public import Mathlib.Algebra.Homology.Localization
+public import Mathlib.CategoryTheory.Triangulated.HomologicalFunctor
+public import Mathlib.Algebra.Homology.HomotopyCategory.Pretriangulated
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Homology.HomotopyCategory.HomologicalFunctor
+import Mathlib.Algebra.Homology.HomotopyCategory.ShiftSequence
+import Mathlib.Algebra.Homology.HomotopyCategory.Triangulated
 
 /-! # The derived category of an abelian category
 

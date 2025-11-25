@@ -7,8 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.FiberedCategory.HomLift
 public import Mathlib.CategoryTheory.Bicategory.Strict.Basic
-public import Mathlib.CategoryTheory.Functor.Category
 public import Mathlib.CategoryTheory.Functor.ReflectsIso.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The bicategory of based categories

@@ -5,14 +5,15 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Category.Ring.Instances
 public import Mathlib.Algebra.Category.Ring.Limits
-public import Mathlib.Algebra.Category.Ring.Colimits
-public import Mathlib.Tactic.Algebraize
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Limits.Shapes.StrictInitial
-public import Mathlib.RingTheory.TensorProduct.Basic
 public import Mathlib.RingTheory.IsTensorProduct
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Algebraize
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Ring.Colimits
+import Mathlib.Algebra.Category.Ring.Instances
 
 /-!
 # Constructions of (co)limits in `CommRingCat`

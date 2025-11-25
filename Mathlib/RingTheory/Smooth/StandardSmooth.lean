@@ -6,6 +6,7 @@ Authors: Jung Tao Cheng, Christian Merten, Andrew Yang
 module
 
 public import Mathlib.RingTheory.Extension.Presentation.Submersive
+import Mathlib.Tactic.Lemma
 
 /-!
 # Standard smooth algebras

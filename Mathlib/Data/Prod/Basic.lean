@@ -5,10 +5,15 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Logic.Function.Defs
 public import Mathlib.Logic.Function.Iterate
 public import Aesop
-public import Mathlib.Tactic.Inhabit
+public import Batteries.Tactic.Trans
+public meta import Lean.PrettyPrinter.Delaborator.Builtins
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Inhabit
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Extra facts about `Prod`

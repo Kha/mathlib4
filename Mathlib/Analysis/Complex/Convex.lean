@@ -5,9 +5,15 @@ Authors: Yury Kudryashov, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Complex.ReImTopology
-public import Mathlib.Analysis.Convex.Combination
-public import Mathlib.Analysis.Convex.PathConnected
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.Topology.Connected.PathConnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Complex.ReImTopology
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Algebra.Order.Module.Field
 
 /-!
 # Theorems about convexity on the complex plane

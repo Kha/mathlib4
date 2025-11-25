@@ -6,7 +6,11 @@ Authors: Fabrizio Barroero
 module
 
 public import Mathlib.Data.Real.Archimedean
-public import Mathlib.RingTheory.PowerSeries.Order
+public import Mathlib.RingTheory.PowerSeries.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.PowerSeries.Order
 
 /-!
 # Gauss norm for power series

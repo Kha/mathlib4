@@ -5,9 +5,22 @@ Authors: Josha Dekker
 -/
 module
 
-public import Mathlib.Topology.Bases
 public import Mathlib.Order.Filter.CountableInter
 public import Mathlib.Topology.Compactness.SigmaCompact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Compactness.Compact
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Lindelöf sets and Lindelöf spaces

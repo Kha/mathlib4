@@ -6,8 +6,10 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Sites.Coherent.Basic
-public import Mathlib.CategoryTheory.EffectiveEpi.Comp
-public import Mathlib.CategoryTheory.EffectiveEpi.Extensive
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.EffectiveEpi.Comp
+import Mathlib.CategoryTheory.EffectiveEpi.Coproduct
+import Mathlib.CategoryTheory.EffectiveEpi.Extensive
 /-!
 
 # Connections between the regular, extensive and coherent topologies

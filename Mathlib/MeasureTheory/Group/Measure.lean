@@ -5,14 +5,29 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.Group.Pointwise.Set.Card
-public import Mathlib.GroupTheory.Complement
-public import Mathlib.MeasureTheory.Group.Action
-public import Mathlib.MeasureTheory.Group.Pointwise
 public import Mathlib.MeasureTheory.Measure.Prod
 public import Mathlib.Topology.Algebra.Module.Equiv
-public import Mathlib.Topology.ContinuousMap.CocompactMap
-public import Mathlib.Topology.Algebra.ContinuousMonoidHom
+public import Mathlib.GroupTheory.Index
+public import Mathlib.MeasureTheory.Group.Defs
+public import Mathlib.MeasureTheory.Measure.Count
+public import Mathlib.MeasureTheory.Measure.Regular
+import Mathlib.GroupTheory.Complement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.MeasureTheory.Group.Pointwise
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.ContinuousMap.CocompactMap
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+import Mathlib.Algebra.Group.Pointwise.Set.Card
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-!
 # Measures on Groups

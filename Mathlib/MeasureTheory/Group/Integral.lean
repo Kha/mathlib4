@@ -6,7 +6,11 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
-public import Mathlib.MeasureTheory.Group.Measure
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Bochner Integration on Groups

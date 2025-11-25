@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Polynomial.Derivative
 public import Mathlib.Tactic.LinearCombination
-public import Mathlib.Tactic.Ring
+public import Batteries.Tactic.Congr
+public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Theory of univariate polynomials

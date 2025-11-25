@@ -5,10 +5,21 @@ Authors: Vasily Nesterov
 -/
 module
 
-public import Mathlib.Analysis.Convex.Combination
-public import Mathlib.Data.Set.Card
-public import Mathlib.LinearAlgebra.AffineSpace.FiniteDimensional
 public import Mathlib.Topology.Separation.Hausdorff
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.LinearAlgebra.AffineSpace.Independent
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.LinearAlgebra.AffineSpace.FiniteDimensional
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Radon's theorem on convex sets

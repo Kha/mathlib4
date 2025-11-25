@@ -5,11 +5,19 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.AB
-public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Sheaf
-public import Mathlib.CategoryTheory.Sites.Coherent.ExtensiveColimits
-public import Mathlib.Condensed.Equivalence
 public import Mathlib.Condensed.Limits
+public import Mathlib.Algebra.Category.Grp.Colimits
+public import Mathlib.Algebra.Category.ModuleCat.Colimits
+public import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+public import Mathlib.Algebra.Category.ModuleCat.Limits
+public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Basic
+public import Mathlib.Topology.Category.Stonean.Limits
+import Mathlib.Condensed.Equivalence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Category.ModuleCat.AB
+import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Sheaf
+import Mathlib.CategoryTheory.Sites.Coherent.ExtensiveColimits
 /-!
 
 # AB axioms in condensed modules

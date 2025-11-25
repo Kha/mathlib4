@@ -5,8 +5,16 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
-public import Mathlib.Dynamics.BirkhoffSum.NormedSpace
+public import Mathlib.Dynamics.BirkhoffSum.Average
+public import Mathlib.Topology.Metrizable.Uniformity
+public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Dynamics.BirkhoffSum.NormedSpace
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Operator.NNNorm
 
 /-!
 # Von Neumann Mean Ergodic Theorem in a Hilbert Space

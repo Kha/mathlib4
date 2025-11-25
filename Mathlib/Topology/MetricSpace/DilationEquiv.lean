@@ -6,6 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.MetricSpace.Dilation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
 
 /-!
 # Dilation equivalence

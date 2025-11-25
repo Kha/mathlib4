@@ -6,9 +6,15 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.NumberTheory.Transcendental.Liouville.Basic
-public import Mathlib.Topology.Baire.Lemmas
-public import Mathlib.Topology.Baire.LocallyCompactRegular
-public import Mathlib.Topology.Instances.Irrational
+public import Mathlib.Topology.GDelta.Basic
+import Mathlib.Topology.Closure
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Topology.Baire.Lemmas
+import Mathlib.Topology.Baire.LocallyCompactRegular
+import Mathlib.Topology.Instances.Irrational
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Density of Liouville numbers

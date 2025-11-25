@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.NNReal.Defs
 public import Mathlib.Data.Real.Star
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The non-negative real numbers are a `*`-ring, with the trivial `*`-structure

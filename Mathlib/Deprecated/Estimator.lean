@@ -5,11 +5,10 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Data.Set.Operations
 public import Mathlib.Order.Heyting.Basic
-public import Mathlib.Order.RelClasses
-public import Mathlib.Order.Hom.Basic
 public import Mathlib.Lean.Thunk
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Hom.Basic
 
 /-!
 # Improvable lower bounds.

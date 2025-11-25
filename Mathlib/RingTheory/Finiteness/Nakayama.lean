@@ -6,7 +6,9 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.RingTheory.Finiteness.Defs
-public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.Algebra.Algebra.Operations
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Operations
 
 /-!
 # Nakayama's lemma

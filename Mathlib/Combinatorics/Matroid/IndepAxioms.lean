@@ -6,8 +6,15 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Basic
-public import Mathlib.Data.Set.Finite.Lattice
-public import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Preorder.Finite
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Powerset
+import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Matroid Independence and Basis axioms

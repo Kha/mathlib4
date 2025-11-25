@@ -5,8 +5,19 @@ Authors: Jeremy Avigad, Leonardo de Moura, Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Set.Lattice
-public import Mathlib.Tactic.Monotonicity.Attr
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.Inhabit
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Prod
+import Mathlib.Data.Set.Restrict
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # The set lattice and (pre)images of functions

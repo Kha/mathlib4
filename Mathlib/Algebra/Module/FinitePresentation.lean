@@ -7,11 +7,29 @@ module
 
 public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
 public import Mathlib.LinearAlgebra.Isomorphisms
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
-public import Mathlib.RingTheory.Finiteness.Projective
-public import Mathlib.RingTheory.Localization.BaseChange
-public import Mathlib.RingTheory.Noetherian.Basic
-public import Mathlib.RingTheory.TensorProduct.Finite
+public import Mathlib.Algebra.Exact
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.RingTheory.IsTensorProduct
+public import Mathlib.Algebra.Module.Projective
+public import Mathlib.RingTheory.Localization.Module
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.LinearAlgebra.StdBasis
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Module.Shrink
+import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.Finiteness.Projective
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.TensorProduct.Finite
 
 /-!
 

@@ -6,6 +6,12 @@ Authors: Johannes Hölzl, Yury Kudryashov, Kim Morrison
 module
 
 public import Mathlib.Algebra.MonoidAlgebra.Defs
+public import Mathlib.Algebra.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CompTypeclasses
+import Mathlib.Algebra.Group.TypeTags.Hom
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Lifting monoid algebras

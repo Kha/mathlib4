@@ -6,7 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Enriched.Basic
-public import Mathlib.CategoryTheory.Monoidal.Types.Coyoneda
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Enriched ordinary categories

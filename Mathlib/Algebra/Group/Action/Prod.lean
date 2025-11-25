@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Group.Action.Faithful
 public import Mathlib.Algebra.Group.Action.Hom
 public import Mathlib.Algebra.Group.Prod
+public import Mathlib.Tactic.Conv
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Prod instances for additive and multiplicative actions

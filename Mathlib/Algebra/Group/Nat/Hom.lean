@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Group.Nat.Defs
 public import Mathlib.Algebra.Group.TypeTags.Hom
 public import Mathlib.Tactic.Spread
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Extensionality of monoid homs from `ℕ`

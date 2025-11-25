@@ -5,10 +5,19 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Topology.Compactness.Bases
-public import Mathlib.Topology.CompactOpen
-public import Mathlib.Topology.Separation.Profinite
 public import Mathlib.Topology.Sets.Closeds
+public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.CompactOpen
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Fintype.Powerset
+import Mathlib.Data.Fintype.Prod
+import Mathlib.Logic.Equiv.List
+import Mathlib.Topology.Compactness.Bases
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Separation.Profinite
 
 /-!
 # Clopen subsets in Cartesian products

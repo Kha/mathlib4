@@ -8,8 +8,13 @@ module
 public import Mathlib.Algebra.Group.Embedding
 public import Mathlib.Algebra.Ring.CharZero
 public import Mathlib.Algebra.Ring.Int.Defs
-public import Mathlib.Algebra.Order.Group.Unbundled.Int
-public import Mathlib.Order.Interval.Finset.Basic
+public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Int.Init
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Int
 
 /-!
 # Finite intervals of integers

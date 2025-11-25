@@ -6,6 +6,7 @@ Authors: Anthony Bordg
 module
 
 public import Mathlib.Data.Rel
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Galois Connection Induced by a Relation

@@ -6,10 +6,15 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.Algebra.Group.Subgroup.Basic
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
-public import Mathlib.Algebra.Group.Submonoid.Finite
-public import Mathlib.Data.Finite.Card
 public import Mathlib.Data.Set.Finite.Range
+public import Mathlib.Data.Finset.NoncommProd
+public import Mathlib.SetTheory.Cardinal.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Set.Prod
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Group.Submonoid.Finite
 
 /-!
 # Subgroups

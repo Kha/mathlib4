@@ -5,9 +5,21 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.Analysis.BoxIntegral.UnitPartition
-public import Mathlib.LinearAlgebra.FreeModule.Finite.CardQuotient
-public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+public import Mathlib.Algebra.Module.ZLattice.Basic
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Analysis.BoxIntegral.UnitPartition
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.GroupTheory.GroupAction.Pointwise
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.LinearAlgebra.FreeModule.Finite.CardQuotient
+import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Covolume of ℤ-lattices

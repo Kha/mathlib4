@@ -5,10 +5,17 @@ Authors: Yuyang Zhao
 -/
 module
 
-public import Mathlib.Algebra.Order.Floor.Semiring
-public import Mathlib.Algebra.Order.Ring.Abs
-public import Mathlib.Order.Filter.AtTopBot.Finite
-public import Mathlib.Tactic.Positivity.Basic
+public import Mathlib.Algebra.Order.Floor.Defs
+public import Mathlib.Data.Nat.Factorial.Basic
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Order.Filter.AtTopBot.Finite
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # `a * c ^ n < (n - d)!` holds true for sufficiently large `n`.

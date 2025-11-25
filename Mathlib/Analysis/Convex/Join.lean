@@ -6,6 +6,11 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.Hull
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Convex join

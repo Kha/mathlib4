@@ -7,7 +7,11 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
 public import Mathlib.Data.Matrix.ColumnRowPartitioned
-public import Mathlib.Data.Sign.Basic
+public import Mathlib.Data.Sign.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Sign.Basic
 
 /-!
 # Totally unimodular matrices

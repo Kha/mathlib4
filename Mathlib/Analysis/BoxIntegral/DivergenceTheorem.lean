@@ -6,8 +6,12 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.BoxIntegral.Basic
-public import Mathlib.Analysis.BoxIntegral.Partition.Additive
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Divergence integral for Henstock-Kurzweil integral

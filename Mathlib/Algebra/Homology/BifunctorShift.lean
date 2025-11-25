@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.Bifunctor
 public import Mathlib.Algebra.Homology.TotalComplexShift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Behavior of the action of a bifunctor on cochain complexes with respect to shifts

@@ -5,9 +5,15 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández, Anatole Dedec
 -/
 module
 
-public import Mathlib.RingTheory.TwoSidedIdeal.Operations
 public import Mathlib.Topology.Algebra.Ring.Basic
-public import Mathlib.Topology.Algebra.OpenSubgroup
+public import Mathlib.Algebra.Module.Opposite
+public import Mathlib.RingTheory.Ideal.Defs
+public import Mathlib.RingTheory.TwoSidedIdeal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.RingTheory.TwoSidedIdeal.Operations
+import Mathlib.Topology.Algebra.OpenSubgroup
 
 /-! # Linear topologies on modules and rings
 

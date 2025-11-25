@@ -5,11 +5,24 @@ Authors: Andrew Yang, Christian Merten
 -/
 module
 
-public import Mathlib.Algebra.Category.Ring.FinitePresentation
-public import Mathlib.AlgebraicGeometry.IdealSheaf.Functorial
-public import Mathlib.AlgebraicGeometry.Morphisms.Separated
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Connected
-public import Mathlib.CategoryTheory.Monad.Limits
+public import Mathlib.AlgebraicGeometry.PullbackCarrier
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
+public import Mathlib.CategoryTheory.Limits.Constructions.Over.Connected
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.AlgebraicGeometry.IdealSheaf.Functorial
+import Mathlib.AlgebraicGeometry.Morphisms.Separated
+import Mathlib.CategoryTheory.Filtered.Connected
+import Mathlib.CategoryTheory.Limits.Comma
+import Mathlib.CategoryTheory.Limits.IsConnected
+import Mathlib.CategoryTheory.Monad.Limits
+import Mathlib.Data.Int.Basic
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Category.Ring.FinitePresentation
+import Mathlib.CategoryTheory.Limits.Preserves.Opposites
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!
 

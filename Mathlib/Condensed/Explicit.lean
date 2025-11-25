@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Condensed.Module
 public import Mathlib.Condensed.Equivalence
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Category.ModuleCat.Limits
+import Mathlib.Topology.Category.CompHaus.Limits
 /-!
 
 # The explicit sheaf condition for condensed sets

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.Convex.Strict
 public import Mathlib.Topology.Algebra.Module.Equiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # (Pre)images of strict convex sets under continuous linear equivalences

@@ -5,8 +5,11 @@ Authors: Johannes Hölzl, Jeremy Avigad
 -/
 module
 
-public import Mathlib.Order.Filter.Germ.OrderedMonoid
 public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Order.Filter.Germ.Basic
+import Mathlib.Order.Filter.Germ.OrderedMonoid
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Lemmas about filters and ordered rings.

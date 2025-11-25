@@ -5,8 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Order.SuccPred.LinearLocallyFinite
 public import Mathlib.Probability.Martingale.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.AlexandrovDiscrete
+import Mathlib.Data.Countable.Basic
+import Mathlib.Order.SuccPred.LinearLocallyFinite
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Indicator
 
 /-!
 # Optional sampling theorem

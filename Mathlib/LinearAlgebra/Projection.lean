@@ -5,11 +5,15 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.LinearAlgebra.Quotient.Basic
 public import Mathlib.LinearAlgebra.Prod
 public import Mathlib.Algebra.Module.Submodule.Invariant
-public import Mathlib.LinearAlgebra.GeneralLinearGroup
-public import Mathlib.Algebra.Ring.Idempotent
+public import Mathlib.LinearAlgebra.Quotient.Defs
+import Mathlib.LinearAlgebra.GeneralLinearGroup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Idempotent
+import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.Algebra.Group.Commute.Units
 
 /-!
 # Projection to a subspace

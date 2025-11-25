@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Data.Finset.Card
 public import Mathlib.Data.Finset.Union
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # Finsets in product types

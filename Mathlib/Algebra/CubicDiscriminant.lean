@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Polynomial.Splits
 public import Mathlib.Tactic.IntervalCases
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
 
 /-!
 # Cubics and discriminants

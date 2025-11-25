@@ -8,6 +8,8 @@ module
 public import Mathlib.Order.Heyting.Basic
 public import Mathlib.Order.Hom.Basic
 public import Mathlib.Order.WithBot
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Orders on a sum type

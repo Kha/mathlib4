@@ -8,7 +8,7 @@ module
 public import Mathlib.CategoryTheory.Adjunction.Basic
 public import Mathlib.CategoryTheory.Functor.TwoSquare
 public import Mathlib.CategoryTheory.HomCongr
-public import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
 
 /-!
 # Mate of natural transformations

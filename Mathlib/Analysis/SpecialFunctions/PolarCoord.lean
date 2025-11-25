@@ -5,9 +5,25 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.Jacobian
 public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.MeasureTheory.Function.Jacobian
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Polar coordinates

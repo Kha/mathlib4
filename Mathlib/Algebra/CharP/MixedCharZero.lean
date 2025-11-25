@@ -5,9 +5,21 @@ Authors: Jon Eugster
 -/
 module
 
-public import Mathlib.Algebra.CharP.LocalRing
-public import Mathlib.RingTheory.Ideal.Quotient.Basic
-public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Algebra.IsPrimePow
+public import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.Algebra.CharP.Defs
+public import Mathlib.Algebra.Ring.Units
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.RingTheory.Ideal.Maximal
+public import Mathlib.RingTheory.LocalRing.Defs
+public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.LocalRing
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # Equal and mixed characteristic

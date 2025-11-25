@@ -5,13 +5,36 @@ Authors: Yury Kudryashov, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.AffineMap
-public import Mathlib.Analysis.Calculus.Deriv.Comp
-public import Mathlib.Analysis.Calculus.Deriv.Mul
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.Analysis.Calculus.LocalExtr.Rolle
 public import Mathlib.Analysis.Normed.Group.AddTorsor
-public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.LinearAlgebra.AffineSpace.Slope
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.AffineMap
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.LocalExtr.Rolle
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 /-!
 # Mean value theorem
 

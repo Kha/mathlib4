@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Adjunction.Basic
 public import Mathlib.CategoryTheory.HomCongr
+public import Mathlib.Tactic.CategoryTheory.Bicategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Mates in bicategories

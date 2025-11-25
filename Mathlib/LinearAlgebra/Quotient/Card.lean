@@ -7,7 +7,8 @@ module
 
 public import Mathlib.LinearAlgebra.Quotient.Defs
 public import Mathlib.SetTheory.Cardinal.Finite
-public import Mathlib.GroupTheory.Coset.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.Coset.Basic
 
 /-! Results about the cardinality of a quotient module. -/
 

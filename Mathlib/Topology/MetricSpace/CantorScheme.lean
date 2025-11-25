@@ -6,6 +6,17 @@ Authors: Felix Weilacher
 module
 
 public import Mathlib.Topology.MetricSpace.PiNat
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # (Topological) Schemes and their induced maps

@@ -6,7 +6,10 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Computability.PartrecCode
-public import Mathlib.Data.Set.Subsingleton
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Computability theory and the halting problem

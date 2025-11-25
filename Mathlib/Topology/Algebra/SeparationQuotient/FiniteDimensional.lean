@@ -6,7 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.Algebra.SeparationQuotient.Basic
-public import Mathlib.RingTheory.Finiteness.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Separation quotient is a finite module

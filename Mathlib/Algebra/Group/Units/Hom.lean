@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Algebra.Group.Hom.Basic
-public import Mathlib.Algebra.Group.Units.Basic
+public import Mathlib.Algebra.Group.Units.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Monoid homomorphisms and units

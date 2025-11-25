@@ -1,4 +1,5 @@
 module
 
 public meta import Mathlib.Tactic.CancelDenoms.Core
-public meta import Mathlib.Tactic.NormNum.Ineq
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive

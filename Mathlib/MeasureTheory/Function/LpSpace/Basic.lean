@@ -5,10 +5,23 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.NNNorm
-public import Mathlib.MeasureTheory.Function.LpSeminorm.ChebyshevMarkov
-public import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
 public import Mathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality
+public import Mathlib.Analysis.Normed.Operator.Basic
+public import Mathlib.Analysis.Normed.Order.Lattice
+public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.MeasureTheory.Function.LpSeminorm.ChebyshevMarkov
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Lp space

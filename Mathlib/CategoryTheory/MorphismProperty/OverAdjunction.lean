@@ -6,8 +6,9 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.MorphismProperty.Comma
-public import Mathlib.CategoryTheory.Comma.Over.Pullback
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Adjunction of pushforward and pullback in `P.Over Q X`

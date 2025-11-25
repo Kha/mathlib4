@@ -6,6 +6,9 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.Data.FunLike.Embedding
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Typeclass for a type `F` with an injective map to `A ≃ B`

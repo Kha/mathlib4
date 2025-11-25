@@ -5,13 +5,18 @@ Authors: Anne Baanen, Lu-Ming Zhang
 -/
 module
 
-public import Mathlib.Data.Matrix.Invertible
-public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
 public import Mathlib.LinearAlgebra.Matrix.Adjugate
 public import Mathlib.LinearAlgebra.Matrix.Kronecker
-public import Mathlib.LinearAlgebra.Matrix.SemiringInverse
-public import Mathlib.LinearAlgebra.Matrix.ToLin
-public import Mathlib.LinearAlgebra.Matrix.Trace
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Ring.Invertible
+import Mathlib.Data.Matrix.Invertible
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.Matrix.ToLin
 
 /-!
 # Nonsingular inverses

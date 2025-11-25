@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.Convex.Hull
 public import Mathlib.LinearAlgebra.AffineSpace.Independent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!
 # Simplicial complexes

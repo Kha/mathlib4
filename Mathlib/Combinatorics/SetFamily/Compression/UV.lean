@@ -6,6 +6,11 @@ Authors: Yaël Dillies, Bhavik Mehta
 module
 
 public import Mathlib.Combinatorics.SetFamily.Shadow
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!
 # UV-compressions

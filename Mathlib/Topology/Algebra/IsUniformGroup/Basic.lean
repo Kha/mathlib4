@@ -5,14 +5,28 @@ Authors: Patrick Massot, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Topology.UniformSpace.UniformConvergence
-public import Mathlib.Topology.UniformSpace.CompleteSeparated
-public import Mathlib.Topology.UniformSpace.Compact
-public import Mathlib.Topology.UniformSpace.HeineCantor
-public import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
 public import Mathlib.Topology.Algebra.Group.Quotient
-public import Mathlib.Topology.DiscreteSubset
-public import Mathlib.Tactic.Abel
+public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.DiscreteSubset
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Order.Filter.Lift
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
 
 /-!
 # Uniform structure on topological groups

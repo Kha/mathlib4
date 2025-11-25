@@ -7,6 +7,9 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Final
+public import Mathlib.Algebra.GroupWithZero.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.Superscript
 
 /-! # Properties of the truncated simplex category
 

@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.LinearMap
 public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Orthonormal sets

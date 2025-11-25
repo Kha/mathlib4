@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.RingTheory.IsTensorProduct
+public import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # Base change of polynomial algebras

@@ -6,7 +6,19 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.SetTheory.Cardinal.Finite
-public import Mathlib.Data.Set.Finite.Powerset
+public import Mathlib.Algebra.Ring.Parity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Data.Set.Restrict
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Set.Finite.Powerset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Noncomputable Set Cardinality

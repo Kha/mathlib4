@@ -5,9 +5,24 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.SequentialProduct
-public import Mathlib.CategoryTheory.Sites.Coherent.SequentialLimit
 public import Mathlib.Condensed.Light.Limits
+public import Mathlib.CategoryTheory.Sites.LocallySurjective
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.EffectiveEpi.Comp
+import Mathlib.CategoryTheory.Sites.EpiMono
+import Mathlib.CategoryTheory.Sites.LeftExact
+import Mathlib.Condensed.Light.Instances
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+import Mathlib.Algebra.Category.ModuleCat.Limits
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.SequentialProduct
+import Mathlib.CategoryTheory.Sites.Coherent.LocallySurjective
+import Mathlib.CategoryTheory.Sites.Coherent.SequentialLimit
 /-!
 
 # Epimorphisms of light condensed objects

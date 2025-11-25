@@ -6,8 +6,17 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.OfAssociative
-public import Mathlib.LinearAlgebra.Eigenspace.Basic
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Eigenspace.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Int
 
 /-!
 

@@ -7,8 +7,12 @@ module
 
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.SetTheory.PGame.Algebra
-public import Mathlib.Tactic.Abel
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Data.Int.Cast.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.NormNum.Basic
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Basic` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

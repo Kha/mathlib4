@@ -6,10 +6,15 @@ Authors: Shing Tak Lam
 module
 
 public import Mathlib.Algebra.Star.Unitary
-public import Mathlib.Data.Matrix.Reflection
 public import Mathlib.LinearAlgebra.GeneralLinearGroup
 public import Mathlib.LinearAlgebra.Matrix.ToLin
-public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+public import Mathlib.LinearAlgebra.Matrix.Kronecker
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Matrix.Reflection
+import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # The Unitary Group

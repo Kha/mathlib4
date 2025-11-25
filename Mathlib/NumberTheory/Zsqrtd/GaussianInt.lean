@@ -6,9 +6,23 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Data.Complex.Basic
-public import Mathlib.Data.Nat.Prime.Basic
 public import Mathlib.Data.Real.Archimedean
 public import Mathlib.NumberTheory.Zsqrtd.Basic
+public import Mathlib.Algebra.EuclideanDomain.Defs
+public import Mathlib.Data.Rat.Floor
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Zify
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Gaussian integers

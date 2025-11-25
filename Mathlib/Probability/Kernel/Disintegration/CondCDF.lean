@@ -5,9 +5,21 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
-public import Mathlib.MeasureTheory.Measure.Prod
 public import Mathlib.Probability.Kernel.Disintegration.CDFToKernel
+public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Interval.Set.Monotone
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Conditional cumulative distribution function

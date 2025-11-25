@@ -5,9 +5,12 @@ Authors: Damien Thomine, Pietro Monticone
 -/
 module
 
-public import Mathlib.Order.Interval.Finset.Nat
 public import Mathlib.Topology.Constructions.SumProd
-public import Mathlib.Topology.UniformSpace.Basic
+public import Mathlib.Topology.UniformSpace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.UniformSpace.Basic
+import Mathlib.Order.Interval.Finset.Nat
 
 /-!
 # Dynamical entourages

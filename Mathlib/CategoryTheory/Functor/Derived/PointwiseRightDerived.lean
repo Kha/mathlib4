@@ -7,7 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Functor.Derived.RightDerived
 public import Mathlib.CategoryTheory.Functor.KanExtension.Pointwise
-public import Mathlib.CategoryTheory.Localization.StructuredArrow
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Localization.StructuredArrow
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Pointwise right derived functors

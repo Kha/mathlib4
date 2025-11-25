@@ -6,7 +6,7 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Groupoid
-public import Mathlib.CategoryTheory.Discrete.Basic
+import Mathlib.Tactic.TypeStar
 /-!
 
 # Discrete categories are groupoids

@@ -7,8 +7,14 @@ module
 
 public import Mathlib.Geometry.RingedSpace.OpenImmersion
 public import Mathlib.AlgebraicGeometry.Scheme
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Category.Ring.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.Topology.Category.TopCat.EpiMono
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
 
 /-!
 # Open immersions of schemes

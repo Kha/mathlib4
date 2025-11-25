@@ -6,10 +6,23 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.MvPolynomial.Expand
-public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
 public import Mathlib.RingTheory.MvPolynomial.Basic
+public import Mathlib.Algebra.CharP.Lemmas
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Field.ZMod
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 ## Polynomials over finite fields

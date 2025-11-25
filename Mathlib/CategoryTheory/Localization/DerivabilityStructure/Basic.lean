@@ -6,8 +6,12 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Localization.Resolution
-public import Mathlib.CategoryTheory.Localization.Opposite
-public import Mathlib.CategoryTheory.GuitartExact.Opposite
+public import Mathlib.CategoryTheory.GuitartExact.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.GuitartExact.Opposite
+import Mathlib.CategoryTheory.GuitartExact.VerticalComposition
+import Mathlib.CategoryTheory.Localization.Opposite
 
 /-!
 # Derivability structures

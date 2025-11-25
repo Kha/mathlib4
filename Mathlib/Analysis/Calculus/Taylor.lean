@@ -5,14 +5,30 @@ Authors: Moritz Doll
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Basic
-public import Mathlib.Algebra.EuclideanDomain.Field
 public import Mathlib.Algebra.Polynomial.Module.Basic
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Pow
 public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.Normed.Order.Lattice
 
 /-!
 # Taylor's theorem

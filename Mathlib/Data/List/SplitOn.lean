@@ -5,7 +5,12 @@ Authors: Parikshit Khanna, Jeremy Avigad, Leonardo de Moura, Floris van Doorn, M
 -/
 module
 
-public import Mathlib.Data.List.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+import Batteries.Tactic.SeqFocus
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
 
 /-! ### List.splitOn -/
 

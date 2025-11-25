@@ -6,8 +6,9 @@ Authors: Mario Carneiro, Emily Riehl
 module
 
 public import Mathlib.Combinatorics.Quiver.ReflQuiver
-public import Mathlib.CategoryTheory.Category.Cat
 public import Mathlib.CategoryTheory.Category.Quiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of refl quivers

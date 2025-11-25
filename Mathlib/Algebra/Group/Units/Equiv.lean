@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Group.Equiv.Basic
 public import Mathlib.Algebra.Group.Units.Hom
+public import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Multiplicative and additive equivalence acting on units.

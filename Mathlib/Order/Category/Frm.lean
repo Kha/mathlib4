@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Order.Category.Lat
 public import Mathlib.Order.Hom.CompleteLattice
-public import Mathlib.CategoryTheory.ConcreteCategory.Bundled
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of frames

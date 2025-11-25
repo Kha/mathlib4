@@ -5,13 +5,35 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.SmoothSeries
-public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
 public import Mathlib.Analysis.Convolution
-public import Mathlib.Analysis.InnerProductSpace.EuclideanDist
-public import Mathlib.Data.Set.Pointwise.Support
-public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
-public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.Analysis.Calculus.BumpFunction.Basic
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Analysis.Calculus.SmoothSeries
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Analysis.InnerProductSpace.EuclideanDist
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Data.Set.Pointwise.Support
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Bump functions in finite-dimensional vector spaces

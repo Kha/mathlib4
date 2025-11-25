@@ -7,6 +7,7 @@ module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.NoAtoms
 public import Mathlib.Topology.DiscreteSubset
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Theorems combining measure theory and topology

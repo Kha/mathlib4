@@ -6,13 +6,28 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 module
 
 public import Mathlib.Algebra.Algebra.Pi
-public import Mathlib.Algebra.Algebra.Prod
-public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.MonoidAlgebra.Basic
-public import Mathlib.Algebra.Polynomial.Eval.Algebra
-public import Mathlib.Algebra.Polynomial.Eval.Degree
-public import Mathlib.Algebra.Polynomial.Monomial
+public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
+public import Mathlib.Algebra.Algebra.Subalgebra.Basic
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monomial
+import Mathlib.Algebra.Ring.Invertible
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Algebra
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Theory of univariate polynomials

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.LinearAlgebra.DFinsupp
 public import Mathlib.LinearAlgebra.Dual.Defs
+public import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Transvections in a module

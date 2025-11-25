@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Comma.Arrow
 public import Mathlib.SetTheory.Cardinal.HasCardinalLT
+import Mathlib.Tactic.Lemma
 
 /-!
 # Representatives of small categories

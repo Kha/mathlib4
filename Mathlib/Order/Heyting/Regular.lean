@@ -6,6 +6,8 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Heyting regular elements

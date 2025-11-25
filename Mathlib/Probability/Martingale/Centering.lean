@@ -6,6 +6,9 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.Martingale.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Real
 
 /-!
 # Centering lemma for stochastic processes

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Geometry.Manifold.LocalInvariantProperties
 public import Mathlib.Topology.Sheaves.LocalPredicate
+import Mathlib.Tactic.TypeStar
 
 /-! # Generic construction of a sheaf from a `LocalInvariantProp` on a manifold
 

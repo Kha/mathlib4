@@ -6,6 +6,9 @@ Authors: Etienne Marion
 module
 
 public import Mathlib.Data.Set.Restrict
+public import Mathlib.Util.Delaborators
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Functions depending only on some variables

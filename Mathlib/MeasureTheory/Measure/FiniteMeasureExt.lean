@@ -5,9 +5,21 @@ Authors: Jakob Stiefel
 -/
 module
 
-public import Mathlib.Analysis.RCLike.BoundedContinuous
-public import Mathlib.Analysis.SpecialFunctions.MulExpNegMulSqIntegral
-public import Mathlib.MeasureTheory.Measure.HasOuterApproxClosed
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Topology.MetricSpace.Polish
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Topology.ContinuousMap.Bounded.Star
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.RCLike.BoundedContinuous
+import Mathlib.Analysis.SpecialFunctions.MulExpNegMulSqIntegral
+import Mathlib.MeasureTheory.Measure.HasOuterApproxClosed
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.Topology.Algebra.Order.Group
 
 /-!
 # Extensionality of finite measures

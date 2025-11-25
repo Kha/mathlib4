@@ -5,8 +5,9 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Functor.ReflectsIso.Basic
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Creating (co)limits

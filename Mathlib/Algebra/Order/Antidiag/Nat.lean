@@ -7,8 +7,21 @@ module
 
 public import Mathlib.Algebra.Order.Antidiag.Pi
 public import Mathlib.NumberTheory.ArithmeticFunction
-public import Mathlib.Tactic.IntervalCases
-import Mathlib.Data.PNat.Basic
+public import Mathlib.Data.PNat.Basic
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.Data.Int.Basic
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Bound.Init
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Sets of tuples with a fixed product

@@ -7,8 +7,10 @@ module
 
 public import Mathlib.AlgebraicTopology.ModelCategory.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Comma
-public import Mathlib.CategoryTheory.LiftingProperties.Over
-public import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.LiftingProperties.Over
+import Mathlib.CategoryTheory.Limits.Over
+import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
 
 /-!
 # The model category structure on Over categories

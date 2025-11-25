@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Finset.Lattice.Fold
 public import Mathlib.Data.Finset.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lattice operations on finsets of products

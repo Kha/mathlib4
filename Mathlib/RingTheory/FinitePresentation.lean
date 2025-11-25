@@ -5,11 +5,18 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Data.Finite.Sum
 public import Mathlib.RingTheory.FiniteType
-public import Mathlib.RingTheory.Finiteness.Ideal
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.MvPolynomial.Tower
+public import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Data.Finite.Sum
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Adjoin.Tower
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Ideal
+import Mathlib.RingTheory.MvPolynomial.Tower
+import Mathlib.RingTheory.Polynomial.Basic
 
 /-!
 # Finiteness conditions in commutative algebra

@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Idempotents.Karoubi
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extension of functors to the idempotent completion

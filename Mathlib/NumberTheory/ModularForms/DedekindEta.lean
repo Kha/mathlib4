@@ -5,9 +5,27 @@ Authors: Chris Birkbeck, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Complex.LocallyUniformLimit
-public import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
-public import Mathlib.Analysis.NormedSpace.MultipliableUniformlyOn
+public import Mathlib.Analysis.Calculus.LogDeriv
+public import Mathlib.Analysis.Complex.Periodic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.UniformOn
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.LocallyUniformLimit
+import Mathlib.Analysis.NormedSpace.MultipliableUniformlyOn
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Log.Summable
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Dedekind eta function

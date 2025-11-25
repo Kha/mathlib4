@@ -6,7 +6,12 @@ Authors: Moritz Doll
 module
 
 public import Mathlib.Topology.Algebra.Module.StrongTopology
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 /-!
 # Montel spaces
 

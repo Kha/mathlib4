@@ -5,8 +5,12 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.List.Nodup
 public import Mathlib.Data.Multiset.ZeroCons
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Nodup
+import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Data.List.Perm.Subperm
 
 /-!
 # Counting multiplicity in a multiset

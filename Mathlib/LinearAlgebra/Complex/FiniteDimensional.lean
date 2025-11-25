@@ -6,10 +6,18 @@ Authors: Alexander Bentkamp, Sébastien Gouëzel, Eric Wieser
 module
 
 public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Analysis.Complex.Cardinality
 public import Mathlib.LinearAlgebra.Complex.Module
 public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
-public import Mathlib.Order.Interval.Set.Infinite
+public import Mathlib.SetTheory.Cardinal.Continuum
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Analysis.Complex.Cardinality
+import Mathlib.Analysis.Real.Cardinality
+import Mathlib.Data.Rat.Encodable
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.Order.Interval.Set.Infinite
 
 /-!
 # Complex number as a finite-dimensional vector space over `ℝ`

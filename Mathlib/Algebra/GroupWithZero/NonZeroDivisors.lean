@@ -7,9 +7,13 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Membership
 public import Mathlib.Algebra.GroupWithZero.Associated
-public import Mathlib.Algebra.GroupWithZero.Regular
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
 public import Mathlib.Algebra.Regular.SMul
+public import Mathlib.Algebra.GroupWithZero.Equiv
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
 
 /-!
 # Non-zero divisors and smul-divisors

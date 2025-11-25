@@ -6,11 +6,40 @@ Authors: David Loeffler
 module
 
 public import Mathlib.NumberTheory.LSeries.AbstractFuncEq
-public import Mathlib.NumberTheory.ModularForms.JacobiTheta.Bounds
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Deligne
-public import Mathlib.NumberTheory.LSeries.MellinEqDirichlet
 public import Mathlib.NumberTheory.LSeries.Basic
-public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.NumberTheory.ModularForms.JacobiTheta.TwoVariable
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.Asymptotics
+import Mathlib.Analysis.Complex.RemovableSingularity
+import Mathlib.Data.Countable.Basic
+import Mathlib.NumberTheory.LSeries.MellinEqDirichlet
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.NumberTheory.ModularForms.JacobiTheta.Bounds
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Even Hurwitz zeta functions

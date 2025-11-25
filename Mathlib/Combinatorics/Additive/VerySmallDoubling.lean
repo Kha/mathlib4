@@ -5,12 +5,36 @@ Authors: Yaël Dillies, Patrick Luo, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.Pointwise.Stabilizer
-public import Mathlib.Combinatorics.Additive.Convolution
 public import Mathlib.NumberTheory.Real.GoldenRatio
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Qify
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.Ring.Basic
+public import Mathlib.Algebra.Group.Action.Pointwise.Finset
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Algebra.Pointwise.Stabilizer
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Combinatorics.Additive.Convolution
+import Mathlib.GroupTheory.Coset.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Subgroup.Finite
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Sets with very small doubling

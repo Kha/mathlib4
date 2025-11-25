@@ -5,12 +5,16 @@ Authors: Jujian Zhang, Eric Wieser
 -/
 module
 
-public import Mathlib.LinearAlgebra.Finsupp.SumProd
-public import Mathlib.RingTheory.GradedAlgebra.Basic
-public import Mathlib.RingTheory.Ideal.Basic
-public import Mathlib.RingTheory.Ideal.BigOperators
 public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Submodule
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Bounds.Image
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Homogeneous ideals of a graded algebra

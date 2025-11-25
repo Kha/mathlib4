@@ -8,6 +8,11 @@ module
 public import Mathlib.MeasureTheory.MeasurableSpace.PreorderRestrict
 public import Mathlib.Probability.Kernel.Composition.Prod
 public import Mathlib.Probability.Kernel.IonescuTulcea.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Probability.Kernel.Composition.CompMap
 
 /-!
 # Consecutive composition of kernels

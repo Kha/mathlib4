@@ -5,9 +5,8 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.CategoryTheory.LocallyDirected
 public import Mathlib.AlgebraicGeometry.PullbackCarrier
-public import Mathlib.AlgebraicGeometry.Gluing
+import Mathlib.Tactic.Lemma
 
 /-!
 # Locally directed covers

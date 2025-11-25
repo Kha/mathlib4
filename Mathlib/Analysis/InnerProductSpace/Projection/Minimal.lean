@@ -5,8 +5,25 @@ Authors: Zhouhang Zhou, Frédéric Dupuis, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Basic
-public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Field
 
 /-!
 # Existence of minimizers (Hilbert projection theorem)

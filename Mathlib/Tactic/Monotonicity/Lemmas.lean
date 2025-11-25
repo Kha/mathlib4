@@ -9,7 +9,7 @@ public import Mathlib.Algebra.Order.Group.Abs  -- shake: keep (used in `attribut
 public import Mathlib.Algebra.Order.Ring.Defs  -- shake: keep (used in `attribute` only)
 public import Mathlib.Algebra.Order.Sub.Unbundled.Basic  -- shake: keep (used in `attribute` only)
 public import Mathlib.Data.Set.Lattice  -- shake: keep (used in `attribute` only)
-public meta import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-! # Lemmas for the `mono` tactic
 

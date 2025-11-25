@@ -7,6 +7,11 @@ module
 
 public import Mathlib.LinearAlgebra.Ray
 public import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Orientations of modules

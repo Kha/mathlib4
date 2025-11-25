@@ -5,11 +5,25 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Continuity
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
 public import Mathlib.Analysis.CStarAlgebra.Exponential
-public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
-public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.ExpLog.Basic
+public import Mathlib.Topology.Connected.LocPathConnected
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.CStarAlgebra.Spectrum
+import Mathlib.Analysis.SpecialFunctions.Exponential
+import Mathlib.Data.Set.Monotone
+import Mathlib.Order.Bounds.Image
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.MetricSpace.Thickening
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Continuity
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.ExpLog.Basic
 
 /-! # The unitary group in a unital C⋆-algebra is locally path connected
 

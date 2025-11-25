@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Analysis.BoxIntegral.Partition.Additive
 public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+public import Mathlib.Topology.Compactness.LocallyCompact
+public import Mathlib.Topology.Algebra.Ring.Real
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
 
 /-!
 # Box-additive functions defined by measures

@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Analysis.Analytic.ConvergenceRadius
 public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Representation of `FormalMultilinearSeries.radius` as a `liminf`

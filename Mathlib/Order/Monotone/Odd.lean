@@ -5,9 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Defs
-public import Mathlib.Algebra.Order.Monoid.OrderDual
-public import Mathlib.Order.Monotone.Union
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Monotone.Union
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Monotonicity of odd functions

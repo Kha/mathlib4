@@ -5,9 +5,13 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.AB
-public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Sheaf
-public import Mathlib.Condensed.Light.Epi
+public import Mathlib.Condensed.Light.Limits
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Basic
+import Mathlib.CategoryTheory.Sites.LeftExact
+import Mathlib.Condensed.Light.Epi
+import Mathlib.Algebra.Category.ModuleCat.AB
+import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Sheaf
 /-!
 
 # Grothendieck's AB axioms for light condensed modules

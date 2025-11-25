@@ -9,6 +9,9 @@ public import Mathlib.RingTheory.Derivation.DifferentialRing
 public import Mathlib.Algebra.Polynomial.Module.Basic
 public import Mathlib.Algebra.Polynomial.Derivation
 public import Mathlib.FieldTheory.Separable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.MonoidLocalization.Basic
 
 /-!
 # Coefficient-wise derivation on polynomials

@@ -5,11 +5,17 @@ Authors: Yaël Dillies, Christopher Hoskin
 -/
 module
 
-public import Mathlib.Data.Finset.Lattice.Prod
-public import Mathlib.Data.Finset.Powerset
-public import Mathlib.Data.Set.Finite.Basic
 public import Mathlib.Order.Closure
-public import Mathlib.Order.ConditionallyCompleteLattice.Finset
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Powerset
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Data.Finset.Lattice.Prod
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Sets closed under join/meet

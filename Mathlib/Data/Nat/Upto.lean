@@ -5,8 +5,11 @@ Authors: Simon Hudon
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Nat
-public import Mathlib.Algebra.Order.Sub.Basic
+public import Batteries.Tactic.SeqFocus
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-!
 # `Nat.Upto`

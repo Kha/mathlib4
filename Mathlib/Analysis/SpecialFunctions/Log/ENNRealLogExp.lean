@@ -9,6 +9,11 @@ public import Mathlib.Analysis.SpecialFunctions.Log.ERealExp
 public import Mathlib.Analysis.SpecialFunctions.Log.ENNRealLog
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.Topology.MetricSpace.Polish
+public import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.EReal.Inv
+import Mathlib.Topology.Instances.EReal.Lemmas
 
 /-!
 # Properties of the extended logarithm and exponential

@@ -6,18 +6,58 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
-public import Mathlib.Analysis.Normed.Group.Lemmas
 public import Mathlib.Analysis.Normed.Affine.Isometry
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
-public import Mathlib.Analysis.NormedSpace.RieszLemma
-public import Mathlib.Analysis.Normed.Module.Ball.Pointwise
-public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Logic.Encodable.Pi
-public import Mathlib.Topology.Algebra.AffineSubspace
 public import Mathlib.Topology.Algebra.Module.FiniteDimension
-public import Mathlib.Topology.Algebra.InfiniteSum.Module
 public import Mathlib.Topology.Instances.Matrix
 public import Mathlib.LinearAlgebra.Dimension.LinearMap
+public import Mathlib.LinearAlgebra.AffineSpace.Independent
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.NormedSpace.RieszLemma
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Logic.Encodable.Pi
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Topology.Algebra.AffineSubspace
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Group.Lemmas
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 
 /-!

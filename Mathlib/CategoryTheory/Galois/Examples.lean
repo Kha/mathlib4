@@ -7,7 +7,11 @@ module
 
 public import Mathlib.CategoryTheory.Galois.Basic
 public import Mathlib.CategoryTheory.Action.Concrete
-public import Mathlib.CategoryTheory.Action.Limits
+import Mathlib.CategoryTheory.Action.Limits
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.FintypeCat
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Types.Coproducts
 
 /-!
 # Examples of Galois categories and fiber functors

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Triangulated.Opposite.Pretriangulated
 public import Mathlib.CategoryTheory.Adjunction.Opposites
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Opposites of functors between pretriangulated categories,

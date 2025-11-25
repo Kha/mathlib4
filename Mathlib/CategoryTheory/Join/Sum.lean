@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Join.Basic
 public import Mathlib.CategoryTheory.Sums.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Embedding of `C ⊕ D` into `C ⋆ D`

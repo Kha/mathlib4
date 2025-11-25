@@ -5,8 +5,11 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Complex.JensenFormula
 public import Mathlib.Analysis.Complex.ValueDistribution.CharacteristicFunction
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.JensenFormula
+import Mathlib.Analysis.SpecialFunctions.Integrability.LogMeromorphic
 
 /-!
 # The First Main Theorem of Value Distribution Theory

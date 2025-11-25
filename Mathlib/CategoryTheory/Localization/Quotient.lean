@@ -6,7 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Localization.LocalizerMorphism
-public import Mathlib.CategoryTheory.Quotient
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization of quotient categories

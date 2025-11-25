@@ -5,10 +5,22 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.LinearAlgebra.Dimension.Finite
-public import Mathlib.LinearAlgebra.Isomorphisms
-public import Mathlib.Logic.Equiv.Fin.Rotate
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.Data.Fin.VecNotation
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.Quotient.Defs
+import Mathlib.LinearAlgebra.Isomorphisms
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.OfFn
+import Mathlib.Data.Set.Disjoint
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.Operations
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Logic.Equiv.Fin.Rotate
 
 /-!
 

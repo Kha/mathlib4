@@ -5,9 +5,12 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.Ring.Action.Pointwise.Set
 public import Mathlib.LinearAlgebra.Quotient.Defs
 public import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Ring.Action.Pointwise.Set
 
 /-!
 # The colon ideal

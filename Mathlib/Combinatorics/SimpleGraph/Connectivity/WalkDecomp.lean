@@ -6,6 +6,8 @@ Authors: Kyle Miller, Pim Otte
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Walk
+public import Mathlib.Data.List.Rotate
+import Mathlib.Tactic.Lemma
 
 /-!
 # Decomposing walks

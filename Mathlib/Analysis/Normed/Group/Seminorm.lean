@@ -6,7 +6,13 @@ Authors: María Inés de Frutos-Fernández, Yaël Dillies
 module
 
 public import Mathlib.Data.NNReal.Defs
-public import Mathlib.Order.ConditionallyCompleteLattice.Group
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Group
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Group seminorms

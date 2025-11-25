@@ -5,7 +5,11 @@ Authors: Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Fintype.Sum
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Data.Fintype.Sum
 
 /-!
 # Finiteness of sum types

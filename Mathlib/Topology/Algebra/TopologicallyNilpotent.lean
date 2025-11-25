@@ -6,8 +6,14 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 module
 
 public import Mathlib.Topology.Algebra.LinearTopology
-public import Mathlib.RingTheory.Ideal.Basic
 public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.RingTheory.Ideal.Basic
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-! # Topologically nilpotent elements
 

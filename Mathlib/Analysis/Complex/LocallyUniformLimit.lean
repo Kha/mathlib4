@@ -5,9 +5,24 @@ Authors: Vincent Beffara
 -/
 module
 
-public import Mathlib.Analysis.Complex.RemovableSingularity
-public import Mathlib.Analysis.Calculus.UniformLimitsDeriv
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
+public import Mathlib.Analysis.Calculus.LogDeriv
+public import Mathlib.MeasureTheory.Integral.CircleIntegral
+public import Mathlib.Topology.MetricSpace.Thickening
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Calculus.UniformLimitsDeriv
+import Mathlib.Analysis.Complex.RemovableSingularity
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.UniformSpace.UniformApproximation
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Locally uniform limits of holomorphic functions

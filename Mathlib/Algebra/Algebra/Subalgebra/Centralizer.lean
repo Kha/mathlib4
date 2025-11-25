@@ -5,8 +5,13 @@ Authors: Jujian Zhang
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.Basis
 public import Mathlib.RingTheory.TensorProduct.Maps
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.Algebra.BigOperators.Ring.Finset
 
 /-!
 # Properties of centers and centralizers

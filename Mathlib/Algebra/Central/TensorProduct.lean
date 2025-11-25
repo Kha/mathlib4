@@ -5,9 +5,12 @@ Authors: Jujian Zhang, Yunzhou Xie
 -/
 module
 
-public import Mathlib.Algebra.Central.Basic
 public import Mathlib.RingTheory.Flat.Basic
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import Mathlib.Algebra.Central.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Central.Basic
+import Mathlib.LinearAlgebra.Basis.VectorSpace
 
 /-!
 

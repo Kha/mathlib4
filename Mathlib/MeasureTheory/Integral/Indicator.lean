@@ -5,8 +5,15 @@ Authors: Kalle Kytölä
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
-public import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+public import Mathlib.MeasureTheory.Measure.Typeclasses.Finite
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.IndicatorConstPointwise
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
+import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
 
 /-!
 # Results about indicator functions, their integrals, and measures

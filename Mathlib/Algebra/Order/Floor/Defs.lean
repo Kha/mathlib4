@@ -5,9 +5,14 @@ Authors: Mario Carneiro, Kevin Kappelmann
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Cast
-public import Mathlib.Data.Nat.Cast.Basic
-public import Mathlib.Tactic.HaveI
+public import Mathlib.Tactic.Bound.Attribute
+public import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Floor and ceil

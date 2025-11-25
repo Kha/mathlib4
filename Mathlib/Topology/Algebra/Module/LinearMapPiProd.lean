@@ -7,6 +7,8 @@ Authors: Jan-David Salchow, Sébastien Gouëzel, Jean Lo, Yury Kudryashov, Fréd
 module
 
 public import Mathlib.Topology.Algebra.Module.LinearMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous linear maps on products and Pi types

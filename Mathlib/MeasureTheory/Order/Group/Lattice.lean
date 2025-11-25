@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Order.Group.PosPart
 public import Mathlib.MeasureTheory.Group.Arithmetic
 public import Mathlib.MeasureTheory.Order.Lattice
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurability results on groups with a lattice structure.

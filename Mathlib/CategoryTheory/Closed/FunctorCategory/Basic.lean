@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Closed.Enrichment
 public import Mathlib.CategoryTheory.Enriched.FunctorCategory
+import Mathlib.Tactic.Lemma
 
 /-!
 # Functor categories are monoidal closed

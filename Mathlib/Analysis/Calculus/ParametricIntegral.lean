@@ -5,10 +5,21 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Analysis.LocallyConvex.SeparatingDual
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Operator.CompleteCodomain
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Derivatives of integrals depending on parameters

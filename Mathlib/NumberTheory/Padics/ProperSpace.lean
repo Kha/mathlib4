@@ -5,8 +5,12 @@ Authors: Jou Glasheen, Kevin Buzzard
 -/
 module
 
-public import Mathlib.Analysis.Normed.Field.ProperSpace
-public import Mathlib.NumberTheory.Padics.RingHoms
+public import Mathlib.NumberTheory.Padics.PadicIntegers
+import Mathlib.NumberTheory.Padics.RingHoms
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Analysis.Normed.Field.ProperSpace
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Properness of the p-adic numbers

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.RingTheory.AdicCompletion.Basic
 public import Mathlib.RingTheory.LocalRing.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # Basic Properties of Complete Local Ring

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Localization.Predicate
 public import Mathlib.CategoryTheory.CatCommSq
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization functors are preserved through equivalences

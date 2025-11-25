@@ -8,6 +8,13 @@ module
 public import Mathlib.FieldTheory.KrullTopology
 public import Mathlib.FieldTheory.Galois.GaloisClosure
 public import Mathlib.Topology.Algebra.Category.ProfiniteGrp.Basic
+public import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 

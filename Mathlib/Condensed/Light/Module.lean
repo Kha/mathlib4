@@ -7,13 +7,15 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Abelian
 public import Mathlib.Algebra.Category.ModuleCat.Adjunctions
-public import Mathlib.Algebra.Category.ModuleCat.Colimits
-public import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
 public import Mathlib.CategoryTheory.Sites.Abelian
 public import Mathlib.CategoryTheory.Sites.Adjunction
-public import Mathlib.CategoryTheory.Sites.Equivalence
 public import Mathlib.Condensed.Light.Basic
-public import Mathlib.Condensed.Light.Instances
+import Mathlib.Tactic.Lemma
+import Mathlib.Condensed.Light.Instances
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+import Mathlib.Algebra.Category.ModuleCat.Limits
 /-!
 
 # Light condensed `R`-modules

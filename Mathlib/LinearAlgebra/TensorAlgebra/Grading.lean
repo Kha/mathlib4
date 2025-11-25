@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.TensorAlgebra.Basic
 public import Mathlib.RingTheory.GradedAlgebra.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Results about the grading structure of the tensor algebra

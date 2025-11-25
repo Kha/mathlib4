@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Homology.AlternatingConst
 public import Mathlib.AlgebraicTopology.SingularSet
+import Mathlib.Tactic.Lemma
 
 /-!
 # Singular homology

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.GroupTheory.Finiteness
 public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.GroupTheory.GroupAction.ConjAct
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Preimage
 
 /-!
 # Rank of a group

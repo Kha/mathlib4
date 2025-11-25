@@ -5,8 +5,16 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Basic
 public import Mathlib.Analysis.Analytic.CPolynomialDef
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
 
 /-!
 # Linear functions are analytic

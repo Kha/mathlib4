@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Orthogonal
 public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
 
 /-!
 # Perpendicular bisector of a segment

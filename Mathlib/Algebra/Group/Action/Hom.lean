@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Action.Pretransitive
 public import Mathlib.Algebra.Group.Hom.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Homomorphisms and group actions

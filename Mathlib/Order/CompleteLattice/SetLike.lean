@@ -6,6 +6,8 @@ Authors: Sven Manthe
 module
 
 public import Mathlib.Order.CompleteSublattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `SetLike` instance for elements of `CompleteSublattice (Set X)`

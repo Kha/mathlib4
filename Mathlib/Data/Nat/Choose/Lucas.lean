@@ -5,9 +5,17 @@ Authors: Gareth Ma
 -/
 module
 
-public import Mathlib.Algebra.CharP.Lemmas
-public import Mathlib.Data.ZMod.Basic
-public import Mathlib.RingTheory.Polynomial.Basic
+public import Mathlib.Data.Int.ModEq
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Algebra.CharP.Lemmas
+import Mathlib.Data.ZMod.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Lucas's theorem

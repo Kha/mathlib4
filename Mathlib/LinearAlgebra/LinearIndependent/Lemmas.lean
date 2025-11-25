@@ -5,15 +5,27 @@ Authors: Johannes Hölzl, Mario Carneiro, Alexander Bentkamp, Anne Baanen
 -/
 module
 
-public import Mathlib.Data.Fin.Tuple.Reflection
-public import Mathlib.LinearAlgebra.Finsupp.SumProd
-public import Mathlib.LinearAlgebra.LinearIndependent.Basic
 public import Mathlib.LinearAlgebra.Pi
-public import Mathlib.Logic.Equiv.Fin.Rotate
-public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.LinearCombination
-public import Mathlib.Tactic.Module
-public import Mathlib.Tactic.NoncommRing
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.Finset.Order
+import Mathlib.LinearAlgebra.Finsupp.SumProd
+import Mathlib.LinearAlgebra.LinearIndependent.Basic
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Data.Fin.Tuple.Reflection
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Logic.Equiv.Fin.Rotate
 
 /-!
 # Linear independence

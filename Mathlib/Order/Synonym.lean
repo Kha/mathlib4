@@ -6,8 +6,9 @@ Authors: Johan Commelin, Damiano Testa, Yaël Dillies
 module
 
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Logic.Nontrivial.Defs
 public import Mathlib.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Type synonyms

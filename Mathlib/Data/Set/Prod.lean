@@ -5,9 +5,19 @@ Authors: Mario Carneiro, Johannes Hölzl, Patrick Massot
 -/
 module
 
-public import Mathlib.Data.Set.Image
-public import Mathlib.Data.SProd
-public import Mathlib.Data.Sum.Basic
+public import Mathlib.Data.Set.Subsingleton
+public import Mathlib.Logic.Equiv.Basic
+public import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Tactic.Choose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Prod.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # Sets in product and pi types

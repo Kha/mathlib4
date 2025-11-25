@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.DirectSum.Basic
 public import Mathlib.Algebra.Group.AddChar
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Direct sum of additive characters

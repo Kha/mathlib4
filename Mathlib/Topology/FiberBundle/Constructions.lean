@@ -6,6 +6,9 @@ Authors: Nicolò Cavalleri, Sébastien Gouëzel, Heather Macbeth, Floris van Doo
 module
 
 public import Mathlib.Topology.FiberBundle.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Standard constructions on fiber bundles

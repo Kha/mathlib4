@@ -5,10 +5,15 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
-public import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
 public import Mathlib.Data.Real.Basic
-public import Mathlib.Tactic.Positivity.Basic
+public import Mathlib.Data.Finset.Card
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Relation of covering by cosets

@@ -6,6 +6,18 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Classes for s-finite measures

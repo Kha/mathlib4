@@ -5,9 +5,21 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov, Patrick Massot
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Lemmas
-public import Mathlib.Order.Filter.Bases.Finite
-public import Mathlib.Order.Filter.AtTopBot.Basic
+public import Mathlib.Algebra.Group.Nat.Defs
+public import Mathlib.Data.Nat.Factorial.Basic
+public import Mathlib.Order.Filter.AtTopBot.Defs
+public import Mathlib.Order.Filter.Bases.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Filter.Bases.Finite
 
 /-!
 # Finiteness and `Filter.atTop` and `Filter.atBot` filters

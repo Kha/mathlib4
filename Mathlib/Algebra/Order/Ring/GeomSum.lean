@@ -5,9 +5,27 @@ Authors: Neil Strickland
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Algebra.Ring.GeomSum
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Partial sums of geometric series in an ordered ring

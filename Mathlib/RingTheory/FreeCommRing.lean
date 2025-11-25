@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Algebra.MvPolynomial.Equiv
 public import Mathlib.Algebra.MvPolynomial.CommRing
-public import Mathlib.Logic.Equiv.Functor
 public import Mathlib.RingTheory.FreeRing
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Logic.Equiv.Functor
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Free commutative rings

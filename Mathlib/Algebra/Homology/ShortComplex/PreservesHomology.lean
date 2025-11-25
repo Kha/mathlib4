@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Homology.ShortComplex.QuasiIso
 public import Mathlib.CategoryTheory.Limits.Preserves.Finite
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Functors which preserves homology

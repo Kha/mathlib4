@@ -5,8 +5,14 @@ Authors: Johannes Hölzl, Mario Carneiro, Jeremy Avigad
 -/
 module
 
-public import Mathlib.Order.Filter.Ultrafilter.Basic
-public import Mathlib.Topology.Continuous
+public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Order.Filter.Ultrafilter.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Continuous
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.Ultrafilter.Basic
 
 /-! # Characterization of basic topological properties in terms of ultrafilters -/
 

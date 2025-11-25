@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Algebra.Group.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Scalar actions on and by `Mᵐᵒᵖ`

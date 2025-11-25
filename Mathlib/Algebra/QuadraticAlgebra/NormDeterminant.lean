@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.QuadraticAlgebra.Basic
 public import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quadratic Algebra

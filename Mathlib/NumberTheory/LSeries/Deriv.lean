@@ -5,10 +5,25 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Complex.LocallyUniformLimit
 public import Mathlib.NumberTheory.LSeries.Convergence
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-public import Mathlib.Analysis.Complex.HalfPlane
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Complex.HalfPlane
+import Mathlib.Analysis.Complex.LocallyUniformLimit
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Topology.Algebra.InfiniteSum.Group
 
 /-!
 # Differentiability and derivatives of L-series

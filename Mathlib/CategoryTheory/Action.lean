@@ -8,8 +8,8 @@ module
 public import Mathlib.CategoryTheory.Elements
 public import Mathlib.CategoryTheory.IsConnected
 public import Mathlib.CategoryTheory.SingleObj
-public import Mathlib.GroupTheory.GroupAction.Quotient
 public import Mathlib.GroupTheory.SemidirectProduct
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Actions as functors and as categories

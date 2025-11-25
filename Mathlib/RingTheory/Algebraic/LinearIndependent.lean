@@ -7,6 +7,12 @@ module
 
 public import Mathlib.LinearAlgebra.LinearIndependent.Defs
 public import Mathlib.RingTheory.Algebraic.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Polynomial.Degree.Operations
 
 /-!
 # Linear independence of transcendental elements

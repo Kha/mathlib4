@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.Basis.Defs
 public import Mathlib.LinearAlgebra.Dual.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # Bases of dual vector spaces

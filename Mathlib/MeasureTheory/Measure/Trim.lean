@@ -6,6 +6,8 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.SFinite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Restriction of a measure to a sub-σ-algebra

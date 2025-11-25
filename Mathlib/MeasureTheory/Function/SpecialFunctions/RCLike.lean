@@ -5,8 +5,10 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.RCLike.Lemmas
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-!
 # Measurability of the basic `RCLike` functions

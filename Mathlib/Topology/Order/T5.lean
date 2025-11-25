@@ -8,6 +8,15 @@ module
 public import Mathlib.Order.Interval.Set.OrdConnectedComponent
 public import Mathlib.Topology.Order.Basic
 public import Mathlib.Topology.Separation.Regular
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Linear order is a completely normal Hausdorff topological space

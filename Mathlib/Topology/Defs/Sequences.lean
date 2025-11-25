@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Filter.AtTopBot.Defs
 public import Mathlib.Topology.Defs.Filter
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Sequences in topological spaces

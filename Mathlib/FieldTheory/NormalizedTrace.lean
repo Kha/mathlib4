@@ -5,7 +5,16 @@ Authors: Michal Staromiejski
 -/
 module
 
-public import Mathlib.RingTheory.Trace.Basic
+public import Mathlib.FieldTheory.IntermediateField.Algebraic
+public import Mathlib.FieldTheory.PurelyInseparable.Basic
+public import Mathlib.RingTheory.Trace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.IntermediateField
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Trace.Basic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 

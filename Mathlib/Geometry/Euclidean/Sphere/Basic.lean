@@ -5,10 +5,19 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Analysis.Convex.StrictConvexBetween
-public import Mathlib.Analysis.InnerProductSpace.Convex
-public import Mathlib.Analysis.Normed.Affine.Convex
-public import Mathlib.Geometry.Euclidean.Basic
+public import Mathlib.Analysis.Convex.Between
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Convex.StrictConvexBetween
+import Mathlib.Analysis.InnerProductSpace.Convex
+import Mathlib.Geometry.Euclidean.Basic
+import Mathlib.Geometry.Euclidean.PerpBisector
+import Mathlib.Analysis.Normed.Affine.Convex
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Spheres

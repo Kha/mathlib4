@@ -6,6 +6,7 @@ Authors: Eric Rodriguez, Joel Riou, Yury Kudryashov
 module
 
 public import Mathlib.Data.Fin.SuccPred
+import Mathlib.Tactic.Lemma
 /-!
 # Reverse on `Fin n`
 

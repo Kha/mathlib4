@@ -5,9 +5,19 @@ Authors: Chris Birkbeck, Inna Capdeboscq, Johan Commelin, Thomas Lanard, Peiran 
 -/
 module
 
-public import Mathlib.FieldTheory.Finiteness
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs
-public import Mathlib.LinearAlgebra.Matrix.Rank
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.Matrix.Basis
+import Mathlib.LinearAlgebra.Matrix.Rank
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 /-!
 # Cardinal of the general linear group over finite rings
 

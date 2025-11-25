@@ -5,8 +5,13 @@ Authors: David Ledvinka
 -/
 module
 
-public import Mathlib.MeasureTheory.Group.Prod
-public import Mathlib.MeasureTheory.Group.LIntegral
+public import Mathlib.MeasureTheory.Group.Measure
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Group.LIntegral
+import Mathlib.MeasureTheory.Group.Prod
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
 
 /-!
 # Convolution of functions using the Lebesgue integral

@@ -5,10 +5,18 @@ Authors: Jovan Gerbscheid
 -/
 module
 
-public meta import Mathlib.Tactic.NthRewrite
 public meta import Mathlib.Tactic.Widget.SelectPanelUtils
-public meta import Mathlib.Lean.GoalsLocation
-public meta import Mathlib.Lean.Meta.KAbstractPositions
+public import Mathlib.Init
+public import ProofWidgets.Cancellable
+public import ProofWidgets.Component.MakeEditLink
+public import ProofWidgets.Data.Html
+meta import Mathlib.Lean.GoalsLocation
+import Mathlib.Tactic.NthRewrite
+import ProofWidgets.Component.Basic
+import ProofWidgets.Component.OfRpcMethod
+import Lean.Server.Rpc.RequestHandling
+meta import Mathlib.Lean.Meta.KAbstractPositions
+import Mathlib.Tactic.Widget.SelectPanelUtils
 
 /-!
 

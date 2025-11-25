@@ -6,11 +6,20 @@ Authors: Heather Macbeth
 module
 
 public import Mathlib.Analysis.LocallyConvex.Polar
-public import Mathlib.Analysis.Normed.Module.HahnBanach
-public import Mathlib.Analysis.Normed.Module.RCLike.Basic
-public import Mathlib.Data.Set.Finite.Lemmas
 public import Mathlib.Analysis.LocallyConvex.AbsConvex
-public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Analysis.Normed.Operator.Bilinear
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Module.HahnBanach
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.Normed.Module.RCLike.Basic
 
 /-!
 # The strong dual of a normed space

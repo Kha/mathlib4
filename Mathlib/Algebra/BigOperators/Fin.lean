@@ -8,8 +8,20 @@ module
 public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Data.Fintype.BigOperators
-public import Mathlib.Data.Fintype.Fin
 public import Mathlib.Logic.Equiv.Fin.Basic
+public import Mathlib.Algebra.Group.Nat.Even
+public import Mathlib.Order.Interval.Finset.Fin
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.BigOperators.Group.List.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Parity
+import Mathlib.Data.Fintype.Fin
+import Mathlib.Data.List.OfFn
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Big operators and `Fin`

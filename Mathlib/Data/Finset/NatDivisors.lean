@@ -7,6 +7,10 @@ module
 
 public import Mathlib.NumberTheory.Divisors
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # `Nat.divisors` as a multiplicative homomorpism

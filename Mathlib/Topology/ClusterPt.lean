@@ -5,7 +5,19 @@ Authors: Johannes Hölzl, Mario Carneiro, Jeremy Avigad
 -/
 module
 
-public import Mathlib.Topology.Neighborhoods
+public import Mathlib.Tactic.Common
+public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Order.Filter.Bases.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Lemmas on cluster and accumulation points

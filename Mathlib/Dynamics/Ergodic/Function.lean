@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Dynamics.Ergodic.Ergodic
 public import Mathlib.MeasureTheory.Function.AEEqFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.GDelta.MetrizableSpace
 
 /-!
 # Functions invariant under (quasi)ergodic map

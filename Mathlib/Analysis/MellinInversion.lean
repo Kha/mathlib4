@@ -5,8 +5,18 @@ Authors: Lawrence Wu
 -/
 module
 
-public import Mathlib.Analysis.Fourier.Inversion
 public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Analysis.Fourier.FourierTransform
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Fourier.Inversion
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.MeasureTheory.Function.JacobianOneDim
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
 
 /-!
 # Mellin inversion formula

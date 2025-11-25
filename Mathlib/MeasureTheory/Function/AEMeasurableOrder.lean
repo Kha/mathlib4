@@ -5,7 +5,13 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Data.Set.Piecewise
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Measurability criterion for ennreal-valued functions

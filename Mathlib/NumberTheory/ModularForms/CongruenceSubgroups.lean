@@ -5,8 +5,12 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Integer
 public import Mathlib.NumberTheory.ModularForms.ArithmeticSubgroups
+public import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Module.Rat
+import Mathlib.LinearAlgebra.Matrix.Integer
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Congruence subgroups

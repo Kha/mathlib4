@@ -6,9 +6,10 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Algebra.Defs
-public import Mathlib.Algebra.Group.Invertible.Defs
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.CategoryTheory.Preadditive.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Linear categories

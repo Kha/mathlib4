@@ -5,8 +5,11 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.GroupTheory.FiniteAbelian.Basic
 public import Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.FiniteAbelian.Basic
+import Mathlib.Algebra.Group.TypeTags.Finite
 
 /-!
 # Duality for finite abelian groups

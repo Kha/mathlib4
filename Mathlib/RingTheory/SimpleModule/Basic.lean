@@ -5,18 +5,23 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.Module
-public import Mathlib.Data.Finite.Card
-public import Mathlib.Data.Matrix.Mul
-public import Mathlib.LinearAlgebra.DFinsupp
-public import Mathlib.LinearAlgebra.Finsupp.Span
-public import Mathlib.LinearAlgebra.Isomorphisms
 public import Mathlib.LinearAlgebra.Projection
-public import Mathlib.Order.Atoms.Finite
-public import Mathlib.Order.CompactlyGenerated.Intervals
 public import Mathlib.Order.JordanHolder
-public import Mathlib.RingTheory.Ideal.Colon
 public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.RingTheory.Ideal.Maps
+import Batteries.Util.ProofWanted
+import Mathlib.LinearAlgebra.Isomorphisms
+import Mathlib.Order.Cover
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.DirectSum.Module
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.Finite.Card
+import Mathlib.LinearAlgebra.Finsupp.Span
+import Mathlib.Order.Atoms.Finite
+import Mathlib.Order.CompactlyGenerated.Intervals
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.Colon
 
 /-!
 # Simple Modules

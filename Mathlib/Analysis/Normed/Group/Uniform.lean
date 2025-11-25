@@ -5,10 +5,20 @@ Authors: Patrick Massot, Johannes Hölzl, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Continuity
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 public import Mathlib.Topology.MetricSpace.Algebra
 public import Mathlib.Topology.MetricSpace.IsometricSMul
+public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Normed groups are uniform groups

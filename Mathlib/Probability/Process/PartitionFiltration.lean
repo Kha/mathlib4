@@ -5,8 +5,9 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.MeasurableSpace.CountablyGenerated
 public import Mathlib.Probability.Process.Filtration
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Filtration built from the finite partitions of a countably generated measurable space

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Basic
 public import Mathlib.RingTheory.RingHomProperties
+import Mathlib.Tactic.Lemma
 
 /-!
 

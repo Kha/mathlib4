@@ -5,9 +5,13 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
 public import Mathlib.RingTheory.Ideal.Cotangent
 public import Mathlib.RingTheory.Localization.Defs
+public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 

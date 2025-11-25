@@ -6,6 +6,22 @@ Authors: Sébastien Gouëzel, Kexing Ying
 module
 
 public import Mathlib.Probability.Moments.Covariance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.LpOrder
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Probability.Independence.Integrable
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.LpSeminorm.ChebyshevMarkov
+import Mathlib.MeasureTheory.Function.LpSeminorm.Prod
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Variance of random variables

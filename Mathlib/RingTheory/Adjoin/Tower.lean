@@ -6,6 +6,12 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.RingTheory.Adjoin.FG
+public import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Group.Pointwise.Finset.Basic
 
 /-!
 # Adjoining elements and being finitely generated in an algebra tower

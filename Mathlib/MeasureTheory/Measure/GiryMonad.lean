@@ -5,7 +5,18 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+public import Mathlib.MeasureTheory.Measure.Dirac
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The Giry monad

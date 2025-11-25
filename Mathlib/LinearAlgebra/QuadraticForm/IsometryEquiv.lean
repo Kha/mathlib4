@@ -5,8 +5,8 @@ Authors: Kexing Ying, Eric Wieser
 -/
 module
 
-public import Mathlib.LinearAlgebra.QuadraticForm.Basic
 public import Mathlib.LinearAlgebra.QuadraticForm.Isometry
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Isometric equivalences with respect to quadratic forms

@@ -5,10 +5,14 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Uniqueness
 public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
-public import Mathlib.Analysis.NormedSpace.Connected
 public import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.ChangeOrigin
+import Mathlib.Analysis.Analytic.Uniqueness
+import Mathlib.Analysis.Analytic.Within
+import Mathlib.Analysis.NormedSpace.Connected
 
 /-!
 # Taylor series converges to function on whole ball

@@ -5,9 +5,21 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Affine.AddTorsorBases
-public import Mathlib.Analysis.Normed.Module.Convex
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.MeasureTheory.Group.Measure
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Affine.AddTorsorBases
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
 
 /-!
 # Convex sets are null-measurable

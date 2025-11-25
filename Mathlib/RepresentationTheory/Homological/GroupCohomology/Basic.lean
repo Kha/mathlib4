@@ -5,10 +5,12 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.Algebra.Homology.Opposite
 public import Mathlib.Algebra.Homology.ConcreteCategory
 public import Mathlib.RepresentationTheory.Homological.Resolution
-public import Mathlib.Tactic.CategoryTheory.Slice
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Limits
 
 /-!
 # The group cohomology of a `k`-linear `G`-representation

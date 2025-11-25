@@ -5,10 +5,24 @@ Authors: Johan Commelin, Snir Broshi
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Complex.Log
-public import Mathlib.RingTheory.Int.Basic
 public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
-public import Mathlib.Tactic.Rify
+public import Mathlib.Analysis.SpecialFunctions.Complex.Arg
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Int.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Int.Parity
+import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Complex roots of unity

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Topology.Separation.Basic
 public import Mathlib.Topology.AlexandrovDiscrete
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsKer
 
 /-!
 # T1 Alexandrov-discrete topology is discrete

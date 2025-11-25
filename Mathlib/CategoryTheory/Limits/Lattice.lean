@@ -5,10 +5,10 @@ Authors: Kim Morrison, Justus Springer
 -/
 module
 
-public import Mathlib.CategoryTheory.Category.Preorder
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
 public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Limits in lattice categories are given by infimums and supremums.

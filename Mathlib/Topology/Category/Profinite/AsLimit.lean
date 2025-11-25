@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Category.Profinite.Basic
 public import Mathlib.Topology.DiscreteQuotient
+import Mathlib.Tactic.ApplyFun
 
 /-!
 # Profinite sets as limits of finite sets.

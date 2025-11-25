@@ -6,6 +6,7 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Presentable.ColimitPresentation
+import Mathlib.Tactic.Lemma
 
 /-!
 # Ind and pro-properties

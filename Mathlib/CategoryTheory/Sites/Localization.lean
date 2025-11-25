@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Localization.Bousfield
 public import Mathlib.CategoryTheory.Sites.Sheafification
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.Adjunction
 
 /-!
 # The sheaf category as a localized category

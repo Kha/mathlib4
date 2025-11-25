@@ -6,8 +6,24 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
-public import Mathlib.Data.ZMod.QuotientGroup
-public import Mathlib.MeasureTheory.Group.AEStabilizer
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ZMod.QuotientGroup
+import Mathlib.MeasureTheory.Group.AEStabilizer
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.MeasureTheory.Group.Prod
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Group.Subgroup.ZPowers.Lemmas
 
 /-!
 # Measure-theoretic results about the additive circle

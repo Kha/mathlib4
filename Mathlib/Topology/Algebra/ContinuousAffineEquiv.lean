@@ -8,6 +8,8 @@ module
 public import Mathlib.LinearAlgebra.AffineSpace.AffineEquiv
 public import Mathlib.Topology.Algebra.Module.Equiv
 public import Mathlib.Topology.Algebra.ContinuousAffineMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous affine equivalences

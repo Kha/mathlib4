@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
 public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Results about `CovariantClass G α HSMul.hSMul LE.le`

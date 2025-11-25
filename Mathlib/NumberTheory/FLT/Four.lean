@@ -5,11 +5,23 @@ Authors: Paul van Wamelen
 -/
 module
 
-public import Mathlib.Data.Nat.Factors
 public import Mathlib.NumberTheory.FLT.Basic
-public import Mathlib.NumberTheory.PythagoreanTriples
-public import Mathlib.RingTheory.Coprime.Lemmas
-public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.NumberTheory.PythagoreanTriples
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Nat.Factors
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Int.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Fermat's Last Theorem for the case n = 4

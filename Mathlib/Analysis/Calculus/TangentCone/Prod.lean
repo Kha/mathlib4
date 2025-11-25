@@ -5,9 +5,15 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.Analysis.Calculus.TangentCone.Defs
 public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Product of sets with unique differentiability property

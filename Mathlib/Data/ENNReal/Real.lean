@@ -6,6 +6,10 @@ Authors: Johannes Hölzl, Yury Kudryashov
 module
 
 public import Mathlib.Data.ENNReal.Basic
+import Mathlib.Order.MinMax
+import Mathlib.Order.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Maps between real and extended non-negative real numbers

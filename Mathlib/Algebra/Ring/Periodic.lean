@@ -6,6 +6,9 @@ Authors: Benjamin Davidson
 module
 
 public import Mathlib.Algebra.Ring.NegOnePow
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Int.Parity
 
 /-!
 # Periodicity

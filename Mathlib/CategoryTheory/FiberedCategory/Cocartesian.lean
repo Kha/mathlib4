@@ -6,6 +6,7 @@ Authors: Calle Sönne
 module
 
 public import Mathlib.CategoryTheory.FiberedCategory.HomLift
+import Mathlib.Tactic.Lemma
 
 /-!
 # Co-Cartesian morphisms

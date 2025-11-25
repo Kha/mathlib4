@@ -5,11 +5,11 @@ Authors: Kim Morrison, Adam Topaz, Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Basic
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
-public import Mathlib.Algebra.FreeMonoid.UniqueProds
 public import Mathlib.Algebra.MonoidAlgebra.Basic
-public import Mathlib.Algebra.MonoidAlgebra.NoZeroDivisors
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.FreeMonoid.UniqueProds
+import Mathlib.Algebra.MonoidAlgebra.NoZeroDivisors
 
 /-!
 # Free Algebras

@@ -5,7 +5,17 @@ Authors: Kevin Buzzard
 -/
 module
 
-public import Mathlib.Data.ENNReal.Operations
+public import Mathlib.Data.ENNReal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.ENNReal.Real
+import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Monoid.WithTop
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.WithBotTop
 
 /-!
 # The extended real numbers

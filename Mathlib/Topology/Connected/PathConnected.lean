@@ -6,6 +6,12 @@ Authors: Patrick Massot
 module
 
 public import Mathlib.Topology.Path
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Path connectedness

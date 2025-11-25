@@ -7,7 +7,16 @@ module
 
 public import Mathlib.Analysis.CStarAlgebra.Module.Defs
 public import Mathlib.Analysis.CStarAlgebra.Module.Synonym
-public import Mathlib.Topology.MetricSpace.Bilipschitz
+public import Mathlib.Algebra.Star.BigOperators
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Bilipschitz
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-! # Constructions of Hilbert C⋆-modules
 

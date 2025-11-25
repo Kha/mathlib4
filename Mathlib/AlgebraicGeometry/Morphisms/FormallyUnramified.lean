@@ -5,9 +5,11 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.Separated
-public import Mathlib.RingTheory.Ideal.IdempotentFG
 public import Mathlib.RingTheory.RingHom.Unramified
+public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
+import Mathlib.AlgebraicGeometry.Morphisms.OpenImmersion
+import Mathlib.AlgebraicGeometry.Morphisms.Separated
+import Mathlib.RingTheory.Ideal.IdempotentFG
 
 /-!
 # Formally unramified morphisms

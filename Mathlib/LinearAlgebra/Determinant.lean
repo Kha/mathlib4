@@ -5,16 +5,23 @@ Authors: Johannes Hölzl, Patrick Massot, Casper Putz, Anne Baanen
 -/
 module
 
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 public import Mathlib.LinearAlgebra.GeneralLinearGroup
-public import Mathlib.LinearAlgebra.Matrix.Reindex
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.LinearAlgebra.Dual.Basis
-public import Mathlib.LinearAlgebra.Matrix.Dual
 public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 public import Mathlib.LinearAlgebra.Matrix.Basis
-public import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
-public import Mathlib.RingTheory.Finiteness.Cardinality
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.LinearAlgebra.Dimension.Free
+public import Mathlib.LinearAlgebra.Dual.Defs
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.Matrix.Dual
+import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.Tactic.Attr.Register
 /-!
 # Determinant of families of vectors
 

@@ -6,6 +6,7 @@ Authors: Xavier Roblot
 module
 
 public import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Principal Ideals

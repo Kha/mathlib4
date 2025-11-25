@@ -6,8 +6,12 @@ Authors: Patrick Massot
 module
 
 public import Mathlib.Topology.Algebra.Ring.Basic
-public import Mathlib.Topology.Algebra.Group.Quotient
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Maps.OpenQuotient
+import Mathlib.Topology.Algebra.Group.Quotient
 
 /-!
 # Ideals and quotients of topological rings

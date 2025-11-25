@@ -5,8 +5,10 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
+public import Mathlib.NumberTheory.Cyclotomic.Basic
+import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 /-!
 # Cyclotomic extensions of `ℚ` are totally complex number fields.

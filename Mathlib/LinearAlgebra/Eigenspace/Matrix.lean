@@ -6,6 +6,11 @@ Authors: Jon Bannon, Jireh Loreaux
 module
 
 public import Mathlib.LinearAlgebra.Eigenspace.Basic
+public import Mathlib.LinearAlgebra.Matrix.ToLin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.IsField
+import Mathlib.Algebra.NoZeroSMulDivisors.Pi
 
 /-!
 

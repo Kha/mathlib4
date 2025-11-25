@@ -5,7 +5,10 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Insert
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Insert
 
 /-!
 # Booleans and set operations

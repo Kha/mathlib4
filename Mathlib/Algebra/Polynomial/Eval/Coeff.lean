@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Algebra.Polynomial.Coeff
 public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # Evaluation of polynomials

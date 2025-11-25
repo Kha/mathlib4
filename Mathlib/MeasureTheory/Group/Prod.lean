@@ -6,7 +6,15 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.MeasureTheory.Group.Measure
-public import Mathlib.MeasureTheory.Measure.Prod
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
 
 /-!
 # Measure theory in the product of groups

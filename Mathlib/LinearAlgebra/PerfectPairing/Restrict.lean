@@ -6,8 +6,19 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.LinearAlgebra.PerfectPairing.Basic
-public import Mathlib.LinearAlgebra.Matrix.Basis
-public import Mathlib.LinearAlgebra.Matrix.BaseChange
+public import Mathlib.Algebra.Field.IsField
+public import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.LinearAlgebra.Projection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.Matrix.BaseChange
+import Mathlib.LinearAlgebra.Matrix.Basis
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.Algebra.Field.Subfield.Basic
 
 /-!
 # Restriction to submodules and restriction of scalars for perfect pairings.

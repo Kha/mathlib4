@@ -6,6 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.Defs
+public import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Insert
 /-!
 # σ-algebra of sets invariant under a self-map
 

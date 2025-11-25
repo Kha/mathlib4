@@ -5,10 +5,23 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.DivisionRing
-public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
-public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
-public import Mathlib.Tactic.IntervalCases
+public import Mathlib.LinearAlgebra.Dimension.Free
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+public import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.LinearAlgebra.Isomorphisms
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Finite-dimensional vector spaces

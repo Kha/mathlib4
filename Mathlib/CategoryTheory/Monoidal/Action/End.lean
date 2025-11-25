@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Monoidal.Action.Basic
 public import Mathlib.CategoryTheory.Monoidal.End
 public import Mathlib.CategoryTheory.Monoidal.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Actions as monoidal functors to endofunctor categories
 

@@ -5,7 +5,10 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Logic.Function.Defs
+public import Mathlib.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Function.Defs
 
 /-!
 # Relator for functions, pairs, sums, and lists.

@@ -5,9 +5,11 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.AlgebraicTopology.ModelCategory.BrownLemma
 public import Mathlib.AlgebraicTopology.ModelCategory.LeftHomotopy
 public import Mathlib.AlgebraicTopology.ModelCategory.RightHomotopy
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicTopology.ModelCategory.BrownLemma
+import Mathlib.AlgebraicTopology.ModelCategory.Instances
 
 /-!
 # Homotopies in model categories

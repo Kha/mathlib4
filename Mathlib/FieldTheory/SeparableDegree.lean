@@ -5,14 +5,36 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.FieldTheory.SplittingField.Construction
 public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.FieldTheory.Separable
-public import Mathlib.FieldTheory.Normal.Closure
-public import Mathlib.RingTheory.AlgebraicIndependent.Adjoin
-public import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
 public import Mathlib.RingTheory.Polynomial.SeparableDegree
-public import Mathlib.RingTheory.Polynomial.UniqueFactorization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Algebra.MvPolynomial.Monad
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.FieldTheory.Normal.Closure
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.RingTheory.AlgebraicIndependent.Adjoin
+import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
+import Mathlib.RingTheory.AlgebraicIndependent.Transcendental
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.UniqueFactorization
+import Mathlib.SetTheory.Cardinal.SchroederBernstein
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Finset
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 

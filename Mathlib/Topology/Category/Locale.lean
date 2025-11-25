@@ -5,8 +5,9 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Category.Frm
 public import Mathlib.Topology.Category.CompHaus.Frm
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # The category of locales

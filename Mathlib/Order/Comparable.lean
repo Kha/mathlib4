@@ -6,6 +6,8 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.Order.Antisymmetrization
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Comparability and incomparability relations

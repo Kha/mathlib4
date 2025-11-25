@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Algebra.Order.Group.Synonym
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Actions by and on order synonyms

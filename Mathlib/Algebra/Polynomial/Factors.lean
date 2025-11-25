@@ -5,7 +5,18 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.FieldDivision
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Polynomial.Roots
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.Data.Nat.WithBot
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
 
 /-!
 # Split polynomials

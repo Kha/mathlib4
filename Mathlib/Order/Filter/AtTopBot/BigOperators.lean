@@ -5,8 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
-public import Mathlib.Order.Filter.AtTopBot.Basic
+public import Mathlib.Order.Filter.AtTopBot.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
 
 /-!
 # Two lemmas about limit of `Π b ∈ s, f b` along

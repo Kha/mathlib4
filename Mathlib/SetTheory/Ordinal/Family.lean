@@ -6,6 +6,14 @@ Authors: Mario Carneiro, Floris van Doorn, Violeta Hernández Palacios
 module
 
 public import Mathlib.SetTheory.Ordinal.Arithmetic
+public import Mathlib.Data.Countable.Defs
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Small
+import Mathlib.Logic.Small.Basic
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Cardinal.Basic
 
 /-!
 # Arithmetic on families of ordinals

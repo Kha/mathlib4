@@ -6,6 +6,7 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Bicategory.Functor.Pseudofunctor
+import Mathlib.Tactic.Lemma
 
 /-!
 # Strictly unitary lax functors and pseudofunctors

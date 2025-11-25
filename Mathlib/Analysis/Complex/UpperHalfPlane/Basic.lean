@@ -6,6 +6,7 @@ Authors: Alex Kontorovich, Heather Macbeth, Marc Masdeu
 module
 
 public import Mathlib.Analysis.Complex.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The upper half plane

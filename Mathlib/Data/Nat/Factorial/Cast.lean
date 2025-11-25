@@ -5,8 +5,11 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Nat.Cast.Basic
 public import Mathlib.Data.Nat.Factorial.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Cast of factorials

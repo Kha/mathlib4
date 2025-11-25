@@ -6,8 +6,9 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Algebra.Group.TypeTags.Basic
-public import Mathlib.Data.Finite.Defs
 public import Mathlib.Data.Fintype.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `Finite`, `Infinite` and `Fintype` are preserved by `Additive` and `Multiplicative`.

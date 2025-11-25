@@ -8,6 +8,10 @@ module
 public import Mathlib.RingTheory.AdjoinRoot
 public import Mathlib.Algebra.MvPolynomial.PDeriv
 public import Mathlib.RingTheory.Derivation.MapCoeffs
+public import Mathlib.RingTheory.PolynomialAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monomial
 
 /-!
 # Bivariate polynomials

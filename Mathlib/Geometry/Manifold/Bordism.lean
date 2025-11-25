@@ -5,7 +5,13 @@ Authors: Michael Rothgang
 -/
 module
 
-public import Mathlib.Geometry.Manifold.Instances.Real
+public import Mathlib.RingTheory.Noetherian.Basic
+public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.Geometry.Manifold.IsManifold.InteriorBoundary
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
 
 /-!
 ## (Unoriented) bordism theory

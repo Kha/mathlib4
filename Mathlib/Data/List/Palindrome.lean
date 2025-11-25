@@ -5,7 +5,10 @@ Authors: Chris Wong
 -/
 module
 
-public import Mathlib.Data.List.Induction
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Induction
 
 /-!
 # Palindromes

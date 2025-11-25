@@ -5,9 +5,14 @@ Authors: Alex J. Best
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
-public import Mathlib.Algebra.Group.Action.Basic
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+public import Mathlib.Algebra.GroupWithZero.Defs
+public import Mathlib.Algebra.Group.Action.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Algebra.Group.Action.Basic
+import Mathlib.Algebra.Group.Action.Units
+import Mathlib.Algebra.GroupWithZero.Units.Basic
 
 /-!
 # Pointwise actions on sets in Pi types

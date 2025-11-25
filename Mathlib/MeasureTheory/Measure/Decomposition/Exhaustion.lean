@@ -6,6 +6,14 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.SFinite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Method of exhaustion

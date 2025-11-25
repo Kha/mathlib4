@@ -5,8 +5,9 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteProducts
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 /-!
 
 # Functor categories have finite limits when the target category does

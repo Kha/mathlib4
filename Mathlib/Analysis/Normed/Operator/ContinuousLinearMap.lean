@@ -5,10 +5,15 @@ Authors: Jan-David Salchow, Sébastien Gouëzel, Jean Lo
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Uniform
-public import Mathlib.Analysis.Normed.MulAction
 public import Mathlib.LinearAlgebra.DFinsupp
 public import Mathlib.Topology.Algebra.Module.Equiv
+public import Mathlib.Topology.MetricSpace.Algebra
+public import Mathlib.Topology.MetricSpace.Antilipschitz
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Ring.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.MulAction
+import Mathlib.Analysis.Normed.Group.Uniform
 
 /-! # Constructions of continuous linear maps between (semi-)normed spaces
 

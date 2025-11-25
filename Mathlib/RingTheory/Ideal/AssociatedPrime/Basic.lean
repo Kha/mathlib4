@@ -6,10 +6,13 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Exact
-public import Mathlib.LinearAlgebra.Span.Basic
 public import Mathlib.RingTheory.Ideal.IsPrimary
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 

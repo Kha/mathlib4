@@ -5,9 +5,33 @@ Authors: Yury Kudryashov, Patrick Massot, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-public import Mathlib.MeasureTheory.Topology
+public import Mathlib.Topology.DiscreteSubset
+public import Mathlib.Topology.Instances.RealVectorSpace
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.MeasureTheory.Topology
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
+import Mathlib.Algebra.Order.Interval.Set.Group
 
 /-!
 # Integral over an interval

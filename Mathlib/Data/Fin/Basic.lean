@@ -5,10 +5,15 @@ Authors: Robert Y. Lewis, Keeley Hoek
 -/
 module
 
-public import Mathlib.Data.Int.DivMod
-public import Mathlib.Order.Lattice
 public import Mathlib.Tactic.Common
 public import Batteries.Data.Fin.Basic
+public import Mathlib.Data.Nat.Basic
+public import Mathlib.Logic.Equiv.Defs
+import Mathlib.Order.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.DivMod
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # The finite type with `n` elements

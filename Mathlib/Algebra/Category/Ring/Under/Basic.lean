@@ -6,8 +6,12 @@ Authors: Christian Merten
 module
 
 public import Mathlib.Algebra.Category.Ring.Colimits
-public import Mathlib.Algebra.Category.Ring.Constructions
 public import Mathlib.CategoryTheory.Comma.Over.Pullback
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.RingTheory.TensorProduct.Maps
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Ring.Constructions
 
 /-!
 # Under `CommRingCat`

@@ -6,8 +6,10 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.RingTheory.Jacobson.Radical
-public import Mathlib.RingTheory.Nilpotent.Defs
 public import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 # Semiprimary rings

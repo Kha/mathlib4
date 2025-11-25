@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Right-angled triangles

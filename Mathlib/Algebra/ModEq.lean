@@ -5,12 +5,19 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Field.Basic
 public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
-public import Mathlib.Algebra.GroupWithZero.Action.Defs
-public import Mathlib.Data.Int.Cast.Lemmas
 public import Mathlib.Data.Int.ModEq
-public import Mathlib.GroupTheory.QuotientGroup.Defs
+public import Mathlib.Algebra.CharZero.Defs
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.GroupTheory.Coset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.GroupTheory.QuotientGroup.Defs
+import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Algebra.GroupWithZero.Action.Defs
+import Mathlib.Data.Int.Cast.Lemmas
 
 /-!
 # Equality modulo an element

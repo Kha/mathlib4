@@ -5,7 +5,15 @@ Authors: Kexing Ying, Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.Disintegration.Integral
+public import Mathlib.Topology.GDelta.MetrizableSpace
+public import Mathlib.Probability.Kernel.Disintegration.StandardBorel
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Probability.Kernel.Disintegration.Integral
 
 /-!
 # Uniqueness of the conditional kernel

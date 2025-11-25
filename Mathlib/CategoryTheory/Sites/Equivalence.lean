@@ -7,8 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.Sites.DenseSubsite.InducedTopology
 public import Mathlib.CategoryTheory.Sites.LocallyBijective
-public import Mathlib.CategoryTheory.Sites.PreservesLocallyBijective
-public import Mathlib.CategoryTheory.Sites.Whiskering
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Sites.PreservesLocallyBijective
 /-!
 # Equivalences of sheaf categories
 

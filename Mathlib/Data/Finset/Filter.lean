@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Finset.Empty
 public import Mathlib.Data.Multiset.Filter
+public import Mathlib.Data.Set.Pairwise.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Filtering a finite set

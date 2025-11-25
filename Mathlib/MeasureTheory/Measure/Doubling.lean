@@ -5,8 +5,15 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Log.Base
 public import Mathlib.MeasureTheory.Measure.MeasureSpaceDef
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.SpecialFunctions.Log.Base
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Uniformly locally doubling measures

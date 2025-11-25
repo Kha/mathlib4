@@ -7,8 +7,13 @@ module
 
 public import Mathlib.Algebra.Category.CommAlgCat.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Comma
-public import Mathlib.RingTheory.FinitePresentation
 public import Mathlib.RingTheory.RingHomProperties
+public import Mathlib.CategoryTheory.EssentiallySmall
+public import Mathlib.RingTheory.FiniteType
+public import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.RingTheory.FinitePresentation
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-!
 # The category of finitely generated `R`-algebras

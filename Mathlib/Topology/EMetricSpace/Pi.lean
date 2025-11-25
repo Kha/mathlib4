@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.EMetricSpace.Basic
 public import Mathlib.Topology.UniformSpace.Pi
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Indexed product of extended metric spaces

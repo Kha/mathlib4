@@ -8,6 +8,10 @@ module
 public import Mathlib.CategoryTheory.Limits.Shapes.Preorder.WellOrderContinuous
 public import Mathlib.CategoryTheory.Limits.Shapes.Preorder.HasIterationOfShape
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Comma
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 
 /-!
 # Preservation of well order continuous functors

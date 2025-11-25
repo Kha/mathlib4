@@ -5,9 +5,10 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Kernel pairs

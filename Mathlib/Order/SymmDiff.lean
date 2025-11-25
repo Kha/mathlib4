@@ -6,7 +6,10 @@ Authors: Adam Topaz, Bryan Gin-ge Chen, Yaël Dillies
 module
 
 public import Mathlib.Order.BooleanAlgebra.Basic
-public import Mathlib.Logic.Equiv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Logic.Equiv.Basic
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Symmetric difference and bi-implication

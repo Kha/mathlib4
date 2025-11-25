@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Adjunction.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Adjunctions with a parameter

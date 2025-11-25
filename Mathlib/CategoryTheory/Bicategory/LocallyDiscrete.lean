@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Discrete.Basic
 public import Mathlib.CategoryTheory.Bicategory.Strict.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Locally discrete bicategories

@@ -6,7 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Stalk
-public import Mathlib.Geometry.RingedSpace.LocallyRingedSpace.ResidueField
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Geometry.RingedSpace.LocallyRingedSpace.ResidueField
 
 /-!
 

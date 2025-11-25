@@ -5,10 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
 public import Mathlib.Geometry.Manifold.IsManifold.Basic
-public import Mathlib.Topology.Compactness.Paracompact
-public import Mathlib.Topology.Metrizable.Urysohn
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Topology.Metrizable.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Compactness.Paracompact
+import Mathlib.Topology.Metrizable.Urysohn
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-!
 # Metrizability of a σ-compact manifold

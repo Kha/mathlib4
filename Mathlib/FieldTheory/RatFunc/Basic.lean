@@ -5,10 +5,20 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.CharP.Algebra
 public import Mathlib.FieldTheory.RatFunc.Defs
 public import Mathlib.RingTheory.Polynomial.Content
-public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.RingTheory.PolynomialAlgebra
+public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.RingTheory.Algebraic.Defs
+import Mathlib.RingTheory.EuclideanDomain
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.RingTheory.Algebraic.Integral
 
 /-!
 # The field structure of rational functions

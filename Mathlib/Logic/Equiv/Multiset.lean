@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Multiset.Sort
 public import Mathlib.Logic.Equiv.List
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `Encodable` and `Denumerable` instances for `Multiset`

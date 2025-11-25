@@ -5,10 +5,55 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Calculus.SmoothSeries
-public import Mathlib.Analysis.Normed.Operator.Prod
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Calculus.SmoothSeries
+import Mathlib.Analysis.Complex.Convex
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Data.Int.Basic
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Analysis.Normed.Operator.Prod
+import Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Order.Group
 
 /-!
 # The two-variable Jacobi theta function

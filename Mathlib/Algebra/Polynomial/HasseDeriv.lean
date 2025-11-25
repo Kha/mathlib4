@@ -5,12 +5,22 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.BigOperators
 public import Mathlib.Algebra.Polynomial.Derivative
-public import Mathlib.Data.Nat.Choose.Cast
-public import Mathlib.Data.Nat.Choose.Vandermonde
-public import Mathlib.Tactic.Field
-public import Mathlib.Tactic.Positivity
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Cast
+import Mathlib.Data.Nat.Choose.Vandermonde
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Lemmas
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Hasse derivative of polynomials

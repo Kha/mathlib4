@@ -5,8 +5,10 @@ Authors: Damiano Testa
 -/
 module
 
-public meta import ImportGraph.Imports
-public meta import Mathlib.Tactic.MinImports
+public meta import Lean.Linter.Basic
+public import Mathlib.Tactic.MinImports
+public import Lean.Data.NameMap.Basic
+import Lean.Parser.Module
 
 /-! # The `minImports` linter
 

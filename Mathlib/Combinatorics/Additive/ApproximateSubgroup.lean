@@ -5,10 +5,21 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.Pointwise
 public import Mathlib.Combinatorics.Additive.CovBySMul
-public import Mathlib.Combinatorics.Additive.RuzsaCovering
-public import Mathlib.Combinatorics.Additive.SmallTripling
+public import Mathlib.Algebra.Group.Subgroup.Defs
+public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.Additive.RuzsaCovering
+import Mathlib.Combinatorics.Additive.SmallTripling
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Group.Subgroup.Pointwise
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Approximate subgroups

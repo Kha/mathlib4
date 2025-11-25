@@ -7,14 +7,21 @@ module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.Algebra.Algebra.Tower
-public import Mathlib.Algebra.GroupWithZero.Divisibility
 public import Mathlib.Algebra.MonoidAlgebra.Basic
-public import Mathlib.Algebra.MonoidAlgebra.NoZeroDivisors
-public import Mathlib.Algebra.MonoidAlgebra.Support
-public import Mathlib.Algebra.Regular.Pow
 public import Mathlib.Data.Finsupp.Antidiagonal
 public import Mathlib.Data.Finsupp.Order
-public import Mathlib.Order.SymmDiff
+public import Mathlib.Algebra.Group.Embedding
+public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MonoidAlgebra.NoZeroDivisors
+import Mathlib.Algebra.MonoidAlgebra.Support
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Algebra.Regular.Pow
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Multivariate polynomials

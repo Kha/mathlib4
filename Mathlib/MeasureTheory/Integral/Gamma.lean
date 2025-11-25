@@ -5,8 +5,19 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.PolarCoord
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+import Mathlib.Analysis.SpecialFunctions.PolarCoord
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integrals involving the Gamma function

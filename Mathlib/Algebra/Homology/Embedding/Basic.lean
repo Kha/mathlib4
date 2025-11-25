@@ -8,7 +8,13 @@ module
 public import Mathlib.Algebra.Homology.ComplexShape
 public import Mathlib.Algebra.Ring.Int.Defs
 public import Mathlib.Algebra.Group.Nat.Defs
-public import Mathlib.Tactic.ByContra
+public import Mathlib.Tactic.SimpRw
+public import Mathlib.Algebra.Group.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.ByContra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-! # Embeddings of complex shapes
 

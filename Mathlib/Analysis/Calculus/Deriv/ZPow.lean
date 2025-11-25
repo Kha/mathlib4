@@ -5,9 +5,24 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Pow
-public import Mathlib.Analysis.Calculus.Deriv.Inv
-public import Mathlib.Analysis.Calculus.Deriv.Shift
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.CompMul
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.Deriv.Shift
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Derivatives of `x ^ m`, `m : ℤ`

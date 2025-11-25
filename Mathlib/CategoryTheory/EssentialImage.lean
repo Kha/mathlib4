@@ -5,9 +5,10 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.NatIso
 public import Mathlib.CategoryTheory.ObjectProperty.ClosedUnderIsomorphisms
 public import Mathlib.CategoryTheory.ObjectProperty.FullSubcategory
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Essential image of a functor

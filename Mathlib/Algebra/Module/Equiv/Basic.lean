@@ -15,6 +15,8 @@ public import Mathlib.Algebra.Module.LinearMap.Basic
 public import Mathlib.Algebra.Module.LinearMap.End
 public import Mathlib.Algebra.Module.Pi
 public import Mathlib.Algebra.Module.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Further results on (semi)linear equivalences.

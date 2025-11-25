@@ -5,8 +5,24 @@ Authors: P. Michael Kielstra
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Tactic.Field
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The trapezoidal rule

@@ -5,7 +5,15 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Combinatorics.SimpleGraph.Regularity.Increment
+public import Mathlib.Combinatorics.SimpleGraph.Regularity.Bound
+public import Mathlib.Combinatorics.SimpleGraph.Regularity.Energy
+public import Mathlib.Combinatorics.SimpleGraph.Regularity.Uniform
+import Mathlib.Order.Iterate
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Combinatorics.SimpleGraph.Regularity.Increment
+import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Szemerédi's Regularity Lemma

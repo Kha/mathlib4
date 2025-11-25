@@ -5,8 +5,14 @@ Authors: Junyan Xu, Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.HopkinsLevitzki
 public import Mathlib.RingTheory.Jacobson.Ring
+public import Mathlib.RingTheory.KrullDimension.Basic
+import Mathlib.RingTheory.HopkinsLevitzki
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.KrullDimension.Zero
+import Mathlib.RingTheory.Spectrum.Prime.Noetherian
 
 /-!
 # Artinian rings over Jacobson rings

@@ -5,10 +5,15 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.LinearAlgebra.Charpoly.ToMatrix
-public import Mathlib.LinearAlgebra.Determinant
 public import Mathlib.RingTheory.TensorProduct.Finite
-public import Mathlib.LinearAlgebra.TensorProduct.Tower
+public import Mathlib.LinearAlgebra.Charpoly.Basic
+public import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.Charpoly.ToMatrix
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 
 /-! # The characteristic polynomial of base change -/

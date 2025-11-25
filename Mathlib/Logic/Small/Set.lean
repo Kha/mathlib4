@@ -5,8 +5,12 @@ Authors: Markus Himmel, Timothy Carlin-Burns
 -/
 module
 
-public import Mathlib.Data.Set.Lattice
-public import Mathlib.Logic.Small.Basic
+public import Mathlib.Order.SetNotation
+public import Mathlib.Logic.Small.Defs
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.NAry
+import Mathlib.Logic.Equiv.Set
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Results about `Small` on coerced sets

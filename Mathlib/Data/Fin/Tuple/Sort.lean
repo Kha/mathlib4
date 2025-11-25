@@ -5,11 +5,13 @@ Authors: Kyle Miller
 -/
 module
 
-public import Mathlib.Algebra.Group.End
 public import Mathlib.Data.Finset.Sort
-public import Mathlib.Data.Fintype.Sum
 public import Mathlib.Data.Prod.Lex
-public import Mathlib.Order.Interval.Finset.Fin
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.End
+import Mathlib.Data.Fintype.Sum
+import Mathlib.Data.List.OfFn
+import Mathlib.Order.Interval.Finset.Fin
 
 /-!
 

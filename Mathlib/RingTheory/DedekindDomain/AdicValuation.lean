@@ -5,12 +5,21 @@ Authors: María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.IsNonarchimedean
 public import Mathlib.Data.Int.WithZero
 public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
 public import Mathlib.RingTheory.Valuation.ExtendToLocalization
 public import Mathlib.Topology.Algebra.Valued.ValuedField
 public import Mathlib.Topology.Algebra.Valued.WithVal
+public import Mathlib.Algebra.Order.Group.Int
+public import Mathlib.Algebra.Order.Monoid.TypeTags
+public import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Algebra.Order.Ring.IsNonarchimedean
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Adic valuations on Dedekind domains

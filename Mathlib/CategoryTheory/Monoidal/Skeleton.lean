@@ -9,6 +9,7 @@ public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
 public import Mathlib.CategoryTheory.Monoidal.Transport
 public import Mathlib.CategoryTheory.Skeletal
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The monoid on the skeleton of a monoidal category

@@ -6,6 +6,7 @@ Authors: Alex Keizer
 module
 
 public import Mathlib.Data.Vector.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
   This file establishes a `snoc : Vector α n → α → Vector α (n+1)` operation, that appends a single

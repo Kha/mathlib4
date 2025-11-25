@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Notation.Indicator
 public import Mathlib.Topology.Separation.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Pointwise convergence of indicator functions

@@ -5,7 +5,14 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public meta import Mathlib.Data.Real.Sqrt
+public meta import Batteries.Data.Nat.Basic
+public import Mathlib.Algebra.GroupWithZero.Invertible
+public import Mathlib.Data.Real.Sqrt
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Invertible
+import Mathlib.Data.Rat.Cast.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-! # `norm_num` extension for `Real.sqrt`
 

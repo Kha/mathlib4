@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Topology.Algebra.Module.Multilinear.Topology
 public import Mathlib.Topology.Algebra.Module.Alternating.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Coherent
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Topology.Algebra.SeparationQuotient.Section
 
 /-!
 # Topology on continuous alternating maps

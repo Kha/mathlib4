@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Idempotent
 public import Mathlib.Algebra.GroupWithZero.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Idempotent elements of a group with zero

@@ -8,7 +8,8 @@ module
 public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.DirectSum.Finsupp
 public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
-public import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bases and dimensionality of tensor products of modules

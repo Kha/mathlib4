@@ -6,8 +6,38 @@ Authors: Xavier Roblot
 module
 
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.FundamentalCone
-public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.PolarCoord
 public import Mathlib.NumberTheory.NumberField.Units.Regulator
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.NoZeroSMulDivisors.Pi
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.MeasureTheory.Function.Jacobian
+import Mathlib.MeasureTheory.Integral.Marginal
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.PolarCoord
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Fundamental Cone: set of elements of norm ≤ 1

@@ -5,7 +5,14 @@ Authors: Rémy Degenne, Etienne Marion
 -/
 module
 
-public import Mathlib.Probability.Independence.Integration
+public import Mathlib.Probability.Notation
+public import Mathlib.Probability.Independence.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Probability.Independence.Integrable
+import Mathlib.Probability.Independence.Integration
+import Mathlib.MeasureTheory.Function.LpSeminorm.Prod
 
 /-!
 # Covariance

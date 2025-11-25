@@ -5,10 +5,26 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.FieldTheory.Finiteness
 public import Mathlib.LinearAlgebra.AffineSpace.Basis
 public import Mathlib.LinearAlgebra.AffineSpace.Simplex.Basic
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Group.Pointwise.Set.Finite
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Finite-dimensional subspaces of affine spaces.

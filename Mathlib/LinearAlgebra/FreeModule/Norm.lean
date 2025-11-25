@@ -5,10 +5,17 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.FreeModule.IdealQuotient
-public import Mathlib.RingTheory.AdjoinRoot
 public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.Algebra.Polynomial.FieldDivision
+public import Mathlib.LinearAlgebra.FreeModule.PID
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.IdealQuotient
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Norms on free modules over principal ideal domains

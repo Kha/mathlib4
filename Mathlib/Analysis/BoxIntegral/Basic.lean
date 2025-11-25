@@ -7,10 +7,16 @@ module
 
 public import Mathlib.Analysis.BoxIntegral.Partition.Filter
 public import Mathlib.Analysis.BoxIntegral.Partition.Measure
-public import Mathlib.Analysis.Oscillation
-public import Mathlib.Data.Bool.Basic
-public import Mathlib.MeasureTheory.Measure.Real
-public import Mathlib.Topology.UniformSpace.Compact
+import Mathlib.Analysis.Oscillation
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # Integrals of Riemann, Henstock-Kurzweil, and McShane

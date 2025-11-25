@@ -6,10 +6,23 @@ Authors: Weiyi Wang
 module
 
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
-public import Mathlib.Algebra.Order.Module.Archimedean
 public import Mathlib.Algebra.Order.Monoid.PNat
 public import Mathlib.Data.Sign.Defs
 public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.Algebra.Group.Int.Units
+public import Mathlib.Algebra.Order.Archimedean.Class
+public import Mathlib.Algebra.Order.Group.Defs
+public import Mathlib.Algebra.Order.Module.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Module.Archimedean
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Data.Rat.Cast.Lemmas
 
 /-!
 # Divisible Hull of an abelian group

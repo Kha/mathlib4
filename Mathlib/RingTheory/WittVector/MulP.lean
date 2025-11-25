@@ -6,6 +6,11 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.RingTheory.WittVector.IsPoly
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.Notation
+import Mathlib.RingTheory.MvPolynomial.Basic
+import Mathlib.Tactic.Attr.Register
 
 /-!
 ## Multiplication by `n` in the ring of Witt vectors

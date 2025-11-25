@@ -7,9 +7,13 @@ module
 
 public import Mathlib.Algebra.Field.Basic
 public import Mathlib.Algebra.Order.Field.Canonical
-public import Mathlib.Algebra.Order.Nonneg.Ring
 public import Mathlib.Algebra.Order.Positive.Ring
-public import Mathlib.Data.Nat.Cast.Order.Ring
+public import Mathlib.Algebra.Order.Nonneg.Basic
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Nonneg.Ring
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Semifield structure on the type of nonnegative elements

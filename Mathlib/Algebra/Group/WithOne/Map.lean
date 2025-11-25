@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.WithOne.Defs
 public import Mathlib.Data.Option.NAry
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Adjoining a zero/one to semigroups and mapping

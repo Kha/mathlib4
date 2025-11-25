@@ -5,8 +5,18 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
-public import Mathlib.Analysis.Calculus.FDeriv.Comp
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Fréchet Derivative of `f x ^ n`, `n : ℕ`

@@ -6,10 +6,12 @@ Authors: Antoine Chambert-Loir
 module
 
 public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.LinearAlgebra.Dual.Basis
-public import Mathlib.LinearAlgebra.Matrix.Dual
-public import Mathlib.LinearAlgebra.GeneralLinearGroup
-public import Mathlib.LinearAlgebra.Charpoly.BaseChange
+public import Mathlib.LinearAlgebra.Matrix.SpecialLinearGroup
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Charpoly.BaseChange
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 
 /-!
 # The special linear group of a module

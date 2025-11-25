@@ -5,9 +5,25 @@ Authors: Yaël Dillies, Kexing Ying
 -/
 module
 
-public import Mathlib.Analysis.Normed.Order.UpperLower
-public import Mathlib.MeasureTheory.Covering.BesicovitchVectorSpace
-public import Mathlib.Topology.Order.DenselyOrdered
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Covering.BesicovitchVectorSpace
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.UpperLower
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Order-connected sets are null-measurable

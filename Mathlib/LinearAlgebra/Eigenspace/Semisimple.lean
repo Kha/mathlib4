@@ -7,6 +7,11 @@ module
 
 public import Mathlib.LinearAlgebra.Eigenspace.Basic
 public import Mathlib.LinearAlgebra.Semisimple
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.RingTheory.Nilpotent.Lemmas
 
 /-!
 # Eigenspaces of semisimple linear endomorphisms

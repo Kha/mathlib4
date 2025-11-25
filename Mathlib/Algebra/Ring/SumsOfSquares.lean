@@ -6,10 +6,12 @@ Authors: Florent Schaffhauser, Artie Khovanov
 module
 
 public import Mathlib.Algebra.Group.Subgroup.Even
-public import Mathlib.Algebra.Order.Ring.Basic
-public import Mathlib.Algebra.Ring.Parity -- Algebra.Group.Even can't prove `IsSquare 0` by simp
 public import Mathlib.Algebra.Ring.Subsemiring.Basic
-public import Mathlib.Tactic.ApplyFun
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Ring.Basic
 
 /-!
 # Sums of squares

@@ -5,10 +5,16 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Spectrum.Quasispectrum
-public import Mathlib.Topology.ContinuousMap.Compact
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unital
-public import Mathlib.Topology.UniformSpace.CompactConvergence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Algebra.Group.Commute.Hom
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The continuous functional calculus for non-unital algebras

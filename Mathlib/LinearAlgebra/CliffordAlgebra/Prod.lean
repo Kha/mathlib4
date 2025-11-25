@@ -8,6 +8,10 @@ module
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Grading
 public import Mathlib.LinearAlgebra.TensorProduct.Graded.Internal
 public import Mathlib.LinearAlgebra.QuadraticForm.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # Clifford algebras of a direct sum of two vector spaces

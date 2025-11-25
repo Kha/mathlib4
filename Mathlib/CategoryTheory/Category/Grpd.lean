@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.SingleObj
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Category of groupoids

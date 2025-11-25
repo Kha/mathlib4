@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Degenerate
 public import Mathlib.AlgebraicTopology.SimplicialSet.Nerve
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The nondegenerate simplices in the nerve of a partially ordered type

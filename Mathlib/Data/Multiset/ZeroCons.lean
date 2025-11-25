@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Data.Multiset.Defs
 public import Mathlib.Order.BoundedOrder.Basic
+public import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Perm.Subperm
 
 /-!
 # Definition of `0` and `::ₘ`

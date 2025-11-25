@@ -5,12 +5,18 @@ Authors: Ellen Arlt, Blair Shi, Sean Leather, Mario Carneiro, Johan Commelin, Lu
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Opposite
 public import Mathlib.Algebra.Algebra.Pi
-public import Mathlib.Algebra.BigOperators.RingEquiv
-public import Mathlib.Data.Finite.Prod
 public import Mathlib.Data.Matrix.Mul
 public import Mathlib.LinearAlgebra.Pi
+public import Mathlib.Data.Fintype.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.RingEquiv
+import Mathlib.Data.Finite.Prod
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Matrices

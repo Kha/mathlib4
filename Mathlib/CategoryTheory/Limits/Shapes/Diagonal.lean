@@ -7,8 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.Comma.Over.Pullback
 public import Mathlib.CategoryTheory.Limits.Shapes.KernelPair
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Assoc
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # The diagonal object of a morphism.

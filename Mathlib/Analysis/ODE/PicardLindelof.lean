@@ -5,9 +5,37 @@ Authors: Yury Kudryashov, Winston Yin
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Topology.Algebra.Order.Floor
 public import Mathlib.Topology.MetricSpace.Contracting
+public import Mathlib.Topology.ContinuousMap.Compact
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Order.ProjIcc
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.RCLike
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Order.Floor
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Picard-Lindelöf (Cauchy-Lipschitz) Theorem

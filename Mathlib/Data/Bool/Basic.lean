@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Logic.Basic
 public import Mathlib.Order.Defs.LinearOrder
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Booleans

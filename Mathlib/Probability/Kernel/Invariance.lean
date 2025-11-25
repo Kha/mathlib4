@@ -6,6 +6,7 @@ Authors: Kexing Ying, Matteo Cipollina
 module
 
 public import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Invariance of measures along a kernel

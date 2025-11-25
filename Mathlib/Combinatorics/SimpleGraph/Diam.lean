@@ -6,6 +6,11 @@ Authors: Rida Hamadani
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Metric
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
 
 /-!
 # Diameter of a simple graph

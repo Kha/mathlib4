@@ -6,8 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.Embedding.Extend
-public import Mathlib.Algebra.Homology.Embedding.IsSupported
-public import Mathlib.Algebra.Homology.QuasiIso
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homology of the extension of an homological complex

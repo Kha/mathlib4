@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Discrete.Basic
 public import Mathlib.CategoryTheory.Sums.Basic
-public import Mathlib.CategoryTheory.Products.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Prod.Basic
 
 /-! # Sums and products of discrete categories.
 

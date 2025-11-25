@@ -6,10 +6,14 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Galois.Basic
-public import Mathlib.CategoryTheory.Limits.FintypeCat
 public import Mathlib.CategoryTheory.Limits.Preserves.Limits
 public import Mathlib.CategoryTheory.Limits.Shapes.SingleObj
-public import Mathlib.GroupTheory.GroupAction.Basic
+public import Mathlib.Algebra.Group.Action.Pretransitive
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Group.TransferInstance
+import Mathlib.CategoryTheory.Limits.FintypeCat
+import Mathlib.GroupTheory.GroupAction.Basic
 
 /-!
 # Galois objects in Galois categories

@@ -9,6 +9,10 @@ public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.Star.Module
 public import Mathlib.Algebra.Star.NonUnitalSubalgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Star.Center
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Star subalgebras

@@ -10,8 +10,10 @@ public import Mathlib.Algebra.Category.Semigrp.Basic
 public import Mathlib.Algebra.FreeMonoid.Basic
 public import Mathlib.Algebra.Group.WithOne.Basic
 public import Mathlib.Data.Finsupp.Basic
-public import Mathlib.Data.Finsupp.SMulWithZero
 public import Mathlib.CategoryTheory.Adjunction.Basic
+public import Mathlib.Algebra.Group.Nat.Hom
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.Data.Finsupp.SMulWithZero
 
 /-!
 # Adjunctions regarding the category of monoids

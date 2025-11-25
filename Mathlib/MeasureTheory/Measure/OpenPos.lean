@@ -8,6 +8,12 @@ module
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.MeasureTheory.Measure.Typeclasses.NoAtoms
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.DenselyOrdered
 
 /-!
 # Measures positive on nonempty opens

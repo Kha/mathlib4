@@ -5,9 +5,17 @@ Authors: Mario Carneiro, Kenny Lau
 -/
 module
 
-public import Mathlib.Data.List.Forall2
-public import Mathlib.Data.Nat.Basic
-public import Mathlib.Order.Basic
+public import Mathlib.Logic.Relator
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.List.Defs
+public import Mathlib.Logic.Function.Basic
+import Mathlib.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Forall2
+import Mathlib.Data.Nat.Basic
 
 /-!
 # Lists with no duplicates

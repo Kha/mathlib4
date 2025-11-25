@@ -5,10 +5,15 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Algebra.CharP.Defs
 public import Mathlib.Algebra.Group.EvenFunction
 public import Mathlib.Data.Int.Interval
-public import Mathlib.Tactic.Zify
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Sums/products over integer intervals

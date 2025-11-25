@@ -7,7 +7,8 @@ module
 
 public import Mathlib.RingTheory.LocalProperties.Basic
 public import Mathlib.RingTheory.Smooth.StandardSmooth
-public import Mathlib.Tactic.Algebraize
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Standard smooth ring homomorphisms

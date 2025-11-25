@@ -5,8 +5,13 @@ Authors: Andrew Yang, Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Elementwise
 public import Mathlib.Data.Set.Lattice.Image
+public import Mathlib.CategoryTheory.Types.Basic
+public import Mathlib.Data.Set.Image
+public import Mathlib.Data.Set.Lattice
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

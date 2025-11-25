@@ -6,8 +6,27 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Algebra.Defs
-public import Mathlib.Algebra.Order.Nonneg.Module
 public import Mathlib.Data.Real.Archimedean
+public import Mathlib.Logic.Equiv.Set
+public import Mathlib.Algebra.Order.Module.Defs
+public import Mathlib.Algebra.Order.Nonneg.Field
+public import Mathlib.Algebra.Order.Nonneg.Ring
+public import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Nonneg.Module
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Nonnegative real numbers

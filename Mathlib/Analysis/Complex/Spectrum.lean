@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Spectrum.Quasispectrum
 public import Mathlib.Analysis.Complex.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Some lemmas on the spectrum and quasispectrum of elements and positivity on `ℂ`

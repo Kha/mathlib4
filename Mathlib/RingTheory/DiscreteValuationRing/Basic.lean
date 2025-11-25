@@ -6,11 +6,20 @@ Authors: Kevin Buzzard
 module
 
 public import Mathlib.RingTheory.AdicCompletion.Basic
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
-public import Mathlib.RingTheory.LocalRing.RingHom.Basic
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Basic
 public import Mathlib.RingTheory.Valuation.PrimeMultiplicity
 public import Mathlib.RingTheory.Valuation.ValuationRing
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.RingTheory.Noetherian.UniqueFactorizationDomain
+import Mathlib.RingTheory.UniqueFactorizationDomain.Basic
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
 
 /-!
 # Discrete valuation rings

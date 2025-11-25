@@ -5,10 +5,18 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-public import Mathlib.NumberTheory.EulerProduct.Basic
+public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.NumberTheory.EulerProduct.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+import Mathlib.Topology.Algebra.InfiniteSum.Group
 
 /-!
 # Logarithms of Euler Products

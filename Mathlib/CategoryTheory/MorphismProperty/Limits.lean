@@ -6,10 +6,12 @@ Authors: Andrew Yang, Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Limits.Final
-public import Mathlib.CategoryTheory.Limits.Connected
-public import Mathlib.CategoryTheory.Filtered.Connected
 public import Mathlib.CategoryTheory.Limits.Shapes.Diagonal
-public import Mathlib.CategoryTheory.MorphismProperty.Composition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Filtered.Connected
+import Mathlib.CategoryTheory.Limits.Connected
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Relation of morphism properties with limits

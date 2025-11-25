@@ -6,8 +6,14 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Order.Nonneg.Field
-public import Mathlib.Data.Rat.Cast.Defs
-public import Mathlib.Tactic.Positivity.Basic
+public import Mathlib.Algebra.Field.Rat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Rat.Cast.Defs
 
 /-!
 # Some exiled lemmas about casting

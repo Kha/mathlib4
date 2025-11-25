@@ -6,9 +6,33 @@ Authors: David Loeffler
 module
 
 public import Mathlib.NumberTheory.LSeries.AbstractFuncEq
-public import Mathlib.NumberTheory.ModularForms.JacobiTheta.Bounds
-public import Mathlib.NumberTheory.LSeries.MellinEqDirichlet
 public import Mathlib.NumberTheory.LSeries.Basic
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Deligne
+public import Mathlib.NumberTheory.ModularForms.JacobiTheta.TwoVariable
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Sign.Basic
+import Mathlib.NumberTheory.LSeries.MellinEqDirichlet
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.NumberTheory.ModularForms.JacobiTheta.Bounds
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Odd Hurwitz zeta functions

@@ -6,6 +6,11 @@ Authors: Chris Hughes, Michael Stoll
 module
 
 public import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic
+public import Mathlib.Algebra.Field.ZMod
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Legendre symbol

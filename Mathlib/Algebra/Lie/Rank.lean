@@ -6,9 +6,11 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Lie.EngelSubalgebra
-public import Mathlib.Algebra.Lie.OfAssociative
 public import Mathlib.Algebra.Module.LinearMap.Polynomial
-public import Mathlib.LinearAlgebra.Eigenspace.Zero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Eigenspace.Zero
+import Mathlib.RingTheory.LocalRing.Basic
 
 /-!
 # Rank of a Lie algebra and regular elements

@@ -5,7 +5,27 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # Integrals against peak functions

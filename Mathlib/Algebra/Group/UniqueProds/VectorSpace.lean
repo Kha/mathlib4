@@ -6,7 +6,11 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Group.UniqueProds.Basic
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.Ring.Rat
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Rat
+import Mathlib.LinearAlgebra.Basis.VectorSpace
 
 /-!
 # A `ℚ`-vector space has `TwoUniqueSums`.

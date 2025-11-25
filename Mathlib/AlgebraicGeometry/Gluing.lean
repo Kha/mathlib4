@@ -8,6 +8,9 @@ module
 public import Mathlib.AlgebraicGeometry.Restrict
 public import Mathlib.CategoryTheory.LocallyDirected
 public import Mathlib.Geometry.RingedSpace.PresheafedSpace.Gluing
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.Topology.Category.TopCat.Adjunctions
 
 /-!
 # Gluing Schemes

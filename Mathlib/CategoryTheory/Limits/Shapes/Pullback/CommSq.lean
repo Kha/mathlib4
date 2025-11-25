@@ -5,10 +5,14 @@ Authors: Kim Morrison, Joël Riou, Calle Sönne
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Constructions.ZeroObjects
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryBiproducts
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Pasting
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Iso
+public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Pullbacks
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Constructions.ZeroObjects
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Iso
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Pasting
 
 /-!
 # Pullback and pushout squares, and bi-Cartesian squares

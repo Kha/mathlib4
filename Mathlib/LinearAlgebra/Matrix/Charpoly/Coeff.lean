@@ -6,12 +6,29 @@ Authors: Aaron Anderson, Jalex Stark
 module
 
 public import Mathlib.Algebra.Polynomial.Expand
-public import Mathlib.Algebra.Polynomial.Laurent
-public import Mathlib.Algebra.Polynomial.Eval.SMul
 public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
-public import Mathlib.LinearAlgebra.Matrix.Reindex
-public import Mathlib.LinearAlgebra.Matrix.SchurComplement
-public import Mathlib.RingTheory.Polynomial.Nilpotent
+public import Mathlib.Algebra.Polynomial.Inductions
+public import Mathlib.Algebra.Polynomial.Reverse
+public import Mathlib.RingTheory.Ideal.Defs
+public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Polynomial.Laurent
+import Mathlib.Algebra.Polynomial.RingDivision
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Matrix.DMatrix
+import Mathlib.LinearAlgebra.Matrix.SchurComplement
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.Nilpotent
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Characteristic polynomials

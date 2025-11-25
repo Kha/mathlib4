@@ -5,7 +5,12 @@ Authors: Damiano Testa
 -/
 module
 
-public meta import Mathlib.Algebra.Polynomial.Degree.Lemmas
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.NormNum.Core
+import Mathlib.Algebra.Polynomial.Degree.Lemmas
+import Mathlib.Data.Int.Cast.Lemmas
 
 /-!
 

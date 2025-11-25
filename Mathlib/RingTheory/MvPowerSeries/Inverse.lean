@@ -5,10 +5,13 @@ Authors: Johan Commelin, Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.Group.Units.Basic
 public import Mathlib.RingTheory.MvPowerSeries.Basic
-public import Mathlib.RingTheory.MvPowerSeries.NoZeroDivisors
-public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.RingTheory.LocalRing.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.MvPowerSeries.NoZeroDivisors
 
 /-!
 # Formal (multivariate) power series - Inverses

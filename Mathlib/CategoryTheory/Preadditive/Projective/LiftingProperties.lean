@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.Projective.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.LiftingProperty
+import Mathlib.Tactic.Lemma
 
 /-!
 # Characterization of projective objects in terms of lifting properties

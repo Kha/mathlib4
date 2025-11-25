@@ -6,9 +6,15 @@ Authors: Anatole Dedeker, Etienne Marion, Florestan Martin-Baillon, Vincent Guir
 module
 
 public import Mathlib.Topology.Algebra.Group.Quotient
-public import Mathlib.Topology.Algebra.MulAction
-public import Mathlib.Topology.Algebra.Group.Defs
-public import Mathlib.Topology.LocalAtTarget
+public import Mathlib.Topology.Maps.Proper.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.LocalAtTarget
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Topology.Maps.OpenQuotient
 
 /-!
 # Proper group action

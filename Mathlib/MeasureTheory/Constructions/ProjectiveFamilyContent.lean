@@ -8,6 +8,9 @@ module
 public import Mathlib.MeasureTheory.Constructions.Projective
 public import Mathlib.MeasureTheory.Measure.AddContent
 public import Mathlib.MeasureTheory.SetAlgebra
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Additive content built from a projective family of measures

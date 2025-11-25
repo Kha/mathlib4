@@ -6,8 +6,19 @@ Authors: Moritz Doll
 module
 
 public import Mathlib.Analysis.LocallyConvex.BalancedCoreHull
-public import Mathlib.Analysis.Convex.TotallyBounded
 public import Mathlib.Analysis.LocallyConvex.Bounded
+public import Mathlib.Topology.Algebra.Module.LocallyConvex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Analysis.Convex.TotallyBounded
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Algebra.Ring.Action.Pointwise.Set
 
 /-!
 # Absolutely convex sets

@@ -5,13 +5,26 @@ Authors: Johan Commelin, Jujian Zhang, Yongle Hu
 -/
 module
 
-public import Mathlib.Algebra.Colimit.TensorProduct
 public import Mathlib.Algebra.Module.Projective
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
-public import Mathlib.RingTheory.Finiteness.Small
 public import Mathlib.RingTheory.IsTensorProduct
-public import Mathlib.RingTheory.TensorProduct.Finite
-public import Mathlib.RingTheory.Adjoin.FGBaseChange
+public import Mathlib.Algebra.Exact
+public import Mathlib.Algebra.DirectSum.Module
+public import Mathlib.Algebra.Module.Shrink
+public import Mathlib.RingTheory.Adjoin.FG
+public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.LinearAlgebra.Isomorphisms
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.RestrictScalars
+import Mathlib.Algebra.Colimit.TensorProduct
+import Mathlib.LinearAlgebra.DirectSum.Finsupp
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.RingTheory.Adjoin.FGBaseChange
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Small
+import Mathlib.RingTheory.TensorProduct.Finite
 
 /-!
 # Flat modules

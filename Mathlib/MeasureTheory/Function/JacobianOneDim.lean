@@ -5,8 +5,29 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.MeasureTheory.Function.Jacobian
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Monotone
+import Mathlib.MeasureTheory.Function.Jacobian
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.DimOne
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Change of variable formulas for integrals in dimension 1

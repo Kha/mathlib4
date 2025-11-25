@@ -6,12 +6,17 @@ Authors: Johan Commelin, Kim Morrison
 module
 
 public import Mathlib.Algebra.Category.Ring.Colimits
-public import Mathlib.Algebra.Category.Ring.Instances
-public import Mathlib.Algebra.Category.Ring.Limits
-public import Mathlib.Algebra.Ring.Subring.Basic
-public import Mathlib.RingTheory.Localization.AtPrime.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
 public import Mathlib.Topology.Sheaves.LocalPredicate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Units
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Topology.Sheaves.Forget
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.Algebra.Category.Ring.Limits
+import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
 
 /-!
 # The structure sheaf on `PrimeSpectrum R`.

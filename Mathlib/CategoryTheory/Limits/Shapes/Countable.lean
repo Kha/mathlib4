@@ -8,7 +8,10 @@ module
 public import Mathlib.CategoryTheory.Limits.Final
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteProducts
 public import Mathlib.CategoryTheory.Countable
-public import Mathlib.Data.Countable.Defs
+import Batteries.Util.ProofWanted
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Small
+import Mathlib.Data.List.Chain
 /-!
 # Countable limits and colimits
 

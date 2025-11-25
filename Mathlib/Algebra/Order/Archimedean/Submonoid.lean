@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Defs
 public import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Submonoids of archimedean monoids

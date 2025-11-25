@@ -6,11 +6,21 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.BigOperators.Expect
-public import Mathlib.Algebra.Module.Rat
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.Module.Field
-public import Mathlib.Algebra.Order.Module.Rat
-public import Mathlib.Tactic.GCongr
+public import Mathlib.Tactic.NormNum.Basic
+public meta import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Algebra.Order.Module.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.NNRat.Order
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Algebra.Order.Module.Rat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Order properties of the average over a finset

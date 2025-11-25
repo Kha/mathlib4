@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Order.GroupWithZero.Canonical
 public import Mathlib.Algebra.Order.Hom.Monoid
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Equiv
+import Mathlib.Algebra.Order.Group.Units
 
 /-!
 # Ordered monoid and group homomorphisms

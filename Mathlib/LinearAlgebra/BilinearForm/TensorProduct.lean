@@ -7,8 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.BilinearForm.Hom
 public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.TensorProduct.Tower
-public import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.RingTheory.TensorProduct.Finite
 
 /-!
 # The bilinear form on a tensor product

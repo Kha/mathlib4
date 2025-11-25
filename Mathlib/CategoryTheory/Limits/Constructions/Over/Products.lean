@@ -6,6 +6,7 @@ Authors: Johan Commelin, Reid Barton, Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+import Mathlib.Tactic.Lemma
 
 /-!
 # Products in the over category

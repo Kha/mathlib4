@@ -5,8 +5,9 @@ Authors: Matteo Cipollina
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Combinatorics.Quiver.Path
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Path Decomposition and Boundary Crossing

@@ -8,6 +8,13 @@ module
 public import Mathlib.Topology.Bornology.Constructions
 public import Mathlib.Topology.MetricSpace.Pseudo.Defs
 public import Mathlib.Topology.UniformSpace.UniformEmbedding
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Products of pseudometric spaces and other constructions

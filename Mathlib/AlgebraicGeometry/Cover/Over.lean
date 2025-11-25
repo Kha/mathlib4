@@ -5,8 +5,13 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
-public import Mathlib.CategoryTheory.Limits.MorphismProperty
+public import Mathlib.AlgebraicGeometry.Over
+public import Mathlib.AlgebraicGeometry.Cover.MorphismProperty
+public import Mathlib.CategoryTheory.MorphismProperty.Comma
+import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.CategoryTheory.Limits.MorphismProperty
+import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.Over.Connected
 
 /-!
 

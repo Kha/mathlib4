@@ -6,6 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.LinearAlgebra.BilinearForm.Properties
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 

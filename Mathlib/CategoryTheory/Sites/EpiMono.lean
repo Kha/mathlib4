@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.MorphismProperty.Concrete
 public import Mathlib.CategoryTheory.Sites.LocallyBijective
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Morphisms of sheaves factor as a locally surjective followed by a locally injective morphism

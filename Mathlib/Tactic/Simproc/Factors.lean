@@ -5,9 +5,19 @@ Authors: Mario Carneiro, Eric Wieser
 -/
 module
 
-public meta import Mathlib.Data.Nat.Factors
-public meta import Mathlib.Tactic.NormNum.Prime
 import all Mathlib.Tactic.NormNum.Prime  -- for accessing `evalMinFac.core`
+public meta import Qq.Simp
+public import Mathlib.Data.Nat.Factors
+public import Mathlib.Tactic.NormNum.Result
+meta import Mathlib.Order.Basic
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.List.Chain
+meta import Mathlib.Data.Nat.Basic
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # `simproc` for `Nat.primeFactorsList`

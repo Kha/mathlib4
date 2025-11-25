@@ -5,7 +5,24 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Average
+public import Mathlib.MeasureTheory.Measure.Typeclasses.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Logic.Equiv.List
+import Mathlib.MeasureTheory.Integral.Average
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Bergelson's intersectivity lemma

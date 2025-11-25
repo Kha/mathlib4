@@ -6,7 +6,26 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.BoxIntegral.Box.Basic
-public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Order.Filter.Lift
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Induction on subboxes

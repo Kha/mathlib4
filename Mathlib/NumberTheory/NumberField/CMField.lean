@@ -7,7 +7,14 @@ module
 
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex
 public import Mathlib.NumberTheory.NumberField.Units.Regulator
-public import Mathlib.RingTheory.RootsOfUnity.Complex
+public import Mathlib.NumberTheory.NumberField.InfinitePlace.Ramification
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.GroupTheory.GroupAction.FixedPoints
+import Mathlib.RingTheory.RootsOfUnity.Complex
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # CM-extension of number fields

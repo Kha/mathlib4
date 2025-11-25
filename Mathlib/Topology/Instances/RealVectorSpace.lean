@@ -6,8 +6,10 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.Algebra.Module.Equiv
-public import Mathlib.Topology.Instances.Rat
-public import Mathlib.Algebra.Module.Rat
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Topology.Instances.Rat
 
 /-!
 # Continuous additive maps are `ℝ`-linear

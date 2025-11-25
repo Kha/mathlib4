@@ -9,6 +9,11 @@ public import Mathlib.Condensed.Discrete.Basic
 public import Mathlib.Condensed.TopComparison
 public import Mathlib.Topology.Category.CompHausLike.SigmaComparison
 public import Mathlib.Topology.FiberPartition
+public import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
 /-!
 
 # The sheaf of locally constant maps on `CompHausLike P`

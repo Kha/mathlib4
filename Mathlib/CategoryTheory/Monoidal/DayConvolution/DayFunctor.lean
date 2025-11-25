@@ -6,6 +6,7 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Monoidal.DayConvolution
+import Mathlib.Tactic.Lemma
 
 /-!
 # Day functors

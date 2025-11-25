@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Category.Ring.Basic
 public import Mathlib.Algebra.Ring.BooleanRing
 public import Mathlib.Order.Category.BoolAlg
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of Boolean rings

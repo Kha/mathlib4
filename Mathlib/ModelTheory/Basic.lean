@@ -5,7 +5,10 @@ Authors: Aaron Anderson, Jesse Michael Han, Floris van Doorn
 -/
 module
 
-public import Mathlib.SetTheory.Cardinal.Basic
+public import Mathlib.Data.Countable.Defs
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.SetTheory.Cardinal.Basic
 
 /-!
 # Basics on First-Order Structures

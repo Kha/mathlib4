@@ -6,6 +6,16 @@ Authors: Thomas Browning, Patrick Lutz
 module
 
 public import Mathlib.FieldTheory.IntermediateField.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Nonneg.Lattice
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Adjoining Elements to Fields

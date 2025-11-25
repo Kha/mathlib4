@@ -5,10 +5,17 @@ Authors: Richard Hill, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Abelian
 public import Mathlib.Algebra.Category.ModuleCat.Topology.Basic
-public import Mathlib.Algebra.Homology.ShortComplex.Abelian
-public import Mathlib.Algebra.Homology.ShortComplex.PreservesHomology
+public import Mathlib.LinearAlgebra.Quotient.Basic
+public import Mathlib.Algebra.Homology.ShortComplex.Homology
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Maps.OpenQuotient
+import Mathlib.Algebra.Category.ModuleCat.Abelian
+import Mathlib.Algebra.Homology.ShortComplex.Abelian
+import Mathlib.Algebra.Homology.ShortComplex.PreservesHomology
 
 /-!
 

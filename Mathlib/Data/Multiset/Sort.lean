@@ -8,7 +8,13 @@ module
 public import Mathlib.Data.List.Sort
 public import Mathlib.Data.Multiset.Range
 public import Mathlib.Util.Qq
-meta import Mathlib.Data.Multiset.Defs
+public meta import Mathlib.Data.Multiset.Defs
+import Mathlib.Control.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Data.List.Perm.Subperm
 
 /-!
 # Construct a sorted list from a multiset.

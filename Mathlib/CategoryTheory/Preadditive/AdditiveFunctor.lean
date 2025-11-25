@@ -6,9 +6,12 @@ Authors: Adam Topaz, Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Limits.ExactFunctor
-public import Mathlib.CategoryTheory.Limits.Preserves.Finite
-public import Mathlib.CategoryTheory.Preadditive.Biproducts
 public import Mathlib.CategoryTheory.Preadditive.FunctorCategory
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Preadditive.Biproducts
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Additive Functors

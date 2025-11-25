@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Algebra.Group.Commute.Defs
 public import Mathlib.Algebra.Opposites
-public import Mathlib.Tactic.Spread
+public import Mathlib.Logic.Function.Iterate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.Spread
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Definitions of group actions

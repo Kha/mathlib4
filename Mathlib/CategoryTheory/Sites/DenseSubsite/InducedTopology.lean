@@ -6,6 +6,8 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Sites.DenseSubsite.SheafEquiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Induced Topology

@@ -5,12 +5,24 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Fin
 public import Mathlib.Logic.Encodable.Pi
 public import Mathlib.MeasureTheory.Group.Measure
-public import Mathlib.MeasureTheory.MeasurableSpace.Pi
-public import Mathlib.MeasureTheory.Measure.Prod
-public import Mathlib.Topology.Constructions
+public import Mathlib.Data.Fintype.Option
+public import Mathlib.Data.Fintype.Sum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.BigOperators.Option
+import Mathlib.Algebra.BigOperators.WithTop
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.MeasureTheory.MeasurableSpace.Pi
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Order.Interval.Set.Pi
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Indexed product measures

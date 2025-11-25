@@ -6,8 +6,11 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Order.Antidiag.Prod
-public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Data.Multiset.NatAntidiagonal
+public import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Antidiagonals in ℕ × ℕ as finsets

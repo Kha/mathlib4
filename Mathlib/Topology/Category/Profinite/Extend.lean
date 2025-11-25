@@ -6,8 +6,11 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.Topology.Category.Profinite.AsLimit
-public import Mathlib.Topology.Category.Profinite.CofilteredLimit
-public import Mathlib.CategoryTheory.Filtered.Final
+public import Mathlib.CategoryTheory.Limits.Final
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Filtered.Final
+import Mathlib.Topology.Category.Profinite.CofilteredLimit
 /-!
 
 # Extending cones in `Profinite`

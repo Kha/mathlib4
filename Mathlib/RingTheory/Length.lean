@@ -6,10 +6,22 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Exact
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.LinearAlgebra.Dimension.Finite
 public import Mathlib.Order.KrullDimension
 public import Mathlib.RingTheory.FiniteLength
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.Finsupp.Pi
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 

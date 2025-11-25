@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Order.Archimedean.Basic
 public import Mathlib.Algebra.Order.Hom.Ring
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Rat.Cast.Defs
 
 /-!
 ### Uniqueness of ring homomorphisms to archimedean fields.

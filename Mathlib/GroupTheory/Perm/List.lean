@@ -8,6 +8,12 @@ module
 public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Data.List.Rotate
 public import Mathlib.GroupTheory.Perm.Support
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Dedup
+import Mathlib.Data.List.Induction
+import Mathlib.Data.List.Infix
+import Mathlib.Data.List.Nodup
 
 /-!
 # Permutations from a list

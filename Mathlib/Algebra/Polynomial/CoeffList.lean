@@ -5,9 +5,11 @@ Authors: Alex Meiburg
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Definitions
 public import Mathlib.Algebra.Polynomial.EraseLead
-public import Mathlib.Data.List.Range
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Lemmas
 
 /-!
 # A list of coefficients of a polynomial

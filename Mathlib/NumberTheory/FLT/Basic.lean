@@ -5,11 +5,30 @@ Authors: Kevin Buzzard, Yaël Dillies, Jineon Baek
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Int
 public import Mathlib.Algebra.GCDMonoid.Finset
 public import Mathlib.Algebra.GCDMonoid.Nat
-public import Mathlib.Algebra.Order.Ring.Abs
-public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.Ring.Rat
+public import Mathlib.Data.List.TFAE
+public import Mathlib.RingTheory.Coprime.Basic
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Field.Rat
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Algebra.Ring.Divisibility.Basic
 
 /-!
 # Statement of Fermat's Last Theorem

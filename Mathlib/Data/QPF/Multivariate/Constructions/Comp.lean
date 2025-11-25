@@ -5,8 +5,8 @@ Authors: Jeremy Avigad, Simon Hudon
 -/
 module
 
-public import Mathlib.Data.PFunctor.Multivariate.Basic
 public import Mathlib.Data.QPF.Multivariate.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The composition of QPFs is itself a QPF

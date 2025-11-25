@@ -5,7 +5,23 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
+import Mathlib.Order.Filter.AtTopBot.Map
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # The `arctan` function.

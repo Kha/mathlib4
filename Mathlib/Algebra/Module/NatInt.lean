@@ -6,7 +6,13 @@ Authors: Nathaniel Thomas, Jeremy Avigad, Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Module.Defs
-public import Mathlib.Data.Int.Cast.Lemmas
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Ring.Nat
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Cast.Lemmas
 
 /-!
 # Modules over `ℕ` and `ℤ`

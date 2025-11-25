@@ -5,12 +5,22 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Injective
-public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Connected
-public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Coseparator
 public import Mathlib.CategoryTheory.Preadditive.Injective.Preserves
-public import Mathlib.CategoryTheory.Preadditive.LiftToFinset
-public import Mathlib.CategoryTheory.Preadditive.Yoneda.Limits
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Basic
+public import Mathlib.CategoryTheory.Preadditive.Yoneda.Basic
+import Mathlib.CategoryTheory.Abelian.Exact
+import Mathlib.CategoryTheory.Adjunction.AdjointFunctorTheorems
+import Mathlib.CategoryTheory.Filtered.Connected
+import Mathlib.CategoryTheory.Generator.Preadditive
+import Mathlib.CategoryTheory.Preadditive.LiftToFinset
+import Mathlib.Algebra.Category.ModuleCat.Abelian
+import Mathlib.Algebra.Category.ModuleCat.Injective
+import Mathlib.Algebra.Category.ModuleCat.Limits
+import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Connected
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Coseparator
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
+import Mathlib.CategoryTheory.Preadditive.Yoneda.Limits
 
 /-!
 # The Gabriel-Popescu theorem

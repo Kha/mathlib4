@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Analysis.Convex.Between
 public import Mathlib.Data.List.Triplewise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Betweenness for lists of points.

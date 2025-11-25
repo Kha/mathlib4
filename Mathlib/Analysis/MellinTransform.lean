@@ -5,9 +5,36 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Calculus.ParametricIntegral
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # The Mellin transform
 

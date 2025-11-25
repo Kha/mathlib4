@@ -5,10 +5,13 @@ Authors: Benjamin Davidson
 -/
 module
 
-public import Mathlib.Algebra.Field.Opposite
-public import Mathlib.Algebra.Module.Opposite
 public import Mathlib.Algebra.Order.Archimedean.Basic
 public import Mathlib.Algebra.Ring.Periodic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Opposite
+import Mathlib.Algebra.Module.Opposite
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Periodic functions

@@ -8,8 +8,19 @@ module
 public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
 public import Mathlib.FieldTheory.Galois.Basic
 public import Mathlib.FieldTheory.KummerPolynomial
-public import Mathlib.LinearAlgebra.Eigenspace.Minpoly
-public import Mathlib.RingTheory.Norm.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Eigenspace.Minpoly
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Data.Nat.Factorization.Induction
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # Kummer Extensions

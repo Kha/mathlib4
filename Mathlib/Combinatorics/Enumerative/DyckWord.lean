@@ -7,8 +7,13 @@ module
 
 public import Batteries.Data.List.Count
 public import Mathlib.Combinatorics.Enumerative.Catalan
-public import Mathlib.Tactic.Positivity
-import Mathlib.Data.Tree.Basic
+public meta import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Dyck words

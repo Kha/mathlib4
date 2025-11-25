@@ -6,9 +6,10 @@ Authors: Floris van Doorn, Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Group.Nat.Defs
-public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Data.Nat.Bits
-public import Mathlib.Data.Nat.Basic
+import Mathlib.Logic.Basic
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Data.Nat.Basic
 
 /-! Lemmas about `size`. -/
 

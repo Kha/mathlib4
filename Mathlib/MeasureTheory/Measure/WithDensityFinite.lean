@@ -5,9 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.LinearAlgebra.FreeModule.Basic
 public import Mathlib.MeasureTheory.Measure.Decomposition.Exhaustion
 public import Mathlib.Probability.ConditionalProbability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.FreeModule.Basic
 
 /-!
 # s-finite measures can be written as `withDensity` of a finite measure

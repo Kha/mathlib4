@@ -5,8 +5,21 @@ Authors: Thomas Browning, Junyan Xu
 -/
 module
 
-public import Mathlib.Data.Fintype.Order
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+public import Mathlib.RingTheory.AlgebraTower
+public import Mathlib.Algebra.Polynomial.Splits
+public import Mathlib.FieldTheory.Minpoly.Field
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.Algebra.Algebra.Subalgebra.Directed
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Order
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.RingTheory.Adjoin.Field
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Extension of field embeddings

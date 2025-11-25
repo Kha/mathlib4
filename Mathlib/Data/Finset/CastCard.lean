@@ -6,7 +6,10 @@ Authors: Leonardo de Moura, Jeremy Avigad
 module
 
 public import Mathlib.Data.Finset.Card
-public import Mathlib.Data.Int.Cast.Basic
+public import Mathlib.Data.Int.Cast.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Cast.Basic
 
 /-!
 # Cardinality of a finite set and subtraction

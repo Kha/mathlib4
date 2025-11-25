@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Order.Interval.Set.ProjIcc
 public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Projection onto a closed interval

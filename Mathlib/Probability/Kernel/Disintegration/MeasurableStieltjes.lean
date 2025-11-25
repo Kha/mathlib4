@@ -7,8 +7,30 @@ module
 
 public import Mathlib.MeasureTheory.Measure.GiryMonad
 public import Mathlib.MeasureTheory.Measure.Stieltjes
-public import Mathlib.Analysis.Normed.Order.Lattice
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Measurable parametric Stieltjes functions

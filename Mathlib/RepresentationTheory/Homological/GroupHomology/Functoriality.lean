@@ -6,6 +6,8 @@ Authors: Amelia Livingston
 module
 
 public import Mathlib.RepresentationTheory.Homological.GroupHomology.LowDegree
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Functoriality of group homology

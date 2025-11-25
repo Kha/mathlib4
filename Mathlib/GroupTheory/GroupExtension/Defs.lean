@@ -5,8 +5,8 @@ Authors: Yudai Yamazaki
 -/
 module
 
-public import Mathlib.GroupTheory.GroupAction.ConjAct
 public import Mathlib.GroupTheory.SemidirectProduct
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Group Extensions

@@ -5,10 +5,20 @@ Authors: Mario Carneiro, Floris van Doorn, Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Divisibility
 public import Mathlib.Data.Nat.SuccPred
-public import Mathlib.Order.SuccPred.InitialSeg
 public import Mathlib.SetTheory.Ordinal.Basic
+public import Mathlib.Algebra.Divisibility.Basic
+public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Order.SuccPred.InitialSeg
+import Mathlib.SetTheory.Cardinal.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Ordinal arithmetic

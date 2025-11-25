@@ -5,14 +5,53 @@ Authors: Sébastien Gouëzel, Johannes Hölzl, Yury Kudryashov, Patrick Massot
 -/
 module
 
-public import Mathlib.Algebra.Field.GeomSum
-public import Mathlib.Data.Nat.Factorial.BigOperators
-public import Mathlib.Order.Filter.AtTopBot.Archimedean
-public import Mathlib.Order.Iterate
-public import Mathlib.Topology.Algebra.Algebra
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
-public import Mathlib.Topology.Instances.EReal.Lemmas
 public import Mathlib.Topology.Instances.Rat
+public import Mathlib.Data.EReal.Inv
+public import Mathlib.Topology.Order.Real
+public import Mathlib.Data.Nat.Factorial.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Order.Iterate
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.NNRat.Order
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Algebra.Algebra
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Factorial.BigOperators
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.Instances.EReal.Lemmas
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # A collection of specific limit computations

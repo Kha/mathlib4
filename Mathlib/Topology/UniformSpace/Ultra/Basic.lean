@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Topology.UniformSpace.Defs
 public import Mathlib.Topology.Bases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Prod
 
 /-!
 # Ultrametric (nonarchimedean) uniform spaces

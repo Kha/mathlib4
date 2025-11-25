@@ -6,6 +6,8 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Properties
+import Mathlib.RingTheory.Localization.LocalizationLocalization
+import Mathlib.Algebra.Category.Ring.FilteredColimits
 
 /-!
 # Function field of integral schemes

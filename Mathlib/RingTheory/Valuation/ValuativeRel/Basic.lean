@@ -8,6 +8,12 @@ module
 public import Mathlib.RingTheory.Valuation.Basic
 public import Mathlib.Data.NNReal.Defs
 public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 

@@ -5,8 +5,17 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.Deriv.Inverse
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.Topology.Algebra.Module.PerfectSpace
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Complex trigonometric functions

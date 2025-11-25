@@ -5,12 +5,14 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Comma
-public import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Comma
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
 public import Mathlib.CategoryTheory.ObjectProperty.ColimitsOfShape
-public import Mathlib.CategoryTheory.ObjectProperty.LimitsOfShape
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Comma
+import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.Over.Connected
 
 /-!
 # (Co)limits in subcategories of comma categories defined by morphism properties

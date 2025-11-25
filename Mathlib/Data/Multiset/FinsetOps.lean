@@ -6,7 +6,13 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Multiset.Dedup
-public import Mathlib.Data.List.Infix
+public import Mathlib.Data.List.Basic
+public import Mathlib.Data.Multiset.UnionInter
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Dedup
+import Mathlib.Data.List.Infix
+import Mathlib.Data.List.Lattice
+import Mathlib.Data.List.Nodup
 
 /-!
 # Preparations for defining operations on `Finset`.

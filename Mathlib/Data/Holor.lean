@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Data.Nat.Find
 public import Mathlib.Algebra.Module.Pi
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Data.Finset.Card
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Data.List.Forall2
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Basic properties of holors

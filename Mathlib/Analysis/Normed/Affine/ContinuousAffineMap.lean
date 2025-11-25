@@ -6,8 +6,10 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Topology.Algebra.ContinuousAffineMap
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
 public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Operator.NormedSpace
 
 /-!
 # Norm on the continuous affine maps between normed vector spaces.

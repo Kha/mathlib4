@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Subobject.Basic
 public import Mathlib.SetTheory.Cardinal.HasCardinalLT
+import Mathlib.Tactic.Lemma
 
 /-!
 # Cardinality of Subobject

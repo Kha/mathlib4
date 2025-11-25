@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Action.Prod
 public import Mathlib.Algebra.Module.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Prod instances for module and multiplicative actions

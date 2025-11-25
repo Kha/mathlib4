@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Probability.ProbabilityMassFunction.Monad
 public import Mathlib.Control.ULiftable
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-!
 # Specific Constructions of Probability Mass Functions

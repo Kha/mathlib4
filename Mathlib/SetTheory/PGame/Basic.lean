@@ -6,8 +6,11 @@ Authors: Reid Barton, Mario Carneiro, Isabel Longbottom, Kim Morrison, Yuyang Zh
 module
 
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Tactic.Convert
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+meta import Lean.Meta.Tactic.SolveByElim
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.IGame` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

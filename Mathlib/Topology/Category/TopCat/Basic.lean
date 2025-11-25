@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Elementwise
 public import Mathlib.Topology.ContinuousMap.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Category instance for topological spaces

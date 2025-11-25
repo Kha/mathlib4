@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Computability.Partrec
 public import Mathlib.Order.Antisymmetrization
+public import Mathlib.Algebra.GroupWithZero.Nat
+import Mathlib.Tactic.Lemma
 
 /-!
 # Oracle computability and Turing degrees

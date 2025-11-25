@@ -5,12 +5,21 @@ Authors: Johannes Hölzl, Floris van Doorn, Sébastien Gouëzel, Alex J. Best
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Commute
-public import Mathlib.Algebra.GroupWithZero.Divisibility
-public import Mathlib.Algebra.Ring.Basic
-public import Mathlib.Algebra.Ring.Divisibility.Basic
-public import Mathlib.Algebra.Ring.Commute
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+public import Mathlib.Algebra.Divisibility.Basic
+public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Group.Commute.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Big operators on a list in rings

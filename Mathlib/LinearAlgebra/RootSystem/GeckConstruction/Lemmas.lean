@@ -5,9 +5,17 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.LinearAlgebra.RootSystem.Base
-public import Mathlib.LinearAlgebra.RootSystem.Chain
 public import Mathlib.LinearAlgebra.RootSystem.Finite.G2
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.LinearAlgebra.RootSystem.Finite.CanonicalBilinear
+import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
 
 /-!
 # Supporting lemmas for Geck's construction of a Lie algebra associated to a root system

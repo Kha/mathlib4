@@ -5,11 +5,13 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.Images
 public import Mathlib.CategoryTheory.MorphismProperty.Concrete
-public import Mathlib.CategoryTheory.Types.Basic
+public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Epi and mono in concrete categories

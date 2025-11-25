@@ -5,7 +5,18 @@ Authors: Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Function.AEMeasurableSequence
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Subtraction of Lebesgue integrals

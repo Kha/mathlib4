@@ -5,13 +5,19 @@ Authors: Madison Crim, Aaron Liu, Justus Springer, Junyan Xu
 -/
 module
 
-public import Mathlib.Algebra.Module.PID
-public import Mathlib.Algebra.MvPolynomial.Funext
-public import Mathlib.Algebra.Polynomial.Module.AEval
-public import Mathlib.FieldTheory.Finite.Basic
 public import Mathlib.FieldTheory.Galois.Basic
-public import Mathlib.LinearAlgebra.AnnihilatingPolynomial
-public import Mathlib.LinearAlgebra.Matrix.Nondegenerate
+public import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.LinearAlgebra.AnnihilatingPolynomial
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.PID
+import Mathlib.Algebra.MvPolynomial.Funext
+import Mathlib.Data.Set.Prod
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.LinearAlgebra.Matrix.Nondegenerate
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # The normal basis theorem

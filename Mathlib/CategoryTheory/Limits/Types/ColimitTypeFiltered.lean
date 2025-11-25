@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Filtered.Basic
 public import Mathlib.CategoryTheory.Limits.Types.ColimitType
+import Mathlib.Tactic.Lemma
 
 /-!
 # Filtered colimits of types

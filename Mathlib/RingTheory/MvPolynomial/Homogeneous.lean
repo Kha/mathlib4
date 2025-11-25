@@ -5,14 +5,25 @@ Authors: Johan Commelin, Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.Internal
-public import Mathlib.Algebra.GradedMonoid
 public import Mathlib.Algebra.MvPolynomial.CommRing
 public import Mathlib.Algebra.MvPolynomial.Equiv
-public import Mathlib.Algebra.MvPolynomial.Variables
-public import Mathlib.Algebra.Polynomial.Roots
 public import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
-public import Mathlib.SetTheory.Cardinal.Basic
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Roots
+import Mathlib.SetTheory.Cardinal.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.BigOperators.Finsupp.Fin
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Homogeneous polynomials

@@ -5,9 +5,17 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
-public import Mathlib.Analysis.Calculus.FDeriv.Add
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Functions differentiable on a domain and continuous on its closure

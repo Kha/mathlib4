@@ -6,7 +6,11 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.Algebra.Tower
-public import Mathlib.LinearAlgebra.Basis.Basic
+public import Mathlib.LinearAlgebra.Basis.Defs
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+public import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Basis.Basic
 
 /-!
 # Towers of algebras

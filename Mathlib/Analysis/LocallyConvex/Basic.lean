@@ -6,8 +6,24 @@ Authors: Jean Lo, Bhavik Mehta, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.Hull
-public import Mathlib.Analysis.Normed.Module.Basic
 public import Mathlib.Topology.Bornology.Absorbs
+public import Mathlib.Analysis.Normed.MulAction
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.BoundedOrder.Monotone
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Ring.Action.Pointwise.Set
 /-!
 # Local convexity
 

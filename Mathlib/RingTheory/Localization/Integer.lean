@@ -8,6 +8,10 @@ module
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
 public import Mathlib.Algebra.Ring.Subsemiring.Basic
 public import Mathlib.RingTheory.Localization.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Integer elements of a localization

@@ -5,9 +5,12 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Analysis.Calculus.ContDiff.RCLike
 public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.ContDiff.RCLike
 
 /-!
 # Inverse function theorem, `C^r` case

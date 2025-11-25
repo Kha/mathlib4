@@ -5,9 +5,24 @@ Authors: Johan Commelin, Eric Rodriguez
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Action.Center
-public import Mathlib.GroupTheory.ClassEquation
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
+public import Mathlib.Algebra.Field.IsField
+public import Mathlib.Algebra.Ring.Subring.Basic
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.GroupTheory.ClassEquation
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Group.ConjFinite
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.DedekindDomain.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.GroupWithZero.Action.Center
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
 
 /-!
 # Wedderburn's Little Theorem

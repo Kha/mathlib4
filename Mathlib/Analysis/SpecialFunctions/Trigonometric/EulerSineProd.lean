@@ -5,8 +5,28 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.MeasureTheory.Integral.PeakFunction
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.MeasureTheory.Integral.PeakFunction
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
 
 /-! # Euler's infinite product for the sine function
 

@@ -7,8 +7,9 @@ module
 
 public import Mathlib.Algebra.Homology.Additive
 public import Mathlib.Algebra.Homology.ShortComplex.Exact
-public import Mathlib.Algebra.Homology.ShortComplex.Preadditive
-public import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Homology.ShortComplex.Preadditive
 
 /-!
 # The short complexes attached to homological complexes

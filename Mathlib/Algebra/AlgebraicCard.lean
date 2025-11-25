@@ -5,8 +5,14 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Cardinal
-public import Mathlib.RingTheory.Algebraic.Basic
+public import Mathlib.Data.Set.Countable
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Cardinal
+import Mathlib.RingTheory.Algebraic.Basic
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 ### Cardinality of algebraic numbers

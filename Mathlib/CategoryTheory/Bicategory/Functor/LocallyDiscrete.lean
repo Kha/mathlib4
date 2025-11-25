@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Functor.Pseudofunctor
 public import Mathlib.CategoryTheory.Bicategory.LocallyDiscrete
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pseudofunctors from locally discrete bicategories

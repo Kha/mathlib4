@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.Asymptotics.Theta
 public import Mathlib.Analysis.Normed.Group.Completion
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Asymptotics in the completion of a normed space

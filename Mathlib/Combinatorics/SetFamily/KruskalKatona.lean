@@ -8,7 +8,16 @@ module
 public import Mathlib.Combinatorics.Colex
 public import Mathlib.Combinatorics.SetFamily.Compression.UV
 public import Mathlib.Combinatorics.SetFamily.Intersecting
-public import Mathlib.Data.Finset.Fin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Fin
+import Mathlib.Data.Fintype.Prod
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Kruskal-Katona theorem

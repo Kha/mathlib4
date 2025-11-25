@@ -5,11 +5,13 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Subobject.Lattice
 public import Mathlib.CategoryTheory.ObjectProperty.ContainsZero
 public import Mathlib.CategoryTheory.ObjectProperty.EpiMono
 public import Mathlib.CategoryTheory.Limits.Constructions.EventuallyConstant
-public import Mathlib.Order.OrderIsoNat
+public import Mathlib.CategoryTheory.Subobject.Basic
+import Mathlib.Order.OrderIsoNat
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Subobject.Lattice
 
 /-!
 # Noetherian objects

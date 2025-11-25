@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Ring.Periodic
 public import Mathlib.Topology.ContinuousMap.Algebra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
 
 /-!
 # Sums of translates of a continuous function is a period continuous function.

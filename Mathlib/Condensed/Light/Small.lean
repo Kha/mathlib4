@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Equivalence
 public import Mathlib.Condensed.Light.Basic
+public import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+public import Mathlib.Topology.Category.LightProfinite.EffectiveEpi
+public import Mathlib.Topology.Category.LightProfinite.Limits
 
 /-!
 

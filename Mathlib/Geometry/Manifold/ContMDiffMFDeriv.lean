@@ -5,9 +5,27 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Geometry.Manifold.MFDeriv.Tangent
 public import Mathlib.Geometry.Manifold.ContMDiffMap
-public import Mathlib.Geometry.Manifold.VectorBundle.Hom
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+public import Mathlib.Geometry.Manifold.VectorBundle.Tangent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Calculus.TangentCone.Prod
+import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
+import Mathlib.Geometry.Manifold.MFDeriv.Tangent
+import Mathlib.Geometry.Manifold.MFDeriv.UniqueDifferential
+import Mathlib.Geometry.Manifold.VectorBundle.Hom
 
 /-!
 ### Interactions between differentiability, smoothness and manifold derivatives

@@ -6,10 +6,13 @@ Authors: Christian Merten
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
-public import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
-public import Mathlib.AlgebraicGeometry.Properties
-public import Mathlib.RingTheory.RingHom.FinitePresentation
-public import Mathlib.RingTheory.Spectrum.Prime.Chevalley
+public import Mathlib.RingTheory.FinitePresentation
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
+import Mathlib.AlgebraicGeometry.Properties
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
+import Mathlib.RingTheory.RingHom.FinitePresentation
+import Mathlib.RingTheory.Spectrum.Prime.Chevalley
 
 /-!
 

@@ -7,7 +7,19 @@ module
 
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.Topology.ContinuousMap.Bounded.Normed
-public import Mathlib.Topology.Algebra.Order.LiminfLimsup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Topology.Algebra.Order.LiminfLimsup
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integration of bounded continuous functions

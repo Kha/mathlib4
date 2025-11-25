@@ -6,6 +6,8 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Extension.Cotangent.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Relation of smoothness and `Ω[S⁄R]`

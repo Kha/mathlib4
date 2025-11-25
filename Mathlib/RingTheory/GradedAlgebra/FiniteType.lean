@@ -7,6 +7,9 @@ module
 
 public import Mathlib.RingTheory.FiniteType
 public import Mathlib.RingTheory.GradedAlgebra.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Sigma
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 

@@ -6,7 +6,19 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Data.ZMod.Basic
-public import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Absolute value in `ZMod n`

@@ -11,10 +11,15 @@ public import Mathlib.Algebra.Group.Action.Prod
 public import Mathlib.Algebra.Group.Subgroup.Map
 public import Mathlib.Algebra.Module.Defs
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
-public import Mathlib.Data.Finite.Sigma
-public import Mathlib.Data.Set.Finite.Range
 public import Mathlib.Data.Setoid.Basic
 public import Mathlib.GroupTheory.GroupAction.Defs
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Algebra.Group.Action.Units
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Sigma
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # Basic properties of group actions

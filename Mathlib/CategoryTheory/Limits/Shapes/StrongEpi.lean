@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Balanced
 public import Mathlib.CategoryTheory.LiftingProperties.Basic
+import Batteries.Tactic.Init
 
 /-!
 # Strong epimorphisms

@@ -5,9 +5,16 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Analysis.Complex.Polynomial.UnitTrinomial
-public import Mathlib.RingTheory.Polynomial.GaussLemma
-public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Algebra.Polynomial.UnitTrinomial
+public import Mathlib.Data.Complex.Basic
+public import Mathlib.Analysis.Normed.Field.Lemmas
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.Complex.Basic
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.Polynomial.GaussLemma
+import Mathlib.Analysis.Complex.Polynomial.UnitTrinomial
 
 /-!
 # Irreducibility of Selmer Polynomials

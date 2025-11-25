@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
 public import Mathlib.Algebra.Notation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Lattice
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Positive & negative parts

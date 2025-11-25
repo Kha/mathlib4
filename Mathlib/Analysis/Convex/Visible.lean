@@ -5,13 +5,32 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.Algebra.Group.Pointwise.Set.Card
 public import Mathlib.Analysis.Convex.Between
-public import Mathlib.Analysis.Convex.Combination
-public import Mathlib.Topology.Algebra.Affine
-public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
-public import Mathlib.Topology.Order.Monotone
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.Algebra.Group.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.LinearAlgebra.AffineSpace.Pointwise
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Group.Pointwise.Set.Card
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Points in sight

@@ -5,7 +5,14 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Data.Set.Prod
+public import Mathlib.Data.Set.Subsingleton
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Prod.Basic
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Simproc.ExistsAndEq
 
 /-!
 # N-ary images of sets

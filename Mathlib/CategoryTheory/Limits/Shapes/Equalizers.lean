@@ -5,8 +5,9 @@ Authors: Kim Morrison, Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.EpiMono
 public import Mathlib.CategoryTheory.Limits.HasLimits
+public import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
 
 /-!
 # Equalizers and coequalizers

@@ -5,7 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.Equivalence
+public import Mathlib.CategoryTheory.Localization.Predicate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.Equivalence
 
 /-!
 

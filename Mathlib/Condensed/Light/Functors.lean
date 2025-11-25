@@ -5,8 +5,12 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
 public import Mathlib.Condensed.Light.Basic
+public import Mathlib.CategoryTheory.Sites.Canonical
+import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
+import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+import Mathlib.Topology.Category.LightProfinite.EffectiveEpi
+import Mathlib.Topology.Category.LightProfinite.Limits
 
 /-!
 # Functors from categories of topological spaces to light condensed sets

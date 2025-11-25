@@ -5,8 +5,13 @@ Authors: Yaël Dillies, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.NhdsSet
-public import Mathlib.Topology.Inseparable
+public import Mathlib.Topology.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Inseparable
+import Mathlib.Topology.NhdsSet
+import Mathlib.Order.Filter.Ker
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Neighborhoods kernel of a set

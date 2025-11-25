@@ -6,12 +6,19 @@ Authors: Johan Commelin, Robert Y. Lewis
 module
 
 public import Mathlib.Algebra.CharP.Invertible
-public import Mathlib.Algebra.MvPolynomial.Variables
 public import Mathlib.Algebra.MvPolynomial.CommRing
 public import Mathlib.Algebra.MvPolynomial.Expand
-public import Mathlib.Algebra.Order.Ring.Rat
-public import Mathlib.Data.Fintype.BigOperators
-public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Algebra.Field.Rat
+public import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.ZMod.Basic
+import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Witt polynomials

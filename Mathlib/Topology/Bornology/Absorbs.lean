@@ -5,9 +5,18 @@ Authors: Jean Lo, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
-public import Mathlib.Algebra.Ring.Action.Pointwise.Set
 public import Mathlib.Topology.Bornology.Basic
+public import Mathlib.Algebra.GroupWithZero.Action.Defs
+public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Ring.Action.Pointwise.Set
 
 /-!
 # Absorption of sets

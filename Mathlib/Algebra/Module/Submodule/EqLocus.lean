@@ -6,6 +6,7 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.Module.Submodule.Ker
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The submodule of elements `x : M` such that `f x = g x`

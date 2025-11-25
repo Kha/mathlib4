@@ -5,13 +5,36 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.MeasureTheory.Integral.Prod
 public import Mathlib.MeasureTheory.Function.LocallyIntegrable
-public import Mathlib.MeasureTheory.Group.Integral
-public import Mathlib.MeasureTheory.Group.Prod
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.Normed.Operator.Mul
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.ParametricIntegral
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.MeasureTheory.Group.Prod
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Convolution of functions

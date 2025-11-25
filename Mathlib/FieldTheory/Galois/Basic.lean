@@ -7,8 +7,26 @@ module
 
 public import Mathlib.FieldTheory.Fixed
 public import Mathlib.FieldTheory.Normal.Closure
-public import Mathlib.FieldTheory.PrimitiveElement
 public import Mathlib.GroupTheory.GroupAction.FixingSubgroup
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.FieldTheory.SplittingField.IsSplittingField
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.FieldTheory.Tower
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Galois Extensions

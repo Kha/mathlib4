@@ -5,9 +5,12 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
 public import Mathlib.LinearAlgebra.Matrix.BilinearForm
 public import Mathlib.LinearAlgebra.Trace
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Trace for (finite) ring extensions.

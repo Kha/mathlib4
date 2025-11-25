@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Ring.CharZero
 public import Mathlib.Algebra.Ring.Int.Units
 public import Mathlib.GroupTheory.Coprod.Basic
 public import Mathlib.GroupTheory.Complement
+public import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Tactic.TypeStar
 
 /-!
 

@@ -8,6 +8,7 @@ module
 
 public import Mathlib.Algebra.Divisibility.Basic
 public import Mathlib.Algebra.Group.Hom.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Mapping divisibility across multiplication-preserving homomorphisms

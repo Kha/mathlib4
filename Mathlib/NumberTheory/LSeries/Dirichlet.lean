@@ -5,12 +5,26 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.NumberTheory.DirichletCharacter.Bounds
 public import Mathlib.NumberTheory.LSeries.Convolution
-public import Mathlib.NumberTheory.LSeries.Deriv
 public import Mathlib.NumberTheory.LSeries.RiemannZeta
-public import Mathlib.NumberTheory.SumPrimeReciprocals
 public import Mathlib.NumberTheory.VonMangoldt
+public import Mathlib.NumberTheory.DirichletCharacter.Basic
+import Mathlib.Analysis.PSeries
+import Mathlib.NumberTheory.SumPrimeReciprocals
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.NumberTheory.DirichletCharacter.Bounds
+import Mathlib.NumberTheory.LSeries.Deriv
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.Algebra.InfiniteSum.Group
 
 /-!
 # L-series of Dirichlet characters and arithmetic functions

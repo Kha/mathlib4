@@ -6,9 +6,13 @@ Authors: Yakov Pechersky
 module
 
 public import Mathlib.Order.Irreducible
-public import Mathlib.RingTheory.Ideal.Colon
 public import Mathlib.RingTheory.Ideal.IsPrimary
 public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Colon
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Lasker ring

@@ -8,7 +8,12 @@ module
 public import Mathlib.Combinatorics.Matroid.Rank.Finite
 public import Mathlib.Combinatorics.Matroid.Loop
 public import Mathlib.Data.ENat.Lattice
-public import Mathlib.Tactic.TautoSet
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TautoSet
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # `ℕ∞`-valued rank

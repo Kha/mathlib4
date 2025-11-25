@@ -5,10 +5,22 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
-public import Mathlib.Analysis.SpecialFunctions.Log.Summable
 public import Mathlib.Topology.Algebra.InfiniteSum.UniformOn
-public import Mathlib.Topology.Algebra.IsUniformGroup.Order
+public import Mathlib.Topology.ContinuousMap.Compact
+public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.ReImTopology
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+import Mathlib.Analysis.SpecialFunctions.Log.Summable
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.IsUniformGroup.Order
 
 /-!
 # Uniform convergence of products of functions

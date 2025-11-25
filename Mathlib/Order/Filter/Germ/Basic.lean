@@ -5,12 +5,18 @@ Authors: Yury Kudryashov, Abhimanyu Pallavi Sudhir
 -/
 module
 
-public import Mathlib.Algebra.Module.Pi
 public import Mathlib.Algebra.Order.Monoid.Unbundled.ExistsOfLE
 public import Mathlib.Data.Int.Cast.Basic
 public import Mathlib.Data.Int.Cast.Pi
 public import Mathlib.Data.Nat.Cast.Basic
-public import Mathlib.Order.Filter.Tendsto
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.Ring.Pi
+public import Mathlib.Order.Filter.Basic
+public import Mathlib.Algebra.GroupWithZero.Action.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Pi
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Germ of a function at a filter

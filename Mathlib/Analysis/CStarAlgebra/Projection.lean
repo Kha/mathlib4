@@ -5,7 +5,12 @@ Authors: Monica Omar
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Instances
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.NonUnital
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.Spectrum
+import Mathlib.FieldTheory.IsAlgClosed.Spectrum
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Instances
 
 /-!
 

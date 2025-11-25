@@ -7,6 +7,12 @@ module
 
 public import Mathlib.RingTheory.Binomial
 public import Mathlib.RingTheory.PowerSeries.WellKnown
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Polynomial.Coeff
 
 /-!
 # Binomial Power Series

@@ -5,9 +5,11 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.RingTheory.Extension.Presentation.Basic
 public import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
-public import Mathlib.RingTheory.Kaehler.JacobiZariski
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Kaehler.JacobiZariski
+import Mathlib.RingTheory.Localization.BaseChange
 
 /-!
 # Cotangent and localization away

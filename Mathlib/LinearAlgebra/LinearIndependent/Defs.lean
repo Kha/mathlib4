@@ -5,9 +5,18 @@ Authors: Johannes Hölzl, Mario Carneiro, Alexander Bentkamp, Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
 public meta import Mathlib.Lean.Expr.ExtraRecognizers
+public import Mathlib.Algebra.Module.Submodule.Equiv
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

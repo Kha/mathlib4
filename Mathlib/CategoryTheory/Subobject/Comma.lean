@@ -8,8 +8,9 @@ module
 public import Mathlib.CategoryTheory.Subobject.WellPowered
 public import Mathlib.CategoryTheory.Comma.LocallySmall
 public import Mathlib.CategoryTheory.Limits.Preserves.Finite
-public import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
 public import Mathlib.CategoryTheory.Limits.Comma
+import Mathlib.Logic.Small.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Subobjects in the category of structured arrows

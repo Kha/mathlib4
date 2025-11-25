@@ -7,6 +7,15 @@ module
 
 public import Mathlib.MeasureTheory.Function.L1Space.Integrable
 public import Mathlib.Probability.Independence.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Function.LpSeminorm.ChebyshevMarkov
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Independence of functions implies that the measure is a probability measure

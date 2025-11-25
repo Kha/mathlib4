@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Functor.Derived.LeftDerived
 public import Mathlib.CategoryTheory.Functor.Derived.RightDerived
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Derived adjunction

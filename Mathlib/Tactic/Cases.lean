@@ -6,7 +6,6 @@ Authors: Mario Carneiro
 module
 
 public meta import Lean.Elab.Tactic.Induction
-public meta import Batteries.Tactic.OpenPrivate
 public meta import Batteries.Data.List.Basic
 public meta import Batteries.Lean.Expr
 public import Mathlib.Init

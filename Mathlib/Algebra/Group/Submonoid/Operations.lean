@@ -13,6 +13,15 @@ public import Mathlib.Algebra.Group.Prod
 public import Mathlib.Algebra.Group.Submonoid.Basic
 public import Mathlib.Algebra.Group.Submonoid.MulAction
 public import Mathlib.Algebra.Group.TypeTags.Basic
+public import Mathlib.Logic.Equiv.Set
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Operations on `Submonoid`s

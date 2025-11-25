@@ -5,15 +5,20 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Block
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 public import Mathlib.RingTheory.Norm.Defs
-public import Mathlib.RingTheory.PolynomialAlgebra
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
-public import Mathlib.FieldTheory.IntermediateField.Algebraic
-public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.RingTheory.Norm.Basic
 public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Transitivity of algebra norm

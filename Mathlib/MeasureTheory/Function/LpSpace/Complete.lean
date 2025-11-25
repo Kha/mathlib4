@@ -5,8 +5,28 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
 public import Mathlib.MeasureTheory.Function.LpSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # `Lp` is a complete space

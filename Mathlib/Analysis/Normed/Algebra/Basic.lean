@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Topology.Algebra.Module.CharacterSpace
 public import Mathlib.Analysis.Normed.Module.WeakDual
-public import Mathlib.Analysis.Normed.Algebra.Spectrum
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Analysis.Normed.Algebra.Spectrum
 
 /-!
 # Normed algebras

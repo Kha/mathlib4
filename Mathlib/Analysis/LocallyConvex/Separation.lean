@@ -5,11 +5,21 @@ Authors: Bhavik Mehta, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Convex.Cone.Extension
-public import Mathlib.Analysis.Convex.Gauge
 public import Mathlib.Analysis.RCLike.Extend
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
 public import Mathlib.Topology.Algebra.Module.LocallyConvex
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Gauge
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Convex.Cone.Extension
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # Separation Hahn-Banach theorem

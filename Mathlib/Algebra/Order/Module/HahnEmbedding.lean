@@ -6,13 +6,23 @@ Authors: Weiyi Wang
 module
 
 public import Mathlib.Algebra.DirectSum.Decomposition
-public import Mathlib.Algebra.DirectSum.Module
-public import Mathlib.Algebra.Module.Submodule.Order
 public import Mathlib.Algebra.Order.Module.Archimedean
 public import Mathlib.Algebra.Order.Module.Equiv
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
 public import Mathlib.LinearAlgebra.LinearPMap
 public import Mathlib.RingTheory.HahnSeries.Lex
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Monotone
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Module.Submodule.Order
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Hahn embedding theorem on ordered modules

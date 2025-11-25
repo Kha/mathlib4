@@ -5,10 +5,18 @@ Authors: Joseph Myers, Manuel Candales
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 public import Mathlib.Analysis.InnerProductSpace.Projection.Reflection
 public import Mathlib.LinearAlgebra.AffineSpace.FiniteDimensional
-public import Mathlib.Topology.Algebra.ContinuousAffineMap
+public import Mathlib.Topology.Algebra.AffineSubspace
+public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Analysis.Normed.Affine.Isometry
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 
 /-!
 # Orthogonal projection in Euclidean affine spaces

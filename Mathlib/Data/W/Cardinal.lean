@@ -6,7 +6,10 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Data.W.Basic
-public import Mathlib.SetTheory.Cardinal.Arithmetic
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Logic.UnivLE
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Cardinal.Arithmetic
 
 /-!
 # Cardinality of W-types

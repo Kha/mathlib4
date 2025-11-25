@@ -7,11 +7,15 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
-public import Mathlib.CategoryTheory.Limits.Yoneda
 public import Mathlib.CategoryTheory.Preadditive.FunctorCategory
 public import Mathlib.CategoryTheory.Sites.SheafOfTypes
 public import Mathlib.CategoryTheory.Sites.EqualizerSheafCondition
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.CategoryTheory.Limits.Yoneda
+import Mathlib.Data.Int.Init
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Sheaves taking values in a category

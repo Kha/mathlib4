@@ -5,8 +5,15 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.UpperLower
-public import Mathlib.Topology.Algebra.Group.Pointwise
+public import Mathlib.Order.UpperLower.Closure
+public import Mathlib.Topology.Algebra.ConstMulAction
+public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Algebra.Order.UpperLower
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Topological facts about upper/lower/order-connected sets

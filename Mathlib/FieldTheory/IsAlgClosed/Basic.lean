@@ -5,10 +5,22 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.FieldTheory.Extension
 public import Mathlib.FieldTheory.Normal.Defs
 public import Mathlib.FieldTheory.Perfect
-public import Mathlib.RingTheory.Localization.Integral
+public import Mathlib.LinearAlgebra.Dual.Lemmas
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+import Mathlib.FieldTheory.Extension
+import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.SplittingField.IsSplittingField
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Algebraically Closed Field

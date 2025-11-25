@@ -5,9 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Set.NAry
 public import Mathlib.Order.SupClosed
 public import Mathlib.Order.UpperLower.Closure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Set family operations

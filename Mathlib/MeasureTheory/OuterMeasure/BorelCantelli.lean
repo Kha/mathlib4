@@ -6,6 +6,12 @@ Authors: Markus Himmel, Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.OuterMeasure.AE
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Borel-Cantelli lemma, part 1

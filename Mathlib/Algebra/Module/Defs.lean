@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
 public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Modules over a ring

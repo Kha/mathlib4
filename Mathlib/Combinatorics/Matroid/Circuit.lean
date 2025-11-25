@@ -6,6 +6,11 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Closure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.GCongr.CoreAttrs
 
 /-!
 # Matroid IsCircuits

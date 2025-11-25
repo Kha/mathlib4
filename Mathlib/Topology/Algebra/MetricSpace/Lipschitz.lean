@@ -5,8 +5,14 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.Algebra.Order.Field
-public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Topology.EMetricSpace.Lipschitz
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Lipschitz continuous functions

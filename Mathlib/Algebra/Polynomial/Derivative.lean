@@ -5,10 +5,27 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Domain
-public import Mathlib.Algebra.Polynomial.Degree.Support
-public import Mathlib.Algebra.Polynomial.Eval.Coeff
 public import Mathlib.GroupTheory.GroupAction.Ring
+public import Mathlib.Algebra.Polynomial.Coeff
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # The derivative map on polynomials

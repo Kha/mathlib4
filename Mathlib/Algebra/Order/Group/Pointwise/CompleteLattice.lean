@@ -5,8 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Pointwise.Bounds
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Group.Pointwise.Bounds
 
 /-!
 # Infima/suprema in ordered monoids and groups

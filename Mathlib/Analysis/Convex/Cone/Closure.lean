@@ -8,6 +8,9 @@ module
 public import Mathlib.Geometry.Convex.Cone.Pointed
 public import Mathlib.Topology.Algebra.ConstMulAction
 public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
 
 /-!
 # Closure of cones

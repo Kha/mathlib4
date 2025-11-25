@@ -7,6 +7,16 @@ module
 
 public import Mathlib.Analysis.Analytic.OfScalars
 public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.RingTheory.Polynomial.Pochhammer
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.IsField
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
 
 /-!
 # Ordinary hypergeometric function in a Banach algebra

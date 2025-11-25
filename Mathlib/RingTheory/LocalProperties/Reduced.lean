@@ -6,7 +6,7 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.LocalProperties.Basic
-public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `IsReduced` is a local property

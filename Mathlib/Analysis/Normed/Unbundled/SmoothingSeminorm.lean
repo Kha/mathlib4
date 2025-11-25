@@ -5,12 +5,30 @@ Authors: María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Algebra.Order.GroupWithZero.Bounds
 public import Mathlib.Analysis.Normed.Unbundled.RingSeminorm
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-public import Mathlib.Topology.MetricSpace.Sequences
-public import Mathlib.Topology.UnitInterval
-public import Mathlib.Topology.Algebra.Order.LiminfLimsup
+public import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.MetricSpace.Sequences
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Bounds
+import Mathlib.Algebra.Order.Ring.IsNonarchimedean
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Topology.Algebra.Order.LiminfLimsup
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Field
 
 /-!
 # smoothingSeminorm

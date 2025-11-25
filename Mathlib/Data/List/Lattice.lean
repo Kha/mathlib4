@@ -6,7 +6,12 @@ Kim Morrison
 -/
 module
 
-public import Mathlib.Data.List.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Data.List.Basic
 
 /-!
 # Lattice structure of lists

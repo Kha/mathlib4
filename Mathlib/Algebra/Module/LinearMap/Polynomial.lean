@@ -6,11 +6,18 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.MvPolynomial.Monad
-public import Mathlib.LinearAlgebra.Charpoly.ToMatrix
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 public import Mathlib.LinearAlgebra.Matrix.Charpoly.Univ
 public import Mathlib.RingTheory.TensorProduct.Finite
 public import Mathlib.RingTheory.TensorProduct.Free
+public import Mathlib.LinearAlgebra.Charpoly.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Charpoly.ToMatrix
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Characteristic polynomials of linear families of endomorphisms

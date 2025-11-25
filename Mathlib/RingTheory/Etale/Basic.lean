@@ -5,9 +5,12 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
 public import Mathlib.RingTheory.Smooth.Basic
-public import Mathlib.RingTheory.Unramified.Basic
+import Mathlib.Logic.UnivLE
+import Mathlib.RingTheory.FiniteStability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.Away.AdjoinRoot
 
 /-!
 

@@ -6,7 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.LocalProperties.Basic
-public import Mathlib.RingTheory.Localization.Integral
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

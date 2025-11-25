@@ -6,13 +6,21 @@ Authors: Johannes Hölzl, Mario Carneiro, Mitchell Lee
 module
 
 public import Mathlib.Algebra.BigOperators.Finprod
-public import Mathlib.Algebra.BigOperators.Pi
 public import Mathlib.Algebra.Group.Submonoid.Basic
-public import Mathlib.Algebra.Group.ULift
 public import Mathlib.Order.Filter.Pointwise
 public import Mathlib.Topology.Algebra.MulAction
-public import Mathlib.Topology.ContinuousMap.Defs
 public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Theory of topological monoids

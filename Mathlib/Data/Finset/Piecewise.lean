@@ -6,8 +6,10 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Data.Finset.BooleanAlgebra
-public import Mathlib.Data.Set.Piecewise
-public import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Functions defined piecewise on a finset

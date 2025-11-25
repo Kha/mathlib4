@@ -5,12 +5,14 @@ Authors: Kyle Miller
 -/
 module
 
-public meta import Lean.Meta.Transform
-public meta import Lean.Meta.Inductive
 public meta import Lean.Elab.Deriving.Basic
-public meta import Lean.Elab.Deriving.Util
 import Mathlib.Logic.Encodable.Basic
-import Mathlib.Data.Nat.Pairing
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Data.Prod.Basic
+import Mathlib.Data.Sum.Basic
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
 
 /-!
 # `Encodable` deriving handler

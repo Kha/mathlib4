@@ -6,10 +6,13 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Category.FGModuleCat.Basic
-public import Mathlib.Algebra.Category.ModuleCat.EpiMono
 public import Mathlib.Algebra.Category.ModuleCat.Limits
-public import Mathlib.Algebra.Category.ModuleCat.Products
-public import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Category.ModuleCat.EpiMono
+import Mathlib.Algebra.Category.ModuleCat.Products
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
 
 /-!
 # `forget₂ (FGModuleCat K) (ModuleCat K)` creates all finite limits.

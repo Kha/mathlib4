@@ -6,6 +6,10 @@ Authors: Johan Commelin, Robert Y. Lewis
 module
 
 public import Mathlib.RingTheory.WittVector.InitTail
+public import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 

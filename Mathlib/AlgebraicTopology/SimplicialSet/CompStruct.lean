@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.CompStructTruncated
+import Mathlib.Tactic.Lemma
 
 /-!
 # Edges and "triangles" in simplicial sets

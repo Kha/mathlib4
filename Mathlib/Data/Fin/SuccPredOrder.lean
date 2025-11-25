@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Fin.Basic
 public import Mathlib.Order.SuccPred.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # `SuccOrder` and `PredOrder` of `Fin n`

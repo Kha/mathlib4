@@ -6,6 +6,9 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Order.Category.Lat
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Category of linear orders

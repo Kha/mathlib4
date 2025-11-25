@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Algebra.Module.LinearMap
 public import Mathlib.LinearAlgebra.BilinearMap
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Weak dual topology

@@ -6,6 +6,9 @@ Authors: Moritz Doll
 module
 
 public meta import Mathlib.Tactic.Continuity.Init
+public import Mathlib.Init
+import Aesop.Frontend.Attribute
+import Aesop.Frontend.Tactic
 
 /-!
 # Continuity

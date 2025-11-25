@@ -6,6 +6,21 @@ Authors: Anne Baanen, Devon Tuma
 module
 
 public import Mathlib.Algebra.Polynomial.Factors
+public import Mathlib.GroupTheory.GroupAction.Ring
+public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Scaling the roots of a polynomial

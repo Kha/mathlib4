@@ -6,7 +6,14 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.AdicCompletion.Basic
-public import Mathlib.RingTheory.Filtration
+public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.RingTheory.Filtration
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Hausdorff-ness for Noetherian rings

@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Monad.Basic
 public import Mathlib.CategoryTheory.Monoidal.End
 public import Mathlib.CategoryTheory.Monoidal.Mon_
+import Mathlib.Tactic.Lemma
 
 /-!
 

@@ -5,8 +5,10 @@ Authors: Scott Carnahan
 -/
 module
 
-public import Mathlib.LinearAlgebra.RootSystem.Basic
 public import Mathlib.LinearAlgebra.RootSystem.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.RootSystem.Basic
 
 /-!
 # Morphisms of root pairings

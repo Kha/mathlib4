@@ -5,15 +5,12 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
-public import Mathlib.CategoryTheory.Limits.Constructions.FiniteProductsOfBinaryProducts
-public import Mathlib.CategoryTheory.Monad.Limits
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
-public import Mathlib.CategoryTheory.Adjunction.Limits
-public import Mathlib.CategoryTheory.Adjunction.Reflective
 public import Mathlib.CategoryTheory.Closed.Cartesian
 public import Mathlib.CategoryTheory.Subterminal
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Monad.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.FiniteProductsOfBinaryProducts
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 
 /-!
 # Exponential ideals

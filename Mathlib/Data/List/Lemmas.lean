@@ -5,8 +5,13 @@ Authors: Yakov Pechersky, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Image
-public import Mathlib.Data.List.InsertIdx
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.List.Defs
+public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
 
 /-! # Some lemmas about lists involving sets
 

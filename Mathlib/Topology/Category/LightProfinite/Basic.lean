@@ -7,8 +7,17 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Countable
 public import Mathlib.Topology.Category.Profinite.AsLimit
-public import Mathlib.Topology.Category.Profinite.CofilteredLimit
-public import Mathlib.Topology.ClopenBox
+public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClopenBox
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Finite.Prod
+import Mathlib.Logic.Equiv.List
+import Mathlib.Topology.Separation.Profinite
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Topology.Category.Profinite.CofilteredLimit
 /-!
 
 # Light profinite spaces

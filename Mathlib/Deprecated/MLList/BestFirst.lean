@@ -7,8 +7,11 @@ module
 
 public import Batteries.Data.MLList.Basic
 public import Mathlib.Data.Prod.Lex
-public import Mathlib.Data.Set.Finite.Range
 public import Mathlib.Deprecated.Estimator
+public import Mathlib.Tactic.Common
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # Best first search

@@ -5,12 +5,13 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.Algebra.Module.LocalizedModule.IsLocalization
 public import Mathlib.Algebra.MvPolynomial.CommRing
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.Localization.Away.Basic
-public import Mathlib.RingTheory.Localization.BaseChange
-public import Mathlib.RingTheory.TensorProduct.MvPolynomial
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.RingTheory.TensorProduct.MvPolynomial
 
 /-!
 

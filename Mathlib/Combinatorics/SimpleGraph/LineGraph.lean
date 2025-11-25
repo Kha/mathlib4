@@ -6,6 +6,8 @@ Authors: Bhavik Mehta
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # LineGraph

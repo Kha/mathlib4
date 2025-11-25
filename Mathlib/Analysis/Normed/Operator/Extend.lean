@@ -6,6 +6,11 @@ Authors: Moritz Doll, Zhouhang Zhou
 module
 
 public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 

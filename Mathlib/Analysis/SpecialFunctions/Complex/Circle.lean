@@ -6,7 +6,14 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Complex.Circle
-public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+public import Mathlib.Analysis.SpecialFunctions.Complex.Arg
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Maps on the unit circle

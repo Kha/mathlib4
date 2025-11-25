@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
 public import Mathlib.CategoryTheory.Limits.Constructions.BinaryProducts
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Limits involving zero objects

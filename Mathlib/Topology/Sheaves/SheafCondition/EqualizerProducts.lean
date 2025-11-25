@@ -5,9 +5,9 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
-public import Mathlib.CategoryTheory.Limits.Shapes.Products
-public import Mathlib.Topology.Sheaves.SheafCondition.PairwiseIntersections
+public import Mathlib.CategoryTheory.Category.Pairwise
+public import Mathlib.Topology.Sheaves.Sheaf
+import Mathlib.Topology.Sheaves.SheafCondition.PairwiseIntersections
 
 /-!
 # The sheaf condition in terms of an equalizer of products

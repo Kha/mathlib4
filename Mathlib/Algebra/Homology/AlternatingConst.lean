@@ -5,9 +5,12 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
 public import Mathlib.Algebra.Module.BigOperators
 public import Mathlib.AlgebraicTopology.ExtraDegeneracy
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Algebra.Ring.Parity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The alternating constant complex

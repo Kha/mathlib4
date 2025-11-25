@@ -7,8 +7,15 @@ Kim Morrison, Chris Hughes, Anne Baanen, Junyan Xu
 module
 
 public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.LinearAlgebra.Dimension.Finite
 public import Mathlib.LinearAlgebra.Dimension.RankNullity
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Dimension of vector spaces

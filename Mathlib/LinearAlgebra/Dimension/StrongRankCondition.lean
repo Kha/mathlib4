@@ -5,10 +5,25 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.Basis.Submodule
 public import Mathlib.LinearAlgebra.Dimension.Finrank
 public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+import Mathlib.LinearAlgebra.StdBasis
+import Mathlib.Logic.UnivLE
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.LinearAlgebra.Basis.Cardinality
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.SetTheory.Cardinal.Pigeonhole
 
 /-!
 # Lemmas about rank and `finrank` in rings satisfying strong rank condition.

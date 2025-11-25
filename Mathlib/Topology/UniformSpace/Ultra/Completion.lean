@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Topology.UniformSpace.Completion
 public import Mathlib.Topology.UniformSpace.Ultra.Basic
-public import Mathlib.Topology.UniformSpace.Ultra.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Ker
+import Mathlib.Topology.UniformSpace.Ultra.Constructions
 
 /-!
 # Completions of ultrametric (nonarchimedean) uniform spaces

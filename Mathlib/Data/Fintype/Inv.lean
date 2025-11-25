@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Finset.Basic
 public import Mathlib.Data.Fintype.Defs
+public import Mathlib.Data.Set.Restrict
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Computable inverses for injective/surjective functions on finite types

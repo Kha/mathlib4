@@ -5,16 +5,30 @@ Authors: Yaël Dillies, Vladimir Ivanov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Intervals
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
-public import Mathlib.Algebra.Order.Field.Basic
 public import Mathlib.Data.Finset.Sups
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Ring
-public import Mathlib.Algebra.BigOperators.Group.Finset.Powerset
-import Mathlib.Data.Rat.Defs
+public import Mathlib.Data.Fintype.Powerset
+public import Mathlib.Data.Rat.Defs
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Field.Rat
+import Mathlib.Order.Hom.Set
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Data.Finset.Lattice.Prod
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Powerset
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # The Ahlswede-Zhang identity

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Computability.DFA
 public import Mathlib.Data.Fintype.Powerset
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Nondeterministic Finite Automata

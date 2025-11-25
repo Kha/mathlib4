@@ -6,8 +6,11 @@ Authors: Riccardo Brasca
 module
 
 public import Mathlib.LinearAlgebra.Charpoly.Basic
-public import Mathlib.LinearAlgebra.Matrix.Basis
 public import Mathlib.RingTheory.Finiteness.Prod
+public import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Nontriviality.Core
 
 /-!
 

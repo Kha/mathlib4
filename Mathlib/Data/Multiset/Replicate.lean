@@ -6,6 +6,9 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Multiset.AddSub
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Nodup
 
 /-!
 # Repeating elements in multisets

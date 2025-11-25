@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Finiteness.Defs
 public import Mathlib.Algebra.Module.Submodule.Bilinear
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
 
 /-!
 # Finitely generated submodules and bilinear maps

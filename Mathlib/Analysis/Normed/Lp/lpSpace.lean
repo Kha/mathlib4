@@ -5,11 +5,34 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.MeanInequalities
-public import Mathlib.Analysis.MeanInequalitiesPow
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-public import Mathlib.Data.Set.Image
-public import Mathlib.Topology.Algebra.ContinuousMonoidHom
+public import Mathlib.Data.Real.ConjExponents
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Analysis.MeanInequalities
+import Mathlib.Analysis.MeanInequalitiesPow
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # ℓp space

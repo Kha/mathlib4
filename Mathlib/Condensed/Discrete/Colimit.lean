@@ -8,6 +8,13 @@ module
 public import Mathlib.Condensed.Discrete.LocallyConstant
 public import Mathlib.Condensed.Equivalence
 public import Mathlib.Topology.Category.LightProfinite.Extend
+public import Mathlib.CategoryTheory.Limits.Types.Filtered
+public import Mathlib.Topology.Category.Profinite.Extend
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Countable.Small
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.Topology.Category.Profinite.CofilteredLimit
 /-!
 
 # The condensed set given by left Kan extension from `FintypeCat` to `Profinite`.

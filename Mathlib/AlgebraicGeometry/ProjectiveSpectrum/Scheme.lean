@@ -7,7 +7,14 @@ module
 
 public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.StructureSheaf
 public import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
-public import Mathlib.RingTheory.GradedAlgebra.Radical
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.RingTheory.GradedAlgebra.Radical
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Proj as a scheme

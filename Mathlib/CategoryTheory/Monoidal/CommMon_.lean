@@ -5,8 +5,8 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
 public import Mathlib.CategoryTheory.Monoidal.Mon_
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of commutative monoids in a braided monoidal category.

@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Algebra.Equiv
 public import Mathlib.Algebra.Algebra.NonUnitalSubalgebra
-public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Algebra.Module.Submodule.EqLocus
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Subalgebras over Commutative Semiring

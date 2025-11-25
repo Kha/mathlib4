@@ -5,7 +5,12 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Data.List.Chain
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Chain
 
 /-!
 # Split a list into contiguous runs of elements which pairwise satisfy a relation.

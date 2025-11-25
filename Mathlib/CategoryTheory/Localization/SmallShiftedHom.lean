@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Localization.SmallHom
 public import Mathlib.CategoryTheory.Shift.ShiftedHom
 public import Mathlib.CategoryTheory.Shift.Localization
+import Mathlib.Tactic.Lemma
 
 /-!
 # Shrinking morphisms in localized categories equipped with shifts

@@ -7,8 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.Isomorphisms
 public import Mathlib.Algebra.Category.ModuleCat.Kernels
-public import Mathlib.Algebra.Category.ModuleCat.Limits
 public import Mathlib.CategoryTheory.Abelian.Basic
+public import Mathlib.Algebra.Category.ModuleCat.EpiMono
+import Mathlib.Algebra.Category.ModuleCat.Limits
 
 /-!
 # The category of left R-modules is abelian.

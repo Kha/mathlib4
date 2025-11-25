@@ -5,11 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Order.CompleteLattice.Lemmas
-public import Mathlib.CategoryTheory.Category.Preorder
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
 public import Mathlib.CategoryTheory.CommSq
-public import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Multicoequalizer diagrams in complete lattices

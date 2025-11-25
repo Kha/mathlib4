@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Topology.FiberBundle.IsHomeomorphicTrivialBundle
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Closure, interior, and frontier of preimages under `re` and `im`

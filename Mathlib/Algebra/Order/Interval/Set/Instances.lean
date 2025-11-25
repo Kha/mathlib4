@@ -8,8 +8,15 @@ module
 public import Mathlib.Algebra.GroupWithZero.InjSurj
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Ring.Regular
-public import Mathlib.Order.Interval.Set.Basic
-public import Mathlib.Tactic.FastInstance
+public import Mathlib.Data.Set.Basic
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Algebraic instances for unit intervals

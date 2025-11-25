@@ -9,6 +9,12 @@ public import Mathlib.Topology.Category.Profinite.EffectiveEpi
 public import Mathlib.Topology.Category.Stonean.EffectiveEpi
 public import Mathlib.Condensed.Basic
 public import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
+public import Mathlib.Topology.Category.CompHaus.EffectiveEpi
+public import Mathlib.Topology.Category.Profinite.Limits
+public import Mathlib.Topology.Category.Stonean.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Category.CompHaus.Limits
 /-!
 
 # Sheaves on CompHaus are equivalent to sheaves on Stonean

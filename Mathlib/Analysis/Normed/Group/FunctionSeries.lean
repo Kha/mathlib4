@@ -5,8 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.UniformApproximation
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Continuity of series of functions

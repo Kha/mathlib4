@@ -6,10 +6,14 @@ Authors: María Inés de Frutos-Fernández
 module
 
 public import Mathlib.Analysis.Normed.Unbundled.AlgebraNorm
-public import Mathlib.Analysis.Normed.Unbundled.SeminormFromBounded
 public import Mathlib.Analysis.Normed.Unbundled.SmoothingSeminorm
 public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
-public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.IsNonarchimedean
+import Mathlib.Analysis.Normed.Unbundled.SeminormFromBounded
 
 
 /-!

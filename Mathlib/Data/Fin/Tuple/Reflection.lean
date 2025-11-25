@@ -6,7 +6,11 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Data.Fin.VecNotation
-public import Mathlib.Algebra.BigOperators.Fin
+public meta import Qq.Simp
+public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
 
 /-!
 # Lemmas for tuples `Fin m → α`

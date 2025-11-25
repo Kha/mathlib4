@@ -6,12 +6,22 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.MoebiusAction
-public import Mathlib.Analysis.Convex.Contractible
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
-public import Mathlib.Analysis.Complex.Convex
-public import Mathlib.Analysis.Complex.ReImTopology
 public import Mathlib.Topology.Homotopy.Contractible
 public import Mathlib.Topology.OpenPartialHomeomorph
+public import Mathlib.Topology.Connected.LocPathConnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.Convex
+import Mathlib.Analysis.Complex.ReImTopology
+import Mathlib.Analysis.Convex.Contractible
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Data.Int.Cast.Field
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.Order.Group
 
 /-!
 # Topology on the upper half plane

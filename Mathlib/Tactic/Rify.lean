@@ -5,9 +5,10 @@ Authors: Moritz Doll, Mario Carneiro, Robert Y. Lewis, Patrick Massot
 -/
 module
 
-public meta import Mathlib.Data.Rat.Cast.Order
-public meta import Mathlib.Data.Real.Basic
-public meta import Mathlib.Tactic.Qify
+public import Mathlib.Data.Real.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # `rify` tactic

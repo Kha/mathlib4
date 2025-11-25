@@ -6,7 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Ideal.GoingDown
-public import Mathlib.RingTheory.Spectrum.Prime.ChevalleyComplexity
+public import Mathlib.RingTheory.FinitePresentation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Spectrum.Prime.ChevalleyComplexity
 
 /-!
 # Chevalley's theorem

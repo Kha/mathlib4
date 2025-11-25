@@ -9,6 +9,8 @@ public import Mathlib.MeasureTheory.MeasurableSpace.Defs
 public import Mathlib.GroupTheory.GroupAction.IterateAct
 public import Mathlib.Data.Rat.Init
 public import Mathlib.Data.ZMod.Defs
+public import Mathlib.Data.ENat.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurable-space typeclass instances

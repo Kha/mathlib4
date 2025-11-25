@@ -7,6 +7,10 @@ module
 
 public import Mathlib.ModelTheory.DirectLimit
 public import Mathlib.Order.Ideal
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
 
 /-!
 # Partial Isomorphisms

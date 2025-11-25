@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.Grp.Basic
 public import Mathlib.Algebra.Category.MonCat.FilteredColimits
+import Mathlib.Tactic.Lemma
 
 /-!
 # The forgetful functor from (commutative) (additive) groups preserves filtered colimits.

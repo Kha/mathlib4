@@ -8,7 +8,11 @@ module
 public import Mathlib.Algebra.Group.InjSurj
 public import Mathlib.Algebra.Group.Units.Defs
 public import Mathlib.Data.Setoid.Basic
-public import Mathlib.Tactic.FastInstance
+public import Mathlib.Tactic.Tauto
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruence relations

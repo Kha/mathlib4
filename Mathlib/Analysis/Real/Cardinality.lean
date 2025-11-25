@@ -5,10 +5,27 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Pointwise.Interval
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Data.Rat.Cardinal
 public import Mathlib.SetTheory.Cardinal.Continuum
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Rat.Cardinal
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.Inv
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The cardinality of the reals

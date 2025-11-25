@@ -5,8 +5,9 @@ Authors: Reid Barton, Johan Commelin, Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Equivalence
 public import Mathlib.CategoryTheory.Yoneda
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Adjunctions between functors

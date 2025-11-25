@@ -5,9 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.MorphismProperty.Limits
 public import Mathlib.CategoryTheory.Square
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.MorphismProperty.Limits
 
 /-!
 # Commutative squares that are pushout or pullback squares

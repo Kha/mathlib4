@@ -7,6 +7,10 @@ module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Formula
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Negation and addition formulae for nonsingular points in Jacobian coordinates

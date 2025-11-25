@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Lie.Semisimple.Defs
 public import Mathlib.Order.BooleanGenerators
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Semisimple Lie algebras

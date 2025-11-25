@@ -5,10 +5,39 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Complex.Convex
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Shift
-public import Mathlib.Analysis.SpecificLimits.RCLike
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.Convex
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Analysis.SpecificLimits.RCLike
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.Deriv.Shift
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Group.Lemmas
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Instances.Real.Lemmas
 
 /-!
 # Estimates for the complex logarithm

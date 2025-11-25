@@ -7,7 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Transvection
 public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-public import Mathlib.Tactic.FinCases
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Degree.Operations
 
 /-!
 # Block matrices and their determinant

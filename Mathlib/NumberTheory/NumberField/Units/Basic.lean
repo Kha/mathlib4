@@ -7,8 +7,19 @@ module
 
 public import Mathlib.GroupTheory.Torsion
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
-public import Mathlib.RingTheory.LocalRing.RingHom.Basic
-public import Mathlib.RingTheory.RootsOfUnity.Complex
+public import Mathlib.NumberTheory.NumberField.Norm
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Two
+import Mathlib.RingTheory.RootsOfUnity.Complex
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Analysis.Normed.Ring.Finite
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
 
 /-!
 # Units of a number field

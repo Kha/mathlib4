@@ -5,9 +5,12 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Limits
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf
-public import Mathlib.CategoryTheory.Sites.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Sites.Limits
+import Mathlib.Algebra.Category.Grp.Limits
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Limits
 
 /-! # Limits in categories of sheaves of modules
 

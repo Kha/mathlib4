@@ -5,9 +5,13 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Tactic.Monotonicity.Attr
-public import Mathlib.Tactic.SetLike
 public import Mathlib.Data.Set.Basic
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Typeclass for types with a set-like extensionality property

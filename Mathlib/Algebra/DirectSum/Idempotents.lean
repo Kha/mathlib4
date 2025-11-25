@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Idempotents
 public import Mathlib.Algebra.DirectSum.Decomposition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Decomposition of the identity of a semiring into orthogonal idempotents

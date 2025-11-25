@@ -5,9 +5,11 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Lie.InvariantForm
-public import Mathlib.Algebra.Lie.Semisimple.Basic
 public import Mathlib.Algebra.Lie.TraceForm
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.Algebra.Lie.Semisimple.Basic
 
 /-!
 # Lie algebras with non-degenerate Killing forms.

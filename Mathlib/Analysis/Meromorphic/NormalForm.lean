@@ -6,6 +6,16 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.Meromorphic.Divisor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Normal form of meromorphic functions and continuous extension

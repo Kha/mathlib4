@@ -6,7 +6,6 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Init
-public meta import Lean.Elab.Tactic.Basic
 
 /-!
 # The `rw_search` tactic has been removed from Mathlib.

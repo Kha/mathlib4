@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Prod
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
 
 /-!
 # Products of subalgebras

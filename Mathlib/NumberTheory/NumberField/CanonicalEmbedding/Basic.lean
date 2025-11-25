@@ -7,9 +7,32 @@ module
 
 public import Mathlib.Algebra.Module.ZLattice.Basic
 public import Mathlib.Analysis.InnerProductSpace.ProdL2
-public import Mathlib.MeasureTheory.Measure.Haar.Unique
 public import Mathlib.NumberTheory.NumberField.FractionalIdeal
 public import Mathlib.NumberTheory.NumberField.Units.Basic
+public import Mathlib.Algebra.Ring.TransferInstance
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.RingTheory.Finiteness.Prod
+public import Mathlib.Analysis.Normed.Lp.MeasurableSpace
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.RingTheory.Discriminant
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.SymmDiff
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.Algebra.Module.PerfectSpace
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Canonical embedding of a number field

@@ -7,6 +7,10 @@ module
 
 public meta import Mathlib.Tactic.Basic
 public meta import Aesop
+public import Mathlib.Init
+import Aesop.Frontend.Basic
+import Aesop.Frontend.Command
+import Mathlib.Tactic.Basic
 
 /-!
 # SetLike Rule Set

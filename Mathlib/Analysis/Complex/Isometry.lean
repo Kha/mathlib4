@@ -8,6 +8,8 @@ module
 public import Mathlib.Analysis.Complex.Circle
 public import Mathlib.LinearAlgebra.Determinant
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Algebra.Ring.Commute
 
 /-!
 # Isometries of the Complex Plane

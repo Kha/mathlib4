@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Probability.ProbabilityMassFunction.Basic
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-! # Geometric distributions over ℕ
 

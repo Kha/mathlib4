@@ -5,10 +5,36 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Data.ZMod.Coprime
 public import Mathlib.NumberTheory.DirichletCharacter.Orthogonality
-public import Mathlib.NumberTheory.LSeries.Linearity
-public import Mathlib.NumberTheory.LSeries.Nonvanishing
+public import Mathlib.NumberTheory.VonMangoldt
+public import Mathlib.NumberTheory.LSeries.Convergence
+public import Mathlib.NumberTheory.LSeries.DirichletContinuation
+import Mathlib.NumberTheory.SumPrimeReciprocals
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ZMod.Coprime
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.NumberTheory.LSeries.Dirichlet
+import Mathlib.NumberTheory.LSeries.Linearity
+import Mathlib.NumberTheory.LSeries.Nonvanishing
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Complex.Polynomial.Basic
+import Mathlib.Data.Nat.Factorization.PrimePow
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Dirichlet's Theorem on primes in arithmetic progression

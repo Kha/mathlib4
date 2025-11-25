@@ -6,7 +6,8 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialCategory.Basic
-public import Mathlib.AlgebraicTopology.SimplicialSet.Nerve
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 
 # The simplicial nerve of a simplicial category

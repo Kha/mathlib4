@@ -8,6 +8,8 @@ module
 public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
 public import Mathlib.RingTheory.Localization.NumDen
 public import Mathlib.RingTheory.Polynomial.ScaleRoots
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.UniqueFactorizationDomain.Basic
 
 /-!
 # Rational root theorem and integral root theorem

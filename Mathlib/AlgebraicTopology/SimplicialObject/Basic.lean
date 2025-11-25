@@ -7,11 +7,11 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Basic
 public import Mathlib.CategoryTheory.Adjunction.Reflective
-public import Mathlib.CategoryTheory.Comma.Arrow
 public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
-public import Mathlib.CategoryTheory.Opposites
-public import Mathlib.Util.Superscript
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.Superscript
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 
 /-!
 # Simplicial objects in a category.

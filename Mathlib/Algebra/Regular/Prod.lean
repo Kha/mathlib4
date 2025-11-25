@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Notation.Prod
 public import Mathlib.Algebra.Regular.SMul
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Prod.Basic
 
 /-!
 # Results about `IsRegular` and `Prod`

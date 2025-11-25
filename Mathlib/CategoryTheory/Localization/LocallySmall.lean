@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Localization.HasLocalization
 public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Locally small localizations

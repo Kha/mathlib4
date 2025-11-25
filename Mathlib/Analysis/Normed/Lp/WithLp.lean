@@ -5,9 +5,16 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.Module.TransferInstance
 public import Mathlib.Data.ENNReal.Basic
-public import Mathlib.RingTheory.Finiteness.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.Algebra.GroupWithZero.Action.TransferInstance
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.TransferInstance
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-! # The `WithLp` type synonym
 

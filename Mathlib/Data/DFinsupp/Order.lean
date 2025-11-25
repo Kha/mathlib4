@@ -6,8 +6,14 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Order.Module.Defs
-public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.Data.DFinsupp.Module
+public import Mathlib.Algebra.Order.Sub.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Pointwise order on finitely supported dependent functions

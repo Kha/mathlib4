@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Simplices
+import Mathlib.Tactic.Lemma
 
 /-!
 # Simplices that are uniquely codimensional one faces

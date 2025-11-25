@@ -5,8 +5,13 @@ Authors: Haitian Wang, Malvin Gattinger
 -/
 module
 
-public import Mathlib.Algebra.Order.Sub.Unbundled.Basic
-public import Mathlib.Data.Multiset.OrderedMonoid
+public import Mathlib.Data.Multiset.AddSub
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Multiset.OrderedMonoid
+import Mathlib.Data.Multiset.UnionInter
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Dershowitz-Manna ordering

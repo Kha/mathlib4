@@ -5,10 +5,26 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
-public import Mathlib.Topology.Metrizable.Real
-public import Mathlib.Topology.IndicatorConstPointwise
+public import Mathlib.Topology.Metrizable.Basic
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.IndicatorConstPointwise
+import Mathlib.Topology.Neighborhoods
+import Mathlib.MeasureTheory.Function.AEMeasurableSequence
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Measurable functions in (pseudo-)metrizable Borel spaces

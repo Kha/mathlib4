@@ -5,7 +5,27 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Covering.Differentiation
+public import Mathlib.Data.Nat.Lattice
+public import Mathlib.MeasureTheory.Covering.VitaliFamily
+public import Mathlib.SetTheory.Ordinal.Basic
+public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Covering.Differentiation
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Set.Pairwise.Lattice
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Besicovitch covering theorems

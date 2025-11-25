@@ -8,8 +8,7 @@ module
 public import Mathlib.CategoryTheory.Monoidal.Mon_
 public import Mathlib.CategoryTheory.Monoidal.Braided.Opposite
 public import Mathlib.CategoryTheory.Monoidal.Transport
-public import Mathlib.CategoryTheory.Monoidal.CoherenceLemmas
-public import Mathlib.CategoryTheory.Limits.Shapes.Terminal
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of comonoids in a monoidal category.

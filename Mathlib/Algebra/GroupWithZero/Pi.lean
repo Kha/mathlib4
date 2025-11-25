@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.GroupWithZero.Defs
 public import Mathlib.Algebra.Group.Hom.Defs
 public import Mathlib.Algebra.Group.Pi.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Pi instances for groups with zero

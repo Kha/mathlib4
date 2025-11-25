@@ -6,6 +6,7 @@ Authors: Kim Morrison, Reid Barton
 module
 
 public import Mathlib.CategoryTheory.Functor.FullyFaithful
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Induced categories and full subcategories

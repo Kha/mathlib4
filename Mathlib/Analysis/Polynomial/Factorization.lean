@@ -6,7 +6,14 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.Algebra.Polynomial.Degree.IsMonicOfDegree
-public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Data.Real.Basic
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Polynomial.UniqueFactorization
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Analysis.Complex.Polynomial.Basic
 
 /-!
 # Factorization of monic polynomials of given degree

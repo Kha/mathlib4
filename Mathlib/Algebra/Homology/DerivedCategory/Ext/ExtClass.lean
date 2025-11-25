@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Homology.DerivedCategory.Ext.Basic
 public import Mathlib.Algebra.Homology.DerivedCategory.SingleTriangle
+import Mathlib.Tactic.Lemma
 
 /-!
 # The Ext class of a short exact sequence

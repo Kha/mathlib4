@@ -5,8 +5,14 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.CategoryTheory.Galois.Examples
-public import Mathlib.CategoryTheory.Galois.Prorepresentability
+public import Mathlib.CategoryTheory.Action.Concrete
+public import Mathlib.CategoryTheory.Galois.GaloisObjects
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Action.Limits
+import Mathlib.CategoryTheory.Galois.Examples
+import Mathlib.CategoryTheory.Galois.Prorepresentability
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 

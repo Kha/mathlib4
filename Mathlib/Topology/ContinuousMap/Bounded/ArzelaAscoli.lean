@@ -6,7 +6,14 @@ Authors: Sébastien Gouëzel, Mario Carneiro, Yury Kudryashov, Heather Macbeth
 module
 
 public import Mathlib.Topology.ContinuousMap.Bounded.Basic
-public import Mathlib.Topology.MetricSpace.Equicontinuity
+public import Mathlib.Topology.UniformSpace.Equicontinuity
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Data.Fintype.Pi
+import Mathlib.Topology.MetricSpace.Equicontinuity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # The Arzelà–Ascoli theorem for bounded continuous functions

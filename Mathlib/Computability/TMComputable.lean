@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Polynomial.Eval.Defs
 public import Mathlib.Computability.Encoding
 public import Mathlib.Computability.TuringMachine
+import Batteries.Util.ProofWanted
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Computable functions

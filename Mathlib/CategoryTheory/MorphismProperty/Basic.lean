@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Comma.Arrow
 public import Mathlib.Order.CompleteBooleanAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Properties of morphisms

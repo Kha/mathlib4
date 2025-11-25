@@ -5,8 +5,12 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Finset.Max
-public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Data.Finset.BooleanAlgebra
+public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Max
+import Mathlib.Data.Fintype.Basic
 
 /-!
 # Lemmas relating fintypes and order/lattice structure.

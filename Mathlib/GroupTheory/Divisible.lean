@@ -9,8 +9,11 @@ public import Mathlib.Algebra.Group.ULift
 public import Mathlib.Algebra.GroupWithZero.Subgroup
 public import Mathlib.Algebra.Module.NatInt
 public import Mathlib.GroupTheory.QuotientGroup.Defs
-public import Mathlib.Tactic.NormNum.Eq
-public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Tactic.NormNum.Core
+import Mathlib.Data.ULift
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Data.Int.Cast.Lemmas
 
 /-!
 # Divisible Group and rootable group

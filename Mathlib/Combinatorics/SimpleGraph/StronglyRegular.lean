@@ -5,8 +5,11 @@ Authors: Alena Gusakov, Jeremy Tan
 -/
 module
 
-public import Mathlib.Combinatorics.Enumerative.DoubleCounting
 public import Mathlib.Combinatorics.SimpleGraph.AdjMatrix
+import Batteries.Util.ProofWanted
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.Enumerative.DoubleCounting
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-!
 # Strongly regular graphs

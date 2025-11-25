@@ -8,6 +8,15 @@ module
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Data.Nat.Lattice
 public import Mathlib.Data.ENat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Extended natural numbers form a complete linear order

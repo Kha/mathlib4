@@ -5,10 +5,11 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Data.Fintype.Basic
-public import Mathlib.SetTheory.Cardinal.Regular
 public import Mathlib.SetTheory.Game.Birthday
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Data.Fintype.Sum
+public import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.SetTheory.Cardinal.Regular
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Short` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

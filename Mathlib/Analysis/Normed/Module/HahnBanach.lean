@@ -5,9 +5,24 @@ Authors: Yury Kudryashov, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Convex.Cone.Extension
-public import Mathlib.Analysis.Normed.Module.RCLike.Extend
-public import Mathlib.Analysis.RCLike.Lemmas
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Algebra.Module.Submodule.Basic
+public import Mathlib.Analysis.Normed.Module.Span
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Analysis.Convex.Cone.Extension
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Module.RCLike.Extend
 
 /-!
 # Extension Hahn-Banach theorem

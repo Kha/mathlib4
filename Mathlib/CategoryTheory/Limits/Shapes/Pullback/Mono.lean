@@ -5,7 +5,10 @@ Authors: Bhavik Mehta, Andrew Yang
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Iso
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Iso
 
 /-!
 # Pullbacks and monomorphisms

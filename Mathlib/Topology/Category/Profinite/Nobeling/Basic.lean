@@ -9,6 +9,15 @@ public import Mathlib.LinearAlgebra.LinearIndependent.Defs
 public import Mathlib.SetTheory.Ordinal.Basic
 public import Mathlib.Topology.Category.Profinite.Product
 public import Mathlib.Topology.LocallyConstant.Algebra
+public import Mathlib.Data.List.Lex
+public import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.List.Chain
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Preliminaries for Nöbeling's theorem

@@ -6,6 +6,11 @@ Authors: Scott Carnahan
 module
 
 public import Mathlib.LinearAlgebra.RootSystem.Defs
+public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
 
 /-!
 # Root pairings made from bilinear forms

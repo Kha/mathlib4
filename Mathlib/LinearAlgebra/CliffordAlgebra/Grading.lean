@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Basic
 public import Mathlib.RingTheory.GradedAlgebra.Basic
+public import Mathlib.Data.ZMod.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-!
 # Results about the grading structure of the clifford algebra

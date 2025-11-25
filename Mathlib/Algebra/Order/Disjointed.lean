@@ -6,8 +6,10 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Algebra.Order.SuccPred.PartialSups
-public import Mathlib.Data.Nat.SuccPred
 public import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.SuccPred
 
 /-!
 # `Disjointed` for functions on a `SuccAddOrder`

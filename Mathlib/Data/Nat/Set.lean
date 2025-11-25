@@ -5,7 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Image
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Notation
+public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
 
 /-!
 ### Recursion on the natural numbers and `Set.range`

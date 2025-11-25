@@ -8,6 +8,9 @@ module
 public import Mathlib.CategoryTheory.Category.Bipointed
 public import Mathlib.Order.Category.PartOrd
 public import Mathlib.Order.Hom.Bounded
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of bounded orders

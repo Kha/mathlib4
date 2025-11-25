@@ -6,7 +6,10 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.Order.SuccPred.Archimedean
-public import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Cover
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Successor and predecessor limits

@@ -5,9 +5,17 @@ Authors: Kexing Ying
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
 public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Probability.Independence.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Probability density function

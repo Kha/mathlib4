@@ -5,10 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Data.Finite.Card
-public import Mathlib.Analysis.Analytic.Within
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
 public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.CPolynomial
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Group.Fin.Tuple
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Faa di Bruno formula

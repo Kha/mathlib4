@@ -5,14 +5,29 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Group.TypeTags.Finite
-public import Mathlib.Algebra.Order.Hom.TypeTags
 public import Mathlib.Data.Nat.Totient
 public import Mathlib.Data.ZMod.Aut
 public import Mathlib.Data.ZMod.QuotientGroup
 public import Mathlib.GroupTheory.Exponent
 public import Mathlib.GroupTheory.Subgroup.Simple
-public import Mathlib.Tactic.Group
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Fintype.Units
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.TypeTags.Finite
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Hom.TypeTags
+import Mathlib.Algebra.Order.Monoid.TypeTags
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Cyclic groups

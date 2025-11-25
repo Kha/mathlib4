@@ -6,6 +6,15 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.UniformSpace.UniformConvergence
+public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Prod
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # Locally uniform convergence

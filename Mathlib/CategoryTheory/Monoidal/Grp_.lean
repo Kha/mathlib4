@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Mon_
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
 public import Mathlib.CategoryTheory.Limits.ExactFunctor
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of groups in a Cartesian monoidal category

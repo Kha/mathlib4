@@ -7,10 +7,9 @@ module
 
 public import Mathlib.Control.Monad.Basic
 public import Mathlib.Control.Monad.Cont
-public import Mathlib.Control.Monad.Writer
 public import Mathlib.Logic.Equiv.Basic
 public import Mathlib.Logic.Equiv.Functor
-public import Mathlib.Control.Lawful
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Universe lifting for type families

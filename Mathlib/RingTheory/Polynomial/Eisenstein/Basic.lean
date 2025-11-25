@@ -5,9 +5,22 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.BigOperators
-public import Mathlib.RingTheory.Polynomial.Eisenstein.Criterion
 public import Mathlib.RingTheory.Polynomial.ScaleRoots
+public import Mathlib.RingTheory.Polynomial.Content
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.Polynomial.Eisenstein.Criterion
 
 /-!
 # Eisenstein polynomials

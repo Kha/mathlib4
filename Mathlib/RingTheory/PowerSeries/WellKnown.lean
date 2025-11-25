@@ -5,9 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Data.Nat.Cast.Field
 public import Mathlib.RingTheory.PowerSeries.Basic
+public import Mathlib.Algebra.Ring.Rat
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Rat
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Data.Nat.Cast.Field
+import Mathlib.Data.Nat.Choose.Sum
 
 /-!
 # Definition of well-known power series

@@ -6,10 +6,18 @@ Authors: Matthew Jasper, Kevin Buzzard
 module
 
 public import Mathlib.Algebra.Module.Torsion.Basic
-public import Mathlib.RingTheory.DedekindDomain.Dvr
-public import Mathlib.RingTheory.Flat.Localization
-public import Mathlib.RingTheory.Flat.Tensor
-public import Mathlib.RingTheory.Ideal.IsPrincipal
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.RingTheory.Valuation.ValuationRing
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.DiscreteValuationRing.TFAE
+import Mathlib.RingTheory.Flat.Localization
+import Mathlib.RingTheory.Flat.Tensor
+import Mathlib.RingTheory.Ideal.IsPrincipal
 
 /-!
 # Relationships between flatness and torsionfreeness.

@@ -5,7 +5,12 @@ Authors: Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.ENNReal.Operations
+public import Mathlib.Data.ENNReal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.ENNReal.Real
 
 /-!
 # Scalar multiplication on `ℝ≥0∞`.

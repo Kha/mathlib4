@@ -5,8 +5,11 @@ Authors: Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Fintype.EquivFin
-public import Mathlib.Data.Fintype.Sigma
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Data.Fintype.Sigma
 
 /-!
 # Finiteness of sigma types

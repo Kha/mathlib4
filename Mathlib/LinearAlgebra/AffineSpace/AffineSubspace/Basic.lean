@@ -7,6 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.AffineSpace.AffineEquiv
 public import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 # Affine spaces

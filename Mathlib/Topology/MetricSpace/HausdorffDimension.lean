@@ -5,8 +5,22 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.RCLike
 public import Mathlib.MeasureTheory.Measure.Hausdorff
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Analysis.Calculus.ContDiff.RCLike
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Hausdorff dimension

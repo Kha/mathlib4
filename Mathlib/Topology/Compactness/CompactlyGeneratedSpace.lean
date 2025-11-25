@@ -6,7 +6,18 @@ Authors: Dagur Asgeirsson, Etienne Marion
 module
 
 public import Mathlib.Topology.Category.CompHaus.Basic
-public import Mathlib.Topology.Compactification.OnePoint.Basic
+public import Mathlib.Topology.Compactness.CompactlyCoherentSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.CompactOpen
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Instances.Nat
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Compactification.OnePoint.Basic
 
 /-!
 # Compactly generated topological spaces

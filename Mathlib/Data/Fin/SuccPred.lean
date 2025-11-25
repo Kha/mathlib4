@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fin.Basic
 public import Mathlib.Logic.Equiv.Set
+import Mathlib.Tactic.Lemma
 
 /-!
 # Successors and predecessor operations of `Fin n`

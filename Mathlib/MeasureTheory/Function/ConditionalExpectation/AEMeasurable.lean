@@ -6,7 +6,15 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Function.LpSeminorm.Trim
-public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lp
+public import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.IndicatorFunction
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.MeasureTheory.Function.LpSpace.Complete
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lp
 
 /-! # Functions a.e. measurable with respect to a sub-σ-algebra
 

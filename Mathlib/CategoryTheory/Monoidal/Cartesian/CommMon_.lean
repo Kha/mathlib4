@@ -6,6 +6,7 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Mon_
+import Mathlib.Tactic.Lemma
 
 /-!
 # Yoneda embedding of `CommMon C`

@@ -5,8 +5,15 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
-public import Mathlib.LinearAlgebra.Dimension.Finite
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.LinearAlgebra.StdBasis
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Finite and free modules using matrices

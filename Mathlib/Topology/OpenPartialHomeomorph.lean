@@ -6,8 +6,18 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Logic.Equiv.PartialEquiv
-public import Mathlib.Topology.Homeomorph.Lemmas
 public import Mathlib.Topology.Sets.Opens
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Piecewise
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Homeomorph.Lemmas
 
 /-!
 # Partial homeomorphisms

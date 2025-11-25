@@ -6,7 +6,10 @@ Authors: Jz Pan
 module
 
 public import Mathlib.Algebra.FreeAlgebra
-public import Mathlib.SetTheory.Cardinal.Free
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.SetTheory.Cardinal.Finsupp
+import Mathlib.SetTheory.Cardinal.Free
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Cardinality of free algebras

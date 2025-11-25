@@ -6,7 +6,8 @@ Authors: Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Monoidal.CommGrp_
-public import Mathlib.CategoryTheory.Preadditive.Biproducts
+public import Mathlib.CategoryTheory.Preadditive.Basic
+import Mathlib.CategoryTheory.Preadditive.Biproducts
 
 /-!
 # Commutative group objects in additive categories.

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Affine
 public import Mathlib.AlgebraicGeometry.Morphisms.RingHomProperties
+import Mathlib.Tactic.Lemma
 
 /-!
 # Affine morphisms with additional ring hom property

@@ -6,8 +6,25 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.MeasureTheory.Measure.Content
-public import Mathlib.MeasureTheory.Group.Prod
-public import Mathlib.Topology.Algebra.Group.Compact
+public import Mathlib.Data.Nat.Lattice
+public import Mathlib.MeasureTheory.Group.Measure
+public import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.MeasureTheory.Group.Prod
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Algebra.Group.Compact
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Haar measure

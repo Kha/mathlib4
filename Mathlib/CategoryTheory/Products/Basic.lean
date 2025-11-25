@@ -6,8 +6,8 @@ Authors: Stephen Morgan, Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Functor.Const
-public import Mathlib.CategoryTheory.Opposites
-public import Mathlib.Data.Prod.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Prod.Basic
 
 /-!
 # Cartesian products of categories

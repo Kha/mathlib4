@@ -5,9 +5,13 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Semiconj
-public import Mathlib.Algebra.Group.Commute.Units
-public import Mathlib.Tactic.Nontriviality
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.Semiconj
+import Mathlib.Algebra.Group.Commute.Units
 
 /-!
 # Lemmas about commuting elements in a `MonoidWithZero` or a `GroupWithZero`.

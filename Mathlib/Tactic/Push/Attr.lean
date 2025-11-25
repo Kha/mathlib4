@@ -5,7 +5,10 @@ Authors: Jovan Gerbscheid
 -/
 module
 
-public meta import Mathlib.Lean.Expr.Basic
+public import Mathlib.Init
+public meta import Lean.Meta.Tactic.Simp.SimpTheorems
+public import Lean.Meta.Tactic.Simp.SimpTheorems
+meta import Mathlib.Lean.Expr.Basic
 
 /-!
 # The `@[push]` attribute for the `push`, `push_neg` and `pull` tactics

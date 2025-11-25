@@ -6,9 +6,11 @@ Authors: Yakov Pechersky
 module
 
 public import Mathlib.Algebra.Group.Prod
-public import Mathlib.Algebra.GroupWithZero.Commute
-public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 public import Mathlib.Algebra.GroupWithZero.WithZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Equiv
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Homomorphisms for products of groups with zero

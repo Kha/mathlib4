@@ -5,11 +5,12 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.Exact
 public import Mathlib.CategoryTheory.Shift.ShiftSequence
-public import Mathlib.CategoryTheory.Triangulated.Functor
 public import Mathlib.CategoryTheory.Triangulated.Subcategory
 public import Mathlib.Algebra.Homology.ExactSequence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Order.Units
 
 /-! # Homological functors
 

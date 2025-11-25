@@ -5,9 +5,17 @@ Authors: Yizheng Zhu
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.MeasureTheory.Covering.OneDim
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Covering.Differentiation
+import Mathlib.MeasureTheory.Covering.OneDim
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-!
 # Lebesgue Differentiation Theorem (Interval Version)

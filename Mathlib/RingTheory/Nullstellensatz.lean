@@ -5,9 +5,12 @@ Authors: Devon Tuma
 -/
 module
 
-public import Mathlib.RingTheory.Jacobson.Ring
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.Basic
+public import Mathlib.Algebra.MvPolynomial.Eval
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Jacobson.Ring
 
 /-!
 # Nullstellensatz

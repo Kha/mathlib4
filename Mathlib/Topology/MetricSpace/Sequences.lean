@@ -5,8 +5,13 @@ Authors: Jan-David Salchow, Patrick Massot, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Sequences
-public import Mathlib.Topology.MetricSpace.Bounded
+public import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Sequences
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Sequential compacts in metric spaces

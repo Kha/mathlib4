@@ -6,8 +6,19 @@ Authors: Riccardo Brasca, Eric Rodriguez
 module
 
 public import Mathlib.NumberTheory.NumberField.Basic
-public import Mathlib.RingTheory.Localization.NormTrace
-public import Mathlib.RingTheory.Norm.Transitivity
+public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.RingTheory.Trace.Defs
+import Mathlib.FieldTheory.IsSepClosed
+import Mathlib.FieldTheory.Tower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Localization.NormTrace
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Norm.Transitivity
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Norm in number fields

@@ -5,10 +5,15 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
-public import Mathlib.MeasureTheory.Measure.Count
-public import Mathlib.Order.Filter.ENNReal
 public import Mathlib.Probability.UniformOn
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.Filter.ENNReal
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
 
 /-!
 # Essential supremum and infimum

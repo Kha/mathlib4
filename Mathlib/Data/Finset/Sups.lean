@@ -8,6 +8,8 @@ module
 public import Mathlib.Data.Finset.NAry
 public import Mathlib.Data.Finset.Slice
 public import Mathlib.Data.Set.Sups
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Set family operations

@@ -5,13 +5,18 @@ Authors: Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.EpiMono
-public import Mathlib.Algebra.Category.ModuleCat.Colimits
-public import Mathlib.Algebra.Category.ModuleCat.Limits
-public import Mathlib.Algebra.Algebra.RestrictScalars
 public import Mathlib.CategoryTheory.Adjunction.Mates
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
+public import Mathlib.CategoryTheory.Functor.EpiMono
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.RestrictScalars
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.EpiMono
+import Mathlib.Algebra.Category.ModuleCat.Limits
 
 /-!
 # Change Of Rings

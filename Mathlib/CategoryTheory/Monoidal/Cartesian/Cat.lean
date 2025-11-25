@@ -6,6 +6,7 @@ Authors: Nicolas Rolland
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
+import Mathlib.Tactic.Lemma
 /-!
 # Chosen finite products in `Cat`
 

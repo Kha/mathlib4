@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.Derivation.Basic
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Derivations into Square-Zero Ideals

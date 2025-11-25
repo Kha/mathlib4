@@ -5,11 +5,30 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Complex.ExponentialBounds
-public import Mathlib.Analysis.InnerProductSpace.Convex
-public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.Combinatorics.Additive.AP.Three.Defs
-public import Mathlib.Combinatorics.Pigeonhole
+public import Mathlib.Analysis.Convex.StrictConvexSpace
+public import Mathlib.Analysis.Normed.Lp.PiLp
+import Mathlib.Combinatorics.Pigeonhole
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Analysis.Complex.ExponentialBounds
+import Mathlib.Analysis.InnerProductSpace.Convex
+import Mathlib.Analysis.InnerProductSpace.PiL2
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Behrend's bound on Roth numbers

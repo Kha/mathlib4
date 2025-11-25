@@ -6,7 +6,15 @@ Authors: Kim Morrison, Justus Springer
 module
 
 public import Mathlib.Topology.Category.TopCat.OpenNhds
-public import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+public import Mathlib.CategoryTheory.Functor.EpiMono
+public import Mathlib.Topology.Sheaves.Sheaf
+public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.Types.Filtered
+import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
 
 /-!
 # Stalks

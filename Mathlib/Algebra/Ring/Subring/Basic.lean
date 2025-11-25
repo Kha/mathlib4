@@ -9,8 +9,19 @@ public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.Group.Subgroup.Basic
 public import Mathlib.Algebra.Ring.Subring.Defs
 public import Mathlib.Algebra.Ring.Subsemiring.Basic
-public import Mathlib.RingTheory.NonUnitalSubring.Defs
 public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Center
+import Mathlib.Algebra.Ring.Centralizer
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Bounds.Image
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Group.Submonoid.Membership
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Subrings

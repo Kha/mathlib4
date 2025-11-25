@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Exact
 public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.Projection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 # Basis from a split exact sequence

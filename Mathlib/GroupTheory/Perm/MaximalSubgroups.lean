@@ -5,10 +5,19 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.GroupTheory.GroupAction.Jordan
-public import Mathlib.GroupTheory.SpecificGroups.Cyclic
-public import Mathlib.GroupTheory.Subgroup.Simple
-public import Mathlib.GroupTheory.GroupAction.SubMulAction.OfFixingSubgroup
+public import Mathlib.GroupTheory.GroupAction.Blocks
+public import Mathlib.GroupTheory.Perm.Support
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Pointwise.Stabilizer
+import Mathlib.Data.Finite.Perm
+import Mathlib.GroupTheory.GroupAction.Jordan
+import Mathlib.GroupTheory.GroupAction.Transitive
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Group.Pointwise.Set.Card
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-! # Maximal subgroups of the symmetric groups
 

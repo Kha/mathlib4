@@ -6,6 +6,7 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Functor
+import Mathlib.Tactic.TypeStar
 /-!
 
 # Constructing monoidal functors from natural transformations between multifunctors

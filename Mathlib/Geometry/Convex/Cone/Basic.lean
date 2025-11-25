@@ -6,6 +6,12 @@ Authors: Yury Kudryashov, Frédéric Dupuis
 module
 
 public import Mathlib.Analysis.Convex.Hull
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Convex cones

@@ -5,8 +5,24 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Add
-public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Data.Sign.Defs
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.Normed.Order.Lattice
 
 /-!
 # Derivative of the absolute value

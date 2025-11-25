@@ -5,8 +5,21 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.StronglyMeasurable.ENNReal
 public import Mathlib.MeasureTheory.Measure.WithDensity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.ENNReal
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-! # From equality of integrals to equality of functions
 

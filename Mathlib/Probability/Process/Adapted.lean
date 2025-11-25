@@ -6,7 +6,11 @@ Authors: Kexing Ying, Rémy Degenne
 module
 
 public import Mathlib.Probability.Process.Filtration
-public import Mathlib.Topology.Instances.Discrete
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Adapted and progressively measurable processes

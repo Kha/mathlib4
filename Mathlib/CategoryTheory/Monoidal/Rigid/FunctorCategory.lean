@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.Rigid.Basic
 public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Functors from a groupoid into a right/left rigid category form a right/left rigid category.

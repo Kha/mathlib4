@@ -5,8 +5,11 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Data.EReal.Basic
 public import Mathlib.NumberTheory.LSeries.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Convergence of L-series

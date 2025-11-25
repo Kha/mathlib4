@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Algebra.Group.Even
 public import Mathlib.Algebra.Group.Pi.Basic
-public import Mathlib.Algebra.Order.Group.Lattice
+public import Mathlib.Order.Hom.Basic
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Group.Lattice
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Absolute values in ordered groups

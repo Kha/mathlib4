@@ -5,10 +5,19 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.GroupWithZero.Synonym
-public import Mathlib.Algebra.Order.Ring.Canonical
 public import Mathlib.Algebra.Ring.Hom.Defs
-public import Mathlib.Algebra.Order.Monoid.WithTop
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Group.Units.Basic
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Option.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Synonym
+import Mathlib.Algebra.Order.Monoid.WithTop
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-! # Structures involving `*` and `0` on `WithTop` and `WithBot`
 The main results of this section are `WithTop.instOrderedCommSemiring` and

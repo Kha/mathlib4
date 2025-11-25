@@ -7,6 +7,8 @@ module
 
 public import Mathlib.MeasureTheory.Group.AEStabilizer
 public import Mathlib.Dynamics.Ergodic.Ergodic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Group.Action
 
 /-!
 # Ergodic group actions

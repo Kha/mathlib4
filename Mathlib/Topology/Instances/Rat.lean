@@ -6,11 +6,23 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Algebra.Module.Rat
-public import Mathlib.Data.NNRat.Order
-public import Mathlib.Topology.Algebra.Order.Archimedean
-public import Mathlib.Topology.Algebra.Ring.Real
 public import Mathlib.Topology.Instances.Nat
+public import Mathlib.Topology.Algebra.GroupWithZero
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.UniformSpace.Real
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+public import Mathlib.Topology.Algebra.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Data.NNRat.Order
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Order.Archimedean
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Topology on the rational numbers

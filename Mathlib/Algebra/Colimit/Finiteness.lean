@@ -6,7 +6,10 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.Algebra.Colimit.Module
-public import Mathlib.RingTheory.Finiteness.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Modules as direct limits of finitely generated submodules

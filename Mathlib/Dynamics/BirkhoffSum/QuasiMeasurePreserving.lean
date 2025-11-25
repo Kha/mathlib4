@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Dynamics.BirkhoffSum.Average
 public import Mathlib.MeasureTheory.Measure.QuasiMeasurePreserving
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Birkhoff sum and average for quasi-measure-preserving maps

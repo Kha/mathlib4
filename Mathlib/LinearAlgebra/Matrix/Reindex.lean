@@ -6,6 +6,7 @@ Authors: Johannes Hölzl, Patrick Massot, Casper Putz, Anne Baanen
 module
 
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Changing the index type of a matrix

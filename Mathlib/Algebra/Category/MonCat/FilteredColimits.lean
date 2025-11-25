@@ -6,9 +6,10 @@ Authors: Justus Springer
 module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
-public import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
 public import Mathlib.CategoryTheory.Limits.Types.Filtered
 public import Mathlib.Algebra.Category.MonCat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
 
 /-!
 # The forgetful functor from (commutative) (additive) monoids preserves filtered colimits.

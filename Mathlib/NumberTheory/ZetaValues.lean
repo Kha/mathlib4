@@ -6,10 +6,24 @@ Authors: David Loeffler
 module
 
 public import Mathlib.NumberTheory.BernoulliPolynomials
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
 public import Mathlib.Analysis.Fourier.AddCircle
-public import Mathlib.Analysis.PSeries
+import Mathlib.Analysis.PSeries
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Polynomial
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Critical values of the Riemann zeta function

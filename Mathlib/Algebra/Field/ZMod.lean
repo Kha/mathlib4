@@ -5,8 +5,9 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.Field.Basic
 public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Algebra.Field.Defs
+import Mathlib.Algebra.Field.Basic
 
 /-!
 # `ZMod p` is a field

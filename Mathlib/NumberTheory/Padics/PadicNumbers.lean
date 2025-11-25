@@ -8,8 +8,27 @@ module
 public import Mathlib.RingTheory.Valuation.Basic
 public import Mathlib.NumberTheory.Padics.PadicNorm
 public import Mathlib.Analysis.Normed.Field.Lemmas
-public import Mathlib.Tactic.Peel
 public import Mathlib.Topology.MetricSpace.Ultra.Basic
+public import Mathlib.Algebra.Order.Group.Int
+public import Mathlib.Algebra.Order.Monoid.TypeTags
+public import Mathlib.Data.Rat.Cast.Order
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 # p-adic numbers

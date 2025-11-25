@@ -8,6 +8,8 @@ module
 
 public import Mathlib.Algebra.Group.Commute.Defs
 public import Mathlib.Algebra.Group.Hom.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Multiplicative homomorphisms respect semiconjugation and commutation.

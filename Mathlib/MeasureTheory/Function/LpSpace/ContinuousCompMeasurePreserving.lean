@@ -5,8 +5,11 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
-public import Mathlib.MeasureTheory.Measure.ContinuousPreimage
+public import Mathlib.MeasureTheory.Measure.Regular
+public import Mathlib.MeasureTheory.Function.LpSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
+import Mathlib.MeasureTheory.Measure.ContinuousPreimage
 
 /-!
 # Continuity of `MeasureTheory.Lp.compMeasurePreserving`

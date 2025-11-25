@@ -8,7 +8,12 @@ module
 public import Mathlib.CategoryTheory.Adjunction.Restrict
 public import Mathlib.CategoryTheory.Functor.Flat
 public import Mathlib.CategoryTheory.Sites.Continuous
-public import Mathlib.CategoryTheory.Sites.LeftExact
+public import Mathlib.CategoryTheory.Adjunction.Unique
+public import Mathlib.CategoryTheory.Sites.ConcreteSheafification
+public import Mathlib.CategoryTheory.Sites.Sheafification
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Sites.LeftExact
 
 /-!
 # Pullback of sheaves

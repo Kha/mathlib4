@@ -6,8 +6,14 @@ Authors: Riccardo Brasca, Paul Lezeau, Junyan Xu
 module
 
 public import Mathlib.RingTheory.AdjoinRoot
-public import Mathlib.FieldTheory.Minpoly.Field
-public import Mathlib.RingTheory.Polynomial.GaussLemma
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Polynomial.GaussLemma
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Minimal polynomials over a GCD monoid

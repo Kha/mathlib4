@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.Nucleus
 public import Mathlib.Order.SupClosed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Sublocale

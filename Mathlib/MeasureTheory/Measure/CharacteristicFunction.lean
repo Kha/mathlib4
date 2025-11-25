@@ -10,9 +10,28 @@ public import Mathlib.Analysis.Fourier.FourierTransform
 public import Mathlib.Analysis.InnerProductSpace.Dual
 public import Mathlib.Analysis.InnerProductSpace.ProdL2
 public import Mathlib.Analysis.Normed.Lp.MeasurableSpace
-public import Mathlib.MeasureTheory.Group.IntegralConvolution
-public import Mathlib.MeasureTheory.Integral.Pi
-public import Mathlib.MeasureTheory.Measure.FiniteMeasureExt
+public import Mathlib.Analysis.InnerProductSpace.Continuous
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.MeasureTheory.Group.IntegralConvolution
+import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
+import Mathlib.MeasureTheory.Integral.Pi
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.Measure.FiniteMeasureExt
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.MeasureTheory.Measure.RegularityCompacts
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Normed.Module.Dual
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Characteristic Function of a Finite Measure

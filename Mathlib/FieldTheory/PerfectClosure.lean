@@ -5,8 +5,11 @@ Authors: Kenny Lau, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.CharP.Lemmas
 public import Mathlib.FieldTheory.Perfect
+public import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Reduced
+import Mathlib.RingTheory.LocalRing.Basic
 
 /-!
 

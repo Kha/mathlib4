@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Hom
 public import Mathlib.Algebra.Ring.Defs
-public import Mathlib.Algebra.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Ring.Basic
 
 /-!
 # Homomorphisms of semirings and rings

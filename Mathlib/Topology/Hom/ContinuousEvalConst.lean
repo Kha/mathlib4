@@ -6,6 +6,8 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.Constructions
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Bundled morphisms with continuous evaluation at a point

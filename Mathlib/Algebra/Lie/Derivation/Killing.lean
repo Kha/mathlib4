@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Lie.Derivation.AdjointAction
 public import Mathlib.Algebra.Lie.Killing
-public import Mathlib.LinearAlgebra.BilinearForm.Orthogonal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.Algebra.Lie.Semisimple.Basic
 
 /-!
 # Derivations of finite-dimensional Killing Lie algebras

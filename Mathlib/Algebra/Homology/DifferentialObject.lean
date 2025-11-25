@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Homology.HomologicalComplex
 public import Mathlib.CategoryTheory.DifferentialObject
+public import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
 
 /-!
 # Homological complexes are differential graded objects.

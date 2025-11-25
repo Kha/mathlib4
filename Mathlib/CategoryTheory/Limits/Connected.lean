@@ -10,6 +10,7 @@ public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
 public import Mathlib.CategoryTheory.Limits.Shapes.WidePullbacks
 public import Mathlib.CategoryTheory.IsConnected
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Connected limits

@@ -5,11 +5,26 @@ Authors: Colin Jones
 -/
 module
 
-public import Mathlib.Algebra.Ring.GeomSum
 public import Mathlib.NumberTheory.Divisors
-public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.NormNum.Prime
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Finset.Powerset
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.Prime
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Infinite
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Factorisation properties of natural numbers

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.DistribMulAction
 public import Mathlib.GroupTheory.Subgroup.Center
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Actions by `Subgroup`s

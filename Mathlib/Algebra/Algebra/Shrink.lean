@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Algebra.TransferInstance
 public import Mathlib.Algebra.Ring.Shrink
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Transfer module and algebra structures from `α` to `Shrink α`

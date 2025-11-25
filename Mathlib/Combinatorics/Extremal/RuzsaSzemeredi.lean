@@ -5,9 +5,23 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Combinatorics.Additive.AP.Three.Behrend
-public import Mathlib.Combinatorics.SimpleGraph.Triangle.Tripartite
-public import Mathlib.Tactic.Rify
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Combinatorics.SimpleGraph.Triangle.Basic
+public import Mathlib.Combinatorics.Additive.AP.Three.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Combinatorics.SimpleGraph.Triangle.Tripartite
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Combinatorics.Additive.AP.Three.Behrend
 
 /-!
 # The Ruzsa-Szemerédi problem

@@ -7,6 +7,15 @@ module
 
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
 public import Mathlib.MeasureTheory.Measure.Typeclasses.SFinite
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Measures as real-valued functions

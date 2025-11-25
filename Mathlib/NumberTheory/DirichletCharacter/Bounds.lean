@@ -6,8 +6,10 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.Analysis.Normed.Field.Basic
-public import Mathlib.FieldTheory.Finite.Basic
 public import Mathlib.NumberTheory.DirichletCharacter.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Finite.Basic
 
 /-!
 # Bounds for values of Dirichlet characters

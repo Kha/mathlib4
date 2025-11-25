@@ -6,6 +6,15 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.Distributions.Gaussian.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Gaussian distributions in Banach spaces

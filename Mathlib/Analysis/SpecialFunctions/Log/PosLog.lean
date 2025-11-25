@@ -6,6 +6,12 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The Positive Part of the Logarithm

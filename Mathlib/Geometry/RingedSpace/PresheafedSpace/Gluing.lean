@@ -8,6 +8,12 @@ module
 public import Mathlib.Topology.Gluing
 public import Mathlib.Geometry.RingedSpace.OpenImmersion
 public import Mathlib.Geometry.RingedSpace.LocallyRingedSpace.HasColimits
+import Mathlib.Tactic.ApplyFun
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.Topology.Category.TopCat.Adjunctions
 
 /-!
 # Gluing structured spaces

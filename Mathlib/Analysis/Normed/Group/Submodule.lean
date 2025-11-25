@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.LinearMap
 public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.TypeStar
 
 /-! # Submodules of normed groups -/
 

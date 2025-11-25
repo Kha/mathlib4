@@ -5,10 +5,15 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.GroupTheory.Archimedean
-public import Mathlib.Topology.Algebra.Order.Group
 public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
 public import Mathlib.Topology.Order.Basic
+public import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.GroupTheory.Archimedean
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Topology on archimedean groups and fields

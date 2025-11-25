@@ -6,6 +6,10 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.LinearAlgebra.QuadraticForm.IsometryEquiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-! # Quadratic form on product and pi types
 

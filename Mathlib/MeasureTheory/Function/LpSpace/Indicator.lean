@@ -5,10 +5,19 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
 public import Mathlib.MeasureTheory.Function.LpSpace.Basic
-public import Mathlib.MeasureTheory.Measure.Real
-public import Mathlib.Order.Filter.IndicatorFunction
+public import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.Filter.IndicatorFunction
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
 
 /-!
 # Indicator of a set as an element of `Lp`

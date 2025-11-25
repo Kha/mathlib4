@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Ring.Defs
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.NAry
 
 /-!
 # Pointwise operations of sets in a ring

@@ -5,9 +5,10 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Algebra.Module.Submodule.Range
-public import Mathlib.LinearAlgebra.Prod
 public import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
 
 /-! # Exactness of a pair
 

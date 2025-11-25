@@ -6,8 +6,18 @@ Authors: Jovan Gerbscheid, Anand Rao
 module
 
 public meta import Mathlib.Lean.Meta.RefinedDiscrTree
-public meta import Mathlib.Tactic.Widget.InteractiveUnfold
-public meta import ProofWidgets.Component.FilterDetails
+public import Lean.Widget.InteractiveCode
+public import ProofWidgets.Component.Basic
+public import Mathlib.Tactic.Widget.InteractiveUnfold
+public meta import Mathlib.Lean.Meta.RefinedDiscrTree.Encode
+meta import Mathlib.Lean.GoalsLocation
+import ProofWidgets.Component.FilterDetails
+meta import ProofWidgets.Component.FilterDetails
+import ProofWidgets.Component.OfRpcMethod
+import Lean.Server.Rpc.RequestHandling
+meta import Mathlib.Lean.Meta.KAbstractPositions
+import Mathlib.Tactic.Widget.SelectPanelUtils
+import Mathlib.Lean.Meta.RefinedDiscrTree.Lookup
 
 /-!
 # Point & click library rewriting

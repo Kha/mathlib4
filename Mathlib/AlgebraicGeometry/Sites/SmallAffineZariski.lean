@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicGeometry.AffineScheme
 public import Mathlib.CategoryTheory.Sites.DenseSubsite.InducedTopology
+import Mathlib.Tactic.Lemma
 
 /-!
 

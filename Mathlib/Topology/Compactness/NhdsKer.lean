@@ -5,9 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Tactic.Peel
-public import Mathlib.Topology.Compactness.Compact
-public import Mathlib.Topology.NhdsKer
+public import Mathlib.Tactic.Common
+public import Mathlib.Topology.Defs.Filter
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsKer
+import Mathlib.Topology.Compactness.Compact
 
 /-!
 # Compactness of the neighborhoods kernel of a set

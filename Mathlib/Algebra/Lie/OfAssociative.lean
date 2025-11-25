@@ -5,10 +5,14 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Lie.Basic
-public import Mathlib.Algebra.Lie.Subalgebra
 public import Mathlib.Algebra.Lie.Submodule
-public import Mathlib.Algebra.Algebra.Subalgebra.Basic
+public import Mathlib.Algebra.Ring.Commute
+public import Mathlib.Data.Finset.NatAntidiagonal
+public import Mathlib.Data.Nat.Choose.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Data.Nat.Choose.Sum
 
 /-!
 # Lie algebras of associative algebras

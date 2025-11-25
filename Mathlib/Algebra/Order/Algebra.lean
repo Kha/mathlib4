@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Order.Module.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Ordered algebras

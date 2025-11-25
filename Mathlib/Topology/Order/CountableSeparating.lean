@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Topology.Order.Basic
 public import Mathlib.Order.Filter.CountableSeparatingOn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Countably many infinite intervals separate points

@@ -7,7 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.EffectiveEpi.Enough
 public import Mathlib.CategoryTheory.EffectiveEpi.Preserves
-public import Mathlib.CategoryTheory.Sites.Coherent.RegularTopology
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Sites.Coherent.RegularTopology
 /-!
 
 # Reflecting the property of being preregular

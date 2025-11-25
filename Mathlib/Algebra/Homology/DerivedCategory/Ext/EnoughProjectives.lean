@@ -5,7 +5,13 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.DerivedCategory.Ext.ExactSequences
+public import Mathlib.Algebra.Homology.Embedding.CochainComplex
+public import Mathlib.Algebra.Homology.DerivedCategory.Ext.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Homology.SingleHomology
+import Mathlib.Logic.Small.Basic
+import Mathlib.Algebra.Homology.DerivedCategory.Fractions
+import Mathlib.Algebra.Homology.DerivedCategory.Ext.ExactSequences
 
 /-!
 # Smallness of Ext-groups from the existence of enough projectives

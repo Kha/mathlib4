@@ -8,6 +8,8 @@ module
 public import Mathlib.Analysis.Complex.UpperHalfPlane.FunctionsBoundedAtInfty
 public import Mathlib.NumberTheory.ModularForms.Cusps
 public import Mathlib.NumberTheory.ModularForms.SlashActions
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Boundedness and vanishing at cusps

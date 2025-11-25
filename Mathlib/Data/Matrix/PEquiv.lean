@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Data.Matrix.Mul
 public import Mathlib.Data.PEquiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # partial equivalences for matrices

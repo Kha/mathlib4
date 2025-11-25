@@ -5,8 +5,14 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.Order.LeftRight
-public import Mathlib.Topology.Order.Monotone
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Order.Monotone
 
 /-!
 # Left and right limits

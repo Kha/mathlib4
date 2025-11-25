@@ -11,9 +11,11 @@ public import Mathlib.RingTheory.Binomial
 public import Mathlib.RingTheory.HahnSeries.PowerSeries
 public import Mathlib.RingTheory.HahnSeries.Summable
 public import Mathlib.RingTheory.PowerSeries.Inverse
-public import Mathlib.RingTheory.PowerSeries.Trunc
-public import Mathlib.RingTheory.Localization.FractionRing
-public import Mathlib.Topology.UniformSpace.DiscreteUniformity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.PowerSeries.Trunc
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.Group.OrderIso
 
 
 /-!

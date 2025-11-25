@@ -6,6 +6,10 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.LinearAlgebra.FreeModule.Finite.Quotient
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
 
 /-! # Ideals in free modules over PIDs
 

@@ -6,6 +6,9 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.SetTheory.ZFC.Ordinal
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Lattice
 
 /-!
 # ZFC classes

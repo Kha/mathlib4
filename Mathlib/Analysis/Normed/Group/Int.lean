@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.Normed.Group.Basic
 public import Mathlib.Topology.Instances.Int
+public import Mathlib.Data.NNReal.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Cast
 
 /-! # ℤ as a normed group -/
 

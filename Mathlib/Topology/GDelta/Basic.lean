@@ -6,7 +6,13 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 module
 
 public import Mathlib.Order.Filter.CountableInter
-public import Mathlib.Topology.Closure
+public import Mathlib.Topology.Defs.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
+import Mathlib.Topology.Closure
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # `Gδ` sets

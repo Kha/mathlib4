@@ -5,8 +5,11 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Module.Basic
 public import Mathlib.LinearAlgebra.AffineSpace.AffineEquiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.Ring.Invertible
 
 /-!
 # Midpoint of a segment

@@ -5,8 +5,13 @@ Authors: Kalle Kytölä
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.LevyProkhorovMetric
-public import Mathlib.MeasureTheory.Measure.Prod
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.MeasureTheory.Measure.LevyProkhorovMetric
+import Mathlib.MeasureTheory.Measure.Portmanteau
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 
 /-!
 # Products of finite measures and probability measures

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Ring.Equiv
 public import Mathlib.Algebra.Ring.Opposite
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ring involutions

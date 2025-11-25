@@ -7,8 +7,18 @@ module
 
 public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Algebra.Order.ToIntervalMod
-public import Mathlib.Analysis.SpecialFunctions.Log.Base
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Analysis.SpecialFunctions.Log.Base
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Finite
+import Mathlib.Algebra.Order.Interval.Set.Group
 
 /-!
 # Akra-Bazzi theorem: the polynomial growth condition

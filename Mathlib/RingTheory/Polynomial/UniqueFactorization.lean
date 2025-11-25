@@ -5,11 +5,18 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.RingTheory.Polynomial.Basic
-public import Mathlib.RingTheory.Polynomial.Content
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Basic
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Finite
-public import Mathlib.RingTheory.UniqueFactorizationDomain.GCDMonoid
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.MvPolynomial.Basic
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.Content
+import Mathlib.RingTheory.UniqueFactorizationDomain.GCDMonoid
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Unique factorization for univariate and multivariate polynomials

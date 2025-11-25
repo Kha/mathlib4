@@ -5,11 +5,15 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Units.Equiv
 public import Mathlib.Algebra.Order.Group.End
-public import Mathlib.Logic.Function.Conjugate
-public import Mathlib.Order.Bounds.OrderIso
-public import Mathlib.Order.OrdContinuous
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Algebra.Group.Hom.Defs
+import Mathlib.Order.OrdContinuous
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.Bounds.OrderIso
+import Mathlib.Algebra.Group.Units.Equiv
 
 /-!
 # Semiconjugate by `sSup`

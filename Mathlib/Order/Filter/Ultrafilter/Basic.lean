@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Order.Filter.Ultrafilter.Defs
 public import Mathlib.Order.Filter.Cofinite
-public import Mathlib.Order.ZornAtoms
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Filter.Bases.Finite
 
 /-!
 # Ultrafilters

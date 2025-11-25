@@ -5,9 +5,24 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.Regular.Basic
-public import Mathlib.LinearAlgebra.Matrix.MvPolynomial
-public import Mathlib.LinearAlgebra.Matrix.Polynomial
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Int.Basic
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.LinearAlgebra.Matrix.MvPolynomial
+import Mathlib.LinearAlgebra.Matrix.Polynomial
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Cramer's rule and adjugate matrices

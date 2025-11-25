@@ -5,9 +5,17 @@ Authors: Andrew Yang, Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.Module.TransferInstance
 public import Mathlib.RingTheory.Localization.Defs
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Tactic.ApplyFun
+public import Mathlib.Algebra.Algebra.Hom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Module.Equiv.Basic
 
 /-!
 # Localized Module

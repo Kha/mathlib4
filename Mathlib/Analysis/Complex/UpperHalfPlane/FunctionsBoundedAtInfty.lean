@@ -5,9 +5,13 @@ Authors: Chris Birkbeck, David Loeffler
 -/
 module
 
-public import Mathlib.Algebra.Module.Submodule.Basic
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
 public import Mathlib.Order.Filter.ZeroAndBoundedAtFilter
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
 
 /-!
 # Bounded at infinity

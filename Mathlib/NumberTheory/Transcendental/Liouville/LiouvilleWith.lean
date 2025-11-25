@@ -5,9 +5,23 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
 public import Mathlib.NumberTheory.Transcendental.Liouville.Basic
-public import Mathlib.Topology.Instances.Irrational
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Topology.Instances.Irrational
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Monoid
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Liouville numbers with a given exponent

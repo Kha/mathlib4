@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialObject.Basic
+public import Mathlib.Data.Finset.Max
+import Mathlib.Tactic.Lemma
 
 /-!
 # A construction by Gabriel and Zisman

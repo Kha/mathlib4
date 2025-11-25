@@ -5,8 +5,16 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.MeasurableSpace.Prod
-public import Mathlib.Probability.Kernel.Basic
+public import Mathlib.Probability.Kernel.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.Probability.Kernel.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Measurability of the integral against a kernel

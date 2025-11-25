@@ -5,9 +5,17 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Algebra.Order.WithTop.Untop0
 public import Mathlib.Analysis.Meromorphic.Order
 public import Mathlib.Topology.LocallyFinsupp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The Divisor of a meromorphic function

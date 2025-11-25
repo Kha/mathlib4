@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Analysis.Normed.Field.WithAbs
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
+public import Mathlib.Analysis.Normed.Module.Completion
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Complex
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Instances.Real.Lemmas
 
 /-!
 # The completion of a number field at an infinite place

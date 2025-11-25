@@ -6,8 +6,10 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Logic.Function.Basic
-public import Mathlib.Tactic.AdaptationNote
 public import Mathlib.Tactic.Simps.Basic
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Subtypes

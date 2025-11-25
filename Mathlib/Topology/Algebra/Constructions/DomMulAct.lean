@@ -5,8 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Homeomorph.Lemmas
 public import Mathlib.GroupTheory.GroupAction.DomAct.Basic
+public import Mathlib.Topology.Separation.Regular
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Topological space structure on `Mᵈᵐᵃ` and `Mᵈᵃᵃ`

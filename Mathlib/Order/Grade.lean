@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Data.Int.SuccPred
 public import Mathlib.Order.Fin.Basic
+public import Mathlib.Data.Nat.SuccPred
+public import Mathlib.Order.Preorder.Chain
+public import Mathlib.Algebra.Order.Group.Unbundled.Int
+import Mathlib.Order.Cover
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Graded orders

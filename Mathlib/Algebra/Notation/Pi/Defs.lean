@@ -6,8 +6,10 @@ Authors: Simon Hudon, Patrick Massot, Eric Wieser
 module
 
 public import Mathlib.Algebra.Notation.Defs
-public import Mathlib.Util.AssertExists
 public import Mathlib.Tactic.Push.Attr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Notation for algebraic operators on pi types

@@ -7,8 +7,14 @@ module
 
 public import Mathlib.Algebra.Polynomial.Roots
 public import Mathlib.Data.Fintype.Inv
-public import Mathlib.GroupTheory.SpecificGroups.Cyclic
-public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Algebra.GCDMonoid.Basic
+public import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Algebra.Ring.Divisibility.Basic
 
 /-!
 # Integral domains

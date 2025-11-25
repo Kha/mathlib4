@@ -5,12 +5,19 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.CharZero.Infinite
-public import Mathlib.Data.Rat.Encodable
-public import Mathlib.Data.Finset.Sort
 public import Mathlib.ModelTheory.Complexity
 public import Mathlib.ModelTheory.Fraisse
-public import Mathlib.Order.CountableDenseLinearOrder
+import Mathlib.Order.CountableDenseLinearOrder
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharZero.Infinite
+import Mathlib.Algebra.Field.Rat
+import Mathlib.Data.Finset.Sort
+import Mathlib.Data.Rat.Encodable
+import Mathlib.SetTheory.Cardinal.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Ordered First-Ordered Structures

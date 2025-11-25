@@ -5,8 +5,10 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.Ray
-public import Mathlib.Topology.Order.LocalExtr
+public import Mathlib.LinearAlgebra.Ray
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Module.Ray
 
 /-!
 # (Local) maximums in a normed space

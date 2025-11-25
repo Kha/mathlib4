@@ -5,10 +5,14 @@ Authors: Anne Baanen, Alex J. Best, Xavier Roblot
 -/
 module
 
-public import Mathlib.Data.Int.Associated
-public import Mathlib.Data.Int.NatAbs
 public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Quotient
+public import Mathlib.GroupTheory.Index
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Associated
+import Mathlib.Data.Int.NatAbs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.LinearAlgebra.FreeModule.Finite.Quotient
 
 /-! # Cardinal of quotient of free finite `ℤ`-modules by submodules of full rank
 

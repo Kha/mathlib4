@@ -5,8 +5,11 @@ Authors: Adam Topaz, Nikolas Kuhn
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
-public import Mathlib.Data.Finite.Sigma
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Sites.EffectiveEpimorphic
+import Mathlib.Data.Finite.Sigma
+import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
 
 /-!
 # Description of the covering sieves of the coherent topology

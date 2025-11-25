@@ -5,9 +5,13 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Data.Finsupp.Antidiagonal
 public import Mathlib.Data.Finsupp.Order
 public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Antidiagonal
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-! # weights of Finsupp functions
 

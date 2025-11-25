@@ -6,6 +6,10 @@ Authors: Jalex Stark, Kim Morrison, Eric Wieser, Oliver Nash, Wen Yang
 module
 
 public import Mathlib.Data.Matrix.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Matrices with a single non-zero element.

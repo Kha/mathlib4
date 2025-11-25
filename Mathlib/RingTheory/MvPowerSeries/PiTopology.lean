@@ -5,17 +5,24 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.RingTheory.MvPowerSeries.Basic
 public import Mathlib.RingTheory.MvPowerSeries.Order
 public import Mathlib.RingTheory.MvPowerSeries.Trunc
-public import Mathlib.RingTheory.Nilpotent.Defs
-public import Mathlib.Topology.Algebra.InfiniteSum.Constructions
-public import Mathlib.Topology.Algebra.Ring.Basic
 public import Mathlib.Topology.Instances.ENat
 public import Mathlib.Topology.UniformSpace.Pi
-public import Mathlib.Topology.Algebra.InfiniteSum.Ring
 public import Mathlib.Topology.Algebra.TopologicallyNilpotent
-public import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-! # Product topology on multivariate power series
 

@@ -8,6 +8,9 @@ module
 public import Mathlib.Analysis.Normed.Lp.PiLp
 public import Mathlib.Analysis.Normed.Lp.lpSpace
 public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
 
 /-!
 # Equivalences among $L^p$ spaces

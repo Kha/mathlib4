@@ -6,6 +6,8 @@ Authors: Moritz Doll
 module
 
 public import Mathlib.Algebra.Module.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Type classes for the Fourier transform
 

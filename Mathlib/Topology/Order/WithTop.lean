@@ -6,7 +6,17 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.Order.Basic
-public import Mathlib.Data.Fintype.WithTopBot
+public import Mathlib.Topology.Closure
+public import Mathlib.Topology.ContinuousOn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Piecewise
+import Mathlib.Data.Fintype.WithTopBot
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Order.Interval.Set.WithBotTop
 
 /-! # Order topology on `WithTop ι`
 

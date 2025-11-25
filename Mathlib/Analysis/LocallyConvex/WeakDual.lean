@@ -5,11 +5,12 @@ Authors: Moritz Doll
 -/
 module
 
-public import Mathlib.Analysis.Normed.Field.Lemmas
 public import Mathlib.Analysis.LocallyConvex.WithSeminorms
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.Finsupp.Span
 public import Mathlib.Topology.Algebra.Module.WeakBilin
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.Finsupp.Span
 
 /-!
 # Weak Dual in Topological Vector Spaces

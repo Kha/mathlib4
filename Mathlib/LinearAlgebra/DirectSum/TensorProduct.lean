@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
 public import Mathlib.Algebra.DirectSum.Module
+import Mathlib.Tactic.Lemma
 /-!
 # Tensor products of direct sums
 

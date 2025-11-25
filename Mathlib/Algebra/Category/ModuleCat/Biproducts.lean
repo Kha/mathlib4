@@ -5,10 +5,10 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Group.Pi.Lemmas
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryBiproducts
-public import Mathlib.Algebra.Category.ModuleCat.Abelian
-public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.LinearAlgebra.Pi
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 
 /-!
 # The category of `R`-modules has finite biproducts

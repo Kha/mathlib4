@@ -5,8 +5,9 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.RingTheory.FiniteType
 public import Mathlib.LinearAlgebra.InvariantBasisNumber
+import Mathlib.RingTheory.FiniteType
+import Mathlib.Tactic.TypeStar
 
 /-!
 

@@ -6,6 +6,8 @@ Authors: Christopher Hoskin
 module
 
 public import Mathlib.Algebra.Lie.OfAssociative
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # Jordan rings

@@ -5,7 +5,10 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Set.Lattice
+public import Mathlib.Order.SetNotation
+public import Mathlib.Data.Set.Insert
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
 
 /-! # Semiquotients
 

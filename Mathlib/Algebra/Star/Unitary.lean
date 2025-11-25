@@ -5,12 +5,11 @@ Authors: Shing Tak Lam, Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Algebra.Group.Submonoid.Operations
-public import Mathlib.Algebra.Star.SelfAdjoint
 public import Mathlib.Algebra.Algebra.Spectrum.Basic
-public import Mathlib.Tactic.ContinuousFunctionalCalculus
 public import Mathlib.Algebra.Star.MonoidHom
 public import Mathlib.Algebra.Star.StarProjection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Unitary elements of a star monoid

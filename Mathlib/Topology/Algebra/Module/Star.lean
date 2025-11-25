@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Star.Module
 public import Mathlib.Topology.Algebra.Module.Equiv
 public import Mathlib.Topology.Algebra.Star
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The star operation, bundled as a continuous star-linear equiv

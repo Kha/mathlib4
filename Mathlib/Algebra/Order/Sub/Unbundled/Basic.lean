@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Algebra.Order.Sub.Defs
 public import Mathlib.Algebra.Order.Monoid.Unbundled.ExistsOfLE
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Lemmas about subtraction in an unbundled canonically ordered monoids

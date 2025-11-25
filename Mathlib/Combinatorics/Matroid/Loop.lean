@@ -6,7 +6,10 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Circuit
-public import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Matroid loops and coloops

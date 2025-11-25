@@ -6,6 +6,12 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.HomotopyCategory.Pretriangulated
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
 
 /-!
 # Degreewise split exact sequences of cochain complexes

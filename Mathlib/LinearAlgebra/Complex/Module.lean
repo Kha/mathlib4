@@ -10,6 +10,13 @@ public import Mathlib.Algebra.CharP.Invertible
 public import Mathlib.Data.Complex.Basic
 public import Mathlib.Data.Real.Star
 public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.Tactic.FinCases
+public import Mathlib.Algebra.Star.Module
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
 
 /-!
 # Complex number as a vector space over `ℝ`

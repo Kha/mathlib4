@@ -5,9 +5,19 @@ Authors: Claus Clausen, Patrick Massot
 -/
 module
 
-public import Mathlib.Probability.Notation
-public import Mathlib.Probability.CDF
 public import Mathlib.Probability.Distributions.Gamma
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.MeasureTheory.Integral.ExpDecay
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # Exponential distributions over ℝ
 

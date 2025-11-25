@@ -5,9 +5,14 @@ Authors: Mario Carneiro, Kenny Lau, Kim Morrison, Alex Keizer
 -/
 module
 
-public import Mathlib.Data.List.OfFn
-public import Batteries.Data.List.Perm
-public import Mathlib.Data.List.Nodup
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Nat.Notation
+public import Mathlib.Logic.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Batteries.Data.List.Perm
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.List.OfFn
+import Mathlib.Order.Fin.Basic
 
 /-!
 # Lists of elements of `Fin n`

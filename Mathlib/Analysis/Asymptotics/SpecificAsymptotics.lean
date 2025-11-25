@@ -6,7 +6,25 @@ Authors: Anatole Dedecker
 module
 
 public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # A collection of specific asymptotic results

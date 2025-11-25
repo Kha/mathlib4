@@ -7,8 +7,14 @@ module
 
 public import Mathlib.RingTheory.MvPowerSeries.Evaluation
 public import Mathlib.RingTheory.MvPowerSeries.LinearTopology
-public import Mathlib.RingTheory.Nilpotent.Basic
-public import Mathlib.Topology.UniformSpace.DiscreteUniformity
+public import Mathlib.Topology.Algebra.Algebra
+public import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
 
 /-! # Substitutions in multivariate power series
 

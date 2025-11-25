@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
 public import Mathlib.Algebra.Order.Hom.Monoid
 public import Mathlib.Data.PNat.Basic
+import Mathlib.Algebra.Ring.Basic
 
 /-!
 # Equivalence between `ℕ+` and `nonZeroDivisors ℕ`

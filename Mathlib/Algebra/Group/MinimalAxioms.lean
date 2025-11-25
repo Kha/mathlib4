@@ -6,6 +6,7 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Algebra.Group.Defs
+import Mathlib.Util.AssertExists
 
 /-!
 # Minimal Axioms for a Group

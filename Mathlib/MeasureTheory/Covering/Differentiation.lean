@@ -6,10 +6,24 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.MeasureTheory.Covering.VitaliFamily
-public import Mathlib.MeasureTheory.Function.AEMeasurableOrder
 public import Mathlib.MeasureTheory.Integral.Average
 public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
-public import Mathlib.MeasureTheory.Measure.Regular
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.AEMeasurableOrder
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Differentiation of measures

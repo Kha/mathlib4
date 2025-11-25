@@ -6,6 +6,9 @@ Authors: Monica Omar
 module
 
 public import Mathlib.RingTheory.Coalgebra.Basic
+public import Mathlib.Algebra.Module.Equiv.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # MulOpposite of coalgebras

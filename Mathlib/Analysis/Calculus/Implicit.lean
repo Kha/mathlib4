@@ -6,9 +6,16 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv
-public import Mathlib.Analysis.Calculus.FDeriv.Add
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
 public import Mathlib.Analysis.Normed.Module.Complemented
+public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # Implicit function theorem

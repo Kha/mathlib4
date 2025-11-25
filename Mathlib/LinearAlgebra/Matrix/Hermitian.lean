@@ -5,8 +5,11 @@ Authors: Alexander Bentkamp
 -/
 module
 
-public import Mathlib.Algebra.Star.Pi
 public import Mathlib.LinearAlgebra.Matrix.ZPow
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Star.Pi
+import Mathlib.Tactic.NormNum.Basic
 
 /-! # Hermitian matrices
 

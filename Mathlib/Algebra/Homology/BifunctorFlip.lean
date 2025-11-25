@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.Bifunctor
 public import Mathlib.Algebra.Homology.TotalComplexSymmetry
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Action of the flip of a bifunctor on homological complexes

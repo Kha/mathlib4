@@ -5,9 +5,13 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
-public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 
 /-!
 If `A` is a domain, and a finite-dimensional algebra over a field `F`, with prime dimension,

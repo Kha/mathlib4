@@ -6,6 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Homology.Single
+import Mathlib.Algebra.GroupWithZero.Nat
 
 /-!
 # Augmentation and truncation of `ℕ`-indexed (co)chain complexes.

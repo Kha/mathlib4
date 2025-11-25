@@ -6,11 +6,17 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Topology.ContinuousMap.Bounded.Star
-public import Mathlib.Topology.ContinuousMap.Star
-public import Mathlib.Topology.UniformSpace.Compact
-public import Mathlib.Topology.CompactOpen
 public import Mathlib.Topology.Sets.Compacts
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
+public import Mathlib.Topology.UniformSpace.CompactConvergence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.Sqrt
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Analysis.Normed.Group.InfiniteSum
 
 /-!
 # Continuous functions on a compact space

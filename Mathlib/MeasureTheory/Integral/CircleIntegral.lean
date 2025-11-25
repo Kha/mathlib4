@@ -5,9 +5,42 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Analytic.IsolatedZeros
 public import Mathlib.Analysis.SpecialFunctions.Complex.CircleMap
-public import Mathlib.Analysis.SpecialFunctions.NonIntegrable
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.MeasureTheory.Topology
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Field.Periodic
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.IsolatedZeros
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.SpecialFunctions.NonIntegrable
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Inverse
+import Mathlib.Analysis.Calculus.Deriv.Linear
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.ZPow
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # Integral over a circle in `ℂ`

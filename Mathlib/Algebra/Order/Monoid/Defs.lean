@@ -5,7 +5,12 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro, Johannes Hölzl, Yuya
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+public import Mathlib.Order.Lattice
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Ordered monoids

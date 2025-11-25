@@ -5,8 +5,22 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.Algebra.Algebra.ZMod
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
+public import Mathlib.RingTheory.Polynomial.Cyclotomic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.ZMod
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Int.Basic
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.RingTheory.DedekindDomain.Basic
+import Mathlib.RingTheory.Polynomial.GaussLemma
+import Mathlib.RingTheory.RootsOfUnity.Minpoly
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Cyclotomic polynomials and `expand`.

@@ -5,9 +5,22 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Regular
-public import Mathlib.Algebra.Polynomial.Coeff
 public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.MonoidAlgebra.Degree
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Lemmas for calculating the degree of univariate polynomials

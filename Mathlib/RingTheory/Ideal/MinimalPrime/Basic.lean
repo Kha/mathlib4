@@ -6,7 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Ideal.IsPrimary
-public import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 

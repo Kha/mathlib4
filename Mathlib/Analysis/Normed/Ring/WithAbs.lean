@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.Normed.Ring.Basic
 public import Mathlib.Topology.Algebra.Ring.Basic
+public import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # WithAbs

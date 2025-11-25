@@ -5,11 +5,13 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Option.Basic
-public import Mathlib.Data.Prod.Basic
-public import Mathlib.Data.Prod.PProd
-public import Mathlib.Data.Sum.Basic
 public import Mathlib.Logic.Equiv.Basic
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Prod.Basic
+import Mathlib.Data.Prod.PProd
+import Mathlib.Data.Sum.Basic
 
 /-!
 # Injective functions

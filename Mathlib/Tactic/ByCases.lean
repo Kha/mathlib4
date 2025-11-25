@@ -5,8 +5,9 @@ Authors: Jovan Gerbscheid
 -/
 module
 
-public meta import Mathlib.Tactic.Push
-public meta import Batteries.Tactic.PermuteGoals
+public import Mathlib.Init
+import Batteries.Tactic.PermuteGoals
+import Mathlib.Tactic.Push
 
 /-!
 # The `by_cases!` tactic

@@ -5,9 +5,15 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.Algebra.CharP.Lemmas
 public import Mathlib.Algebra.CharP.IntermediateField
 public import Mathlib.FieldTheory.PurelyInseparable.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 

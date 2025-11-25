@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Analysis.Normed.Field.Basic
 public import Mathlib.Data.ENNReal.Action
-public import Mathlib.Topology.Algebra.UniformMulAction
 public import Mathlib.Topology.MetricSpace.Algebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
 
 /-!
 # Lemmas for `IsBoundedSMul` over normed additive groups

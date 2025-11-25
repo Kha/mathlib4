@@ -5,8 +5,8 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Fintype.Defs
 public import Mathlib.Data.Finset.Image
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Constructors for `Fintype`

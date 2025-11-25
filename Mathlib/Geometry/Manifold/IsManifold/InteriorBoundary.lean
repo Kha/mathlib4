@@ -6,6 +6,10 @@ Authors: Michael Rothgang
 module
 
 public import Mathlib.Geometry.Manifold.IsManifold.ExtChartAt
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Interior and boundary of a manifold

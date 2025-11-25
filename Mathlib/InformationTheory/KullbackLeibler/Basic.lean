@@ -6,7 +6,15 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 module
 
 public import Mathlib.InformationTheory.KullbackLeibler.KLFun
-public import Mathlib.MeasureTheory.Measure.Decomposition.IntegralRNDeriv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Measure.Decomposition.IntegralRNDeriv
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Kullback-Leibler divergence

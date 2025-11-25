@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Homology.BifunctorAssociator
 public import Mathlib.Algebra.Homology.Single
 public import Mathlib.CategoryTheory.GradedObject.Monoidal
 public import Mathlib.CategoryTheory.Monoidal.Transport
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The monoidal category structure on homological complexes

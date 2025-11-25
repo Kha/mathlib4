@@ -6,7 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Dynamics.Ergodic.Action.Basic
-public import Mathlib.MeasureTheory.Group.Prod
+public import Mathlib.MeasureTheory.Group.Arithmetic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Group.Prod
 
 /-!
 # Regular action of a group on itself is ergodic

@@ -5,10 +5,16 @@ Authors: Josha Dekker, Devon Tuma, Kexing Ying
 -/
 module
 
-public import Mathlib.Probability.Notation
 public import Mathlib.Probability.Density
-public import Mathlib.Probability.ConditionalProbability
 public import Mathlib.Probability.ProbabilityMassFunction.Constructions
+public import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Uniform distributions and probability mass functions

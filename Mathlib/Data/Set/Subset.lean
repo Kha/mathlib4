@@ -5,8 +5,18 @@ Authors: Miguel Marco
 -/
 module
 
-public import Mathlib.Data.Set.Function
-public import Mathlib.Data.Set.Functor
+public import Mathlib.Order.SetNotation
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Set.Notation
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Functor
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Sets in subtypes

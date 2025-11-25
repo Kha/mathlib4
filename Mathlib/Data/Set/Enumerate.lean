@@ -5,9 +5,13 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Group.Nat.Defs
 public import Mathlib.Tactic.Common
-public import Mathlib.Data.Set.Insert
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Notation
+public import Mathlib.Data.Set.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Insert
+import Mathlib.Algebra.Group.Nat.Defs
 
 /-!
 # Set enumeration

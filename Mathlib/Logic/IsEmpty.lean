@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Logic.Function.Basic
 public import Mathlib.Logic.Relator
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Types that are empty

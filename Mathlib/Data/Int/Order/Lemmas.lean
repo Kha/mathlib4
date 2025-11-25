@@ -5,7 +5,15 @@ Authors: Jeremy Avigad
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Abs
+public import Mathlib.Data.Int.Sqrt
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Data.Nat.Sqrt
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Group.Unbundled.Int
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Further lemmas about the integers

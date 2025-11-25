@@ -5,8 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Pointwise.Finset
-public import Mathlib.Algebra.Ring.Nat
+public import Mathlib.Algebra.Group.Action.Opposite
+public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+public import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Algebra.Group.Action.Pointwise.Finset
 
 /-!
 # e-transforms

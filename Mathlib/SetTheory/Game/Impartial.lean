@@ -6,8 +6,7 @@ Authors: Fox Thomson
 module
 
 public import Mathlib.SetTheory.Game.Basic
-public import Mathlib.Tactic.NthRewrite
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Impartial.Basic` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

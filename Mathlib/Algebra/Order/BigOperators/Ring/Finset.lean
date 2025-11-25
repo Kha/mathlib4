@@ -5,11 +5,23 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Order.AbsoluteValue.Basic
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
-public import Mathlib.Algebra.Order.BigOperators.Ring.Multiset
-public import Mathlib.Tactic.Ring
+public import Mathlib.Data.PNat.Basic
+public import Mathlib.Tactic.NormNum.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Big operators on a finset in ordered rings

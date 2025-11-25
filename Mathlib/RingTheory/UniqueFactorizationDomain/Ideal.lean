@@ -5,8 +5,15 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Operations
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Defs
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Order.WellFoundedSet
+public import Mathlib.Algebra.Ring.Regular
+public import Mathlib.LinearAlgebra.Span.Defs
+public import Mathlib.RingTheory.Ideal.Prime
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Operations
 
 /-!
 # Unique factorization and ascending chain condition on ideals

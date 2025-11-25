@@ -8,6 +8,10 @@ module
 public import Mathlib.Data.Rel.Cover
 public import Mathlib.Topology.MetricSpace.MetricSeparated
 public import Mathlib.Topology.MetricSpace.Thickening
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Covers in a metric space

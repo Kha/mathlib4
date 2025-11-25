@@ -6,6 +6,8 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Action.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Functors that are linear with respect to an action
 

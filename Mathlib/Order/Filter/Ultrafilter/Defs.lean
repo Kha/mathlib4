@@ -6,7 +6,9 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov
 module
 
 public import Mathlib.Order.Filter.Map
-public import Mathlib.Order.ZornAtoms
+public import Mathlib.Order.Atoms
+import Mathlib.Order.ZornAtoms
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ultrafilters

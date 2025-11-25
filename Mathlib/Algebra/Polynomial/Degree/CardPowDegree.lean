@@ -6,8 +6,12 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.Algebra.Order.AbsoluteValue.Euclidean
-public import Mathlib.Algebra.Order.Ring.Basic
 public import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Absolute value on polynomials over a finite field.

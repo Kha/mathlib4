@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Further basic results about `Algebra`'s over `ℚ`.

@@ -6,7 +6,11 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Normed.Operator.Banach
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
+public import Mathlib.LinearAlgebra.Projection
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # Complemented subspaces of normed vector spaces

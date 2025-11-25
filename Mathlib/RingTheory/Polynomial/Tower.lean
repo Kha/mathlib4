@@ -5,8 +5,9 @@ Authors: Kenny Lau, Yuyang Zhao
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Algebra.Polynomial.AlgebraMap
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Eval.Coeff
 
 /-!
 # Algebra towers for polynomial

@@ -5,9 +5,11 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Logic.Relation
 public import Mathlib.Order.Hom.Basic
-public import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Turning a preorder into a partial order

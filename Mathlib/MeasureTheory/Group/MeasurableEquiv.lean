@@ -6,6 +6,11 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.Group.Arithmetic
+public import Mathlib.Algebra.GroupWithZero.Units.Equiv
+public import Mathlib.GroupTheory.GroupAction.DomAct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # (Scalar) multiplication and (vector) addition as measurable equivalences

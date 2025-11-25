@@ -8,8 +8,16 @@ module
 public import Mathlib.Analysis.Normed.Algebra.Spectrum
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.NonUnital
 public import Mathlib.Analysis.RCLike.Lemmas
-public import Mathlib.MeasureTheory.SpecificCodomains.ContinuousMapZero
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.MeasureTheory.SpecificCodomains.ContinuousMap
+import Mathlib.MeasureTheory.SpecificCodomains.ContinuousMapZero
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 /-!
 # Integrals and the continuous functional calculus

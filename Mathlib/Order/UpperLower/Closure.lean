@@ -5,9 +5,16 @@ Authors: Yaël Dillies, Sara Rousta
 -/
 module
 
-public import Mathlib.Order.Interval.Set.OrdConnected
-public import Mathlib.Order.Minimal
 public import Mathlib.Order.UpperLower.Principal
+public import Mathlib.Order.Antichain
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Upper and lower closures

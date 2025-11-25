@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Functor.KanExtension.Pointwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
 
 /-!
 # Canonical colimits, or functors that are dense at an object

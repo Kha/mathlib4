@@ -5,8 +5,13 @@ Authors: Johannes Hölzl, Mario Carneiro, Alexander Bentkamp
 -/
 module
 
-public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+public import Mathlib.Data.Fintype.Pi
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Module.Submodule.Equiv
 
 /-!
 # Bases

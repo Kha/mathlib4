@@ -8,6 +8,9 @@ module
 public import Mathlib.CategoryTheory.Triangulated.Triangulated
 public import Mathlib.CategoryTheory.ComposableArrows.Basic
 public import Mathlib.CategoryTheory.Shift.CommShift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
 
 /-!
 # Triangulated functors

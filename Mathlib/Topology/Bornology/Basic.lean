@@ -6,6 +6,12 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Order.Filter.Cofinite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # Basic theory of bornology

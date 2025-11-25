@@ -6,7 +6,9 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.Nilpotent
-public import Mathlib.Algebra.Lie.Normalizer
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Engel's theorem

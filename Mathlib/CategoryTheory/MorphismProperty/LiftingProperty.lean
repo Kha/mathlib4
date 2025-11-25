@@ -7,8 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
 public import Mathlib.CategoryTheory.MorphismProperty.Retract
-public import Mathlib.CategoryTheory.LiftingProperties.Limits
-public import Mathlib.Order.GaloisConnection.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.LiftingProperties.Limits
 
 /-!
 # Left and right lifting properties

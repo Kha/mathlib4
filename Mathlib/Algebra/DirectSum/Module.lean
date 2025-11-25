@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.DirectSum.Basic
 public import Mathlib.LinearAlgebra.DFinsupp
 public import Mathlib.LinearAlgebra.Basis.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Direct sum of modules

@@ -5,8 +5,17 @@ Authors: Heather Macbeth, Patrick Massot
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.Order
 public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Algebra.Group.Subgroup.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Find
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Group.Subgroup.Order
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Archimedean groups

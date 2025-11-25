@@ -8,6 +8,9 @@ module
 public import Mathlib.MeasureTheory.Measure.GiryMonad
 public import Mathlib.CategoryTheory.Monad.Algebra
 public import Mathlib.Topology.Category.TopCat.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
 
 /-!
 # The category of measurable spaces

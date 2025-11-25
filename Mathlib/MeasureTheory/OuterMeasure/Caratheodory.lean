@@ -7,6 +7,13 @@ module
 
 public import Mathlib.MeasureTheory.OuterMeasure.OfFunction
 public import Mathlib.MeasureTheory.PiSystem
+public import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # The Caratheodory σ-algebra of an outer measure

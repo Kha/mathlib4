@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.AffineSpace.Simplex.Basic
 public import Mathlib.LinearAlgebra.AffineSpace.Centroid
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Centroid of a simplex in affine space

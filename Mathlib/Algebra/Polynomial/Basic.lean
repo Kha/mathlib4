@@ -5,13 +5,21 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Group.Submonoid.Operations
 public import Mathlib.Algebra.MonoidAlgebra.Module
-public import Mathlib.Algebra.MonoidAlgebra.NoZeroDivisors
 public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
 public import Mathlib.Algebra.Ring.Action.Rat
 public import Mathlib.Data.Finset.Sort
-public import Mathlib.Tactic.FastInstance
+public import Mathlib.Algebra.Ring.InjSurj
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MonoidAlgebra.NoZeroDivisors
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.LinearAlgebra.Finsupp.LSum
+import Mathlib.Algebra.Group.Submonoid.Operations
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Theory of univariate polynomials

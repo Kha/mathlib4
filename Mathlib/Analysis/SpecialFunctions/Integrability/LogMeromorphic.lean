@@ -5,12 +5,21 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Meromorphic.FactorizedRational
-public import Mathlib.Analysis.NormedSpace.Connected
-public import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
 public import Mathlib.Analysis.SpecialFunctions.Log.PosLog
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
 public import Mathlib.MeasureTheory.Integral.CircleIntegral
+public import Mathlib.Analysis.Meromorphic.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Meromorphic.FactorizedRational
+import Mathlib.Analysis.NormedSpace.Connected
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Integrability for Logarithms of Meromorphic Functions

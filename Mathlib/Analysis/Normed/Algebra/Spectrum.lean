@@ -6,13 +6,36 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Algebra.Algebra.Spectrum.Quasispectrum
-public import Mathlib.Analysis.Real.Spectrum
 public import Mathlib.Analysis.Normed.Algebra.Exponential
-public import Mathlib.Analysis.Normed.Algebra.UnitizationL1
-public import Mathlib.Analysis.Normed.Ring.Units
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-public import Mathlib.FieldTheory.IsAlgClosed.Spectrum
 public import Mathlib.Topology.Algebra.Module.CharacterSpace
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.SpecificLimits.Normed
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Real.Spectrum
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.FieldTheory.IsAlgClosed.Spectrum
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Topology.Algebra.Algebra
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Algebra.UnitizationL1
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Ring.Units
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The spectrum of elements in a complete normed algebra

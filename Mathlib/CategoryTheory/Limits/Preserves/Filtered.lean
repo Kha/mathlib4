@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
 public import Mathlib.CategoryTheory.Filtered.Basic
+import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
 
 /-!
 # Preservation of filtered colimits and cofiltered limits.

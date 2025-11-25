@@ -8,6 +8,18 @@ module
 public import Mathlib.Control.Basic
 public import Mathlib.Data.Set.Lattice.Image
 public import Mathlib.Order.Filter.Basic
+public import Mathlib.Data.Set.Image
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Restrict
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Theorems about map and comap on filters.

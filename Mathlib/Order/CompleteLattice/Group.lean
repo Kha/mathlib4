@@ -5,9 +5,13 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
-public import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
-public import Mathlib.Order.CompleteLattice.Basic
+public import Mathlib.Order.CompleteLattice.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.CompleteLattice.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
 
 /-! # Complete lattices and groups -/
 

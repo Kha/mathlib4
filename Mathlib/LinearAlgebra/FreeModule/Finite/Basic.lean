@@ -6,8 +6,13 @@ Authors: Riccardo Brasca
 module
 
 public import Mathlib.LinearAlgebra.FreeModule.Basic
-public import Mathlib.LinearAlgebra.Matrix.StdBasis
-public import Mathlib.RingTheory.Finiteness.Cardinality
+public import Mathlib.LinearAlgebra.Matrix.Defs
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
+import Mathlib.LinearAlgebra.Basis.Basic
+import Mathlib.LinearAlgebra.Matrix.StdBasis
+import Mathlib.RingTheory.Finiteness.Cardinality
 
 /-!
 # Finite and free modules

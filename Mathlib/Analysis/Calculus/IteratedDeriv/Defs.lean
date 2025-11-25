@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Analysis.Calculus.Deriv.Basic
 public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Analytic.OfScalars
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.TangentCone.DimOne
 
 /-!
 # One-dimensional iterated derivatives

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Algebra.Order.Group.Synonym
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Add/Mul equivalence for order type synonyms

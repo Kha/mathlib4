@@ -5,8 +5,12 @@ Authors: Yury G. Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.OrderIso
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+public import Mathlib.Order.ConditionallyCompleteLattice.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Group.OrderIso
 
 /-!
 # Distributivity of group operations over supremum/infimum

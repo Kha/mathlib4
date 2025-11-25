@@ -5,10 +5,23 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
-public import Mathlib.Algebra.Order.Interval.Finset.Basic
-public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.Data.Nat.Factorial.Basic
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+import Mathlib.Algebra.Order.Interval.Finset.Basic
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Results about big operators over intervals

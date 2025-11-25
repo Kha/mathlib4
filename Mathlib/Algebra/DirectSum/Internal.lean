@@ -9,6 +9,10 @@ public import Mathlib.Algebra.Algebra.Operations
 public import Mathlib.Algebra.Algebra.Subalgebra.Basic
 public import Mathlib.Algebra.DirectSum.Algebra
 public import Mathlib.Algebra.Order.Antidiag.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Internally graded rings and algebras

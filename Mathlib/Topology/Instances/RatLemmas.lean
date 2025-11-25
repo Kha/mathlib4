@@ -5,10 +5,19 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Instances.Irrational
 public import Mathlib.Topology.Instances.Rat
 public import Mathlib.Topology.Compactification.OnePoint.Basic
-public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Instances.Irrational
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Additional lemmas about the topology on rational numbers

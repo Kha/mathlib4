@@ -7,12 +7,20 @@ module
 
 public import Mathlib.Analysis.Calculus.Conformal.NormedSpace
 public import Mathlib.Analysis.Calculus.Deriv.Basic
-public import Mathlib.Analysis.Calculus.FDeriv.Equiv
-public import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
-public import Mathlib.Analysis.Complex.Isometry
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-public import Mathlib.LinearAlgebra.Complex.Module
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.Instances.RealVectorSpace
+public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.Isometry
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-!
 # Conformal maps between complex vector spaces

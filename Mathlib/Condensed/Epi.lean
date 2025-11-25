@@ -5,11 +5,26 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
-public import Mathlib.CategoryTheory.Sites.Coherent.LocallySurjective
-public import Mathlib.CategoryTheory.Sites.EpiMono
-public import Mathlib.Condensed.Equivalence
 public import Mathlib.Condensed.Module
+public import Mathlib.CategoryTheory.MorphismProperty.Concrete
+public import Mathlib.CategoryTheory.Sites.LocallyBijective
+public import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+public import Mathlib.Topology.Category.CompHaus.EffectiveEpi
+public import Mathlib.Topology.Category.CompHaus.Limits
+public import Mathlib.Topology.Category.Stonean.Limits
+import Mathlib.Condensed.Equivalence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Sites.EpiMono
+import Mathlib.CategoryTheory.Sites.LeftExact
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+import Mathlib.Algebra.Category.ModuleCat.Limits
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Sites.Coherent.LocallySurjective
 /-!
 
 # Epimorphisms of condensed objects

@@ -5,17 +5,30 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.Factorization
 public import Mathlib.RingTheory.DiscreteValuationRing.Basic
-public import Mathlib.RingTheory.HopkinsLevitzki
-public import Mathlib.RingTheory.IntegralDomain
-public import Mathlib.RingTheory.LocalRing.Quotient
-public import Mathlib.Topology.Algebra.Group.ClosedSubgroup
-public import Mathlib.Topology.Algebra.Field
-public import Mathlib.Topology.Algebra.Module.Basic
-public import Mathlib.Topology.Algebra.Module.Compact
-public import Mathlib.Topology.Algebra.OpenSubgroup
-public import Mathlib.Topology.Algebra.Ring.Ideal
+public import Mathlib.RingTheory.Artinian.Module
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.LocalRing.ResidueField.Defs
+public import Mathlib.Topology.Algebra.Ring.Basic
+import Mathlib.RingTheory.HopkinsLevitzki
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.RingTheory.Artinian.Ring
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.DedekindDomain.Factorization
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Quotient
+import Mathlib.Topology.Algebra.Field
+import Mathlib.Topology.Algebra.OpenSubgroup
+import Mathlib.RingTheory.Ideal.Quotient.Index
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.Topology.Algebra.Group.ClosedSubgroup
+import Mathlib.Topology.Algebra.Module.Basic
+import Mathlib.Topology.Algebra.Module.Compact
+import Mathlib.Topology.Algebra.Ring.Ideal
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 

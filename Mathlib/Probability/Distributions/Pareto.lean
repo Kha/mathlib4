@@ -5,9 +5,17 @@ Authors: Alvan Caleb Arulandu
 -/
 module
 
-public import Mathlib.Probability.Notation
 public import Mathlib.Probability.CDF
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # Pareto distributions over ℝ
 

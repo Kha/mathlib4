@@ -7,7 +7,26 @@ module
 
 public import Mathlib.Algebra.Order.Interval.Set.Instances
 public import Mathlib.Order.Interval.Set.ProjIcc
-public import Mathlib.Topology.Algebra.Ring.Real
+public import Mathlib.Topology.Algebra.Field
+public import Mathlib.Topology.UniformSpace.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Order.Compact
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Order.Interval.Set.Image
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # The unit interval, as a topological space

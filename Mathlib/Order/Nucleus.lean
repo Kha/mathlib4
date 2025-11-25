@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Order.Closure
 public import Mathlib.Order.Hom.CompleteLattice
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Nucleus

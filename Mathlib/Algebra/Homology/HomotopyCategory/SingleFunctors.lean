@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Homology.HomotopyCategory.Shift
 public import Mathlib.CategoryTheory.Shift.SingleFunctors
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Single functors from the homotopy category

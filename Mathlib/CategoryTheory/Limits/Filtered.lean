@@ -6,8 +6,10 @@ Authors: Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Filtered.Basic
-public import Mathlib.CategoryTheory.Limits.HasLimits
-public import Mathlib.CategoryTheory.Limits.Types.Yoneda
+public import Mathlib.CategoryTheory.Limits.Types.Limits
+import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Types.Yoneda
 
 /-!
 # Filtered categories and limits

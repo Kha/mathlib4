@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Algebra.GroupWithZero.Hom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-! # Isomorphisms of monoids with zero -/
 

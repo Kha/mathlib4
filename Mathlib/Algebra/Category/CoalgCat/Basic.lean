@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Basic
 public import Mathlib.RingTheory.Coalgebra.Equiv
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of coalgebras over a commutative ring

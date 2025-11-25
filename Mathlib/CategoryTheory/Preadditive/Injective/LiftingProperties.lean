@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.LiftingProperty
+import Mathlib.Tactic.Lemma
 
 /-!
 # Characterization of injective objects in terms of lifting properties

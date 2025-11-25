@@ -9,6 +9,9 @@ public import Mathlib.Data.Set.Insert
 public import Mathlib.Order.SetNotation
 public import Mathlib.Order.BooleanAlgebra.Set
 public import Mathlib.Order.Bounds.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Definitions about filters

@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Algebra.Group.Opposite
 public import Mathlib.Algebra.Group.Units.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Units in multiplicative and additive opposites

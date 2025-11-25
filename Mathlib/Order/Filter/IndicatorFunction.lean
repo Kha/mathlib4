@@ -5,11 +5,15 @@ Authors: Zhouhang Zhou, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Indicator
-public import Mathlib.Order.CompleteLattice.Finset
-public import Mathlib.Order.ConditionallyCompleteLattice.Basic
 public import Mathlib.Order.Filter.AtTopBot.Defs
-public import Mathlib.Order.Filter.Tendsto
+public import Mathlib.Algebra.Notation.Indicator
+public import Mathlib.Data.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Indicator function and filters

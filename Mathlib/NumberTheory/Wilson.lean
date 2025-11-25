@@ -5,7 +5,11 @@ Authors: John Nicol
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Basic
+public import Mathlib.Algebra.Field.ZMod
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Wilson's theorem.

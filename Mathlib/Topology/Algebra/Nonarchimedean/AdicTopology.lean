@@ -5,10 +5,40 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.Topology.Algebra.Nonarchimedean.Bases
-public import Mathlib.Topology.Algebra.UniformRing
 import Mathlib.Topology.Algebra.UniformRing  -- shake: keep (used in `example` only)
+public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.SetLike
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Finset.Attr
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.List.Infix
+import Mathlib.Data.Rat.Floor
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Data.Vector.Basic
+import Mathlib.Order.UpperLower.Basic
+import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Bound.Init
+import Mathlib.Tactic.Continuity.Init
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.NormNum.Abs
+import Mathlib.Tactic.NormNum.DivMod
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Tactic.NormNum.Pow
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Data.List.Perm.Subperm
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.BigOperators.Group.List.Defs
 
 
 /-!

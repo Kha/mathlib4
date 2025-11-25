@@ -5,9 +5,14 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Basic
 public import Mathlib.NumberTheory.ClassNumber.AdmissibleAbsoluteValue
 public import Mathlib.Data.Real.Archimedean
+import Mathlib.Algebra.Algebra.Basic
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Cast
 
 /-!
 # Admissible absolute value on the integers

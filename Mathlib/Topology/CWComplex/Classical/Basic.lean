@@ -5,10 +5,19 @@ Authors: Floris van Doorn, Hannah Scholz
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
 public import Mathlib.Data.ENat.Basic
 public import Mathlib.Logic.Equiv.PartialEquiv
-public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Data.Set.Disjoint
+public import Mathlib.Topology.MetricSpace.Pseudo.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Algebra.Group.Fin.Tuple
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # CW complexes

@@ -5,16 +5,21 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.CategoryTheory.Filtered.Connected
 public import Mathlib.CategoryTheory.Limits.ConeCategory
-public import Mathlib.CategoryTheory.Limits.FilteredColimitCommutesFiniteLimit
 public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
-public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
-public import Mathlib.CategoryTheory.Limits.Bicones
-public import Mathlib.CategoryTheory.Limits.Comma
 public import Mathlib.CategoryTheory.Limits.Preserves.Finite
-public import Mathlib.CategoryTheory.Limits.Preserves.Opposites
-public import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
+public import Mathlib.CategoryTheory.ConcreteCategory.Basic
+public import Mathlib.CategoryTheory.Limits.Final
+public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Comma
+import Mathlib.CategoryTheory.Filtered.Connected
+import Mathlib.CategoryTheory.Limits.Bicones
+import Mathlib.CategoryTheory.Limits.Comma
+import Mathlib.CategoryTheory.Limits.FilteredColimitCommutesFiniteLimit
+import Mathlib.CategoryTheory.Limits.Opposites
+import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
+import Mathlib.CategoryTheory.Limits.Preserves.Opposites
 /-!
 # Representably flat functors
 

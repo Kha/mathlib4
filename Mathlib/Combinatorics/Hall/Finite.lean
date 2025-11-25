@@ -5,9 +5,11 @@ Authors: Alena Gusakov, Bhavik Mehta, Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Fintype.Basic
-public import Mathlib.Data.Fintype.Powerset
-public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Data.Finset.Union
+public import Mathlib.Data.Fintype.Card
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Powerset
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Hall's Marriage Theorem for finite index types

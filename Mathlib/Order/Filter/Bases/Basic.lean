@@ -5,10 +5,18 @@ Authors: Yury Kudryashov, Johannes Hölzl, Mario Carneiro, Patrick Massot
 -/
 module
 
-public import Mathlib.Data.Set.Sigma
-public import Mathlib.Order.Filter.Defs
-public import Mathlib.Order.Filter.Map
-public import Mathlib.Order.Interval.Set.Basic
+public import Mathlib.Order.Filter.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Prod.PProd
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Data.Set.Sigma
+import Mathlib.Order.Filter.Map
+import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Basic results on filter bases

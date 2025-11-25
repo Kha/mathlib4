@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Prod.Lex
 public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Order homomorphism for `Prod.Lex`

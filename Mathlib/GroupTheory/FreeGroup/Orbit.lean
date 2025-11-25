@@ -7,6 +7,10 @@ module
 
 public import Mathlib.GroupTheory.FreeGroup.Reduce
 public import Mathlib.GroupTheory.GroupAction.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
 
 /-!
 For any `w : α × Bool`, `FreeGroup.startsWith w` is the set of all elemenents of `FreeGroup α` that

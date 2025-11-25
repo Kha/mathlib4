@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Derivative
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Int.Cast.Field
 
 /-!
 # Derivations

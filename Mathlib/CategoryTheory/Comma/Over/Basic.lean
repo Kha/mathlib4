@@ -7,6 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.Comma.StructuredArrow.Basic
 public import Mathlib.CategoryTheory.Category.Cat
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Functor.EpiMono
 
 /-!
 # Over and under categories

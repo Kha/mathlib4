@@ -5,12 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Logic.Encodable.Pi
-public import Mathlib.SetTheory.Cardinal.Basic
 public import Mathlib.Topology.MetricSpace.Closeds
-public import Mathlib.Topology.MetricSpace.Completion
 public import Mathlib.Topology.MetricSpace.GromovHausdorffRealized
 public import Mathlib.Topology.MetricSpace.Kuratowski
+public import Mathlib.Data.Finite.Card
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Logic.Encodable.Pi
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Completion
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Gromov-Hausdorff distance

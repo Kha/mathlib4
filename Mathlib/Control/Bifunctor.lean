@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Control.Functor
 public import Mathlib.Tactic.Common
+public import Mathlib.Logic.Function.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Functors with two arguments

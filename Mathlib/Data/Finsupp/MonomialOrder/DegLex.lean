@@ -8,6 +8,12 @@ module
 public import Mathlib.Algebra.Group.TransferInstance
 public import Mathlib.Data.Finsupp.MonomialOrder
 public import Mathlib.Data.Finsupp.Weight
+public import Mathlib.Data.Prod.Lex
+import Mathlib.Order.WellFoundedSet
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.WellFounded
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-! Homogeneous lexicographic monomial ordering
 

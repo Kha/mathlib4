@@ -7,6 +7,8 @@ module
 
 public import Mathlib.MeasureTheory.Constructions.Projective
 public import Mathlib.Probability.IdentDistrib
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finite-dimensional distributions of a stochastic process

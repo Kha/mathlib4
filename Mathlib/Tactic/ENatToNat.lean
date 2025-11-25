@@ -5,7 +5,9 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public meta import Mathlib.Data.ENat.Basic
+public import Mathlib.Data.ENat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # `enat_to_nat`

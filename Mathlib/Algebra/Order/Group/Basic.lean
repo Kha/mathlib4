@@ -5,9 +5,14 @@ Authors: Jeremy Avigad, Robert Y. Lewis
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Unbundled.Basic
 public import Mathlib.Algebra.Order.Monoid.Defs
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
+public import Mathlib.Algebra.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.Monotone.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Lemmas about the interaction of power operations with order

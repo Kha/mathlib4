@@ -5,6 +5,8 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.RepresentationTheory.Homological.Resolution
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-06-14")

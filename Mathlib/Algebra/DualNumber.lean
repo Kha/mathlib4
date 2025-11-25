@@ -6,6 +6,7 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.TrivSqZeroExt
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Dual numbers

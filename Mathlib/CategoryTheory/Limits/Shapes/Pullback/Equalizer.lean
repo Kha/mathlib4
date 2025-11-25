@@ -6,6 +6,7 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+import Mathlib.Tactic.Lemma
 
 /-!
 # Equalizers as pullbacks of products

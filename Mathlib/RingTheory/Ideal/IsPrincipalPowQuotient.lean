@@ -8,6 +8,8 @@ module
 public import Mathlib.LinearAlgebra.Isomorphisms
 public import Mathlib.RingTheory.Ideal.Operations
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Regular
 
 /-!
 # Quotients of powers of principal ideals

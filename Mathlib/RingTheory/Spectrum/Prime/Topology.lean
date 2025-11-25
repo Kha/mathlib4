@@ -6,16 +6,33 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Order.Ring.Idempotent
-public import Mathlib.Order.Heyting.Hom
-public import Mathlib.RingTheory.Finiteness.Ideal
-public import Mathlib.RingTheory.Ideal.GoingUp
-public import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
 public import Mathlib.RingTheory.KrullDimension.Basic
-public import Mathlib.RingTheory.Localization.Algebra
 public import Mathlib.RingTheory.Spectrum.Maximal.Localization
 public import Mathlib.Topology.Constructible
 public import Mathlib.Topology.KrullDimension
 public import Mathlib.Topology.Spectral.Basic
+public import Mathlib.Order.Minimal
+public import Mathlib.Algebra.Ring.Idempotent
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+public import Mathlib.RingTheory.Localization.Away.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Algebra.Polynomial.Reverse
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Heyting.Hom
+import Mathlib.RingTheory.Finiteness.Ideal
+import Mathlib.RingTheory.Finiteness.Subalgebra
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Localization.Algebra
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Compactness.Bases
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # The Zariski topology on the prime spectrum of a commutative (semi)ring

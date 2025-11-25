@@ -6,9 +6,18 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 module
 
 public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
-public import Mathlib.Algebra.Polynomial.Degree.Support
-public import Mathlib.Algebra.Polynomial.Degree.Units
 public import Mathlib.Algebra.Polynomial.Eval.Coeff
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Evaluation of polynomials and degrees

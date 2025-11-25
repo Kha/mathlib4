@@ -7,8 +7,9 @@ module
 
 public import Mathlib.Algebra.Ring.Defs
 public import Mathlib.Combinatorics.SimpleGraph.Finite
-public import Mathlib.Combinatorics.SimpleGraph.Maps
-public import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Cast.Basic
 
 /-!
 # Edge deletion

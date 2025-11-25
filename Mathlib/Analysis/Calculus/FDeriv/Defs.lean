@@ -6,6 +6,7 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Asymptotics.TVS
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Fréchet derivative: definition

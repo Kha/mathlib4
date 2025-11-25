@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
 public import Mathlib.Topology.Maps.Proper.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # A map is proper iff preimage of compact sets are compact

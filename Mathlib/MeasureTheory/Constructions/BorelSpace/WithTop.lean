@@ -7,6 +7,9 @@ module
 
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.Topology.Order.WithTop
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Order.T5
 
 /-!
 # Borel measurable space on `WithTop`

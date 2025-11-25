@@ -5,7 +5,16 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import Mathlib.Analysis.Normed.Operator.Bilinear
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 
 /-!
 # Hilbert C⋆-modules

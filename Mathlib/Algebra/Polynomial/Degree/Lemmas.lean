@@ -5,8 +5,27 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Eval.Degree
-public import Mathlib.Algebra.Prime.Lemmas
+public import Mathlib.Algebra.Group.Irreducible.Defs
+public import Mathlib.Algebra.Polynomial.Degree.Operations
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Nat.WithBot
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Irreducible.Lemmas
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.WithTop
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Theory of degrees of polynomials

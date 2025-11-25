@@ -6,8 +6,13 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Analysis.Normed.Group.Uniform
-public import Mathlib.Topology.Algebra.GroupCompletion
 public import Mathlib.Topology.MetricSpace.Completion
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Completion of a normed group

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Homology.CommSq
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Square
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Relation between pullback/pushout squares and kernel/cokernel sequences

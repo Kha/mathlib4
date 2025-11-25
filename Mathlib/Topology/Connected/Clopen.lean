@@ -5,10 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Subset
-public import Mathlib.Topology.Clopen
-public import Mathlib.Topology.Compactness.Compact
 public import Mathlib.Topology.Connected.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Bool.Set
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Subset
+import Mathlib.Topology.Compactness.Compact
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Connected subsets and their relation to clopen sets

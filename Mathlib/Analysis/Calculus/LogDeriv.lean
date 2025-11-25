@@ -5,8 +5,21 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.ZPow
-public import Mathlib.Analysis.Calculus.MeanValue
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.ZPow
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
 
 /-!
 # Logarithmic Derivatives

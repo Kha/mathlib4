@@ -8,6 +8,13 @@ module
 public import Mathlib.MeasureTheory.Measure.Haar.Basic
 public import Mathlib.Analysis.Normed.Module.FiniteDimension
 public import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Ring.Canonical
 
 /-!
 # Pushing a Haar measure by a linear map

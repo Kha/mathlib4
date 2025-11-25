@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Join.Basic
 public import Mathlib.CategoryTheory.Bicategory.Functor.Pseudofunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pseudofunctoriality of categorical joins

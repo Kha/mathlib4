@@ -5,8 +5,27 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Data.EReal.Inv
 public import Mathlib.Topology.Semicontinuous
+public import Mathlib.Data.EReal.Operations
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.EReal.Inv
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Topological structure on `EReal`

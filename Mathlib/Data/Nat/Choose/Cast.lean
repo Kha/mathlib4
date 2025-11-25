@@ -6,9 +6,13 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Field.Defs
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
 public import Mathlib.Data.Nat.Choose.Basic
-public import Mathlib.Data.Nat.Factorial.Cast
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.CharZero.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Factorial.Cast
 
 /-!
 # Cast of binomial coefficients

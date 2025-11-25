@@ -6,9 +6,14 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.GroupWithZero.Hom
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
 public import Mathlib.Algebra.Ring.Defs
 public import Mathlib.Data.Nat.Lattice
+public import Mathlib.Algebra.Divisibility.Basic
+public import Mathlib.Algebra.Group.Units.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Order.Interval.Finset.Nat
 
 /-!
 # Definition of nilpotent elements

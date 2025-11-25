@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.Grp_
 public import Mathlib.CategoryTheory.Monoidal.CommMon_
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of commutative groups in a Cartesian monoidal category

@@ -5,8 +5,11 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Dual
 public import Mathlib.Analysis.LocallyConvex.WeakOperatorTopology
+public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Dual
 
 /-!
 # The weak operator topology in Hilbert spaces

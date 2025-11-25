@@ -5,11 +5,19 @@ Authors: Zhouhang Zhou, Frédéric Dupuis, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
 public import Mathlib.Analysis.InnerProductSpace.Projection.Reflection
-public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 public import Mathlib.Algebra.DirectSum.Decomposition
-public import Mathlib.Analysis.Normed.Module.RCLike.Basic
+public import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Module.RCLike.Basic
 
 /-!
 # Orthogonal projections in finite-dimensional spaces

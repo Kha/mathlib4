@@ -5,10 +5,13 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Filtered.Final
-public import Mathlib.CategoryTheory.Limits.Connected
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
 public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Basic
+public import Mathlib.Algebra.Homology.ShortComplex.Exact
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Filtered.Connected
+import Mathlib.CategoryTheory.Filtered.Final
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Exactness of colimits

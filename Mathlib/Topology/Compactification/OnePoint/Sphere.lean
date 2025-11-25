@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Compactification.OnePoint.Basic
 public import Mathlib.Geometry.Manifold.Instances.Sphere
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-!
 

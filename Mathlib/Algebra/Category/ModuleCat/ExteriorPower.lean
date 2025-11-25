@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.ExteriorPower.Basic
 public import Mathlib.Algebra.Category.ModuleCat.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The exterior powers as functors on the category of modules

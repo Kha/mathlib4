@@ -5,10 +5,19 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Rat.Encodable
 public import Mathlib.NumberTheory.Real.Irrational
-public import Mathlib.Topology.Separation.GDelta
-public import Mathlib.Topology.Instances.Real.Lemmas
+public import Mathlib.Topology.GDelta.Basic
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Rat.Encodable
+import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Topology.Instances.Int
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.Separation.GDelta
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.Real.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Topology of irrational numbers

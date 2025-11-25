@@ -6,8 +6,26 @@ Authors: Kenny Lau, Joey van Langen, Casper Putz
 module
 
 public import Mathlib.Algebra.CharP.Defs
-public import Mathlib.Data.Nat.Multiplicity
-public import Mathlib.Data.Nat.Choose.Sum
+public import Mathlib.Algebra.Ring.Hom.Defs
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Nat.Multiplicity
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 # Characteristic of semirings

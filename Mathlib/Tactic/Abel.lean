@@ -5,10 +5,13 @@ Authors: Mario Carneiro, Kim Morrison
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Basic
-public meta import Mathlib.Tactic.TryThis
-public meta import Mathlib.Util.AtLocation
 public meta import Mathlib.Util.AtomM.Recurse
+public import Mathlib.Tactic.Common
+public import Mathlib.Tactic.NormNum.Core
+public import Mathlib.Util.AtomM.Recurse
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TryThis
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The `abel` tactic

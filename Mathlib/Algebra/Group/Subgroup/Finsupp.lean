@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.BigOperators.Finsupp.Basic
 public import Mathlib.Algebra.Group.Subgroup.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-! # Connection between `Subgroup.closure` and `Finsupp.prod` -/
 

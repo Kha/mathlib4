@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Int.Cast.Basic
 public import Mathlib.Data.Nat.Cast.Prod
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The product of two `AddGroupWithOne`s.

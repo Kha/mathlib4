@@ -6,7 +6,12 @@ Authors: Jan-David Salchow, Sébastien Gouëzel, Jean Lo
 module
 
 public import Mathlib.Analysis.Normed.Operator.Basic
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Operator norm as an `NNNorm`

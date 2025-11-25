@@ -5,11 +5,17 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Topology.Algebra.MulAction
-public import Mathlib.Topology.Algebra.Order.Field
 public import Mathlib.Topology.Algebra.SeparationQuotient.Basic
 public import Mathlib.Topology.Algebra.UniformMulAction
-public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Topology.EMetricSpace.Lipschitz
+public import Mathlib.Topology.MetricSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Compatibility of algebraic operations with metric space structures

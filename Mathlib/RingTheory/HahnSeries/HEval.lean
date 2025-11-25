@@ -7,6 +7,10 @@ module
 
 public import Mathlib.RingTheory.HahnSeries.Summable
 public import Mathlib.RingTheory.PowerSeries.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Evaluation of power series in Hahn Series

@@ -5,8 +5,10 @@ Authors: Yuyang Zhao
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Tower
 public import Mathlib.Algebra.MvPolynomial.Eval
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
 
 /-!
 # Algebra towers for multivariate polynomial

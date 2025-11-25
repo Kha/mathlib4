@@ -5,9 +5,8 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
 public import Mathlib.CategoryTheory.Sites.Canonical
-public import Mathlib.CategoryTheory.Sites.Whiskering
+import Mathlib.Tactic.Lemma
 /-!
 
 # Subcanonical Grothendieck topologies

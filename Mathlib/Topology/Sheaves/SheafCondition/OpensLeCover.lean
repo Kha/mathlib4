@@ -6,6 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Topology.Sheaves.SheafCondition.Sites
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Another version of the sheaf condition.

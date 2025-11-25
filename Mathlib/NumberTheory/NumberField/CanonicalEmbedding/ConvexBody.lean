@@ -5,10 +5,32 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.MeasureTheory.Group.GeometryOfNumbers
-public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic
-public import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+import Mathlib.Analysis.MeanInequalities
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.Convex
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.MeasureTheory.Group.GeometryOfNumbers
+import Mathlib.MeasureTheory.Integral.Gamma
+import Mathlib.MeasureTheory.Integral.Pi
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.MetricSpace.Polish
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
+import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
 
 /-!
 # Convex Bodies

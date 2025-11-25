@@ -7,9 +7,14 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Submonoid.Instances
 public import Mathlib.Algebra.Order.Hom.Monoid
-public import Mathlib.Algebra.Order.Ring.Basic
 public import Mathlib.RingTheory.Ideal.Maps
-public import Mathlib.Tactic.TFAE
+public import Mathlib.Algebra.Order.GroupWithZero.Canonical
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 

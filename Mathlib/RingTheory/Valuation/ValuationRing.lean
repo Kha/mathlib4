@@ -5,13 +5,21 @@ Authors: Adam Topaz
 -/
 module
 
-public import Mathlib.RingTheory.Bezout
-public import Mathlib.RingTheory.LocalRing.Basic
 public import Mathlib.RingTheory.Localization.FractionRing
 public import Mathlib.RingTheory.Localization.Integer
 public import Mathlib.RingTheory.Valuation.Integers
 public import Mathlib.Tactic.LinearCombination
 public import Mathlib.Tactic.FieldSimp
+public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Tactic.ApplyFun
+public import Mathlib.RingTheory.LocalRing.Defs
+import Mathlib.RingTheory.Bezout
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 # Valuation Rings

@@ -6,6 +6,10 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.Algebra.Module.LinearMap
+public import Mathlib.Topology.UniformSpace.Separation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Maps.OpenQuotient
 
 /-!
 # Algebraic operations on `SeparationQuotient`

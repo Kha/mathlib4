@@ -5,10 +5,27 @@ Authors: Benjamin Davidson, Devon Tuma, Eric Rodriguez, Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Pointwise.Interval
-public import Mathlib.Order.Filter.AtTopBot.Field
 public import Mathlib.Topology.Algebra.Field
-public import Mathlib.Topology.Algebra.Order.Group
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Int.Basic
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Topologies on linear ordered fields

@@ -5,10 +5,29 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.Localization
 public import Mathlib.RingTheory.Algebraic.Basic
-public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
-public import Mathlib.RingTheory.Localization.BaseChange
+public import Mathlib.RingTheory.PolynomialAlgebra
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
+public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Localization
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.RingTheory.Localization.Module
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.IntegralNormalization
+import Mathlib.RingTheory.TensorProduct.MvPolynomial
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Algebraic elements and integral elements

@@ -6,6 +6,10 @@ Authors: Damien Thomine
 module
 
 public import Mathlib.Dynamics.TopologicalEntropy.NetEntropy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Topological entropy of subsets: monotonicity, closure, union

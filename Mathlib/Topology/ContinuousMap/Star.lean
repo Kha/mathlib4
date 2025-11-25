@@ -8,6 +8,8 @@ module
 public import Mathlib.Topology.Algebra.Star
 public import Mathlib.Algebra.Star.StarAlgHom
 public import Mathlib.Topology.ContinuousMap.Algebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Star structures on continuous maps.

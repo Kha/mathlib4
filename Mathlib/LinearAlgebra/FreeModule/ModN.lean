@@ -5,9 +5,21 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Int
 public import Mathlib.Algebra.Module.ZMod
-public import Mathlib.LinearAlgebra.Dimension.Free
+public import Mathlib.LinearAlgebra.BilinearMap
+public import Mathlib.Data.ZMod.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.LinearAlgebra.Quotient.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Finsupp.Fintype
+import Mathlib.Data.Int.Basic
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.RingTheory.Finiteness.Cardinality
 
 /-!
 # Quotienting out a free `ℤ`-module

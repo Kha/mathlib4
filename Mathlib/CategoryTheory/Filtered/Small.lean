@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.EssentiallySmall
 public import Mathlib.CategoryTheory.Filtered.Basic
-public import Mathlib.Tactic.DepRewrite
+import Mathlib.Tactic.DepRewrite
+import Mathlib.Logic.Small.Basic
 
 /-!
 # A functor from a small category to a filtered category factors through a small filtered category

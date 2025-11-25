@@ -5,8 +5,15 @@ Authors: Mario Carneiro, Floris van Doorn, Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.SetTheory.Cardinal.Arithmetic
 public import Mathlib.SetTheory.Ordinal.FixedPoint
+public import Mathlib.SetTheory.Cardinal.Aleph
+public import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Cofinality

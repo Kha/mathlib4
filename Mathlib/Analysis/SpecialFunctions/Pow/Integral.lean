@@ -5,8 +5,17 @@ Authors: Kalle Kytölä
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.MeasureTheory.Integral.Layercake
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Layercake
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # The integral of the real power of a nonnegative function

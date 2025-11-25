@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Notation
 public import Mathlib.LinearAlgebra.Matrix.Symmetric
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Coxeter matrices

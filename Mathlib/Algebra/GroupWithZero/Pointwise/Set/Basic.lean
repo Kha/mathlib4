@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Basic
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Pointwise operations of sets in a group with zero

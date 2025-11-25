@@ -5,12 +5,20 @@ Authors: Patrick Massot, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.GroupWithZero.Finset
-public import Mathlib.Analysis.Normed.Group.Bounded
 public import Mathlib.Analysis.Normed.Group.Int
 public import Mathlib.Analysis.Normed.Group.Uniform
 public import Mathlib.Analysis.Normed.Ring.Basic
 public import Mathlib.Topology.MetricSpace.Dilation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.GroupWithZero.Finset
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Normed rings

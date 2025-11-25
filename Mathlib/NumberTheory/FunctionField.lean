@@ -6,9 +6,12 @@ Authors: Anne Baanen, Ashvni Narayanan
 module
 
 public import Mathlib.FieldTheory.RatFunc.Degree
-public import Mathlib.RingTheory.DedekindDomain.IntegralClosure
-public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
-public import Mathlib.Topology.Algebra.Valued.ValuedField
+public import Mathlib.FieldTheory.Separable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+import Mathlib.RingTheory.Localization.Integral
 
 /-!
 # Function fields

@@ -5,11 +5,22 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Algebra.Module.Multilinear.Bounded
-public import Mathlib.Topology.Algebra.Module.UniformConvergence
-public import Mathlib.Topology.Algebra.SeparationQuotient.Section
 public import Mathlib.Topology.Hom.ContinuousEvalConst
-public import Mathlib.Topology.Algebra.InfiniteSum.Basic
+public import Mathlib.Analysis.LocallyConvex.Bounded
+public import Mathlib.Topology.Defs.Sequences
+public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.Module.Multilinear.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Coherent
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Topology.Algebra.Module.UniformConvergence
+import Mathlib.Topology.Algebra.SeparationQuotient.Section
+import Mathlib.Topology.Algebra.Module.Multilinear.Bounded
 
 /-!
 # Topology on continuous multilinear maps

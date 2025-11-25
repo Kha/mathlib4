@@ -5,8 +5,12 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Bounded
 public import Mathlib.Topology.Order.Bornology
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.MetricSpace.Pseudo.Constructions
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # The reals are equipped with their order bornology

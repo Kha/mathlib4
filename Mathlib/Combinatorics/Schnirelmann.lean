@@ -5,11 +5,22 @@ Authors: Yaël Dillies, Bhavik Mehta, Doga Can Sertbas
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Abs
 public import Mathlib.Data.Nat.ModEq
 public import Mathlib.Data.Nat.Prime.Defs
 public import Mathlib.Data.Real.Archimedean
 public import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Schnirelmann density

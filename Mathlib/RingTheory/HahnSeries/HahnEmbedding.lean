@@ -6,11 +6,12 @@ Authors: Weiyi Wang
 module
 
 public import Mathlib.Algebra.Order.Module.HahnEmbedding
-public import Mathlib.Algebra.Module.LinearMap.Rat
-public import Mathlib.Algebra.Field.Rat
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Data.Real.Embedding
-public import Mathlib.GroupTheory.DivisibleHull
+import Mathlib.GroupTheory.DivisibleHull
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.Embedding
+import Mathlib.Algebra.Module.LinearMap.Rat
+import Mathlib.Algebra.Module.Submodule.Order
 
 /-!
 

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.MvPolynomial.Supported
 public import Mathlib.RingTheory.Derivation.Basic
+public import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Derivations of multivariate polynomials

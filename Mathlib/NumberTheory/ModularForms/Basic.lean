@@ -6,11 +6,20 @@ Authors: Chris Birkbeck
 module
 
 public import Mathlib.Algebra.DirectSum.Algebra
-public import Mathlib.Analysis.Calculus.FDeriv.Star
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Manifold
-public import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 public import Mathlib.NumberTheory.ModularForms.BoundedAtCusp
 public import Mathlib.NumberTheory.ModularForms.SlashInvariantForms
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Star
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 
 /-!
 # Modular forms

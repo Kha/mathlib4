@@ -8,6 +8,9 @@ module
 public import Mathlib.AlgebraicGeometry.Morphisms.AffineAnd
 public import Mathlib.AlgebraicGeometry.Morphisms.LocalIso
 public import Mathlib.CategoryTheory.MorphismProperty.Descent
+public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
 
 /-!
 # Descent of morphism properties

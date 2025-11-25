@@ -5,10 +5,15 @@ Authors: Johannes Hölzl, Patrick Massot, Casper Putz, Anne Baanen
 -/
 module
 
-public import Mathlib.Data.Matrix.Basis
 public import Mathlib.Data.Matrix.Block
 public import Mathlib.LinearAlgebra.Matrix.Notation
-public import Mathlib.LinearAlgebra.Matrix.RowCol
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Star.BigOperators
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Trace of a matrix

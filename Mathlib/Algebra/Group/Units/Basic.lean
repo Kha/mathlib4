@@ -6,12 +6,15 @@ Authors: Kenny Lau, Mario Carneiro, Johannes Hölzl, Chris Hughes, Jens Wagemake
 module
 
 public import Mathlib.Algebra.Group.Basic
-public import Mathlib.Algebra.Group.Commute.Defs
 public import Mathlib.Algebra.Group.Units.Defs
 public import Mathlib.Logic.Unique
-public import Mathlib.Tactic.Nontriviality
 public import Mathlib.Tactic.Lift
 public import Mathlib.Tactic.Subsingleton
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Units (i.e., invertible elements) of a monoid

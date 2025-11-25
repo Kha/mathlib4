@@ -5,10 +5,23 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 public import Mathlib.NumberTheory.NumberField.Basic
-public import Mathlib.FieldTheory.SeparableClosure
 public import Mathlib.FieldTheory.Galois.Abelian
+public import Mathlib.FieldTheory.IsSepClosed
+public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+public import Mathlib.RingTheory.Polynomial.Cyclotomic.Basic
+import Mathlib.FieldTheory.SeparableClosure
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.Module.Rat
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.RootsOfUnity.Minpoly
+import Mathlib.Tactic.Attr.Register
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 /-!
 # Cyclotomic extensions

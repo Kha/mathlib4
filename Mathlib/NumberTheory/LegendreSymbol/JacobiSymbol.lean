@@ -5,7 +5,28 @@ Authors: Michael Stoll, Thomas Zhu, Mario Carneiro
 -/
 module
 
-public import Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity
+public import Mathlib.NumberTheory.LegendreSymbol.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GCDMonoid.Nat
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Sign.Basic
+import Mathlib.Data.ZMod.ValMinAbs
+import Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.Group.Int.Even
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Star.Basic
+import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # The Jacobi Symbol

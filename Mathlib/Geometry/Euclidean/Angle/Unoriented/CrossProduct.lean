@@ -8,6 +8,8 @@ module
 public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Basic
 public import Mathlib.LinearAlgebra.CrossProduct
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
 
 /-!
 # Norm of cross-products

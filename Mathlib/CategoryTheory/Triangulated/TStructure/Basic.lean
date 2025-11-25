@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.ObjectProperty.Shift
 public import Mathlib.CategoryTheory.Triangulated.Pretriangulated
+import Mathlib.Tactic.Lemma
 
 /-!
 # t-structures on triangulated categories

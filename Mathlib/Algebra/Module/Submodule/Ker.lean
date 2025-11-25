@@ -8,6 +8,8 @@ module
 
 public import Mathlib.Algebra.Group.Subgroup.Ker
 public import Mathlib.Algebra.Module.Submodule.Map
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Kernel of a linear map

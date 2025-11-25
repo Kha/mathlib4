@@ -6,6 +6,8 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Multiset.ZeroCons
+public import Mathlib.Data.List.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Basic results on multisets

@@ -6,9 +6,15 @@ Authors: Yakov Pechersky
 module
 
 public import Mathlib.Algebra.DualNumber
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
-public import Mathlib.RingTheory.PrincipalIdealDomain
 public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Algebraic properties of dual numbers

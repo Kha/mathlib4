@@ -5,8 +5,14 @@ Authors: María Inés de Frutos-Fernández, Filippo A. E. Nuccio
 -/
 module
 
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 public import Mathlib.RingTheory.Valuation.Basic
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.FieldTheory.Minpoly.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 /-!
 # Minimal polynomials.

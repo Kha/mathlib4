@@ -7,6 +7,17 @@ module
 
 public import Mathlib.Probability.Distributions.Fernique
 public import Mathlib.Probability.Distributions.Gaussian.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Group.IntegralConvolution
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Fernique's theorem for Gaussian measures

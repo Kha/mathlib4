@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.Data.Set.MulAntidiagonal
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+import Mathlib.Tactic.TypeStar
 
 /-! # Multiplication antidiagonal as a `Finset`.
 

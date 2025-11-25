@@ -5,10 +5,13 @@ Authors: Christopher Hoskin
 -/
 module
 
-public import Mathlib.Topology.UniformSpace.Cauchy
 public import Mathlib.Analysis.Convex.Hull
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 public import Mathlib.Topology.Algebra.Module.LocallyConvex
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-!
 # Totally Bounded sets and Convex Hulls

@@ -5,7 +5,11 @@ Authors: Dagur Asgeirsson, Leonardo de Moura
 -/
 module
 
-public import Mathlib.Order.BooleanAlgebra.Set
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.BooleanAlgebra.Set
 
 /-!
 # Indicator function valued in bool

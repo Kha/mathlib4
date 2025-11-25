@@ -5,7 +5,12 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Topology.Algebra.Module.Basic
+public import Mathlib.Topology.Algebra.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.Module.Basic
 
 /-!
 # Group and ring filter bases

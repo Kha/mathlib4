@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Homology.HomologySequence
 public import Mathlib.Algebra.Homology.QuasiIso
-public import Mathlib.CategoryTheory.Abelian.DiagramLemmas.Four
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Abelian.DiagramLemmas.Four
 
 /-!
 # Consequences of the homology sequence

@@ -6,7 +6,12 @@ Authors: Chenyi Li, Ziyu Wang, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.Function
-public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Uniformly and strongly convex functions

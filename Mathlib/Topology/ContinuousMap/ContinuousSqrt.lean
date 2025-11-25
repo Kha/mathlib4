@@ -6,8 +6,12 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Data.Real.StarOrdered
 public import Mathlib.Topology.ContinuousMap.StarOrdered
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Topology.Algebra.Algebra
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-! # Instances of `ContinuousSqrt`
 

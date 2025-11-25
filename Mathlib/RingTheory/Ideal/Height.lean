@@ -6,8 +6,17 @@ Authors: Wanyi He, Jiedong Jiang, Jingting Wang, Andrew Yang, Shouxin Zhang
 module
 
 public import Mathlib.Algebra.Module.SpanRank
-public import Mathlib.RingTheory.Spectrum.Prime.Noetherian
-public import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
+public import Mathlib.RingTheory.KrullDimension.Basic
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
+import Mathlib.RingTheory.Spectrum.Prime.Noetherian
 /-!
 # The Height of an Ideal
 

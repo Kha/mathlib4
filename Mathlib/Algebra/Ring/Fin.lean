@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Ring.Equiv
 public import Mathlib.Data.Fin.Tuple.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Rings and `Fin`

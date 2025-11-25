@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Star.NonUnitalSubalgebra
 public import Mathlib.Topology.Algebra.NonUnitalAlgebra
 public import Mathlib.Topology.Algebra.Star
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.UniformSpace.UniformEmbedding
 
 /-!
 # Non-unital topological star (sub)algebras

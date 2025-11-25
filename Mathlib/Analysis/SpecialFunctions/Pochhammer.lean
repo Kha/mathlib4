@@ -5,10 +5,26 @@ Authors: Mitchell Horner
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.Analysis.Convex.Deriv
-public import Mathlib.Analysis.Convex.Piecewise
-public import Mathlib.Analysis.Convex.Jensen
+public import Mathlib.RingTheory.Polynomial.Pochhammer
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Analysis.Convex.Deriv
+import Mathlib.Analysis.Convex.Jensen
+import Mathlib.Analysis.Convex.Piecewise
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Pochhammer polynomials

@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Data.Real.Basic
 public import Mathlib.NumberTheory.ArithmeticFunction
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # The Selberg Sieve

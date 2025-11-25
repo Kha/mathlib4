@@ -5,10 +5,18 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.Module.NatInt
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Combinatorics.SimpleGraph.Density
-public import Mathlib.Data.Rat.BigOperators
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Rat.BigOperators
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Energy of a partition

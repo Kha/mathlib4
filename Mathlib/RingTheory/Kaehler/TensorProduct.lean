@@ -6,7 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Kaehler.Basic
-public import Mathlib.RingTheory.Localization.BaseChange
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.BaseChange
 
 /-!
 # Kähler differential module under base change

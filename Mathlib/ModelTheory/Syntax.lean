@@ -5,10 +5,17 @@ Authors: Aaron Anderson, Jesse Michael Han, Floris van Doorn
 -/
 module
 
-public import Mathlib.Data.Set.Prod
 public import Mathlib.Logic.Equiv.Fin.Basic
 public import Mathlib.ModelTheory.LanguageMap
 public import Mathlib.Algebra.Order.Group.Nat
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Data.Finset.Union
+public import Mathlib.Data.Fintype.EquivFin
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Basics on First-Order Syntax

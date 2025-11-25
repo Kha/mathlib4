@@ -5,11 +5,25 @@ Authors: Chris Hughes, Junyan Xu, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
-public import Mathlib.Analysis.Complex.Liouville
 public import Mathlib.FieldTheory.PolynomialGaloisGroup
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-public import Mathlib.Topology.Algebra.Polynomial
+public import Mathlib.Algebra.Module.Rat
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.GroupTheory.Perm.Support
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.CharZero.Infinite
+import Mathlib.Analysis.Complex.Liouville
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Analysis.Calculus.Deriv.Polynomial
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.GroupTheory.Perm.Cycle.Type
 
 /-!
 # The fundamental theorem of algebra

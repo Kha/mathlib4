@@ -5,8 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.TangentCone.Basic
-public import Mathlib.Analysis.Convex.Topology
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.Inv
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Unique differentiability property in real normed spaces

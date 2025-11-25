@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Logic.Embedding.Basic
 public import Mathlib.Algebra.Group.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # The embedding of a cancellative semigroup into itself by multiplication by a fixed element.

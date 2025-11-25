@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Geometry.Euclidean.Projection
 public import Mathlib.Analysis.NormedSpace.Normalize
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Signed distance to an affine subspace in a Euclidean space.

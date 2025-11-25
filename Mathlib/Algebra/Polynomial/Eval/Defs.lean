@@ -7,6 +7,18 @@ module
 
 public import Mathlib.Algebra.Group.Nat.Hom
 public import Mathlib.Algebra.Polynomial.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Data.List.Induction
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Evaluating a polynomial

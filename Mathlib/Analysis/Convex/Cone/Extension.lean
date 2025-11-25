@@ -5,9 +5,13 @@ Authors: Yury Kudryashov, Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Data.Real.Archimedean
 public import Mathlib.Geometry.Convex.Cone.Basic
 public import Mathlib.LinearAlgebra.LinearPMap
+public import Mathlib.Data.Real.Basic
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.Archimedean
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Extension theorems

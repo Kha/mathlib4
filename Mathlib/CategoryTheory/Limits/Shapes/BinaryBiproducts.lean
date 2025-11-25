@@ -5,8 +5,8 @@ Authors: Kim Morrison, Jakob von Raumer
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Shapes.Biproducts
+import Mathlib.Tactic.Lemma
 
 /-!
 # Binary biproducts

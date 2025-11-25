@@ -6,8 +6,11 @@ Authors: Patrick Massot
 module
 
 public import Mathlib.Algebra.Order.AbsoluteValue.Basic
-public import Mathlib.Algebra.Order.Field.Basic
 public import Mathlib.Topology.UniformSpace.OfFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Uniform structure induced by an absolute value

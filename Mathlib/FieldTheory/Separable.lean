@@ -9,10 +9,23 @@ public import Mathlib.Algebra.Polynomial.Expand
 public import Mathlib.Algebra.Polynomial.Splits
 public import Mathlib.Algebra.Squarefree.Basic
 public import Mathlib.FieldTheory.IntermediateField.Basic
-public import Mathlib.FieldTheory.Minpoly.Field
-public import Mathlib.RingTheory.Polynomial.Content
 public import Mathlib.RingTheory.PowerBasis
 public import Mathlib.Data.ENat.Lattice
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Defs
+import Mathlib.RingTheory.EuclideanDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.Content
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 

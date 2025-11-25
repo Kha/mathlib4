@@ -9,6 +9,9 @@ public import Mathlib.Tactic.Abel
 public import Mathlib.Algebra.Ring.Opposite
 public import Mathlib.GroupTheory.GroupAction.SubMulAction
 public import Mathlib.RingTheory.Congruence.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # Two Sided Ideals

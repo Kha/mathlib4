@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Continuous
 public import Mathlib.Topology.ContinuousMap.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous order homomorphisms

@@ -6,7 +6,8 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Category
-public import Mathlib.CategoryTheory.Functor.Trifunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

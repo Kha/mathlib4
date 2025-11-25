@@ -5,8 +5,20 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
-public import Mathlib.Analysis.Fourier.PoissonSummation
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Fourier.PoissonSummation
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Poisson summation applied to the Gaussian

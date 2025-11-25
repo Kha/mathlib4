@@ -5,10 +5,17 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.CategoryTheory.Galois.Basic
 public import Mathlib.CategoryTheory.Galois.Topology
-public import Mathlib.CategoryTheory.Galois.Prorepresentability
-public import Mathlib.Topology.Algebra.OpenSubgroup
+public import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Galois.Decomposition
+import Mathlib.CategoryTheory.Limits.FintypeCat
+import Mathlib.Topology.Algebra.OpenSubgroup
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 
 /-!
 

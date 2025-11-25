@@ -7,7 +7,11 @@ module
 
 public import Mathlib.RingTheory.LocalProperties.Basic
 public import Mathlib.RingTheory.Localization.Integer
-public import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 

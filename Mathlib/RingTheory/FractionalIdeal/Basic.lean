@@ -7,6 +7,12 @@ module
 
 public import Mathlib.RingTheory.Localization.Integer
 public import Mathlib.RingTheory.Localization.Submodule
+public import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.Order.Ring.Canonical
 
 /-!
 # Fractional ideals

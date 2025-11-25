@@ -5,8 +5,11 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.Group.Invertible.Basic
 public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Group.Invertible.Defs
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Invertible.Basic
 
 /-!
 # Theorems about invertible elements in a `GroupWithZero`

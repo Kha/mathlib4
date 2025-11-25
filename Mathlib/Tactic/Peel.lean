@@ -5,8 +5,13 @@ Authors: Jireh Loreaux
 -/
 module
 
-public meta import Mathlib.Tactic.Basic
-public meta import Mathlib.Order.Filter.Basic
+public import Batteries.Tactic.Exact
+public import Mathlib.Tactic.Core
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Basic
 
 /-!
 # The `peel` tactic

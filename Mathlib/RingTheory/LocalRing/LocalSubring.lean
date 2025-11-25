@@ -6,8 +6,11 @@ Authors: Andrew Yang, Yaël Dillies, Javier López-Contreras
 module
 
 public import Mathlib.Tactic.FieldSimp
-public import Mathlib.RingTheory.LocalRing.RingHom.Basic
 public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
 
 
 /-!

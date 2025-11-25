@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Grothendieck
 public import Mathlib.CategoryTheory.Limits.HasLimits
+import Mathlib.Tactic.Lemma
 
 /-!
 # (Co)limits on the (strict) Grothendieck Construction

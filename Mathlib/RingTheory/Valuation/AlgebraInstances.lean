@@ -7,6 +7,11 @@ module
 
 public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 public import Mathlib.RingTheory.Valuation.ValuationSubring
+public import Mathlib.Algebra.Order.Group.Int
+public import Mathlib.Algebra.Order.Monoid.TypeTags
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
 
 /-!
 # Algebra instances

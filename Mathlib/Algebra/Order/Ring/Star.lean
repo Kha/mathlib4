@@ -5,8 +5,8 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Order.Star.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Commutative star-ordered rings are ordered rings

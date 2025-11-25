@@ -5,10 +5,16 @@ Authors: Shing Tak Lam
 -/
 module
 
-public import Mathlib.Topology.Order.ProjIcc
 public import Mathlib.Topology.ContinuousMap.Ordered
 public import Mathlib.Topology.CompactOpen
 public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Order.ProjIcc
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Homotopy between functions

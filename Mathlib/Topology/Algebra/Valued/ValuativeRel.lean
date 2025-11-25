@@ -8,6 +8,10 @@ module
 public import Mathlib.RingTheory.Valuation.ValuativeRel.Basic
 public import Mathlib.Topology.Algebra.Valued.ValuationTopology
 public import Mathlib.Topology.Algebra.WithZeroTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.Neighborhoods
 
 /-!
 

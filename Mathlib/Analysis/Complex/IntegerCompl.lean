@@ -6,6 +6,8 @@ Authors: Chris Birkbeck
 module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
 
 /-!
 # Integer Complement

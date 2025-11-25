@@ -5,9 +5,17 @@ Authors: Johannes Hölzl, Mario Carneiro, Floris van Doorn
 -/
 module
 
-public import Mathlib.Data.ULift
 public import Mathlib.Util.Delaborators
-public import Mathlib.Util.AssertExists
+public import Mathlib.Tactic.Lift
+public import Mathlib.Tactic.PPWithUniv
+public import Mathlib.Data.Nat.Notation
+public import Mathlib.Logic.Equiv.Sum
+import Mathlib.Data.ULift
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Logic.Equiv.Basic
 
 /-!
 # Cardinal Numbers

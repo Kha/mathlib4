@@ -7,8 +7,16 @@ module
 
 public import Mathlib.RingTheory.PowerSeries.Basic
 public import Mathlib.Combinatorics.Enumerative.Bell
-public import Mathlib.Data.Nat.Choose.Multinomial
 public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-! # Divided powers
 

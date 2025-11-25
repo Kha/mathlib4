@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.Nat.Defs
 public import Mathlib.Algebra.GroupWithZero.Defs
 public import Mathlib.Tactic.Spread
+import Mathlib.Util.AssertExists
 
 /-!
 # The natural numbers form a `CancelCommMonoidWithZero`

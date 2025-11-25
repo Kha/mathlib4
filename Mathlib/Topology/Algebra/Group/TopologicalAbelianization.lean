@@ -8,6 +8,7 @@ module
 public import Mathlib.GroupTheory.Commutator.Basic
 public import Mathlib.Tactic.Group
 public import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The topological abelianization of a group.

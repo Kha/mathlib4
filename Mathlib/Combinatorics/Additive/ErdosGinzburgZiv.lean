@@ -5,9 +5,17 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Data.Multiset.Fintype
-public import Mathlib.FieldTheory.ChevalleyWarning
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.FieldTheory.ChevalleyWarning
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Multiset.Fintype
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Factorization.Induction
 
 /-!
 # The Erdős–Ginzburg–Ziv theorem

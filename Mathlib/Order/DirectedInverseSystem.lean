@@ -6,7 +6,8 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.Order.SuccPred.Limit
-public import Mathlib.Order.UpperLower.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.UpperLower.Basic
 
 /-!
 # Definition of direct systems, inverse systems, and cardinalities in specific inverse systems

@@ -6,7 +6,8 @@ Authors: Jujian Zhang
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Images
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Preserving images

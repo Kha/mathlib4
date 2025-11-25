@@ -6,8 +6,11 @@ Authors: Jan-David Salchow, Sébastien Gouëzel, Jean Lo
 module
 
 public import Mathlib.Analysis.Normed.Operator.Basic
-public import Mathlib.Analysis.Normed.Operator.LinearIsometry
-public import Mathlib.Analysis.Normed.Operator.ContinuousLinearMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Operator norm: bilinear maps

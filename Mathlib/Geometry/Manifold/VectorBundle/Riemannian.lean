@@ -5,9 +5,18 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Geometry.Manifold.VectorBundle.Hom
-public import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
 public import Mathlib.Topology.VectorBundle.Riemannian
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+public import Mathlib.Geometry.Manifold.VectorBundle.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.LinearMap
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.VectorBundle.Hom
+import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
 
 /-! # Riemannian vector bundles
 

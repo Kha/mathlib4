@@ -6,6 +6,8 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.BoxIntegral.Partition.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Lattice.Union
 
 /-!
 # Tagged partitions

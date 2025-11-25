@@ -6,5 +6,6 @@ Authors: Yourong Zang, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Compactification.OnePoint.Basic
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-06-04")

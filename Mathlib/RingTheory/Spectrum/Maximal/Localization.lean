@@ -8,6 +8,8 @@ module
 public import Mathlib.RingTheory.Localization.AsSubring
 public import Mathlib.RingTheory.Spectrum.Maximal.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.RingHom
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Maximal spectrum of a commutative (semi)ring

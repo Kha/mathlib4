@@ -5,9 +5,28 @@ Authors: Anatole Dedecker
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
-public import Mathlib.Analysis.Normed.Ring.Lemmas
+public import Mathlib.Data.Finset.NatAntidiagonal
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Ring.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Prod
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-! # Multiplying two infinite sums in a normed ring
 

@@ -5,9 +5,12 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.PullbackCarrier
 public import Mathlib.AlgebraicGeometry.Morphisms.Finite
-public import Mathlib.RingTheory.Spectrum.Prime.Jacobson
+import Mathlib.AlgebraicGeometry.PullbackCarrier
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Scheme-theoretic fiber

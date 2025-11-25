@@ -6,9 +6,16 @@ Authors: Kenny Lau, Chris Hughes, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Ring.Action.End
-public import Mathlib.RingTheory.Finiteness.Cardinality
 public import Mathlib.RingTheory.LocalRing.ResidueField.Defs
 public import Mathlib.RingTheory.LocalRing.RingHom.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 

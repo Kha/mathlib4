@@ -5,7 +5,13 @@ Authors: Oliver Nash, Yaël Dillies
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dual.Lemmas
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Dual.Defs
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dual.Lemmas
 
 /-!
 # Perfect pairings

@@ -5,14 +5,25 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Combinatorics.Additive.PluenneckeRuzsa
-public import Mathlib.Data.Fin.VecNotation
 public import Mathlib.Data.Real.Basic
-public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Tactic.Positivity.Finset
-public import Mathlib.Tactic.Ring
+public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.Additive.PluenneckeRuzsa
+import Mathlib.Data.Fin.VecNotation
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Defs
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Small tripling implies small powers

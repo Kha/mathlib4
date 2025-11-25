@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.TensorProduct.Maps
 public import Mathlib.Algebra.Algebra.Opposite
+import Mathlib.Tactic.TypeStar
 
 /-! # `MulOpposite` distributes over `⊗`
 

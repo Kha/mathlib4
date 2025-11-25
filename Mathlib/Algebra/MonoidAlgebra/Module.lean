@@ -5,10 +5,16 @@ Authors: Johannes Hölzl, Yury Kudryashov, Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Module.BigOperators
-public import Mathlib.Algebra.Module.Submodule.Basic
 public import Mathlib.Algebra.MonoidAlgebra.Lift
-public import Mathlib.LinearAlgebra.Finsupp.LSum
+public import Mathlib.LinearAlgebra.Finsupp.Defs
+public import Mathlib.Algebra.Module.Submodule.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.LinearAlgebra.Finsupp.LSum
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Module structure on monoid algebras

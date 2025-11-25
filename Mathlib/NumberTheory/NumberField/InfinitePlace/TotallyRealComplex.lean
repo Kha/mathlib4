@@ -5,7 +5,9 @@ Authors: Kevin Buzzard, Xavier Roblot
 -/
 module
 
-public import Mathlib.NumberTheory.NumberField.InfinitePlace.Ramification
+public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.NumberTheory.NumberField.InfinitePlace.Ramification
 
 /-!
 # Totally real and totally complex number fields

@@ -5,7 +5,21 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Topology.MetricSpace.Defs
+public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Hofer's lemma

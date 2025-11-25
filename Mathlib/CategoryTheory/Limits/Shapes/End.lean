@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
+import Mathlib.Tactic.Lemma
 
 /-!
 # Ends and coends

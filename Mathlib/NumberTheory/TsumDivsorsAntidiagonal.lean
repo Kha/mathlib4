@@ -5,8 +5,30 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Normed
 public import Mathlib.NumberTheory.ArithmeticFunction
+public import Mathlib.Analysis.Normed.MulAction
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Ring.Lemmas
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Data.PNat.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Lemmas on infinite sums over the antidiagonal of the divisors function

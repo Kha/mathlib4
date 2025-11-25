@@ -6,14 +6,20 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Adjunctions
-public import Mathlib.Algebra.Category.ModuleCat.EpiMono
-public import Mathlib.Algebra.Category.ModuleCat.Limits
-public import Mathlib.Algebra.Category.ModuleCat.Colimits
 public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Symmetric
-public import Mathlib.Algebra.Category.ModuleCat.Projective
-public import Mathlib.CategoryTheory.Elementwise
 public import Mathlib.CategoryTheory.Action.Monoidal
 public import Mathlib.RepresentationTheory.Basic
+public import Mathlib.LinearAlgebra.Finsupp.Pi
+public import Mathlib.CategoryTheory.Preadditive.Projective.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.EpiMono
+import Mathlib.Algebra.Category.ModuleCat.Limits
+import Mathlib.Algebra.Category.ModuleCat.Projective
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # `Rep k G` is the category of `k`-linear representations of `G`.

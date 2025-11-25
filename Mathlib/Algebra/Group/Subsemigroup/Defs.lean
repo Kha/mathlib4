@@ -9,7 +9,11 @@ module
 public import Mathlib.Algebra.Group.Hom.Defs
 public import Mathlib.Algebra.Group.InjSurj
 public import Mathlib.Data.SetLike.Basic
-public import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Subsemigroups: definition

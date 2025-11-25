@@ -7,6 +7,8 @@ module
 
 public import Mathlib.FieldTheory.PurelyInseparable.Basic
 public import Mathlib.FieldTheory.PerfectClosure
+public import Mathlib.RingTheory.Nilpotent.Lemmas
+import Mathlib.Tactic.TypeStar
 
 /-!
 

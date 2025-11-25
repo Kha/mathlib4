@@ -5,10 +5,11 @@ Authors: Robin Carlier, Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Fubini
 public import Mathlib.CategoryTheory.Functor.Currying
-public import Mathlib.CategoryTheory.Limits.HasLimits
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Fubini
 
 /-!
 # Preservations of limits for bifunctors

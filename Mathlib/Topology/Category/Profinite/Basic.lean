@@ -7,8 +7,14 @@ module
 
 public import Mathlib.CategoryTheory.FintypeCat
 public import Mathlib.Topology.Category.CompHaus.Basic
-public import Mathlib.Topology.LocallyConstant.Basic
-public import Mathlib.Topology.Separation.Profinite
+public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Data.ULift
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Topology.LocallyConstant.Basic
+import Mathlib.Topology.Separation.Profinite
 
 /-!
 # The category of Profinite Types

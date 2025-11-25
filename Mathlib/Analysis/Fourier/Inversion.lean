@@ -5,8 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.PeakFunction
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+public import Mathlib.Analysis.Fourier.FourierTransform
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.MeasureTheory.Integral.PeakFunction
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Fourier inversion formula

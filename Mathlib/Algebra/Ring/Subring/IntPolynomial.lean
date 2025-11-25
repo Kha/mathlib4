@@ -6,6 +6,9 @@ Authors: María Inés de Frutos-Fernández, Filippo A. E. Nuccio
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Polynomials over subrings.

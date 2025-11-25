@@ -6,7 +6,11 @@ Authors: Chris Hughes, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Group.Action.Faithful
-public import Mathlib.Algebra.GroupWithZero.NeZero
+public import Mathlib.Algebra.GroupWithZero.Defs
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.NeZero
 
 /-!
 # Faithful actions involving groups with zero

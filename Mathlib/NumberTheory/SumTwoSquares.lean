@@ -5,9 +5,23 @@ Authors: Chris Hughes, Michael Stoll
 -/
 module
 
-public import Mathlib.Data.Nat.Squarefree
-public import Mathlib.NumberTheory.Zsqrtd.QuadraticReciprocity
-public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+public import Mathlib.Algebra.Squarefree.Basic
+public import Mathlib.Data.Nat.MaxPowDiv
+public import Mathlib.Data.ZMod.Basic
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.NumberTheory.Padics.PadicVal.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Zify
+import Mathlib.Data.Nat.Squarefree
+import Mathlib.NumberTheory.LegendreSymbol.Basic
+import Mathlib.NumberTheory.Zsqrtd.QuadraticReciprocity
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Factorization.Induction
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.NumberTheory.Padics.PadicVal.Basic
 
 /-!
 # Sums of two squares

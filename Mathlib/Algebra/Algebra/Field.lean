@@ -6,7 +6,11 @@ Authors: Kenny Lau, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Algebra.Defs
-public import Mathlib.Data.Rat.Cast.Defs
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Data.Rat.Cast.Defs
 
 /-!
 # Facts about `algebraMap` when the coefficient ring is a field.

@@ -6,7 +6,8 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.NatIso
-public import Mathlib.Logic.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Full and faithful functors

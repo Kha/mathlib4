@@ -6,8 +6,12 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.EventuallyMeasurable
-public import Mathlib.MeasureTheory.MeasurableSpace.Basic
 public import Mathlib.MeasureTheory.Measure.AEDisjoint
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Null measurable sets and complete measures

@@ -5,19 +5,66 @@ Authors: Anatole Dedecker, Sébastien Gouëzel, Yury Kudryashov, Dylan MacKenzie
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Module
-public import Mathlib.Algebra.Order.Field.Power
-public import Mathlib.Algebra.Polynomial.Monic
-public import Mathlib.Analysis.Asymptotics.Lemmas
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
 public import Mathlib.Analysis.Normed.Module.Basic
 public import Mathlib.Analysis.Normed.Order.Lattice
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Data.List.TFAE
-public import Mathlib.Data.Nat.Choose.Bounds
-public import Mathlib.Order.Filter.AtTopBot.ModEq
-public import Mathlib.RingTheory.Polynomial.Pochhammer
-public import Mathlib.Tactic.NoncommRing
+public import Mathlib.Analysis.Asymptotics.Defs
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.NoncommRing
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Module
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.RingTheory.Polynomial.Pochhammer
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Field.Power
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Ring.InfiniteSum
+import Mathlib.Data.Nat.Choose.Bounds
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.ModEq
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # A collection of specific limit computations

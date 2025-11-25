@@ -6,6 +6,8 @@ Authors: Kim Morrison, Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+public import Mathlib.CategoryTheory.Limits.Types.Limits
+import Mathlib.Tactic.Lemma
 
 /-!
 # Pullbacks in the category of types

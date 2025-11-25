@@ -6,14 +6,18 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Module.Torsion.Basic
-public import Mathlib.Algebra.Ring.Idempotent
-public import Mathlib.LinearAlgebra.Dimension.Finite
-public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
 public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
-public import Mathlib.RingTheory.Filtration
-public import Mathlib.RingTheory.Ideal.Operations
 public import Mathlib.RingTheory.LocalRing.ResidueField.Basic
-public import Mathlib.RingTheory.Nakayama
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Filtration
+import Mathlib.RingTheory.Nakayama
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # The module `I ⧸ I ^ 2`

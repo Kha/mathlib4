@@ -5,9 +5,11 @@ Authors: Nailin Guan
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.Basic
 public import Mathlib.GroupTheory.Index
-public import Mathlib.Topology.Algebra.Group.Quotient
+public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Topology.Algebra.Group.Quotient
 
 /-!
 # Closed subgroups of a topological group

@@ -6,7 +6,9 @@ Authors: Antoine Chambert-Loir
 module
 
 public import Mathlib.Data.Fin.Tuple.Basic
-public import Mathlib.Order.Fin.Basic
+public import Mathlib.Logic.Embedding.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-! # Constructions of embeddings of `Fin n` into a type
 

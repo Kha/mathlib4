@@ -5,11 +5,20 @@ Authors: Patrick Stevens, Bolton Bailey
 -/
 module
 
-public import Mathlib.Data.Nat.Choose.Factorization
-public import Mathlib.NumberTheory.Primorial
-public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
-public import Mathlib.Analysis.Convex.SpecificFunctions.Deriv
-public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Data.Nat.Choose.Central
+import Mathlib.NumberTheory.Primorial
+import Mathlib.Data.Nat.Sqrt
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Tactic.NormNum.Prime
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+import Mathlib.Analysis.Convex.SpecificFunctions.Deriv
+import Mathlib.Data.Nat.Choose.Factorization
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Data.Nat.Cast.Order.Field
 
 /-!
 # Bertrand's Postulate

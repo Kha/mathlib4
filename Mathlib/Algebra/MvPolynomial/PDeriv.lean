@@ -6,7 +6,8 @@ Authors: Shing Tak Lam, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.MvPolynomial.Derivation
-public import Mathlib.Algebra.MvPolynomial.Variables
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Partial derivatives of polynomials

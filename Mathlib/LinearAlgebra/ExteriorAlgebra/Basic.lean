@@ -7,6 +7,11 @@ module
 
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Basic
 public import Mathlib.LinearAlgebra.Alternating.Curry
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.OfFn
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.ListOfFn
 
 /-!
 # Exterior Algebras

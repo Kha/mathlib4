@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.SuccPred.Archimedean
 public import Mathlib.Algebra.Order.Monoid.Unbundled.TypeTags
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Successor and predecessor on type tags

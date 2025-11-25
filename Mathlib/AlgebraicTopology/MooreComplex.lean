@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Homology.HomologicalComplex
 public import Mathlib.AlgebraicTopology.SimplicialObject.Basic
 public import Mathlib.CategoryTheory.Abelian.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 ## Moore complex

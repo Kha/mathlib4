@@ -5,8 +5,13 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
-public import Mathlib.Dynamics.FixedPoints.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Group.Action.Defs
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.TypeStar
+import Mathlib.Dynamics.FixedPoints.Basic
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Results about pointwise operations on sets with iteration.

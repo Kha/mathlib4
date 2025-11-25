@@ -8,6 +8,8 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Order.Defs.Unbundled
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Semiconjugate elements of a semigroup

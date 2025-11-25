@@ -5,10 +5,12 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Group.TypeTags.Finite
 public import Mathlib.Algebra.MonoidAlgebra.Basic
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
 public import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Algebra.Group.TypeTags.Finite
 
 /-!
 # Maschke's theorem

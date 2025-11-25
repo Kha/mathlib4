@@ -7,6 +7,8 @@ module
 
 public import Mathlib.NumberTheory.ModularForms.ArithmeticSubgroups
 public import Mathlib.NumberTheory.ModularForms.SlashActions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Slash invariant forms

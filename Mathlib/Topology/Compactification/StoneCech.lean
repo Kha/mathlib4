@@ -5,9 +5,13 @@ Authors: Reid Barton
 -/
 module
 
-public import Mathlib.Topology.Bases
 public import Mathlib.Topology.DenseEmbedding
 public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Ultrafilter
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-! # Stone-Čech compactification
 

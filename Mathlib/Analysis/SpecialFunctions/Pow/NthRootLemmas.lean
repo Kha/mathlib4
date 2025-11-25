@@ -5,10 +5,21 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Floor.Semifield
-public import Mathlib.Analysis.MeanInequalities
 public import Mathlib.Data.Nat.NthRoot.Defs
-public import Mathlib.Tactic.Rify
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Analysis.MeanInequalities
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semifield
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Lemmas
 
 /-!
 # Lemmas about `Nat.nthRoot`

@@ -6,6 +6,7 @@ Authors: Yakov Pechersky
 module
 
 public import Mathlib.RingTheory.Valuation.ValuativeRel.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 

@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Field.Basic
 public import Mathlib.Algebra.Ring.Subring.Defs
 public import Mathlib.Algebra.Order.Ring.Unbundled.Rat
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Subfields

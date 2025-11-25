@@ -6,7 +6,30 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
-public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.Egorov
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.L1Space.Integrable
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Uniform integrability

@@ -8,7 +8,8 @@ module
 public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Basic
 public import Mathlib.CategoryTheory.Monoidal.Types.Basic
 public import Mathlib.LinearAlgebra.DirectSum.Finsupp
-public import Mathlib.CategoryTheory.Linear.LinearFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 The functor of forming finitely supported functions on a type with values in a `[Ring R]`

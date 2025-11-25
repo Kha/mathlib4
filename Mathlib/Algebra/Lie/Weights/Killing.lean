@@ -5,12 +5,21 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Lie.Derivation.Killing
 public import Mathlib.Algebra.Lie.Killing
 public import Mathlib.Algebra.Lie.Sl2
-public import Mathlib.Algebra.Lie.Weights.Chain
-public import Mathlib.LinearAlgebra.Eigenspace.Semisimple
-public import Mathlib.LinearAlgebra.JordanChevalley
+public import Mathlib.LinearAlgebra.Semisimple
+public import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.LinearAlgebra.JordanChevalley
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.DirectSum.LinearMap
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Eigenspace.Semisimple
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Algebra.Lie.Derivation.Killing
+import Mathlib.Algebra.Lie.Weights.Chain
 
 /-!
 # Roots of Lie algebras with non-degenerate Killing forms

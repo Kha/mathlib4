@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Sites.Hypercover.One
+import Mathlib.Tactic.Lemma
 
 /-!
 # Characterization of sheaves using 1-hypercovers

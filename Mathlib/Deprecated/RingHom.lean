@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Divisibility.Hom
 public import Mathlib.Algebra.Ring.Hom.Defs
-public import Mathlib.Data.Set.Insert
+public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Insert
 
 /-!
 # Additional lemmas about homomorphisms of semirings and rings

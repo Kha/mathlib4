@@ -5,8 +5,30 @@ Authors: Mario Carneiro, Kevin Kappelmann
 -/
 module
 
-public import Mathlib.Algebra.Order.Floor.Ring
-public import Mathlib.Algebra.Order.Interval.Set.Group
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Algebra.Order.Floor.Defs
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Interval.Set.Group
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Rounding

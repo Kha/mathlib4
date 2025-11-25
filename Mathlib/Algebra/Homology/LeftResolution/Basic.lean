@@ -5,9 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.Additive
-public import Mathlib.Algebra.Homology.ShortComplex.Abelian
 public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Left resolutions

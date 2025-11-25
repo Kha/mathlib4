@@ -5,10 +5,16 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Algebra.Group.EvenFunction
 public import Mathlib.Analysis.SpecialFunctions.Complex.CircleAddChar
 public import Mathlib.Analysis.Fourier.FourierTransform
-public import Mathlib.NumberTheory.DirichletCharacter.GaussSum
+public import Mathlib.NumberTheory.GaussSum
+public import Mathlib.NumberTheory.DirichletCharacter.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.NumberTheory.DirichletCharacter.GaussSum
 
 /-!
 # Fourier theory on `ZMod N`

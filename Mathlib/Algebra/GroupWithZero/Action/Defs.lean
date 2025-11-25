@@ -9,6 +9,12 @@ public import Mathlib.Algebra.Group.Action.Opposite
 public import Mathlib.Algebra.GroupWithZero.Hom
 public import Mathlib.Algebra.GroupWithZero.Opposite
 public import Mathlib.Algebra.Notation.Pi.Basic
+public import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.NeZero
 
 /-!
 # Definitions of group actions

@@ -5,8 +5,19 @@ Authors: Johannes Hölzl, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Prime.Lemmas
 public import Mathlib.Order.BoundedOrder.Basic
+public import Mathlib.Algebra.GroupWithZero.Divisibility
+public import Mathlib.Algebra.Prime.Defs
+public import Mathlib.Algebra.Group.Hom.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Data.Nat.Basic
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Group.Units.Hom
+import Mathlib.Algebra.GroupWithZero.Units.Basic
 
 /-!
 # Associated elements.

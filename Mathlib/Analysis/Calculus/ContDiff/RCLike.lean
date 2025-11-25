@@ -6,7 +6,16 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 module
 
 public import Mathlib.Analysis.Calculus.ContDiff.Defs
-public import Mathlib.Analysis.Calculus.MeanValue
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Module.Convex
 
 /-!
 # Higher differentiability over `ℝ` or `ℂ`

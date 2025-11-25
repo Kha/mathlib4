@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.NatTrans
 public import Mathlib.CategoryTheory.Iso
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of functors and natural transformations between two fixed categories.

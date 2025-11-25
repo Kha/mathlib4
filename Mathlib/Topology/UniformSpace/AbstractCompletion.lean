@@ -5,8 +5,8 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Topology.UniformSpace.UniformEmbedding
 public import Mathlib.Topology.UniformSpace.Equiv
+import Mathlib.Tactic.Lemma
 
 /-!
 # Abstract theory of Hausdorff completions of uniform spaces

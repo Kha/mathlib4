@@ -6,6 +6,7 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.Topology.Category.LightProfinite.Basic
+import Mathlib.Tactic.Lemma
 /-!
 # Light profinite sets as limits of finite sets.
 

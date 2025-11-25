@@ -8,7 +8,14 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
 public meta import Mathlib.Data.Nat.NthRoot.Defs
-public import Qq
+import Mathlib.Tactic.Bound
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-! # Power function on `ℝ`
 

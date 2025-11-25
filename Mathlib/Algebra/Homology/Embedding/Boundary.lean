@@ -6,7 +6,11 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.Embedding.Basic
-public import Mathlib.Algebra.Homology.HomologicalComplex
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Homology.HomologicalComplex
 
 /-!
 # Boundary of an embedding of complex shapes

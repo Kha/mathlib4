@@ -5,8 +5,15 @@ Authors: Johannes Hölzl, Yury Kudryashov, Paul Lezeau
 -/
 module
 
-public import Mathlib.Data.Set.NAry
-public import Mathlib.Order.Bounds.Basic
+public import Mathlib.Order.Directed
+public import Mathlib.Order.Bounds.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Bounds.Basic
 
 /-!
 

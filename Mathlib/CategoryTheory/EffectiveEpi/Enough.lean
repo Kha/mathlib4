@@ -6,6 +6,7 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.EffectiveEpi.Basic
+import Mathlib.Tactic.TypeStar
 /-!
 
 # Effectively enough objects in the image of a functor

@@ -7,8 +7,10 @@ module
 
 public import Mathlib.Algebra.Group.Embedding
 public import Mathlib.Algebra.MonoidAlgebra.Module
-public import Mathlib.LinearAlgebra.Finsupp.Supported
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+public import Mathlib.LinearAlgebra.Span.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.Finsupp.Supported
 
 /-!
 # Lemmas about the support of a finitely supported function

@@ -6,7 +6,12 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Computability.Partrec
-public import Mathlib.Data.Option.Basic
+public import Mathlib.Algebra.CharZero.Defs
+public import Mathlib.Algebra.GroupWithZero.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Gödel Numbering for Partial Recursive Functions.

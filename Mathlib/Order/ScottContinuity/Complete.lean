@@ -5,7 +5,11 @@ Authors: Christopher Hoskin
 -/
 module
 
-public import Mathlib.Order.ScottContinuity.Prod
+public import Mathlib.Order.CompleteBooleanAlgebra
+public import Mathlib.Order.ScottContinuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ScottContinuity.Prod
 
 /-!
 

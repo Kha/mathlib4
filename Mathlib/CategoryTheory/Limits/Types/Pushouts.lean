@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
 public import Mathlib.CategoryTheory.Limits.Types.Colimits
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 
 /-!

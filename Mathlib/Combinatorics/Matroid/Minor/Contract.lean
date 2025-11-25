@@ -6,7 +6,10 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Minor.Delete
-public import Mathlib.Tactic.TautoSet
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TautoSet
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Matroid Contraction

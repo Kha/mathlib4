@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Operations
 public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+public import Mathlib.Tactic.Use
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Instances for the range submonoid of a monoid with zero hom

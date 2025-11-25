@@ -6,6 +6,7 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.Data.FunLike.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Typeclass for a type `F` with an injective map to `A ↪ B`

@@ -5,8 +5,17 @@ Authors: Joseph Myers, Manuel Candales
 -/
 module
 
-public import Mathlib.Geometry.Euclidean.PerpBisector
-public import Mathlib.Algebra.QuadraticDiscriminant
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import Mathlib.LinearAlgebra.AffineSpace.Combination
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Algebra.QuadraticDiscriminant
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Geometry.Euclidean.PerpBisector
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Euclidean spaces

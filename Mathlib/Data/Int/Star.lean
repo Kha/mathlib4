@@ -5,11 +5,15 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Abs
 public import Mathlib.Algebra.Order.Monoid.Submonoid
-public import Mathlib.Algebra.Order.Ring.Basic
-public import Mathlib.Algebra.Order.Ring.Int
 public import Mathlib.Algebra.Order.Star.Basic
+public import Mathlib.Algebra.Group.Even
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Int
 
 /-!
 # Star ordered ring structure on `ℤ`

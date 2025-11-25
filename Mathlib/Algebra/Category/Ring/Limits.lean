@@ -10,6 +10,7 @@ public import Mathlib.Algebra.Category.Ring.Basic
 public import Mathlib.Algebra.Ring.Pi
 public import Mathlib.Algebra.Ring.Shrink
 public import Mathlib.Algebra.Ring.Subring.Defs
+import Mathlib.CategoryTheory.ConcreteCategory.ReflectsIso
 
 /-!
 # The category of (commutative) rings has all limits

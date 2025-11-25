@@ -5,10 +5,25 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 -/
 module
 
-public import Mathlib.Data.ENNReal.Real
-public import Mathlib.Tactic.Bound.Attribute
-public import Mathlib.Topology.EMetricSpace.Basic
 public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Topology.EMetricSpace.Basic
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 ## Pseudo-metric spaces

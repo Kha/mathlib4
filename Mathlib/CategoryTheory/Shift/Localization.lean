@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Shift.Induced
 public import Mathlib.CategoryTheory.Localization.HasLocalization
 public import Mathlib.CategoryTheory.Localization.LocalizerMorphism
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The shift induced on a localized category

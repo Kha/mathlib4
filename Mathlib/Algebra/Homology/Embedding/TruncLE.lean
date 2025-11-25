@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.Embedding.TruncGE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The canonical truncation

@@ -8,8 +8,7 @@ module
 public import Lean.Meta.Tactic.Cleanup
 public import Lean.Meta.Tactic.Refl
 public import Mathlib.Logic.IsEmpty
-import Lean.Meta.Tactic.Cases
-import Lean.Meta.CongrTheorems
+public import Lean.Meta.CongrTheorems
 
 /-!
 # Additions to `Lean.Meta.CongrTheorems`

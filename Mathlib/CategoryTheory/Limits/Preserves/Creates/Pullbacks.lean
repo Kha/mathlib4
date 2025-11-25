@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Creates
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Creation of limits and pullbacks

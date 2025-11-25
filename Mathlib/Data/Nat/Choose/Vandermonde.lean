@@ -5,8 +5,12 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Coeff
 public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Data.Finset.NatAntidiagonal
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 

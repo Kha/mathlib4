@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Module.Presentation.Basic
 public import Mathlib.LinearAlgebra.ExteriorAlgebra.OfAlternating
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Exterior powers

@@ -5,10 +5,21 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Data.Finset.Sym
-public import Mathlib.Data.Nat.Choose.Cast
 public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Bilinear
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Data.Nat.Choose.Cast
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Bounds on higher derivatives

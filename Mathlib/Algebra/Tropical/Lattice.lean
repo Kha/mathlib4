@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Tropical.Basic
 public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Equiv.Set
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.GaloisConnection.Basic
 
 /-!
 

@@ -7,12 +7,27 @@ module
 
 public import Mathlib.Algebra.GCDMonoid.Multiset
 public import Mathlib.Algebra.GCDMonoid.Nat
-public import Mathlib.Algebra.Group.TypeTags.Finite
 public import Mathlib.Combinatorics.Enumerative.Partition.Basic
-public import Mathlib.Data.List.Rotate
-public import Mathlib.GroupTheory.Perm.Closure
 public import Mathlib.GroupTheory.Perm.Cycle.Factors
-public import Mathlib.Tactic.NormNum.GCD
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Dedup
+import Mathlib.GroupTheory.Perm.Closure
+import Mathlib.GroupTheory.Perm.Finite
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.GCD
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.TypeTags.Finite
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Set.Pairwise.List
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Cycle Types

@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Distributive.Monoidal
 public import Mathlib.CategoryTheory.Limits.MonoCoprod
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 

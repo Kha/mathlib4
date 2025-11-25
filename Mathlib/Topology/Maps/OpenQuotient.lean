@@ -5,7 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Maps.Basic
+public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Topology.Defs.Induced
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Continuous
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Open quotient maps

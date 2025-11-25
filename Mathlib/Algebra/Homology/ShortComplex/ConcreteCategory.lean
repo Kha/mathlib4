@@ -6,9 +6,13 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Ab
-public import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
 public import Mathlib.Algebra.Homology.ShortComplex.SnakeLemma
-public import Mathlib.CategoryTheory.Limits.Shapes.ConcreteCategory
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Category.Grp.EpiMono
+import Mathlib.Algebra.Category.Grp.Limits
+import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+import Mathlib.CategoryTheory.Limits.Shapes.ConcreteCategory
 
 /-!
 # Exactness of short complexes in concrete abelian categories

@@ -7,6 +7,12 @@ module
 
 public meta import Mathlib.Tactic.Linarith.Datatypes
 public meta import Mathlib.Tactic.Linarith.Oracle.SimplexAlgorithm.PositiveVector
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public meta import Batteries.Data.List.Basic
+public import Mathlib.Data.Rat.Init
+public import Mathlib.Tactic.Linarith.Oracle.SimplexAlgorithm.PositiveVector
+import Mathlib.Tactic.Linarith.Datatypes
 
 /-!
 # The oracle based on Simplex Algorithm

@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Star.SelfAdjoint
 public import Mathlib.Algebra.Group.Idempotent
-public import Mathlib.Algebra.Ring.Idempotent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Idempotent
 
 /-!
 # Star projections

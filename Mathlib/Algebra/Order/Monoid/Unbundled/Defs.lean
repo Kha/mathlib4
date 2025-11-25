@@ -5,9 +5,10 @@ Authors: Damiano Testa
 -/
 module
 
-public import Mathlib.Algebra.Group.Basic
-public import Mathlib.Order.Basic
 public import Mathlib.Order.Monotone.Defs
+public import Mathlib.Algebra.Group.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
 
 /-!
 

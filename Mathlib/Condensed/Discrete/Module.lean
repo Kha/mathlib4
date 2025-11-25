@@ -5,11 +5,19 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.ConstantSheaf
-public import Mathlib.Condensed.Discrete.LocallyConstant
 public import Mathlib.Condensed.Light.Module
 public import Mathlib.Condensed.Module
 public import Mathlib.Topology.LocallyConstant.Algebra
+public import Mathlib.Condensed.Discrete.Basic
+public import Mathlib.Algebra.Category.Grp.Colimits
+public import Mathlib.Algebra.Category.ModuleCat.Colimits
+public import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+public import Mathlib.Algebra.Category.ModuleCat.Limits
+public import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+public import Mathlib.Topology.Category.CompHausLike.EffectiveEpi
+import Mathlib.CategoryTheory.Sites.Equivalence
+import Mathlib.Condensed.Discrete.LocallyConstant
+import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
 /-!
 
 # Discrete condensed `R`-modules

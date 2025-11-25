@@ -5,9 +5,11 @@ Authors: Simon Hudon, Patrick Massot, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Util.AssertExists
 public import Mathlib.Algebra.Notation.Defs
-public import Mathlib.Data.Prod.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Prod.Basic
 
 /-!
 # Arithmetic operators on (pairwise) product types

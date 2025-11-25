@@ -5,11 +5,28 @@ Authors: Judith Ludwig, Christian Merten
 -/
 module
 
-public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.Data.Finite.Sum
-public import Mathlib.Data.Fintype.Units
 public import Mathlib.GroupTheory.GroupAction.Quotient
 public import Mathlib.LinearAlgebra.Projectivization.Basic
+import Mathlib.LinearAlgebra.StdBasis
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Finite.Sum
+import Mathlib.Data.Fintype.Units
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Cardinality of projective spaces

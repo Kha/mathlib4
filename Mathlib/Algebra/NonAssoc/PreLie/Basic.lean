@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Module.Opposite
 public import Mathlib.Algebra.Ring.Associator
 public import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.Tactic.TypeStar
 /-!
 # Pre-Lie rings and algebras
 

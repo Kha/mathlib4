@@ -5,9 +5,16 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.FieldTheory.Galois.Infinite
 public import Mathlib.NumberTheory.NumberField.Basic
-public import Mathlib.RingTheory.Invariant.Basic
+public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.RingTheory.Invariant.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.FieldTheory.Galois.Infinite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Invariant.Basic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # Predicate for Galois Groups

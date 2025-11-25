@@ -6,7 +6,9 @@ Authors: David Wärn, Kim Morrison
 module
 
 public import Mathlib.Data.Opposite
-public import Mathlib.Tactic.ToDual
+public import Mathlib.Tactic.Translate.ToDual
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quivers

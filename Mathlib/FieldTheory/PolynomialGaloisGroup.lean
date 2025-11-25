@@ -5,7 +5,15 @@ Authors: Thomas Browning, Patrick Lutz
 -/
 module
 
-public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.FieldTheory.Fixed
+public import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Galois.Basic
+import Mathlib.RingTheory.Polynomial.UniqueFactorization
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 /-!
 # Galois Groups of Polynomials

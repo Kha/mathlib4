@@ -10,6 +10,8 @@ public import Mathlib.CategoryTheory.Limits.Shapes.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.Images
 public import Mathlib.CategoryTheory.IsomorphismClasses
 public import Mathlib.CategoryTheory.Limits.Shapes.ZeroObjects
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Zero morphisms and zero objects

@@ -6,6 +6,11 @@ Authors: Scott Carnahan
 module
 
 public import Mathlib.LinearAlgebra.RootSystem.IsValuedIn
+public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Invariant and root-positive bilinear forms on root pairings

@@ -6,6 +6,14 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
 
 /-!
 # Uniform convergence

@@ -1,5 +1,7 @@
 module
 
-public import Mathlib.Combinatorics.SimpleGraph.Extremal.Turan
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-08-21")

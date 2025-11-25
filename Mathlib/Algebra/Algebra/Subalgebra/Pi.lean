@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Algebra.Pi
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.LinearAlgebra.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
 
 /-!
 # Products of subalgebras

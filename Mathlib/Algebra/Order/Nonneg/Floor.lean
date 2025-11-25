@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Order.Floor.Defs
 public import Mathlib.Algebra.Order.Nonneg.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Nonnegative elements are archimedean

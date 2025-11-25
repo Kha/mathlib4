@@ -5,8 +5,10 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.BigOperators
 public import Mathlib.RingTheory.FiniteType
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.Algebra.Polynomial.Degree.Support
 
 /-!
 

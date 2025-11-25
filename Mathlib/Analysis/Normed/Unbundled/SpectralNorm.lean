@@ -5,14 +5,33 @@ Authors: María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 public import Mathlib.Analysis.Normed.Unbundled.InvariantExtension
-public import Mathlib.Analysis.Normed.Unbundled.IsPowMulFaithful
 public import Mathlib.Analysis.Normed.Unbundled.SeminormFromConst
 public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
 public import Mathlib.FieldTheory.Normal.Closure
-public import Mathlib.RingTheory.Polynomial.Vieta
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Fintype.Order
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.FieldTheory.Normal.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Polynomial.Vieta
+import Mathlib.Algebra.Order.Ring.IsNonarchimedean
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.Analysis.Normed.Unbundled.IsPowMulFaithful
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Algebra.Order.BigOperators.Ring.Multiset
 
 /-!
 # The spectral norm and the norm extension theorem

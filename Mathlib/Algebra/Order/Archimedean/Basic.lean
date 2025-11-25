@@ -5,11 +5,32 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Floor.Semiring
-public import Mathlib.Algebra.Order.Monoid.Units
-public import Mathlib.Algebra.Order.Ring.Pow
-public import Mathlib.Data.Int.LeastGreatest
-public import Mathlib.Data.Rat.Floor
+public import Mathlib.Order.Directed
+public import Mathlib.Algebra.Field.Rat
+public import Mathlib.Algebra.Order.Floor.Defs
+public import Mathlib.Algebra.Order.GroupWithZero.Canonical
+public import Mathlib.Order.Interval.Set.UnorderedInterval
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.LeastGreatest
+import Mathlib.Data.Rat.Floor
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Nonneg.Ring
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Pow
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
 
 /-!
 # Archimedean groups and fields.

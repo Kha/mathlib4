@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Order.Hom.BoundedLattice
 public import Mathlib.Order.WithBot
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Adjoining `⊤` and `⊥` to order maps and lattice homomorphisms

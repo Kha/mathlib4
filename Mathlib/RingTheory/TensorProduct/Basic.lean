@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Algebra.Operations
 public import Mathlib.Algebra.Star.TensorProduct
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The tensor product of R-algebras

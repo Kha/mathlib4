@@ -6,8 +6,11 @@ Authors: Christian Merten
 module
 
 public import Mathlib.RingTheory.LocalProperties.Basic
-public import Mathlib.RingTheory.Localization.BaseChange
-public import Mathlib.RingTheory.Localization.Away.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.RingTheory.Localization.Away.Lemmas
 
 /-!
 # Target local closure of ring homomorphism properties

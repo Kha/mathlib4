@@ -7,6 +7,7 @@ module
 
 public import Mathlib.ModelTheory.ElementarySubstructures
 public import Mathlib.CategoryTheory.ConcreteCategory.Bundled
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bundled First-Order Structures

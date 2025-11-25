@@ -5,17 +5,41 @@ Authors: Chris Hughes, Joey van Langen, Casper Putz
 -/
 module
 
-public import Mathlib.Algebra.CharP.Algebra
-public import Mathlib.Algebra.CharP.Reduced
 public import Mathlib.Algebra.Field.ZMod
-public import Mathlib.Data.Nat.Prime.Int
-public import Mathlib.Data.ZMod.ValMinAbs
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
-public import Mathlib.FieldTheory.Finiteness
 public import Mathlib.FieldTheory.Galois.Notation
 public import Mathlib.FieldTheory.Perfect
-public import Mathlib.FieldTheory.Separable
-public import Mathlib.RingTheory.IntegralDomain
+public import Mathlib.Data.Fintype.Units
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Algebra.CharP.Reduced
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.ZMod.ValMinAbs
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.GroupTheory.Perm.Cycle.Type
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Finite fields

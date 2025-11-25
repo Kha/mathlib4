@@ -5,11 +5,14 @@ Authors: Bhavik Mehta, Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Comma.Presheaf.Basic
-public import Mathlib.CategoryTheory.Elements
 public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
 public import Mathlib.CategoryTheory.Limits.Final
-public import Mathlib.CategoryTheory.Limits.Over
+public import Mathlib.CategoryTheory.Limits.ConeCategory
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Over
+import Mathlib.CategoryTheory.Comma.Presheaf.Basic
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Colimit of representables

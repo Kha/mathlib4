@@ -6,10 +6,20 @@ Authors: Yuyang Zhao
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.BigOperators
-public import Mathlib.Algebra.Polynomial.Degree.Lemmas
 public import Mathlib.Algebra.Polynomial.Derivative
-public import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Lemmas
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Sum of iterated derivatives

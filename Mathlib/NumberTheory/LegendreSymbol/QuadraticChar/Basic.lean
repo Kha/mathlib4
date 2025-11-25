@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Data.Fintype.Parity
 public import Mathlib.NumberTheory.LegendreSymbol.ZModChar
-public import Mathlib.FieldTheory.Finite.Basic
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Algebra.Order.Monoid.NatCast
 
 /-!
 # Quadratic characters of finite fields

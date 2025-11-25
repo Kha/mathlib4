@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Filter
 public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Topology on filters of a space with order topology

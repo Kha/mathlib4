@@ -5,12 +5,15 @@ Authors: Anne Baanen, Filippo A. E. Nuccio
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Basic
 public import Mathlib.RingTheory.FractionalIdeal.Basic
-public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
-public import Mathlib.RingTheory.LocalRing.Basic
-public import Mathlib.RingTheory.PrincipalIdealDomain
-public import Mathlib.Tactic.Field
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Subalgebra
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # More operations on fractional ideals

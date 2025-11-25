@@ -5,9 +5,11 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.Prod
-public import Mathlib.CategoryTheory.Localization.Equivalence
-public import Mathlib.Data.Fintype.Option
+public import Mathlib.CategoryTheory.Localization.Predicate
+public import Mathlib.Data.Finite.Defs
+import Mathlib.CategoryTheory.Localization.Equivalence
+import Mathlib.CategoryTheory.Localization.Prod
+import Mathlib.Data.Fintype.Option
 
 /-!
 # Localization of product categories

@@ -7,6 +7,17 @@ module
 
 public import Mathlib.Data.DFinsupp.Module
 public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.RingTheory.Ideal.Basic
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Maps on modules and ideals

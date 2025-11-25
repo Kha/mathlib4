@@ -5,12 +5,18 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Category.FGModuleCat.Limits
-public import Mathlib.Algebra.Category.FGModuleCat.Colimits
 public import Mathlib.CategoryTheory.Monoidal.Rigid.Braided  -- shake: keep (`example`)
-public import Mathlib.CategoryTheory.Preadditive.Schur
-public import Mathlib.RepresentationTheory.Basic
 public import Mathlib.RepresentationTheory.Rep
+public import Mathlib.CategoryTheory.Simple
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.Algebra.Category.FGModuleCat.Basic
+public import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.CategoryTheory.Preadditive.Schur
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.Algebra.Category.FGModuleCat.Colimits
+import Mathlib.Algebra.Category.FGModuleCat.Limits
 
 /-!
 # `FDRep k G` is the category of finite-dimensional `k`-linear representations of `G`.

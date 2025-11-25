@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.Asymptotics.Theta
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lemmas about asymptotics and the natural embedding `ℝ → ℂ`

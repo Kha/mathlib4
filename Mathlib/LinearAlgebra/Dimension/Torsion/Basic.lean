@@ -6,8 +6,11 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Module.Torsion.Basic
-public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.LinearAlgebra.Dimension.Subsingleton
+public import Mathlib.LinearAlgebra.Dimension.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
 
 /-!
 # Rank and torsion

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Set.Card
 public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurability of `Set.encard` and `Set.ncard`

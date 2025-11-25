@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.Alternating.Basic
 public import Mathlib.LinearAlgebra.Multilinear.Curry
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Currying alternating forms

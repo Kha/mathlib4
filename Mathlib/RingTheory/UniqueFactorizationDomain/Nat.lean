@@ -5,9 +5,13 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 -/
 module
 
-public import Mathlib.Data.ENat.Basic
 public import Mathlib.Data.Nat.Factors
 public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+public import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.ENat.Basic
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Unique factorization of natural numbers

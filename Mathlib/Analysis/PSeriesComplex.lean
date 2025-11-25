@@ -5,9 +5,13 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.Analysis.PSeries
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Convergence of `p`-series (complex case)

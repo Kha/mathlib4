@@ -8,6 +8,10 @@ module
 public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
 public import Mathlib.Topology.Order.Basic
 public import Mathlib.Topology.UniformSpace.UniformConvergence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # TendstoUniformlyOn on ordered spaces

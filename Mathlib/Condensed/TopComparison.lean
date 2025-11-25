@@ -5,10 +5,15 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Opposites
-public import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
 public import Mathlib.Condensed.Basic
 public import Mathlib.Topology.Category.TopCat.Yoneda
+public import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+public import Mathlib.CategoryTheory.Sites.Coherent.RegularSheaves
+public import Mathlib.Topology.Category.CompHaus.Limits
+public import Mathlib.Topology.Category.CompHausLike.EffectiveEpi
+import Mathlib.CategoryTheory.Limits.Preserves.Opposites
+import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
+import Mathlib.Topology.Category.CompHaus.EffectiveEpi
 
 /-!
 

@@ -5,9 +5,12 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.Bilinear
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
+public import Mathlib.Topology.Algebra.Module.StrongTopology
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Analysis.Normed.Operator.Bilinear
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # Measurable functions in normed spaces

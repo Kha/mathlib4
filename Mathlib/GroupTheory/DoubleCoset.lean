@@ -5,8 +5,15 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.Pointwise
-public import Mathlib.GroupTheory.Coset.Basic
+public import Mathlib.Data.Setoid.Basic
+public import Mathlib.GroupTheory.Coset.Defs
+public import Mathlib.Algebra.Group.Subgroup.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.NAry
+import Mathlib.GroupTheory.Coset.Basic
+import Mathlib.Algebra.Group.Subgroup.Pointwise
 
 /-!
 # Double cosets

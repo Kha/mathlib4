@@ -6,6 +6,7 @@ Authors: Johan Commelin, Kim Morrison, Adam Topaz
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.StdSimplex
+import Mathlib.Tactic.Lemma
 
 /-!
 # The boundary of the standard simplex

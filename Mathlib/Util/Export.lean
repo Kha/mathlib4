@@ -6,8 +6,6 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Init
-public meta import Lean.CoreM
-public meta import Lean.Util.FoldConsts
 
 /-!
 A rudimentary export format, adapted from

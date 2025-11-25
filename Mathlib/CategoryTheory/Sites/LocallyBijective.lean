@@ -6,7 +6,11 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Sites.LocallySurjective
-public import Mathlib.CategoryTheory.Sites.Localization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Sites.LeftExact
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
 
 /-!
 # Locally bijective morphisms of presheaves

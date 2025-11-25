@@ -5,10 +5,17 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.List.Forall2
-public import Mathlib.Data.List.TakeDrop
-public import Mathlib.Data.List.Lattice
-public import Mathlib.Data.List.Nodup
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Lattice
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.List.TakeDrop
+import Mathlib.Data.Nat.Basic
 
 /-!
 # List Permutations and list lattice operations.

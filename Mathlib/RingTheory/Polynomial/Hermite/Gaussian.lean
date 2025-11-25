@@ -6,10 +6,17 @@ Authors: Luke Mantle, Jake Levinson
 module
 
 public import Mathlib.RingTheory.Polynomial.Hermite.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Add
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
-public import Mathlib.Analysis.SpecialFunctions.Exp
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Polynomial
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Pow
 
 /-!
 # Hermite polynomials and Gaussians

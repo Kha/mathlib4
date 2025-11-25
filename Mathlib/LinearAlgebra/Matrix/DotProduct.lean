@@ -6,8 +6,18 @@ Authors: Johannes Hölzl, Patrick Massot, Casper Putz, Anne Baanen
 module
 
 public import Mathlib.Algebra.Order.Star.Basic
-public import Mathlib.Algebra.Star.Pi
-public import Mathlib.LinearAlgebra.Matrix.RowCol
+public import Mathlib.LinearAlgebra.Matrix.ConjTranspose
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Star.Pi
+import Mathlib.LinearAlgebra.Matrix.RowCol
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Dot product of two vectors

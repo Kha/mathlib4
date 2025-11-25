@@ -9,6 +9,8 @@ module
 public import Mathlib.Logic.Equiv.Fin.Basic
 public import Mathlib.Topology.UniformSpace.UniformEmbedding
 public import Mathlib.Topology.UniformSpace.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Uniform isomorphisms

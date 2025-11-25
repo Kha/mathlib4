@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Algebra.Group.Even
 public import Mathlib.Algebra.Group.Nat.Defs
-public import Mathlib.Data.Nat.Sqrt
+public import Mathlib.Tactic.SimpRw
+public import Batteries.Data.Nat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Nat.Sqrt
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # `IsSquare` and `Even` for natural numbers

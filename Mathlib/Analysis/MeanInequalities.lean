@@ -5,12 +5,22 @@ Authors: Yury Kudryashov, Sébastien Gouëzel, Rémy Degenne
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Expect
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.Analysis.Convex.Jensen
-public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 public import Mathlib.Data.Real.ConjExponents
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Analysis.Convex.Jensen
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Mean value inequalities

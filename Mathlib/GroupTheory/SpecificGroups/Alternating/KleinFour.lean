@@ -5,9 +5,21 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.GroupTheory.SpecificGroups.Alternating.Centralizer
 public import Mathlib.GroupTheory.SpecificGroups.KleinFour
 public import Mathlib.GroupTheory.Sylow
+public import Mathlib.GroupTheory.SpecificGroups.Alternating
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.GroupTheory.SpecificGroups.Alternating.Centralizer
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-! # The Klein Four subgroup of an alternating group on 4 letters
 

@@ -5,9 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.ObjectProperty.Small
 public import Mathlib.CategoryTheory.ObjectProperty.LimitsOfShape
-public import Mathlib.CategoryTheory.Limits.Presentation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Objects that are colimits of objects satisfying a certain property

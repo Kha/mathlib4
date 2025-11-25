@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.HopfAlgebra.Basic
 public import Mathlib.RingTheory.Bialgebra.GroupLike
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Group-like elements in a Hopf algebra

@@ -6,7 +6,10 @@ Authors: Sophie Morel
 module
 
 public import Mathlib.Analysis.NormedSpace.PiTensorProduct.ProjectiveSeminorm
-public import Mathlib.LinearAlgebra.Isomorphisms
+import Mathlib.LinearAlgebra.Isomorphisms
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Injective seminorm on the tensor of a finite family of normed spaces.

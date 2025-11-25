@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Dynamics.FixedPoints.Basic
 public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Topological properties of fixed points

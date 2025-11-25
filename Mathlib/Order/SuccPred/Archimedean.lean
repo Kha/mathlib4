@@ -6,6 +6,11 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Order.SuccPred.Basic
+import Mathlib.Order.Iterate
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Archimedean successor and predecessor

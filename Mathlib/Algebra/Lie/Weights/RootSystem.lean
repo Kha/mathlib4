@@ -5,12 +5,16 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Rat
 public import Mathlib.Algebra.Lie.Weights.Killing
 public import Mathlib.Algebra.Module.Torsion.Free
 public import Mathlib.LinearAlgebra.RootSystem.Basic
 public import Mathlib.LinearAlgebra.RootSystem.Finite.CanonicalBilinear
 public import Mathlib.LinearAlgebra.RootSystem.Reduced
+public import Mathlib.Algebra.Lie.Weights.Chain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.Algebra.Order.Group.OrderIso
 
 /-!
 # The root system associated with a Lie algebra

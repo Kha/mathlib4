@@ -5,12 +5,24 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.LinearAlgebra.Charpoly.ToMatrix
-public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.LinearAlgebra.Eigenspace.Minpoly
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
-public import Mathlib.RingTheory.Artinian.Module
+public import Mathlib.LinearAlgebra.Charpoly.Basic
+public import Mathlib.LinearAlgebra.Eigenspace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.RingDivision
+import Mathlib.LinearAlgebra.Charpoly.ToMatrix
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Eigenspace.Minpoly
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Artinian.Module
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Results on the eigenvalue 0

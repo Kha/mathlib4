@@ -6,8 +6,20 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Harmonic.Basic
-public import Mathlib.Analysis.Calculus.ContDiff.RestrictScalars
-public import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.ContDiff.RestrictScalars
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
 
 /-!
 # Construction of Harmonic Functions

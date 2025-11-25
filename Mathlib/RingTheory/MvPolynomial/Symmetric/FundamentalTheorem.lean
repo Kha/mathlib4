@@ -6,9 +6,14 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.RingTheory.MvPolynomial.Symmetric.Defs
-public import Mathlib.RingTheory.MvPolynomial.Tower
-public import Mathlib.Data.Finsupp.Notation
-public import Mathlib.Data.Finsupp.WellFounded
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Notation
+import Mathlib.Data.Finsupp.WellFounded
+import Mathlib.RingTheory.MvPolynomial.Tower
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # The Fundamental Theorem of Symmetric Polynomials

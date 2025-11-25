@@ -5,10 +5,14 @@ Authors: Roberto Alvarez
 -/
 module
 
-public import Mathlib.Algebra.Group.Ext
 public import Mathlib.Algebra.Group.TransferInstance
 public import Mathlib.AlgebraicTopology.FundamentalGroupoid.FundamentalGroup
 public import Mathlib.GroupTheory.EckmannHilton
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Ext
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Topology.Order.Compact
 
 /-!
 # `n`th homotopy group

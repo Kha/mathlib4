@@ -6,7 +6,8 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
-public import Mathlib.CategoryTheory.Monoidal.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # If `C` is braided, so is `Cᵒᵖ`.

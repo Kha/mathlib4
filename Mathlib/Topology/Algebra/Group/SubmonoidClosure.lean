@@ -5,9 +5,17 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
-public import Mathlib.Order.Filter.AtTopBot.Group
 public import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Order.Filter.Curry
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
 
 /-!
 # Topological closure of the submonoid closure

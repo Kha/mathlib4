@@ -5,8 +5,15 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.Free
-public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.Basis.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 
 /-!
 # Exact sequences with free modules

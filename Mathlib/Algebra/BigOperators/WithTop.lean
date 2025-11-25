@@ -5,8 +5,12 @@ Authors: Zhouhang Zhou, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
 public import Mathlib.Algebra.Order.Ring.WithTop
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Sums in `WithTop`

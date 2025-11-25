@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Shift.Basic
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! Sequences of functors from a category equipped with a shift
 

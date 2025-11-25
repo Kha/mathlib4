@@ -5,11 +5,14 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
-public import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
-public import Mathlib.CategoryTheory.Sites.Whiskering
 public import Mathlib.Condensed.Basic
 public import Mathlib.Topology.Category.Stonean.Basic
+public import Mathlib.CategoryTheory.Sites.Canonical
+import Mathlib.CategoryTheory.Limits.Preserves.Ulift
+import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
+import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+import Mathlib.Topology.Category.CompHaus.EffectiveEpi
+import Mathlib.Topology.Category.CompHaus.Limits
 
 /-!
 # Functors from categories of topological spaces to condensed sets

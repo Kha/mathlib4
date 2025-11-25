@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.GradedObject.Monoidal
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 # The braided and symmetric category structures on graded objects
 

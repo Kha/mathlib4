@@ -6,8 +6,13 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Topology.Instances.RealVectorSpace
-public import Mathlib.Analysis.Calculus.TangentCone.Real
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
 
 /-! # Relationships between unique differentiability over `ℝ` and `ℂ`
 

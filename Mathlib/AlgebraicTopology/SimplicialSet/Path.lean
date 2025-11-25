@@ -6,6 +6,8 @@ Authors: Mario Carneiro, Emily Riehl, Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Horn
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.Superscript
 
 /-!
 # Paths in simplicial sets

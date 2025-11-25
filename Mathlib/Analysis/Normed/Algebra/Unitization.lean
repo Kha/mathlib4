@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Algebra.Algebra.Unitization
 public import Mathlib.Analysis.Normed.Operator.Mul
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.MetricSpace.Lipschitz
 
 /-!
 # Unitization norms

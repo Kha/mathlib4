@@ -6,7 +6,12 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 module
 
 public import Mathlib.Data.Set.BoolIndicator
-public import Mathlib.Topology.ContinuousOn
+public import Mathlib.Topology.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Clopen sets

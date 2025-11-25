@@ -6,7 +6,9 @@ Authors: Michael Jendrusch, Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
-public import Mathlib.CategoryTheory.Monoidal.Functor
+public import Mathlib.CategoryTheory.Limits.Types.Products
+public import Mathlib.Data.Fin.Tuple.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of types is a (symmetric) monoidal category

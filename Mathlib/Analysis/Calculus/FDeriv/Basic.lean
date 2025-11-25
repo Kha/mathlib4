@@ -5,10 +5,21 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Asymptotics.Lemmas
 public import Mathlib.Analysis.Calculus.FDeriv.Defs
-public import Mathlib.Analysis.Normed.Operator.Asymptotics
-public import Mathlib.Analysis.Calculus.TangentCone.Basic
+public import Mathlib.Analysis.Calculus.TangentCone.Defs
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Normed.Operator.Asymptotics
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # The Fréchet derivative: basic properties

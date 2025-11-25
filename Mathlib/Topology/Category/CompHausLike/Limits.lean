@@ -6,8 +6,10 @@ Authors: Adam Topaz, Dagur Asgeirsson, Filippo A. E. Nuccio, Riccardo Brasca
 module
 
 public import Mathlib.CategoryTheory.Extensive
-public import Mathlib.CategoryTheory.Limits.Preserves.Finite
 public import Mathlib.Topology.Category.CompHausLike.Basic
+public import Mathlib.CategoryTheory.Limits.Creates
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Maps.Basic
 /-!
 
 # Explicit limits and colimits

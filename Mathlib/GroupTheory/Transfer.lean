@@ -7,6 +7,16 @@ module
 
 public import Mathlib.GroupTheory.Complement
 public import Mathlib.GroupTheory.Sylow
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Algebra.Group.Commute.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # The Transfer Homomorphism

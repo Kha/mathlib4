@@ -6,6 +6,8 @@ Authors: Jack McKoen
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lifting properties and (co)limits

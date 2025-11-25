@@ -7,8 +7,14 @@ module
 
 public import Mathlib.Order.PropInstances
 public import Mathlib.Tactic.Lift
-public import Mathlib.Tactic.Tauto
-public import Mathlib.Util.Delaborators
+public import Mathlib.Order.RelClasses
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Basic properties of sets

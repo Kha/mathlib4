@@ -5,10 +5,12 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Filtered.Connected
-public import Mathlib.CategoryTheory.Limits.Final.Connected
-public import Mathlib.CategoryTheory.Limits.Types.Filtered
 public import Mathlib.CategoryTheory.Limits.Sifted
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Filtered.Connected
+import Mathlib.CategoryTheory.Limits.Final.Connected
+import Mathlib.CategoryTheory.Limits.Types.Filtered
 
 /-!
 # Final functors with filtered (co)domain

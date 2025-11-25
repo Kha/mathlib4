@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Logic.Nontrivial.Defs
-public import Mathlib.Logic.Basic
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Typeclasses for groups with an adjoined zero element

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Combinatorics.Quiver.Path
 public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 
 /-!

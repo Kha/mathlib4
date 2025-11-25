@@ -5,9 +5,30 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.NumberTheory.NumberField.Discriminant.Basic
-public import Mathlib.RingTheory.DedekindDomain.LinearDisjoint
-public import Mathlib.RingTheory.Ideal.Norm.RelNorm
+public import Mathlib.FieldTheory.LinearDisjoint
+public import Mathlib.Algebra.CharP.IntermediateField
+public import Mathlib.Algebra.Module.Rat
+public import Mathlib.RingTheory.DedekindDomain.Different
+public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.NumberTheory.NumberField.Discriminant.Defs
+public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.RingTheory.DedekindDomain.Factorization
+import Mathlib.RingTheory.DedekindDomain.LinearDisjoint
+import Mathlib.RingTheory.Localization.NormTrace
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Int.Order.Units
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.CardQuotient
+import Mathlib.NumberTheory.NumberField.Discriminant.Basic
+import Mathlib.RingTheory.Ideal.Norm.RelNorm
 
 /-!
 

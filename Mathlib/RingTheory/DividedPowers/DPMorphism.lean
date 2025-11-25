@@ -6,6 +6,8 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 module
 
 public import Mathlib.RingTheory.DividedPowers.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Divided power morphisms
 

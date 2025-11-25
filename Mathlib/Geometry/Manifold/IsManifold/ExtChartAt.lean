@@ -5,8 +5,16 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
 public import Mathlib.Geometry.Manifold.IsManifold.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # Extended charts in smooth manifolds

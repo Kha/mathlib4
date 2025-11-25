@@ -5,13 +5,16 @@ Authors: Robert Y. Lewis
 -/
 module
 
-public meta import Batteries.Tactic.Lint.Basic
-public meta import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
-public meta import Mathlib.Algebra.Order.Ring.Defs
-public meta import Mathlib.Algebra.Order.ZeroLEOne
-public meta import Mathlib.Data.Nat.Cast.Order.Ring
-public meta import Mathlib.Data.Int.Order.Basic
 public meta import Mathlib.Data.Ineq
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Data.Ineq
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Lemmas for `linarith`.

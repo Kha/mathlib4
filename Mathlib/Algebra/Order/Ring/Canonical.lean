@@ -7,8 +7,12 @@ module
 
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
 public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Algebra.Order.Sub.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Canonically ordered rings and semirings.

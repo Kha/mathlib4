@@ -7,7 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Generator.Basic
 public import Mathlib.CategoryTheory.Limits.Indization.Category
-public import Mathlib.CategoryTheory.Preadditive.Indization
+import Mathlib.CategoryTheory.Preadditive.Indization
 
 /-!
 # Separating set in the category of ind-objects

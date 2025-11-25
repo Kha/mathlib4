@@ -5,8 +5,26 @@ Authors: Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
 public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Logic.Equiv.List
+import Mathlib.MeasureTheory.Function.AEMeasurableSequence
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Monotone convergence theorem and addition of Lebesgue integrals

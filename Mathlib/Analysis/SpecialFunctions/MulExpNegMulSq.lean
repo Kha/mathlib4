@@ -5,9 +5,19 @@ Authors: Jakob Stiefel
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Log.Basic
 
 /-!
 # Definition of `mulExpNegMulSq` and properties

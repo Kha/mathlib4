@@ -6,8 +6,10 @@ Authors: Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Finite
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
 
 /-!
 # Constructing finite products from binary products and terminal.

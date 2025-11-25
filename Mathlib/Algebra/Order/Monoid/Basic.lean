@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Ordered monoids

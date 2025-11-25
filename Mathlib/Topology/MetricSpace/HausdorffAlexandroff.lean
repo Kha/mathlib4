@@ -5,9 +5,15 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public import Mathlib.Topology.Compactness.HilbertCubeEmbedding
 public import Mathlib.Topology.Instances.CantorSet
-public import Mathlib.Topology.MetricSpace.PiNat
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.MetricSpace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.HilbertCubeEmbedding
+import Mathlib.Topology.MetricSpace.PiNat
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Hausdorff–Alexandroff Theorem

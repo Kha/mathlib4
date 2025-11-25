@@ -6,6 +6,7 @@ Authors: Kim Morrison, Reid Barton
 module
 
 public import Mathlib.CategoryTheory.Limits.Types.Limits
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Cones and limits

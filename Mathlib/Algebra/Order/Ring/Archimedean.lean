@@ -6,10 +6,18 @@ Authors: Weiyi Wang, Violeta Hernández Palacios
 module
 
 public import Mathlib.Algebra.Order.Archimedean.Class
-public import Mathlib.Algebra.Order.Group.DenselyOrdered
-public import Mathlib.Algebra.Order.Ring.Basic
 public import Mathlib.Algebra.Order.Hom.Ring
 public import Mathlib.RingTheory.Valuation.Basic
+public import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.DenselyOrdered
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Archimedean classes of a linearly ordered ring

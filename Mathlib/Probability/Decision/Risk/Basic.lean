@@ -6,7 +6,19 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 module
 
 public import Mathlib.Probability.Decision.Risk.Defs
-public import Mathlib.Probability.Kernel.Composition.MeasureComp
+public import Mathlib.Probability.Kernel.Composition.CompNotation
+public import Mathlib.Probability.Kernel.Composition.CompProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Probability.Kernel.Composition.CompMap
+import Mathlib.Probability.Kernel.Composition.MeasureComp
 
 /-!
 # Basic properties of the risk of an estimator

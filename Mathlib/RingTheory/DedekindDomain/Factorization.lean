@@ -7,6 +7,15 @@ module
 
 public import Mathlib.NumberTheory.RamificationInertia.Basic
 public import Mathlib.Order.Filter.Cofinite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.RingTheory.UniqueFactorizationDomain.Finite
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Factorization of ideals and fractional ideals of Dedekind domains

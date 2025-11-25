@@ -5,9 +5,11 @@ Authors: Rémi Bottinelli
 -/
 module
 
-public import Mathlib.Data.Set.Function
-public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.Topology.EMetricSpace.BoundedVariation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Constant speed

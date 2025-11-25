@@ -6,6 +6,7 @@ Authors: Mathieu Guay-Paquet
 module
 
 public import Mathlib.Order.Ideal
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Order filters

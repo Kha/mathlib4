@@ -8,6 +8,7 @@ module
 public import Mathlib.FieldTheory.KrullTopology
 public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
 public import Mathlib.Topology.Algebra.Group.TopologicalAbelianization
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The topological abelianization of the absolute Galois group.

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.MeasureTheory.Measure.CharacteristicFunction
 public import Mathlib.Probability.Independence.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Links between independence and characteristic function

@@ -5,7 +5,11 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Exp
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecialFunctions.Exp
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Limits of `P(x) / e ^ x` for a polynomial `P`

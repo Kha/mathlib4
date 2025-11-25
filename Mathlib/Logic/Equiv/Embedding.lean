@@ -6,6 +6,9 @@ Authors: Eric Rodriguez
 module
 
 public import Mathlib.Logic.Embedding.Set
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
 
 /-!
 # Equivalences on embeddings

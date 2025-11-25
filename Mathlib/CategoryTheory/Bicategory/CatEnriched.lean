@@ -6,8 +6,8 @@ Authors: Mario Carneiro, Emily Riehl
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Cat
-public import Mathlib.CategoryTheory.Enriched.Basic
 public import Mathlib.CategoryTheory.Enriched.Ordinary.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The strict bicategory associated to a Cat-enriched category

@@ -6,6 +6,11 @@ Authors: Johannes Hölzl, Bryan Gin-ge Chen
 module
 
 public import Mathlib.Order.BooleanAlgebra.Defs
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Basic properties of Boolean algebras

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Units.Equiv
 public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Multiplication by a nonzero element in a `GroupWithZero` is a permutation.

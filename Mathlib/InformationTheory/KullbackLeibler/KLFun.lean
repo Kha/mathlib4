@@ -5,9 +5,26 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Log.NegMulLog
-public import Mathlib.MeasureTheory.Measure.Decomposition.IntegralRNDeriv
 public import Mathlib.MeasureTheory.Measure.LogLikelihoodRatio
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Deriv
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.SpecialFunctions.Log.NegMulLog
+import Mathlib.MeasureTheory.Measure.Decomposition.IntegralRNDeriv
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The real function `fun x ↦ x * log x + 1 - x`

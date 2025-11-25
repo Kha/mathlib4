@@ -6,6 +6,8 @@ Authors: Jovan Gerbscheid, Newell Jensen
 module
 
 public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruences

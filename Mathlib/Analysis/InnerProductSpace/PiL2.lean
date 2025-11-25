@@ -7,9 +7,20 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
 public import Mathlib.Analysis.Normed.Lp.PiLp
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
 public import Mathlib.LinearAlgebra.UnitaryGroup
-public import Mathlib.Util.Superscript
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.Superscript
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Fintype.Order
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # `L²` inner product space structure on finite products of inner product spaces

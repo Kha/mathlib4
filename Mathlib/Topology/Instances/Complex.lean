@@ -7,10 +7,11 @@ module
 
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.FieldTheory.IntermediateField.Basic
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.Topology.Algebra.Field
-public import Mathlib.Topology.Algebra.UniformRing
+import Mathlib.Topology.Closure
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+import Mathlib.Topology.Algebra.Algebra
+import Mathlib.Topology.Algebra.UniformRing
 
 /-!
 # Some results about the topology of ℂ

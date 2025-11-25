@@ -7,9 +7,14 @@ Authors: Johannes Hölzl, Mario Carneiro, Kevin Buzzard, Yury Kudryashov, Fréd�
 module
 
 public import Mathlib.Algebra.Group.Subgroup.Map
-public import Mathlib.Algebra.Module.Submodule.Basic
 public import Mathlib.Algebra.Module.Submodule.Lattice
 public import Mathlib.Algebra.Module.Submodule.LinearMap
+public import Mathlib.Algebra.Field.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # `map` and `comap` for `Submodule`s

@@ -7,7 +7,16 @@ module
 
 public import Mathlib.Analysis.Convex.Between
 public import Mathlib.Analysis.Normed.Group.AddTorsor
-public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Sides of affine subspaces

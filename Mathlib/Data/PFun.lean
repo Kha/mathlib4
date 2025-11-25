@@ -5,10 +5,10 @@ Authors: Mario Carneiro, Jeremy Avigad, Simon Hudon
 -/
 module
 
-public import Batteries.WF
 public import Batteries.Tactic.GeneralizeProofs
 public import Mathlib.Data.Part
 public import Mathlib.Data.Rel
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Partial functions

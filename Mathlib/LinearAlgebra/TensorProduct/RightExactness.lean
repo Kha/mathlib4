@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Exact
 public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
 public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Right-exactness properties of tensor product
 

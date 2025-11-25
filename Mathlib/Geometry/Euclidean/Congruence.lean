@@ -6,10 +6,10 @@ Authors: Jovan Gerbscheid, Chu Zheng
 module
 
 public import Mathlib.Topology.MetricSpace.Congruence
-public import Mathlib.Analysis.InnerProductSpace.Basic
-public import Mathlib.Analysis.Normed.Group.AddTorsor
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
-public import Mathlib.Geometry.Euclidean.Triangle
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Geometry.Euclidean.Triangle
 
 /-!
 # Triangle congruence

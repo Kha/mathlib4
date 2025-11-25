@@ -5,14 +5,13 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Finprod
-public import Mathlib.Algebra.DirectSum.Decomposition
-public import Mathlib.Algebra.GradedMonoid
 public import Mathlib.Algebra.MvPolynomial.Basic
-public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
 public import Mathlib.Data.Finsupp.Weight
 public import Mathlib.RingTheory.GradedAlgebra.Basic
-public import Mathlib.Tactic.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 # Weighted homogeneous polynomials

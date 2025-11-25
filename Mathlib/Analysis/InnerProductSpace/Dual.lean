@@ -5,9 +5,19 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 public import Mathlib.Analysis.Normed.Group.NullSubmodule
 public import Mathlib.Topology.Algebra.Module.PerfectPairing
+public import Mathlib.Tactic.Field
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.InnerProductSpace.Orthogonal
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+import Mathlib.Analysis.Normed.Operator.NormedSpace
 
 /-!
 # The Fréchet-Riesz representation theorem

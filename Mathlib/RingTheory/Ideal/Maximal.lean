@@ -7,6 +7,14 @@ module
 
 public import Mathlib.RingTheory.Ideal.Prime
 public import Mathlib.RingTheory.Ideal.Span
+public import Mathlib.Algebra.Group.Submonoid.Membership
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Data.Set.Disjoint
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 

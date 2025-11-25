@@ -5,7 +5,11 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Operations
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Algebra.Polynomial.Degree.Operations
 
 /-!
 # Univariate polynomials form a domain

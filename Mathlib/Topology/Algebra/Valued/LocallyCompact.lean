@@ -5,13 +5,28 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Analysis.Normed.Field.Lemmas
-public import Mathlib.Analysis.Normed.Field.ProperSpace
 public import Mathlib.RingTheory.DiscreteValuationRing.Basic
-public import Mathlib.RingTheory.Ideal.IsPrincipalPowQuotient
-public import Mathlib.RingTheory.Valuation.Archimedean
 public import Mathlib.Topology.Algebra.Valued.NormedValued
 public import Mathlib.Topology.Algebra.Valued.ValuedField
+public import Mathlib.Topology.MetricSpace.ProperSpace
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.GroupTheory.ArchimedeanDensely
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.RingTheory.Ideal.IsPrincipalPowQuotient
+import Mathlib.RingTheory.Valuation.Archimedean
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Units
+import Mathlib.Analysis.Normed.Field.ProperSpace
+import Mathlib.Analysis.Normed.Group.Ultra
+import Mathlib.Order.Interval.Finset.DenselyOrdered
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Necessary and sufficient conditions for a locally compact valued field

@@ -5,10 +5,11 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Unbundled.Basic
 public import Mathlib.Algebra.Order.Monoid.Defs
-public import Mathlib.Algebra.Order.Sub.Defs
-public import Mathlib.Util.AssertExists
+public import Mathlib.Order.Max
+public import Mathlib.Algebra.Group.Basic
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Ordered groups

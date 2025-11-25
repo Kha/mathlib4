@@ -5,9 +5,15 @@ Authors: Johan Commelin, Robert Y. Lewis
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.Funext
-public import Mathlib.Algebra.Ring.ULift
 public import Mathlib.RingTheory.WittVector.Basic
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Funext
+import Mathlib.Data.Int.Basic
+import Mathlib.LinearAlgebra.Matrix.Notation
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
 /-!
 # The `IsPoly` predicate
 

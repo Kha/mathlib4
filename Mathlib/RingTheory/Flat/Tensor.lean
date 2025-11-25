@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Module.CharacterModule
 public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.Algebra.Module.Injective
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.RingTheory.TensorProduct.Finite
 
 /-!
 # Flat modules

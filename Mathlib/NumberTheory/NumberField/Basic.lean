@@ -6,10 +6,30 @@ Authors: Ashvni Narayanan, Anne Baanen
 module
 
 public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Algebra.CharZero.AddMonoidHom
-public import Mathlib.Algebra.Ring.Int.Parity
-public import Mathlib.Algebra.Ring.Int.Units
-public import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+public import Mathlib.RingTheory.AdjoinRoot
+public import Mathlib.FieldTheory.IntermediateField.Basic
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+public import Mathlib.RingTheory.Localization.Module
+public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.FieldTheory.Tower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharZero.AddMonoidHom
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.Int.CharZero
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.PurelyInseparable.Basic
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Group.Int.Even
+import Mathlib.Algebra.Order.Ring.Rat
 
 /-!
 # Number fields

@@ -5,9 +5,16 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.RingTheory.SimpleRing.Basic
 public import Mathlib.Topology.Algebra.Field
 public import Mathlib.Topology.Algebra.UniformRing
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # Completion of topological fields

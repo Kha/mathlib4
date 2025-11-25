@@ -6,6 +6,8 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Topology.UniformSpace.UniformEmbedding
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
 
 /-!
 # Theory of complete separated uniform spaces.

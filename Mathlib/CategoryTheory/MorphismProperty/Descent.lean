@@ -6,6 +6,8 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Descent of morphism properties

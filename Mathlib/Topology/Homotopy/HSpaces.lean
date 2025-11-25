@@ -5,9 +5,12 @@ Authors: Filippo A. E. Nuccio, Junyan Xu
 -/
 module
 
-public import Mathlib.Topology.CompactOpen
 public import Mathlib.Topology.Homotopy.Basic
 public import Mathlib.Topology.Path
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.ProjIcc
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # H-spaces

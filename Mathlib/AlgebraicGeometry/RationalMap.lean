@@ -8,6 +8,8 @@ module
 public import Mathlib.AlgebraicGeometry.SpreadingOut
 public import Mathlib.AlgebraicGeometry.FunctionField
 public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+public import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Lemma
 /-!
 
 # Rational maps between schemes

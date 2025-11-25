@@ -5,8 +5,11 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+public import Mathlib.CategoryTheory.Functor.EpiMono
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 
 /-!
 # Monomorphisms and epimorphisms in functor categories

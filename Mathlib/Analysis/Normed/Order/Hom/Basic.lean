@@ -5,8 +5,9 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Algebra.Order.Hom.Basic
 public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Constructing (semi)normed groups from (semi)normed homs

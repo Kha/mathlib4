@@ -8,11 +8,31 @@ Filippo A. E. Nuccio
 module
 
 public import Mathlib.Analysis.Real.OfDigits
-public import Mathlib.Data.Stream.Init
-public import Mathlib.Topology.Algebra.GroupWithZero
-public import Mathlib.Topology.Algebra.Ring.Real
-public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.Field
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Data.Stream.Defs
+public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Data.Stream.Init
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Abs
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Ternary Cantor Set

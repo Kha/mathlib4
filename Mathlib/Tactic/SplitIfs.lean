@@ -6,9 +6,10 @@ Authors: Gabriel Ebner, David Renshaw
 module
 
 public meta import Lean.Elab.Tactic.Location
-public meta import Lean.Meta.Tactic.SplitIf
-public meta import Lean.Elab.Tactic.Simp
-public meta import Mathlib.Tactic.Core
+public import Mathlib.Init
+import Mathlib.Tactic.Core
+meta import Lean.Elab.Tactic.Simp
+meta import Lean.Meta.Tactic.SplitIf
 
 /-!
 Tactic to split if-then-else expressions.

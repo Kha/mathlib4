@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Finset.Update
 public import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Restriction of a function indexed by a preorder

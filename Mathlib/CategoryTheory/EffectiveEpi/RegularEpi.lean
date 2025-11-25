@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 public import Mathlib.CategoryTheory.EffectiveEpi.Basic
+import Mathlib.Tactic.TypeStar
 /-!
 
 # The relationship between effective and regular epimorphisms.

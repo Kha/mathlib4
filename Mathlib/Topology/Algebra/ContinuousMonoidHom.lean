@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Equiv.Basic
 public import Mathlib.Topology.Algebra.Group.Defs
+public import Mathlib.Algebra.Group.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

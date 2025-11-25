@@ -5,9 +5,12 @@ Authors: Bolton Bailey
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Fin
 public import Mathlib.Algebra.BigOperators.Finsupp.Basic
 public import Mathlib.Data.Finsupp.Fin
+public import Mathlib.Logic.Equiv.Fin.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
 
 /-!
 # `Finsupp.sum` and `Finsupp.prod` over `Fin`

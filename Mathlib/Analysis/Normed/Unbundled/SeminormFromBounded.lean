@@ -6,6 +6,9 @@ Authors: María Inés de Frutos-Fernández
 module
 
 public import Mathlib.Analysis.Normed.Unbundled.RingSeminorm
+import Mathlib.Data.Real.Pointwise
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Group.Defs
 
 /-!
 # seminormFromBounded

@@ -5,8 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Image
 public import Mathlib.Data.List.Defs
+public import Mathlib.Data.Set.Basic
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
 
 /-!
 # Lemmas about `List`s and `Set.range`

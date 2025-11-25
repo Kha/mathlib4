@@ -6,8 +6,9 @@ Authors: Joseph Myers, Yaël Dillies
 module
 
 public import Aesop
-public import Mathlib.Tactic.Lemma
 public import Mathlib.Tactic.MkIffOfInductiveProp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Triplewise predicates on list.

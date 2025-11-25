@@ -5,9 +5,16 @@ Authors: Johannes Hölzl, Martin Zinkevich, Rémy Degenne
 -/
 module
 
-public import Mathlib.Logic.Encodable.Lattice
 public import Mathlib.MeasureTheory.MeasurableSpace.Defs
-public import Mathlib.Order.Disjointed
+public import Mathlib.Data.Finset.Empty
+import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Logic.Encodable.Lattice
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Induction principles for measurable sets, related to π-systems and λ-systems.

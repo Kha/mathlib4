@@ -5,8 +5,12 @@ Authors: Moritz Firsching
 -/
 module
 
-public import Mathlib.Data.Nat.Factorial.BigOperators
-public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Data.ZMod.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Data.Nat.Factorial.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Facts about factorials in ZMod

@@ -6,8 +6,17 @@ Authors: Riccardo Brasca
 module
 
 public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
-public import Mathlib.RingTheory.DedekindDomain.Dvr
-public import Mathlib.NumberTheory.NumberField.Discriminant.Defs
+public import Mathlib.RingTheory.Discriminant
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.RootsOfUnity.Minpoly
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.NumberTheory.NumberField.Discriminant.Defs
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 /-!
 # Discriminant of cyclotomic fields

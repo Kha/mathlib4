@@ -5,10 +5,20 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Fin
-public import Mathlib.Algebra.Ring.GeomSum
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.Data.Fintype.Option
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Algebra.Ring.Idempotent
+import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 

@@ -5,13 +5,12 @@ Authors: Jakob von Raumer
 -/
 module
 
-public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
-public import Mathlib.CategoryTheory.Limits.IsConnected
-public import Mathlib.CategoryTheory.Limits.Sifted
-public import Mathlib.CategoryTheory.Filtered.Final
-public import Mathlib.CategoryTheory.Filtered.Flat
-public import Mathlib.CategoryTheory.Grothendieck
-public import Mathlib.CategoryTheory.Comma.StructuredArrow.CommaMap
+public import Mathlib.CategoryTheory.Limits.Final
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Filtered.Final
+import Mathlib.CategoryTheory.Filtered.Flat
+import Mathlib.CategoryTheory.Limits.IsConnected
+import Mathlib.CategoryTheory.Comma.StructuredArrow.CommaMap
 
 /-!
 # Finality of Projections in Comma Categories

@@ -6,6 +6,8 @@ Authors: Daniel Weber
 module
 
 public import Mathlib.RingTheory.Derivation.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Differential and Algebras

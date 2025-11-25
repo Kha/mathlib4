@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.DoldKan.NCompGamma
+import Mathlib.Tactic.TypeStar
 
 /-! The Dold-Kan equivalence for additive categories.
 

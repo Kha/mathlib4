@@ -7,12 +7,20 @@ module
 
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Algebra.Order.AbsoluteValue.Basic
-public import Mathlib.Algebra.Order.Field.Basic
-public import Mathlib.Algebra.Order.Group.MinMax
 public import Mathlib.Algebra.Ring.Pi
-public import Mathlib.Data.Setoid.Basic
 public import Mathlib.GroupTheory.GroupAction.Ring
-public import Mathlib.Tactic.GCongr
+public import Mathlib.Algebra.Ring.InjSurj
+import Batteries.Tactic.Init
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Cauchy sequences

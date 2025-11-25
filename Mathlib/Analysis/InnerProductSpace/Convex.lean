@@ -6,7 +6,10 @@ Authors: Zhouhang Zhou, Sébastien Gouëzel, Frédéric Dupuis
 module
 
 public import Mathlib.Analysis.Convex.Uniform
-public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Convexity properties of inner product spaces

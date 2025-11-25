@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fintype.EquivFin
 public import Mathlib.Data.Finset.Option
+import Mathlib.Tactic.TypeStar
 
 /-!
 # fintype instances for option

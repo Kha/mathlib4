@@ -7,6 +7,9 @@ module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
 public import Mathlib.NumberTheory.EllipticDivisibilitySequence
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.Int.Parity
 
 /-!
 # Division polynomials of Weierstrass curves

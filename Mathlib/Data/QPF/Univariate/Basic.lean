@@ -6,6 +6,8 @@ Authors: Jeremy Avigad
 module
 
 public import Mathlib.Data.PFunctor.Univariate.M
+public import Batteries.Tactic.Congr
+import Mathlib.Tactic.TypeStar
 
 /-!
 

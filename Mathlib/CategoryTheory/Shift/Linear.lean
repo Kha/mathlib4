@@ -6,7 +6,11 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Shift.CommShift
-public import Mathlib.CategoryTheory.Localization.Linear
+public import Mathlib.CategoryTheory.Linear.LinearFunctor
+public import Mathlib.CategoryTheory.Localization.HasLocalization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.Linear
 
 /-!
 # Localization of the linearity of the shift functors

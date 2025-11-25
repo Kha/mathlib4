@@ -9,6 +9,7 @@ public import Mathlib.AlgebraicTopology.DoldKan.FunctorN
 public import Mathlib.AlgebraicTopology.DoldKan.Decomposition
 public import Mathlib.CategoryTheory.Idempotents.HomologicalComplex
 public import Mathlib.CategoryTheory.Idempotents.KaroubiKaroubi
+import Mathlib.Tactic.TypeStar
 
 /-!
 

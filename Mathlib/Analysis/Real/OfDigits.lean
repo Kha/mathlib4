@@ -5,10 +5,37 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public import Mathlib.Algebra.Order.Floor.Semifield
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
-public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Tactic.Rify
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Floor.Semifield
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Order.Interval.Finset.Fin
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Representation of reals in positional system

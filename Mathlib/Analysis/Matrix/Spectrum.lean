@@ -7,10 +7,19 @@ module
 
 public import Mathlib.Algebra.Star.UnitaryStarAlgAut
 public import Mathlib.Analysis.InnerProductSpace.Spectrum
-public import Mathlib.Analysis.Matrix.Hermitian
-public import Mathlib.LinearAlgebra.Eigenspace.Matrix
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Eigs
 public import Mathlib.LinearAlgebra.Matrix.Rank
+public import Mathlib.Algebra.Polynomial.Splits
+public import Mathlib.LinearAlgebra.Matrix.Hermitian
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Matrix.Hermitian
+import Mathlib.Data.List.OfFn
+import Mathlib.LinearAlgebra.Eigenspace.Matrix
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Eigs
 
 /-! # Spectral theory of Hermitian matrices
 

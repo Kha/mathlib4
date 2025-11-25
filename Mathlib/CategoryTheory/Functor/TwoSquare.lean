@@ -5,9 +5,8 @@ Authors: Joël Riou, Jakob von Raumer
 -/
 module
 
-public import Mathlib.CategoryTheory.Whiskering
 public import Mathlib.CategoryTheory.Opposites
-public import Mathlib.Tactic.CategoryTheory.Slice
+import Mathlib.Tactic.Lemma
 
 /-!
 # 2-squares of functors

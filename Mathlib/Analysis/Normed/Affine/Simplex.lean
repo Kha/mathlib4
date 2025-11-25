@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Analysis.Normed.Group.AddTorsor
 public import Mathlib.LinearAlgebra.AffineSpace.Simplex.Basic
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Simplices in torsors over normed spaces.

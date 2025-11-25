@@ -7,9 +7,12 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
 public import Mathlib.Analysis.Matrix.Normed
-public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.LinearAlgebra.UnitaryGroup
 public import Mathlib.Topology.UniformSpace.Matrix
+public import Mathlib.Topology.Instances.Matrix
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Multiset
 
 /-!
 # Analytic properties of the `star` operation on matrices

@@ -5,9 +5,28 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Algebra.Order.Field.GeomSum
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Field.GeomSum
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Results on discretized exponentials

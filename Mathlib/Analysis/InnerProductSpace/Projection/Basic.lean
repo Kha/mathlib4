@@ -5,9 +5,19 @@ Authors: Zhouhang Zhou, Frédéric Dupuis, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.Minimal
 public import Mathlib.Analysis.InnerProductSpace.Symmetric
 public import Mathlib.Analysis.RCLike.Lemmas
+public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Idempotent
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Analysis.InnerProductSpace.Projection.Minimal
 
 /-!
 # The orthogonal projection

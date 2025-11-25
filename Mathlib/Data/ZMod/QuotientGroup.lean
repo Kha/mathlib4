@@ -6,6 +6,10 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.Data.ZMod.Basic
+public import Mathlib.GroupTheory.GroupAction.Quotient
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `ZMod n` and quotient groups / rings

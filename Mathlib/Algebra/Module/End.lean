@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Group.Hom.End
 public import Mathlib.Algebra.Module.NatInt
+public import Mathlib.Algebra.Group.Units.Defs
+public import Mathlib.Algebra.Ring.Hom.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Units.Hom
 
 /-!
 # Module structure and endomorphisms

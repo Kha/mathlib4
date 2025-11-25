@@ -5,7 +5,11 @@ Authors: Newell Jensen
 -/
 module
 
-public import Mathlib.GroupTheory.SpecificGroups.Cyclic
+public import Mathlib.GroupTheory.Exponent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Algebra.Group.Nat.Units
 
 /-!
 # Klein Four Group

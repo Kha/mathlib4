@@ -5,10 +5,11 @@ Authors: Kim Morrison, Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Types.Yoneda
-public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
-public import Mathlib.Util.AssertExists
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.CategoryTheory.Limits.Preserves.Ulift
 
 /-!
 # Limit properties relating to the (co)yoneda embedding.

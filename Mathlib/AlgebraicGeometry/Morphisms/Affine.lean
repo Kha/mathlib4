@@ -5,8 +5,10 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
-public import Mathlib.AlgebraicGeometry.Morphisms.IsIso
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.IsIso
+import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
 
 /-!
 

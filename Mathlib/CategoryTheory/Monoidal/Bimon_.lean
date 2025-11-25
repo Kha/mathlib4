@@ -6,6 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Comon_
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of bimonoids in a braided monoidal category.

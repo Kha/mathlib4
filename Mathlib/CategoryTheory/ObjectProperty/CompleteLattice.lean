@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.ObjectProperty.ClosedUnderIsomorphisms
 public import Mathlib.Order.CompleteLattice.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # ObjectProperty is a complete lattice

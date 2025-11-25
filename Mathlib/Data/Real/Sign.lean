@@ -6,6 +6,10 @@ Authors: Kexing Ying, Eric Wieser
 module
 
 public import Mathlib.Data.Real.Basic
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Real sign function

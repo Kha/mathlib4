@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Int.Defs
 public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Util.AssertExists
 
 /-!
 # The integers form a linear ordered group

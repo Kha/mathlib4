@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.Basic
 public import Mathlib.CategoryTheory.SingleObj
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `SingleObj α` is preadditive when `α` is a ring.

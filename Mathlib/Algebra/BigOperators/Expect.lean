@@ -6,13 +6,21 @@ Authors: Yaël Dillies, Bhavik Mehta
 module
 
 public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
-public import Mathlib.Algebra.BigOperators.Pi
-public import Mathlib.Algebra.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Module.Pi
 public import Mathlib.Data.Finset.Density
-public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.GroupWithZero.Action.Units
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Average over a finset

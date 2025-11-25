@@ -6,6 +6,13 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Order.SupClosed
+public import Mathlib.Logic.Equiv.Set
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Bounds.Image
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Sublattices

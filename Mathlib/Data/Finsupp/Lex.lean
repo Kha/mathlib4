@@ -5,9 +5,12 @@ Authors: Damiano Testa
 -/
 module
 
-public import Mathlib.Data.Finsupp.Order
 public import Mathlib.Data.DFinsupp.Lex
 public import Mathlib.Data.Finsupp.ToDFinsupp
+public import Mathlib.Order.Preorder.Finsupp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Order
+import Mathlib.Algebra.Order.Group.PiLex
 
 /-!
 # Lexicographic order on finitely supported functions

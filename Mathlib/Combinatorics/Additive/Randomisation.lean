@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 public import Mathlib.Combinatorics.Additive.Dissociation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Randomising by a function of dissociated support

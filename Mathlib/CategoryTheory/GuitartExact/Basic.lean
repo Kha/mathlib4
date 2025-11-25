@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Final
 public import Mathlib.CategoryTheory.Functor.TwoSquare
+import Mathlib.Tactic.Lemma
 
 /-!
 # Guitart exact squares

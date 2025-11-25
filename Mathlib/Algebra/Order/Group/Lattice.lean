@@ -5,7 +5,12 @@ Authors: Christopher Hoskin, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.OrderIso
+public import Mathlib.Order.Lattice
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.OrderIso
 
 /-!
 # Lattice ordered groups

@@ -5,7 +5,15 @@ Authors: Yury Kudryashov, Aristotle AI
 -/
 module
 
-public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Algebra.Polynomial.Derivative
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.Analysis.Convex.Combination
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Complex.Polynomial.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Gauss-Lucas Theorem

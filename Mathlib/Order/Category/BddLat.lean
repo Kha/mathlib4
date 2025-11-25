@@ -10,6 +10,8 @@ public import Mathlib.Order.Category.BddOrd
 public import Mathlib.Order.Category.Lat
 public import Mathlib.Order.Category.Semilat
 public import Mathlib.Order.Hom.WithTopBot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of bounded lattices

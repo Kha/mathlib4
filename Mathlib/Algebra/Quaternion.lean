@@ -6,8 +6,26 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Star.SelfAdjoint
-public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.Algebra.Algebra.Opposite
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.Algebra.Ring.Action.Rat
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Quaternions

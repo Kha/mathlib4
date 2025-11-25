@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
 public import Mathlib.Algebra.Category.Ring.Basic
 public import Mathlib.RingTheory.Kaehler.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The differentials of a morphism in the category of commutative rings

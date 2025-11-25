@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.GradedObject.Associator
 public import Mathlib.CategoryTheory.GradedObject.Single
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 # The left and right unitors
 

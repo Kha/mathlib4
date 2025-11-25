@@ -5,8 +5,17 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker, Andrew Yan
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Lemmas
 public import Mathlib.RingTheory.Polynomial.ScaleRoots
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Commute.Hom
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Theory of monic polynomials

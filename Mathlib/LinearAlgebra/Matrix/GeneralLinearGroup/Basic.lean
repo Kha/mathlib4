@@ -6,6 +6,9 @@ Authors: Chris Birkbeck
 module
 
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.Transvection
 
 /-!
 # Basic lemmas about the general linear group $GL(n, R)$

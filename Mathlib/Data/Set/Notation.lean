@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Util.Notation3
 public meta import Mathlib.Lean.Expr.ExtraRecognizers
+public meta import Mathlib.Util.Notation3
+public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Set Notation

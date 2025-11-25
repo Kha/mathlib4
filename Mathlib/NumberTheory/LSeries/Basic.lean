@@ -5,9 +5,20 @@ Authors: Aaron Anderson, Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.PSeries
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # L-series

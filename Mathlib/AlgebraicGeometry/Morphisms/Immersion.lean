@@ -5,9 +5,14 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.Preimmersion
-public import Mathlib.AlgebraicGeometry.Morphisms.Separated
-public import Mathlib.AlgebraicGeometry.IdealSheaf.Functorial
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.LocalAtTarget
+import Mathlib.Topology.LocallyClosed
+import Mathlib.AlgebraicGeometry.IdealSheaf.Functorial
+import Mathlib.AlgebraicGeometry.Morphisms.Separated
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Equalizer
 
 /-!
 

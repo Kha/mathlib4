@@ -6,6 +6,8 @@ Authors: Colva Roney-Dougal, Inna Capdeboscq, Susanna Fishel, Kim Morrison
 module
 
 public import Mathlib.Order.Atoms
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The radical of a lattice

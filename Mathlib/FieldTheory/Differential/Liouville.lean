@@ -5,11 +5,18 @@ Authors: Daniel Weber
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Field
-public import Mathlib.Algebra.BigOperators.Field
 public import Mathlib.FieldTheory.Differential.Basic
-public import Mathlib.FieldTheory.Galois.Basic
-public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Field
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.FieldTheory.Galois.Basic
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Liouville's theorem

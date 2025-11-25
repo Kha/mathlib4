@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Exact
 public import Mathlib.RingTheory.AdicCompletion.Functoriality
-public import Mathlib.RingTheory.Filtration
+import Mathlib.RingTheory.Filtration
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.Action
 
 /-!
 # Exactness of adic completion

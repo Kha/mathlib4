@@ -5,8 +5,11 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Colimits
-public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Colimits
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Sheaf.Colimits
 
 /-!
 # Free sheaves of modules

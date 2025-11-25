@@ -5,9 +5,11 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Topology.UniformSpace.DiscreteUniformity
 public import Mathlib.Topology.UniformSpace.Pi
 public import Mathlib.Topology.UniformSpace.Ultra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Bases.Finite
 
 /-!
 # Products of ultrametric (nonarchimedean) uniform spaces

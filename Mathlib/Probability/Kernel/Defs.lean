@@ -6,6 +6,15 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Measure.GiryMonad
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Attr.Register
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Markov Kernels

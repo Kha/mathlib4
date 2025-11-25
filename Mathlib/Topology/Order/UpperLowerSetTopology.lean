@@ -5,10 +5,16 @@ Authors: Christopher Hoskin
 -/
 module
 
-public import Mathlib.Logic.Lemmas
 public import Mathlib.Topology.AlexandrovDiscrete
 public import Mathlib.Topology.ContinuousMap.Basic
 public import Mathlib.Topology.Order.LowerUpperTopology
+import Mathlib.Logic.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsKer
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Upper and lower sets topologies

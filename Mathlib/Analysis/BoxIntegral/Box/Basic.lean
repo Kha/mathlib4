@@ -5,13 +5,31 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.NNReal.Basic
-public import Mathlib.Order.Fin.Tuple
-public import Mathlib.Order.Interval.Set.Monotone
-public import Mathlib.Topology.MetricSpace.Basic
 public import Mathlib.Topology.MetricSpace.Bounded
-public import Mathlib.Topology.MetricSpace.Pseudo.Real
-public import Mathlib.Topology.Order.MonotoneConvergence
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Fin.Tuple
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.MetricSpace.Basic
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Order.Interval.Set.Monotone
+import Mathlib.Order.Interval.Set.Pi
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 /-!
 # Rectangular boxes in `ℝⁿ`
 

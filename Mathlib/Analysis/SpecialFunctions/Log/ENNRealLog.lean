@@ -6,7 +6,9 @@ Authors: Damien Thomine, Pietro Monticone, Rémy Degenne, Lorenzo Luccioli
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
-public import Mathlib.Data.EReal.Basic
+public import Mathlib.Data.EReal.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.ENNReal.Operations
 
 /-!
 # Extended Nonnegative Real Logarithm

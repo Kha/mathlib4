@@ -7,6 +7,9 @@ module
 
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
 public import Mathlib.Analysis.Normed.Ring.WithAbs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Ramification of infinite places of a number field

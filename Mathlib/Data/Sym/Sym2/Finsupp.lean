@@ -5,9 +5,12 @@ Authors: Christopher Hoskin
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Basic
 public import Mathlib.Data.Finset.Sym
 public import Mathlib.Data.Finsupp.Defs
+public import Mathlib.Algebra.GroupWithZero.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Basic
 
 /-!
 # Finitely supported functions from the symmetric square

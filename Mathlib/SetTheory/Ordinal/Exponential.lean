@@ -5,7 +5,11 @@ Authors: Mario Carneiro, Floris van Doorn, Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.SetTheory.Ordinal.Family
+public import Mathlib.SetTheory.Ordinal.Arithmetic
+import Mathlib.Logic.UnivLE
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-! # Ordinal exponential
 

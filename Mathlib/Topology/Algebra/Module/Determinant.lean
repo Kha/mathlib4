@@ -8,6 +8,7 @@ module
 
 public import Mathlib.Topology.Algebra.Module.Equiv
 public import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The determinant of a continuous linear map.

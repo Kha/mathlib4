@@ -5,8 +5,16 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Condensed.Discrete.Colimit
 public import Mathlib.Condensed.Discrete.Module
+public import Mathlib.Condensed.Equivalence
+public import Mathlib.Condensed.Discrete.LocallyConstant
+public import Mathlib.Topology.Category.LightProfinite.AsLimit
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Sites.Equivalence
+import Mathlib.Condensed.Discrete.Colimit
+import Mathlib.Algebra.Order.Ring.Nat
 /-!
 
 # Characterizing discrete condensed sets and `R`-modules.

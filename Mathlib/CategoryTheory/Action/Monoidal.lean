@@ -13,6 +13,8 @@ public import Mathlib.CategoryTheory.Monoidal.Transport
 public import Mathlib.CategoryTheory.Monoidal.Types.Basic
 public import Mathlib.CategoryTheory.Action.Concrete
 public import Mathlib.CategoryTheory.Action.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Induced monoidal structure on `Action V G`

@@ -8,6 +8,8 @@ module
 public import Mathlib.Analysis.CStarAlgebra.Classes
 public import Mathlib.Topology.ContinuousMap.Compact
 public import Mathlib.Topology.ContinuousMap.ZeroAtInfty
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-! # C⋆-algebras of continuous functions
 

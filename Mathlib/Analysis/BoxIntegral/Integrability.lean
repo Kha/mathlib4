@@ -6,8 +6,19 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.BoxIntegral.Basic
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Tactic.Generalize
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Piecewise
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
 
 /-!
 # McShane integrability vs Bochner integrability

@@ -6,7 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Subobject.Lattice
-public import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
+import Mathlib.Tactic.Lemma
 
 /-!
 # Extremal epimorphisms

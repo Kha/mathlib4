@@ -5,10 +5,19 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Topology.UrysohnsLemma
 public import Mathlib.Topology.Metrizable.Basic
 public import Mathlib.Topology.ContinuousMap.Bounded.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Real
 /-!
 # Urysohn's Metrization Theorem
 

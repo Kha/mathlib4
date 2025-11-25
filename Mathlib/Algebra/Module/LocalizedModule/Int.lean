@@ -6,7 +6,14 @@ Authors: Christian Merten
 module
 
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
-public import Mathlib.Algebra.Module.Submodule.Pointwise
+public import Mathlib.LinearAlgebra.Span.Defs
+public import Mathlib.Algebra.Module.Submodule.Range
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.Submodule.Pointwise
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 

@@ -5,9 +5,23 @@ Authors: Kevin H. Wilson
 -/
 module
 
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.Normed.Module.RCLike.Basic
-public import Mathlib.Order.Filter.Curry
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Order.Filter.Curry
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Basic
 
 /-!
 # Swapping limits and derivatives via uniform convergence

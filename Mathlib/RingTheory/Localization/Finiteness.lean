@@ -5,9 +5,15 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.Algebra.Module.LocalizedModule.Int
-public import Mathlib.RingTheory.Localization.Algebra
-public import Mathlib.RingTheory.RingHom.Finite
+public import Mathlib.RingTheory.Finiteness.Defs
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+public import Mathlib.RingTheory.Localization.Away.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Localization.Algebra
+import Mathlib.RingTheory.RingHom.Finite
+import Mathlib.Algebra.Module.LocalizedModule.Int
 
 /-!
 

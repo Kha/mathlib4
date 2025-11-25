@@ -5,9 +5,13 @@ Authors: Joël Riou, Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Ring.Int.Parity
-public import Mathlib.Algebra.Ring.Int.Units
 public import Mathlib.Data.ZMod.IntUnitsPower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Ring.Int.Parity
+import Mathlib.Data.Int.Order.Units
+import Mathlib.Algebra.Order.Group.Unbundled.Int
 
 /-!
 # Integer powers of (-1)

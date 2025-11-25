@@ -5,8 +5,9 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.LocalAtTarget
 public import Mathlib.AlgebraicGeometry.Morphisms.Constructors
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.LocalAtTarget
 
 /-!
 

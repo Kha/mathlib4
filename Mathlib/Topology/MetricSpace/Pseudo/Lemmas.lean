@@ -5,9 +5,18 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Pseudo.Constructions
-public import Mathlib.Topology.Order.DenselyOrdered
-public import Mathlib.Topology.UniformSpace.Compact
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.UniformSpace.Compact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Constructions
 
 /-!
 # Extra lemmas about pseudo-metric spaces

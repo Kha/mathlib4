@@ -5,9 +5,15 @@ Authors: Rémy Degenne, Kexing Ying
 -/
 module
 
-public import Mathlib.Probability.Notation
 public import Mathlib.Probability.Process.Stopping
 public import Mathlib.Probability.Process.Predictable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+import Mathlib.Order.Filter.Ring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-!
 # Martingales

@@ -6,6 +6,7 @@ Authors: Frédéric Dupuis, Heather Macbeth
 module
 
 public import Mathlib.Algebra.Ring.Equiv
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Propositional typeclasses on several ring homs

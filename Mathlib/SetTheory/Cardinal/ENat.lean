@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Order.Hom.Ring
 public import Mathlib.Data.ENat.Basic
-public import Mathlib.SetTheory.Cardinal.Basic
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.SetTheory.Cardinal.Basic
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Conversion between `Cardinal` and `ℕ∞`

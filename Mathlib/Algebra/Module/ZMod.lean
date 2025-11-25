@@ -7,7 +7,12 @@ module
 
 public import Mathlib.Algebra.Module.LinearMap.Defs
 public import Mathlib.Algebra.Module.Submodule.Defs
-public import Mathlib.GroupTheory.Sylow
+public import Mathlib.GroupTheory.QuotientGroup.Defs
+public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.GroupTheory.Sylow
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The `ZMod n`-module structure on Abelian groups whose elements have order dividing `n`

@@ -6,6 +6,9 @@ Authors: Zhouhang Zhou, Frédéric Dupuis, Heather Macbeth
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.CharZero
 
 /-!
 # Reflection

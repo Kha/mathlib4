@@ -6,7 +6,7 @@ Authors: Antoine Chambert-Loir
 module
 
 public import Mathlib.GroupTheory.GroupAction.MultipleTransitivity
-public import Mathlib.GroupTheory.GroupAction.SubMulAction.OfFixingSubgroup
+import Mathlib.Tactic.TypeStar
 
 /-! # Multiply preprimitive actions
 

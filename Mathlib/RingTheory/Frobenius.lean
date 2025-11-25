@@ -5,10 +5,27 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.RingTheory.Invariant.Basic
-public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
 public import Mathlib.RingTheory.Unramified.Locus
+public import Mathlib.RingTheory.Invariant.Defs
+import Mathlib.RingTheory.Filtration
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Invariant.Basic
+import Mathlib.RingTheory.Localization.Submodule
+import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Frobenius elements

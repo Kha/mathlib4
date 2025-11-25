@@ -5,10 +5,11 @@ Authors: Eric Wieser, Utensil Song
 -/
 module
 
-public import Mathlib.Algebra.RingQuot
 public import Mathlib.LinearAlgebra.TensorAlgebra.Basic
-public import Mathlib.LinearAlgebra.QuadraticForm.Isometry
 public import Mathlib.LinearAlgebra.QuadraticForm.IsometryEquiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # Clifford Algebras

@@ -5,11 +5,15 @@ Authors: Yury Kudryashov, Patrick Massot
 -/
 module
 
-public import Mathlib.Algebra.Group.Basic
-public import Mathlib.Data.Set.Function
-public import Mathlib.Order.Interval.Set.Basic
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.Algebra.Order.Monoid.Unbundled.ExistsOfLE
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Image
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Images of intervals under `(+ d)`

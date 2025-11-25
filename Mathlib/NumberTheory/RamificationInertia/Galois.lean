@@ -7,6 +7,12 @@ module
 
 public import Mathlib.FieldTheory.Galois.IsGaloisGroup
 public import Mathlib.NumberTheory.RamificationInertia.Basic
+public import Mathlib.RingTheory.IntegralClosure.IntegralRestrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Invariant.Basic
 
 /-!
 # Ramification theory in Galois extensions of Dedekind domains

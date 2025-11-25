@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.BigOperators.Balance
 public import Mathlib.Data.Complex.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finite sums and products of complex numbers

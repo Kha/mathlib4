@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
 public import Mathlib.Analysis.Normed.Field.UnitBall
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecialFunctions.Exp
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # The circle

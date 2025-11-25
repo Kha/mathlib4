@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Action.End
 public import Mathlib.GroupTheory.Subgroup.Center
 public import Mathlib.GroupTheory.Submonoid.Centralizer
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Centralizers of subgroups

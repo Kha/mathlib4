@@ -5,10 +5,16 @@ Authors: Rohan Mitta, Kevin Buzzard, Alistair Tucker, Johannes Hölzl, Yury Kudr
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Data.Setoid.Basic
-public import Mathlib.Dynamics.FixedPoints.Topology
-public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Topology.EMetricSpace.Lipschitz
+public import Mathlib.Topology.MetricSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Dynamics.FixedPoints.Topology
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Contracting maps

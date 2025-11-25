@@ -6,9 +6,21 @@ Authors: Anatole Dedecker, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Algebra.Module.Equiv
-public import Mathlib.Topology.Algebra.Module.UniformConvergence
-public import Mathlib.Topology.Algebra.SeparationQuotient.Section
 public import Mathlib.Topology.Hom.ContinuousEvalConst
+public import Mathlib.LinearAlgebra.BilinearMap
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.Analysis.LocallyConvex.Bounded
+public import Mathlib.Topology.Defs.Sequences
+public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Coherent
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Topology.Algebra.Module.UniformConvergence
+import Mathlib.Topology.Algebra.SeparationQuotient.Section
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Strong topologies on the space of continuous linear maps

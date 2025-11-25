@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Endomorphism
+import Mathlib.Tactic.Lemma
 
 /-!
 # The center of a category

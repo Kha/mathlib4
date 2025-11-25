@@ -5,10 +5,17 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Topology.Constructions
-public import Mathlib.Order.Filter.ListTraverse
-public import Mathlib.Tactic.AdaptationNote
 public import Mathlib.Topology.Algebra.Monoid.Defs
+public import Mathlib.Data.Vector.Basic
+public import Mathlib.Order.Filter.Map
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Constructions
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Control.Traversable.Instances
+import Mathlib.Data.List.Forall2
+import Mathlib.Order.Filter.ListTraverse
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Topology on lists and vectors

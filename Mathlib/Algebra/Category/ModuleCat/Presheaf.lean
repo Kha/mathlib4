@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
 public import Mathlib.Algebra.Category.Ring.Basic
+public import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Tactic.Lemma
 
 /-!
 # Presheaves of modules over a presheaf of rings.

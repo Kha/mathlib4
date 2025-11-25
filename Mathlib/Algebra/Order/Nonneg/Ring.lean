@@ -8,8 +8,12 @@ module
 public import Mathlib.Algebra.Order.GroupWithZero.Canonical
 public import Mathlib.Algebra.Order.Nonneg.Basic
 public import Mathlib.Algebra.Order.Nonneg.Lattice
-public import Mathlib.Algebra.Order.Ring.InjSurj
-public import Mathlib.Tactic.FastInstance
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Order.Sub.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Basic
+import Mathlib.Algebra.Order.Ring.InjSurj
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Bundled ordered algebra instance on the type of nonnegative elements

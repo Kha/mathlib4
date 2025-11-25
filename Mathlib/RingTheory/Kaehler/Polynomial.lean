@@ -8,6 +8,10 @@ module
 public import Mathlib.RingTheory.Kaehler.Basic
 public import Mathlib.Algebra.MvPolynomial.PDeriv
 public import Mathlib.Algebra.Polynomial.Derivation
+public import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Kähler differential module of polynomial algebras

@@ -5,7 +5,12 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+public import Mathlib.Topology.MetricSpace.Pseudo.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 ## Ultrametric spaces

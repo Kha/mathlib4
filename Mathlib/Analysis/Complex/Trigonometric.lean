@@ -6,6 +6,21 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir
 module
 
 public import Mathlib.Analysis.Complex.Exponential
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Abs
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Trigonometric and hyperbolic trigonometric functions

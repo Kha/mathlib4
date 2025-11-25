@@ -5,9 +5,18 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unitary
-public import Mathlib.Analysis.NormedSpace.Normalize
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
+public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Analysis.NormedSpace.Normalize
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unitary
 
 /-! # Unitary elements span C⋆-algebras
 

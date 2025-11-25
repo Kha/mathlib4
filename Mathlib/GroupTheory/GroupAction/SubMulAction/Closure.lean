@@ -5,9 +5,12 @@ Authors: Dexin Zhang
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Data.Set.Lattice
 public import Mathlib.GroupTheory.GroupAction.SubMulAction
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Closure and finiteness of `SubMulAction` and `SubAddAction`

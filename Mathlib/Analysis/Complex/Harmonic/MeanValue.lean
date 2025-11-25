@@ -5,8 +5,14 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Complex.Harmonic.Analytic
-public import Mathlib.Analysis.Complex.MeanValue
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.MeasureTheory.Integral.CircleAverage
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Basic
+import Mathlib.Analysis.Complex.MeanValue
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Complex.Harmonic.Analytic
+import Mathlib.Analysis.Normed.Module.Ball.Pointwise
 
 /-!
 # The Mean Value Property of Harmonic Functions on the Complex Plane

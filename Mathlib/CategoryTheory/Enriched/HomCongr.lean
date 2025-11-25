@@ -6,6 +6,7 @@ Authors: Nick Ward
 module
 
 public import Mathlib.CategoryTheory.Enriched.Ordinary.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Congruence of enriched homs

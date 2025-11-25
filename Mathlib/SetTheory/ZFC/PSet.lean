@@ -5,7 +5,11 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Set.Lattice
+public import Mathlib.Order.RelClasses
+public import Mathlib.Order.SetNotation
+public import Mathlib.Tactic.PPWithUniv
+public import Mathlib.Util.CompileInductive
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Pre-sets

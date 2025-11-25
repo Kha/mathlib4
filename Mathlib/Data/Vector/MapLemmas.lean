@@ -6,7 +6,8 @@ Authors: Alex Keizer
 module
 
 public import Mathlib.Data.Vector.Basic
-public import Mathlib.Data.Vector.Snoc
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Vector.Snoc
 
 /-!
   This file establishes a set of normalization lemmas for `map`/`mapAccumr` operations on vectors

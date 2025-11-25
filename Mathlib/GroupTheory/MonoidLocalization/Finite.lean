@@ -7,6 +7,8 @@ module
 
 public import Mathlib.GroupTheory.Finiteness
 public import Mathlib.GroupTheory.MonoidLocalization.GrothendieckGroup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization of a finitely generated submonoid

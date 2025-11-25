@@ -8,10 +8,19 @@ module
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Algebra.Notation.Indicator
-public import Mathlib.Algebra.GroupWithZero.Action.Units
-public import Mathlib.Algebra.Module.NatInt
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
-public import Mathlib.Algebra.Ring.Invertible
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.Ring.Units
+public import Mathlib.Algebra.Group.Action.Units
+public import Mathlib.Algebra.Group.Invertible.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Invertible
+import Mathlib.Algebra.GroupWithZero.Action.Units
 
 /-!
 # Further basic results about modules.

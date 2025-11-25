@@ -6,6 +6,8 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Module.Equiv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The general linear group of linear maps

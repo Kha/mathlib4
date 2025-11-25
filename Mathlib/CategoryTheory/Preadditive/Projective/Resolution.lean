@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Homology.QuasiIso
 public import Mathlib.Algebra.Homology.SingleHomology
 public import Mathlib.CategoryTheory.Preadditive.Projective.Preserves
+import Mathlib.Tactic.Lemma
 
 /-!
 # Projective resolutions

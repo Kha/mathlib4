@@ -6,6 +6,7 @@ Authors: Devon Tuma
 module
 
 public import Mathlib.Data.Vector.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Theorems about membership of elements in vectors

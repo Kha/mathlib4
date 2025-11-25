@@ -5,12 +5,32 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.Analysis.InnerProductSpace.Convex
-public import Mathlib.Analysis.Normed.Affine.AddTorsor
-public import Mathlib.Analysis.NormedSpace.Extr
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-public import Mathlib.Topology.Order.ExtrClosure
+public import Mathlib.Analysis.Calculus.DiffContOnCl
+public import Mathlib.Analysis.Convex.StrictConvexSpace
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Analysis.InnerProductSpace.Convex
+import Mathlib.Analysis.NormedSpace.Extr
+import Mathlib.Data.Set.Disjoint
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Order.ExtrClosure
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Normed.Affine.AddTorsor
+import Mathlib.Analysis.Normed.Module.Completion
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Module.Ray
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Maximum modulus principle

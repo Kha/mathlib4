@@ -6,6 +6,8 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.Algebra.ConstMulAction
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
 
 /-!
 # Minimal action of a group

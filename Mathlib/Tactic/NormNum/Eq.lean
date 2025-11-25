@@ -5,7 +5,11 @@ Authors: Mario Carneiro
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Inv
+public import Mathlib.Tactic.NormNum.Inv
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Data.Nat.Cast.Commute
 
 /-!
 # `norm_num` extension for equalities

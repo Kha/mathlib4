@@ -5,15 +5,13 @@ Authors: Floris van Doorn, Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Batteries.Tactic.Alias
-public import Batteries.Tactic.Init
-public import Mathlib.Init
 public import Mathlib.Data.Int.Notation
 public import Mathlib.Data.Nat.Notation
 public import Mathlib.Tactic.Basic
-public import Mathlib.Tactic.Lemma
-public import Mathlib.Tactic.TypeStar
-public import Mathlib.Util.AssertExists
+import Batteries.Tactic.Alias
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Basic operations on the natural numbers

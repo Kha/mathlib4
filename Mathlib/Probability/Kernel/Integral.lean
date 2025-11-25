@@ -7,6 +7,12 @@ module
 
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.Probability.Kernel.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Bochner integrals of kernels

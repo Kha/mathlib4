@@ -8,7 +8,20 @@ module
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Isometric
 public import Mathlib.Analysis.CStarAlgebra.GelfandDuality
 public import Mathlib.Analysis.CStarAlgebra.Unitization
-public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.PosPart.Basic
+public import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.CStarAlgebra.Spectrum
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Analysis.RCLike.Lemmas
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.Topology.ContinuousMap.Units
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.PosPart.Basic
 
 /-! # Continuous functional calculus
 

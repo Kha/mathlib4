@@ -7,9 +7,10 @@ module
 
 public import Mathlib.AlgebraicGeometry.AffineScheme
 public import Mathlib.AlgebraicGeometry.Gluing
-public import Mathlib.CategoryTheory.Limits.Opposites
-public import Mathlib.CategoryTheory.Limits.Shapes.Diagonal
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Over
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Monad.Adjunction
 
 /-!
 # Fibred products of schemes

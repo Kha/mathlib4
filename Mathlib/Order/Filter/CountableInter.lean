@@ -5,8 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Filter.Curry
 public import Mathlib.Data.Set.Countable
+public import Mathlib.Order.Filter.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Filter.Curry
+import Mathlib.Order.Filter.Map
 
 /-!
 # Filters with countable intersection property

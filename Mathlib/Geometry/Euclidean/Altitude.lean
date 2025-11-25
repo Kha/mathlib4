@@ -6,8 +6,17 @@ Authors: Joseph Myers
 module
 
 public import Mathlib.Geometry.Euclidean.Projection
-public import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
-public import Mathlib.Analysis.InnerProductSpace.Affine
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Affine
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Altitudes of a simplex

@@ -6,6 +6,7 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Sites.Hypercover.Zero
+import Mathlib.Tactic.Lemma
 
 /-!
 # Defining precoverages via pre-`0`-hypercovers

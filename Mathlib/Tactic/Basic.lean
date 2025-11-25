@@ -5,13 +5,9 @@ Authors: Mario Carneiro, Kyle Miller
 -/
 module
 
-public meta import Lean
-public meta import Mathlib.Tactic.PPWithUniv
-public meta import Mathlib.Tactic.ExtendDoc
-public meta import Mathlib.Tactic.Lemma
-public meta import Mathlib.Tactic.TypeStar
-public meta import Mathlib.Tactic.Linter.OldObtain
-public meta import Mathlib.Tactic.Simproc.ExistsAndEq
+public import Mathlib.Init
+public meta import Lean.Elab.BuiltinCommand
+import Mathlib.Tactic.PPWithUniv
 
 /-!
 # Basic tactics and utilities for tactic writing

@@ -5,9 +5,17 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Monotone.Odd
 public import Mathlib.Algebra.Order.Field.Basic
 public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Algebra.Ring.Basic
+public import Mathlib.Data.Set.Restrict
+public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Monotone
+import Mathlib.Order.Monotone.Odd
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Order isomorphism between a linear ordered field and `(-1, 1)`

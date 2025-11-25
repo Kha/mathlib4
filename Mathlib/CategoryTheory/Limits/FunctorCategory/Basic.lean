@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Functor.Currying
 public import Mathlib.CategoryTheory.Limits.Preserves.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # (Co)limits in functor categories.

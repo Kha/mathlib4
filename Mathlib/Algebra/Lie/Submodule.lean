@@ -6,7 +6,13 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.Subalgebra
-public import Mathlib.LinearAlgebra.Finsupp.Span
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Finsupp.Span
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Lie submodules of a Lie algebra

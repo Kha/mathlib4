@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Prod.Lex
 public import Mathlib.SetTheory.Ordinal.Rank
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extend a well-founded order to a well-order

@@ -5,10 +5,13 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Algebra.Category.Grp.AB
 public import Mathlib.Algebra.Category.ModuleCat.Colimits
-public import Mathlib.Algebra.Module.Shrink
 public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Basic
+public import Mathlib.Algebra.Category.Grp.Colimits
+public import Mathlib.Algebra.Category.ModuleCat.Abelian
+public import Mathlib.Algebra.Category.ModuleCat.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Grp.AB
 /-!
 
 # AB axioms in module categories

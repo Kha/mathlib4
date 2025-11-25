@@ -5,9 +5,10 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Tactic.Peel
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unital
 public import Mathlib.Analysis.Complex.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Conditions on unitary elements imposed by the continuous functional calculus
 

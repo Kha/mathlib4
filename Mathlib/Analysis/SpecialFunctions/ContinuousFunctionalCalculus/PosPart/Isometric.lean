@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.PosPart.Basic
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Isometric
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-! # Facts about `CFC.posPart` and `CFC.negPart` involving norms
 

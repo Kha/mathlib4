@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Data.ENat.Lattice
 public import Mathlib.Data.Fin.Tuple.Embedding
-public import Mathlib.Data.Finite.Card
 public import Mathlib.Data.Set.Card
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Finite.Range
 
 /-! # Existence of embeddings from finite types
 

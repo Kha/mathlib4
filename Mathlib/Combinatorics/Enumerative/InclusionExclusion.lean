@@ -5,9 +5,23 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Pi
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Module.BigOperators
+public import Mathlib.Algebra.Notation.Indicator
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Set.Lattice
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Data.Finset.Lattice.Union
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Inclusion-exclusion principle

@@ -5,8 +5,18 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.AlgebraicTopology.DoldKan.Decomposition
-public import Mathlib.Tactic.FinCases
+public import Mathlib.AlgebraicTopology.DoldKan.PInfty
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.AlgebraicTopology.DoldKan.Decomposition
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Int
 
 /-!
 

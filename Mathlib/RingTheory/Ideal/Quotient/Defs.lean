@@ -8,6 +8,8 @@ module
 public import Mathlib.LinearAlgebra.Quotient.Defs
 public import Mathlib.RingTheory.Congruence.Defs
 public import Mathlib.RingTheory.Ideal.Defs
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
 
 /-!
 # Ideal quotients

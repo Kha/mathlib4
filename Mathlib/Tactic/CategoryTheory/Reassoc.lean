@@ -5,11 +5,11 @@ Authors: Kim Morrison, Robin Carlier
 -/
 module
 
-public import Mathlib.CategoryTheory.Functor.Basic
-public meta import Mathlib.CategoryTheory.Functor.Basic
-public meta import Mathlib.Lean.Meta.Simp
-public meta import Mathlib.Tactic.Simps.Basic
-public meta import Mathlib.Util.AddRelatedDecl
+public import Batteries.Tactic.Exact
+public import Mathlib.Util.AddRelatedDecl
+public import Mathlib.CategoryTheory.Category.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Functor.Basic
 
 /-!
 # The `reassoc` attribute

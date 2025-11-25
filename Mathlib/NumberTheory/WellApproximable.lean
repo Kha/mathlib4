@@ -5,8 +5,26 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Dynamics.Ergodic.AddCircle
-public import Mathlib.MeasureTheory.Covering.LiminfLimsup
+public import Mathlib.Algebra.GCDMonoid.Nat
+public import Mathlib.Topology.MetricSpace.Thickening
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Dynamics.Ergodic.AddCircle
+import Mathlib.MeasureTheory.Covering.LiminfLimsup
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Data.Nat.Prime.Infinite
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 
 /-!
 # Well-approximable numbers and Gallagher's ergodic theorem

@@ -5,8 +5,11 @@ Authors: Andrew Yang, Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Bilinear
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
+public import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Bilinear
 
 /-!
 # Equivalence between `IsLocalizedModule` and `IsLocalization`

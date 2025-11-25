@@ -6,6 +6,15 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Cover.MorphismProperty
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.Algebra.Category.Ring.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.Topology.Category.TopCat.EpiMono
+import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
 
 /-!
 # Open covers of schemes

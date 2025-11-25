@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.Finsupp
 public import Mathlib.Algebra.Group.Submonoid.Basic
 public import Mathlib.Algebra.Group.TypeTags.Hom
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extensionality for maps on `Finsupp`

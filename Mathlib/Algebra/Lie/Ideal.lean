@@ -6,6 +6,9 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.Submodule
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Lie Ideals

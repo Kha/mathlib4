@@ -5,10 +5,12 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Types.Equalizers
 public import Mathlib.CategoryTheory.Limits.Types.Products
 public import Mathlib.CategoryTheory.Sites.IsSheafFor
-public import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Types.Equalizers
 
 /-!
 # The equalizer diagram sheaf condition for a presieve

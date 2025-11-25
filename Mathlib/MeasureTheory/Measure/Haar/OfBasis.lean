@@ -7,6 +7,16 @@ module
 
 public import Mathlib.MeasureTheory.Measure.Haar.Basic
 public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.Topology.Order.DenselyOrdered
+public import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Order.Interval.Set.Pi
+import Mathlib.Algebra.Group.Pointwise.Set.BigOperators
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Additive Haar measure constructed from a basis

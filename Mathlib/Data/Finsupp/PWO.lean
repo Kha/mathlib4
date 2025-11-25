@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Preorder.Finsupp
 public import Mathlib.Order.WellFoundedSet
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Partial well ordering on finsupps

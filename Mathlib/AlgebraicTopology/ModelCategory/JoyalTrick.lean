@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicTopology.ModelCategory.CategoryWithCofibrations
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # A trick by Joyal

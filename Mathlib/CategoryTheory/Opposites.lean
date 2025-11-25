@@ -6,6 +6,8 @@ Authors: Stephen Morgan, Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Equivalence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Opposite categories

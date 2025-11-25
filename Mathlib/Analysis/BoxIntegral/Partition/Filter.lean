@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.BoxIntegral.Partition.SubboxInduction
 public import Mathlib.Analysis.BoxIntegral.Partition.Split
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Filters used in box-based integrals

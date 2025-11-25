@@ -6,7 +6,10 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Data.Finset.Sigma
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Data.Finset.Prod
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Product and sums indexed by finite sets in sigma types.

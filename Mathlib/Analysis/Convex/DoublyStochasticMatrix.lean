@@ -5,8 +5,9 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Convex.Basic
 public import Mathlib.LinearAlgebra.Matrix.Permutation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Doubly stochastic matrices

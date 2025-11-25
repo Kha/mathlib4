@@ -6,8 +6,13 @@ Authors: Riccardo Brasca
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.Eval.Subring
-public import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Eval.Subring
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # Polynomials that lift

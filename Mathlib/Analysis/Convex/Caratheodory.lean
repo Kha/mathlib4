@@ -5,9 +5,17 @@ Authors: Johan Commelin, Kim Morrison
 -/
 module
 
-public import Mathlib.Analysis.Convex.Combination
 public import Mathlib.LinearAlgebra.AffineSpace.Independent
-public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Analysis.Convex.Hull
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.Data.Finset.Max
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Carathéodory's convexity theorem

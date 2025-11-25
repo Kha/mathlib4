@@ -11,6 +11,10 @@ public import Mathlib.Algebra.Module.NatInt
 public import Mathlib.Algebra.Module.RingHom
 public import Mathlib.Algebra.Ring.CompTypeclasses
 public import Mathlib.GroupTheory.GroupAction.Hom
+public import Mathlib.Algebra.Group.Action.Units
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Init
 
 /-!
 # (Semi)linear maps

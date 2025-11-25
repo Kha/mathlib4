@@ -5,10 +5,12 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.DerivedCategory.Fractions
 public import Mathlib.Algebra.Homology.DerivedCategory.ShortExact
 public import Mathlib.Algebra.Homology.Embedding.CochainComplex
 public import Mathlib.CategoryTheory.Triangulated.TStructure.Basic
+public import Mathlib.Algebra.Homology.DerivedCategory.HomologySequence
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Homology.DerivedCategory.Fractions
 
 /-!
 # The canonical t-structure on the derived category

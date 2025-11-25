@@ -6,9 +6,11 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Topology.Homotopy.Contractible
-public import Mathlib.Topology.Homotopy.Basic
 public import Mathlib.Topology.Connected.LocPathConnected
-public import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Order.OmegaCompletePartialOrder
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Strongly locally contractible spaces

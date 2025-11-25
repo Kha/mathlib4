@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.BilinearForm.Properties
 public import Mathlib.LinearAlgebra.Matrix.SesquilinearForm
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
 
 /-!
 # Bilinear form

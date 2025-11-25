@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Geometry.RingedSpace.PresheafedSpace.HasColimits
 public import Mathlib.Geometry.RingedSpace.Stalks
-public import Mathlib.Topology.Sheaves.Functors
+public import Mathlib.Topology.Category.TopCat.Limits.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sheaves.Functors
+import Mathlib.Topology.Sheaves.Limits
 
 /-!
 # Sheafed spaces

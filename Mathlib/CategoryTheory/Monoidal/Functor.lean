@@ -6,8 +6,9 @@ Authors: Michael Jendrusch, Kim Morrison, Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Category
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
-public import Mathlib.CategoryTheory.Products.Basic
+public import Mathlib.CategoryTheory.Adjunction.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
 
 /-!
 # (Lax) monoidal functors

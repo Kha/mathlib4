@@ -7,6 +7,10 @@ module
 
 public import Mathlib.GroupTheory.Nilpotent
 public import Mathlib.Order.Radical
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.Algebra.Group.Subgroup.Order
 
 /-!
 # The Frattini subgroup

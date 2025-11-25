@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.End
 public import Mathlib.Logic.Embedding.Basic
 public import Mathlib.Logic.Equiv.Set
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `Equiv.Perm.viaEmbedding`, a noncomputable analogue of `Equiv.Perm.viaFintypeEmbedding`.

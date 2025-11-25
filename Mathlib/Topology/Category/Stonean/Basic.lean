@@ -8,6 +8,15 @@ module
 public import Mathlib.Topology.ExtremallyDisconnected
 public import Mathlib.Topology.Category.CompHaus.Projective
 public import Mathlib.Topology.Category.Profinite.Basic
+import Mathlib.Data.ULift
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Data.ZMod.Defs
+import Mathlib.Topology.LocallyConstant.Basic
+import Mathlib.Topology.Separation.Profinite
 /-!
 # Extremally disconnected sets
 

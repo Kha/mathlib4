@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Quotient
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # The quotient category is preadditive

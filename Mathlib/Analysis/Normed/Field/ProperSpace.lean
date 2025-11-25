@@ -5,9 +5,18 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Analysis.Normed.Field.Lemmas
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.Topology.MetricSpace.ProperSpace
+public import Mathlib.Analysis.Normed.Field.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Field.Lemmas
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Proper nontrivially normed fields

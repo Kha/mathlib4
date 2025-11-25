@@ -5,10 +5,12 @@ Authors: Mitchell Rowett, Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 public import Mathlib.Algebra.Group.Subgroup.Basic
 public import Mathlib.Data.Setoid.Basic
 public import Mathlib.GroupTheory.Coset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Cosets

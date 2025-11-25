@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Hom
 public import Mathlib.Algebra.Ring.Action.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Isomorphisms of `R`-algebras

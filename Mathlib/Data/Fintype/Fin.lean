@@ -6,7 +6,9 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.Order.Interval.Finset.Fin
-public import Mathlib.Data.Vector.Basic
+public import Mathlib.Data.Vector.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Vector.Basic
 
 /-!
 # The structure of `Fintype (Fin n)`

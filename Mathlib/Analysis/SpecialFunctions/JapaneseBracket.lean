@@ -5,9 +5,21 @@ Authors: Moritz Doll
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
-public import Mathlib.MeasureTheory.Integral.Layercake
+public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Integral.Layercake
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Norm
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Japanese Bracket

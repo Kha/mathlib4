@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Int.Defs
 public import Mathlib.Algebra.Group.TypeTags.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Lemmas about `Multiplicative ℤ`.

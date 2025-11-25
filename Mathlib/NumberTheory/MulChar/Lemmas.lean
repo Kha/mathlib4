@@ -6,7 +6,13 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.NumberTheory.MulChar.Basic
-public import Mathlib.RingTheory.RootsOfUnity.Complex
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.RootsOfUnity.Complex
 
 /-!
 # Further Results on multiplicative characters

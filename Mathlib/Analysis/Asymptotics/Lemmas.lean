@@ -6,10 +6,35 @@ Authors: Jeremy Avigad, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Asymptotics.Defs
-public import Mathlib.Analysis.Normed.Group.Bounded
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
 public import Mathlib.Analysis.Normed.MulAction
 public import Mathlib.Topology.OpenPartialHomeomorph
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Finset.Order
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Further basic lemmas about asymptotics

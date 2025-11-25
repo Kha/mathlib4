@@ -6,7 +6,7 @@ Authors: Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.BinaryBiproducts
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Zero
+import Mathlib.Tactic.Lemma
 
 /-!
 # Preservation of biproducts

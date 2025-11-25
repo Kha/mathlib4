@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Geometry.Euclidean.Altitude
 public import Mathlib.Geometry.Euclidean.Circumcenter
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Geometry.Euclidean.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.LinearAlgebra.AffineSpace.Simplex.Centroid
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Monge point and orthocenter

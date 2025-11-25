@@ -5,10 +5,23 @@ Authors: Ashvni Narayanan, David Loeffler
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Derivative
-public import Mathlib.Data.Nat.Choose.Cast
 public import Mathlib.NumberTheory.Bernoulli
+public import Mathlib.Algebra.Field.Rat
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Tactic.NormNum.Inv
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Data.Nat.Choose.Cast
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Bernoulli polynomials

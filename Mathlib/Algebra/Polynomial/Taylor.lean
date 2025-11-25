@@ -6,9 +6,18 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.Degree.Lemmas
-public import Mathlib.Algebra.Polynomial.Eval.SMul
 public import Mathlib.Algebra.Polynomial.HasseDeriv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # Taylor expansions of polynomials

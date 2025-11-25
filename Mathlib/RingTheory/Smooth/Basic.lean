@@ -5,11 +5,14 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.FiniteStability
-public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
-public import Mathlib.RingTheory.Localization.Away.AdjoinRoot
 public import Mathlib.RingTheory.Smooth.Kaehler
 public import Mathlib.RingTheory.Unramified.Basic
+import Mathlib.RingTheory.FiniteStability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+import Mathlib.RingTheory.Localization.Away.AdjoinRoot
 
 /-!
 

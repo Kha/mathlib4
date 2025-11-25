@@ -5,12 +5,41 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.CharP.Defs
-public import Mathlib.Algebra.MvPolynomial.CommRing
-public import Mathlib.Algebra.MvPolynomial.Equiv
-public import Mathlib.Algebra.Polynomial.BigOperators
-public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.RingTheory.Noetherian.Basic
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.Algebra.MvPolynomial.Degrees
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.Algebra.Polynomial.Coeff
+public import Mathlib.Algebra.Polynomial.EraseLead
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Nat.WithBot
+import Mathlib.Order.Preorder.Finite
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Data.Nat.Cast.WithTop
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Ring-theoretic supplement of Algebra.Polynomial.

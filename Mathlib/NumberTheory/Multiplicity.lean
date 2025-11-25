@@ -5,14 +5,30 @@ Authors: Tian Chen, Mantas Bakšys
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Basic
-public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.Algebra.Ring.Int.Parity
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.Data.Nat.Prime.Int
 public import Mathlib.NumberTheory.Padics.PadicVal.Defs
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
-public import Mathlib.RingTheory.Ideal.Span
+public import Mathlib.Algebra.Ring.Regular
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.RingTheory.Ideal.Span
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.Ring.Int.Parity
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Multiplicity in Number Theory

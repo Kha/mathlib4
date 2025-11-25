@@ -6,15 +6,26 @@ Authors: Scott Carnahan
 module
 
 public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Algebra.Group.Torsion
 public import Mathlib.Algebra.Module.Rat
 public import Mathlib.Algebra.Polynomial.Smeval
 public import Mathlib.Algebra.Ring.NegOnePow
-public import Mathlib.Data.NNRat.Order
 public import Mathlib.GroupTheory.GroupAction.Ring
 public import Mathlib.RingTheory.Polynomial.Pochhammer
 public import Mathlib.Tactic.Field
 public import Mathlib.Tactic.Module
+public import Mathlib.Data.Finset.NatAntidiagonal
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Data.NNRat.Order
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Binomial rings

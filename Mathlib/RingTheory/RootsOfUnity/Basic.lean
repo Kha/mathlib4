@@ -5,8 +5,17 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.CharP.Reduced
-public import Mathlib.RingTheory.IntegralDomain
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.GroupTheory.SpecificGroups.Cyclic
+public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Reduced
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Nat.Cast.NeZero
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 -- TODO: remove Mathlib.Algebra.CharP.Reduced and move the last two lemmas to Lemmas
 
 /-!

@@ -5,9 +5,13 @@ Authors: Michael Stoll, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Add
-public import Mathlib.Analysis.Calculus.Deriv.Comp
-public import Mathlib.Analysis.Calculus.Deriv.CompMul
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.CompMul
+import Mathlib.Algebra.Ring.Action.Pointwise.Set
 
 /-!
 ### Invariance of the derivative under translation

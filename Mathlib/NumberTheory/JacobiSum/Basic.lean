@@ -6,8 +6,18 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.NumberTheory.GaussSum
-public import Mathlib.NumberTheory.MulChar.Lemmas
-public import Mathlib.RingTheory.RootsOfUnity.Lemmas
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.NumberTheory.MulChar.Lemmas
+import Mathlib.RingTheory.RootsOfUnity.Lemmas
+import Mathlib.Data.Nat.Cast.NeZero
 
 /-!
 # Jacobi Sums

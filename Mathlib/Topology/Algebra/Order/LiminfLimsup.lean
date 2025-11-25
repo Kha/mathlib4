@@ -5,10 +5,17 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.DenselyOrdered
 public import Mathlib.Data.Real.Archimedean
-public import Mathlib.Topology.Algebra.Group.Basic
-public import Mathlib.Topology.Order.LiminfLimsup
+public import Mathlib.Order.LiminfLimsup
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.Algebra.Group.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.DenselyOrdered
+import Mathlib.Topology.Algebra.Group.Basic
 
 /-!
 # Lemmas about liminf and limsup in an order topology.

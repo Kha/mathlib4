@@ -6,6 +6,7 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Data.Finsupp.Single
+import Mathlib.Tactic.ExtendDoc
 
 /-!
 # Notation for `Finsupp`

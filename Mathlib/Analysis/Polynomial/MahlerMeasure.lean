@@ -5,9 +5,19 @@ Authors: Fabrizio Barroero
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Polynomial
-public import Mathlib.Analysis.Complex.JensenFormula
-public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.MeasureTheory.Integral.CircleAverage
+public import Mathlib.Analysis.SpecialFunctions.Log.PosLog
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Analytic.Polynomial
+import Mathlib.Analysis.Complex.JensenFormula
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Analysis.Complex.Polynomial.Basic
+import Mathlib.Analysis.SpecialFunctions.Integrability.LogMeromorphic
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Mahler measure of complex polynomials

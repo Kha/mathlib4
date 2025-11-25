@@ -7,6 +7,22 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Sébasti
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Limits and asymptotics of power functions at `+∞`

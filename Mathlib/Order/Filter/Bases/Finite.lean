@@ -6,7 +6,15 @@ Authors: Yury Kudryashov, Johannes Hölzl, Mario Carneiro, Patrick Massot
 module
 
 public import Mathlib.Order.Filter.Bases.Basic
-public import Mathlib.Order.Filter.Finite
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Set.Pairwise.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Order.Filter.Finite
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Finiteness results on filter bases

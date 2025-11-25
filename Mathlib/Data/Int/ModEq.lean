@@ -6,6 +6,10 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Data.Nat.ModEq
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Divisibility.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Int
 
 /-!
 

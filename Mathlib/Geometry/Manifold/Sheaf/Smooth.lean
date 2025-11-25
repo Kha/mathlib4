@@ -6,11 +6,13 @@ Authors: Heather Macbeth, Adam Topaz
 module
 
 public import Mathlib.Algebra.Category.Ring.Colimits
-public import Mathlib.Algebra.Category.Ring.FilteredColimits
-public import Mathlib.Algebra.Category.Ring.Limits
-public import Mathlib.CategoryTheory.Sites.Whiskering
 public import Mathlib.Geometry.Manifold.Algebra.SmoothFunctions
 public import Mathlib.Geometry.Manifold.Sheaf.Basic
+public import Mathlib.CategoryTheory.Limits.Preserves.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Category.Ring.Limits
 
 /-! # The sheaf of smooth functions on a manifold
 

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Order.Bounds.Basic
 public import Mathlib.Order.SetNotation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
 
 /-!
 # Definition of complete lattices

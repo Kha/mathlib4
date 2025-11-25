@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.List.Duplicate
 public import Mathlib.Data.List.Sort
+public import Mathlib.Data.List.Basic
+public import Mathlib.Data.List.Nodup
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalence between `Fin (length l)` and elements of a list

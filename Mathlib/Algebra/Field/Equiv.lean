@@ -6,8 +6,12 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.Algebra.Field.IsField
-public import Mathlib.Algebra.Group.Units.Equiv
-public import Mathlib.Algebra.GroupWithZero.Equiv
+public import Mathlib.Algebra.GroupWithZero.Hom
+public import Mathlib.Algebra.Group.Units.Hom
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Equiv
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Group.Units.Equiv
 
 /-!
 # If a semiring is a field, any isomorphic semiring is also a field.

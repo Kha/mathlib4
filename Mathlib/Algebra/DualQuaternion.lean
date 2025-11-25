@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.DualNumber
 public import Mathlib.Algebra.Quaternion
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Dual quaternions

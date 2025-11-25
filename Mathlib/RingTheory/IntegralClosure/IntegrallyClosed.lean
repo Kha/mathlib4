@@ -5,8 +5,18 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.RingTheory.Localization.Integral
-public import Mathlib.RingTheory.Localization.LocalizationLocalization
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
+public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.Localization.LocalizationLocalization
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Integrally closed rings

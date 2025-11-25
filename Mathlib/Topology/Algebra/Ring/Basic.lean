@@ -6,10 +6,13 @@ Authors: Patrick Massot, Johannes Hölzl
 module
 
 public import Mathlib.Algebra.Order.AbsoluteValue.Basic
-public import Mathlib.Algebra.Ring.Opposite
-public import Mathlib.Algebra.Ring.Prod
 public import Mathlib.Algebra.Ring.Subring.Basic
 public import Mathlib.Topology.Algebra.Group.GroupTopology
+public import Mathlib.Algebra.Ring.Pi
+public import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
 
 /-!
 

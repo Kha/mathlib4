@@ -6,6 +6,7 @@ Authors: Kenny Lau, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Tactic.TypeStar
 
 /-!
 

@@ -6,7 +6,10 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.LinearAlgebra.Finsupp.LSum
-public import Mathlib.LinearAlgebra.Pi
+public import Mathlib.Algebra.Module.Submodule.Range
+import Mathlib.LinearAlgebra.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Properties of the module `α →₀ M`

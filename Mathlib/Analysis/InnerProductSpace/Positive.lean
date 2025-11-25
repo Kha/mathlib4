@@ -6,8 +6,16 @@ Authors: Anatole Dedecker
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Spectrum
-public import Mathlib.Analysis.Matrix.Hermitian
 public import Mathlib.LinearAlgebra.Matrix.PosDef
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Matrix.Hermitian
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+import Mathlib.Analysis.Normed.Operator.Banach
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
 
 /-!
 # Positive operators

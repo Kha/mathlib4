@@ -5,9 +5,13 @@ Authors: Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.Category.Grp.EnoughInjectives
-public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
-public import Mathlib.Algebra.Ring.Shrink
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Shrink
+import Mathlib.Algebra.Category.Grp.EnoughInjectives
+import Mathlib.Algebra.Category.Grp.ZModuleEquivalence
+import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
 
 /-!
 # Category of $R$-modules has enough injectives

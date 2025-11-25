@@ -5,7 +5,17 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot, Yury Kudryashov, Rémy
 -/
 module
 
-public import Mathlib.Order.Interval.Set.Basic
+public import Mathlib.Data.Set.Basic
+public import Mathlib.Order.Interval.Set.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.ByContra
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Interval properties in linear orders

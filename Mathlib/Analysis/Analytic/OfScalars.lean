@@ -6,6 +6,28 @@ Authors: Edward Watine
 module
 
 public import Mathlib.Analysis.Analytic.ConvergenceRadius
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.List.OfFn
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Scalar series

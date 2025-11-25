@@ -5,9 +5,19 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
 public import Mathlib.Analysis.Normed.Lp.lpSpace
 public import Mathlib.Analysis.InnerProductSpace.PiL2
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 /-!
 # Hilbert sum of a family of inner product spaces

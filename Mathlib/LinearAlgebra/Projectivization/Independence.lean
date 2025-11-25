@@ -6,6 +6,9 @@ Authors: Michael Blyth
 module
 
 public import Mathlib.LinearAlgebra.Projectivization.Basic
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
 
 /-!
 # Independence in Projective Space

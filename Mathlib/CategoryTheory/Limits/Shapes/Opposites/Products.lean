@@ -5,8 +5,10 @@ Authors: Kim Morrison, Floris van Doorn
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Opposites
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteProducts
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Opposites
 
 /-!
 # Products and coproducts in `C` and `Cᵒᵖ`

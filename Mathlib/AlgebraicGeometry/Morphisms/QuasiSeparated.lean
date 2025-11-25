@@ -7,9 +7,12 @@ module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Constructors
 public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Equalizer
-public import Mathlib.Topology.QuasiSeparated
-public import Mathlib.Topology.Sheaves.CommRingCat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Equalizer
 
 /-!
 # Quasi-separated morphisms

@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.Map
 public import Mathlib.Algebra.Polynomial.Eval.Defs
-public import Mathlib.RingTheory.Ideal.Quotient.Defs
+public import Mathlib.LinearAlgebra.Quotient.Defs
+public import Mathlib.RingTheory.Ideal.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # modular equivalence for submodule

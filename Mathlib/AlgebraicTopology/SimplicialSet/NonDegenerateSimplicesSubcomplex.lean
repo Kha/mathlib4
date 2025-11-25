@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.NonDegenerateSimplices
+import Mathlib.Tactic.Lemma
 
 /-!
 # The type of nondegenerate simplices not in a subcomplex

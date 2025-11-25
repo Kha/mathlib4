@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.Complex.ValueDistribution.CountingFunction
 public import Mathlib.Analysis.Complex.ValueDistribution.ProximityFunction
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Characteristic Function of Value Distribution Theory

@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Idempotents.Karoubi
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Idempotent completeness and functor categories

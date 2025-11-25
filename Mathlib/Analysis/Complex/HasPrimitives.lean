@@ -5,8 +5,24 @@ Authors: Ian Jauslin, Alex Kontorovich, Oliver Nash
 -/
 module
 
-public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.Asymptotics
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Complex.Convex
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Primitives of Holomorphic Functions

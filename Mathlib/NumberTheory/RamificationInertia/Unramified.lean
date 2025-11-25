@@ -6,8 +6,15 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.NumberTheory.RamificationInertia.Basic
-public import Mathlib.RingTheory.LocalRing.ResidueField.Instances
-public import Mathlib.RingTheory.Unramified.LocalRing
+public import Mathlib.RingTheory.Unramified.Locus
+import Mathlib.FieldTheory.Perfect
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.IdealQuotient
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Unramified.LocalRing
+import Mathlib.RingTheory.LocalRing.ResidueField.Instances
 
 /-!
 

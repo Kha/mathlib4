@@ -5,7 +5,12 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.List.Forall2
+public import Mathlib.Logic.Relator
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Forall2
 /-!
 # List sections
 

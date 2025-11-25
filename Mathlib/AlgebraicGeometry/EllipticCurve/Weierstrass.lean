@@ -5,11 +5,10 @@ Authors: Kevin Buzzard, David Kurniadi Angdinata
 -/
 module
 
-public import Mathlib.Algebra.CharP.Defs
 public import Mathlib.Algebra.CubicDiscriminant
-public import Mathlib.RingTheory.Nilpotent.Defs
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
 
 /-!
 # Weierstrass equations of elliptic curves

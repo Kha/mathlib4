@@ -5,12 +5,28 @@ Authors: Johan Commelin, Eric Wieser
 -/
 module
 
-public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.LinearAlgebra.Matrix.Diagonal
-public import Mathlib.LinearAlgebra.Matrix.DotProduct
-public import Mathlib.LinearAlgebra.Matrix.Dual
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.Dimension.LinearMap
+public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.Algebra.Order.Star.Basic
+public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+import Mathlib.LinearAlgebra.Determinant
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.IsField
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.Matrix.Diagonal
+import Mathlib.LinearAlgebra.Matrix.DotProduct
+import Mathlib.LinearAlgebra.Matrix.Dual
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.Nontriviality.Core
 
 /-!
 # Rank of matrices

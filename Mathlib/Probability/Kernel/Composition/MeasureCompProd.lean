@@ -5,9 +5,14 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
-public import Mathlib.MeasureTheory.Measure.Prod
 public import Mathlib.Probability.Kernel.Composition.CompProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
 
 /-!
 # Composition-Product of a measure and a kernel

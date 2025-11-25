@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Topology.Metrizable.Basic
 public import Mathlib.Topology.Compactness.Lindelof
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Second-countability of pseudometrizable Lindelöf spaces

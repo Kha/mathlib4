@@ -5,11 +5,33 @@ Authors: Anatole Dedecker, Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.Ring.Action.ConjAct
-public import Mathlib.Analysis.Analytic.ChangeOrigin
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Data.Nat.Choose.Cast
 public import Mathlib.Analysis.Analytic.OfScalars
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Data.Finset.NoncommProd
+public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Analytic.ChangeOrigin
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.List.OfFn
+import Mathlib.Topology.Algebra.Algebra
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Ring.Action.ConjAct
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Ring.InfiniteSum
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Cast
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Exponential in a Banach algebra

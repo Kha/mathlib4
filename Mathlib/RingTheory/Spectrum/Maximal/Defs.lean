@@ -6,6 +6,7 @@ Authors: David Kurniadi Angdinata
 module
 
 public import Mathlib.RingTheory.Ideal.Maximal
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Maximal spectrum of a commutative (semi)ring

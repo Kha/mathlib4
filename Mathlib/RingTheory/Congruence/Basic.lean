@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Ring.Action.Basic
 public import Mathlib.GroupTheory.Congruence.Basic
 public import Mathlib.RingTheory.Congruence.Defs
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruence relations on rings

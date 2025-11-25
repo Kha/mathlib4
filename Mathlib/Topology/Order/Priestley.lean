@@ -5,8 +5,10 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.UpperLower.Basic
 public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Order.UpperLower.Basic
 
 /-!
 # Priestley spaces

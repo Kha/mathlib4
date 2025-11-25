@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Algebra.Module.Alternating.Topology
 public import Mathlib.Analysis.NormedSpace.Multilinear.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Operator norm on the space of continuous alternating maps

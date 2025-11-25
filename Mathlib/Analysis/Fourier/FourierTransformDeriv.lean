@@ -5,13 +5,28 @@ Authors: Alex Kontorovich, David Loeffler, Heather Macbeth, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.Analysis.Calculus.ContDiff.CPolynomial
-public import Mathlib.Analysis.Fourier.AddCircle
 public import Mathlib.Analysis.Fourier.FourierTransform
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
-public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
-public import Mathlib.Analysis.Calculus.ContDiff.Bounds
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ParametricIntegral
+import Mathlib.Analysis.Fourier.AddCircle
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
+import Mathlib.Analysis.Calculus.ContDiff.CPolynomial
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Derivatives of the Fourier transform

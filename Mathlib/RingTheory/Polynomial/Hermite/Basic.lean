@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Algebra.Polynomial.Derivative
 public import Mathlib.Data.Nat.Factorial.DoubleFactorial
+public import Mathlib.Algebra.Ring.Parity
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Hermite polynomials

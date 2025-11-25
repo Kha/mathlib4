@@ -6,6 +6,7 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.ModelTheory.Satisfiability
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Type Spaces

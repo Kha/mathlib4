@@ -6,7 +6,13 @@ Authors: Daniel Weber
 module
 
 public import Mathlib.Topology.Perfect
-public import Mathlib.Tactic.Peel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
 
 /-!
 # Derived set

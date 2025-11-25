@@ -6,9 +6,15 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.Data.Finset.Sort
-public import Mathlib.Tactic.NoncommRing
-public import Mathlib.Topology.Category.Profinite.CofilteredLimit
 public import Mathlib.Topology.Category.Profinite.Nobeling.Basic
+public import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.NoncommRing
+import Mathlib.Algebra.Algebra.Bilinear
+import Mathlib.Data.List.Chain
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Topology.Category.Profinite.CofilteredLimit
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # The good products span

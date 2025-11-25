@@ -6,7 +6,13 @@ Authors: Kenny Lau, Yakov Pechersky
 module
 
 public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
-public import Mathlib.RingTheory.Valuation.ValuationRing
+public import Mathlib.RingTheory.Valuation.Integers
+import Mathlib.Tactic.ComputeDegree
+import Mathlib.Tactic.Lemma
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Valuation.ValuationRing
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Integral elements over the ring of integers of a valuation

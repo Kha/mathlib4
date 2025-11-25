@@ -5,11 +5,14 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.Lifting.Right
-public import Mathlib.CategoryTheory.Closed.FunctorCategory.Groupoid
-public import Mathlib.CategoryTheory.Groupoid.Discrete
-public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
 public import Mathlib.CategoryTheory.Monad.Comonadicity
+public import Mathlib.CategoryTheory.Closed.Monoidal
+public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
+public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
+import Mathlib.CategoryTheory.Groupoid.Discrete
+import Mathlib.CategoryTheory.Adjunction.Lifting.Right
+import Mathlib.CategoryTheory.Closed.FunctorCategory.Groupoid
+import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
 /-!
 
 # Functors into a complete monoidal closed category form a monoidal closed category.

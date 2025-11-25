@@ -5,10 +5,24 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Complex.ExponentialBounds
-public import Mathlib.Analysis.Normed.Order.Lattice
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.NumberTheory.Harmonic.Defs
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Complex.ExponentialBounds
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # The Euler-Mascheroni constant `γ`

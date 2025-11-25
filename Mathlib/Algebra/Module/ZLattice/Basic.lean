@@ -5,11 +5,33 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.LinearAlgebra.Countable
-public import Mathlib.LinearAlgebra.FreeModule.PID
 public import Mathlib.MeasureTheory.Group.FundamentalDomain
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
-public import Mathlib.RingTheory.Localization.Module
+public import Mathlib.Data.Int.Basic
+public import Mathlib.LinearAlgebra.Dimension.DivisionRing
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.LinearAlgebra.Countable
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Data.Countable.Basic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.Localization.Module
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 
 /-!
 # ℤ-lattices

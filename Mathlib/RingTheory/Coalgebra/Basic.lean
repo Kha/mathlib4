@@ -5,8 +5,12 @@ Authors: Ali Ramsey, Eric Wieser
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
 public import Mathlib.LinearAlgebra.TensorProduct.Associator
+public import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.Finiteness
 
 /-!
 # Coalgebras

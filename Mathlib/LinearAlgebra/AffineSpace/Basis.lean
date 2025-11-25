@@ -7,8 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.AffineSpace.Centroid
 public import Mathlib.LinearAlgebra.AffineSpace.Independent
-public import Mathlib.LinearAlgebra.AffineSpace.Pointwise
 public import Mathlib.LinearAlgebra.Basis.SMul
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.AffineSpace.Pointwise
 
 /-!
 # Affine bases and barycentric coordinates

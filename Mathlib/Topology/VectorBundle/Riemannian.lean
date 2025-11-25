@@ -5,9 +5,20 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.LinearMap
 public import Mathlib.Topology.VectorBundle.Constructions
 public import Mathlib.Topology.VectorBundle.Hom
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.InnerProductSpace.LinearMap
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 
 /-! # Riemannian vector bundles
 

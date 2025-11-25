@@ -5,8 +5,16 @@ Authors: Yaël Dillies, Kin Yau James Wong, Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
 public import Mathlib.Probability.Kernel.Composition.MeasureCompProd
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
 
 /-!
 # Disintegration of measures and kernels

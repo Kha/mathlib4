@@ -7,6 +7,12 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Plus
 public import Mathlib.CategoryTheory.Limits.Shapes.ConcreteCategory
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 

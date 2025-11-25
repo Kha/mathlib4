@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Action.Basic
 public import Mathlib.Algebra.Group.Action.Hom
 public import Mathlib.Algebra.Group.End
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Interaction between actions and endomorphisms/automorphisms

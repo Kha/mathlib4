@@ -5,13 +5,16 @@ Authors: Oliver Nash, Eric Wieser
 -/
 module
 
-public import Mathlib.Topology.Algebra.InfiniteSum.Basic
-public import Mathlib.Topology.Algebra.Group.Pointwise
 public import Mathlib.Topology.Algebra.Ring.Basic
 public import Mathlib.Topology.Algebra.Star
-public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.FinTwo
-public import Mathlib.LinearAlgebra.Matrix.Trace
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Piecewise
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
 
 /-!
 # Topological properties of matrices

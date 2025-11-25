@@ -6,6 +6,12 @@ Authors: Kyle Miller
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.DeleteEdges
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Infix
+import Mathlib.Data.List.TakeDrop
+import Mathlib.Data.Set.List
 
 /-!
 

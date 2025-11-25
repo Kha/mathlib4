@@ -6,10 +6,10 @@ Authors: Josha Dekker
 module
 
 public import Mathlib.Order.Filter.Cofinite
-public import Mathlib.Order.Filter.CountableInter
 public import Mathlib.Order.Filter.CardinalInter
-public import Mathlib.SetTheory.Cardinal.Arithmetic
-public import Mathlib.SetTheory.Cardinal.Cofinality
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Lattice
+import Mathlib.SetTheory.Cardinal.Arithmetic
 
 /-!
 # The cocardinal filter

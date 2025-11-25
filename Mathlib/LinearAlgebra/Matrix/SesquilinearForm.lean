@@ -5,14 +5,17 @@ Authors: Anne Baanen, Kexing Ying, Moritz Doll
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Action.Opposite
-public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
 public import Mathlib.LinearAlgebra.Matrix.Basis
 public import Mathlib.LinearAlgebra.Matrix.Nondegenerate
 public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-public import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
 public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
-public import Mathlib.LinearAlgebra.Basis.Bilinear
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Basis.Bilinear
+import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Sesquilinear form

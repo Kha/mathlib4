@@ -5,9 +5,13 @@ Authors: Pim Otte
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Lemmas
-public import Mathlib.Data.Set.Finite.Lattice
 public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.Algebra.Ring.Parity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Lemmas
 
 /-!
 # Big operators on a finset in the natural numbers

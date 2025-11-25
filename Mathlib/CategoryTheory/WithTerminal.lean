@@ -6,5 +6,6 @@ Authors: Joseph Tooby-Smith, Adam Topaz
 module
 
 public import Mathlib.CategoryTheory.WithTerminal.Basic
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-10")

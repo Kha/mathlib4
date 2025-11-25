@@ -5,7 +5,21 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.MeasureTheory.Covering.DensityTheorem
+public import Mathlib.MeasureTheory.Measure.Doubling
+public import Mathlib.Topology.MetricSpace.Thickening
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Covering.DensityTheorem
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Liminf, limsup, and uniformly locally doubling measures.

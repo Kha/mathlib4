@@ -5,9 +5,16 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.RingTheory.Localization.Finiteness
-public import Mathlib.RingTheory.RingHom.FiniteType
-public import Mathlib.RingTheory.Localization.Away.AdjoinRoot
+public import Mathlib.RingTheory.FinitePresentation
+public import Mathlib.RingTheory.LocalProperties.Basic
+import Mathlib.RingTheory.FiniteStability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.BigOperators
+import Mathlib.RingTheory.Localization.Finiteness
+import Mathlib.RingTheory.RingHom.FiniteType
+import Mathlib.RingTheory.Localization.Away.AdjoinRoot
 
 /-!
 

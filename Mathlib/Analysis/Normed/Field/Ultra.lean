@@ -6,8 +6,19 @@ Authors: Yakov Pechersky
 module
 
 public import Mathlib.Analysis.Normed.Field.Basic
-public import Mathlib.Analysis.Normed.Ring.Ultra
-public import Mathlib.Data.Nat.Choose.Sum
+public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Analysis.Normed.Group.Ultra
+import Mathlib.Analysis.Normed.Ring.Ultra
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 ## Conditions to have an ultrametric norm on a division ring

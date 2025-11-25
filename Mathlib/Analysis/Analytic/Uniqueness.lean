@@ -5,11 +5,19 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Linear
-public import Mathlib.Analysis.Analytic.Composition
-public import Mathlib.Analysis.Analytic.Constructions
-public import Mathlib.Analysis.Normed.Module.Completion
-public import Mathlib.Analysis.Analytic.ChangeOrigin
+public import Mathlib.Analysis.Analytic.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Analysis.Normed.Module.Completion
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
 
 /-!
 # Uniqueness principle for analytic functions

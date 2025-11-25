@@ -5,11 +5,32 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.NumberTheory.Cyclotomic.Discriminant
-public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
-public import Mathlib.RingTheory.Norm.Transitivity
-public import Mathlib.RingTheory.Polynomial.Eisenstein.IsIntegral
-public import Mathlib.RingTheory.Prime
+public import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
+public import Mathlib.RingTheory.RootsOfUnity.Minpoly
+public import Mathlib.NumberTheory.NumberField.Discriminant.Defs
+import Mathlib.RingTheory.Prime
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.CharP.IntermediateField
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Data.Int.CharZero
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.IdealQuotient
+import Mathlib.NumberTheory.Cyclotomic.Discriminant
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Localization.NormTrace
+import Mathlib.RingTheory.Norm.Transitivity
+import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.RingTheory.Ideal.Norm.AbsNorm
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
+import Mathlib.RingTheory.Polynomial.Eisenstein.IsIntegral
 
 /-!
 # Ring of integers of `p ^ n`-th cyclotomic fields

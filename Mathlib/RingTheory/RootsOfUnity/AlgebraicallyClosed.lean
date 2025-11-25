@@ -6,7 +6,10 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity
-public import Mathlib.NumberTheory.Cyclotomic.Basic
+public import Mathlib.FieldTheory.SeparableClosure
+import Mathlib.Tactic.TypeStar
+import Mathlib.NumberTheory.Cyclotomic.Basic
+import Mathlib.Data.Nat.Cast.NeZero
 
 /-!
 # Instances for HasEnoughRootsOfUnity

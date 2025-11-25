@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Subgroup.Basic
 public import Mathlib.GroupTheory.Submonoid.Center
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Centers of subgroups

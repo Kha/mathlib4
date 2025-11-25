@@ -9,6 +9,11 @@ public import Mathlib.Logic.Equiv.Fin.Basic
 public import Mathlib.Topology.Connected.LocallyConnected
 public import Mathlib.Topology.DenseEmbedding
 public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Further properties of homeomorphisms

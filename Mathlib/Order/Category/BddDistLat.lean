@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Order.Category.BddLat
 public import Mathlib.Order.Category.DistLat
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of bounded distributive lattices

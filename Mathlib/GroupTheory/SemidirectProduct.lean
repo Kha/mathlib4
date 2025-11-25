@@ -6,6 +6,8 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.GroupTheory.Complement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Semidirect product

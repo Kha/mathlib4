@@ -5,9 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Shift.CommShift
 public import Mathlib.CategoryTheory.Shift.Induced
 public import Mathlib.CategoryTheory.Quotient
+import Mathlib.Tactic.Lemma
 
 /-!
 # The shift on a quotient category

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
 public import Mathlib.CategoryTheory.Monoidal.Functor
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Preadditive.Biproducts
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Preadditive monoidal categories

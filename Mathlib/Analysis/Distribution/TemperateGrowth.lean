@@ -5,9 +5,26 @@ Authors: Moritz Doll, Anatole Dedecker, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Bounds
-public import Mathlib.Analysis.SpecialFunctions.JapaneseBracket
-public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Analysis.SpecialFunctions.JapaneseBracket
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
 
 
 /-! # Functions and measures of temperate growth -/

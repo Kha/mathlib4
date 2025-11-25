@@ -5,10 +5,15 @@ Authors: Sophie Morel
 -/
 module
 
-public import Mathlib.Algebra.Category.Grp.LargeColimits
-public import Mathlib.Algebra.Category.Grp.Limits
-public import Mathlib.Algebra.Module.CharacterModule
-public import Mathlib.CategoryTheory.Limits.Preserves.Ulift
+public import Mathlib.CategoryTheory.Limits.Creates
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.Algebra.Category.Grp.Preadditive
+import Mathlib.Data.ULift
+import Mathlib.CategoryTheory.Limits.Yoneda
+import Mathlib.Algebra.Category.Grp.ForgetCorepresentable
+import Mathlib.Algebra.Category.Grp.LargeColimits
+import Mathlib.Algebra.Category.Grp.Limits
+import Mathlib.CategoryTheory.Limits.Preserves.Ulift
 
 /-!
 # Properties of the universe lift functor for groups

@@ -5,12 +5,14 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.CategoryTheory.Elementwise
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
-public import Mathlib.Tactic.CategoryTheory.Elementwise
-public import Mathlib.CategoryTheory.Sites.ConcreteSheafification
 public import Mathlib.CategoryTheory.Subpresheaf.Image
 public import Mathlib.CategoryTheory.Subpresheaf.Sieves
+public import Mathlib.CategoryTheory.Sites.Sheaf
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Sites.ConcreteSheafification
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Types.Colimits
 
 /-!
 

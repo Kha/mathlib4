@@ -5,9 +5,14 @@ Authors: Vlad Tsyrklevich
 -/
 module
 
-public import Mathlib.Combinatorics.Hall.Basic
 public import Mathlib.Combinatorics.SimpleGraph.Bipartite
 public import Mathlib.Combinatorics.SimpleGraph.Matching
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.Hall.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.SetTheory.Cardinal.SchroederBernstein
 
 /-!
 # Hall's Marriage Theorem

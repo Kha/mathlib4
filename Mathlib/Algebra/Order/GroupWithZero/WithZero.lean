@@ -6,7 +6,9 @@ Authors: Kevin Buzzard
 module
 
 public import Mathlib.Algebra.Order.GroupWithZero.Canonical
-public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Units
 /-!
 
 # Covariant instances on `WithZero`

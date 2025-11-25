@@ -6,8 +6,12 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplicialObject.Split
-public import Mathlib.AlgebraicTopology.DoldKan.Degeneracies
 public import Mathlib.AlgebraicTopology.DoldKan.FunctorN
+import Mathlib.Tactic.TypeStar
+import Mathlib.AlgebraicTopology.DoldKan.Decomposition
+import Mathlib.AlgebraicTopology.DoldKan.Degeneracies
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 

@@ -8,9 +8,23 @@ module
 public import Mathlib.Topology.Order.Bornology
 public import Mathlib.Topology.Order.Compact
 public import Mathlib.Topology.MetricSpace.ProperSpace
-public import Mathlib.Topology.MetricSpace.Cauchy
 public import Mathlib.Topology.MetricSpace.Defs
 public import Mathlib.Topology.EMetricSpace.Diam
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.Filter.Prod
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 ## Boundedness in (pseudo)-metric spaces

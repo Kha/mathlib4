@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.Dual.Lemmas
 public import Mathlib.LinearAlgebra.Matrix.ToLin
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Contractions

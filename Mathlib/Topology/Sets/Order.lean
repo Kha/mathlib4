@@ -6,6 +6,8 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Topology.Sets.Closeds
+public import Mathlib.Order.UpperLower.CompleteLattice
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Clopen upper sets

@@ -7,7 +7,18 @@ module
 
 public import Mathlib.Analysis.Convex.Combination
 public import Mathlib.Analysis.Convex.Function
-public import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Option
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Jensen's inequality and maximum principle for convex functions

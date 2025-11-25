@@ -5,12 +5,15 @@ Authors: Noam Atar
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
-public import Mathlib.MeasureTheory.Group.Integral
-public import Mathlib.MeasureTheory.Group.Measure
-public import Mathlib.Topology.Metrizable.Urysohn
 public import Mathlib.MeasureTheory.Measure.Haar.Unique
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Topology.ContinuousMap.Ordered
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Modular character of a locally compact group

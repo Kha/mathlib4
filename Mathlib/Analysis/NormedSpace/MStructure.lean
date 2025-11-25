@@ -5,10 +5,13 @@ Authors: Christopher Hoskin
 -/
 module
 
-public import Mathlib.Algebra.Ring.Idempotent
 public import Mathlib.Analysis.Normed.Group.Basic
-public import Mathlib.Order.Basic
-public import Mathlib.Tactic.NoncommRing
+public import Mathlib.Algebra.Group.Idempotent
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.NoncommRing
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Idempotent
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # M-structure

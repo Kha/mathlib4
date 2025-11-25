@@ -8,6 +8,8 @@ module
 
 public import Mathlib.Algebra.BigOperators.Finsupp.Basic
 public import Mathlib.Algebra.Order.Antidiag.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Antidiagonal of finitely supported functions as finsets

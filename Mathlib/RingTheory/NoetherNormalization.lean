@@ -5,9 +5,27 @@ Authors: Riccardo Brasca, Sihan Su, Wan Lin, Xiaoyang Su
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.Monad
-public import Mathlib.Data.List.Indexes
-public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+public import Mathlib.RingTheory.FiniteType
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Algebra.MvPolynomial.Monad
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Data.List.Indexes
+import Mathlib.Data.List.OfFn
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Data.Nat.Digits.Lemmas
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 /-!
 # Noether normalization lemma
 This file contains a proof by Nagata of the Noether normalization lemma.

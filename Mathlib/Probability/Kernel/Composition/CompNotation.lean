@@ -6,6 +6,8 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 module
 
 public import Mathlib.Probability.Kernel.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Notation for the composition of a measure and a kernel

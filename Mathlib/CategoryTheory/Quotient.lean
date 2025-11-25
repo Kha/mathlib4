@@ -5,9 +5,10 @@ Authors: David Wärn
 -/
 module
 
-public import Mathlib.CategoryTheory.NatIso
-public import Mathlib.CategoryTheory.EqToHom
 public import Mathlib.CategoryTheory.Groupoid
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quotient category

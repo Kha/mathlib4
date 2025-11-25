@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.Embedding.Basic
 public import Mathlib.Algebra.Homology.Additive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The restriction functor of an embedding of complex shapes

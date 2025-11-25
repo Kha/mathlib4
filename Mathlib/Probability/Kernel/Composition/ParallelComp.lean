@@ -6,8 +6,12 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 module
 
 public import Mathlib.MeasureTheory.Measure.Prod
-public import Mathlib.Probability.Kernel.Composition.MapComap
-public import Mathlib.Probability.Kernel.MeasurableLIntegral
+public import Mathlib.Probability.Kernel.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.Probability.Kernel.Composition.MapComap
 
 /-!
 

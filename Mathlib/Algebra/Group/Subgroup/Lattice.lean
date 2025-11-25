@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Operations
 public import Mathlib.Algebra.Group.Subgroup.Defs
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Order.Bounds.Image
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Lattice structure of subgroups

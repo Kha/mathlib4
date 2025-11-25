@@ -5,8 +5,12 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 public import Mathlib.LinearAlgebra.Semisimple
+public import Mathlib.Analysis.InnerProductSpace.Symmetric
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 
 /-!
 # Semisimple operators on inner product spaces

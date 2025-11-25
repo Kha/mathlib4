@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.Spectrum.Maximal.Defs
 public import Mathlib.RingTheory.Spectrum.Prime.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Maximal spectrum of a commutative (semi)ring

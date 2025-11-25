@@ -5,9 +5,26 @@ Authors: Sébastien Gouëzel, Mario Carneiro, Yury Kudryashov, Heather Macbeth
 -/
 module
 
-public import Mathlib.Topology.Algebra.Indicator
 public import Mathlib.Topology.Bornology.BoundedOperation
 public import Mathlib.Topology.ContinuousMap.Algebra
+public import Mathlib.Topology.Clopen
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Topology.Algebra.Indicator
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.UniformSpace.UniformApproximation
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Bounded continuous functions

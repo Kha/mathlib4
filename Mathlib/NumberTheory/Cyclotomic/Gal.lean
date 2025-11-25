@@ -7,6 +7,8 @@ module
 
 public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
 public import Mathlib.FieldTheory.PolynomialGaloisGroup
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 /-!
 # Galois group of cyclotomic extensions

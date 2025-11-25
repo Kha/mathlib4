@@ -5,9 +5,14 @@ Authors: Justin Thomas
 -/
 module
 
-public import Mathlib.FieldTheory.Minpoly.Field
-public import Mathlib.RingTheory.PrincipalIdealDomain
 public import Mathlib.Algebra.Polynomial.Module.AEval
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.FieldTheory.Minpoly.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.Polynomial.Degree.Domain
 
 /-!
 # Annihilating Ideal

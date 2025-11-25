@@ -5,8 +5,13 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.Polish.Basic
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Basic
+public import Mathlib.Topology.Metrizable.CompletelyMetrizable
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
 
 /-!
 # Results about strongly measurable functions

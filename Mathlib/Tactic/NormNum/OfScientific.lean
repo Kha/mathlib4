@@ -5,8 +5,12 @@ Authors: Mario Carneiro, Thomas Murrills
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Basic
-public meta import Mathlib.Data.Rat.Cast.Lemmas
+public import Mathlib.Tactic.NormNum.Basic
+public import Mathlib.Algebra.Order.Ring.Unbundled.Rat
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Rat.Cast.Defs
+import Mathlib.Data.Rat.Cast.Lemmas
 
 /-!
 ## `norm_num` plugin for scientific notation.

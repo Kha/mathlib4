@@ -6,8 +6,18 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Nat.ModEq
-public import Mathlib.Data.Nat.Prime.Basic
 public import Mathlib.NumberTheory.Zsqrtd.Basic
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Pell's equation and Matiyasevic's theorem

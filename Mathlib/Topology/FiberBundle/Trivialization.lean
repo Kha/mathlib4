@@ -6,10 +6,18 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Data.Bundle
-public import Mathlib.Data.Set.Image
 public import Mathlib.Topology.CompactOpen
 public import Mathlib.Topology.OpenPartialHomeomorph
 public import Mathlib.Topology.Order.Basic
+public import Mathlib.Data.Set.Piecewise
+public import Mathlib.Data.Set.Prod
+public import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Piecewise
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Trivializations

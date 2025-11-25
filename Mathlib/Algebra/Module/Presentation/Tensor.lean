@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Module.Presentation.Basic
 public import Mathlib.LinearAlgebra.TensorProduct.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Presentation of the tensor product of two modules

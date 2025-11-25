@@ -6,8 +6,11 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Sinc
-public import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Measurability and integrability of the sinc function

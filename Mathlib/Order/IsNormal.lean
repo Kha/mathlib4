@@ -5,8 +5,13 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Order.SuccPred.CompleteLinearOrder
-public import Mathlib.Order.SuccPred.InitialSeg
+public import Mathlib.Order.InitialSeg
+public import Mathlib.Order.SuccPred.Limit
+import Mathlib.Order.Cover
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Order.SuccPred.CompleteLinearOrder
+import Mathlib.Order.SuccPred.InitialSeg
 
 /-!
 # Normal functions

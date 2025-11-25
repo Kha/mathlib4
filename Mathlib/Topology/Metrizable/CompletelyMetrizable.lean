@@ -5,8 +5,15 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Gluing
-public import Mathlib.Topology.Metrizable.Uniformity
+public import Mathlib.Topology.Metrizable.Basic
+public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Gluing
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Completely metrizable spaces

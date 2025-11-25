@@ -6,8 +6,19 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.MeasureTheory.Measure.Real
-public import Mathlib.MeasureTheory.Measure.Typeclasses.Finite
-public import Mathlib.Topology.Algebra.InfiniteSum.Module
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Logic.Encodable.Lattice
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Instances.NNReal.Lemmas
 
 /-!
 

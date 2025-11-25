@@ -6,7 +6,8 @@ Authors: Sébastien Gouëzel, Floris van Doorn, Mario Carneiro, Martin Dvorak
 module
 
 public import Mathlib.Tactic.GCongr.Core
-public import Mathlib.Util.AssertExists
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Join of a list of lists

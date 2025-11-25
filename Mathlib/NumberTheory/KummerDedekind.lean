@@ -7,7 +7,12 @@ module
 
 public import Mathlib.RingTheory.Conductor
 public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
-public import Mathlib.RingTheory.IsAdjoinRoot
+public import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.RingTheory.IsAdjoinRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Kummer-Dedekind theorem

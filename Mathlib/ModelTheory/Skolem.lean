@@ -6,6 +6,8 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.ModelTheory.ElementarySubstructures
+import Mathlib.ModelTheory.Encoding
+import Mathlib.SetTheory.Cardinal.Arithmetic
 
 /-!
 # Skolem Functions and Downward Löwenheim–Skolem

@@ -6,6 +6,9 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Order.Filter.Cofinite
+public import Mathlib.Data.Set.Lattice
+public import Mathlib.Order.Filter.Map
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Computational realization of filters (experimental)

@@ -6,6 +6,9 @@ Authors: Daniel Roca González
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Dual
+public import Mathlib.Analysis.Normed.Operator.Banach
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 
 /-!
 # The Lax-Milgram Theorem

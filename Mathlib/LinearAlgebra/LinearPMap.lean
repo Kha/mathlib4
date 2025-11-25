@@ -6,6 +6,9 @@ Authors: Yury Kudryashov, Moritz Doll
 module
 
 public import Mathlib.LinearAlgebra.Prod
+public import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
 
 /-!
 # Partially defined linear maps

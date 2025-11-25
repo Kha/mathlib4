@@ -6,7 +6,9 @@ Authors: Floris van Doorn, Hannah Scholz
 module
 
 public import Mathlib.Topology.CWComplex.Classical.Finite
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
 
 /-!
 # Subcomplexes

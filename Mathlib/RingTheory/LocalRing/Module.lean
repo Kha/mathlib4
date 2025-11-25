@@ -6,16 +6,33 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Module.FinitePresentation
-public import Mathlib.Algebra.Module.Torsion.Basic
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.RingTheory.FiniteType
-public import Mathlib.RingTheory.Flat.EquationalCriterion
-public import Mathlib.RingTheory.Ideal.Quotient.ChineseRemainder
-public import Mathlib.RingTheory.LocalProperties.Exactness
-public import Mathlib.RingTheory.LocalRing.ResidueField.Basic
 public import Mathlib.RingTheory.LocalRing.ResidueField.Ideal
-public import Mathlib.RingTheory.Nakayama
 public import Mathlib.RingTheory.Support
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+import Mathlib.RingTheory.Nakayama
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.DirectSum.Finsupp
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.Flat.EquationalCriterion
+import Mathlib.RingTheory.LocalProperties.Exactness
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.Torsion.Basic
+import Mathlib.RingTheory.Ideal.Quotient.ChineseRemainder
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Finite modules over local rings

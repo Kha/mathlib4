@@ -6,8 +6,10 @@ Authors: Christian Merten
 module
 
 public import Mathlib.RingTheory.RingHom.FaithfullyFlat
-public import Mathlib.RingTheory.RingHom.Injective
-public import Mathlib.RingTheory.RingHom.Surjective
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.RingHom.Injective
+import Mathlib.RingTheory.RingHom.Surjective
 
 /-!
 # Properties satisfying faithfully flat descent for rings

@@ -5,9 +5,31 @@ Authors: Anatole Dedecker
 -/
 module
 
-public import Mathlib.Algebra.Order.Floor.Ring
-public import Mathlib.Order.Filter.AtTopBot.Floor
-public import Mathlib.Topology.Algebra.Order.Group
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Algebra.Order.Floor.Defs
+public import Mathlib.Data.Nat.Factorial.Basic
+public import Mathlib.Topology.Algebra.Group.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Order.Filter.AtTopBot.Floor
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Topological facts about `Int.floor`, `Int.ceil` and `Int.fract`

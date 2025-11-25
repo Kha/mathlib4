@@ -5,11 +5,15 @@ Authors: Florent Schaffhauser, Artie Khovanov
 -/
 module
 
-public import Mathlib.Algebra.Field.IsField
 public import Mathlib.Algebra.Order.Ring.Ordering.Defs
 public import Mathlib.Algebra.Ring.SumsOfSquares
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.IsField
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Ring orderings

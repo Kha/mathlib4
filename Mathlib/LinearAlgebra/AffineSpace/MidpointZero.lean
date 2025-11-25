@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.CharP.Invertible
 public import Mathlib.LinearAlgebra.AffineSpace.Midpoint
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Midpoint of a segment for characteristic zero

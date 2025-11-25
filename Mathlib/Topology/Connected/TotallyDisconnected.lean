@@ -6,6 +6,12 @@ Authors: Kenny Lau, Patrick Massot, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Connected.Clopen
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Totally disconnected and totally separated topological spaces

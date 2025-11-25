@@ -6,6 +6,11 @@ Authors: Wrenna Robson
 module
 
 public import Mathlib.Topology.MetricSpace.Basic
+public import Mathlib.Data.Finite.Prod
+public import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
 
 /-!
 # Infimum separation

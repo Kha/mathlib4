@@ -7,7 +7,8 @@ module
 
 public import Mathlib.LinearAlgebra.LinearPMap
 public import Mathlib.Topology.Algebra.Module.Basic
-public import Mathlib.Topology.Algebra.Module.Equiv
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Module.Equiv
 
 /-!
 # Partially defined linear operators over topological vector spaces

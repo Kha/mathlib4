@@ -5,7 +5,13 @@ Authors: Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrability.LogMeromorphic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Analytic.Order
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Analysis.SpecialFunctions.Integrability.LogMeromorphic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Integral of `log ∘ sin`

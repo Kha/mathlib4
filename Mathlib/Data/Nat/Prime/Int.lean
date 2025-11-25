@@ -6,9 +6,14 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Ring.Int.Defs
-public import Mathlib.Data.Nat.Prime.Basic
-public import Mathlib.Algebra.Group.Int.Units
-public import Mathlib.Data.Int.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Data.Nat.Basic
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Prime numbers in the naturals and the integers

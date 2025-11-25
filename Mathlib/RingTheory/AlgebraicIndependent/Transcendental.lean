@@ -5,9 +5,20 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.Fin.Tuple.Reflection
-public import Mathlib.RingTheory.Algebraic.MvPolynomial
 public import Mathlib.RingTheory.AlgebraicIndependent.Basic
+public import Mathlib.RingTheory.Algebraic.Defs
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.Adjoin.Polynomial
+import Mathlib.RingTheory.Algebraic.Basic
+import Mathlib.RingTheory.Algebraic.MvPolynomial
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Data.Fin.Tuple.Reflection
 
 /-!
 # Algebraic Independence

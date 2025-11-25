@@ -6,7 +6,13 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.AdjoinRoot
-public import Mathlib.RingTheory.Norm.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Norm.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Domain
 /-!
 # Irreducibility of X ^ p - a
 

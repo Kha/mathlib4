@@ -8,9 +8,9 @@ module
 public import Mathlib.Algebra.Category.ModuleCat.Abelian
 public import Mathlib.Algebra.Homology.Opposite
 public import Mathlib.CategoryTheory.Abelian.LeftDerived
-public import Mathlib.CategoryTheory.Abelian.Opposite
-public import Mathlib.CategoryTheory.Abelian.Projective.Resolution
 public import Mathlib.CategoryTheory.Linear.Yoneda
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ext

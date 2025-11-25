@@ -5,9 +5,16 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Dynamics.Ergodic.Action.OfMinimal
-public import Mathlib.Topology.Instances.AddCircle.DenseSubgroup
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import Mathlib.Dynamics.Ergodic.Ergodic
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Dynamics.Ergodic.Action.OfMinimal
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Instances.AddCircle.DenseSubgroup
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Ergodicity of an irrational rotation

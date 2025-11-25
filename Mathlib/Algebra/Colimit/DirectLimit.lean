@@ -8,7 +8,9 @@ module
 public import Mathlib.Algebra.Module.LinearMap.Defs
 public import Mathlib.Data.Rat.Cast.Defs
 public import Mathlib.Order.DirectedInverseSystem
-public import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Direct limit of algebraic structures

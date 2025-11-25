@@ -7,7 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.CatCommSq
 public import Mathlib.CategoryTheory.Localization.Predicate
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
 
 /-!
 # Localization of adjunctions

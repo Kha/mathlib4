@@ -5,9 +5,18 @@ Authors: Arend Mellendijk
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Analysis.SumIntegralComparisons
 public import Mathlib.NumberTheory.Harmonic.Defs
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Analysis.SumIntegralComparisons
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.Rat.BigOperators
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 

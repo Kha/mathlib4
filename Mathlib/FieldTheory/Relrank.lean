@@ -5,7 +5,13 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 /-!
 

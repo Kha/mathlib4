@@ -8,7 +8,15 @@ module
 public import Mathlib.Algebra.Polynomial.Splits
 public import Mathlib.FieldTheory.Galois.Notation
 public import Mathlib.FieldTheory.IntermediateField.Basic
-public import Mathlib.FieldTheory.Minpoly.Field
+public import Mathlib.FieldTheory.Minpoly.Basic
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.Polynomial.Tower
+public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Normal field extensions

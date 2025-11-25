@@ -5,9 +5,17 @@ Authors: James Sundstrom
 -/
 module
 
-public import Mathlib.Data.ENNReal.Real
-public import Mathlib.Order.WellFoundedSet
 public import Mathlib.Topology.EMetricSpace.Diam
+import Mathlib.Order.WellFoundedSet
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.ENNReal.Real
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Oscillation

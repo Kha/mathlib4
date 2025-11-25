@@ -6,9 +6,11 @@ Authors: Bhavik Mehta, Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
 
 /-!
 # Constructing equalizers from pullbacks and binary products.

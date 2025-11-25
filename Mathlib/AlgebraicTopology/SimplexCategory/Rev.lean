@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The covariant involution of the simplex category

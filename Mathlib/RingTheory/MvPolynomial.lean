@@ -6,10 +6,16 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Algebra.MvPolynomial.CommRing
-public import Mathlib.LinearAlgebra.Dimension.Finite
-public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 public import Mathlib.RingTheory.MvPolynomial.Basic
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Data.Finsupp.Fintype
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 # Multivariate polynomials over fields

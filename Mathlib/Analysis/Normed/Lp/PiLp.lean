@@ -5,10 +5,23 @@ Authors: Sébastien Gouëzel, Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.MeanInequalities
-public import Mathlib.Data.Fintype.Order
 public import Mathlib.LinearAlgebra.Matrix.Basis
 public import Mathlib.Analysis.Normed.Lp.ProdLp
+public import Mathlib.Data.ENNReal.BigOperators
+public import Mathlib.Data.Fintype.BigOperators
+public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Analysis.MeanInequalities
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Fintype.Order
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Defs
 
 /-!
 # `L^p` distance on finite products of metric spaces

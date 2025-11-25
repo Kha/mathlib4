@@ -6,6 +6,9 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.RingTheory.DedekindDomain.Ideal.Basic
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The ideal class group

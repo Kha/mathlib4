@@ -8,6 +8,8 @@ module
 public import Mathlib.Data.List.AList
 public import Mathlib.Data.Finset.Sigma
 public import Mathlib.Data.Part
+public import Mathlib.Data.Finset.Option
+import Mathlib.Tactic.Lemma
 
 /-!
 # Finite maps over `Multiset`

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Analysis.NormedSpace.Alternating.Curry
 public import Mathlib.LinearAlgebra.Alternating.Uncurry.Fin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # Uncurrying continuous alternating maps

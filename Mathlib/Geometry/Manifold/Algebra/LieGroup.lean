@@ -6,6 +6,9 @@ Authors: Nicolò Cavalleri
 module
 
 public import Mathlib.Geometry.Manifold.Algebra.Monoid
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-!
 # Lie groups

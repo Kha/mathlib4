@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Bialgebra.MonoidAlgebra
 public import Mathlib.RingTheory.HopfAlgebra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Hopf algebra structure on group algebras

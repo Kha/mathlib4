@@ -5,14 +5,33 @@ Authors: Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Algebra.Algebra.IsSimpleRing
 public import Mathlib.Algebra.BigOperators.Balance
-public import Mathlib.Algebra.Order.BigOperators.Expect
 public import Mathlib.Algebra.Order.Star.Basic
 public import Mathlib.Analysis.CStarAlgebra.Basic
 public import Mathlib.Analysis.Normed.Operator.ContinuousLinearMap
-public import Mathlib.Analysis.Normed.Ring.Finite
 public import Mathlib.Data.Real.Sqrt
+public import Mathlib.Algebra.Group.AddChar
+public import Mathlib.Algebra.Ring.Regular
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.Field.IsField
+import Mathlib.Algebra.Module.Rat
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Expect
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Module.Rat
+import Mathlib.Analysis.Normed.Ring.Finite
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # `RCLike`: a typeclass for ℝ or ℂ

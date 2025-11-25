@@ -5,8 +5,10 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Data.Fintype.Lattice
-public import Mathlib.RingTheory.Finiteness.Basic
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Lattice
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Finite suprema of finite modules

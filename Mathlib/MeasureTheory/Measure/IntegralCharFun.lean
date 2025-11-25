@@ -5,9 +5,31 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.MeasureTheory.Function.SpecialFunctions.Sinc
 public import Mathlib.MeasureTheory.Measure.CharacteristicFunction
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Sinc
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.MeasureTheory.Measure.RegularityCompacts
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Sinc
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integrals of characteristic functions

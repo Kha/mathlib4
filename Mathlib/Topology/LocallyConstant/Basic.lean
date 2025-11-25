@@ -6,9 +6,13 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Notation.Indicator
-public import Mathlib.Tactic.FinCases
 public import Mathlib.Topology.Connected.LocallyConnected
 public import Mathlib.Topology.Sets.Closeds
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Attr.Register
 
 /-!
 # Locally constant functions

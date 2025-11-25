@@ -6,8 +6,12 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.Polynomial.RingDivision
-public import Mathlib.RingTheory.Adjoin.Polynomial
 public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Adjoin.Polynomial
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Ideals in polynomial rings

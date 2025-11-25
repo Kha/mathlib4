@@ -5,8 +5,9 @@ Authors: Fernando Chu
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.Limits
 public import Mathlib.CategoryTheory.Skeletal
+public import Mathlib.CategoryTheory.Limits.HasLimits
+import Mathlib.CategoryTheory.Adjunction.Limits
 
 /-!
 # (Co)limits of the skeleton of a category

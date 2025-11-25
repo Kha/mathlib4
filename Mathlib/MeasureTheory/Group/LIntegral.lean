@@ -6,6 +6,8 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.MeasureTheory.Group.Measure
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
 
 /-!
 # Lebesgue Integration on Groups

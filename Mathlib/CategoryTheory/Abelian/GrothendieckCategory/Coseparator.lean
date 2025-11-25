@@ -5,8 +5,9 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
-public import Mathlib.CategoryTheory.Generator.Abelian
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Basic
+import Mathlib.CategoryTheory.Generator.Abelian
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
 
 /-!
 # Grothendieck categories have a coseparator

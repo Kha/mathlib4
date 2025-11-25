@@ -6,6 +6,9 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.Topology.MetricSpace.Holder
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
 
 /-!
 # Hölder norm

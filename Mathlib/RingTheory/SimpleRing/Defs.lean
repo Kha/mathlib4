@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.TwoSidedIdeal.Lattice
 public import Mathlib.Order.Atoms
+import Mathlib.Tactic.TypeStar
 
 /-! # Simple rings
 

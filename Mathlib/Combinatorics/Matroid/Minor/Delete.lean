@@ -6,6 +6,10 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Loop
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Matroid Deletion

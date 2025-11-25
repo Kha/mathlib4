@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Topology.Algebra.Module.LinearMapPiProd
 public import Mathlib.LinearAlgebra.Multilinear.Basic
-public import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
 
 /-!
 # Continuous multilinear maps

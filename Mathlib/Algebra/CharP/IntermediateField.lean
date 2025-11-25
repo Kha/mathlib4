@@ -5,8 +5,12 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.Algebra.CharP.Algebra
 public import Mathlib.FieldTheory.IntermediateField.Basic
+public import Mathlib.Algebra.CharP.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 

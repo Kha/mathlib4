@@ -6,6 +6,10 @@ Authors: Etienne Marion
 module
 
 public import Mathlib.LinearAlgebra.Matrix.PosDef
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Sesquilinear forms over a star ring

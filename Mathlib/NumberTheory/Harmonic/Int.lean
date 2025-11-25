@@ -7,7 +7,12 @@ module
 
 public import Mathlib.NumberTheory.Harmonic.Defs
 public import Mathlib.NumberTheory.Padics.PadicNumbers
-public import Mathlib.Tactic.Positivity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 

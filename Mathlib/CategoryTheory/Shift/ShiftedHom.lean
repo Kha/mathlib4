@@ -6,8 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Shift.CommShift
-public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! Shifted morphisms
 

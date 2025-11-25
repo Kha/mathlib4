@@ -5,11 +5,33 @@ Authors: Zhouhang Zhou, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Combinatorics.Enumerative.InclusionExclusion
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.Topology.ContinuousMap.Compact
 public import Mathlib.Topology.MetricSpace.ThickenedIndicator
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Combinatorics.Enumerative.InclusionExclusion
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Operator.Mul
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Set integral

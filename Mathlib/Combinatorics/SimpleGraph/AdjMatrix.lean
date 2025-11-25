@@ -8,6 +8,9 @@ module
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.WalkCounting
 public import Mathlib.LinearAlgebra.Matrix.Symmetric
 public import Mathlib.LinearAlgebra.Matrix.Trace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.Ring.Finset
 
 /-!
 # Adjacency Matrices

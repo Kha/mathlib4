@@ -7,6 +7,22 @@ module
 
 public import Mathlib.NumberTheory.ModularForms.JacobiTheta.TwoVariable
 public import Mathlib.Analysis.Complex.UpperHalfPlane.MoebiusAction
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-! # Jacobi's theta function
 

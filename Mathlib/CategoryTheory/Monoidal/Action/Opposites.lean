@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.Action.Basic
 public import Mathlib.CategoryTheory.Monoidal.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

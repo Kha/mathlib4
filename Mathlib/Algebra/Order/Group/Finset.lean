@@ -5,12 +5,19 @@ Authors: Yaël Dillies, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.OrderIso
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
-public import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
-public import Mathlib.Data.Finset.Lattice.Prod
+public import Mathlib.Data.Finset.Prod
+public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Data.Finset.Lattice.Prod
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # `Finset.sup` in a group

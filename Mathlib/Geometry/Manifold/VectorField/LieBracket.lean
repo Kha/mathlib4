@@ -5,11 +5,19 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.VectorField
-public import Mathlib.Geometry.Manifold.ContMDiffMFDeriv
-public import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
-public import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
 public import Mathlib.Geometry.Manifold.VectorField.Pullback
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Geometry.Manifold.ContMDiff.Atlas
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
+import Mathlib.Geometry.Manifold.MFDeriv.UniqueDifferential
 
 /-!
 # Lie brackets of vector fields on manifolds

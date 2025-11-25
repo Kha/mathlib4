@@ -5,11 +5,20 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Data.Countable.Basic
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Data.Set.Subsingleton
-public import Mathlib.Logic.Equiv.List
-public import Mathlib.Order.Preorder.Finite
+public import Mathlib.Data.Finset.Defs
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Logic.Encodable.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Restrict
+import Mathlib.Logic.Equiv.List
+import Mathlib.Order.Preorder.Finite
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Countable sets

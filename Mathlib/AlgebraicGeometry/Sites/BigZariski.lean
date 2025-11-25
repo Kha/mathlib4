@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicGeometry.Sites.Pretopology
 public import Mathlib.CategoryTheory.Sites.Canonical
+import Mathlib.Tactic.Lemma
 /-!
 # The big Zariski site of schemes
 

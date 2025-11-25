@@ -5,9 +5,16 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Subobject
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
-public import Mathlib.CategoryTheory.MorphismProperty.Limits
+public import Mathlib.CategoryTheory.Presentable.IsCardinalFiltered
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Abelian.FunctorCategory
+import Mathlib.CategoryTheory.Filtered.Connected
+import Mathlib.CategoryTheory.Filtered.Final
+import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Colim
+import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.Subobject
+import Mathlib.CategoryTheory.Limits.FunctorCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.Types.Filtered
 
 /-!
 # Morphisms to a colimit in a Grothendieck abelian category

@@ -6,7 +6,12 @@ Authors: Jean Lo
 module
 
 public import Mathlib.Dynamics.Flow
-public import Mathlib.Tactic.Monotonicity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # ω-limits

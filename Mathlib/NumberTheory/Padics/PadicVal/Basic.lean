@@ -8,8 +8,29 @@ module
 public import Mathlib.NumberTheory.Divisors
 public import Mathlib.NumberTheory.Padics.PadicVal.Defs
 public import Mathlib.Data.Nat.MaxPowDiv
-public import Mathlib.Data.Nat.Multiplicity
-public import Mathlib.Data.Nat.Prime.Int
+public import Mathlib.Data.Rat.Defs
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Data.Nat.Digits.Defs
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Nat.Multiplicity
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Digits.Lemmas
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # `p`-adic Valuation

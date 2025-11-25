@@ -7,8 +7,8 @@ module
 
 public import Mathlib.Data.Fintype.Basic
 public import Mathlib.CategoryTheory.Discrete.Basic
-public import Mathlib.CategoryTheory.Opposites
 public import Mathlib.CategoryTheory.Category.ULift
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finite categories

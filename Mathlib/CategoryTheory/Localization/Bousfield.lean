@@ -6,8 +6,10 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.ObjectProperty.Local
-public import Mathlib.CategoryTheory.MorphismProperty.Composition
-public import Mathlib.CategoryTheory.Localization.Adjunction
+public import Mathlib.CategoryTheory.Localization.Predicate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.Adjunction
 
 /-!
 # Bousfield localization

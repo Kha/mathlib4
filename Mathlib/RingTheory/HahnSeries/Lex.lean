@@ -9,6 +9,9 @@ public import Mathlib.Algebra.Order.Archimedean.Class
 public import Mathlib.Order.Hom.Lex
 public import Mathlib.Order.PiLex
 public import Mathlib.RingTheory.HahnSeries.Addition
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 

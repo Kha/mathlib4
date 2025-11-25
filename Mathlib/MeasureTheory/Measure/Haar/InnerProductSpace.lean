@@ -8,6 +8,10 @@ module
 public import Mathlib.Analysis.InnerProductSpace.Orientation
 public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
 public import Mathlib.Analysis.Normed.Lp.MeasurableSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 /-!
 # Volume forms and measures on inner product spaces

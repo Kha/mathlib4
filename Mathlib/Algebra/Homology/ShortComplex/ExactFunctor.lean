@@ -5,11 +5,13 @@ Authors: Joël Riou, Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.PreservesHomology
 public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
-public import Mathlib.Algebra.Homology.ShortComplex.Abelian
-public import Mathlib.CategoryTheory.Preadditive.LeftExact
-public import Mathlib.CategoryTheory.Abelian.Exact
+public import Mathlib.Data.List.TFAE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Abelian.Exact
+import Mathlib.CategoryTheory.Preadditive.LeftExact
 
 /-!
 # Exact functors

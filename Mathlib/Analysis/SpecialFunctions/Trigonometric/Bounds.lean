@@ -5,8 +5,20 @@ Authors: David Loeffler, Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Convex.SpecificFunctions.Deriv
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.ArctanDeriv
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Convex.SpecificFunctions.Deriv
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.ArctanDeriv
 
 /-!
 # Polynomial bounds for trigonometric functions

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Comma.Over.Basic
 public import Mathlib.CategoryTheory.WithTerminal.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Relations between `Cone`, `WithTerminal` and `Over`

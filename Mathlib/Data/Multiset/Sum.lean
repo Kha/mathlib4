@@ -5,7 +5,10 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Multiset
+public import Mathlib.Data.Multiset.MapFold
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Multiset.UnionInter
+import Mathlib.Algebra.Order.Group.Multiset
 
 /-!
 # Disjoint sum of multisets

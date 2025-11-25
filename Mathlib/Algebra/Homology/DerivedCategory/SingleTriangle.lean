@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.DerivedCategory.ShortExact
+import Mathlib.Tactic.Lemma
 
 /-!
 # The distinguished triangle of a short exact sequence in an abelian category

@@ -5,9 +5,12 @@ Authors: Sophie Morel, Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Data.Finsupp.ToDFinsupp
 public import Mathlib.Data.DFinsupp.Defs
-public import Mathlib.Logic.Small.Basic
+public import Mathlib.Data.Finsupp.Defs
+public import Mathlib.Logic.Small.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.ToDFinsupp
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Smallness of the `DFinsupp` type

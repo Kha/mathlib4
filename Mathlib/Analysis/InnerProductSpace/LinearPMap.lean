@@ -8,8 +8,11 @@ module
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
 public import Mathlib.Analysis.InnerProductSpace.ProdL2
 public import Mathlib.Analysis.Normed.Operator.Extend
-public import Mathlib.Topology.Algebra.Module.Equiv
 public import Mathlib.Topology.Algebra.Module.LinearPMap
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 

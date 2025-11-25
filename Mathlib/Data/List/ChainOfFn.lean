@@ -5,8 +5,14 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Data.List.Chain
-public import Mathlib.Data.List.OfFn
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Chain
+import Mathlib.Data.List.OfFn
 
 /-!
 # Lemmas about `IsChain` and `ofFn`

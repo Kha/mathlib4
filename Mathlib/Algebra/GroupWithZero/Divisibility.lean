@@ -6,9 +6,13 @@ Neil Strickland, Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
 public import Mathlib.Algebra.Divisibility.Units
-public import Mathlib.Data.Nat.Basic
+public import Mathlib.Algebra.GroupWithZero.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Basic
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Basic
 
 /-!
 # Divisibility in groups with zero.

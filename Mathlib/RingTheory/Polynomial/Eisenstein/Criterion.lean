@@ -5,9 +5,15 @@ Authors: Chris Hughes, Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Maps
 public import Mathlib.RingTheory.Polynomial.Content
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-! # The Eisenstein criterion
 

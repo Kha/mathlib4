@@ -6,7 +6,9 @@ Authors: Mario Carneiro, Johannes Hölzl
 module
 
 public import Mathlib.Dynamics.Ergodic.MeasurePreserving
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
 
 /-!
 # Behavior of the Lebesgue integral under maps

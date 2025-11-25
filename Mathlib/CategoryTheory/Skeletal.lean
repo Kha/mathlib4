@@ -8,7 +8,9 @@ module
 public import Mathlib.CategoryTheory.Adjunction.Basic
 public import Mathlib.CategoryTheory.Category.Preorder
 public import Mathlib.CategoryTheory.IsomorphismClasses
-public import Mathlib.CategoryTheory.Thin
+import Mathlib.CategoryTheory.Thin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Skeleton of a category

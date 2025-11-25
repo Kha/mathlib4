@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Shift.Adjunction
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The pullback of a shift by a monoid morphism

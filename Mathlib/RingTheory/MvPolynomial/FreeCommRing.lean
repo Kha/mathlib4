@@ -6,6 +6,7 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.RingTheory.FreeCommRing
+import Mathlib.Tactic.TypeStar
 
 /-!
 

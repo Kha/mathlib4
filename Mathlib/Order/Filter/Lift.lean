@@ -5,10 +5,16 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Order.Filter.Prod
-public import Mathlib.Order.ConditionallyCompleteLattice.Basic
-public import Mathlib.Order.Filter.Finite
 public import Mathlib.Order.Filter.Bases.Basic
+public import Mathlib.Tactic.Common
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Lift filters along filter and set functions

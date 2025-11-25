@@ -5,11 +5,18 @@ Authors: Johannes Hölzl, Mario Carneiro, Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Finset.Max
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Data.Set.Lattice
-public import Mathlib.Data.Fintype.Powerset
-public import Mathlib.Logic.Embedding.Set
+public import Mathlib.Order.SetNotation
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Set.Basic
+public import Mathlib.Logic.Embedding.Basic
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Max
+import Mathlib.Data.Fintype.Powerset
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Embedding.Set
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Lemmas on finiteness of sets

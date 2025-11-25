@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.Mon_
 public import Mathlib.CategoryTheory.Monoidal.Action.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of module objects over a monoid object.

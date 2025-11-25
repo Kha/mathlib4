@@ -9,6 +9,12 @@ public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
 public import Mathlib.AlgebraicGeometry.Noetherian
 public import Mathlib.AlgebraicGeometry.Stalk
 public import Mathlib.AlgebraicGeometry.Properties
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Spreading out morphisms

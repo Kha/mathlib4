@@ -8,6 +8,10 @@ module
 public import Mathlib.Analysis.Normed.Algebra.Exponential
 public import Mathlib.Analysis.Normed.Lp.ProdLp
 public import Mathlib.Topology.Instances.TrivSqZeroExt
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
 
 /-!
 # Results on `TrivSqZeroExt R M` related to the norm

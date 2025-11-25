@@ -5,7 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.DerivabilityStructure.Constructor
+public import Mathlib.CategoryTheory.Localization.DerivabilityStructure.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.DerivabilityStructure.Constructor
 
 /-!
 # Functorial resolutions give derivability structures

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Preorder
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The preorder category of a meet-semilattice with a greatest element is Cartesian monoidal

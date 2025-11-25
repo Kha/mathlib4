@@ -5,9 +5,16 @@ Authors: Josha Dekker
 -/
 module
 
-public import Mathlib.Probability.Notation
 public import Mathlib.Probability.CDF
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # Gamma distributions over ℝ
 

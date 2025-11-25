@@ -5,10 +5,11 @@ Authors: David Kurniadi Angdinata
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.PDeriv
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Basic
-public import Mathlib.Data.Fin.Tuple.Reflection
-public import Mathlib.Tactic.Ring.NamePolyVars
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Tactic.Ring.NamePolyVars
+import Mathlib.Data.Fin.Tuple.Reflection
 
 /-!
 # Weierstrass equations and the nonsingular condition in Jacobian coordinates

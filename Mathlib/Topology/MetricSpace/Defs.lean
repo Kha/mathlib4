@@ -6,6 +6,8 @@ Authors: Jeremy Avigad, Robert Y. Lewis, Johannes Hölzl, Mario Carneiro, Sébas
 module
 
 public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Metric spaces

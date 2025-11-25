@@ -6,6 +6,9 @@ Authors: Rémy Degenne, Lorenzo Luccioli
 module
 
 public import Mathlib.Probability.Kernel.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
 
 /-!
 # Map of a kernel by a measurable function

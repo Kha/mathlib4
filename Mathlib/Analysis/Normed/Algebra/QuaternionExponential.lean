@@ -7,7 +7,13 @@ module
 
 public import Mathlib.Analysis.Quaternion
 public import Mathlib.Analysis.Normed.Algebra.Exponential
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Topology.Algebra.Algebra
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Lemmas about `NormedSpace.exp` on `Quaternion`s

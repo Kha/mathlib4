@@ -5,7 +5,26 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.ZMod.ValMinAbs
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Int.Even
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Factorization.Induction
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Lagrange's four square theorem

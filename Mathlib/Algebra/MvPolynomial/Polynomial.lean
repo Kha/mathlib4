@@ -6,6 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Some lemmas relating polynomials and multivariable polynomials.

@@ -9,8 +9,34 @@ module
 
 public import Mathlib.Analysis.AbsoluteValue.Equivalence
 public import Mathlib.Analysis.SpecialFunctions.Log.Base
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
 public import Mathlib.NumberTheory.Padics.PadicNorm
+public import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Data.Nat.Digits.Lemmas
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.Order.BigOperators.Group.List
 
 /-!
 # Ostrowski’s Theorem

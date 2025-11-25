@@ -6,7 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.DoldKan.GammaCompN
-public import Mathlib.AlgebraicTopology.DoldKan.NReflectsIso
+import Mathlib.Tactic.TypeStar
+import Mathlib.AlgebraicTopology.DoldKan.NReflectsIso
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-! The unit isomorphism of the Dold-Kan equivalence
 

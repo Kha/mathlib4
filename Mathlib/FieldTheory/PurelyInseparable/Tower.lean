@@ -6,7 +6,14 @@ Authors: Jz Pan
 module
 
 public import Mathlib.FieldTheory.LinearDisjoint
-public import Mathlib.FieldTheory.PurelyInseparable.PerfectClosure
+public import Mathlib.FieldTheory.PurelyInseparable.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.PurelyInseparable.PerfectClosure
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 

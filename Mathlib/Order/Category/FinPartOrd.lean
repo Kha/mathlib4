@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.FintypeCat
 public import Mathlib.Order.Category.PartOrd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of finite partial orders

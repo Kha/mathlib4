@@ -5,9 +5,22 @@ Authors: Anatole Dedecker, Devon Tuma
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Roots
 public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
-public import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Polynomial.Roots
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Limits related to polynomial and rational functions

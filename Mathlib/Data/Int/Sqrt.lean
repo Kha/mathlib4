@@ -5,8 +5,11 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Data.Nat.Sqrt
 public import Mathlib.Tactic.Common
+public import Batteries.Data.Nat.Basic
+public import Mathlib.Data.Int.Notation
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Data.Nat.Sqrt
 
 /-!
 # Square root of integers

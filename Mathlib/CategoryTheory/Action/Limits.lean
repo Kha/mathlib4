@@ -9,8 +9,11 @@ public import Mathlib.CategoryTheory.Abelian.FunctorCategory
 public import Mathlib.CategoryTheory.Abelian.Transfer
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
 public import Mathlib.CategoryTheory.Linear.FunctorCategory
-public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
 public import Mathlib.CategoryTheory.Action.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Finite
 
 /-!
 # Categorical properties of `Action V G`

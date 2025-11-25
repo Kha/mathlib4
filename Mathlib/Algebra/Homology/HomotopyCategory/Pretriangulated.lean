@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Homology.HomotopyCategory.MappingCone
 public import Mathlib.Algebra.Homology.HomotopyCategory.HomComplexShift
 public import Mathlib.CategoryTheory.Triangulated.Functor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! The pretriangulated structure on the homotopy category of complexes
 

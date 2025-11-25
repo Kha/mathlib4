@@ -5,8 +5,13 @@ Authors: Lawrence Wu
 -/
 module
 
-public import Mathlib.MeasureTheory.Group.Measure
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Bounding of integrals by asymptotics

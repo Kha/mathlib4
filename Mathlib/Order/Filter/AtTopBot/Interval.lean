@@ -5,9 +5,17 @@ Authors: Chris Birkbeck, David Loeffler
 -/
 module
 
-public import Mathlib.Order.Filter.AtTopBot.Archimedean
-public import Mathlib.Order.Filter.Prod
 public import Mathlib.Order.Interval.Finset.Defs
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Tendsto
 
 /-!
 # Limits of intervals along filters

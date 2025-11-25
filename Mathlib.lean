@@ -1,7 +1,5 @@
 module
 
-public import Std
-public import Batteries
 public import Mathlib.Algebra.AddConstMap.Basic
 public import Mathlib.Algebra.AddConstMap.Equiv
 public import Mathlib.Algebra.AddTorsor.Basic

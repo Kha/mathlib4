@@ -6,7 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Category.Preorder
-public import Mathlib.CategoryTheory.EqToHom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Functors from the category of the ordered set `ℕ`

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
 public import Mathlib.Algebra.Group.Hom.Instances
+import Mathlib.Tactic.TypeStar
 
 /-! # Zero-related `•` instances on group-like morphisms -/
 

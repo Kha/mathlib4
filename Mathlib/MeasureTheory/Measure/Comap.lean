@@ -5,7 +5,10 @@ Authors: Yury Kudryashov, Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.QuasiMeasurePreserving
+public import Mathlib.MeasureTheory.Measure.Map
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.QuasiMeasurePreserving
 
 /-!
 # Pullback of a measure

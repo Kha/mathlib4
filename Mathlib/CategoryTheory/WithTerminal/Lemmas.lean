@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Filtered.Basic
 public import Mathlib.CategoryTheory.WithTerminal.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Further lemmas on `WithTerminal`

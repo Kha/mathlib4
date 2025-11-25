@@ -7,7 +7,13 @@ module
 
 public import Mathlib.Data.Real.ENatENNReal
 public import Mathlib.Data.Set.Card
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
+public import Mathlib.Topology.Order.Real
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Infinite sums of ENNReal and Set.encard

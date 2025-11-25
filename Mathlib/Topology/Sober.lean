@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Topology.Sets.Closeds
 public import Mathlib.Topology.Sets.OpenCover
-public import Mathlib.Algebra.HierarchyDesign
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Sober spaces

@@ -6,6 +6,7 @@ Authors: Jeremy Avigad, Leonardo de Moura, Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Order.CompleteBooleanAlgebra
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Sets are a complete atomic Boolean algebra.

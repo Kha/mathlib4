@@ -5,8 +5,10 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.Nat.Cast.WithTop
-public import Mathlib.Order.Nat
+public import Mathlib.Algebra.Ring.Nat
+public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
+import Mathlib.Order.Nat
+import Mathlib.Data.Nat.Cast.WithTop
 
 /-!
 # `WithBot ℕ`

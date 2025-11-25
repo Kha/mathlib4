@@ -6,7 +6,10 @@ Authors: Miyahara Kō
 module
 
 public import Mathlib.Analysis.Meromorphic.NormalForm
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
 
 /-!
 # The Gamma function is meromorphic

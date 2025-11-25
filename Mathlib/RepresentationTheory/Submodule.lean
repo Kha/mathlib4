@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.Invariant
 public import Mathlib.RepresentationTheory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Invariant submodules of a group representation

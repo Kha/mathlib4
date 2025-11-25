@@ -5,11 +5,12 @@ Authors: Damiano Testa
 -/
 module
 
-public meta import Batteries.Tactic.Alias
 public meta import Lean.Meta.Tactic.TryThis
 public meta import Mathlib.Lean.Expr.Basic
-public meta import Mathlib.Tactic.Lemma
 public meta import Std.Time.Format
+public import Mathlib.Init
+import Batteries.Tactic.Alias
+import Mathlib.Tactic.Lemma
 
 /-!
 # `deprecate to` -- a deprecation tool

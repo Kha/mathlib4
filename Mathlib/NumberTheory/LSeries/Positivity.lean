@@ -5,10 +5,15 @@ Authors: Chris Birkbeck, David Loeffler, Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Complex.TaylorSeries
-public import Mathlib.Analysis.Complex.Positivity
 public import Mathlib.NumberTheory.ArithmeticFunction
-public import Mathlib.NumberTheory.LSeries.Deriv
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.NumberTheory.LSeries.Convergence
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.Complex.Positivity
+import Mathlib.NumberTheory.LSeries.Deriv
+import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+import Mathlib.Analysis.Normed.Order.Lattice
 
 /-!
 # Positivity of values of L-series

@@ -6,7 +6,10 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Control.ULift
-public import Mathlib.Logic.Equiv.Basic
+public import Mathlib.Logic.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Equiv.Basic
 
 /-!
 # Extra lemmas about `ULift` and `PLift`

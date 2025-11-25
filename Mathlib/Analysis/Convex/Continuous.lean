@@ -5,7 +5,35 @@ Authors: Yaël Dillies, Zichen Wang
 -/
 module
 
-public import Mathlib.Analysis.Normed.Affine.Convex
+public import Mathlib.Analysis.Convex.Function
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.Convex.Jensen
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Affine.Convex
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Convex functions are continuous

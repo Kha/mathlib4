@@ -6,9 +6,26 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.Algebra.Polynomial.Mirror
-public import Mathlib.Algebra.Ring.Regular
-public import Mathlib.Data.Int.Order.Units
 public import Mathlib.RingTheory.Coprime.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Data.Int.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Data.Int.Order.Units
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Unit Trinomials

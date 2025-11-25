@@ -5,9 +5,15 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Data.Nat.Bitwise
-public import Mathlib.SetTheory.Ordinal.Family
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Order.Nat
+public import Mathlib.Data.Countable.Defs
+public import Mathlib.SetTheory.Ordinal.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Bitwise
+import Mathlib.Logic.Small.Set
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 deprecated_module
   "This module is now at `CombinatorialGames.Nimber.Basic` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

@@ -8,8 +8,21 @@ module
 public import Mathlib.Algebra.ModEq
 public import Mathlib.Algebra.Order.Archimedean.Basic
 public import Mathlib.Algebra.Ring.Periodic
-public import Mathlib.Data.Int.SuccPred
 public import Mathlib.Order.Circular
+public import Mathlib.GroupTheory.QuotientGroup.Defs
+import Mathlib.Order.Cover
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.SuccPred
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Interval.Set.Group
 
 /-!
 # Reducing to an interval modulo its length

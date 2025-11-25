@@ -5,10 +5,16 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Vector.Basic
 public import Mathlib.Logic.Function.Iterate
-public import Mathlib.Tactic.ApplyFun
-public import Mathlib.Data.List.GetD
+public import Batteries.Tactic.SeqFocus
+public import Mathlib.Data.Quot
+public import Mathlib.Algebra.Group.Defs
+public import Mathlib.Data.List.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.GetD
+import Mathlib.Algebra.Group.Int.Defs
+import Mathlib.Algebra.Group.Nat.Defs
 
 /-!
 # Turing machine tapes

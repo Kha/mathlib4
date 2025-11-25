@@ -6,6 +6,7 @@ Authors: Floris van Doorn, Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.Measure.Map
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Definitions about invariant measures

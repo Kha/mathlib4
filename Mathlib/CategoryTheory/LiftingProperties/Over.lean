@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.LiftingProperties.Basic
 public import Mathlib.CategoryTheory.Comma.Over.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Lifting properties in Over categories

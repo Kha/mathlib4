@@ -5,8 +5,9 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Order.CompleteLatticeIntervals
 public import Mathlib.Order.CompactlyGenerated.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Results about compactness properties for intervals in complete lattices

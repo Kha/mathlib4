@@ -5,9 +5,16 @@ Authors: Raphael Douglas Giles
 -/
 module
 
-public import Mathlib.RingTheory.KrullDimension.NonZeroDivisors
 public import Mathlib.RingTheory.Length
-public import Mathlib.RingTheory.HopkinsLevitzki
+public import Mathlib.RingTheory.KrullDimension.Basic
+public import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.RingTheory.HopkinsLevitzki
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.RingTheory.KrullDimension.NonZeroDivisors
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Noetherian
 
 /-!
 # Order of vanishing

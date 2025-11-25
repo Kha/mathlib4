@@ -6,8 +6,21 @@ Authors: Yury Kudryashov, Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Normed.Operator.Banach
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
 public import Mathlib.Topology.OpenPartialHomeomorph
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Non-linear maps close to affine maps

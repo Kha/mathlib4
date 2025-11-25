@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Topology.Algebra.Module.StrongTopology
 public import Mathlib.Topology.Algebra.Module.WeakDual
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Data.Set.Finite.Lemmas
 
 /-!
 # Topology of pointwise convergence on continous linear maps

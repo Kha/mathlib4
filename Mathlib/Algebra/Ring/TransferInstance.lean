@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Algebra.Group.TransferInstance
 public import Mathlib.Algebra.Ring.Equiv
-public import Mathlib.Algebra.Ring.Hom.InjSurj
 public import Mathlib.Algebra.Ring.InjSurj
+public import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Hom.InjSurj
 
 /-!
 # Transfer algebraic structures across `Equiv`s

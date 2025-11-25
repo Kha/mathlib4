@@ -6,7 +6,15 @@ Authors: María Inés de Frutos-Fernández
 module
 
 public import Mathlib.Analysis.Normed.Unbundled.AlgebraNorm
-public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Equivalent power-multiplicative norms

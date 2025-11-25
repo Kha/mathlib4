@@ -5,9 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Fin
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Data.Finset.Sort
+public import Mathlib.Algebra.NeZero
+public import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Data.Fintype.Powerset
+public import Mathlib.Data.List.OfFn
+public import Mathlib.Algebra.Group.Action.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.List
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Compositions

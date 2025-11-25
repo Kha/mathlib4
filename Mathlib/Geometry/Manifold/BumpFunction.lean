@@ -6,9 +6,14 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
-public import Mathlib.Geometry.Manifold.ContMDiff.Atlas
-public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
-public import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.Atlas
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
 
 /-!
 # Smooth bump functions on a smooth manifold

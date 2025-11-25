@@ -5,9 +5,10 @@ Authors: Zhouhang Zhou, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Indicator
-public import Mathlib.Algebra.Order.Pi
 public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Indicator
 
 /-!
 # Indicator function and (e)norm

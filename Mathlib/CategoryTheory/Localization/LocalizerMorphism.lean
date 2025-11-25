@@ -5,7 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.Equivalence
+public import Mathlib.CategoryTheory.CatCommSq
+public import Mathlib.CategoryTheory.Localization.Predicate
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Localization.Equivalence
 
 /-!
 # Morphisms of localizers

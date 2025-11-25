@@ -5,15 +5,24 @@ Authors: Anne Baanen
 -/
 module
 
-public meta import Mathlib.Data.ZMod.Basic
-public meta import Mathlib.RingTheory.Polynomial.Basic
-public meta import Mathlib.Tactic.NormNum.DivMod
-public meta import Mathlib.Tactic.NormNum.PowMod
 public meta import Mathlib.Tactic.ReduceModChar.Ext
-public meta import Mathlib.Util.AtLocation
 public import Mathlib.Data.ZMod.Basic  -- shake: keep (Qq dependency)
 public import Mathlib.RingTheory.Polynomial.Basic  -- shake: keep (Qq dependency)
 import all Mathlib.Tactic.NormNum.DivMod  -- for accessing `evalIntMod.go`
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.PowMod
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Bound.Init
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.ReduceModChar.Ext
 
 /-!
 # `reduce_mod_char` tactic

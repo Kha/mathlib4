@@ -5,8 +5,14 @@ Authors: Moritz Doll, Sébastien Gouëzel, Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.MeanInequalities
 public import Mathlib.Analysis.Normed.Lp.WithLp
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Analysis.MeanInequalities
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.MetricSpace.Lipschitz
 
 /-!
 # `L^p` distance on products of two metric spaces

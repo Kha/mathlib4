@@ -6,7 +6,13 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.LinearAlgebra.Finsupp.Defs
-public import Mathlib.LinearAlgebra.Span.Basic
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.LinearAlgebra.Span.Defs
+public import Mathlib.Algebra.Module.Submodule.Range
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Finitely supported functions and spans

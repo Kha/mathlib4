@@ -5,8 +5,12 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
 public import Mathlib.Condensed.Light.Module
+public import Mathlib.CategoryTheory.Sites.Coherent.RegularSheaves
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Sites.Coherent.SheafComparison
+import Mathlib.Topology.Category.LightProfinite.EffectiveEpi
+import Mathlib.Topology.Category.LightProfinite.Limits
 /-!
 
 # The explicit sheaf condition for light condensed sets

@@ -6,9 +6,22 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.Independence.Kernel
-public import Mathlib.Probability.Kernel.CompProdEqIff
-public import Mathlib.Probability.Kernel.Composition.Lemmas
 public import Mathlib.Probability.Kernel.Condexp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Probability.Kernel.CompProdEqIff
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Probability.Kernel.Composition.CompMap
+import Mathlib.Probability.Kernel.Composition.Lemmas
+import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Conditional Independence

@@ -7,6 +7,14 @@ module
 
 public import Mathlib.RingTheory.Invariant.Defs
 public import Mathlib.RingTheory.IntegralClosure.IntegralRestrict
+public import Mathlib.RingTheory.Ideal.Over
+public import Mathlib.Algebra.Algebra.Subalgebra.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Invariant Extensions of Rings

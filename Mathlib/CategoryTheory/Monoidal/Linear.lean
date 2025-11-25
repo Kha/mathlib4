@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
 public import Mathlib.CategoryTheory.Monoidal.Preadditive
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Linear monoidal categories

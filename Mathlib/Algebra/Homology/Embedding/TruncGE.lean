@@ -6,8 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.Embedding.HomEquiv
-public import Mathlib.Algebra.Homology.Embedding.IsSupported
-public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The canonical truncation

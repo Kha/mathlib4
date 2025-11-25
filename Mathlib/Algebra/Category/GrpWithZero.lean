@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Category.MonCat.Basic
 public import Mathlib.Algebra.GroupWithZero.WithZero
 public import Mathlib.CategoryTheory.Category.Bipointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Equiv
 
 /-!
 # The category of groups with zero

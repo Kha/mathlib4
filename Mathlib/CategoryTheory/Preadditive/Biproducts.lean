@@ -6,12 +6,15 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
-public import Mathlib.Algebra.Group.Ext
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
 public import Mathlib.CategoryTheory.Preadditive.Basic
 public import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Ext
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
 
 /-!
 # Basic facts about biproducts in preadditive categories.

@@ -6,6 +6,7 @@ Authors: Jeremy Avigad, Leonardo de Moura
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
 
 /-! # Lemmas about coprimality with big products.
 

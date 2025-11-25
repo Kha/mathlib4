@@ -5,10 +5,13 @@ Authors: Kyle Miller
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.Nat
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
 public import Mathlib.Data.Set.Card
-public import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Lattice
+import Mathlib.Algebra.BigOperators.Ring.Nat
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Counting walks of a given length

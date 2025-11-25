@@ -5,17 +5,32 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Inv
 public import Mathlib.Analysis.Complex.Circle
-public import Mathlib.Analysis.Normed.Module.Ball.Action
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.Analysis.InnerProductSpace.Calculus
-public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.Geometry.Manifold.Algebra.LieGroup
 public import Mathlib.Geometry.Manifold.Instances.Real
-public import Mathlib.Geometry.Manifold.MFDeriv.Basic
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-public import Mathlib.Tactic.Module
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Analysis.Normed.Module.Ball.Action
 
 /-!
 # Manifold structure on the sphere

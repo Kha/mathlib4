@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Group.Subgroup.Defs
 public import Mathlib.Algebra.Group.Submonoid.Operations
 public import Mathlib.Algebra.Order.GroupWithZero.Submonoid
 public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 

@@ -7,7 +7,14 @@ module
 
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.Dynamics.Ergodic.MeasurePreserving
-public import Mathlib.Combinatorics.Pigeonhole
+import Mathlib.Combinatorics.Pigeonhole
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Set.Finite.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Conservative systems

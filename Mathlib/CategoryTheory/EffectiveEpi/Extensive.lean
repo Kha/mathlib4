@@ -6,9 +6,11 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.EffectiveEpi.Preserves
-public import Mathlib.CategoryTheory.EffectiveEpi.Coproduct
 public import Mathlib.CategoryTheory.Extensive
-public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.EffectiveEpi.Comp
+import Mathlib.CategoryTheory.EffectiveEpi.Coproduct
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
 /-!
 
 # Preserving and reflecting effective epis on extensive categories

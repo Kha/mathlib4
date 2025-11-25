@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Module.Presentation.Basic
 public import Mathlib.Algebra.Module.FinitePresentation
+import Mathlib.Tactic.Lemma
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Finsupp
 
 /-!
 # Characterization of finitely presented modules

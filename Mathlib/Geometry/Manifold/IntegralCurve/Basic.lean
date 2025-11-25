@@ -5,7 +5,16 @@ Authors: Winston Yin
 -/
 module
 
-public import Mathlib.Geometry.Manifold.MFDeriv.Tangent
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+public import Mathlib.Geometry.Manifold.VectorBundle.Tangent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.Geometry.Manifold.MFDeriv.Tangent
 
 /-!
 # Integral curves of vector fields on a manifold

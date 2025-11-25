@@ -6,9 +6,9 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Topology.Category.CompHaus.Basic
-public import Mathlib.Topology.Compactification.StoneCech
 public import Mathlib.CategoryTheory.Preadditive.Projective.Basic
-public import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
 
 /-!
 # CompHaus has enough projectives

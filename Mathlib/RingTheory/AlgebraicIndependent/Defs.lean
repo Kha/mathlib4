@@ -6,6 +6,8 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Algebraic Independence

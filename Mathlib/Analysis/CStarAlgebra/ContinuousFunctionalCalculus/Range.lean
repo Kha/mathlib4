@@ -6,7 +6,11 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Instances
-public import Mathlib.Topology.ContinuousMap.ContinuousSqrt
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Topology.ContinuousMap.ContinuousSqrt
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
 
 /-! # Range of the continuous functional calculus
 

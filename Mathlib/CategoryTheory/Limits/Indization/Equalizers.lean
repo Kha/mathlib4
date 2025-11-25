@@ -5,9 +5,13 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Indization.FilteredColimits
-public import Mathlib.CategoryTheory.Limits.Indization.ParallelPair
 public import Mathlib.CategoryTheory.ObjectProperty.LimitsOfShape
+public import Mathlib.CategoryTheory.Limits.Indization.IndObject
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.FilteredColimitCommutesFiniteLimit
+import Mathlib.CategoryTheory.Limits.Indization.FilteredColimits
+import Mathlib.CategoryTheory.Limits.Indization.ParallelPair
+import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
 
 /-!
 # Equalizers of ind-objects

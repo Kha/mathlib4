@@ -5,7 +5,20 @@ Authors: Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.ENNReal.Real
+public import Mathlib.Data.ENNReal.Basic
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Real
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Monoid.WithTop
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.WithBotTop
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Properties of addition, multiplication and subtraction on extended non-negative real numbers

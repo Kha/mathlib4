@@ -6,6 +6,9 @@ Authors: Johannes Hölzl, Yury Kudryashov, Kim Morrison
 module
 
 public import Mathlib.Algebra.MonoidAlgebra.Lift
+public import Mathlib.Algebra.Ring.Equiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # MonoidAlgebra.mapDomain

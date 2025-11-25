@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.Functor
 public import Mathlib.Tactic.CategoryTheory.Monoidal.PureCoherence
+import Mathlib.Tactic.Lemma
 
 /-!
 # Monoidal opposites

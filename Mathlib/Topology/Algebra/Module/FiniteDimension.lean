@@ -5,14 +5,34 @@ Authors: Sébastien Gouëzel, Anatole Dedecker
 -/
 module
 
-public import Mathlib.Analysis.LocallyConvex.BalancedCoreHull
 public import Mathlib.Analysis.Normed.Module.Basic
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.RingTheory.LocalRing.Basic
 public import Mathlib.Topology.Algebra.Module.Determinant
 public import Mathlib.Topology.Algebra.Module.ModuleTopology
-public import Mathlib.Topology.Algebra.Module.Simple
-public import Mathlib.Topology.Algebra.SeparationQuotient.FiniteDimensional
+public import Mathlib.RingTheory.Noetherian.Basic
+public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.Topology.Metrizable.Uniformity
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.Projective
+import Mathlib.Analysis.LocallyConvex.BalancedCoreHull
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Topology.Algebra.Module.Simple
+import Mathlib.Topology.Algebra.SeparationQuotient.FiniteDimensional
 
 /-!
 # Finite-dimensional topological vector spaces over complete fields

@@ -7,6 +7,20 @@ module
 
 public import Mathlib.Topology.Category.TopCat.Limits.Pullbacks
 public import Mathlib.Geometry.RingedSpace.LocallyRingedSpace
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Topology.Sheaves.Limits
+public import Mathlib.CategoryTheory.Limits.Shapes.StrictInitial
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sheaves.Functors
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.Algebra.Category.Ring.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
+import Mathlib.Topology.Category.TopCat.EpiMono
+import Mathlib.Topology.Category.TopCat.Limits.Products
 
 /-!
 # Open immersions of structured spaces

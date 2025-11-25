@@ -5,11 +5,14 @@ Authors: Johannes Hölzl, Mario Carneiro, Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Data.Set.Finite.Lattice
-public import Mathlib.Data.Set.Finite.Range
-public import Mathlib.Data.Set.Lattice
-public import Mathlib.Data.Finite.Vector
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Vector
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Finiteness of sets of lists

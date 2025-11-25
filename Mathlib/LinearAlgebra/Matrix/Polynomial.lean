@@ -5,10 +5,20 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.BigOperators
-public import Mathlib.Algebra.Polynomial.Degree.Lemmas
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
-public import Mathlib.Tactic.ComputeDegree
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.ComputeDegree
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Int.Units
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.Multiset
 
 /-!
 # Matrices of polynomials and polynomials of matrices

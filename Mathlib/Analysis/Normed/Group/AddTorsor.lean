@@ -10,6 +10,7 @@ public import Mathlib.Analysis.Normed.Group.Submodule
 public import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Basic
 public import Mathlib.Topology.Algebra.Group.AddTorsor
 public import Mathlib.Topology.MetricSpace.IsometricSMul
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Torsors of additive normed group actions.

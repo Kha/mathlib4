@@ -5,11 +5,20 @@ Authors: Stuart Presnell
 -/
 module
 
-public import Batteries.Data.List.Count
 public import Mathlib.Data.Finsupp.Multiset
-public import Mathlib.Data.Finsupp.Order
 public import Mathlib.Data.Nat.PrimeFin
 public import Mathlib.NumberTheory.Padics.PadicVal.Defs
+public import Mathlib.Data.PNat.Notation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Count
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Finsupp.Order
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Prime factorizations

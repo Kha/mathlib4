@@ -5,8 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
-public import Mathlib.CategoryTheory.MorphismProperty.Composition
+public import Mathlib.Algebra.Homology.ShortComplex.Exact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Homology.ShortComplex.ShortExact
 
 /-!
 # Epimorphisms with an injective kernel

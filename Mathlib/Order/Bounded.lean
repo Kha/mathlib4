@@ -6,7 +6,13 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.Order.RelClasses
-public import Mathlib.Order.Interval.Set.Basic
+public import Mathlib.Order.Lattice
+public import Mathlib.Order.Max
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Bounded and unbounded sets

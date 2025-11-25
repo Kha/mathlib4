@@ -5,8 +5,27 @@ Authors: Rémy Degenne, Kexing Ying
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.Egorov
-public import Mathlib.MeasureTheory.Function.LpSpace.Complete
+public import Mathlib.MeasureTheory.Function.LpSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.Egorov
+import Mathlib.MeasureTheory.OuterMeasure.BorelCantelli
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
+import Mathlib.MeasureTheory.Function.LpSeminorm.ChebyshevMarkov
+import Mathlib.MeasureTheory.Function.LpSpace.Complete
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Convergence in measure

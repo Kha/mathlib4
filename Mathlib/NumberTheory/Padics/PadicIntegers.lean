@@ -7,6 +7,12 @@ module
 
 public import Mathlib.NumberTheory.Padics.PadicNumbers
 public import Mathlib.RingTheory.DiscreteValuationRing.Basic
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Zify
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # p-adic integers

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Basic
 public import Mathlib.CategoryTheory.Opposites
+import Mathlib.Tactic.Lemma
 
 /-!
 # Opposite bicategories

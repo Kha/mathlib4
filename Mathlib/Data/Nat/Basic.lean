@@ -6,11 +6,14 @@ Authors: Floris van Doorn, Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 module
 
 public import Mathlib.Data.Nat.Init
-public import Mathlib.Logic.Basic
 public import Mathlib.Logic.Nontrivial.Defs
 public import Mathlib.Order.Defs.LinearOrder
-public import Mathlib.Tactic.GCongr.Core
-public import Mathlib.Util.AssertExists
+public import Mathlib.Data.Set.Defs
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Tactic.GCongr.Core
 
 /-!
 # Basic operations on the natural numbers

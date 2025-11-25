@@ -5,9 +5,12 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Data.Set.Functor
 public import Mathlib.Order.Sublattice
 public import Mathlib.Order.Hom.CompleteLattice
+public import Mathlib.Order.Hom.Set
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Functor
 
 /-!
 # Complete Sublattices

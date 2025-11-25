@@ -5,8 +5,8 @@ Authors: Kim Morrison, Floris van Doorn
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Opposites
 public import Mathlib.CategoryTheory.Limits.Filtered
+import Mathlib.CategoryTheory.Limits.Opposites
 
 /-!
 # Filered colimits and cofilered limits in `C` and `Cᵒᵖ`

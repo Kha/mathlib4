@@ -5,9 +5,17 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Dynamics.Ergodic.Action.Regular
-public import Mathlib.MeasureTheory.Measure.ContinuousPreimage
-public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.Dynamics.Minimal
+public import Mathlib.MeasureTheory.Group.Measure
+public import Mathlib.Dynamics.Ergodic.Action.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.MeasureTheory.Measure.ContinuousPreimage
+import Mathlib.Dynamics.Ergodic.Action.Regular
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # Ergodicity from minimality

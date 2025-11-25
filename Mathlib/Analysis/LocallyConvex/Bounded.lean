@@ -5,14 +5,28 @@ Authors: Moritz Doll
 -/
 module
 
-public import Mathlib.GroupTheory.GroupAction.Pointwise
-public import Mathlib.Analysis.LocallyConvex.Basic
-public import Mathlib.Analysis.LocallyConvex.BalancedCoreHull
-public import Mathlib.Analysis.Seminorm
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
-public import Mathlib.Topology.Bornology.Basic
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
-public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.Bornology.Absorbs
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Analysis.Seminorm
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.LocallyConvex.BalancedCoreHull
+import Mathlib.Data.Nat.Lattice
+import Mathlib.GroupTheory.GroupAction.Pointwise
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Von Neumann Boundedness

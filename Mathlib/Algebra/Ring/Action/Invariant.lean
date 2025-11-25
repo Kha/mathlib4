@@ -7,6 +7,7 @@ module
 
 public import Mathlib.GroupTheory.GroupAction.Hom
 public import Mathlib.Algebra.Ring.Subring.Defs
+import Mathlib.Tactic.TypeStar
 
 /-! # Subrings invariant under an action
 

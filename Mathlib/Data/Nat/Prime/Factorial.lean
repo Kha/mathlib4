@@ -6,7 +6,11 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 module
 
 public import Mathlib.Data.Nat.Factorial.Basic
-public import Mathlib.Data.Nat.Prime.Basic
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Nat.Basic
+import Mathlib.Data.Nat.Prime.Basic
 /-!
 # Prime natural numbers and the factorial operator
 

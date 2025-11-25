@@ -10,6 +10,10 @@ public import Mathlib.MeasureTheory.Measure.MutuallySingular
 public import Mathlib.MeasureTheory.Measure.Typeclasses.NoAtoms
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
 public import Mathlib.MeasureTheory.Measure.Typeclasses.SFinite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.Countable.Basic
 
 /-!
 # Dirac measure

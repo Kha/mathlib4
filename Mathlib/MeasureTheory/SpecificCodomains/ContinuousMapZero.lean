@@ -6,7 +6,11 @@ Authors: Anatole Dedecker
 module
 
 public import Mathlib.Topology.ContinuousMap.ContinuousMapZero
-public import Mathlib.MeasureTheory.SpecificCodomains.ContinuousMap
+public import Mathlib.MeasureTheory.Function.L1Space.HasFiniteIntegral
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.SpecificCodomains.ContinuousMap
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Specific results about `ContinuousMapZero`-valued integration

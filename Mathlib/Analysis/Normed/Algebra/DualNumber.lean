@@ -6,7 +6,10 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.DualNumber
-public import Mathlib.Analysis.Normed.Algebra.TrivSqZeroExt
+public import Mathlib.Topology.Instances.TrivSqZeroExt
+public import Mathlib.Analysis.Normed.Algebra.Exponential
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Algebra.TrivSqZeroExt
 
 /-!
 # Results on `DualNumber R` related to the norm

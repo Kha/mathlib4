@@ -6,6 +6,7 @@ Authors: Mario Carneiro, Simon Hudon, Yury Kudryashov
 module
 
 public import Mathlib.Order.Notation
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Order-related type synonyms

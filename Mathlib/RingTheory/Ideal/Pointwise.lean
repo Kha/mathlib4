@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Ring.Action.End
 public import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Action
 
 /-! # Pointwise instances on `Ideal`s
 

@@ -5,13 +5,15 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.EssentiallySmall
-public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Equalizers
 public import Mathlib.CategoryTheory.Subobject.Lattice
-public import Mathlib.CategoryTheory.ObjectProperty.Small
 public import Mathlib.CategoryTheory.ObjectProperty.ColimitsOfShape
-public import Mathlib.CategoryTheory.ObjectProperty.LimitsOfShape
-public import Mathlib.CategoryTheory.Comma.StructuredArrow.Small
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.EssentiallySmall
+import Mathlib.CategoryTheory.Limits.Opposites
+import Mathlib.Logic.Small.Basic
+import Mathlib.CategoryTheory.Comma.StructuredArrow.Small
+import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Equalizers
 
 /-!
 # Separating and detecting sets

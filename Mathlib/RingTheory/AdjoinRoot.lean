@@ -5,16 +5,29 @@ Authors: Mario Carneiro, Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Polynomial.FieldDivision
-public import Mathlib.FieldTheory.Minpoly.Basic
-public import Mathlib.RingTheory.Adjoin.Basic
 public import Mathlib.RingTheory.FinitePresentation
-public import Mathlib.RingTheory.FiniteType
-public import Mathlib.RingTheory.Ideal.Quotient.Noetherian
 public import Mathlib.RingTheory.PowerBasis
-public import Mathlib.RingTheory.PrincipalIdealDomain
 public import Mathlib.RingTheory.Polynomial.Quotient
+public import Mathlib.RingTheory.Adjoin.Polynomial
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.RingTheory.Ideal.Quotient.Basic
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monomial
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.RingTheory.Ideal.Quotient.Noetherian
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Adjoining roots of polynomials

@@ -6,13 +6,26 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Analysis.Fourier.FourierTransform
-public import Mathlib.Analysis.InnerProductSpace.Dual
-public import Mathlib.Analysis.InnerProductSpace.EuclideanDist
-public import Mathlib.MeasureTheory.Function.ContinuousMapDense
-public import Mathlib.MeasureTheory.Group.Integral
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Topology.EMetricSpace.Paracompact
 public import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.InnerProductSpace.Dual
+import Mathlib.Analysis.InnerProductSpace.EuclideanDist
+import Mathlib.MeasureTheory.Function.ContinuousMapDense
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.ContinuousMap.CocompactMap
+import Mathlib.Topology.EMetricSpace.Paracompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # The Riemann-Lebesgue Lemma

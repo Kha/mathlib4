@@ -6,9 +6,15 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Convex.Extreme
-public import Mathlib.Dynamics.Ergodic.Function
-public import Mathlib.Dynamics.Ergodic.RadonNikodym
-public import Mathlib.Probability.ConditionalProbability
+public import Mathlib.Dynamics.Ergodic.Ergodic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Dynamics.Ergodic.Function
+import Mathlib.Dynamics.Ergodic.RadonNikodym
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Ergodic measures as extreme points

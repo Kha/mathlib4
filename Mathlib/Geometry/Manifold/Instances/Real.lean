@@ -5,9 +5,17 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.WithLp
 public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.Geometry.Manifold.IsManifold.InteriorBoundary
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.ContDiff.WithLp
 
 /-!
 # Constructing examples of manifolds over ℝ

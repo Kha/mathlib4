@@ -5,10 +5,23 @@ Authors: Chris Hughes, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Field.GeomSum
 public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 public import Mathlib.Algebra.Order.CauSeq.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Cauchy sequences and big operators

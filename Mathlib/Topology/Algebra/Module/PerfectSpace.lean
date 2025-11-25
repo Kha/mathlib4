@@ -5,8 +5,19 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Normed
 public import Mathlib.Topology.Perfect
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Analysis.Normed.Field.Basic
+public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-! # Vector spaces over nontrivially normed fields are perfect spaces -/
 

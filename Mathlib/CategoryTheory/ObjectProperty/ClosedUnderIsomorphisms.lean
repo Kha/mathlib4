@@ -5,9 +5,8 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Iso
 public import Mathlib.CategoryTheory.ObjectProperty.Basic
-public import Mathlib.Order.Basic
+import Mathlib.Tactic.Lemma
 
 /-! # Properties of objects which are closed under isomorphisms
 

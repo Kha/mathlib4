@@ -5,9 +5,20 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Nat.Cast.Commute
-public import Mathlib.Data.Nat.Cast.Order.Ring
-public import Mathlib.Tactic.Abel
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Group.Commute.Defs
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-! # Bernoulli's inequality
 

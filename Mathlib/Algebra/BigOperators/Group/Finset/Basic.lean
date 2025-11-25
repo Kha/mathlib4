@@ -8,6 +8,17 @@ module
 public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
 public import Mathlib.Data.Finset.Prod
 public import Mathlib.Data.Finset.Sum
+import Batteries.Tactic.Congr
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Algebra.BigOperators.Group.List.Defs
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Big operators

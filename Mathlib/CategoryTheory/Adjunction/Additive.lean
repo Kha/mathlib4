@@ -6,6 +6,7 @@ Authors: Sophie Morel, Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Preadditive.Yoneda.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Adjunctions between additive functors.

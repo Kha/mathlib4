@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Category.Bipointed
 public import Mathlib.Data.TwoPointing
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of two-pointed types

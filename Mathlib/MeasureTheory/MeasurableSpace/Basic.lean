@@ -9,6 +9,16 @@ public import Mathlib.Algebra.Notation.Indicator
 public import Mathlib.Data.Int.Cast.Pi
 public import Mathlib.Data.Nat.Cast.Basic
 public import Mathlib.MeasureTheory.MeasurableSpace.Defs
+public import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
 
 /-!
 # Measurable spaces and measurable functions

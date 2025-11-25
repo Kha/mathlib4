@@ -5,9 +5,18 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Combinatorics.Hall.Basic
-public import Mathlib.LinearAlgebra.Matrix.Rank
 public import Mathlib.LinearAlgebra.Projectivization.Constructions
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.Hall.Basic
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.Matrix.Rank
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Configurations of Points and lines

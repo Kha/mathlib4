@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Subgroup.Pointwise
 public import Mathlib.Algebra.GroupWithZero.Submonoid.Pointwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Subgroups in a group with zero

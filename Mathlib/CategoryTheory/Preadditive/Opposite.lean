@@ -9,6 +9,7 @@ public import Mathlib.Algebra.Group.TransferInstance
 public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Algebra.Module.Opposite
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+import Mathlib.Tactic.TypeStar
 
 /-!
 # If `C` is preadditive, `Cᵒᵖ` has a natural preadditive structure.

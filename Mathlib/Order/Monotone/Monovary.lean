@@ -5,8 +5,10 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Set.Operations
 public import Mathlib.Order.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Monotone.Basic
 
 /-!
 # Monovariance of functions

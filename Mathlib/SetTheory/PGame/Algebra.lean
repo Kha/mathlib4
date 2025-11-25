@@ -8,7 +8,9 @@ module
 public import Mathlib.Algebra.Order.ZeroLEOne
 public import Mathlib.SetTheory.PGame.Order
 public import Mathlib.Data.Nat.Cast.Defs
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.IGame` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

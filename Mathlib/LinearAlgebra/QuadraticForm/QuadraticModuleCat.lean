@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.QuadraticForm.IsometryEquiv
 public import Mathlib.Algebra.Category.ModuleCat.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of quadratic modules

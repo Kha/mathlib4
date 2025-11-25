@@ -5,15 +5,21 @@ Authors: Leonardo de Moura, Jeremy Avigad, Minchao Wu, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.NeZero
 public import Mathlib.Data.Finset.Attach
 public import Mathlib.Data.Finset.Disjoint
 public import Mathlib.Data.Finset.Erase
-public import Mathlib.Data.Finset.Filter
 public import Mathlib.Data.Finset.Range
-public import Mathlib.Data.Finset.Lattice.Lemmas
 public import Mathlib.Data.Finset.SDiff
 public import Mathlib.Data.Fintype.Defs
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.List
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Finset.Lattice.Lemmas
 
 /-! # Image and map operations on finite sets
 

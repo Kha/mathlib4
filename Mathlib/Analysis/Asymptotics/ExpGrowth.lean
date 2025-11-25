@@ -6,7 +6,19 @@ Authors: Damien Thomine
 module
 
 public import Mathlib.Analysis.Asymptotics.LinearGrowth
-public import Mathlib.Analysis.SpecialFunctions.Log.ENNRealLogExp
+public import Mathlib.Analysis.SpecialFunctions.Log.ENNRealLog
+public import Mathlib.Analysis.SpecialFunctions.Log.ERealExp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Log.ENNRealLogExp
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Instances.EReal.Lemmas
 
 /-!
 # Exponential growth

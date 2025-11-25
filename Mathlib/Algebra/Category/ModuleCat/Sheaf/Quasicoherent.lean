@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Generators
+public import Mathlib.Algebra.Category.Grp.Limits
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
 
 /-!
 # Quasicoherent sheaves

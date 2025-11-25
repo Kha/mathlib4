@@ -7,12 +7,25 @@ module
 
 public import Mathlib.Algebra.Group.Subgroup.Pointwise
 public import Mathlib.Algebra.Group.Submonoid.Units
-public import Mathlib.Algebra.Group.Submonoid.MulOpposite
-public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.Order.Filter.Bases.Finite
 public import Mathlib.Topology.Algebra.Group.Defs
 public import Mathlib.Topology.Algebra.Monoid
-public import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finite
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Topological groups

@@ -5,11 +5,22 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.Unitization
-public import Mathlib.Analysis.Complex.Convex
-public import Mathlib.Analysis.Normed.Algebra.GelfandFormula
-public import Mathlib.Analysis.SpecialFunctions.Exponential
-public import Mathlib.Algebra.Star.StarAlgHom
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.Normed.Algebra.Spectrum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.CStarAlgebra.Unitization
+import Mathlib.Analysis.Complex.Convex
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Analysis.SpecialFunctions.Exponential
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Algebra.GelfandFormula
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-! # Spectral properties in C⋆-algebras
 

@@ -6,8 +6,11 @@ Authors: Kim Morrison, Shing Tak Lam
 module
 
 public import Mathlib.Topology.Order.Lattice
-public import Mathlib.Topology.Order.ProjIcc
-public import Mathlib.Topology.ContinuousMap.Defs
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Order.Interval.Set.ProjIcc
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Order.ProjIcc
 
 /-!
 # Bundled continuous maps into orders, with order-compatible topology

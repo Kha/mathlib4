@@ -5,8 +5,9 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Tactic.TypeStar
-public import Mathlib.Tactic.Lemma
+public import Mathlib.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Propositional typeclasses on several maps

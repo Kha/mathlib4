@@ -5,9 +5,13 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
 public import Mathlib.RingTheory.FinitePresentation
-public import Mathlib.RingTheory.TensorProduct.MvPolynomial
+public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Ideal
+import Mathlib.RingTheory.TensorProduct.MvPolynomial
 
 /-!
 

@@ -5,9 +5,25 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Order.Filter.AtTopBot.Finset
-public import Mathlib.Topology.Algebra.InfiniteSum.Group
 public import Mathlib.Topology.Algebra.Star
+public import Mathlib.Topology.Separation.Regular
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Order.Filter.AtTopBot.Map
+import Mathlib.Order.Filter.AtTopBot.Prod
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Topological sums and functorial constructions

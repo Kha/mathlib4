@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Topology.Compactification.OnePoint.Basic
 public import Mathlib.Topology.Category.LightProfinite.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Analysis.Normed.Module.Basic
 /-!
 
 # The light profinite set classifying convergent sequences

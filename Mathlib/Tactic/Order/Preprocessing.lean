@@ -6,6 +6,10 @@ Authors: Vasilii Nesterov
 module
 
 public meta import Mathlib.Tactic.Order.CollectFacts
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Order.Defs.PartialOrder
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order.CollectFacts
 
 /-!
 # Facts preprocessing for the `order` tactic

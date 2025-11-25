@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.GCDMonoid.Basic
 public import Mathlib.Algebra.Ring.PUnit
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # `PUnit` is a GCD monoid

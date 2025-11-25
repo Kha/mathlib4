@@ -6,7 +6,10 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Map
-public import Mathlib.Logic.Embedding.Set
+public import Mathlib.Data.Set.Sigma
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Bool.Set
 
 /-!
 # Sums of matroids

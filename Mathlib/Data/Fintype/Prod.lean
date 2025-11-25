@@ -6,7 +6,10 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Finset.Prod
-public import Mathlib.Data.Fintype.EquivFin
+public import Mathlib.Data.Fintype.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
 
 /-!
 # fintype instance for the product of two fintypes.

@@ -8,8 +8,11 @@ module
 public import Mathlib.Algebra.Module.Submodule.Invariant
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.LinearAlgebra.DFinsupp
-public import Mathlib.RingTheory.Finiteness.Basic
 public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Action of the polynomial ring on module induced by an algebra element.

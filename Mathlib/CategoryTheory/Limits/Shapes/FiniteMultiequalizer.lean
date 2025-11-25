@@ -7,8 +7,19 @@ module
 
 public import Mathlib.CategoryTheory.FinCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
-public import Mathlib.Tactic.DeriveFintype
-import Mathlib.Data.Fintype.Sum
+public import Mathlib.Data.Fintype.Sum
+import Mathlib.Control.Basic
+import Mathlib.Tactic.ProxyType
+import Mathlib.Tactic.SetLike
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Algebra.Group.Defs
+import Mathlib.Algebra.Notation.Defs
+import Mathlib.Data.Finset.Attr
+import Mathlib.Data.List.Infix
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Data.List.Perm.Subperm
 
 /-!
 # Finiteness instances on multi-spans

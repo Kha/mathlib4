@@ -8,6 +8,11 @@ module
 public import Mathlib.Analysis.SpecialFunctions.Bernstein
 public import Mathlib.Topology.Algebra.Algebra
 public import Mathlib.Topology.ContinuousMap.Compact
+public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # The Weierstrass approximation theorem for continuous functions on `[a,b]`

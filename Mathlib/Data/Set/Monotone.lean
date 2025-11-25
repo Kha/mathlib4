@@ -5,7 +5,12 @@ Authors: Jeremy Avigad, Andrew Zipperer, Haitao Zhang, Minchao Wu, Yury Kudryash
 -/
 module
 
-public import Mathlib.Data.Set.Function
+public import Mathlib.Data.Set.Restrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Insert
 
 /-!
 # Monotone functions over sets

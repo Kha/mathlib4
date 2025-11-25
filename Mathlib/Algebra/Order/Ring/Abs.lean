@@ -5,12 +5,26 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Abs
-public import Mathlib.Algebra.Order.Ring.Basic
-public import Mathlib.Algebra.Order.Ring.Int
-public import Mathlib.Algebra.Ring.Divisibility.Basic
-public import Mathlib.Algebra.Ring.Int.Units
-public import Mathlib.Data.Nat.Cast.Order.Ring
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.Ring.Int.Units
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Absolute values in linear ordered rings.

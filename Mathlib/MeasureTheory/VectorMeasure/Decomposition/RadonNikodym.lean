@@ -5,8 +5,12 @@ Authors: Kexing Ying, Thomas Zhu
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
 public import Mathlib.MeasureTheory.VectorMeasure.Decomposition.Lebesgue
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Radon-Nikodym derivatives of vector measures

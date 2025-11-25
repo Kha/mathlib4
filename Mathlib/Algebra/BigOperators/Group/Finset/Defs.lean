@@ -5,11 +5,20 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Group.Equiv.Opposite
 public import Mathlib.Algebra.Group.TypeTags.Basic
 public import Mathlib.Algebra.BigOperators.Group.Multiset.Defs
 public import Mathlib.Data.Fintype.Sets
-public import Mathlib.Data.Multiset.Bind
+public import Mathlib.Algebra.Divisibility.Basic
+public import Mathlib.Algebra.Group.Opposite
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Group.Units.Defs
+public import Mathlib.Algebra.Order.Group.Multiset
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Multiset.Bind
+import Mathlib.Algebra.Group.Equiv.Opposite
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Big operators

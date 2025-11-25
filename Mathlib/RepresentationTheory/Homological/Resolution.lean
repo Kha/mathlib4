@@ -5,11 +5,12 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Projective
 public import Mathlib.AlgebraicTopology.ExtraDegeneracy
 public import Mathlib.CategoryTheory.Abelian.Ext
 public import Mathlib.RepresentationTheory.Rep
-public import Mathlib.CategoryTheory.Functor.ReflectsIso.Balanced
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.CategoryTheory.Functor.ReflectsIso.Balanced
 
 /-!
 # The standard and bar resolutions of `k` as a trivial `k`-linear `G`-representation

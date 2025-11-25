@@ -6,6 +6,7 @@ Authors: Kim Morrison, Yuma Mizuno, Oleksandr Manzyuk
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Category
+import Mathlib.Tactic.Lemma
 
 /-!
 # Monoidal composition `⊗≫` (composition up to associators)

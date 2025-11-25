@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.AddGroupWithTop
 public import Mathlib.Algebra.Order.Ring.WithTop
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conversion from WithTop to Base Type

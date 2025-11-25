@@ -6,8 +6,33 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Computability.AkraBazzi.SumTransform
-public import Mathlib.Analysis.Calculus.Deriv.Inv
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Finite
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Divide-and-conquer recurrences and the Akra-Bazzi theorem

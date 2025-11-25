@@ -6,8 +6,10 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Calculus.LineDeriv.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Mul
 public import Mathlib.LinearAlgebra.QuadraticForm.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
 
 /-!
 # Quadratic forms are line (Gateaux) differentiable

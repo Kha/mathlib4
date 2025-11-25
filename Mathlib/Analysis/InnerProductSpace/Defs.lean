@@ -5,10 +5,19 @@ Authors: Zhouhang Zhou, Sébastien Gouëzel, Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Algebra.QuadraticDiscriminant
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Data.Complex.Basic
+public import Mathlib.Analysis.LocallyConvex.Bounded
+public import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.QuadraticDiscriminant
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Data.Complex.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Basic
 
 /-!
 # Inner product spaces

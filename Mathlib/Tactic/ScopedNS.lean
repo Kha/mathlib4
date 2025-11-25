@@ -5,7 +5,8 @@ Authors: Gabriel Ebner, Mario Carneiro
 -/
 module
 
-public meta import Mathlib.Util.WithWeakNamespace
+public import Mathlib.Init
+import Mathlib.Util.WithWeakNamespace
 
 /-! # `scoped[NS]` syntax
 

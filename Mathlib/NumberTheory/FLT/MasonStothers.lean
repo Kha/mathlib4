@@ -5,7 +5,11 @@ Authors: Jineon Baek, Seewoo Lee
 -/
 module
 
-public import Mathlib.RingTheory.Polynomial.Radical
+public import Mathlib.RingTheory.Radical
+public import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Polynomial.Radical
+import Mathlib.Algebra.Polynomial.Degree.Domain
 
 /-!
 # Mason-Stothers theorem

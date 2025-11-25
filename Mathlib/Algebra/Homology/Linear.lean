@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.Additive
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of homological complexes is linear

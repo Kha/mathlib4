@@ -5,10 +5,17 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.LinearAlgebra.RootSystem.Finite.CanonicalBilinear
 public import Mathlib.LinearAlgebra.RootSystem.Reduced
 public import Mathlib.LinearAlgebra.RootSystem.Irreducible
-public import Mathlib.Algebra.Ring.Torsion
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Algebra.Ring.Torsion
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.LinearAlgebra.RootSystem.Finite.CanonicalBilinear
 
 /-!
 # Structural lemmas about finite crystallographic root pairings

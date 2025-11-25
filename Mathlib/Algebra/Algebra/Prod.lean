@@ -6,8 +6,8 @@ Authors: Kenny Lau, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Algebra.Equiv
-public import Mathlib.Algebra.Algebra.Hom
-public import Mathlib.Algebra.Module.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The R-algebra structure on products of R-algebras

@@ -5,10 +5,15 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Algebra.CharP.Basic
-public import Mathlib.Algebra.CharP.Lemmas
-public import Mathlib.GroupTheory.Perm.Cycle.Type
-public import Mathlib.RingTheory.Coprime.Lemmas
+public import Mathlib.Algebra.CharP.Defs
+public import Mathlib.Data.Fintype.Card
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Algebra.CharP.Lemmas
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.GroupTheory.Perm.Cycle.Type
 
 /-!
 # Characteristic and cardinality

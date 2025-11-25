@@ -6,12 +6,12 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.FreeAlgebra
-public import Mathlib.LinearAlgebra.Basis.Cardinality
-public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
-public import Mathlib.LinearAlgebra.Dimension.Subsingleton
 public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
-public import Mathlib.LinearAlgebra.FreeModule.Basic
-public import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+public import Mathlib.LinearAlgebra.Dimension.Basic
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.SetTheory.Cardinal.Arithmetic
 
 /-!
 # Linear algebra properties of `FreeAlgebra R X`

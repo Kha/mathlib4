@@ -5,9 +5,16 @@ Authors: Markus Himmel, Jakob von Raumer
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
-public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.CategoryTheory.Preadditive.Biproducts
+public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+import Mathlib.CategoryTheory.Limits.Constructions.FiniteProductsOfBinaryProducts
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 
 /-!
 # Left exactness of functors between preadditive categories

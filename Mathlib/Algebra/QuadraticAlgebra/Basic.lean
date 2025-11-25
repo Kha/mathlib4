@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Algebra.QuadraticAlgebra.Defs
 public import Mathlib.Algebra.Star.Unitary
+public import Mathlib.Tactic.Module
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.IsField
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-! # Quadratic algebras : involution and norm.
 

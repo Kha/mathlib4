@@ -6,5 +6,6 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.IdealSheaf.Subscheme
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-13")

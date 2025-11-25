@@ -5,14 +5,18 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Algebra.Group.AddChar
 public import Mathlib.Analysis.Complex.Circle
 public import Mathlib.Analysis.Fourier.Notation
-public import Mathlib.MeasureTheory.Group.Integral
-public import Mathlib.MeasureTheory.Integral.Prod
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
 public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Analysis.NormedSpace.Multilinear.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
 
 /-!
 # The Fourier transform

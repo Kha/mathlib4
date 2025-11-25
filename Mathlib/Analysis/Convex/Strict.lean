@@ -6,8 +6,19 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.Basic
-public import Mathlib.Topology.Algebra.Group.Pointwise
 public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.Algebra.ConstMulAction
+public import Mathlib.Topology.Algebra.Group.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Strictly convex sets

@@ -9,6 +9,11 @@ public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
 public import Mathlib.MeasureTheory.Measure.Complex
 public import Mathlib.MeasureTheory.VectorMeasure.Decomposition.Jordan
 public import Mathlib.MeasureTheory.VectorMeasure.WithDensity
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Lebesgue decomposition

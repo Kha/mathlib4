@@ -6,10 +6,24 @@ Authors: Mitchell Horner
 module
 
 public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
-public import Mathlib.Combinatorics.Enumerative.DoubleCounting
-public import Mathlib.Combinatorics.SimpleGraph.DeleteEdges
 public import Mathlib.Combinatorics.SimpleGraph.Extremal.Basic
-public import Mathlib.Data.Nat.Choose.Cast
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Combinatorics.Enumerative.DoubleCounting
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Choose.Cast
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Turán density

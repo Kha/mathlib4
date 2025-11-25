@@ -5,8 +5,17 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Invertible
 public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Group.Invertible.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Theorems about additively and multiplicatively invertible elements in rings

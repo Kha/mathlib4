@@ -5,9 +5,13 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Group.Torsion
 public import Mathlib.Data.ENat.Lattice
-public import Mathlib.Data.ZMod.QuotientGroup
+public import Mathlib.GroupTheory.OrderOfElement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.ZMod.QuotientGroup
+import Mathlib.GroupTheory.Coset.Card
 
 /-!
 # Minimum order of an element

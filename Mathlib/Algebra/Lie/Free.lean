@@ -9,6 +9,7 @@ public import Mathlib.Algebra.FreeNonUnitalNonAssocAlgebra
 public import Mathlib.Algebra.Lie.NonUnitalNonAssocAlgebra
 public import Mathlib.Algebra.Lie.UniversalEnveloping
 public import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Free Lie algebras

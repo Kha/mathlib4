@@ -7,7 +7,17 @@ module
 
 public import Mathlib.Order.Filter.CountableInter
 public import Mathlib.Order.LiminfLimsup
-public import Mathlib.Topology.Order.Monotone
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Lemmas about liminf and limsup in an order topology.

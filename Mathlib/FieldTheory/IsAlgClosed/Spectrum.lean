@@ -7,6 +7,15 @@ module
 
 public import Mathlib.Algebra.Algebra.Spectrum.Quasispectrum
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Algebra.Group.Commute.Hom
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Spectrum mapping theorem

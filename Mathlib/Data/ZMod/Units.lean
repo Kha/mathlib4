@@ -5,9 +5,15 @@ Authors: Moritz Firsching, Ashvni Narayanan, Michael Stoll
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Associated
 public import Mathlib.Data.ZMod.Basic
-public import Mathlib.RingTheory.Coprime.Lemmas
+public import Mathlib.RingTheory.Coprime.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 
 /-!
 # Lemmas about units in `ZMod`.

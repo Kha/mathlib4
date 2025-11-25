@@ -6,9 +6,12 @@ Authors: Kim Morrison, Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 public import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 public import Mathlib.CategoryTheory.MorphismProperty.Factorization
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Categorical images

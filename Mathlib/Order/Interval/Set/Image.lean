@@ -5,9 +5,15 @@ Authors: Kim Morrison, Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Interval.Set.Basic
-public import Mathlib.Data.Set.Function
 public import Mathlib.Order.Directed
+public import Mathlib.Data.Set.Basic
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
+import Mathlib.Data.Set.Image
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Monotone functions on intervals

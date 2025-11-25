@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.BilinearForm.TensorProduct
 public import Mathlib.LinearAlgebra.QuadraticForm.Basic
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.Module
+import Mathlib.Algebra.Ring.Invertible
 
 /-!
 # The quadratic form on a tensor product

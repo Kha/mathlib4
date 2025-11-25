@@ -5,9 +5,14 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.Algebra.Group.Pointwise.Set.Card
-public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.RingTheory.Adjoin.Basic
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.Card
 
 /-!
 # Some results on dimensions of algebra adjoin

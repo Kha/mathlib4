@@ -5,11 +5,24 @@ Authors: Kenny Lau, Joey van Langen, Casper Putz
 -/
 module
 
-public import Mathlib.Data.Nat.Cast.Basic
-public import Mathlib.Data.Nat.Find
 public import Mathlib.Data.Nat.Prime.Defs
-public import Mathlib.Data.Int.Cast.Basic
-public import Mathlib.Order.Lattice
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.CharZero.Defs
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Ring.Defs
+import Batteries.Tactic.Init
+import Mathlib.Order.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Nat.Find
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Characteristic of semirings

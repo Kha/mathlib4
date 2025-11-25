@@ -5,12 +5,29 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Abs
-public import Mathlib.Dynamics.FixedPoints.Prufer
 public import Mathlib.Dynamics.Ergodic.Ergodic
-public import Mathlib.MeasureTheory.Covering.DensityTheorem
-public import Mathlib.MeasureTheory.Group.AddCircle
-public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.GCDMonoid.Nat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Dynamics.FixedPoints.Prufer
+import Mathlib.MeasureTheory.Covering.DensityTheorem
+import Mathlib.MeasureTheory.Group.AddCircle
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Ergodic maps of the additive circle

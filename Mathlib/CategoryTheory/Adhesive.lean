@@ -6,8 +6,14 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Extensive
-public import Mathlib.CategoryTheory.Limits.Shapes.KernelPair
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+public import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.CategoryTheory.Limits.Shapes.KernelPair
+import Mathlib.CategoryTheory.Limits.Types.Coproducts
+import Mathlib.CategoryTheory.Limits.Types.Pullbacks
 
 /-!
 

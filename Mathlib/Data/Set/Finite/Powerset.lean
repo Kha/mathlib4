@@ -5,8 +5,10 @@ Authors: Johannes Hölzl, Mario Carneiro, Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Finset.Powerset
-public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Finset.Defs
+import Mathlib.Data.Finset.Powerset
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Finiteness of the powerset of a finite set

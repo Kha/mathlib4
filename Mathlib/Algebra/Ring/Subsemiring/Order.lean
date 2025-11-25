@@ -5,10 +5,14 @@ Authors: Damiano Testa
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.InjSurj
 public import Mathlib.Algebra.Ring.Subsemiring.Defs
 public import Mathlib.Order.Interval.Set.Defs
-public import Mathlib.Tactic.FastInstance
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.InjSurj
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # `Order`ed instances for `SubsemiringClass` and `Subsemiring`.

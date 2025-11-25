@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Data.Finset.Dedup
 public import Mathlib.Data.Fintype.Defs
-public import Mathlib.Data.List.Sublists
 public import Mathlib.GroupTheory.FreeGroup.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Chain
+import Mathlib.Data.List.Sublists
 
 /-!
 # The maximal reduction of a word in a free group

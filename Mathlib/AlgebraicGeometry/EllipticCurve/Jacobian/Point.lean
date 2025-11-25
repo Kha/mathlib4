@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian.Formula
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
 
 /-!
 # Nonsingular points and the group law in Jacobian coordinates

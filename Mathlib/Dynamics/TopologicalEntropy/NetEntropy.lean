@@ -6,6 +6,9 @@ Authors: Damien Thomine, Pietro Monticone
 module
 
 public import Mathlib.Dynamics.TopologicalEntropy.CoverEntropy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Topological entropy via nets

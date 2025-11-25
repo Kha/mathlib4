@@ -5,11 +5,17 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Finprod
-public import Mathlib.Data.Nat.Prime.Basic
-public import Mathlib.Data.Setoid.Partition.Card
 public import Mathlib.GroupTheory.GroupAction.Blocks
-public import Mathlib.GroupTheory.GroupAction.Transitive
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.GroupTheory.GroupAction.Transitive
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Setoid.Partition.Card
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Primitive actions

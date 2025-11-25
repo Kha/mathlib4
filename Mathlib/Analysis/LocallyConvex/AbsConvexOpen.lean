@@ -8,6 +8,11 @@ module
 public import Mathlib.Analysis.LocallyConvex.AbsConvex
 public import Mathlib.Analysis.LocallyConvex.WithSeminorms
 public import Mathlib.Analysis.Convex.Gauge
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Absolutely convex open sets

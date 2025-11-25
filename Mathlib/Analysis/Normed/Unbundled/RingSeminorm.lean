@@ -5,9 +5,13 @@ Authors: María Inés de Frutos-Fernández, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.IsNonarchimedean
-public import Mathlib.Analysis.Normed.Field.Lemmas
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.IsNonarchimedean
 
 /-!
 # Seminorms and norms on rings

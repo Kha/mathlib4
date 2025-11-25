@@ -5,9 +5,36 @@ Authors: Sébastien Gouëzel, Johan Commelin
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Basic
 public import Mathlib.Analysis.Analytic.CPolynomialDef
 public import Mathlib.Combinatorics.Enumerative.Composition
+public import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Order.Filter.AtTopBot.Prod
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.List
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Composition of analytic functions

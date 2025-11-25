@@ -6,7 +6,15 @@ Authors: Daniel Weber
 module
 
 public import Mathlib.RingTheory.Derivation.MapCoeffs
-public import Mathlib.FieldTheory.PrimitiveElement
+public import Mathlib.Tactic.ApplyFun
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Polynomial.Degree.Domain
 
 /-!
 # Differential Fields

@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Algebra.NonUnitalSubalgebra
 public import Mathlib.Topology.Algebra.Module.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.UniformSpace.UniformEmbedding
 
 /-!
 # Non-unital topological (sub)algebras

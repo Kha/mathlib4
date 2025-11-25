@@ -6,11 +6,13 @@ Authors: Nathaniel Thomas, Jeremy Avigad, Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Field.Defs
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
 public import Mathlib.Algebra.Module.Submodule.Defs
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
-public import Mathlib.GroupTheory.GroupAction.SubMulAction
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Submodules of a module

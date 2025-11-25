@@ -7,7 +7,14 @@ module
 
 public import Mathlib.RingTheory.Kaehler.Polynomial
 public import Mathlib.Algebra.Module.FinitePresentation
-public import Mathlib.RingTheory.Extension.Presentation.Basic
+public import Mathlib.RingTheory.FinitePresentation
+public import Mathlib.LinearAlgebra.TensorProduct.Basis
+public import Mathlib.RingTheory.Extension.Generators
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.RingTheory.Extension.Presentation.Basic
 
 /-!
 

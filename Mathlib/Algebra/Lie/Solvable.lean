@@ -5,11 +5,13 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Lie.Abelian
 public import Mathlib.Algebra.Lie.BaseChange
-public import Mathlib.Algebra.Lie.IdealOperations
-public import Mathlib.Order.Hom.Basic
 public import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Hom.Order
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Solvable Lie algebras

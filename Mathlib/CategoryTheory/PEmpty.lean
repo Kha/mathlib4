@@ -6,6 +6,7 @@ Authors: Kim Morrison, Bhavik Mehta
 module
 
 public import Mathlib.CategoryTheory.Discrete.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The empty category

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Data.ZMod.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The `ZMod n`-algebra structure on rings whose characteristic divides `n`

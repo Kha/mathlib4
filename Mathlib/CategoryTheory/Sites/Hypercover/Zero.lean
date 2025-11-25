@@ -6,6 +6,8 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Sites.Precoverage
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # 0-hypercovers

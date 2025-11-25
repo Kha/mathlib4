@@ -6,6 +6,8 @@ Authors: Bolton Bailey
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.Field
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Logarithm Tonality

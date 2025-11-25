@@ -9,6 +9,9 @@ public import Mathlib.Algebra.Module.Equiv.Defs
 public import Mathlib.Algebra.Module.LinearMap.End
 public import Mathlib.Algebra.Module.Pi
 public import Mathlib.Data.Finsupp.SMul
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Ext
 
 /-!
 # Properties of the module `α →₀ M`

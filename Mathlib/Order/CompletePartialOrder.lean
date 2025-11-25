@@ -6,6 +6,9 @@ Authors: Christopher Hoskin
 module
 
 public import Mathlib.Order.OmegaCompletePartialOrder
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
 
 /-!
 # Complete Partial Orders

@@ -5,9 +5,14 @@ Authors: Johan Commelin, Fabian Glöckle, Kyle Miller
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
 public import Mathlib.LinearAlgebra.BilinearMap
 public import Mathlib.LinearAlgebra.Span.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Module.Equiv.Opposite
 
 /-!
 # Dual vector spaces

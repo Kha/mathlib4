@@ -6,6 +6,22 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.MeasureTheory.Measure.Restrict
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Instances.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Classes for finite measures

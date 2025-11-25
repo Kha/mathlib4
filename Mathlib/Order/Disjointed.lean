@@ -6,7 +6,11 @@ Authors: Johannes Hölzl, Yaël Dillies, David Loeffler
 module
 
 public import Mathlib.Order.PartialSups
-public import Mathlib.Order.Interval.Finset.Fin
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Lattice.Union
+import Mathlib.Order.Interval.Finset.Fin
 
 /-!
 # Making a sequence disjoint

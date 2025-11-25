@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.EqToHom
 public import Mathlib.CategoryTheory.Functor.Trifunctor
 public import Mathlib.CategoryTheory.Products.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Monoidal categories

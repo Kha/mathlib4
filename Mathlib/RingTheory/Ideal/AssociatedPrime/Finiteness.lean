@@ -8,9 +8,14 @@ module
 public import Mathlib.Order.RelSeries
 public import Mathlib.RingTheory.Ideal.AssociatedPrime.Basic
 public import Mathlib.RingTheory.Localization.FractionRing
-public import Mathlib.RingTheory.Noetherian.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.Defs
-public import Mathlib.RingTheory.Spectrum.Maximal.Basic
+public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+import Mathlib.LinearAlgebra.DFinsupp
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.RingTheory.Spectrum.Maximal.Basic
 
 /-!
 

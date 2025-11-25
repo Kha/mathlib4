@@ -5,10 +5,25 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Analysis.Calculus.UniformLimitsDeriv
-public import Mathlib.Topology.Algebra.InfiniteSum.Module
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Calculus.UniformLimitsDeriv
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Module
 
 /-!
 # Smoothness of series

@@ -7,10 +7,24 @@ module
 
 public import Mathlib.Algebra.Polynomial.FieldDivision
 public import Mathlib.Algebra.Squarefree.Basic
-public import Mathlib.RingTheory.ChainOfDivisors
 public import Mathlib.RingTheory.DedekindDomain.Ideal.Basic
-public import Mathlib.RingTheory.Spectrum.Maximal.Localization
-public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
+public import Mathlib.Order.BoundedOrder.Lattice
+public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+public import Mathlib.RingTheory.Localization.AsSubring
+public import Mathlib.RingTheory.UniqueFactorizationDomain.FactorSet
+public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+import Mathlib.RingTheory.ChainOfDivisors
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.UniqueFactorizationDomain.GCDMonoid
+import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.RingTheory.Spectrum.Maximal.Localization
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
 
 /-!
 # Dedekind domains and ideals

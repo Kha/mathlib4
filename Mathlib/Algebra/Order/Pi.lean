@@ -5,10 +5,13 @@ Authors: Simon Hudon, Patrick Massot
 -/
 module
 
-public import Mathlib.Algebra.Notation.Lemmas
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Ring.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Notation.Lemmas
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Pi instances for ordered groups and monoids

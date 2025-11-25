@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Order.InitialSeg
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Intervals as initial segments

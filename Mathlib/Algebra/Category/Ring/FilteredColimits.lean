@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Algebra.Category.Ring.Basic
 public import Mathlib.Algebra.Category.Grp.FilteredColimits
-public import Mathlib.Algebra.Ring.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.NeZero
+import Mathlib.Algebra.Ring.ULift
+import Mathlib.Data.Int.Basic
 
 /-!
 # The forgetful functor from (commutative) (semi-) rings preserves filtered colimits.

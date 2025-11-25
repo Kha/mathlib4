@@ -7,6 +7,17 @@ module
 
 public import Mathlib.Data.Rel
 public import Mathlib.Topology.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Prod
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Uniform spaces

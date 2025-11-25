@@ -5,8 +5,21 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-public import Mathlib.Topology.Algebra.InfiniteSum.Field
+public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Field
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Summability of logarithms

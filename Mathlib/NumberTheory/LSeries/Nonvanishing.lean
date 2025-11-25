@@ -5,11 +5,36 @@ Authors: Michael Stoll, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-public import Mathlib.NumberTheory.Harmonic.ZetaAsymp
-public import Mathlib.NumberTheory.LSeries.Dirichlet
 public import Mathlib.NumberTheory.LSeries.DirichletContinuation
-public import Mathlib.NumberTheory.LSeries.Positivity
+public import Mathlib.NumberTheory.LSeries.Convolution
+import Mathlib.NumberTheory.SumPrimeReciprocals
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Piecewise
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.Asymptotics
+import Mathlib.Analysis.Complex.RemovableSingularity
+import Mathlib.NumberTheory.DirichletCharacter.Bounds
+import Mathlib.NumberTheory.EulerProduct.DirichletLSeries
+import Mathlib.NumberTheory.EulerProduct.ExpLog
+import Mathlib.NumberTheory.Harmonic.ZetaAsymp
+import Mathlib.NumberTheory.LSeries.Dirichlet
+import Mathlib.NumberTheory.LSeries.Positivity
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.Deriv.Shift
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # The L-function of a Dirichlet character does not vanish on Re(s) ≥ 1

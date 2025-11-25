@@ -5,8 +5,15 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.PosPart.Isometric
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
+public import Mathlib.Analysis.CStarAlgebra.Classes
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
+import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.PosPart.Isometric
 
 /-! # C⋆-algebraic facts about `a⁺` and `a⁻`. -/
 

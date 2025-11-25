@@ -5,8 +5,12 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 public import Mathlib.Data.Rat.Cast.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Data.Nat.Cast.Commute
 
 /-!
 # Casts of rational numbers into characteristic zero fields (or division rings).

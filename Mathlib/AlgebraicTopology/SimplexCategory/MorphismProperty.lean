@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Composition
+import Mathlib.Tactic.Lemma
 
 /-!
 # Properties of morphisms in the simplex category

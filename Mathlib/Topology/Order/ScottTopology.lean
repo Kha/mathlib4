@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Order.ScottContinuity
 public import Mathlib.Topology.Order.UpperLowerSetTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Scott topology

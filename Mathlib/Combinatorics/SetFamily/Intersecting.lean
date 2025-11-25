@@ -6,7 +6,11 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Data.Fintype.Card
-public import Mathlib.Order.UpperLower.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.UpperLower.Basic
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Intersecting families

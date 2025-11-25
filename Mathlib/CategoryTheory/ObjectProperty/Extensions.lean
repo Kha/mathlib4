@@ -6,7 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
-public import Mathlib.CategoryTheory.ObjectProperty.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Properties of objects that are closed under extensions

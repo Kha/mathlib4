@@ -6,8 +6,12 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Order.Floor.Div
-public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Data.Nat.Factorization.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Finsupp.Order
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Roots of natural numbers, rounded up and down

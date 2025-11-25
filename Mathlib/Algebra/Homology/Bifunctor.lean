@@ -6,7 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.TotalComplex
-public import Mathlib.CategoryTheory.GradedObject.Bifunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The action of a bifunctor on homological complexes

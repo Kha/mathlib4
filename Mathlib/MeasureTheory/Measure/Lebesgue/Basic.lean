@@ -5,14 +5,34 @@ Authors: Johannes Hölzl, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Dynamics.Ergodic.MeasurePreserving
-public import Mathlib.LinearAlgebra.Determinant
-public import Mathlib.LinearAlgebra.Matrix.Diagonal
 public import Mathlib.LinearAlgebra.Matrix.Transvection
-public import Mathlib.MeasureTheory.Group.LIntegral
-public import Mathlib.MeasureTheory.Integral.Marginal
 public import Mathlib.MeasureTheory.Measure.Stieltjes
 public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.MeasureTheory.Constructions.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.Matrix.Diagonal
+import Mathlib.MeasureTheory.Group.LIntegral
+import Mathlib.MeasureTheory.Integral.Marginal
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.Pi
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Lebesgue measure on the real line and on `ℝⁿ`

@@ -6,12 +6,29 @@ Authors: Etienne Marion
 module
 
 public import Mathlib.MeasureTheory.Constructions.ProjectiveFamilyContent
-public import Mathlib.MeasureTheory.Function.FactorsThrough
-public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
 public import Mathlib.MeasureTheory.OuterMeasure.OfAddContent
-public import Mathlib.Probability.Kernel.Composition.IntegralCompProd
 public import Mathlib.Probability.Kernel.IonescuTulcea.PartialTraj
-public import Mathlib.Probability.Kernel.SetIntegral
+public import Mathlib.Probability.Process.Filtration
+public import Mathlib.Probability.Kernel.Composition.MeasureCompProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.MeasureTheory.Function.FactorsThrough
+import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+import Mathlib.Probability.Kernel.SetIntegral
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Probability.Kernel.Composition.CompMap
+import Mathlib.Probability.Kernel.Composition.IntegralCompProd
+import Mathlib.Probability.Kernel.Composition.MeasureComp
 
 /-!
 # Ionescu-Tulcea theorem

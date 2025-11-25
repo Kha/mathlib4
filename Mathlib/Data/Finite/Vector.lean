@@ -5,7 +5,11 @@ Authors: Kyle Miller
 -/
 module
 
-public import Mathlib.Data.Fintype.Vector
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Sym.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Data.Fintype.Vector
 
 /-!
 # Finiteness of vector types

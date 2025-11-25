@@ -7,6 +7,8 @@ module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.Embedding
 public import Mathlib.Order.Restriction
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Auxiliary maps for Ionescu-Tulcea theorem
 

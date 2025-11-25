@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Analysis.Normed.Group.Ultra
 public import Mathlib.Analysis.Normed.Unbundled.FiniteExtension
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.Pointwise
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # algNormOfAlgEquiv and invariantExtension

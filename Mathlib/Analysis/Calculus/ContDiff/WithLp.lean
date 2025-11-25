@@ -5,8 +5,12 @@ Authors: Anatole Dedecker, Eric Wieser
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
 public import Mathlib.Analysis.Normed.Lp.PiLp
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-!
 # Derivatives on `WithLp`

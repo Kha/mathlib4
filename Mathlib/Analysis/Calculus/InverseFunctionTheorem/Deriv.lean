@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.Calculus.Deriv.Inverse
 public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Inverse function theorem, 1D case

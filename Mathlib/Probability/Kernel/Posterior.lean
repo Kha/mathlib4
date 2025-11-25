@@ -5,9 +5,20 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.CompProdEqIff
-public import Mathlib.Probability.Kernel.Composition.Lemmas
 public import Mathlib.Probability.Kernel.Disintegration.StandardBorel
+public import Mathlib.Probability.Kernel.RadonNikodym
+public import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.Probability.Kernel.CompProdEqIff
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+import Mathlib.Probability.Kernel.Composition.AbsolutelyContinuous
+import Mathlib.Probability.Kernel.Composition.CompMap
+import Mathlib.Probability.Kernel.Composition.KernelLemmas
+import Mathlib.Probability.Kernel.Composition.Lemmas
 
 /-!
 

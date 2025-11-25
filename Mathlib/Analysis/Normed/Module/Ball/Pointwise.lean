@@ -5,8 +5,23 @@ Authors: Sébastien Gouëzel, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Pointwise
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
+public import Mathlib.Topology.MetricSpace.Thickening
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Properties of pointwise scalar multiplication of sets in normed spaces.

@@ -8,7 +8,10 @@ module
 public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Derivative
 public import Mathlib.Algebra.Ring.NegOnePow
-public import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Cast
 
 /-!
 # Chebyshev polynomials

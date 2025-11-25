@@ -5,15 +5,39 @@ Authors: Heather Macbeth, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
 public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
 public import Mathlib.Analysis.InnerProductSpace.l2Space
-public import Mathlib.MeasureTheory.Function.ContinuousMapDense
 public import Mathlib.MeasureTheory.Function.L2Space
-public import Mathlib.MeasureTheory.Group.Integral
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
-public import Mathlib.Topology.ContinuousMap.StoneWeierstrass
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+public import Mathlib.Topology.Algebra.StarSubalgebra
+public import Mathlib.Topology.GDelta.MetrizableSpace
+public import Mathlib.Topology.Instances.ZMultiples
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Constructions.Polish.Basic
+public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.ContinuousMapDense
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Function.LpSpace.Complete
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Module
 
 /-!
 

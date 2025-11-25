@@ -5,9 +5,20 @@ Authors: Johannes Hölzl, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
 public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.Topology.ContinuousMap.Compact
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-! # Properties of integration with respect to the Lebesgue measure -/
 

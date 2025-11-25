@@ -6,9 +6,24 @@ Authors: Mario Carneiro, Johannes Hölzl, Sander Dahmen, Kim Morrison, Chris Hug
 module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
-public import Mathlib.LinearAlgebra.Basis.Prod
-public import Mathlib.LinearAlgebra.Dimension.Free
-public import Mathlib.LinearAlgebra.TensorProduct.Basis
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.Algebra.DirectSum.Module
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.LinearAlgebra.Matrix.Defs
+public import Mathlib.LinearAlgebra.Quotient.Defs
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.Basis.Prod
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.Matrix.StdBasis
+import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Cardinal.Arithmetic
 
 /-!
 # Rank of various constructions

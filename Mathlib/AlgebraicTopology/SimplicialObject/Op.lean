@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Rev
 public import Mathlib.AlgebraicTopology.SimplicialObject.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The covariant involution of the category of simplicial objects

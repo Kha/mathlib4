@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Congruence.Basic
 public import Mathlib.GroupTheory.Congruence.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruences on the opposite ring

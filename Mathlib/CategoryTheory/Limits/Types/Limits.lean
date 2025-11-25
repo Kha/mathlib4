@@ -5,8 +5,9 @@ Authors: Kim Morrison, Reid Barton
 -/
 module
 
-public import Mathlib.Logic.UnivLE
 public import Mathlib.CategoryTheory.Limits.HasLimits
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Limits in the category of types.

@@ -6,6 +6,7 @@ Authors: Christian Merten
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Local closure of morphism properties

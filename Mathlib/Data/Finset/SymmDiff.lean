@@ -6,7 +6,11 @@ Authors: Leonardo de Moura, Jeremy Avigad, Minchao Wu, Mario Carneiro
 module
 
 public import Mathlib.Data.Finset.Image
-public import Mathlib.Data.Set.SymmDiff
+public import Mathlib.Order.SymmDiff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.SymmDiff
 
 /-!
 # Symmetric difference of finite sets

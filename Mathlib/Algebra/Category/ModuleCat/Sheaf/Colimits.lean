@@ -5,7 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
 
 /-!
 # Colimits in categories of sheaves of modules

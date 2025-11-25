@@ -8,6 +8,7 @@ module
 public import Mathlib.AlgebraicTopology.SimplicialObject.Basic
 public import Mathlib.Analysis.Convex.StdSimplex
 public import Mathlib.Topology.Category.TopCat.ULift
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Topological simplices

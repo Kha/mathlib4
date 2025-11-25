@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Subobject.ArtinianObject
 public import Mathlib.CategoryTheory.Subobject.NoetherianObject
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Artinian and Noetherian categories

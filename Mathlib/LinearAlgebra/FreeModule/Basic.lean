@@ -7,9 +7,13 @@ module
 
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Module.ULift
-public import Mathlib.Data.Finsupp.Fintype
-public import Mathlib.LinearAlgebra.Basis.Basic
-public import Mathlib.Logic.Small.Basic
+public import Mathlib.LinearAlgebra.Basis.Defs
+public import Mathlib.Logic.Small.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finsupp.Fintype
+import Mathlib.LinearAlgebra.Basis.Basic
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Free modules

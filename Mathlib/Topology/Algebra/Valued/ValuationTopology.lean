@@ -5,10 +5,17 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Units
 public import Mathlib.Topology.Algebra.Nonarchimedean.Bases
-public import Mathlib.Topology.Algebra.UniformFilterBasis
 public import Mathlib.RingTheory.Valuation.ValuationSubring
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Algebra.UniformFilterBasis
+import Mathlib.Algebra.Order.Group.Units
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The topology on a valued ring

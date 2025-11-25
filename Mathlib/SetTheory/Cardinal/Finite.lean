@@ -6,10 +6,15 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.Data.ENat.Pow
-public import Mathlib.Data.ULift
 public import Mathlib.Data.ZMod.Defs
 public import Mathlib.SetTheory.Cardinal.ToNat
-public import Mathlib.SetTheory.Cardinal.ENat
+public import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Set.Prod
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Finite Cardinality Functions

@@ -5,10 +5,30 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Order.Interval.Set.ProjIcc
-public import Mathlib.Tactic.Finiteness
 public import Mathlib.Topology.Semicontinuous
 public import Mathlib.Topology.UniformSpace.UniformConvergenceTopology
+public import Mathlib.Topology.EMetricSpace.Lipschitz
+public import Mathlib.Topology.MetricSpace.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Monotone
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Order.Interval.Set.ProjIcc
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Functions of bounded variation

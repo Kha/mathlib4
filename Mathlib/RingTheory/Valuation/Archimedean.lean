@@ -5,8 +5,15 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.GroupTheory.ArchimedeanDensely
-public import Mathlib.RingTheory.Valuation.ValuationRing
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.RingTheory.UniqueFactorizationDomain.Defs
+public import Mathlib.RingTheory.Valuation.Integers
+public import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.GroupTheory.ArchimedeanDensely
+import Mathlib.RingTheory.Bezout
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Valuation.ValuationRing
 
 /-!
 # Ring of integers under a given valuation in an multiplicatively archimedean codomain

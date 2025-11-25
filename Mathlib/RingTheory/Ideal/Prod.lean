@@ -6,6 +6,8 @@ Authors: Markus Himmel
 module
 
 public import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.Data.Set.Prod
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 # Ideals in product rings

@@ -7,8 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.PEmpty
 public import Mathlib.CategoryTheory.Limits.IsLimit
-public import Mathlib.CategoryTheory.EpiMono
 public import Mathlib.CategoryTheory.Category.Preorder
+public import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Initial and terminal objects in a category.

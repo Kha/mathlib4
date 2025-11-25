@@ -5,10 +5,20 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public meta import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public meta import Mathlib.NumberTheory.Real.Irrational
-public meta import Mathlib.Tactic.NormNum.GCD
-public meta import Mathlib.Tactic.Rify
+public import Mathlib.Algebra.GroupWithZero.Invertible
+public import Mathlib.Data.Real.Basic
+public import Mathlib.Tactic.NormNum.GCD
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.NumberTheory.Real.Irrational
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Data.Rat.Cast.Order
 
 /-! # `norm_num` extension for `Irrational`
 

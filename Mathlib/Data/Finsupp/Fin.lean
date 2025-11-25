@@ -6,6 +6,9 @@ Authors: Ivan Sadofschi Costa
 module
 
 public import Mathlib.Data.Finsupp.Single
+public import Mathlib.Data.Fin.Tuple.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `cons` and `tail` for maps `Fin n →₀ M`

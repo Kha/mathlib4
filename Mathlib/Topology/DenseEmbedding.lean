@@ -5,8 +5,15 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot
 -/
 module
 
-public import Mathlib.Topology.Bases
 public import Mathlib.Topology.Separation.Regular
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Dense embeddings

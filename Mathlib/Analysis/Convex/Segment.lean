@@ -6,8 +6,23 @@ Authors: Alexander Bentkamp, Yury Kudryashov, Yaël Dillies
 module
 
 public import Mathlib.LinearAlgebra.AffineSpace.Midpoint
-public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
 public import Mathlib.LinearAlgebra.Ray
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Order.Invertible
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Segments in vector spaces

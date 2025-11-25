@@ -5,10 +5,17 @@ Authors: Patrick Massot, Michael Rothgang
 -/
 module
 
-public import Mathlib.Geometry.Manifold.Algebra.Monoid
-public import Mathlib.Geometry.Manifold.Notation
-public import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
-public import Mathlib.Geometry.Manifold.VectorBundle.SmoothSection
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+public import Mathlib.Geometry.Manifold.VectorBundle.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Geometry.Manifold.Notation
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
+import Mathlib.Geometry.Manifold.VectorBundle.SmoothSection
 
 /-!
 # Local frames in a vector bundle

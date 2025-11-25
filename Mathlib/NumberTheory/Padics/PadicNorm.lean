@@ -7,6 +7,18 @@ module
 
 public import Mathlib.Algebra.Order.AbsoluteValue.Basic
 public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+public import Mathlib.Algebra.Ring.Rat
+public import Mathlib.Algebra.Order.Ring.Unbundled.Rat
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 # p-adic norm

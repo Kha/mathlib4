@@ -7,9 +7,15 @@ module
 
 public import Mathlib.Dynamics.Ergodic.MeasurePreserving
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
 public import Mathlib.Order.Filter.Germ.Basic
 public import Mathlib.Topology.ContinuousMap.Algebra
+public import Mathlib.MeasureTheory.Measure.AEMeasurable
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
 
 /-!
 

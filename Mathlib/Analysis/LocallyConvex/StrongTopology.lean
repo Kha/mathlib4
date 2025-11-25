@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Algebra.Module.StrongTopology
 public import Mathlib.Topology.Algebra.Module.LocallyConvex
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Local convexity of the strong topology

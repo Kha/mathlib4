@@ -9,6 +9,9 @@ public import Mathlib.Data.ENNReal.Lemmas
 public import Mathlib.Topology.Bornology.Constructions
 public import Mathlib.Topology.EMetricSpace.Pi
 public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
 
 /-!
 # Product of pseudometric spaces

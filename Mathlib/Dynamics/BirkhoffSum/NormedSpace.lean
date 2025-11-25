@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.Dynamics.BirkhoffSum.Average
+public import Mathlib.Topology.UniformSpace.Equicontinuity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Birkhoff average in a normed space

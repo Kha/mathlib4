@@ -5,10 +5,15 @@ Authors: Kenny Lau, Chris Hughes, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Group.Units.Hom
-public import Mathlib.Data.ZMod.Basic
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ZMod.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 

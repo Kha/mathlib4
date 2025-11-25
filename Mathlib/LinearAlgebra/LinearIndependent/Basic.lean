@@ -5,8 +5,18 @@ Authors: Johannes Hölzl, Mario Carneiro, Alexander Bentkamp, Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Fin
 public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+public import Mathlib.Data.Fin.Tuple.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Preimage
 
 /-!
 # Linear independence

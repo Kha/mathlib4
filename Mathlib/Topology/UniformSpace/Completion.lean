@@ -6,6 +6,14 @@ Authors: Patrick Massot, Johannes Hölzl
 module
 
 public import Mathlib.Topology.UniformSpace.AbstractCompletion
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Order
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Prod
 
 /-!
 # Hausdorff completions of uniform spaces

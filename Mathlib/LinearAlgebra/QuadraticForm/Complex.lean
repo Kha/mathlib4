@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.QuadraticForm.IsometryEquiv
 public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quadratic forms over the complex numbers

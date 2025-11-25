@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Center.Basic
 public import Mathlib.CategoryTheory.Localization.Predicate
 public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.Algebra.Ring.Hom.Defs
+import Mathlib.Tactic.Lemma
 
 /-!
 # Localization of the center of a category

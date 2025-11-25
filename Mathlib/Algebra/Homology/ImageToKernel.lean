@@ -6,6 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Subobject.Limits
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Image-to-kernel comparison maps

@@ -5,7 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Lattice
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Partitions based on membership of a sequence of sets

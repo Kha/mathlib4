@@ -5,10 +5,16 @@ Authors: Nailin Guan, Yongle Hu
 -/
 module
 
-public import Mathlib.RingTheory.Flat.TorsionFree
 public import Mathlib.RingTheory.KrullDimension.Module
 public import Mathlib.RingTheory.Regular.RegularSequence
-public import Mathlib.RingTheory.Spectrum.Prime.LTSeries
+import Mathlib.RingTheory.Nakayama
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Flat.TorsionFree
+import Mathlib.RingTheory.Ideal.MinimalPrime.Localization
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.RingTheory.Spectrum.Prime.LTSeries
 
 /-!
 

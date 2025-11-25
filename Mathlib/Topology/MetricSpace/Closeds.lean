@@ -5,9 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.Topology.MetricSpace.HausdorffDistance
 public import Mathlib.Topology.UniformSpace.Closeds
+public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Set.Finite.Powerset
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Closed subsets

@@ -5,11 +5,41 @@ Authors: Floris van Doorn, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Pi
 public import Mathlib.Analysis.InnerProductSpace.EuclideanDist
-public import Mathlib.Analysis.InnerProductSpace.NormPow
-public import Mathlib.Data.Finset.Interval
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+public import Mathlib.MeasureTheory.Integral.Marginal
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.NormPow
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Finset.Interval
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.MeasureTheory.Integral.MeanInequalities
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Pi
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Gagliardo-Nirenberg-Sobolev inequality

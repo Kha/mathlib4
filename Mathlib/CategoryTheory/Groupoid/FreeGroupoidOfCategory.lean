@@ -9,6 +9,8 @@ public import Mathlib.CategoryTheory.Groupoid.FreeGroupoid
 public import Mathlib.CategoryTheory.Category.Grpd
 public import Mathlib.CategoryTheory.Adjunction.Reflective
 public import Mathlib.CategoryTheory.Localization.Predicate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Free groupoid on a category

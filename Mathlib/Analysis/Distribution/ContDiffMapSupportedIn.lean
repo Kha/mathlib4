@@ -5,9 +5,21 @@ Authors: Anatole Dedecker, Luigi Massacci
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Topology.ContinuousMap.Bounded.Normed
 public import Mathlib.Topology.Sets.Compacts
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Topology.Algebra.Module.LocallyConvex
+public import Mathlib.Topology.ContinuousMap.Bounded.Basic
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Topology.ContinuousMap.Bounded.Normed
 
 /-!
 # Continuously differentiable functions supported in a given compact set

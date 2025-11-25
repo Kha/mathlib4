@@ -6,7 +6,8 @@ Authors: Pim Otte
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.WalkCounting
-public import Mathlib.Data.Set.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Representation of components by a set of vertices

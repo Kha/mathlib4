@@ -7,10 +7,19 @@ module
 
 public import Mathlib.Algebra.Field.IsField
 public import Mathlib.Data.Fin.VecNotation
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
 public import Mathlib.RingTheory.Ideal.Maximal
 public import Mathlib.Tactic.FinCases
+public import Mathlib.Algebra.Ring.Pi
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Lattice
+import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

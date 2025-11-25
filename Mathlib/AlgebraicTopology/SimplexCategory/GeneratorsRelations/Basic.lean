@@ -7,6 +7,9 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Basic
 public import Mathlib.CategoryTheory.PathCategory.Basic
+public import Mathlib.CategoryTheory.MorphismProperty.Composition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-! # Presentation of the simplex category by generators and relations.
 
 We introduce `SimplexCategoryGenRel` as the category presented by generating

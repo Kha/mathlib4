@@ -7,7 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.Star.Basic
 public import Mathlib.Algebra.Star.Prod
-public import Mathlib.Algebra.Ring.Prod
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
 
 /-!
 # Products of star-ordered rings

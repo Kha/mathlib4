@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Geometry.Manifold.Algebra.SmoothFunctions
 public import Mathlib.RingTheory.Derivation.Basic
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 

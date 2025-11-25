@@ -8,7 +8,23 @@ module
 public import Mathlib.Algebra.Algebra.ZMod
 public import Mathlib.FieldTheory.Finite.Basic
 public import Mathlib.FieldTheory.Galois.Basic
-public import Mathlib.RingTheory.Norm.Transitivity
+public import Mathlib.FieldTheory.SplittingField.Construction
+public import Mathlib.RingTheory.Norm.Defs
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Finite.Set
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.Norm.Transitivity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Galois fields

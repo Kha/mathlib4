@@ -5,11 +5,18 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.ZPowers.Lemmas
-public import Mathlib.Algebra.Module.Submodule.Lattice
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
-public import Mathlib.Topology.Algebra.Ring.Real
-public import Mathlib.Topology.Metrizable.Basic
+public import Mathlib.Data.Int.Cast.Lemmas
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+public import Mathlib.Algebra.Group.Subgroup.ZPowers.Basic
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Topology.Metrizable.Basic
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Module.Submodule.Lattice
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Group.Subgroup.ZPowers.Lemmas
 
 /-!
 The subgroup "multiples of `a`" (`zmultiples a`) is a discrete subgroup of `ℝ`, i.e. its

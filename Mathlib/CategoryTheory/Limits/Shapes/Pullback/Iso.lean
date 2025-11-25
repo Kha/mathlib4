@@ -6,6 +6,7 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
+import Mathlib.Tactic.Lemma
 
 /-!
 # The pullback of an isomorphism

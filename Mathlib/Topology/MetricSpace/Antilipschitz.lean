@@ -5,10 +5,17 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.UniformSpace.CompleteSeparated
 public import Mathlib.Topology.EMetricSpace.Lipschitz
 public import Mathlib.Topology.MetricSpace.Basic
-public import Mathlib.Topology.MetricSpace.Bounded
+public import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.NAry
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Antilipschitz functions

@@ -6,6 +6,9 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.Kernel.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
 
 /-!
 # Basic kernels

@@ -5,9 +5,13 @@ Authors: Jingting Wang
 -/
 module
 
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
-public import Mathlib.RingTheory.KrullDimension.Field
-public import Mathlib.RingTheory.KrullDimension.Zero
+public import Mathlib.RingTheory.KrullDimension.Basic
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.KrullDimension.Field
+import Mathlib.RingTheory.KrullDimension.Zero
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # The Krull dimension of a local ring

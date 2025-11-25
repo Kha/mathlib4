@@ -6,6 +6,9 @@ Authors: Joël Riou, Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Sites.Descent.IsPrestack
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Bicategory.Functor.Cat
+import Mathlib.CategoryTheory.Bicategory.Strict.Pseudofunctor
 
 /-!
 # Descent data

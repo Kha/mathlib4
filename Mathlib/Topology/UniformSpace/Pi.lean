@@ -5,7 +5,13 @@ Authors: Patrick Massot
 -/
 module
 
-public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Topology.Separation.Hausdorff
+public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.UniformSpace.UniformEmbedding
 
 /-!
 # Indexed product of uniform spaces

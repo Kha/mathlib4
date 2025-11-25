@@ -7,7 +7,15 @@ module
 
 public import Mathlib.MeasureTheory.Measure.FiniteMeasure
 public import Mathlib.MeasureTheory.Integral.Average
-public import Mathlib.MeasureTheory.Measure.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
 
 /-!
 # Probability measures

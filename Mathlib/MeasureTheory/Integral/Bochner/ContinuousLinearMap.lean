@@ -5,9 +5,22 @@ Authors: Zhouhang Zhou, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.CompleteCodomain
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
 public import Mathlib.Topology.ContinuousMap.ContinuousMapZero
+public import Mathlib.Topology.Instances.RealVectorSpace
+public import Mathlib.Topology.Metrizable.Uniformity
+public import Mathlib.Analysis.NormedSpace.Multilinear.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Normed.Operator.CompleteCodomain
+import Mathlib.Analysis.Normed.Operator.Mul
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Continuous linear maps composed with integration

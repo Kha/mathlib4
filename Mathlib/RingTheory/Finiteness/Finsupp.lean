@@ -5,11 +5,17 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.FreeAbelianGroup.Finsupp
 public import Mathlib.Algebra.MonoidAlgebra.Module
-public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
-public import Mathlib.LinearAlgebra.Quotient.Basic
-public import Mathlib.RingTheory.Finiteness.Basic
+public import Mathlib.GroupTheory.FreeAbelianGroup
+public import Mathlib.LinearAlgebra.Quotient.Defs
+public import Mathlib.RingTheory.Finiteness.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.FreeAbelianGroup.Finsupp
+import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 # Finiteness of (sub)modules and finitely supported functions

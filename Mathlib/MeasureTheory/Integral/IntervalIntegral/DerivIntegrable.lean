@@ -5,9 +5,26 @@ Authors: Yizheng Zhu
 -/
 module
 
-public import Mathlib.Analysis.BoundedVariation
 public import Mathlib.MeasureTheory.Function.AbsolutelyContinuous
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Slope
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.Calculus.Monotone
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.Slope
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.Order.Interval.Set.Group
 
 /-!
 # `f'` is interval integrable for certain classes of functions `f`

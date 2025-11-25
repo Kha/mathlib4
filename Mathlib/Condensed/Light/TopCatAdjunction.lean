@@ -8,6 +8,10 @@ module
 public import Mathlib.Condensed.Light.TopComparison
 public import Mathlib.Topology.Category.Sequential
 public import Mathlib.Topology.Category.LightProfinite.Sequence
+public import Mathlib.CategoryTheory.Adjunction.Restrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Sequences
+import Mathlib.Topology.Category.TopCat.EpiMono
 /-!
 
 # The adjunction between light condensed sets and topological spaces

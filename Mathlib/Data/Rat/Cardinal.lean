@@ -5,10 +5,13 @@ Authors: Chris Hughes, Floris Van Doorn
 -/
 module
 
-public import Mathlib.Algebra.CharZero.Infinite
-public import Mathlib.Algebra.Ring.Rat
-public import Mathlib.Data.Rat.Encodable
-public import Mathlib.SetTheory.Cardinal.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Rat.Init
+public import Mathlib.SetTheory.Cardinal.Defs
+import Mathlib.Algebra.CharZero.Infinite
+import Mathlib.Algebra.Ring.Rat
+import Mathlib.Data.Rat.Encodable
+import Mathlib.SetTheory.Cardinal.Basic
 
 /-!
 # Cardinality of ℚ

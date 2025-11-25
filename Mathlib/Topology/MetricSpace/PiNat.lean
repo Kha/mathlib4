@@ -5,9 +5,40 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
-public import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
-public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Data.ENNReal.BigOperators
+public import Mathlib.Data.ENNReal.Inv
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Topology.Metrizable.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.Basic
+public import Mathlib.Topology.Instances.ENNReal.Lemmas
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.HausdorffDistance
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Topological study of spaces `Π (n : ℕ), E n`

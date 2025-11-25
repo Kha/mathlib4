@@ -5,8 +5,11 @@ Authors: Jingting Wang, Wanyi He, Nailin Guan
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 public import Mathlib.RingTheory.QuotSMulTop
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 
 /-!
 # Categorical constructions for `IsSMulRegular`

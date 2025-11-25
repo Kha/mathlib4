@@ -5,7 +5,9 @@ Authors: Jireh Loreaux
 -/
 module
 
-public meta import Mathlib.Tactic.Push
+public import Mathlib.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Push
 
 /-! # Contrapose
 

@@ -7,10 +7,12 @@ module
 
 public import Mathlib.Algebra.Homology.ShortComplex.PreservesHomology
 public import Mathlib.Algebra.Homology.ShortComplex.Abelian
-public import Mathlib.Algebra.Homology.ShortComplex.QuasiIso
-public import Mathlib.CategoryTheory.Abelian.Opposite
-public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
 public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
+public import Mathlib.CategoryTheory.Preadditive.Biproducts
+public import Mathlib.CategoryTheory.Preadditive.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Abelian.Opposite
 
 /-!
 # Exact short complexes

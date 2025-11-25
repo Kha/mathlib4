@@ -5,8 +5,18 @@ Authors: Patrick Massot, Floris van Doorn, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Filter.Lift
-public import Mathlib.Order.Filter.AtTopBot.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Order.Filter.AtTopBot.Defs
+public import Mathlib.Order.Filter.Bases.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Map
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # The filter of small sets

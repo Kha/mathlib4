@@ -5,10 +5,11 @@ Authors: Bhavik Mehta, Andrew Yang
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.Terminal
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 
 /-!
 # Constructing binary product from pullbacks and terminal object.

@@ -5,12 +5,29 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker, Johan Comm
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.BigOperators
 public import Mathlib.Algebra.Polynomial.RingDivision
-public import Mathlib.Data.Set.Finite.Lemmas
-public import Mathlib.RingTheory.Coprime.Lemmas
-public import Mathlib.RingTheory.Localization.FractionRing
 public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Fintype.Pi
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Theory of univariate polynomials

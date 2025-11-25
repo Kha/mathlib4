@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.CharP.Defs
 public import Mathlib.Data.Matrix.Diagonal
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Matrices in prime characteristic

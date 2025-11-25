@@ -5,11 +5,15 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.Nat.PrimeFin
-public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.FieldTheory.IsAlgClosed.Classification
 public import Mathlib.ModelTheory.Algebra.Field.CharP
 public import Mathlib.ModelTheory.Satisfiability
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.Field.ZMod
+import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+import Mathlib.FieldTheory.IsAlgClosed.Classification
 
 /-!
 

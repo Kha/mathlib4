@@ -8,8 +8,10 @@ module
 public import Mathlib.Computability.Tape
 public import Mathlib.Data.Finset.Prod
 public import Mathlib.Data.Finset.Option
-public import Mathlib.Data.Fintype.Defs
 public import Mathlib.Data.PFun
+public import Mathlib.Data.Vector.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Turing machines

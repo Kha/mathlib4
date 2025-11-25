@@ -5,13 +5,26 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.NoZeroSMulDivisors.Basic
-public import Mathlib.Algebra.Notation.Prod
-public import Mathlib.Algebra.Order.Group.Basic
-public import Mathlib.Algebra.Order.GroupWithZero.Action.Synonym
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Order.Hom.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
+public import Mathlib.Algebra.GroupWithZero.Action.Units
+public import Mathlib.Algebra.Order.Group.Synonym
+public import Mathlib.Algebra.Ring.Int.Defs
+import Batteries.Tactic.Init
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Action.Synonym
+import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Monotonicity of scalar multiplication by positive elements

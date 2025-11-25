@@ -7,7 +7,16 @@ module
 
 public import Mathlib.Topology.Connected.Basic
 public import Mathlib.Topology.Separation.Hausdorff
-public import Mathlib.Topology.Connected.Clopen
+public import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Prod
+import Mathlib.Topology.Connected.Clopen
+import Mathlib.Topology.Maps.Basic
 /-!
 # Separated maps and locally injective maps out of a topological space.
 

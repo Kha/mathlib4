@@ -5,10 +5,24 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.Complex.AbsMax
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
-public import Mathlib.Geometry.Manifold.MFDeriv.Basic
 public import Mathlib.Topology.LocallyConstant.Basic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Convex.StrictConvexSpace
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Complex.AbsMax
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Analysis.NormedSpace.Extr
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Analysis.Normed.Module.Ray
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
 
 /-! # Holomorphic functions on complex manifolds
 

@@ -5,15 +5,36 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.AffineMap
-public import Mathlib.Analysis.Calculus.Deriv.Comp
-public import Mathlib.Analysis.Calculus.Deriv.Mul
-public import Mathlib.Analysis.Calculus.Deriv.Slope
 public import Mathlib.Analysis.Normed.Group.AddTorsor
-public import Mathlib.Analysis.Normed.Module.Convex
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Topology.Instances.RealVectorSpace
 public import Mathlib.Topology.LocallyConstant.Basic
+public import Mathlib.LinearAlgebra.AffineSpace.Slope
+public import Mathlib.Topology.Connected.PathConnected
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.AffineMap
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Analysis.Normed.Order.Lattice
 
 /-!
 # The mean value inequality and equalities

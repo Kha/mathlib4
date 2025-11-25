@@ -5,8 +5,13 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Lemmas
 public import Mathlib.ModelTheory.Substructures
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Logic.Equiv.List
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Lemmas
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # Finitely Generated First-Order Structures

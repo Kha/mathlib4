@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.DoldKan.FunctorN
+import Mathlib.Tactic.TypeStar
 
 /-!
 

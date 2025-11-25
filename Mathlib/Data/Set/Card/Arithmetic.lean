@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Algebra.BigOperators.Finprod
 public import Mathlib.Data.Set.Card
-public import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Set.Lattice
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Results using cardinal arithmetic

@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Order.Filter.Bases.Basic
 public import Mathlib.Order.Filter.Prod
+public import Mathlib.Data.Set.NAry
+public import Mathlib.Data.Set.Prod
+public import Mathlib.Order.Filter.Map
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # N-ary maps of filter

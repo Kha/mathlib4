@@ -6,7 +6,12 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Topology.Category.LightProfinite.EffectiveEpi
-public import Mathlib.CategoryTheory.Sites.Equivalence
+public import Mathlib.CategoryTheory.Sites.LocallyBijective
+public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
+public import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+public import Mathlib.Topology.Category.LightProfinite.Limits
+import Mathlib.CategoryTheory.Sites.Equivalence
+import Mathlib.CategoryTheory.Sites.LeftExact
 
 /-!
 # `HasSheafify` instances

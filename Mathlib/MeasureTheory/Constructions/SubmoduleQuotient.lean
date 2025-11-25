@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.Quotient.Defs
 public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Measurability on the quotient of a module by a submodule

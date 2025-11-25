@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
 public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extra lemmas about canonically ordered monoids

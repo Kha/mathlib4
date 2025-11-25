@@ -7,8 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.EssentiallySmall
 public import Mathlib.CategoryTheory.FinCategory.Basic
-public import Mathlib.Data.Fintype.EquivFin
-public import Mathlib.Data.Countable.Small
+public import Mathlib.Data.Countable.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Small
+import Mathlib.Data.Fintype.EquivFin
 /-!
 # Countable categories
 

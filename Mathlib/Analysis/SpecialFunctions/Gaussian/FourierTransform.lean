@@ -5,10 +5,37 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.MeasureTheory.Integral.Pi
 public import Mathlib.Analysis.Fourier.FourierTransform
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.Analysis.Normed.Lp.MeasurableSpace
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.MeasureTheory.Integral.Pi
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Ring
 
 /-!
 # Fourier transform of the Gaussian

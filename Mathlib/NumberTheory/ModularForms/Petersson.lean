@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
 public import Mathlib.NumberTheory.ModularForms.SlashInvariantForms
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # The Petersson scalar product

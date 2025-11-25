@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.PFunctor.Multivariate.Basic
 public import Mathlib.Data.PFunctor.Univariate.M
+import Batteries.Tactic.Congr
 
 /-!
 # The M construction as a multivariate polynomial functor.

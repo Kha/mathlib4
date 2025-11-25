@@ -6,7 +6,9 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Monad.Adjunction
-public import Mathlib.CategoryTheory.Monad.Equalizer
+public import Mathlib.CategoryTheory.Limits.Shapes.Reflexive
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Monad.Equalizer
 
 /-!
 # Adjoint lifting

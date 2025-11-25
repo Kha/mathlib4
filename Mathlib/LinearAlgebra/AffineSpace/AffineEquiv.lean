@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.AffineSpace.AffineMap
 public import Mathlib.LinearAlgebra.GeneralLinearGroup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Invertible.Basic
 
 /-!
 # Affine equivalences

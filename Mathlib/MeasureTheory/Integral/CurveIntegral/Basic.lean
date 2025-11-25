@@ -5,12 +5,30 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Order.Field.Pointwise
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
-public import Mathlib.Analysis.Calculus.Deriv.AffineMap
-public import Mathlib.Analysis.Calculus.Deriv.Shift
-public import Mathlib.Analysis.Normed.Module.Convex
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.Analysis.Convex.PathConnected
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Algebra.Affine
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Field.Pointwise
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.AffineMap
+import Mathlib.Analysis.Calculus.Deriv.CompMul
+import Mathlib.Analysis.Calculus.Deriv.Shift
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Real
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Integral of a 1-form along a path

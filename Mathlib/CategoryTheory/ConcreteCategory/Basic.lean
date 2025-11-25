@@ -6,6 +6,8 @@ Authors: Kim Morrison, Johannes Hölzl, Reid Barton, Sean Leather, Yury Kudryash
 module
 
 public import Mathlib.CategoryTheory.Types.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Concrete categories

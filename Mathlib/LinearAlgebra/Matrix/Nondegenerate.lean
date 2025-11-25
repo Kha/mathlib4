@@ -5,9 +5,11 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Data.Matrix.Basic
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
-public import Mathlib.LinearAlgebra.Matrix.Adjugate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.LinearAlgebra.Matrix.Adjugate
 
 /-!
 # Matrices associated with non-degenerate bilinear forms

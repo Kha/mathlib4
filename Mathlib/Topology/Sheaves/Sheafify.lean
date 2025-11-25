@@ -6,7 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Topology.Sheaves.LocalPredicate
-public import Mathlib.Topology.Sheaves.Stalks
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
 
 /-!
 # Sheafification of `Type`-valued presheaves

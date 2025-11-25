@@ -5,8 +5,14 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.Complex.LocallyUniformLimit
 public import Mathlib.Topology.Algebra.InfiniteSum.UniformOn
+public import Mathlib.Analysis.Calculus.LogDeriv
+public import Mathlib.Analysis.Complex.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.LocallyUniformLimit
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
 
 /-!
 # The Logarithmic derivative of an infinite product

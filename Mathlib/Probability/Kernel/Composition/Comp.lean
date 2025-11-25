@@ -5,7 +5,13 @@ Authors: Rémy Degenne, Etienne Marion
 -/
 module
 
-public import Mathlib.Probability.Kernel.MeasurableLIntegral
+public import Mathlib.Probability.Kernel.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
 
 /-!
 # Composition of kernels

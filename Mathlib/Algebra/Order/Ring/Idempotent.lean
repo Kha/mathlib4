@@ -5,9 +5,14 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.Algebra.Ring.Idempotent
 public import Mathlib.Order.BooleanAlgebra.Defs
 public import Mathlib.Order.Hom.Basic
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Group.Idempotent
+public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Idempotent
 
 /-!
 # Boolean algebra structure on idempotents in a commutative (semi)ring

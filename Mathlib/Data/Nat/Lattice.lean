@@ -6,8 +6,15 @@ Authors: Johannes Hölzl, Floris van Doorn, Gabriel Ebner, Yury Kudryashov
 module
 
 public import Mathlib.Data.Set.Accumulate
-public import Mathlib.Order.ConditionallyCompleteLattice.Finset
-public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Order.Nat
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Order.Interval.Finset.Nat
 
 /-!
 # Conditionally complete linear order structure on `ℕ`

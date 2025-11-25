@@ -5,8 +5,14 @@ Authors: Salvatore Mercuri
 -/
 module
 
-public import Mathlib.GroupTheory.ArchimedeanDensely
 public import Mathlib.Topology.Algebra.Valued.ValuationTopology
+public import Mathlib.Algebra.Order.Group.Int
+public import Mathlib.Algebra.Order.Monoid.TypeTags
+import Mathlib.GroupTheory.ArchimedeanDensely
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Topological results for integer-valued rings

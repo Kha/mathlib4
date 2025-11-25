@@ -5,8 +5,11 @@ Authors: Kenny Lau, Joey van Langen, Casper Putz
 -/
 module
 
-public import Mathlib.Algebra.CharP.Frobenius
 public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.Algebra.CharP.Lemmas
+public import Mathlib.Algebra.Group.Even
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Frobenius
 
 /-!
 # Results about characteristic p reduced rings

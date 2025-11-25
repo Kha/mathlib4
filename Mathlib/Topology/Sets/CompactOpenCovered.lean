@@ -5,8 +5,10 @@ Authors: Christian Merten
 -/
 module
 
-public import Mathlib.Data.Finite.Sigma
 public import Mathlib.Topology.Spectral.Prespectral
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Sigma
 
 /-!
 # Compact open covered sets

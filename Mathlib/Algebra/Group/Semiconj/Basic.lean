@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Group.Semiconj.Defs
 public import Mathlib.Algebra.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SimpRw
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Lemmas about semiconjugate elements of a group

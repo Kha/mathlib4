@@ -5,12 +5,36 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Field.Pi
-public import Mathlib.Algebra.Order.Pi
-public import Mathlib.Analysis.Normed.Field.Basic
-public import Mathlib.Analysis.Normed.Group.Pointwise
-public import Mathlib.Topology.Algebra.Order.UpperLower
-public import Mathlib.Topology.MetricSpace.Sequences
+public import Mathlib.Order.UpperLower.Closure
+public import Mathlib.Topology.MetricSpace.Thickening
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Sequences
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Algebra.Order.UpperLower
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.MetricSpace.Sequences
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Field.Pi
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Field.Basic
+import Mathlib.Analysis.Normed.Group.Pointwise
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Topology.Algebra.Order.UpperLower
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Upper/lower/order-connected sets in normed groups

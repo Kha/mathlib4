@@ -6,7 +6,10 @@ Authors: Christian Merten
 module
 
 public import Mathlib.RingTheory.Localization.Away.Basic
-public import Mathlib.RingTheory.Localization.Submodule
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.Submodule
 
 /-!
 # More lemmas on localization away

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.MvPolynomial.MonomialOrder
 public import Mathlib.Data.Finsupp.MonomialOrder.DegLex
+import Mathlib.Tactic.TypeStar
+import Mathlib.SetTheory.Cardinal.Order
 
 /-! # Some lemmas about the degree lexicographic monomial order on multivariate polynomials -/
 

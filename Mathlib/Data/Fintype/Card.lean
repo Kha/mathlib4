@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Finset.Card
 public import Mathlib.Data.Fintype.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Cardinalities of finite types

@@ -5,10 +5,17 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Algebra.CharP.Two
 public import Mathlib.SetTheory.Nimber.Basic
-public import Mathlib.Tactic.Abel
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Algebra.CharP.Defs
+public import Mathlib.Algebra.Field.Defs
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Abel
+import Mathlib.Algebra.CharP.Two
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Small.Set
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.NormNum.Basic
 
 deprecated_module
   "This module is now at `CombinatorialGames.Nimber.Field` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

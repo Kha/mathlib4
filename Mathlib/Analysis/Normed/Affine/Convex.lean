@@ -6,9 +6,22 @@ Authors: Alexander Bentkamp, Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Convex.Between
-public import Mathlib.Analysis.Normed.Affine.AddTorsor
-public import Mathlib.Analysis.Normed.Affine.AddTorsorBases
-public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.NhdsSet
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Analysis.Normed.Affine.AddTorsor
+import Mathlib.Analysis.Normed.Affine.AddTorsorBases
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Simplices in normed affine spaces

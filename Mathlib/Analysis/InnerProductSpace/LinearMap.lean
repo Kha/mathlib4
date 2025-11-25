@@ -5,7 +5,11 @@ Authors: Zhouhang Zhou, Sébastien Gouëzel, Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Continuous
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Normed.Operator.Bilinear
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
 
 /-!
 # Linear maps on inner product spaces

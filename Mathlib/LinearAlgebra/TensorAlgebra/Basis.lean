@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.TensorAlgebra.Basic
 public import Mathlib.LinearAlgebra.FreeAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
 
 /-!
 # A basis for `TensorAlgebra R M`

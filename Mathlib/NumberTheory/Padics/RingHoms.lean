@@ -8,7 +8,18 @@ module
 public import Mathlib.Algebra.Field.ZMod
 public import Mathlib.NumberTheory.Padics.PadicIntegers
 public import Mathlib.RingTheory.LocalRing.ResidueField.Defs
-public import Mathlib.RingTheory.ZMod
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+import Mathlib.RingTheory.ZMod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Data.Int.Basic
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

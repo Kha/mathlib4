@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.HomologySequence
 public import Mathlib.Algebra.Homology.ShortComplex.ConcreteCategory
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homology of complexes in concrete categories

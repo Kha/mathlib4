@@ -6,7 +6,12 @@ Authors: Kyle Miller, Andreas Gittis
 module
 
 public meta import Mathlib.Data.Nat.Log
-public meta import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Nat.Log
+public meta import Mathlib.Tactic.NormNum.Core
+public import Mathlib.Tactic.NormNum.Core
+import Mathlib.Order.Lattice
+import Mathlib.Tactic.Lemma
 
 /-! # `norm_num` extensions for `Nat.log` and `Nat.clog`
 

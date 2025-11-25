@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Coalgebra.Hom
 public import Mathlib.RingTheory.Bialgebra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homomorphisms of `R`-bialgebras

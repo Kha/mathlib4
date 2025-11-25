@@ -6,6 +6,7 @@ Authors: Anne Baanen, Eric Wieser
 module
 
 public import Mathlib.LinearAlgebra.Matrix.ConjTranspose
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Row and column matrices

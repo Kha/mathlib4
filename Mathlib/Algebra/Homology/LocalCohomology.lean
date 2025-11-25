@@ -5,14 +5,15 @@ Authors: Emily Witt, Kim Morrison, Jake Levinson, Sam van Gool
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Colimits
-public import Mathlib.Algebra.Category.ModuleCat.Projective
 public import Mathlib.CategoryTheory.Abelian.Ext
-public import Mathlib.CategoryTheory.Limits.Final
-public import Mathlib.RingTheory.Finiteness.Ideal
-public import Mathlib.RingTheory.Ideal.Basic
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
 public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.RingTheory.Ideal.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.RingTheory.Finiteness.Ideal
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Projective
 
 /-!
 # Local cohomology.

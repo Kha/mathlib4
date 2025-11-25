@@ -5,8 +5,10 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Data.Fintype.Perm
 public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Perm
 
 /-! # Properties of `Equiv.Perm` on `Finite` types
 

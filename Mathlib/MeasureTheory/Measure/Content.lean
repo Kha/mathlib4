@@ -5,9 +5,15 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.MeasureSpace
 public import Mathlib.MeasureTheory.Measure.Regular
 public import Mathlib.Topology.Sets.Compacts
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Contents

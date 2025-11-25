@@ -6,6 +6,13 @@ Authors: Heather Macbeth, Floris van Doorn
 module
 
 public import Mathlib.Topology.VectorBundle.Basic
+public import Mathlib.Data.ENat.Defs
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 
 /-!
 # The vector bundle of continuous (semi)linear maps

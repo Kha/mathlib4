@@ -6,7 +6,9 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.Order.CompleteLatticeIntervals
-public import Mathlib.Order.LatticeIntervals
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Lattice structures on the type of nonnegative elements

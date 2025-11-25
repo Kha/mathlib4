@@ -5,7 +5,7 @@ Authors: Robert Y. Lewis, Leonardo de Moura, Mario Carneiro, Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.InjSurj
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-16")

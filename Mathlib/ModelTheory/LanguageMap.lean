@@ -6,6 +6,8 @@ Authors: Aaron Anderson, Jesse Michael Han, Floris van Doorn
 module
 
 public import Mathlib.ModelTheory.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.SetTheory.Cardinal.Basic
 
 /-!
 # Language Maps

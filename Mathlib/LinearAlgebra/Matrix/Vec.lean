@@ -7,7 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Hadamard
 public import Mathlib.LinearAlgebra.Matrix.Kronecker
-public import Mathlib.LinearAlgebra.Matrix.Trace
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-! # Vectorization of matrices
 

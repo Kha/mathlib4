@@ -5,8 +5,9 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.SetLike.Basic
 public import Mathlib.Data.Fintype.Powerset
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
 
 /-!
 # Set-like fintype

@@ -6,7 +6,8 @@ Authors: Lenny Taelman
 module
 
 public import Mathlib.Data.Set.SymmDiff  -- shake: keep (Qq dependency)
-public meta import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.Tauto
+import Mathlib.Util.AssertExists
 
 /-!
 # The `tauto_set` tactic

@@ -5,8 +5,18 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.Nat.Prime.Factorial
 public import Mathlib.NumberTheory.LegendreSymbol.Basic
+public import Mathlib.Data.ZMod.ValMinAbs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Factorial
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Lemmas of Gauss and Eisenstein

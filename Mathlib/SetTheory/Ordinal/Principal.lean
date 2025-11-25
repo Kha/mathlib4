@@ -6,6 +6,11 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.SetTheory.Ordinal.FixedPoint
+import Mathlib.Logic.Small.Set
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Principal ordinals

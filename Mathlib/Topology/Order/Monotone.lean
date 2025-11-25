@@ -5,8 +5,19 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Tactic.Order
-public import Mathlib.Topology.Order.IsLUB
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Monotone
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.LeftRight
 
 /-!
 # Monotone functions on an order topology

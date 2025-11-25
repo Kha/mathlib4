@@ -7,6 +7,13 @@ module
 
 public import Mathlib.RingTheory.AdicCompletion.Basic
 public import Mathlib.Topology.Algebra.Nonarchimedean.AdicTopology
+public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Finset.Nat
 
 /-!
 

@@ -6,6 +6,7 @@ Authors: Kenny Lau, Chris Hughes, Mario Carneiro
 module
 
 public import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 

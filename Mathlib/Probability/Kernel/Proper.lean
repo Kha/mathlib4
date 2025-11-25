@@ -6,6 +6,14 @@ Authors: Yaël Dillies, Kalle Kytölä, Kin Yau James Wong
 module
 
 public import Mathlib.Probability.Kernel.Composition.CompNotation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
 
 /-!
 # Proper kernels

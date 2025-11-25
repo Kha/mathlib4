@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Finsupp.Basic
 public import Mathlib.Algebra.Module.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Declarations about finitely supported functions whose support is an `Option` type p

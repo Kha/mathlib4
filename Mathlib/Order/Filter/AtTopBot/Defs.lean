@@ -5,8 +5,15 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov, Patrick Massot
 -/
 module
 
-public import Mathlib.Data.Set.Piecewise
 public import Mathlib.Order.Filter.Basic
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Lean.Meta.CongrTheorems
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Definition of `Filter.atTop` and `Filter.atBot` filters

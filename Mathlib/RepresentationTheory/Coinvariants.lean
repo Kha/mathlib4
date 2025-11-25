@@ -5,8 +5,12 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 public import Mathlib.RepresentationTheory.Rep
+public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Abelian.Exact
+import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 
 /-!
 # Coinvariants of a group representation

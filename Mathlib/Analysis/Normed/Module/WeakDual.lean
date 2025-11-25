@@ -5,9 +5,16 @@ Authors: Kalle Kytölä, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.Dual
-public import Mathlib.Analysis.Normed.Operator.Completeness
 public import Mathlib.Topology.Algebra.Module.WeakDual
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.LocallyConvex.Polar
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Analysis.Normed.Module.Dual
+import Mathlib.Analysis.Normed.Operator.Completeness
+import Mathlib.Analysis.Normed.Order.Lattice
 
 /-!
 # Weak dual of normed space

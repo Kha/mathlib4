@@ -6,8 +6,8 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Order.Nonneg.Module
-public import Mathlib.Topology.Algebra.ConstMulAction
 public import Mathlib.Topology.Algebra.MulAction
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Continuous nonnegative scalar multiplication

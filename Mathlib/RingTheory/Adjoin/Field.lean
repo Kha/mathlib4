@@ -6,8 +6,13 @@ Authors: Chris Hughes
 module
 
 public import Mathlib.Algebra.Polynomial.Splits
-public import Mathlib.RingTheory.Adjoin.Basic
 public import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Adjoining elements to a field

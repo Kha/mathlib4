@@ -5,11 +5,15 @@ Authors: Antoine Chambert-Loir, María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Data.Finsupp.Interval
-public import Mathlib.RingTheory.Ideal.Quotient.Defs
 public import Mathlib.RingTheory.MvPowerSeries.PiTopology
-public import Mathlib.Topology.Algebra.LinearTopology
-public import Mathlib.RingTheory.TwoSidedIdeal.Operations
+public import Mathlib.RingTheory.TwoSidedIdeal.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Defs
 
 /-! # Linear topology on the ring of multivariate power series
 

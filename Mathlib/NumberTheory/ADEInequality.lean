@@ -5,12 +5,20 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Rat
-public import Mathlib.Data.Multiset.Sort
-public import Mathlib.Data.PNat.Basic
-public import Mathlib.Data.PNat.Interval
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Tactic.IntervalCases
+public import Mathlib.Data.List.Sort
+public import Mathlib.Data.PNat.Defs
+public import Mathlib.Data.Rat.Defs
+public import Mathlib.Algebra.BigOperators.Group.Multiset.Defs
+import Mathlib.Tactic.FinCases
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Data.Multiset.Sort
+import Mathlib.Data.PNat.Basic
+import Mathlib.Data.PNat.Interval
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.Inv
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # The inequality `p⁻¹ + q⁻¹ + r⁻¹ > 1`

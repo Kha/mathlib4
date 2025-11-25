@@ -5,13 +5,18 @@ Authors: Johan Commelin, Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 public import Mathlib.Algebra.Order.Module.Defs
-public import Mathlib.Algebra.Order.Pi
-public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.Data.Finsupp.Basic
 public import Mathlib.Data.Finsupp.SMulWithZero
 public import Mathlib.Order.Preorder.Finsupp
+public import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Pointwise order on finitely supported functions

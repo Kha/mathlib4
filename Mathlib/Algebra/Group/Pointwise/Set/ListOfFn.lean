@@ -5,9 +5,13 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Data.List.OfFn
-public import Mathlib.Algebra.BigOperators.Group.List.Defs
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Tactic.Common
+public import Batteries.Data.List.Basic
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
+import Mathlib.Data.List.OfFn
+import Mathlib.Algebra.BigOperators.Group.List.Defs
 
 /-!
 # Pointwise operations with lists of sets

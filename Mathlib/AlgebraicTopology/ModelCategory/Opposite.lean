@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.ModelCategory.Basic
+import Mathlib.CategoryTheory.Limits.Opposites
 
 /-!
 # The opposite of a model category structure

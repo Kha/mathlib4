@@ -6,9 +6,10 @@ Authors: Eric Wieser, Yaël Dillies
 module
 
 public import Mathlib.Algebra.Group.Prod
-public import Mathlib.Algebra.GroupWithZero.Hom
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
 public import Mathlib.Algebra.GroupWithZero.WithZero
+public import Mathlib.Algebra.GroupWithZero.Equiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Products of monoids with zero, groups with zero

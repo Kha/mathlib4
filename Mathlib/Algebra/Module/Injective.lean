@@ -5,10 +5,15 @@ Authors: Jujian Zhang
 -/
 module
 
-public import Mathlib.Algebra.Module.Shrink
 public import Mathlib.LinearAlgebra.LinearPMap
-public import Mathlib.Logic.Small.Basic
 public import Mathlib.RingTheory.Ideal.Defs
+public import Mathlib.Tactic.Abel
+public import Mathlib.Logic.Small.Defs
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Shrink
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Injective modules

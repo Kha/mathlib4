@@ -5,8 +5,11 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.Noetherian.Basic
+public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 # Noetherian quotient rings and quotient modules

@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Abelian
 public import Mathlib.AlgebraicGeometry.Modules.Presheaf
+import Mathlib.CategoryTheory.Sites.LeftExact
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.Grp.FilteredColimits
+import Mathlib.Algebra.Category.Grp.ForgetCorepresentable
+import Mathlib.Algebra.Category.Grp.Limits
 
 /-!
 # The category of sheaves of modules over a scheme

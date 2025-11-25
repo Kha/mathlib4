@@ -5,8 +5,12 @@ Authors: Christian Merten, Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.Separated
 public import Mathlib.AlgebraicGeometry.Morphisms.Finite
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Field.Equiv
+import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.RingTheory.RingHom.Integral
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 

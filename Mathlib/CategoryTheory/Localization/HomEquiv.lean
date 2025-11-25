@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Localization.LocalizerMorphism
 public import Mathlib.CategoryTheory.HomCongr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bijections between morphisms in two localized categories

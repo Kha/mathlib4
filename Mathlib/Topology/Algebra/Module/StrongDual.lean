@@ -5,7 +5,8 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Topology.Algebra.Module.LinearMap
-public import Mathlib.Analysis.LocallyConvex.Polar
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-09-03")

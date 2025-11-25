@@ -5,15 +5,25 @@ Authors: Bolton Bailey, Yaël Dillies, Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
-public import Mathlib.Algebra.MvPolynomial.Equiv
-public import Mathlib.Algebra.MvPolynomial.Variables
-public import Mathlib.Algebra.Order.GroupWithZero.Finset
-public import Mathlib.Algebra.Order.Ring.Finset
-public import Mathlib.Algebra.Polynomial.Roots
-public import Mathlib.Data.Fin.Tuple.Finset
-public import Mathlib.Tactic.Positivity.Finset
-public import Mathlib.Tactic.GCongr
+public import Mathlib.Algebra.Field.Rat
+public import Mathlib.Algebra.MvPolynomial.Degrees
+public import Mathlib.Data.Finsupp.Lex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Algebra.MvPolynomial.Variables
+import Mathlib.Algebra.Polynomial.Roots
+import Mathlib.Data.NNRat.Order
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Algebra.Order.Group.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Finset
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Data.Fin.Tuple.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # The Schwartz-Zippel lemma

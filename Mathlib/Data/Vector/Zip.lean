@@ -6,6 +6,8 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Data.Vector.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # The `zipWith` operation on vectors.

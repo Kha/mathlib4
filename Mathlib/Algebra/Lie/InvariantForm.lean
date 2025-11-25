@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Lie.Semisimple.Defs
 public import Mathlib.LinearAlgebra.BilinearForm.Orthogonal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Lie algebras with non-degenerate invariant bilinear forms are semisimple

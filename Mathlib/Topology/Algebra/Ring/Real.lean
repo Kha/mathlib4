@@ -6,13 +6,20 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Data.EReal.Operations
-public import Mathlib.Topology.Algebra.Order.Field
 public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
-public import Mathlib.Topology.Bornology.Real
-public import Mathlib.Topology.Instances.Int
-public import Mathlib.Topology.Order.MonotoneContinuity
 public import Mathlib.Topology.Order.Real
 public import Mathlib.Topology.UniformSpace.Real
+public import Mathlib.Topology.Algebra.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Instances.Int
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Topological algebra properties of ℝ

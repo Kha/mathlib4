@@ -6,6 +6,16 @@ Authors: Alex J. Best, Riccardo Brasca
 module
 
 public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Associated
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Cyclotomic units.

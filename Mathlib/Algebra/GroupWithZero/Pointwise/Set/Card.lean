@@ -6,8 +6,11 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
-public import Mathlib.Algebra.GroupWithZero.Action.Basic
 public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.Algebra.GroupWithZero.Action.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Action.Basic
 
 /-!
 # Cardinality of sets under pointwise group with zero operations

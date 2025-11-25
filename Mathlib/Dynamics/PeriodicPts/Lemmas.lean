@@ -6,11 +6,15 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Data.Fintype.Card
-public import Mathlib.Data.Fintype.EquivFin
-public import Mathlib.Data.Nat.Prime.Basic
-public import Mathlib.Data.PNat.Basic
-public import Mathlib.Data.Set.Lattice.Image
 public import Mathlib.Dynamics.PeriodicPts.Defs
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Data.PNat.Basic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Extra lemmas about periodic points

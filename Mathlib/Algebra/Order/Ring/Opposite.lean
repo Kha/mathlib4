@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Order.Group.Opposite
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Ring.Opposite
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ordered ring instances for `MulOpposite`/`AddOpposite`

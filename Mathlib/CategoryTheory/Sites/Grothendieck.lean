@@ -7,9 +7,11 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Sieves
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
-public import Mathlib.CategoryTheory.Category.Preorder
 public import Mathlib.Order.Copy
-public import Mathlib.Data.Set.Subsingleton
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Bounds.Image
 
 /-!
 # Grothendieck topologies

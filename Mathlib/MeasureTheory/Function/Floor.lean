@@ -5,7 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Topology.Algebra.Order.Group
 
 /-!
 # Measurability of `⌊x⌋` etc

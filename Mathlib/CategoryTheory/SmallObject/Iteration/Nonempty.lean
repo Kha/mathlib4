@@ -5,9 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.SmallObject.Iteration.Basic
 public import Mathlib.CategoryTheory.SmallObject.Iteration.ExtendToSucc
 public import Mathlib.CategoryTheory.SmallObject.Iteration.FunctorOfCocone
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Existence of the iteration of a successor structure

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Ring.Periodic
 public import Mathlib.Data.Nat.Count
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.GCD.Basic
 
 /-!
 # Periodic Functions on ℕ

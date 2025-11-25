@@ -6,7 +6,14 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Function.ConditionalExpectation.CondexpL2
-public import Mathlib.MeasureTheory.Measure.Real
+public import Mathlib.Data.ENNReal.Operations
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.LpOrder
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Function.LpSpace.Complete
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-! # Conditional expectation in L1
 

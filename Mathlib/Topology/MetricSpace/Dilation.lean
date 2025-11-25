@@ -5,10 +5,14 @@ Authors: Hanting Zhang
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Antilipschitz
 public import Mathlib.Topology.MetricSpace.Isometry
-public import Mathlib.Topology.MetricSpace.Lipschitz
-public import Mathlib.Data.FunLike.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
 
 /-!
 # Dilations

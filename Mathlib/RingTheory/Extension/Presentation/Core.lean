@@ -6,6 +6,12 @@ Authors: Christian Merten
 module
 
 public import Mathlib.RingTheory.Extension.Presentation.Basic
+public import Mathlib.RingTheory.TensorProduct.MvPolynomial
+public import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Presentations on subrings

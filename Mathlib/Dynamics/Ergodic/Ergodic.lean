@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Dynamics.Ergodic.MeasurePreserving
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ergodic maps and measures

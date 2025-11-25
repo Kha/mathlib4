@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.DFinsupp.Defs
 public import Mathlib.Data.Finsupp.Notation
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Notation for `DFinsupp`

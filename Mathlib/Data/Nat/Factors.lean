@@ -5,12 +5,23 @@ Authors: Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.List
-public import Mathlib.Data.Nat.GCD.Basic
-public import Mathlib.Data.Nat.Prime.Basic
-public import Mathlib.Data.List.Prime
 public import Mathlib.Data.List.Sort
-public import Mathlib.Data.List.Perm.Subperm
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.Lemma
+import Batteries.Data.List.Perm
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.List.Chain
+import Mathlib.Data.List.Prime
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.List.Perm.Subperm
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
 
 /-!
 # Prime numbers

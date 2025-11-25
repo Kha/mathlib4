@@ -7,7 +7,14 @@ module
 
 public import Mathlib.Geometry.Manifold.VectorBundle.Basic
 public import Mathlib.Topology.VectorBundle.Hom
-public import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
+import Mathlib.Geometry.Manifold.VectorBundle.MDifferentiable
 
 /-! # Homs of `C^n` vector bundles over the same base space
 

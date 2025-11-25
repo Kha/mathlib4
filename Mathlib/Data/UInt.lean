@@ -5,10 +5,9 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Init
-public import Mathlib.Algebra.Ring.InjSurj
-public import Mathlib.Data.ZMod.Defs
 public import Mathlib.Data.BitVec
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Int.Cast.Basic
 
 
 /-!

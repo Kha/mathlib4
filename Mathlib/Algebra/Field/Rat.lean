@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Data.NNRat.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # The rational numbers form a field

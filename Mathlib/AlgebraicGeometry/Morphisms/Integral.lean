@@ -7,7 +7,12 @@ module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Separated
 public import Mathlib.AlgebraicGeometry.Morphisms.UniversallyClosed
-public import Mathlib.RingTheory.RingHom.Integral
+import Mathlib.RingTheory.PolynomialAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.AffineAnd
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.RingHom.Integral
+import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
 
 /-!
 

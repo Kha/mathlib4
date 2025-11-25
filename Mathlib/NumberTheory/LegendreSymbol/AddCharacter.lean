@@ -6,10 +6,15 @@ Authors: Michael Stoll
 module
 
 public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
-public import Mathlib.FieldTheory.Finite.Trace
-public import Mathlib.Algebra.Group.AddChar
-public import Mathlib.Data.ZMod.Units
-public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Algebra.Algebra.ZMod
+public import Mathlib.RingTheory.Trace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Data.ZMod.Units
+import Mathlib.FieldTheory.Finite.Trace
+import Mathlib.Analysis.Complex.Polynomial.Basic
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Additive characters of finite rings and fields

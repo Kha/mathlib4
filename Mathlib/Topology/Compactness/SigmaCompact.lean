@@ -6,8 +6,22 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Bases
-public import Mathlib.Topology.Compactness.LocallyCompact
-public import Mathlib.Topology.Compactness.LocallyFinite
+public import Mathlib.Topology.LocallyFinite
+public import Mathlib.Data.Set.Accumulate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Prod
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.Compactness.Compact
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Compactness.LocallyFinite
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Sigma-compactness in topological spaces

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fintype.Card
 public import Mathlib.Data.List.NodupEquivFin
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalences between `Fintype`, `Fin` and `Finite`

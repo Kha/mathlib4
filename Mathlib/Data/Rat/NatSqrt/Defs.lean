@@ -5,8 +5,15 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.Nat.Basic
+public import Mathlib.Data.Rat.Defs
+public import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Algebra.Field.Rat
+import Mathlib.Data.Nat.Sqrt
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 Rational approximation of the square root of a natural number.

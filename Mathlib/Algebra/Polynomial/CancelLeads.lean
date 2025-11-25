@@ -5,8 +5,14 @@ Authors: Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Degree.Lemmas
-public import Mathlib.Tactic.ComputeDegree
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.ComputeDegree
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.NormNum.Core
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Cancel the leading terms of two polynomials

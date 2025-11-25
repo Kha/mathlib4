@@ -6,6 +6,16 @@ Authors: Anatole Dedecker
 module
 
 public import Mathlib.Analysis.Asymptotics.Theta
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Asymptotic equivalence

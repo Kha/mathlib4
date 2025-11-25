@@ -5,9 +5,21 @@ Authors: Zhouhang Zhou, Sébastien Gouëzel, Frédéric Dupuis
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Field
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Properties of inner product spaces

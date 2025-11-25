@@ -7,6 +7,8 @@ module
 
 public import Mathlib.NumberTheory.Padics.PadicIntegers
 public import Mathlib.RingTheory.DividedPowers.RatAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Divided powers on ℤ_[p]
 

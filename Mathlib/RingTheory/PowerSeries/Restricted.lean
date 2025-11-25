@@ -5,10 +5,20 @@ Authors: William Coram
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Ultra
-public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.RingTheory.PowerSeries.Basic
-public import Mathlib.Tactic.Bound
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Ring.Basic
+public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Bound
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Ultra
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Restricted power series

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.Filter.EventuallyConst
 public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Lattice
 
 /-!
 # Noetherian modules and finiteness of chains

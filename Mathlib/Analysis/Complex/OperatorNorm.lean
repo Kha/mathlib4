@@ -6,8 +6,10 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
-public import Mathlib.LinearAlgebra.Complex.Determinant
+public import Mathlib.LinearAlgebra.Determinant
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.LinearAlgebra.Complex.Determinant
+import Mathlib.Analysis.Normed.Operator.NormedSpace
 
 /-! # The basic continuous linear maps associated to `ℂ`
 

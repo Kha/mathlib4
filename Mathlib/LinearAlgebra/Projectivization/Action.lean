@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.Projectivization.Basic
 public import Mathlib.GroupTheory.GroupAction.Ring
+public import Mathlib.LinearAlgebra.GeneralLinearGroup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Group actions on projectivization

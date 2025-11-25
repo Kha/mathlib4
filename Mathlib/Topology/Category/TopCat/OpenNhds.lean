@@ -6,7 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Topology.Category.TopCat.Opens
-public import Mathlib.Data.Set.Subsingleton
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of open neighborhoods of a point

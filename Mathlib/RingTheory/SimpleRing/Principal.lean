@@ -5,9 +5,12 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.RingTheory.PrincipalIdealDomain
-public import Mathlib.RingTheory.SimpleRing.Field
-public import Mathlib.RingTheory.TwoSidedIdeal.Operations
+public import Mathlib.RingTheory.Ideal.Span
+public import Mathlib.RingTheory.SimpleRing.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.SimpleRing.Field
+import Mathlib.RingTheory.TwoSidedIdeal.Operations
 
 /-!
 # A commutative simple ring is a principal ideal domain

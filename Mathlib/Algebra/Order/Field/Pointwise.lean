@@ -8,9 +8,11 @@ module
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
-public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
 public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Order.Interval.Set.OrderIso
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Interval.Set.OrderIso
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
 
 /-!
 # Pointwise operations on ordered algebraic objects

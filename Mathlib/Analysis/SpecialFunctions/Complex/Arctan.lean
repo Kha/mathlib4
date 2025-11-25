@@ -5,7 +5,19 @@ Authors: Jeremy Tan
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Algebra.Order.Interval.Set.Group
 
 /-!
 # Complex arctangent

@@ -8,6 +8,8 @@ module
 public import Mathlib.AlgebraicTopology.SimplicialObject.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
 public import Mathlib.Data.Fintype.Sigma
+public import Mathlib.Data.Fintype.Pi
+import Mathlib.Tactic.TypeStar
 
 /-!
 

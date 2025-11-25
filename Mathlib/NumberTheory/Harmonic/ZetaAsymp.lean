@@ -6,7 +6,43 @@ Authors: David Loeffler
 module
 
 public import Mathlib.NumberTheory.LSeries.RiemannZeta
-public import Mathlib.NumberTheory.Harmonic.GammaDeriv
+public import Mathlib.NumberTheory.Harmonic.EulerMascheroni
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.ExponentialBounds
+import Mathlib.Analysis.Complex.RemovableSingularity
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.NumberTheory.Harmonic.GammaDeriv
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Analysis.SpecialFunctions.Integrability.Basic
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Module.PerfectSpace
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Asymptotics of `ζ s` as `s → 1`

@@ -8,6 +8,12 @@ module
 public import Mathlib.CategoryTheory.Sites.MayerVietorisSquare
 public import Mathlib.CategoryTheory.Sites.Spaces
 public import Mathlib.CategoryTheory.Functor.ReflectsIso.Balanced
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.CategoryTheory.Adjunction.Limits
+public import Mathlib.CategoryTheory.Sites.ConcreteSheafification
+public import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+public import Mathlib.CategoryTheory.Limits.Types.Colimits
 
 /-!
 # Mayer-Vietoris squares

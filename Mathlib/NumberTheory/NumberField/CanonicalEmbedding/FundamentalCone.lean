@@ -8,6 +8,14 @@ module
 public import Mathlib.RingTheory.Ideal.IsPrincipal
 public import Mathlib.NumberTheory.NumberField.Units.DirichletTheorem
 public import Mathlib.RingTheory.ClassGroup
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
 
 /-!
 # Fundamental Cone

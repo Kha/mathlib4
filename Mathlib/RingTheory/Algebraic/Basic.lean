@@ -5,11 +5,27 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Expand
 public import Mathlib.Algebra.Polynomial.Roots
-public import Mathlib.RingTheory.Adjoin.Polynomial
 public import Mathlib.RingTheory.Algebraic.Defs
-public import Mathlib.RingTheory.Polynomial.Tower
+public import Mathlib.Algebra.Polynomial.Inductions
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Localization.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Polynomial.Expand
+import Mathlib.Algebra.Polynomial.Monomial
+import Mathlib.Algebra.Polynomial.Reverse
+import Mathlib.RingTheory.Adjoin.Polynomial
+import Mathlib.RingTheory.Polynomial.Tower
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Data.Rat.Cast.Defs
 
 /-!
 # Algebraic elements and algebraic extensions

@@ -5,10 +5,13 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.Trifunctor
 public import Mathlib.CategoryTheory.Monoidal.Multifunctor
 public import Mathlib.CategoryTheory.Monoidal.NaturalTransformation
 public import Mathlib.Tactic.CategoryTheory.Coherence
+public import Mathlib.CategoryTheory.Localization.Bifunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Localization.Trifunctor
 
 /-!
 

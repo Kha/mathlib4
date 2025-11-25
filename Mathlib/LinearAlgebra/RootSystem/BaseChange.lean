@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Algebra.Rat
 public import Mathlib.LinearAlgebra.PerfectPairing.Restrict
 public import Mathlib.LinearAlgebra.RootSystem.IsValuedIn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
 
 /-!
 # Base change for root pairings

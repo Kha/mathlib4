@@ -6,6 +6,10 @@ Authors: Johan Commelin, Robert Y. Lewis
 module
 
 public import Mathlib.Algebra.MvPolynomial.Monad
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 ## Expand multivariate polynomials

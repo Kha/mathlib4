@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Topology.UniformSpace.Basic
 public import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Lift
 
 /-!
 # Uniform structure on topological groups

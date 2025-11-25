@@ -5,9 +5,18 @@ Authors: Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.WithTop
-public import Mathlib.Data.NNReal.Basic
-public import Mathlib.Data.ENNReal.Inv
+public import Mathlib.Data.ENNReal.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.WithTop
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.ENNReal.Real
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Properties of big operators extended non-negative real numbers

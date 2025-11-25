@@ -6,7 +6,9 @@ Authors: Anatole Dedecker
 module
 
 public import Mathlib.RingTheory.SimpleModule.Basic
-public import Mathlib.Topology.Algebra.Module.Basic
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Topology.Algebra.Module.Basic
 
 /-!
 # The kernel of a linear function is closed or dense

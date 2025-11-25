@@ -5,9 +5,12 @@ Authors: Wrenna Robson
 -/
 module
 
-public import Mathlib.Algebra.Group.Submonoid.Operations
 public import Mathlib.Algebra.Group.Submonoid.Pointwise
 public import Mathlib.Algebra.Group.Subgroup.Lattice
+public import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.GaloisConnection.Basic
 
 /-!
 

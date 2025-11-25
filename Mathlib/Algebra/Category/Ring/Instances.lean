@@ -6,8 +6,12 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Algebra.Category.Ring.Basic
-public import Mathlib.RingTheory.Localization.Away.Basic
-public import Mathlib.RingTheory.LocalRing.RingHom.Basic
+public import Mathlib.GroupTheory.MonoidLocalization.Away
+public import Mathlib.RingTheory.Localization.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Units
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
+import Mathlib.RingTheory.Localization.Away.Basic
 
 /-!
 # Ring-theoretic results in terms of categorical language

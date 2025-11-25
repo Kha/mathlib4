@@ -5,10 +5,30 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.Data.Nat.Choose.Dvd
 public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
-public import Mathlib.RingTheory.Norm.Transitivity
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Expand
+public import Mathlib.RingTheory.Polynomial.Cyclotomic.Basic
+public import Mathlib.RingTheory.Polynomial.Eisenstein.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Int.Basic
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.Norm.Transitivity
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Nat.Range
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Choose.Dvd
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Expand
 
 /-!
 # Eisenstein polynomials

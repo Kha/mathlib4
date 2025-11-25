@@ -8,6 +8,8 @@ module
 public import Mathlib.LinearAlgebra.TensorProduct.DirectLimit
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
 public import Mathlib.RingTheory.Adjoin.FG
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-! # Tensor products and finitely generated submodules
 

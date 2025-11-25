@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.Algebra.Ring.Subring.MulOpposite
+public import Mathlib.Algebra.Algebra.Opposite
+import Mathlib.Tactic.TypeStar
 
 /-!
 

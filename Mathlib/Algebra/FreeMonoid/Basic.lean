@@ -7,8 +7,13 @@ module
 
 public import Mathlib.Algebra.Group.Action.Defs
 public import Mathlib.Algebra.Group.Units.Defs
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
 public import Mathlib.Algebra.Group.Equiv.Defs
+public import Batteries.Data.List.Lemmas
+public import Mathlib.Data.List.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Basic
+import Mathlib.Algebra.Group.Nat.Defs
 
 /-!
 # Free monoid over a given alphabet

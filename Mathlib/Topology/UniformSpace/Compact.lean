@@ -5,8 +5,16 @@ Authors: Johannes Hölzl, Mario Carneiro, Patrick Massot
 -/
 module
 
-public import Mathlib.Topology.UniformSpace.Basic
-public import Mathlib.Topology.Compactness.Compact
+public import Mathlib.Topology.Constructions.SumProd
+public import Mathlib.Topology.UniformSpace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Lift
+import Mathlib.Topology.Compactness.Compact
+import Mathlib.Topology.UniformSpace.Basic
 
 /-!
 # Compact sets in uniform spaces

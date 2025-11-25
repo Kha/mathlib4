@@ -5,11 +5,16 @@ Authors: Mario Carneiro, Kenny Lau, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.List.Forall2
-public import Mathlib.Data.List.Induction
 public import Mathlib.Data.List.Lex
 public import Mathlib.Logic.Function.Iterate
 public import Mathlib.Logic.Relation
+public import Batteries.Data.List.Lemmas
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Forall2
+import Mathlib.Data.List.Induction
+import Mathlib.Data.Nat.Init
 
 /-!
 # Relation chain

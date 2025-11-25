@@ -5,7 +5,16 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Compactness.Compact
+public import Mathlib.Topology.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Prod
+import Mathlib.Topology.Compactness.Compact
+import Mathlib.Topology.Maps.Basic
 /-!
 # Locally compact spaces
 

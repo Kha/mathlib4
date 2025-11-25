@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.CStarAlgebra.Classes
 public import Mathlib.Analysis.Normed.Algebra.Unitization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Operator.NNNorm
 /-! # The minimal unitization of a C⋆-algebra
 
 This file shows that when `E` is a C⋆-algebra (over a densely normed field `𝕜`), that the minimal

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.Basis.Defs
 public import Mathlib.LinearAlgebra.Multilinear.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Multilinear maps in relation to bases.

@@ -6,6 +6,19 @@ Authors: Kevin Buzzard
 module
 
 public import Mathlib.Data.EReal.Basic
+public import Mathlib.Order.CompleteBooleanAlgebra
+public import Mathlib.Algebra.Order.Monoid.OrderDual
+import Batteries.Util.ProofWanted
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.ENNReal.Real
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Addition, negation, subtraction and multiplication on extended real numbers

@@ -6,9 +6,11 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Limits.HasLimits
-public import Mathlib.CategoryTheory.Products.Basic
 public import Mathlib.CategoryTheory.Functor.Currying
-public import Mathlib.CategoryTheory.Products.Bifunctor
+public import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Products.Bifunctor
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # A Fubini theorem for categorical (co)limits

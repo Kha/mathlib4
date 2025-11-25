@@ -5,9 +5,12 @@ Authors: Floris van Doorn, Yury Kudryashov, Sébastien Gouëzel, Chris Hughes, A
 -/
 module
 
-public import Mathlib.Data.Fin.Rev
 public import Mathlib.Data.Nat.Find
-public import Mathlib.Order.Fin.Basic
+public import Mathlib.Data.Fin.SuccPred
+public import Mathlib.Lean.Meta.CongrTheorems
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Fin.Basic
 
 /-!
 # Operation on tuples

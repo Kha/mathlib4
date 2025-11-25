@@ -7,7 +7,8 @@ module
 
 public import Mathlib.RingTheory.Bialgebra.Equiv
 public import Mathlib.RingTheory.Coalgebra.TensorProduct
-public import Mathlib.RingTheory.TensorProduct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tensor products of bialgebras

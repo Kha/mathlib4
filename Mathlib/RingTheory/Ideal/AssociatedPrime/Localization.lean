@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
 public import Mathlib.RingTheory.Ideal.AssociatedPrime.Basic
 public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 

@@ -5,8 +5,13 @@ Authors: Nicolò Cavalleri, Sébastien Gouëzel, Heather Macbeth, Patrick Massot
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 public import Mathlib.Topology.FiberBundle.Basic
+public import Mathlib.Topology.Algebra.Module.StrongTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Piecewise
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 
 /-!
 # Vector bundles

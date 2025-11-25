@@ -6,7 +6,11 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.MeasureTheory.Measure.AbsolutelyContinuous
-public import Mathlib.MeasureTheory.OuterMeasure.BorelCantelli
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.OuterMeasure.BorelCantelli
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 
 /-!
 # Quasi-Measure-Preserving Functions

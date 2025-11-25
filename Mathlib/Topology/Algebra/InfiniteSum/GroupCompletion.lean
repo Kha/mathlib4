@@ -6,7 +6,12 @@ Authors: Mitchell Lee
 module
 
 public import Mathlib.Topology.Algebra.GroupCompletion
-public import Mathlib.Topology.Algebra.InfiniteSum.Group
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Infinite sums in the completion of a topological group

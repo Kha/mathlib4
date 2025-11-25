@@ -6,10 +6,10 @@ Authors: Leonardo de Moura
 module
 
 public import Mathlib.Data.Set.Defs
-public import Mathlib.Tactic.ExtendDoc
-public import Mathlib.Tactic.Lemma
-public import Mathlib.Tactic.SplitIfs
-public import Mathlib.Tactic.TypeStar
+public import Batteries.Tactic.Lint.Misc
+import Mathlib.Tactic.ExtendDoc
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Orders

@@ -7,6 +7,19 @@ module
 
 public import Mathlib.Data.Finsupp.Notation
 public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Polynomial.EraseLead
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Homogenize a univariate polynomial

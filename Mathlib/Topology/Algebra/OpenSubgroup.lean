@@ -10,6 +10,11 @@ public import Mathlib.RingTheory.Ideal.Defs
 public import Mathlib.Topology.Algebra.Group.Quotient
 public import Mathlib.Topology.Algebra.Ring.Basic
 public import Mathlib.Topology.Sets.Opens
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # Open subgroups of a topological group

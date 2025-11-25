@@ -7,10 +7,15 @@ module
 
 public import Mathlib.Algebra.Group.Commute.Defs
 public import Mathlib.Algebra.Group.Hom.Instances
-public import Mathlib.Algebra.Group.Pi.Basic
-public import Mathlib.Algebra.Group.Torsion
-public import Mathlib.Data.Set.Piecewise
 public import Mathlib.Logic.Pairwise
+public import Mathlib.Order.Lattice
+public import Mathlib.Data.Sigma.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Piecewise
 
 /-!
 # Extra lemmas about products of monoids and groups

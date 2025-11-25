@@ -6,8 +6,9 @@ Authors: Christopher Hoskin
 module
 
 public import Mathlib.Data.Setoid.Basic
-public import Mathlib.Order.Lattice
 public import Mathlib.Order.Hom.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lattice Congruences

@@ -5,8 +5,31 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Convex.Slope
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
+import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-! # Convexity properties of the Gamma function
 

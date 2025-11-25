@@ -5,10 +5,28 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Ring.Pointwise.Set
-public import Mathlib.Order.Filter.AtTopBot.CompleteLattice
-public import Mathlib.Order.Filter.AtTopBot.Group
 public import Mathlib.Topology.Order.Basic
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Order.Cover
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.CompleteLattice
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Neighborhoods to the left and to the right on an `OrderTopology`

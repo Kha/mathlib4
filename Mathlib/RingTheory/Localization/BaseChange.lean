@@ -5,10 +5,14 @@ Authors: Andrew Yang, Jujian Zhang
 -/
 module
 
-public import Mathlib.LinearAlgebra.DirectSum.Finsupp
 public import Mathlib.RingTheory.IsTensorProduct
 public import Mathlib.RingTheory.Localization.Away.Basic
-public import Mathlib.RingTheory.Localization.Module
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.Algebra.Module.LocalizedModule.IsLocalization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.DirectSum.Finsupp
+import Mathlib.RingTheory.Localization.Module
 
 /-!
 # Localized Module

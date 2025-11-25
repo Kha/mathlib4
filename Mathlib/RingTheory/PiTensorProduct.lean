@@ -7,8 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.PiTensorProduct
 public import Mathlib.Algebra.Algebra.Bilinear
-public import Mathlib.Algebra.Algebra.Equiv
 public import Mathlib.Data.Finset.NoncommProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tensor product of `R`-algebras and rings

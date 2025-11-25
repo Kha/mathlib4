@@ -5,9 +5,25 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Logic.Encodable.Lattice
-public import Mathlib.Order.Filter.AtTopBot.Finset
-public import Mathlib.Topology.Algebra.InfiniteSum.Group
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Finset.Max
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Logic.Encodable.Lattice
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Infinite sums and products over `ℕ` and `ℤ`

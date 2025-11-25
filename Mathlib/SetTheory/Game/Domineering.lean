@@ -6,7 +6,15 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.SetTheory.Game.State
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Data.Int.Basic
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 deprecated_module
   "This module is now at `CombinatorialGames.Game.Specific.Domineering` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

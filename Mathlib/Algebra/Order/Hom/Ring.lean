@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Order.Hom.MonoidWithZero
 public import Mathlib.Algebra.Ring.Equiv
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ordered ring homomorphisms

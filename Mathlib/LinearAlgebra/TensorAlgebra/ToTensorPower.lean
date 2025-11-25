@@ -7,6 +7,8 @@ module
 
 public import Mathlib.LinearAlgebra.TensorAlgebra.Basic
 public import Mathlib.LinearAlgebra.TensorPower.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.OfFn
 
 /-!
 # Tensor algebras as direct sums of tensor powers

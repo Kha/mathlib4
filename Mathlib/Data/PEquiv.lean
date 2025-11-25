@@ -5,10 +5,12 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.Option.Basic
 public import Batteries.Tactic.Congr
 public import Mathlib.Data.Set.Basic
-public import Mathlib.Tactic.Contrapose
+public import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Option.Basic
 
 /-!
 

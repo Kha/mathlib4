@@ -6,7 +6,8 @@ Authors: Anand Rao, Rémi Bottinelli
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Ends.Defs
-public import Mathlib.CategoryTheory.CofilteredSystem
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Properties of the ends of graphs

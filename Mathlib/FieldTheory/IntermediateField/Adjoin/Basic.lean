@@ -5,13 +5,37 @@ Authors: Thomas Browning, Patrick Lutz
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Subalgebra.Directed
-public import Mathlib.Algebra.Algebra.Subalgebra.IsSimpleOrder
 public import Mathlib.FieldTheory.Separable
 public import Mathlib.FieldTheory.SplittingField.IsSplittingField
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.RingTheory.Adjoin.Dimension
-public import Mathlib.RingTheory.TensorProduct.Finite
+public import Mathlib.RingTheory.AdjoinRoot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.BoundedOrder.Monotone
+import Mathlib.RingTheory.Adjoin.Dimension
+import Mathlib.RingTheory.Adjoin.Field
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Finiteness.Subalgebra
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.SetTheory.Cardinal.Subfield
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Algebra.Subalgebra.Directed
+import Mathlib.Algebra.Algebra.Subalgebra.IsSimpleOrder
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
 
 /-!
 # Adjoining Elements to Fields

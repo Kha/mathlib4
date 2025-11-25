@@ -5,11 +5,18 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 public import Mathlib.Algebra.Order.ZeroLEOne
-public import Mathlib.Data.Nat.Cast.Basic
-public import Mathlib.Data.Nat.Cast.NeZero
 public import Mathlib.Order.Hom.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.CharZero.Defs
+public import Mathlib.Algebra.Ring.Hom.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.NeZero
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Cast of natural numbers: lemmas about order

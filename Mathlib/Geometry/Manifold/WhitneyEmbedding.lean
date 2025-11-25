@@ -5,10 +5,18 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.FieldTheory.Finiteness
-public import Mathlib.Geometry.Manifold.Diffeomorph
 public import Mathlib.Geometry.Manifold.Instances.Real
 public import Mathlib.Geometry.Manifold.PartitionOfUnity
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Geometry.Manifold.Diffeomorph
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.Analysis.Calculus.FDeriv.Equiv
+import Mathlib.Geometry.Manifold.ContMDiff.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 
 /-!
 # Whitney embedding theorem

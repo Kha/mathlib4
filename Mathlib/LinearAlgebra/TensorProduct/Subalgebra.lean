@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.TensorProduct.Submodule
 public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.TypeStar
 
 /-!
 

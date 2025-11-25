@@ -5,9 +5,27 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Complex.RemovableSingularity
-public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Deriv
 public import Mathlib.Order.Filter.ZeroAndBoundedAtFilter
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.Complex.RemovableSingularity
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Deriv
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Periodic holomorphic functions

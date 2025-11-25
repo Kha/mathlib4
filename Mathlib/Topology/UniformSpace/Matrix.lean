@@ -7,7 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Defs
 public import Mathlib.Topology.UniformSpace.Pi
-public import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
 
 /-!
 # Uniform space structure on matrices

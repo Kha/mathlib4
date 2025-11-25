@@ -5,12 +5,29 @@ Authors: Anne Baanen, Peter Nelson
 -/
 module
 
-public import Mathlib.Data.Nat.Factorial.BigOperators
 public import Mathlib.Data.Nat.Factorial.SuperFactorial
-public import Mathlib.LinearAlgebra.Matrix.Block
-public import Mathlib.LinearAlgebra.Matrix.Nondegenerate
 public import Mathlib.RingTheory.Localization.FractionRing
-public import Mathlib.RingTheory.Polynomial.Pochhammer
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+public import Mathlib.Order.Interval.Finset.Fin
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Data.Fintype.Fin
+import Mathlib.Data.Int.Basic
+import Mathlib.GroupTheory.Perm.Fin
+import Mathlib.LinearAlgebra.Matrix.Block
+import Mathlib.LinearAlgebra.Matrix.Nondegenerate
+import Mathlib.RingTheory.Polynomial.Pochhammer
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Polynomial.Degree.Support
+import Mathlib.Data.Nat.Factorial.BigOperators
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Vandermonde matrix

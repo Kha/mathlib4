@@ -6,6 +6,9 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Order.Category.Lat
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of distributive lattices

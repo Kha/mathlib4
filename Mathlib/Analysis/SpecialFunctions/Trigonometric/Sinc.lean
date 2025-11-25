@@ -5,8 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
 public import Mathlib.Analysis.Calculus.DSlope
+public import Mathlib.Analysis.Complex.Trigonometric
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
 
 /-!
 # Sinc function

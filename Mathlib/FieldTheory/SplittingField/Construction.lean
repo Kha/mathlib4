@@ -5,10 +5,17 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.CharP.Algebra
 public import Mathlib.FieldTheory.SplittingField.IsSplittingField
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.RingTheory.Algebraic.Basic
+public import Mathlib.RingTheory.AdjoinRoot
+public import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.Algebra.Polynomial.Degree.Units
 
 /-!
 # Splitting fields

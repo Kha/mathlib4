@@ -5,8 +5,10 @@ Authors: Floris van Doorn
 -/
 module
 
-public import Mathlib.Order.ConditionallyCompleteLattice.Basic
 public import Mathlib.Data.Int.LeastGreatest
+public import Mathlib.Order.ConditionallyCompleteLattice.Defs
+import Mathlib.Tactic.Convert
+import Mathlib.Lean.Meta.CongrTheorems
 
 /-!
 ## `ℤ` forms a conditionally complete linear order

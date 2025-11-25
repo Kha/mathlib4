@@ -5,11 +5,17 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Tactic.LinearCombination
-public import Mathlib.Algebra.CharP.Invertible
 public import Mathlib.Algebra.Order.Star.Basic
 public import Mathlib.Data.Real.Sqrt
 public import Mathlib.Data.Real.Star
+import Mathlib.Tactic.Abel
+import Mathlib.Algebra.CharP.Invertible
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The Clauser-Horne-Shimony-Holt inequality and Tsirelson's inequality.

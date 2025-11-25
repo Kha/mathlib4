@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.Algebra.Ring.Subring.Pointwise
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pointwise actions on subalgebras.

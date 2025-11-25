@@ -6,6 +6,7 @@ Authors: Joël Riou, Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Sites.Hypercover.IsSheaf
+import Mathlib.Tactic.Lemma
 
 /-!
 # Continuous functors between sites.

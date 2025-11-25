@@ -8,6 +8,8 @@ module
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Topology.Algebra.NonUnitalStarAlgebra
 public import Mathlib.Topology.Algebra.StarSubalgebra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-! # Classes of C⋆-algebras
 

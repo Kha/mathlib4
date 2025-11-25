@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.ExteriorPower.Basic
 public import Mathlib.LinearAlgebra.TensorPower.Pairing
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
 
 /-!
 # The pairing between the exterior power of the dual and the exterior power

@@ -6,8 +6,12 @@ Authors: Jeremy Avigad
 module
 
 public import Mathlib.Algebra.Group.Int.Defs
-public import Mathlib.Algebra.Group.Nat.Even
 public import Mathlib.Data.Int.Sqrt
+public import Mathlib.Algebra.Group.Even
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Int.Init
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Group.Nat.Even
 
 /-!
 # Parity of integers

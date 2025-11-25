@@ -8,6 +8,15 @@ module
 public import Mathlib.Topology.Algebra.Valued.ValuationTopology
 public import Mathlib.Topology.Algebra.WithZeroTopology
 public import Mathlib.Topology.Algebra.UniformField
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Order.Filter.Lift
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # Valued fields and their completions

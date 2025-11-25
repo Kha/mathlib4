@@ -5,8 +5,8 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.ObjectProperty.ClosedUnderIsomorphisms
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Zero
+import Mathlib.Tactic.Lemma
 
 /-!
 # Properties of objects which hold for a zero object

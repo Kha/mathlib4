@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Subspace
 public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Orthogonal complements of submodules

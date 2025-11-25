@@ -5,8 +5,14 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.Algebra.Module.Basic
 public import Mathlib.Algebra.Order.AbsoluteValue.Basic
+public import Mathlib.Algebra.Group.Action.Units
+public import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Int.Basic
+import Mathlib.Algebra.Ring.Int.Units
 
 /-!
 # Absolute values and the integers

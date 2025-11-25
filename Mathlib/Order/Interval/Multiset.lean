@@ -5,7 +5,10 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Interval.Finset.Basic
+public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Interval.Finset.Basic
 
 /-!
 # Intervals as multisets

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Probability.Kernel.Composition.CompProd
 public import Mathlib.Probability.Kernel.Composition.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Probability.Kernel.Composition.CompMap
 
 /-!
 # Lemmas relating different ways to compose kernels

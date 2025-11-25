@@ -5,10 +5,15 @@ Authors: Jordan Brown, Thomas Browning, Patrick Lutz
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.Finite
 public import Mathlib.GroupTheory.Commutator.Basic
 public import Mathlib.GroupTheory.Rank
 public import Mathlib.GroupTheory.Index
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.Data.Finite.Prod
+import Mathlib.GroupTheory.GroupAction.Quotient
+import Mathlib.Algebra.Group.Subgroup.Finite
 
 /-!
 The commutator of a finite direct product is contained in the direct product of the commutators.

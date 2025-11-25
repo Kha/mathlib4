@@ -7,10 +7,13 @@ module
 
 public import Mathlib.CategoryTheory.Closed.Monoidal
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
 public import Mathlib.CategoryTheory.Monoidal.End
 public import Mathlib.CategoryTheory.Monoidal.Preadditive
+public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Preadditive.Biproducts
+import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
 
 /-!
 # Distributive monoidal categories

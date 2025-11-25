@@ -5,7 +5,15 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.RingTheory.WittVector.FrobeniusFractionField
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.RingTheory.WittVector.Domain
+public import Mathlib.RingTheory.WittVector.Frobenius
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.RingTheory.WittVector.FrobeniusFractionField
+import Mathlib.RingTheory.WittVector.Identities
 
 /-!
 

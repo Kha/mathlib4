@@ -6,8 +6,13 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.MvPolynomial.Supported
-public import Mathlib.RingTheory.Adjoin.Polynomial
-public import Mathlib.RingTheory.Algebraic.Basic
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.RingTheory.Algebraic.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.RingTheory.Adjoin.Polynomial
+import Mathlib.RingTheory.Algebraic.Basic
 
 /-!
 # Transcendental elements in `MvPolynomial`

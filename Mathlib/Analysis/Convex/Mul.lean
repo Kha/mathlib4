@@ -5,10 +5,18 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Monovary
-public import Mathlib.Algebra.Order.Ring.Basic
 public import Mathlib.Analysis.Convex.Function
-public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Order.Monotone.Monovary
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monovary
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Product of convex functions

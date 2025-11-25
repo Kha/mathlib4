@@ -5,9 +5,21 @@ Authors: Sébastien Gouëzel, Johannes Hölzl, Rémy Degenne
 -/
 module
 
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
-public import Mathlib.Order.Filter.IsBounded
 public import Mathlib.Order.Hom.CompleteLattice
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Order.Filter.Cofinite
+public import Mathlib.Data.Finset.Lattice.Fold
+public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Hom.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # liminfs and limsups of functions and filters

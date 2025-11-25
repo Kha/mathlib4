@@ -7,6 +7,12 @@ module
 
 public import Mathlib.RingTheory.Polynomial.Eisenstein.Basic
 public import Mathlib.RingTheory.PowerSeries.Order
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Coeff
 /-!
 
 # Distinguished polynomial

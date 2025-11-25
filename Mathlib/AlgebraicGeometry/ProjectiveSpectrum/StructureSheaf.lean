@@ -9,6 +9,12 @@ public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Topology
 public import Mathlib.Topology.Sheaves.LocalPredicate
 public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
 public import Mathlib.Geometry.RingedSpace.LocallyRingedSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sheaves.Forget
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Category.Ring.Limits
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
 
 /-!
 # The structure sheaf on `ProjectiveSpectrum 𝒜`.

@@ -7,8 +7,11 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Localization
 public import Mathlib.CategoryTheory.Sites.CompatibleSheafification
-public import Mathlib.CategoryTheory.Sites.Whiskering
-public import Mathlib.CategoryTheory.Sites.Sheafification
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Types.Colimits
 
 /-! # Functors which preserve sheafification
 

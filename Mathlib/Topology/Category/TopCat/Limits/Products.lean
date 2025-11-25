@@ -5,13 +5,16 @@ Authors: Patrick Massot, Kim Morrison, Mario Carneiro, Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.Category.TopCat.EpiMono
 public import Mathlib.Topology.Category.TopCat.Limits.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
-public import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
-public import Mathlib.Data.Set.Subsingleton
-public import Mathlib.Tactic.CategoryTheory.Elementwise
 public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Tactic.ApplyFun
+public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.Topology.Maps.Basic
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.Topology.Category.TopCat.Adjunctions
+import Mathlib.Topology.Category.TopCat.EpiMono
 
 /-!
 # Products and coproducts in the category of topological spaces

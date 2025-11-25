@@ -5,8 +5,16 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 public import Mathlib.Geometry.Manifold.VectorBundle.Tangent
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 
 /-!
 # Differentiability of models with corners and (extended) charts

@@ -7,10 +7,16 @@ module
 
 public import Mathlib.Algebra.Category.Ring.Colimits
 public import Mathlib.Algebra.Category.Ring.Constructions
-public import Mathlib.Algebra.Category.Ring.FilteredColimits
 public import Mathlib.Topology.Category.TopCommRingCat
 public import Mathlib.Topology.ContinuousMap.Algebra
 public import Mathlib.Topology.Sheaves.Stalks
+public import Mathlib.RingTheory.Localization.Defs
+public import Mathlib.Topology.Sheaves.SheafCondition.PairwiseIntersections
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
 
 /-!
 # Sheaves of (commutative) rings.

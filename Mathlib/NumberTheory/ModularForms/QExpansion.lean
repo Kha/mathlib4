@@ -5,11 +5,21 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Complex.TaylorSeries
-public import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
 public import Mathlib.NumberTheory.ModularForms.Basic
-public import Mathlib.NumberTheory.ModularForms.Identities
 public import Mathlib.RingTheory.PowerSeries.Basic
+public import Mathlib.Analysis.Complex.Periodic
+public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Complex.TaylorSeries
+import Mathlib.NumberTheory.ModularForms.Identities
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
 
 /-!
 # q-expansions of modular forms

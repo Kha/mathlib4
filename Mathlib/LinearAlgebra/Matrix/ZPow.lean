@@ -7,6 +7,12 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 public import Mathlib.LinearAlgebra.Matrix.Symmetric
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Integer powers of square matrices

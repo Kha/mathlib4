@@ -5,9 +5,15 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Order.Bounds.Image
-public import Mathlib.Order.CompleteLattice.Basic
 public import Mathlib.Order.WithBot
+public import Mathlib.Order.BooleanAlgebra.Set
+public import Mathlib.Order.CompleteLattice.Defs
+public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.CompleteLattice.Basic
+import Mathlib.Order.Hom.Set
 
 /-!
 # Galois connections, insertions and coinsertions

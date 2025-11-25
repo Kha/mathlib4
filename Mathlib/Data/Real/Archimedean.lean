@@ -8,8 +8,25 @@ module
 public import Mathlib.Algebra.Order.Archimedean.Basic
 public import Mathlib.Algebra.Order.Group.Pointwise.Bounds
 public import Mathlib.Data.Real.Basic
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
-public import Mathlib.Order.Interval.Set.Disjoint
+public import Mathlib.Order.ConditionallyCompleteLattice.Defs
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Int.LeastGreatest
+import Mathlib.Data.Rat.Floor
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The real numbers are an Archimedean floor ring, and a conditionally complete linear order.

@@ -11,6 +11,21 @@ public import Mathlib.Analysis.Normed.Operator.LinearIsometry
 public import Mathlib.LinearAlgebra.Isomorphisms
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.Ring.Basic
+public import Mathlib.Topology.Algebra.Group.Quotient
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Order.ConditionallyCompleteLattice.Group
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Quotients of seminormed groups

@@ -6,7 +6,12 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 module
 
 public import Mathlib.Topology.ExtendFrom
-public import Mathlib.Topology.Order.DenselyOrdered
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Lemmas about `extendFrom` in an order topology.

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteProducts
 public import Mathlib.CategoryTheory.Limits.Shapes.Kernels
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Biproducts and binary biproducts

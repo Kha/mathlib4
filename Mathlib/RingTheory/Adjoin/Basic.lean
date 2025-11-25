@@ -7,8 +7,17 @@ module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Prod
 public import Mathlib.Algebra.Algebra.Subalgebra.Tower
-public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.Prod
+public import Mathlib.LinearAlgebra.Basis.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Data.Set.Prod
+import Mathlib.LinearAlgebra.Basis.Basic
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 /-!
 # Adjoining elements to form subalgebras
 

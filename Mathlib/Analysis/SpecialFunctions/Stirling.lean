@@ -5,9 +5,23 @@ Authors: Moritz Firsching, Fabian Kruse, Nikolas Kuhn
 -/
 module
 
-public import Mathlib.Analysis.PSeries
 public import Mathlib.Analysis.Real.Pi.Wallis
-public import Mathlib.Tactic.AdaptationNote
+public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Stirling's formula

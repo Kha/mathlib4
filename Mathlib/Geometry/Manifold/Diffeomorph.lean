@@ -6,7 +6,16 @@ Authors: Nicolò Cavalleri, Yury Kudryashov
 module
 
 public import Mathlib.Geometry.Manifold.ContMDiffMap
-public import Mathlib.Geometry.Manifold.MFDeriv.UniqueDifferential
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.Geometry.Manifold.MFDeriv.UniqueDifferential
 
 /-!
 # Diffeomorphisms

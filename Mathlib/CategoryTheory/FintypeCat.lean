@@ -8,7 +8,11 @@ module
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 public import Mathlib.CategoryTheory.Endomorphism
 public import Mathlib.CategoryTheory.Skeletal
-public import Mathlib.Data.Finite.Prod
+public import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
 
 /-!
 # The category of finite types.

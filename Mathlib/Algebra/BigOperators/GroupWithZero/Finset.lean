@@ -5,10 +5,15 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 public import Mathlib.Algebra.GroupWithZero.Units.Basic
 public import Mathlib.Algebra.Notation.Indicator
-public import Mathlib.Data.Set.Lattice
+public import Mathlib.Order.SetNotation
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Set.Lattice
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Big operators on a finset in groups with zero

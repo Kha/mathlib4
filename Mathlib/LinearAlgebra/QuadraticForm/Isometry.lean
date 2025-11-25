@@ -6,6 +6,7 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.LinearAlgebra.QuadraticForm.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Isometric linear maps

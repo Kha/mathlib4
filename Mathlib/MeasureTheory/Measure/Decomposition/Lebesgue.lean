@@ -5,9 +5,30 @@ Authors: Kexing Ying
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Decomposition.Hahn
-public import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
 public import Mathlib.MeasureTheory.Measure.Sub
+public import Mathlib.MeasureTheory.Measure.WithDensity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Ring.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.MeasureTheory.Measure.Decomposition.Hahn
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Lebesgue decomposition

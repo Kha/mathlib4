@@ -6,8 +6,13 @@ Authors: Fabrizio Barroero
 module
 
 public import Mathlib.Order.CompletePartialOrder
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.Polynomial.Content
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.RingTheory.Ideal.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 # The content ideal of a polynomial

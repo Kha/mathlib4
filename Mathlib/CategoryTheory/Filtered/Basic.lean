@@ -6,6 +6,9 @@ Authors: Reid Barton, Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Filtered categories

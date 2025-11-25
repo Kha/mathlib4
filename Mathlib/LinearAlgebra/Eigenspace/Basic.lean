@@ -6,13 +6,28 @@ Authors: Alexander Bentkamp
 module
 
 public import Mathlib.Algebra.Algebra.Spectrum.Basic
-public import Mathlib.Algebra.Module.LinearMap.Basic
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.LinearAlgebra.GeneralLinearGroup
-public import Mathlib.RingTheory.Nilpotent.Basic
 public import Mathlib.RingTheory.Nilpotent.Defs
-public import Mathlib.RingTheory.Nilpotent.Lemmas
-public import Mathlib.Tactic.Peel
+public import Mathlib.Order.OrderIsoNat
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Order.Hom.WithTopBot
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.LinearAlgebra.GeneralLinearGroup
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.RingTheory.Nilpotent.Lemmas
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Eigenvectors and eigenvalues

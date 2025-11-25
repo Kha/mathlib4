@@ -5,11 +5,16 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.AddChar
 public import Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
-public import Mathlib.GroupTheory.FiniteAbelian.Basic
-public import Mathlib.Topology.Instances.AddCircle.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Algebra.DirectSum.AddChar
+import Mathlib.GroupTheory.FiniteAbelian.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Ring.Finite
 
 /-!
 # Pontryagin duality for finite abelian groups

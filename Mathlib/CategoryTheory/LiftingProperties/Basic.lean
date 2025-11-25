@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.CommSq
 public import Mathlib.CategoryTheory.Retract
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lifting properties

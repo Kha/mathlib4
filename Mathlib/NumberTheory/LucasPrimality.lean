@@ -5,8 +5,14 @@ Authors: Bolton Bailey
 -/
 module
 
-public import Mathlib.Algebra.Field.ZMod
-public import Mathlib.RingTheory.IntegralDomain
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Algebra.Field.ZMod
+import Mathlib.Data.Fintype.Units
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # The Lucas test for primes

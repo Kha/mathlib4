@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Control.ULiftable
 public import Mathlib.Order.Fin.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Rand Monad and Random Class

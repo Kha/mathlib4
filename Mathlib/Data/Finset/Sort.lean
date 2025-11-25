@@ -6,9 +6,15 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Finset.Max
-public import Mathlib.Data.Fintype.EquivFin
 public import Mathlib.Data.Multiset.Sort
-public import Mathlib.Order.RelIso.Set
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Data.List.NodupEquivFin
+public import Mathlib.Order.Hom.Set
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Order.RelIso.Set
 
 /-!
 # Construct a sorted list from a finset.

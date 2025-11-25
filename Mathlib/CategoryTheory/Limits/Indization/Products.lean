@@ -5,8 +5,9 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.FilteredColimitCommutesProduct
-public import Mathlib.CategoryTheory.Limits.Indization.FilteredColimits
+public import Mathlib.CategoryTheory.Limits.Indization.IndObject
+import Mathlib.CategoryTheory.Limits.FilteredColimitCommutesProduct
+import Mathlib.CategoryTheory.Limits.Indization.FilteredColimits
 
 /-!
 # Ind-objects are closed under products

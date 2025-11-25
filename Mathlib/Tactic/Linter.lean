@@ -14,3 +14,4 @@ public meta import Mathlib.Tactic.Linter.HaveLetLinter
 public meta import Mathlib.Tactic.Linter.MinImports
 public meta import Mathlib.Tactic.Linter.PPRoundtrip
 public meta import Mathlib.Tactic.Linter.UpstreamableDecl
+public import Mathlib.Init

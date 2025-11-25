@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.Normed.Order.Hom.Basic
 public import Mathlib.Topology.MetricSpace.Ultra.Basic
+public import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Constructing nonarchimedean (ultrametric) normed groups from nonarchimedean normed homs

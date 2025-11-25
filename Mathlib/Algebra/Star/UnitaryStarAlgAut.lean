@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Ring.Action.ConjAct
 public import Mathlib.Algebra.Star.StarAlgHom
 public import Mathlib.Algebra.Star.Unitary
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The ⋆-algebra automorphism given by a unitary element

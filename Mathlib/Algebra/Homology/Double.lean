@@ -7,7 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.HasNoLoop
 public import Mathlib.Algebra.Homology.Single
-public import Mathlib.CategoryTheory.Yoneda
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # A homological complex lying in two degrees

@@ -5,9 +5,19 @@ Authors: Patrick Massot, Johannes Hölzl, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Continuity
-public import Mathlib.Topology.MetricSpace.Bounded
 public import Mathlib.Order.Filter.Pointwise
+public import Mathlib.Topology.MetricSpace.ProperSpace
+public import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Boundedness in normed groups

@@ -6,6 +6,11 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Topology.Bornology.Constructions
+public import Mathlib.Order.ConditionallyCompleteLattice.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
 
 /-!
 # Bornology of order-bounded sets

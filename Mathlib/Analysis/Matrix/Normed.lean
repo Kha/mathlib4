@@ -5,7 +5,14 @@ Authors: Heather Macbeth, Eric Wieser
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.Analysis.Normed.Lp.PiLp
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.PiL2
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Operator.NNNorm
 
 /-!
 # Matrices as a normed space

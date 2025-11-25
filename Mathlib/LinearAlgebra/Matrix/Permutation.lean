@@ -7,9 +7,9 @@ module
 
 public import Mathlib.Analysis.CStarAlgebra.Matrix
 public import Mathlib.Data.Matrix.PEquiv
-public import Mathlib.Data.Set.Card
-public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
-public import Mathlib.LinearAlgebra.Matrix.Trace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
 
 /-!
 # Permutation matrices

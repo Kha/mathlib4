@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Lie.Basic
 public import Mathlib.Algebra.NonAssoc.PreLie.Basic
+public import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.TypeStar
 /-!
 # Lie admissible rings and algebras
 

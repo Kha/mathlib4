@@ -6,6 +6,7 @@ Authors: Moritz Doll
 module
 
 public import Mathlib.Topology.ContinuousMap.ZeroAtInfty
+import Mathlib.Tactic.TypeStar
 
 /-!
 # ZeroAtInftyContinuousMapClass in normed additive groups

@@ -5,8 +5,14 @@ Authors: Yury Kudryashov, Heather Macbeth
 -/
 module
 
-public import Mathlib.Topology.Homeomorph.Defs
-public import Mathlib.Topology.Order.LeftRightNhds
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrderIso
 
 /-!
 # Continuity of monotone functions

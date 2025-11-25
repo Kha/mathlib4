@@ -5,8 +5,14 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.MonoidAlgebra.Support
-public import Mathlib.Algebra.Polynomial.Degree.Operations
+public import Mathlib.Algebra.MonoidAlgebra.Degree
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Data.Nat.Cast.WithTop
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Degree and support of univariate polynomials

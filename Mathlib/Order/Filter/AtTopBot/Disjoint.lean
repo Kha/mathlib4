@@ -6,7 +6,10 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov, Patrick Massot
 module
 
 public import Mathlib.Order.Filter.AtTopBot.Defs
-public import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.Disjoint
 
 /-!
 # Disjointness of `Filter.atTop` and `Filter.atBot`

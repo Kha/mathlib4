@@ -6,6 +6,8 @@ Authors: Johannes Hölzl, Bryan Gin-ge Chen
 module
 
 public import Mathlib.Order.Heyting.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # (Generalized) Boolean algebras

@@ -5,9 +5,14 @@ Authors: Yaël Dillies, Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
-public import Mathlib.Algebra.Order.Module.Pointwise
 public import Mathlib.Data.Real.Archimedean
+public import Mathlib.Algebra.Order.Module.Defs
+public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Algebra.Order.Module.Pointwise
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
 
 /-!
 # Pointwise operations on sets of reals

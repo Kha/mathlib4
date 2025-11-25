@@ -5,9 +5,18 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
 public import Mathlib.Geometry.Euclidean.Projection
 public import Mathlib.Geometry.Euclidean.Sphere.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.StrictConvexBetween
+import Mathlib.Analysis.InnerProductSpace.Convex
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
+import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 
 /-!
 # Tangency for spheres.

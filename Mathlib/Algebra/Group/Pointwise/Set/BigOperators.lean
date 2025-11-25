@@ -5,9 +5,16 @@ Authors: Eric Wieser
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
-public import Mathlib.Data.Fintype.Card
+public import Mathlib.Data.Fintype.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Card
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Results about pointwise operations on sets and big operators.

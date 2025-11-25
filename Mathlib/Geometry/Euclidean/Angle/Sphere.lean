@@ -5,9 +5,14 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Geometry.Euclidean.Angle.Oriented.RightAngle
 public import Mathlib.Geometry.Euclidean.Circumcenter
 public import Mathlib.Geometry.Euclidean.Sphere.Tangent
+public import Mathlib.Geometry.Euclidean.Angle.Oriented.Affine
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Affine.AddTorsor
+import Mathlib.Geometry.Euclidean.Angle.Oriented.RightAngle
 
 /-!
 # Angles in circles and sphere.

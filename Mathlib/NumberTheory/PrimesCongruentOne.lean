@@ -5,7 +5,16 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Nat.ModEq
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Infinite
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 /-!
 # Primes congruent to one

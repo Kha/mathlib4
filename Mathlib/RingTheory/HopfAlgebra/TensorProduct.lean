@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.HopfAlgebra.Basic
 public import Mathlib.RingTheory.Bialgebra.TensorProduct
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tensor products of Hopf algebras

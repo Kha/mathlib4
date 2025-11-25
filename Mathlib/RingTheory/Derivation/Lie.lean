@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Lie.OfAssociative
 public import Mathlib.RingTheory.Derivation.Basic
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lie Algebra Structure on Derivations

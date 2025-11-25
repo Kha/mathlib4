@@ -8,7 +8,10 @@ module
 public import Mathlib.Algebra.Ring.Hom.Defs
 public import Mathlib.Algebra.Ring.InjSurj
 public import Mathlib.Algebra.Group.Submonoid.Defs
-public import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Bundled non-unital subsemirings

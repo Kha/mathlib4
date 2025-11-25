@@ -7,7 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.Basis.Defs
 public import Mathlib.LinearAlgebra.LinearIndependent.Basic
-public import Mathlib.LinearAlgebra.Span.Basic
+public import Mathlib.Order.OmegaCompletePartialOrder
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Span.Basic
 
 /-!
 # Basic results on bases

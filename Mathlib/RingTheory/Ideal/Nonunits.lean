@@ -6,6 +6,8 @@ Authors: Kenny Lau, Chris Hughes, Mario Carneiro
 module
 
 public import Mathlib.RingTheory.Ideal.Maximal
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 # The set of non-invertible elements of a monoid

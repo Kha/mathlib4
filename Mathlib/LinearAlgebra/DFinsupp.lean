@@ -5,11 +5,17 @@ Authors: Johannes Hölzl, Kenny Lau
 -/
 module
 
-public import Mathlib.Data.DFinsupp.Submonoid
 public import Mathlib.Data.DFinsupp.Sigma
 public import Mathlib.Data.Finsupp.ToDFinsupp
-public import Mathlib.LinearAlgebra.Finsupp.SumProd
-public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+public import Mathlib.LinearAlgebra.Pi
+public import Mathlib.Data.DFinsupp.BigOperators
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.DFinsupp.Ext
+import Mathlib.Data.DFinsupp.Submonoid
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
 
 /-!
 # Properties of the module `Π₀ i, M i`

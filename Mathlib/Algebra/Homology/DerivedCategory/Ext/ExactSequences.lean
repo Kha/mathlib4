@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.DerivedCategory.Ext.ExtClass
 public import Mathlib.CategoryTheory.Triangulated.Yoneda
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Homology.ShortComplex.Ab
 
 /-!
 # Long exact sequences of `Ext`-groups

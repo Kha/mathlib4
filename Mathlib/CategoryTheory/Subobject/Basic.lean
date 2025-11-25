@@ -5,12 +5,13 @@ Authors: Bhavik Mehta, Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Skeleton
 public import Mathlib.CategoryTheory.Subobject.MonoOver
-public import Mathlib.CategoryTheory.Skeletal
-public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 public import Mathlib.Tactic.ApplyFun
 public import Mathlib.Tactic.CategoryTheory.Elementwise
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Skeleton
 
 /-!
 # Subobjects

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Analysis.Normed.Group.Hom
 public import Mathlib.Analysis.Normed.Group.Completion
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Completion of normed group homs

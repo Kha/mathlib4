@@ -6,6 +6,11 @@ Authors: Johannes Hölzl, Johan Commelin, Mario Carneiro
 module
 
 public import Mathlib.Algebra.MvPolynomial.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 # Multivariate polynomials

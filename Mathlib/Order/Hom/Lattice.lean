@@ -6,6 +6,9 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Unbounded lattice homomorphisms

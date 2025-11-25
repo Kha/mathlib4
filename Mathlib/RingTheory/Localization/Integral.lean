@@ -5,12 +5,24 @@ Authors: Kenny Lau, Mario Carneiro, Johan Commelin, Amelia Livingston, Anne Baan
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
 public import Mathlib.Algebra.Polynomial.Lifts
-public import Mathlib.RingTheory.Algebraic.Integral
 public import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
 public import Mathlib.RingTheory.Localization.FractionRing
 public import Mathlib.RingTheory.Localization.Integer
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.Polynomial.ScaleRoots
+public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.Polynomial.Tower
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Integral and algebraic elements of a fraction field

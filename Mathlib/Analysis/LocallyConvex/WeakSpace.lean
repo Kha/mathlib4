@@ -5,9 +5,16 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.LocallyConvex.Separation
 public import Mathlib.LinearAlgebra.Dual.Defs
 public import Mathlib.Topology.Algebra.Module.WeakDual
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.Convex.Topology
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.Topology.Algebra.Module.LocallyConvex
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Analysis.LocallyConvex.Separation
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! # Closures of convex sets in locally convex spaces
 

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.MvPolynomial.Eval
 public import Mathlib.Topology.Algebra.Ring.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Multivariate polynomials and continuity

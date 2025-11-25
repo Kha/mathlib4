@@ -5,10 +5,16 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.Free
 public import Mathlib.Topology.Category.Profinite.Nobeling.Span
-public import Mathlib.Topology.Category.Profinite.Nobeling.Successor
-public import Mathlib.Topology.Category.Profinite.Nobeling.ZeroLimit
+public import Mathlib.LinearAlgebra.Basis.Basic
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+import Mathlib.SetTheory.Ordinal.Arithmetic
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Separation.Profinite
+import Mathlib.Algebra.Category.ModuleCat.Free
+import Mathlib.Topology.Category.Profinite.Nobeling.Successor
+import Mathlib.Topology.Category.Profinite.Nobeling.ZeroLimit
 
 /-!
 # Nöbeling's theorem

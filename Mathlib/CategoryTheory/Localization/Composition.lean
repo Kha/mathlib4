@@ -5,8 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Localization.LocalizerMorphism
-public import Mathlib.CategoryTheory.Functor.ReflectsIso.Basic
+public import Mathlib.CategoryTheory.Localization.Predicate
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Localization.LocalizerMorphism
 
 /-!
 # Composition of localization functors

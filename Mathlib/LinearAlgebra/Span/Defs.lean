@@ -8,6 +8,13 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.Lattice
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+public import Mathlib.Data.Finset.Union
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Algebra.Group.Submonoid.Membership
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # The span of a set of vectors, as a submodule

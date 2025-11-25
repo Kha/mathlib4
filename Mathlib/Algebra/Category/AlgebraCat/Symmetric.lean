@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.Algebra.Category.AlgCat.Monoidal
-public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Symmetric
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-05-11")

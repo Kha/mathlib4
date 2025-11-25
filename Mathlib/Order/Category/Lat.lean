@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Order.Category.PartOrd
 public import Mathlib.Order.Hom.Lattice
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of lattices

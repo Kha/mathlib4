@@ -6,13 +6,23 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.BigOperators.Finprod
-public import Mathlib.Algebra.GroupWithZero.Action.Defs
 public import Mathlib.Algebra.GroupWithZero.NonZeroDivisors
-public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
-public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.Data.Nat.Lattice
 public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Nilpotent elements

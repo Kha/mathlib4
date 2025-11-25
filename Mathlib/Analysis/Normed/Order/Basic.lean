@@ -5,7 +5,9 @@ Authors: Anatole Dedecker, Yaël Dillies
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ordered normed spaces

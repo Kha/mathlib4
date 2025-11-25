@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf
 public import Mathlib.AlgebraicGeometry.Scheme
 public import Mathlib.CategoryTheory.Sites.Whiskering
+import Mathlib.Algebra.Category.Ring.Limits
 
 /-!
 # The category of presheaves of modules over a scheme

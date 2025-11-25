@@ -6,6 +6,8 @@ Authors: Simon Hudon
 module
 
 public import Mathlib.Data.PFunctor.Univariate.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.TypeStar
 
 /-!
 # M-types

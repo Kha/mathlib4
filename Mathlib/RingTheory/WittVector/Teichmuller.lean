@@ -6,6 +6,8 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.RingTheory.WittVector.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Invertible
 
 /-!
 # Teichmüller lifts

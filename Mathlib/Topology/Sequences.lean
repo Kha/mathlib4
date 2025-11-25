@@ -7,6 +7,17 @@ module
 
 public import Mathlib.Topology.Defs.Sequences
 public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Prod
+import Mathlib.Topology.Compactness.Compact
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Filter.AtTopBot.Tendsto
 
 /-!
 # Sequences in topological spaces

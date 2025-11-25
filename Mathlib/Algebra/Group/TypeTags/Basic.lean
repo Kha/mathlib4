@@ -5,14 +5,15 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Group.Torsion
 public import Mathlib.Algebra.Notation.Pi.Basic
-public import Mathlib.Data.FunLike.Basic
-public import Mathlib.Logic.Function.Iterate
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Tactic.Set
-public import Mathlib.Util.AssertExists
-public import Mathlib.Logic.Nontrivial.Basic
+public import Mathlib.Algebra.Group.Defs
+import Mathlib.Logic.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Logic.Nontrivial.Basic
 
 /-!
 # Type tags that turn additive structures into multiplicative, and vice versa

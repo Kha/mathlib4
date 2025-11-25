@@ -5,8 +5,9 @@ Authors: Moritz Doll
 -/
 module
 
-public import Mathlib.LinearAlgebra.BilinearMap
 public import Mathlib.LinearAlgebra.Basis.Defs
+import Mathlib.LinearAlgebra.BilinearMap
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lemmas about bilinear maps with a basis over each argument

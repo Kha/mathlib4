@@ -5,9 +5,18 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Valuation.DiscreteValuativeRel
-public import Mathlib.Topology.Algebra.Valued.LocallyCompact
 public import Mathlib.Topology.Algebra.Valued.ValuativeRel
+public import Mathlib.RingTheory.DiscreteValuationRing.Basic
+public import Mathlib.Topology.Algebra.Field
+import Batteries.Util.ProofWanted
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Valuation.Archimedean
+import Mathlib.RingTheory.Valuation.DiscreteValuativeRel
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Monoid.LocallyFiniteOrder
+import Mathlib.Analysis.Normed.Field.ProperSpace
+import Mathlib.Topology.Algebra.Valued.LocallyCompact
 
 /-!
 

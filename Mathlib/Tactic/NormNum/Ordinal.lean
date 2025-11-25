@@ -5,8 +5,12 @@ Authors: Miyahara Kō
 -/
 module
 
-public meta import Mathlib.SetTheory.Ordinal.Exponential
-public meta import Mathlib.Tactic.NormNum.Basic
+public import Mathlib.SetTheory.Ordinal.Exponential
+public meta import Mathlib.Tactic.NormNum.Core
+public import Mathlib.Tactic.NormNum.Core
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # `norm_num` extensions for Ordinals

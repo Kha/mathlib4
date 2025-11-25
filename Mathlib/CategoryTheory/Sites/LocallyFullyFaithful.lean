@@ -6,6 +6,8 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Sites.LocallySurjective
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Locally fully faithful functors into sites

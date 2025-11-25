@@ -7,10 +7,25 @@ module
 
 public import Mathlib.Algebra.GCDMonoid.Finset
 public import Mathlib.Algebra.GCDMonoid.Nat
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Data.Nat.Factorization.LCM
 public import Mathlib.GroupTheory.OrderOfElement
-public import Mathlib.Tactic.Peel
+public import Mathlib.Data.Finset.Max
+public import Mathlib.Data.Nat.Lattice
+public import Mathlib.Data.Nat.Factorization.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.Factorization.LCM
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Exponent of a group

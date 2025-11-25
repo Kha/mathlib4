@@ -5,10 +5,14 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.Group.Equiv.Basic
 public import Mathlib.Data.ENat.Lattice
 public import Mathlib.Data.Part
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Order.GaloisConnection.Basic
+public import Mathlib.Algebra.Group.Equiv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Lean.Meta.CongrTheorems
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Natural numbers with infinity

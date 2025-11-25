@@ -8,6 +8,9 @@ module
 public import Mathlib.CategoryTheory.Bicategory.Basic
 public import Mathlib.CategoryTheory.Monoidal.Mon_
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
+public import Mathlib.Tactic.CategoryTheory.Monoidal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # The category of bimodule objects over a pair of monoid objects.

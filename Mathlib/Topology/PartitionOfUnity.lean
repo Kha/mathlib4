@@ -5,12 +5,27 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Finprod
 public import Mathlib.Topology.ContinuousMap.Algebra
 public import Mathlib.Topology.Compactness.Paracompact
-public import Mathlib.Topology.ShrinkingLemma
-public import Mathlib.Topology.UrysohnsLemma
 public import Mathlib.Topology.ContinuousMap.Ordered
+public import Mathlib.SetTheory.Cardinal.Order
+public import Mathlib.Analysis.Normed.Ring.Basic
+public import Mathlib.Topology.Algebra.Ring.Real
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.ShrinkingLemma
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.BigOperators.Ring.Finset
 
 /-!
 # Continuous partition of unity

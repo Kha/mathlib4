@@ -7,7 +7,15 @@ module
 
 public import Mathlib.Algebra.Order.CauSeq.Completion
 public import Mathlib.Algebra.Order.Ring.Rat
-public import Mathlib.Data.Rat.Cast.Defs
+public import Mathlib.Algebra.Field.Rat
+public import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Rat.Cast.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Real numbers from Cauchy sequences

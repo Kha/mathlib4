@@ -6,6 +6,8 @@ Authors: David Wärn
 module
 
 public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Order.Minimal
+import Mathlib.Order.Zorn
 
 /-!
 # Idempotents in topological semigroups

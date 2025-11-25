@@ -5,9 +5,17 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Filter.Lift
-public import Mathlib.Order.Interval.Set.Monotone
 public import Mathlib.Topology.Separation.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.Monotone
 
 /-!
 # Topology on the set of filters on a type

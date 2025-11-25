@@ -6,6 +6,7 @@ Authors: Martin Dvorak
 module
 
 public import Mathlib.Data.Fintype.Card
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pigeonhole-like results for Fin

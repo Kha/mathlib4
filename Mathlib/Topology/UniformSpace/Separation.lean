@@ -5,9 +5,15 @@ Authors: Johannes Hölzl, Patrick Massot, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Tactic.ApplyFun
 public import Mathlib.Topology.Separation.Regular
 public import Mathlib.Topology.UniformSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Ker
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Prod
 
 /-!
 # Hausdorff properties of uniform spaces. Separation quotient.

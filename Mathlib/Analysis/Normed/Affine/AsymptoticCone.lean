@@ -5,8 +5,14 @@ Authors: Attila Gáspár
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
 public import Mathlib.Topology.Algebra.AsymptoticCone
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Asymptotic cones in normed spaces

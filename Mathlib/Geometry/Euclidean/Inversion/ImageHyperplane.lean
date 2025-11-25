@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Geometry.Euclidean.Inversion.Basic
 public import Mathlib.Geometry.Euclidean.PerpBisector
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Image of a hyperplane under inversion

@@ -5,8 +5,9 @@ Authors: Reid Barton, Johan Commelin
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.Basic
 public import Mathlib.CategoryTheory.Limits.Creates
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Adjunctions and limits

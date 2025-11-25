@@ -5,9 +5,10 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Prod
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Ring.Prod
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Prod
 
 /-!
 # Products of ordered rings

@@ -5,10 +5,14 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.WithTop
-public import Mathlib.Algebra.Group.Hom.Defs
-public import Mathlib.Algebra.CharZero.Defs
-public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Order.Monoid.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.WithTop
 
 /-!
 # Linearly ordered commutative additive groups and monoids with a top element adjoined

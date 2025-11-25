@@ -5,9 +5,11 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Convex.ContinuousLinearEquiv
 public import Mathlib.Analysis.Convex.StrictConvexSpace
 public import Mathlib.Analysis.Normed.Operator.LinearIsometry
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.ContinuousLinearEquiv
 
 /-!
 # (Strict) convexity and linear isometries

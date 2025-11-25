@@ -5,8 +5,8 @@ Authors: Amelia Livingston, Jireh Loreaux
 -/
 module
 
-public import Mathlib.Algebra.Ring.Hom.InjSurj
-public import Mathlib.Deprecated.RingHom
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-06-09")

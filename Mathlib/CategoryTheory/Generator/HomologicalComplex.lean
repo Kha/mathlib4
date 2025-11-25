@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Homology.Double
 public import Mathlib.Algebra.Homology.HomologicalComplexLimits
 public import Mathlib.CategoryTheory.Generator.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Generators of the category of homological complexes

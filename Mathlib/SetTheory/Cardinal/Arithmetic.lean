@@ -6,6 +6,15 @@ Authors: Johannes Hölzl, Mario Carneiro, Floris van Doorn
 module
 
 public import Mathlib.SetTheory.Cardinal.Aleph
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Equiv.List
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Cardinal arithmetic

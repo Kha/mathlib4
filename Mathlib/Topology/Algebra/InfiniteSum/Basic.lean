@@ -5,11 +5,21 @@ Authors: Johannes Hölzl, Mitchell Lee
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
-public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Topology.Algebra.InfiniteSum.Defs
 public import Mathlib.Topology.Algebra.Monoid.Defs
-public import Mathlib.Order.Filter.AtTopBot.BigOperators
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Group.Equiv.Basic
+import Mathlib.Order.Filter.AtTopBot.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
 
 /-!
 # Lemmas on infinite sums and products in topological monoids

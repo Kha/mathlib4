@@ -7,11 +7,30 @@ module
 
 public import Mathlib.Analysis.Complex.Order
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Data.Complex.BigOperators
 public import Mathlib.LinearAlgebra.Complex.Module
-public import Mathlib.Topology.Algebra.InfiniteSum.Module
-public import Mathlib.Topology.Instances.RealVectorSpace
-public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.TermReduce
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.UniformSpace.CompleteSeparated
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 

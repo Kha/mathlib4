@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Multicoequalizers that are pushouts

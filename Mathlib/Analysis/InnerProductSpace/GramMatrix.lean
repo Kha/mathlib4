@@ -5,8 +5,12 @@ Authors: Peter Pfaffelhuber
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.LinearAlgebra.Matrix.PosDef
+public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
 
 /-! # Gram Matrices
 

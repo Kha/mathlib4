@@ -5,9 +5,22 @@ Authors: Andreas Swerdlow
 -/
 module
 
-public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.BilinearMap
-public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Data.Fin.VecNotation
+public import Mathlib.LinearAlgebra.Basis.Defs
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.LinearAlgebra.Basis.Basic
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Sesquilinear maps

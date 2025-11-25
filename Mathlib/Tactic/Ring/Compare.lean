@@ -6,8 +6,17 @@ Authors: Heather Macbeth
 module
 
 public meta import Mathlib.Tactic.Ring.Basic
-public meta import Mathlib.Tactic.NormNum.Ineq
 import all Mathlib.Tactic.NormNum.Ineq
+public import Mathlib.Tactic.NormNum.Ineq
+public import Mathlib.Tactic.Ring.Basic
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Bound.Init
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.NormNum.Eq
 
 /-!
 # Automation for proving inequalities in commutative (semi)rings

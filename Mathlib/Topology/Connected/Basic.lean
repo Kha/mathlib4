@@ -5,9 +5,20 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.SymmDiff
-public import Mathlib.Order.SuccPred.Relation
 public import Mathlib.Topology.Irreducible
+public import Mathlib.Order.SuccPred.Archimedean
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.SuccPred.Relation
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Connected subsets of topological spaces

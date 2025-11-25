@@ -5,10 +5,14 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Lattice
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
 public import Mathlib.Order.Interval.Finset.Nat
-public import Mathlib.Order.SuccPred.Basic
+public import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # The monotone sequence of partial supremums of a sequence

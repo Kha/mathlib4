@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.ChangeOfRings
+import Mathlib.Tactic.Lemma
 
 /-!
 # Pushforward of presheaves of modules

@@ -7,7 +7,8 @@ module
 
 public import Mathlib.Algebra.DirectSum.Finsupp
 public import Mathlib.LinearAlgebra.DirectSum.TensorProduct
-public import Mathlib.LinearAlgebra.Finsupp.SumProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Results on finitely supported functions.

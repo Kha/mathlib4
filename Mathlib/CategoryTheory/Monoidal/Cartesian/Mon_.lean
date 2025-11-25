@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Category.MonCat.Limits
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
 public import Mathlib.CategoryTheory.Monoidal.Mon_
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Yoneda embedding of `Mon C`

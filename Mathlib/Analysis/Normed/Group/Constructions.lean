@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Group.PUnit
 public import Mathlib.Algebra.Group.ULift
 public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Algebra.Group.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Product of normed groups and other constructions

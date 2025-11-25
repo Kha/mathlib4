@@ -5,10 +5,19 @@ Authors: Jeremy Avigad, Robert Y. Lewis
 -/
 module
 
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Ring.Parity
-public import Mathlib.Tactic.Bound.Attribute
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Order.Monotone.Basic
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Basic lemmas about ordered rings

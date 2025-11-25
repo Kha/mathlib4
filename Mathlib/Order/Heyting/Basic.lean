@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Order.PropInstances
 public import Mathlib.Order.GaloisConnection.Defs
+public import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Heyting algebras

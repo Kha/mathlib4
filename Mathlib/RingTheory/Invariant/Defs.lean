@@ -6,6 +6,7 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.Algebra.Algebra.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Invariant Extensions of Rings

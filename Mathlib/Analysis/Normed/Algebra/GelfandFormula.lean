@@ -5,10 +5,25 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.Analytic.RadiusLiminf
-public import Mathlib.Analysis.Complex.Liouville
-public import Mathlib.Analysis.Complex.Polynomial.Basic
 public import Mathlib.Analysis.Normed.Algebra.Spectrum
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.RadiusLiminf
+import Mathlib.Analysis.Analytic.Uniqueness
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.Complex.Liouville
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.FieldTheory.IsAlgClosed.Spectrum
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Complex.Polynomial.Basic
 
 /-!
 # Gelfand's formula and other results on the spectrum in complex Banach algebras

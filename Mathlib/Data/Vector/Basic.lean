@@ -6,11 +6,17 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Vector.Defs
-public import Mathlib.Data.List.Nodup
-public import Mathlib.Data.List.OfFn
-public import Mathlib.Control.Applicative
 public import Mathlib.Control.Traversable.Basic
-public import Mathlib.Algebra.BigOperators.Group.List.Basic
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Data.Fin.SuccPred
+import Mathlib.Control.Applicative
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Scan
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.List.OfFn
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-!
 # Additional theorems and definitions about the `Vector` type

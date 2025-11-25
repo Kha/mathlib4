@@ -5,11 +5,26 @@ Authors: Yury Kudryashov, Alistair Tucker, Wen Yang
 -/
 module
 
-public import Mathlib.Order.Interval.Set.Image
-public import Mathlib.Order.CompleteLatticeIntervals
-public import Mathlib.Topology.Order.DenselyOrdered
-public import Mathlib.Topology.Order.Monotone
 public import Mathlib.Topology.Connected.TotallyDisconnected
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Order.CompleteLatticeIntervals
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Monotone
+import Mathlib.Data.Set.Order
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Intermediate Value Theorem

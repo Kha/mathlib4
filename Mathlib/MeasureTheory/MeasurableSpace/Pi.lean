@@ -7,6 +7,10 @@ module
 
 public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
 public import Mathlib.MeasureTheory.PiSystem
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Prod
 
 /-!
 # Bases of the indexed product σ-algebra

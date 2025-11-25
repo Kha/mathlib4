@@ -6,6 +6,8 @@ Authors: Nicolò Cavalleri
 module
 
 public import Mathlib.Geometry.Manifold.Algebra.LieGroup
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-!
 # `C^n` structures

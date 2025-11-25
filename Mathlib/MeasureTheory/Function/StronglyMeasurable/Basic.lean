@@ -6,7 +6,38 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Normed.Module.Basic
-public import Mathlib.MeasureTheory.Function.SimpleFuncDense
+public import Mathlib.MeasureTheory.Function.SimpleFunc
+public import Mathlib.Topology.Algebra.Star
+public import Mathlib.Topology.Metrizable.Basic
+public import Mathlib.Topology.Order.Lattice
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Group.Support
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Piecewise
+import Mathlib.MeasureTheory.Function.SimpleFuncDense
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
 
 /-!
 # Strongly measurable and finitely strongly measurable functions

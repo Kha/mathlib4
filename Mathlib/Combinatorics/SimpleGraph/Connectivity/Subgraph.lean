@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
 public import Mathlib.Data.Set.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Lattice
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Connectivity of subgraphs and induced graphs

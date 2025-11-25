@@ -5,8 +5,14 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Geometry.Manifold.ContMDiff.Constructions
-public import Mathlib.Analysis.Normed.Operator.Prod
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Normed.Operator.Prod
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.Constructions
 
 /-! ## Equivalence of smoothness with the basic definition for functions between vector spaces
 

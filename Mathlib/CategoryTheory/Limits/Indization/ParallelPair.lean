@@ -5,8 +5,9 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Comma.Final
 public import Mathlib.CategoryTheory.Limits.Indization.IndObject
+import Mathlib.CategoryTheory.Comma.Final
+import Mathlib.CategoryTheory.Filtered.Final
 
 /-!
 # Parallel pairs of natural transformations between ind-objects

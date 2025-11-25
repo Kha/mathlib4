@@ -5,9 +5,14 @@ Authors: Kevin Buzzard, Antoine Labelle
 -/
 module
 
-public import Mathlib.Algebra.Module.Shrink
-public import Mathlib.LinearAlgebra.TensorProduct.Basis
-public import Mathlib.Logic.UnivLE
+public import Mathlib.Algebra.Algebra.Basic
+public import Mathlib.Data.DFinsupp.Module
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.LinearAlgebra.TensorProduct.Basic
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Shrink
+import Mathlib.LinearAlgebra.TensorProduct.Basis
 
 /-!
 

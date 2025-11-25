@@ -6,6 +6,7 @@ Authors: Jacob Reinhold
 module
 
 public import Mathlib.CategoryTheory.CopyDiscardCategory.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Deterministic Morphisms in Copy-Discard Categories

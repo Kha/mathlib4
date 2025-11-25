@@ -6,6 +6,7 @@ Authors: Ali Ramsey
 module
 
 public import Mathlib.RingTheory.Bialgebra.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Hopf algebras

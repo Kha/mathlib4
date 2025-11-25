@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.List.Pi
 public import Mathlib.Data.Fintype.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quotients of families indexed by a finite type

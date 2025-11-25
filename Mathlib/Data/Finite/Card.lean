@@ -6,6 +6,9 @@ Authors: Kyle Miller
 module
 
 public import Mathlib.SetTheory.Cardinal.Finite
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Option
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 

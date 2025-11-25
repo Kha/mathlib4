@@ -6,8 +6,9 @@ Authors: Leonardo de Moura, Mario Carneiro
 module
 
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Tactic.Contrapose
-public import Mathlib.Data.Prod.PProd
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalence between product types

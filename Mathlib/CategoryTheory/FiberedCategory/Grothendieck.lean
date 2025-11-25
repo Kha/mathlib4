@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Grothendieck
 public import Mathlib.CategoryTheory.FiberedCategory.HasFibers
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Grothendieck construction gives a fibered category

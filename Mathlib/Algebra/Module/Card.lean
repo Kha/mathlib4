@@ -5,8 +5,11 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Algebra.NoZeroSMulDivisors.Basic
-public import Mathlib.SetTheory.Cardinal.Basic
+public import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
+public import Mathlib.SetTheory.Cardinal.Order
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.SetTheory.Cardinal.Basic
 
 /-!
 # Cardinality of a module

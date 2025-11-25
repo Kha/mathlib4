@@ -7,6 +7,8 @@ module
 
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
 public import Mathlib.LinearAlgebra.Pi
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

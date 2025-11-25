@@ -7,9 +7,14 @@ module
 
 public import Mathlib.Algebra.Module.Submodule.Equiv
 public import Mathlib.Algebra.Module.Equiv.Basic
-public import Mathlib.Algebra.Module.Rat
 public import Mathlib.Data.Bracket
 public import Mathlib.Tactic.Abel
+public import Mathlib.Algebra.Ring.Rat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Lie algebras

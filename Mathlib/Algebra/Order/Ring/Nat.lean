@@ -5,11 +5,11 @@ Authors: Floris van Doorn, Leonardo de Moura, Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Algebra.Order.GroupWithZero.Canonical
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Ring.Parity
 public import Mathlib.Order.BooleanAlgebra.Set
+import Mathlib.Tactic.Lemma
 
 /-!
 # The natural numbers form an ordered semiring

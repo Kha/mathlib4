@@ -6,11 +6,21 @@ Authors: Mario Carneiro, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Yury K
 module
 
 public import Mathlib.Algebra.Algebra.Rat
-public import Mathlib.Data.Nat.Prime.Int
 public import Mathlib.Data.Rat.Sqrt
 public import Mathlib.Data.Real.Sqrt
-public import Mathlib.RingTheory.Algebraic.Basic
-public import Mathlib.Tactic.IntervalCases
+public import Mathlib.RingTheory.Multiplicity
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.Algebra.Group.Int.Even
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.RingTheory.Algebraic.Basic
+import Mathlib.Algebra.Group.Irreducible.Lemmas
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Irrational real numbers

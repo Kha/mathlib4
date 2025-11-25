@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.IsConnected
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
+import Mathlib.Tactic.TypeStar
 
 /-!
 

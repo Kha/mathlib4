@@ -5,9 +5,21 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Nat.Lattice
-public import Mathlib.Data.NNReal.Basic
 public import Mathlib.Topology.Metrizable.Basic
+public import Mathlib.Topology.MetricSpace.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Chain
+import Mathlib.Data.List.TakeDrop
+import Mathlib.Data.List.Zip
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Order.Filter.AtTopBot.Finite
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.List
 
 /-!
 # Metrizable uniform spaces

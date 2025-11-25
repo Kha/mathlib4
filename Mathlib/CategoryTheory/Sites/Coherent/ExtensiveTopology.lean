@@ -6,7 +6,9 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Sites.Coherent.Basic
-public import Mathlib.Data.Finite.Sigma
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Sigma
 
 /-!
 # Description of the covering sieves of the extensive topology

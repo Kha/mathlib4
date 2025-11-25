@@ -7,8 +7,9 @@ module
 
 public import Mathlib.Order.Category.Preord
 public import Mathlib.Topology.Category.TopCat.Basic
-public import Mathlib.Topology.ContinuousMap.Basic
 public import Mathlib.Topology.Order.UpperLowerSetTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Specialization order

@@ -5,11 +5,14 @@ Authors: Heather Macbeth
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Tower
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
-public import Mathlib.Tactic.Ring
-public import Mathlib.Util.AtomM
 public meta import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.Algebra.Algebra.Defs
+public import Mathlib.Tactic.Ring.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.Tower
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Data.Rat.Cast.Defs
+import Mathlib.Algebra.BigOperators.Group.List.Basic
 
 /-! # A tactic for normalization over modules
 

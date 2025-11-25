@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.List.Defs
 public import Mathlib.Tactic.Common
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 The type `List.Vector` represents lists with fixed length.

@@ -5,10 +5,17 @@ Authors: Adam Topaz
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Limits
 public import Mathlib.CategoryTheory.Limits.FilteredColimitCommutesFiniteLimit
 public import Mathlib.CategoryTheory.Adhesive
 public import Mathlib.CategoryTheory.Sites.ConcreteSheafification
+public import Mathlib.CategoryTheory.Adjunction.Unique
+public import Mathlib.CategoryTheory.Sites.Sheafification
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.FinCategory.AsType
+import Mathlib.CategoryTheory.Sites.Limits
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
 
 /-!
 # Left exactness of sheafification

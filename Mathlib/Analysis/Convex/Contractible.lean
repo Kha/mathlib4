@@ -5,8 +5,10 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Convex.Star
 public import Mathlib.Topology.Homotopy.Contractible
+public import Mathlib.Analysis.Convex.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # A convex set is contractible

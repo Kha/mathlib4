@@ -6,6 +6,24 @@ Authors: Mario Carneiro, Johannes Hölzl
 module
 
 public import Mathlib.MeasureTheory.Function.SimpleFunc
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Data.Set.Piecewise
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Lower Lebesgue integral for `ℝ≥0∞`-valued functions

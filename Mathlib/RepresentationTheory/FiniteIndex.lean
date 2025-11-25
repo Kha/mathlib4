@@ -8,6 +8,9 @@ module
 public import Mathlib.GroupTheory.Index
 public import Mathlib.RepresentationTheory.Coinduced
 public import Mathlib.RepresentationTheory.Induced
+public import Mathlib.GroupTheory.Coset.Card
+public import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Tactic.Lemma
 
 /-!
 # (Co)induced representations of a finite index subgroup

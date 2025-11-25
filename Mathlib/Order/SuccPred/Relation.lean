@@ -6,6 +6,7 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.Order.SuccPred.Archimedean
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Relations on types with a `SuccOrder`

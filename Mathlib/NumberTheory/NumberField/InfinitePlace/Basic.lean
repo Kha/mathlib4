@@ -6,9 +6,27 @@ Authors: Xavier Roblot
 module
 
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Embeddings
-public import Mathlib.NumberTheory.NumberField.Norm
 public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
-public import Mathlib.Topology.Instances.Complex
+public import Mathlib.RingTheory.Norm.Defs
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Two
+import Mathlib.Data.Set.Disjoint
+import Mathlib.NumberTheory.NumberField.Norm
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.Norm.Transitivity
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Instances.Complex
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Infinite places of a number field

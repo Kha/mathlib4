@@ -6,8 +6,12 @@ Authors: Anne Baanen, Yury Kudryashov, Joseph Myers, Heather Macbeth, Kim Morris
 module
 
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
-public import Mathlib.Algebra.Group.Torsion
-public import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Torsion
 
 /-!
 # `NoZeroSMulDivisors`

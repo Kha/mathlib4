@@ -8,6 +8,11 @@ module
 public import Mathlib.Analysis.Normed.Module.Basic
 public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
 public import Mathlib.Topology.Algebra.Module.WeakBilin
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Polar set

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Quotient
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The quotient category is linear

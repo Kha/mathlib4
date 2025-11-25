@@ -5,8 +5,13 @@ Authors: Neil Strickland, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Commute.Defs
-public import Mathlib.Algebra.Group.Semiconj.Units
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Group.Units.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Semiconj.Units
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # Lemmas about commuting pairs of elements involving units.

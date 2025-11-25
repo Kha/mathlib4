@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Even
 public import Mathlib.Algebra.Group.Subgroup.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Squares and even elements

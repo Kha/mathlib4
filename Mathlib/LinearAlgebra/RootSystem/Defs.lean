@@ -7,6 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.PerfectPairing.Basic
 public import Mathlib.LinearAlgebra.Reflection
+public import Mathlib.Tactic.Module
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Root data and root systems

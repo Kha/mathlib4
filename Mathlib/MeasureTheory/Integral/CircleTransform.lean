@@ -5,8 +5,10 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Data.Complex.Basic
 public import Mathlib.MeasureTheory.Integral.CircleIntegral
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Periodic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Circle integral transform

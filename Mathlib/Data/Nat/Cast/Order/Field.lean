@@ -5,7 +5,18 @@ Authors: Mario Carneiro, Yaël Dillies, Patrick Stevens
 -/
 module
 
-public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Cast of naturals into ordered fields

@@ -5,8 +5,15 @@ Authors: Rémy Degenne, Josha Dekker
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.RegularityCompacts
-public import Mathlib.Topology.Order.Lattice
+public import Mathlib.MeasureTheory.Measure.Regular
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.MeasureTheory.Measure.RegularityCompacts
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Topology.Order.Lattice
+import Mathlib.Analysis.Normed.Group.Basic
 
 /-!
 # Tight sets of measures

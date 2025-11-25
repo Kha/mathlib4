@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Module.LinearMap.End
 public import Mathlib.Algebra.Module.Submodule.Defs
 public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Data.Set.Restrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

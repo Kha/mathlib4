@@ -8,7 +8,7 @@ module
 public import Mathlib.Algebra.Category.Grp.Basic
 public import Mathlib.Algebra.Ring.Equiv
 public import Mathlib.Algebra.Ring.PUnit
-public import Mathlib.CategoryTheory.ConcreteCategory.ReflectsIso
+import Mathlib.Tactic.Lemma
 
 /-!
 # Category instances for `Semiring`, `Ring`, `CommSemiring`, and `CommRing`.

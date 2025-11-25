@@ -6,7 +6,11 @@ Authors: Vasilii Nesterov
 module
 
 public import Mathlib.Init
-public meta import Qq
+public import Qq.Macro
+public meta import Qq.MatchImpl
+public meta import Qq.Simp
+public import Qq.Typ
+import Qq.Match
 
 /-!
 # Simproc for `∃ a', ... ∧ a' = a ∧ ...`

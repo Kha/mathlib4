@@ -6,6 +6,7 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Integral closure as a characteristic predicate

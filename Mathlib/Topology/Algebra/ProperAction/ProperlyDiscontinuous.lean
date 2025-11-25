@@ -6,7 +6,10 @@ Authors: Etienne Marion
 module
 
 public import Mathlib.Topology.Algebra.ProperAction.Basic
-public import Mathlib.Topology.Maps.Proper.CompactlyGenerated
+public import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.Group.Basic
+import Mathlib.Topology.Maps.Proper.CompactlyGenerated
 
 /-!
 # When a proper action is properly discontinuous

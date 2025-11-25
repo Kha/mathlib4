@@ -5,13 +5,21 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Ring.Divisibility.Lemmas
 public import Mathlib.Algebra.Lie.Nilpotent
-public import Mathlib.Algebra.Lie.Engel
-public import Mathlib.LinearAlgebra.Eigenspace.Pi
-public import Mathlib.RingTheory.Artinian.Module
 public import Mathlib.LinearAlgebra.Trace
-public import Mathlib.LinearAlgebra.FreeModule.PID
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Lie.Engel
+import Mathlib.LinearAlgebra.Eigenspace.Pi
+import Mathlib.LinearAlgebra.Eigenspace.Triangularizable
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Divisibility.Lemmas
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Weight spaces of Lie modules of nilpotent Lie algebras

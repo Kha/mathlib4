@@ -5,9 +5,12 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.Algebra.Divisibility.Prod
-public import Mathlib.Algebra.Polynomial.FieldDivision
 public import Mathlib.RingTheory.Artinian.Module
+public import Mathlib.Algebra.Polynomial.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Prod
+import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Instances related to Artinian rings

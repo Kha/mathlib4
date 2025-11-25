@@ -5,11 +5,22 @@ Authors: Sébastien Gouëzel, Johannes Hölzl, Rémy Degenne
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
 public import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Defs
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.Order.Filter.Cofinite
+public import Mathlib.Data.Finset.Lattice.Fold
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Range
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Lemmas about `Is(Co)Bounded(Under)`

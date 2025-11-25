@@ -5,12 +5,56 @@ Authors: Anatole Dedecker, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Support
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-public import Mathlib.MeasureTheory.Function.JacobianOneDim
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
-public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
-public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Piecewise
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Data.Countable.Basic
+import Mathlib.MeasureTheory.Function.JacobianOneDim
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Support
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.Analysis.Normed.Module.Completion
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Filter.AtTopBot.Finite
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Links between an integral and its "improper" version

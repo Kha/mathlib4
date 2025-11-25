@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Probability.ConditionalProbability
 public import Mathlib.MeasureTheory.Measure.Count
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
 
 /-!
 # Classical probability

@@ -6,6 +6,8 @@ Authors: Kim Morrison, Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Functor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Endofunctors as a monoidal category.

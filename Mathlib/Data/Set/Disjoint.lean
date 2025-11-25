@@ -6,6 +6,9 @@ Authors: Jeremy Avigad, Leonardo de Moura
 module
 
 public import Mathlib.Data.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Theorems about the `Disjoint` relation on `Set`.

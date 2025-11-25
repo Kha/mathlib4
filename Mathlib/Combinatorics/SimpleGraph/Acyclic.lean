@@ -6,7 +6,16 @@ Authors: Kyle Miller
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
-public import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+public import Mathlib.SetTheory.Cardinal.Finite
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Set.Card
+import Mathlib.Order.Preorder.Finite
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 

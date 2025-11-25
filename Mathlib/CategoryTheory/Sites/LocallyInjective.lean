@@ -5,10 +5,16 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.LeftExact
 public import Mathlib.CategoryTheory.Sites.PreservesSheafification
 public import Mathlib.CategoryTheory.Sites.Subsheaf
-public import Mathlib.CategoryTheory.Sites.Whiskering
+public import Mathlib.CategoryTheory.Limits.Types.Colimits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Sites.LeftExact
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Locally injective morphisms of (pre)sheaves

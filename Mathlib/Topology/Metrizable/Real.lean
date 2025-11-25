@@ -6,8 +6,12 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Topology.Metrizable.Basic
-public import Mathlib.Topology.Order.MonotoneContinuity
 public import Mathlib.Topology.Order.Real
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Topology.Order.T5
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # `ENNReal` is metrizable

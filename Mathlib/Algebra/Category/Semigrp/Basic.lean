@@ -8,7 +8,7 @@ module
 public import Mathlib.Algebra.PEmptyInstances
 public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.CategoryTheory.Elementwise
-public import Mathlib.CategoryTheory.Functor.ReflectsIso.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Category instances for `Mul`, `Add`, `Semigroup` and `AddSemigroup`

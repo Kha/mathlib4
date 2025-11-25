@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Multiplicity
 public import Mathlib.RingTheory.Valuation.Basic
+public import Mathlib.Algebra.Ring.Regular
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `multiplicity` of a prime in an integral domain as an additive valuation

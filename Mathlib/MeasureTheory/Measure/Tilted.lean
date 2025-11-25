@@ -5,7 +5,20 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
 
 /-!
 # Exponentially tilted measures

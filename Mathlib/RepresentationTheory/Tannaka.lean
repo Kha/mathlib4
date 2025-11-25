@@ -6,6 +6,9 @@ Authors: Yacine Benmeuraiem
 module
 
 public import Mathlib.RepresentationTheory.FDRep
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Tannaka duality for finite groups

@@ -5,10 +5,31 @@ Authors: Lorenzo Luccioli, Rémy Degenne, Alexander Bentkamp
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
-public import Mathlib.MeasureTheory.Group.Convolution
-public import Mathlib.Probability.Moments.MGFAnalytic
-public import Mathlib.Probability.Independence.Basic
+public import Mathlib.Probability.Moments.ComplexMGF
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.MeasureTheory.Function.JacobianOneDim
+import Mathlib.MeasureTheory.Group.Integral
+import Mathlib.Probability.Moments.MGFAnalytic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-!
 # Gaussian distributions over ℝ

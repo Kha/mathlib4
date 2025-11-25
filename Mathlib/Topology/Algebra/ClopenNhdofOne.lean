@@ -5,11 +5,14 @@ Authors: Nailin Guan, Yi Song, Xuchun Li
 -/
 module
 
-public import Mathlib.GroupTheory.Index
-public import Mathlib.Topology.Algebra.Group.ClosedSubgroup
 public import Mathlib.Topology.Algebra.OpenSubgroup
-public import Mathlib.Topology.Separation.Profinite
-public import Mathlib.Topology.Separation.Connected
+public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Separation.Connected
+import Mathlib.Topology.Separation.Profinite
+import Mathlib.Topology.Algebra.Group.ClosedSubgroup
+import Mathlib.Topology.Algebra.Group.Pointwise
 /-!
 # Existence of an open normal subgroup in any clopen neighborhood of the neutral element
 

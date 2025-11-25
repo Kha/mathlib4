@@ -5,12 +5,22 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Module.Torsion.Basic
 public import Mathlib.FieldTheory.Perfect
-public import Mathlib.LinearAlgebra.AnnihilatingPolynomial
-public import Mathlib.RingTheory.Artinian.Instances
-public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
 public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.RingTheory.AdjoinRoot
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Algebra.Polynomial.Module.AEval
+import Mathlib.LinearAlgebra.AnnihilatingPolynomial
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.RingTheory.Artinian.Instances
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.Module.Torsion.Basic
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
 
 /-!
 # Semisimple linear endomorphisms

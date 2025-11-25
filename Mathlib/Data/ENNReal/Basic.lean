@@ -8,8 +8,20 @@ module
 public import Mathlib.Algebra.Order.Ring.WithTop
 public import Mathlib.Algebra.Order.Sub.WithTop
 public import Mathlib.Data.NNReal.Defs
-public import Mathlib.Order.Interval.Set.WithBotTop
-public import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Monoid.WithTop
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Order.Interval.Set.WithBotTop
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Extended non-negative reals

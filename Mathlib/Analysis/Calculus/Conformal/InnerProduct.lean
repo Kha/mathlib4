@@ -6,7 +6,10 @@ Authors: Yourong Zang
 module
 
 public import Mathlib.Analysis.Calculus.Conformal.NormedSpace
-public import Mathlib.Analysis.InnerProductSpace.ConformalLinearMap
+public import Mathlib.Analysis.InnerProductSpace.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.ConformalLinearMap
+import Mathlib.Analysis.Calculus.FDeriv.Basic
 
 /-!
 # Conformal maps between inner product spaces

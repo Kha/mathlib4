@@ -5,8 +5,10 @@ Authors: Yury Kudryashov, Fabrizio Barroero, Christopher Hoskin
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Complex.Log
-public import Mathlib.Order.Interval.Set.Defs
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Analysis.SpecialFunctions.Complex.Log
 
 /-!
 # circleMap

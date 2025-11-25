@@ -5,9 +5,14 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
 public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Stochastic processes satisfying the Kolmogorov condition

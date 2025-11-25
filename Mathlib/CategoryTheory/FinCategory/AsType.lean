@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.FinCategory.Basic
 public import Mathlib.Data.Fintype.EquivFin
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finite categories are equivalent to category in `Type 0`.

@@ -7,6 +7,7 @@ module
 
 public meta import Std.Time.Format
 public import Mathlib.Init
+import Std.Time.Date.PlainDate
 
 /-!
 # The `deprecated.module` linter

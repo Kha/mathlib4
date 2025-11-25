@@ -6,6 +6,9 @@ Authors: Nicolò Cavalleri
 module
 
 public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+public import Mathlib.Geometry.Manifold.ContMDiff.Basic
+public import Mathlib.Geometry.Manifold.ContMDiff.Constructions
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `C^n` bundled maps

@@ -6,7 +6,8 @@ Authors: Scott Carnahan
 module
 
 public import Mathlib.Algebra.Vertex.HVertexOperator
-public import Mathlib.Data.Int.Interval
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Interval
 
 /-!
 # Vertex operators

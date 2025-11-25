@@ -7,6 +7,7 @@ module
 
 public import Mathlib.GroupTheory.GroupAction.SubMulAction
 public import Mathlib.Algebra.Group.Pointwise.Set.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pointwise monoid structures on SubMulAction

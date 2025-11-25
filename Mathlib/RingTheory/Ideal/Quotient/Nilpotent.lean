@@ -5,8 +5,12 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.Nilpotent.Lemmas
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Nilpotent.Lemmas
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 /-!
 # Nilpotent elements in quotient rings

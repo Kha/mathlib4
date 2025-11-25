@@ -5,8 +5,9 @@ Authors: Yury Kudryashov
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.DivMod
-public meta import Mathlib.Data.Int.ModEq
+public import Mathlib.Data.Int.ModEq
+public meta import Mathlib.Tactic.NormNum.Core
+public import Mathlib.Tactic.NormNum.Core
 
 /-!
 # `norm_num` extensions for `Nat.ModEq` and `Int.ModEq`

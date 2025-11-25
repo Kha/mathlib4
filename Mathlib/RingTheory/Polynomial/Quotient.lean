@@ -5,14 +5,20 @@ Authors: Kenny Lau, David Kurniadi Angdinata, Devon Tuma, Riccardo Brasca
 -/
 module
 
-public import Mathlib.Algebra.Field.Equiv
 public import Mathlib.Algebra.Polynomial.Div
 public import Mathlib.Algebra.Polynomial.Eval.SMul
-public import Mathlib.GroupTheory.GroupAction.Ring
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.Polynomial.Basic
-public import Mathlib.RingTheory.Polynomial.Ideal
-public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.MvPolynomial.CommRing
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Equiv
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.RingTheory.Polynomial.Ideal
+import Mathlib.Algebra.Polynomial.Eval.Coeff
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # Quotients of polynomial rings

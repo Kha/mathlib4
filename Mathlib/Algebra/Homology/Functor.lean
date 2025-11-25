@@ -6,6 +6,7 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Homology.HomologicalComplex
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Complexes in functor categories

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Combinatorics.SimpleGraph.Paths
 public import Mathlib.Combinatorics.SimpleGraph.Subgraph
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 ## Main definitions

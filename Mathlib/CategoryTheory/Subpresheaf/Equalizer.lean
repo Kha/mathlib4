@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
 public import Mathlib.CategoryTheory.Subpresheaf.Image
+import Mathlib.Tactic.Lemma
 
 /-!
 # The equalizer of two morphisms of presheaves, as a subpresheaf

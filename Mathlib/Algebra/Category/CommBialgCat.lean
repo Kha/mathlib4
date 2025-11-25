@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Category.CommAlgCat.Monoidal
 public import Mathlib.CategoryTheory.Monoidal.Mon_
 public import Mathlib.RingTheory.Bialgebra.Equiv
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of commutative bialgebras over a commutative ring

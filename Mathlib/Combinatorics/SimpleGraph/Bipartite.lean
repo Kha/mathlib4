@@ -5,10 +5,15 @@ Authors: Mitchell Horner
 -/
 module
 
-public import Mathlib.Algebra.Notation.Indicator
 public import Mathlib.Combinatorics.Enumerative.DoubleCounting
 public import Mathlib.Combinatorics.SimpleGraph.Coloring
-public import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Notation.Indicator
+import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Bipartite graphs

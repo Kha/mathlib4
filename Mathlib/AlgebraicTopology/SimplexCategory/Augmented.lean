@@ -6,5 +6,6 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.Augmented.Basic
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-07-05")

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Category.CompHausLike.Limits
 public import Mathlib.Topology.Category.Stonean.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Maps.Basic
 /-!
 
 # Explicit limits and colimits

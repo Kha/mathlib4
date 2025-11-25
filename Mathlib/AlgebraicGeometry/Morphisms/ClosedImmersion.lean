@@ -6,10 +6,17 @@ Authors: Amelia Livingston, Christian Merten, Jonas van der Schaaf
 module
 
 public import Mathlib.AlgebraicGeometry.IdealSheaf.Subscheme
-public import Mathlib.AlgebraicGeometry.Morphisms.AffineAnd
 public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
 public import Mathlib.AlgebraicGeometry.ResidueField
 public import Mathlib.CategoryTheory.MorphismProperty.Comma
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.AffineAnd
+import Mathlib.AlgebraicGeometry.Morphisms.IsIso
+import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.RingTheory.RingHom.FiniteType
+import Mathlib.RingTheory.RingHom.Surjective
 
 /-!
 

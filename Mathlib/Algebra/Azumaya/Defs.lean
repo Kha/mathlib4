@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Module.Projective
 public import Mathlib.RingTheory.Finiteness.Defs
 public import Mathlib.RingTheory.TensorProduct.Basic
+public import Mathlib.Algebra.Algebra.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Azumaya Algebras

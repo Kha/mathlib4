@@ -6,7 +6,10 @@ Authors: Joël Riou
 module
 
 public import Mathlib.AlgebraicTopology.DoldKan.Homotopies
-public import Mathlib.Tactic.Ring
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Ring.Parity
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 

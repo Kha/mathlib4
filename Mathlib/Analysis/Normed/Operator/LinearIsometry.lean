@@ -8,10 +8,14 @@ module
 public import Mathlib.Algebra.Star.Basic  -- shake: keep (used in `notation` only)
 public import Mathlib.Analysis.Normed.Group.Constructions
 public import Mathlib.Analysis.Normed.Group.Submodule
-public import Mathlib.Analysis.Normed.Group.Uniform
 public import Mathlib.LinearAlgebra.Basis.Defs
 public import Mathlib.LinearAlgebra.DFinsupp
 public import Mathlib.Topology.Algebra.Module.Equiv
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Group.Uniform
 
 /-!
 # (Semi-)linear isometries

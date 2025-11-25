@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Data.Nat.Init
-public import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SplitIfs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Cast of natural numbers

@@ -5,12 +5,38 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir
 -/
 module
 
-public import Mathlib.Algebra.CharP.Defs
 public import Mathlib.Analysis.Complex.Norm
-public import Mathlib.Algebra.Order.CauSeq.BigOperators
-public import Mathlib.Algebra.Order.Star.Basic
-public import Mathlib.Data.Complex.BigOperators
-public import Mathlib.Data.Nat.Choose.Sum
+public import Mathlib.Algebra.Ring.Regular
+public import Mathlib.Data.Nat.Factorial.Basic
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Data.Complex.BigOperators
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.CauSeq.BigOperators
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Star.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Exponential Function

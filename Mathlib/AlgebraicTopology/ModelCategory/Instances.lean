@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.MorphismProperty.WeakFactorizationSystem
 public import Mathlib.AlgebraicTopology.ModelCategory.CategoryWithCofibrations
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.MorphismProperty.RetractArgument
 
 /-!
 # Consequences of model category axioms

@@ -5,10 +5,17 @@ Authors: Kenny Lau, Judith Ludwig, Christian Merten, Jiedong Jiang
 -/
 module
 
-public import Mathlib.Algebra.Ring.GeomSum
 public import Mathlib.LinearAlgebra.SModEq.Basic
 public import Mathlib.RingTheory.Ideal.Quotient.PowTransition
 public import Mathlib.RingTheory.Jacobson.Ideal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Completion of a module with respect to an ideal.

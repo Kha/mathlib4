@@ -5,11 +5,15 @@ Authors: Frédéric Marbach
 -/
 module
 
-public import Mathlib.Algebra.Lie.NonUnitalNonAssocAlgebra
 public import Mathlib.Algebra.Lie.OfAssociative
-public import Mathlib.Algebra.Lie.Subalgebra
 public import Mathlib.RingTheory.Nilpotent.Exp
-public import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.Lie.NonUnitalNonAssocAlgebra
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Data.Nat.Choose.Sum
 
 /-!
 # Lie derivations

@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Topology.OpenPartialHomeomorph
 public import Mathlib.Topology.SeparatedMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Homeomorph.Lemmas
 
 /-!
 # Local homeomorphisms

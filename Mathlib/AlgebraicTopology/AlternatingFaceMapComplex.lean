@@ -7,9 +7,13 @@ module
 
 public import Mathlib.Algebra.Homology.Additive
 public import Mathlib.AlgebraicTopology.MooreComplex
-public import Mathlib.Algebra.BigOperators.Fin
 public import Mathlib.CategoryTheory.Preadditive.Opposite
 public import Mathlib.CategoryTheory.Idempotents.FunctorCategories
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 

@@ -5,12 +5,51 @@ Authors: Chris Birkbeck
 -/
 module
 
-public import Mathlib.Analysis.Complex.SummableUniformlyOn
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Cotangent
-public import Mathlib.NumberTheory.LSeries.Dirichlet
-public import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
 public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Basic
-public import Mathlib.NumberTheory.TsumDivsorsAntidiagonal
+public import Mathlib.NumberTheory.ArithmeticFunction
+public import Mathlib.NumberTheory.Bernoulli
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+public import Mathlib.Topology.Algebra.InfiniteSum.UniformOn
+import Mathlib.Analysis.PSeries
+import Mathlib.NumberTheory.TsumDivsorsAntidiagonal
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Analysis.Complex.Asymptotics
+import Mathlib.Analysis.Complex.SummableUniformlyOn
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Data.PNat.Basic
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+import Mathlib.NumberTheory.LSeries.Dirichlet
+import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.ContinuousMap.Compact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Complex.UpperHalfPlane.Exp
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Ring.InfiniteSum
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Cotangent
+import Mathlib.NumberTheory.ModularForms.EisensteinSeries.IsBoundedAtImInfty
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.InfiniteSum.TsumUniformlyOn
 
 /-!
 # Eisenstein series q-expansions

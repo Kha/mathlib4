@@ -5,7 +5,21 @@ Authors: Johannes Hölzl, Mario Carneiro, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Order.IsLUB
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Order topology on a densely ordered set

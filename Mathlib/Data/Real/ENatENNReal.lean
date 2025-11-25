@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Data.ENat.Basic
 public import Mathlib.Data.ENNReal.Basic
+public import Mathlib.Order.Hom.WithTopBot
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Coercion from `ℕ∞` to `ℝ≥0∞`

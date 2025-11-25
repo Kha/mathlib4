@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Homology
 public import Mathlib.CategoryTheory.Abelian.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Abelian categories have homology

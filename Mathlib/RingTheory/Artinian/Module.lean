@@ -5,18 +5,33 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Algebra.Group.Units.Opposite
-public import Mathlib.Algebra.Regular.Opposite
-public import Mathlib.Data.SetLike.Fintype
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
 public import Mathlib.Order.Filter.EventuallyConst
-public import Mathlib.RingTheory.Ideal.Prod
 public import Mathlib.RingTheory.Ideal.Quotient.Operations
 public import Mathlib.RingTheory.Jacobson.Semiprimary
 public import Mathlib.RingTheory.Nilpotent.Lemmas
-public import Mathlib.RingTheory.Noetherian.Defs
-public import Mathlib.RingTheory.Spectrum.Maximal.Basic
-public import Mathlib.RingTheory.Spectrum.Prime.Basic
+public import Mathlib.Order.PartialSups
+public import Mathlib.RingTheory.Ideal.Quotient.Basic
+public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+public import Mathlib.RingTheory.Spectrum.Prime.Defs
+import Mathlib.Order.Antisymmetrization
+import Mathlib.Order.OrderIsoNat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Algebra.Regular.Opposite
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Data.Fintype.Option
+import Mathlib.Data.SetLike.Fintype
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Group.Units.Opposite
+import Mathlib.Algebra.Order.SuccPred.PartialSups
+import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.RingTheory.Spectrum.Maximal.Basic
+import Mathlib.RingTheory.Spectrum.Prime.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Artinian rings and modules

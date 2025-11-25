@@ -6,8 +6,16 @@ Authors: Jz Pan
 module
 
 public import Mathlib.FieldTheory.Galois.Basic
-public import Mathlib.RingTheory.AlgebraicIndependent.RankAndCardinality
 public import Mathlib.RingTheory.LinearDisjoint
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Equiv
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.RingTheory.AlgebraicIndependent.RankAndCardinality
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
 
 /-!
 

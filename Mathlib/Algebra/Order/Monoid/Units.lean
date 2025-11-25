@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Hom.Basic
 public import Mathlib.Algebra.Group.Units.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Units in ordered monoids

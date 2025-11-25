@@ -5,7 +5,10 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+public import Mathlib.AlgebraicGeometry.Morphisms.Constructors
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
 
 /-!
 

@@ -5,7 +5,10 @@ Authors: Johan Commelin, Nick Kuhn, Arend Mellendijk, Christian Merten, Calle SÃ
 -/
 module
 
-public meta import Mathlib.Algebra.Algebra.Tower
+public import Batteries.Tactic.Exact
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Algebra.Algebra.Tower
 
 /-!
 

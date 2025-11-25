@@ -6,8 +6,15 @@ Authors: Patrick Massot, Johannes Hölzl
 module
 
 public import Mathlib.Algebra.Field.Subfield.Defs
-public import Mathlib.Algebra.Order.Group.Pointwise.Interval
 public import Mathlib.Analysis.Normed.Ring.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Pointwise.Interval
 
 /-!
 # Normed division rings and fields

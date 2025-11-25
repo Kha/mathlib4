@@ -8,6 +8,7 @@ module
 public import Mathlib.GroupTheory.MonoidLocalization.Basic
 public import Mathlib.RingTheory.OreLocalization.Ring
 public import Mathlib.Topology.Algebra.Ring.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 

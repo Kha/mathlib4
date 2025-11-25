@@ -5,8 +5,19 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Combinatorics.SetFamily.HarrisKleitman
 public import Mathlib.Combinatorics.SetFamily.Intersecting
+public import Mathlib.Data.Finset.Union
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.SetFamily.HarrisKleitman
+import Mathlib.Data.Fintype.Powerset
+import Mathlib.Order.UpperLower.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Kleitman's bound on the size of intersecting families

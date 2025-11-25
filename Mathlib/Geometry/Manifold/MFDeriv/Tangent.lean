@@ -5,10 +5,13 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Geometry.Manifold.MFDeriv.Atlas
-public import Mathlib.Geometry.Manifold.MFDeriv.UniqueDifferential
 public import Mathlib.Geometry.Manifold.VectorBundle.Tangent
 public import Mathlib.Geometry.Manifold.Diffeomorph
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.UniqueDifferential
 
 /-!
 # Derivatives of maps in the tangent bundle

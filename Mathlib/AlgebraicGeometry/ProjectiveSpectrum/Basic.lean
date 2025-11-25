@@ -8,6 +8,9 @@ module
 public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Scheme
 public import Mathlib.AlgebraicGeometry.AffineScheme
 public import Mathlib.AlgebraicGeometry.Gluing
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.BigOperators
 
 /-!
 

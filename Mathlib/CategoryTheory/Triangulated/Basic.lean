@@ -5,11 +5,13 @@ Authors: Luke Kershaw
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.Limits
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryBiproducts
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
 public import Mathlib.CategoryTheory.Shift.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
 
 /-!
 # Triangles

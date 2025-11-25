@@ -5,7 +5,12 @@ Authors: Zhouhang Zhou, Yury Kudryashov
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-!
 # Fundamental theorem of calculus for set integrals

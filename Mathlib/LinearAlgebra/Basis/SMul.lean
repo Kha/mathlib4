@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.LinearAlgebra.Basis.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bases and scalar multiplication

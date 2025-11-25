@@ -7,8 +7,9 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialObject.Coskeletal
 public import Mathlib.AlgebraicTopology.SimplicialSet.StrictSegal
-public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
-public import Mathlib.CategoryTheory.Functor.KanExtension.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.Superscript
+import Mathlib.CategoryTheory.Limits.Types.Limits
 
 /-!
 # Coskeletal simplicial sets

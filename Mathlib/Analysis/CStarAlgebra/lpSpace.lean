@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.CStarAlgebra.Classes
 public import Mathlib.Analysis.Normed.Lp.lpSpace
+import Mathlib.Tactic.TypeStar
 
 /-! # `lp ∞ A` as a C⋆-algebra
 

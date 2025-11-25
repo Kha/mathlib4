@@ -5,8 +5,10 @@ Authors: Dexin Zhang
 -/
 module
 
-public import Mathlib.Algebra.Group.Basic
 public import Mathlib.ModelTheory.Semantics
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Presburger arithmetic

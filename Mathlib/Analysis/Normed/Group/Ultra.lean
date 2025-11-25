@@ -5,11 +5,20 @@ Authors: Yakov Pechersky, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Uniform
 public import Mathlib.Topology.Algebra.Nonarchimedean.Basic
 public import Mathlib.Topology.MetricSpace.Ultra.Basic
-public import Mathlib.Topology.Algebra.InfiniteSum.Group
-public import Mathlib.Topology.Order.LiminfLimsup
+public import Mathlib.Algebra.Order.Ring.Basic
+public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Analysis.Normed.Group.Uniform
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Ultrametric norms

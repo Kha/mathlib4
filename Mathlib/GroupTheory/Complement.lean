@@ -6,6 +6,10 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.GroupTheory.Index
+public import Mathlib.GroupTheory.GroupAction.Quotient
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Complements

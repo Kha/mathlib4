@@ -6,6 +6,15 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 module
 
 public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
 
 /-!
 ## Basic properties of `C^n` functions between manifolds

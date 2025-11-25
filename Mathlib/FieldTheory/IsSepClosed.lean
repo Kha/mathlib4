@@ -6,6 +6,16 @@ Authors: Jz Pan
 module
 
 public import Mathlib.FieldTheory.Galois.Basic
+import Mathlib.FieldTheory.Extension
+import Mathlib.Tactic.ComputeDegree
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
 
 /-!
 # Separably Closed Field

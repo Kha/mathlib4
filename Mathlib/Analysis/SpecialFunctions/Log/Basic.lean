@@ -7,8 +7,32 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Exp
 public import Mathlib.Data.Nat.Factorization.Defs
-public import Mathlib.Analysis.Normed.Module.RCLike.Real
-public import Mathlib.Data.Rat.Cast.CharZero
+public import Mathlib.Topology.OpenPartialHomeomorph
+public import Mathlib.Analysis.Complex.Trigonometric
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.BigOperators.Ring.List
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Real logarithm

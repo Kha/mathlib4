@@ -6,8 +6,11 @@ Authors: Yury Kudryashov, Iván Renison
 module
 
 public import Mathlib.Algebra.Ring.Parity
-public import Mathlib.Data.Fin.Basic
 public import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Fin.Basic
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Parity in `Fin n`

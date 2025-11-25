@@ -5,8 +5,23 @@ Authors: Chris Hughes, Johannes Hölzl, Kim Morrison, Jens Wagemaker
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Reverse
-public import Mathlib.Algebra.Regular.SMul
+public import Mathlib.Algebra.BigOperators.Finprod
+public import Mathlib.Algebra.GroupWithZero.Associated
+public import Mathlib.Algebra.Polynomial.Degree.Lemmas
+public import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Reverse
+import Mathlib.Data.Nat.WithBot
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Theory of monic polynomials

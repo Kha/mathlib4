@@ -6,8 +6,18 @@ Authors: Alexander Bentkamp
 module
 
 public import Mathlib.LinearAlgebra.Eigenspace.Basic
-public import Mathlib.FieldTheory.IsAlgClosed.Spectrum
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.FieldTheory.IsAlgClosed.Spectrum
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Matrix
 
 /-!
 # Triangularizable linear endomorphisms

@@ -5,8 +5,12 @@ Authors: Adam Topaz
 -/
 module
 
-public import Mathlib.CategoryTheory.Sites.Sheaf
-public import Mathlib.Topology.Category.CompHaus.EffectiveEpi
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+public import Mathlib.Topology.Category.CompHaus.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+import Mathlib.Topology.Category.CompHaus.EffectiveEpi
+import Mathlib.Topology.Category.CompHaus.Limits
 
 /-!
 

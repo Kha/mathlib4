@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.FunctorCategory
 public import Mathlib.CategoryTheory.Linear.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Linear structure on functor categories

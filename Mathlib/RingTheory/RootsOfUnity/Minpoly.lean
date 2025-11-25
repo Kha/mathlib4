@@ -5,11 +5,20 @@ Authors: Riccardo Brasca, Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.GCDMonoid.IntegrallyClosed
-public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
 public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Nat
+public import Mathlib.FieldTheory.Separable
+public import Mathlib.Algebra.Field.ZMod
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Algebra.GCDMonoid.IntegrallyClosed
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.RingTheory.Polynomial.GaussLemma
+import Mathlib.RingTheory.UniqueFactorizationDomain.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Minimal polynomial of roots of unity

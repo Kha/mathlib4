@@ -7,7 +7,14 @@ Amelia Livingston, Yury Kudryashov, Yakov Pechersky
 module
 
 public import Mathlib.Algebra.Group.Subsemigroup.Defs
-public import Mathlib.Data.Set.Lattice.Image
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.Bounds.Image
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # Subsemigroups: `CompleteLattice` structure

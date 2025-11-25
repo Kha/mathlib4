@@ -5,8 +5,15 @@ Authors: Thomas Browning
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
 public import Mathlib.Topology.Algebra.Group.CompactOpen
+public import Mathlib.Analysis.Complex.Circle
+public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+import Mathlib.Topology.Algebra.Group.Pointwise
 
 /-!
 # Pontryagin dual

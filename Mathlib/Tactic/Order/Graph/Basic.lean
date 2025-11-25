@@ -6,6 +6,8 @@ Authors: Vasilii Nesterov
 module
 
 public meta import Mathlib.Tactic.Order.CollectFacts
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Order.CollectFacts
 
 /-!
 # Graphs for the `order` tactic

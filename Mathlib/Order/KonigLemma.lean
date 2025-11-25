@@ -5,10 +5,15 @@ Authors: Peter Nelson
 -/
 module
 
-public import Mathlib.Data.Fintype.Pigeonhole
-public import Mathlib.Order.Atoms.Finite
 public import Mathlib.Order.Grade
-public import Mathlib.Tactic.ApplyFun
+public import Mathlib.Order.Atoms
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Algebra.NeZero
+import Mathlib.Order.Cover
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Pigeonhole
+import Mathlib.Order.Atoms.Finite
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Kőnig's infinity lemma

@@ -6,9 +6,18 @@ Authors: Brendan Murphy
 module
 
 public import Mathlib.RingTheory.Artinian.Module
-public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
-public import Mathlib.RingTheory.Nakayama
-public import Mathlib.RingTheory.Regular.IsSMulRegular
+public import Mathlib.RingTheory.QuotSMulTop
+public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.RingTheory.Jacobson.Ideal
+public import Mathlib.Algebra.Module.Torsion.Basic
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.RingTheory.Nakayama
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Regular.IsSMulRegular
+import Mathlib.Algebra.Order.Group.Action
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Regular sequences and weakly regular sequences

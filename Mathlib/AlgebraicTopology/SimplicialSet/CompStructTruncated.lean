@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Basic
 public import Mathlib.AlgebraicTopology.SimplexCategory.Truncated
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.Superscript
 
 /-!
 # Edges and "triangles" in truncated simplicial sets

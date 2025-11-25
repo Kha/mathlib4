@@ -6,9 +6,12 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.List.Sublists
-public import Mathlib.Data.List.Zip
 public import Mathlib.Data.Multiset.Bind
 public import Mathlib.Data.Multiset.Range
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Forall2
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.List.Zip
 
 /-!
 # The powerset of a multiset

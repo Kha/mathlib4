@@ -5,9 +5,13 @@ Authors: Jingting Wang
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.FieldDivision
-public import Mathlib.RingTheory.KrullDimension.PID
-public import Mathlib.RingTheory.LocalRing.ResidueField.Fiber
+public import Mathlib.Algebra.Polynomial.Basic
+public import Mathlib.RingTheory.KrullDimension.Basic
+import Mathlib.RingTheory.PolynomialAlgebra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.FieldDivision
+import Mathlib.RingTheory.KrullDimension.PID
+import Mathlib.RingTheory.LocalRing.ResidueField.Fiber
 
 /-!
 # Krull dimension of polynomial ring

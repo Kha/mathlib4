@@ -5,8 +5,15 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Topology.Separation.Regular
 public import Mathlib.Topology.Connected.TotallyDisconnected
+public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Clopen
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Separation.Regular
 
 /-!
 # Separation properties: profinite spaces

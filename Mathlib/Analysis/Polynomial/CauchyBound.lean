@@ -5,9 +5,24 @@ Authors: Daniel Weber
 -/
 module
 
-public import Mathlib.Algebra.Order.Field.GeomSum
-public import Mathlib.Algebra.Polynomial.Monic
 public import Mathlib.Analysis.Normed.Field.Basic
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Polynomial.Monic
+import Mathlib.Data.NNReal.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.GeomSum
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Cauchy's bound on polynomial roots.

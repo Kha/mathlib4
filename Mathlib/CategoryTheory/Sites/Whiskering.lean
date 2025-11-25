@@ -6,6 +6,8 @@ Authors: Adam Topaz
 module
 
 public import Mathlib.CategoryTheory.Sites.Sheaf
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

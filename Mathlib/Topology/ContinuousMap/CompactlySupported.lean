@@ -6,8 +6,20 @@ Authors: Yoh Tanimoto
 module
 
 public import Mathlib.Algebra.Order.Module.PositiveLinearMap
-public import Mathlib.Topology.Algebra.Order.Support
 public import Mathlib.Topology.ContinuousMap.ZeroAtInfty
+public import Mathlib.Topology.Closure
+public import Mathlib.Algebra.Group.Support
+public import Mathlib.Tactic.Ring.RingNF
+public import Mathlib.Algebra.Order.Hom.Monoid
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Topology.Algebra.Order.Support
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Compactly supported continuous functions

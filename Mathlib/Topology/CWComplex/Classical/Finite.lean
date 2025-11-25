@@ -6,6 +6,16 @@ Authors: Floris van Doorn, Hannah Scholz
 module
 
 public import Mathlib.Topology.CWComplex.Classical.Basic
+public import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Sigma
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Ring.Lemmas
 
 /-!
 # Finiteness notions on CW complexes

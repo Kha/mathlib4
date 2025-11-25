@@ -6,6 +6,10 @@ Authors: Yaël Dillies, Bhavik Mehta
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Triangle.Basic
+public import Mathlib.Data.Fintype.Sum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Preimage
 
 /-!
 # Construct a tripartite graph from its triangles

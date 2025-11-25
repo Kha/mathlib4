@@ -8,6 +8,7 @@ module
 public import Mathlib.CategoryTheory.Closed.Monoidal
 public import Mathlib.CategoryTheory.Functor.Currying
 public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Functors from a groupoid into a monoidal closed category form a monoidal closed category.

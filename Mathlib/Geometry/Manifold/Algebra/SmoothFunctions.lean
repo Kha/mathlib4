@@ -6,6 +6,7 @@ Authors: Nicolò Cavalleri
 module
 
 public import Mathlib.Geometry.Manifold.Algebra.Structures
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Algebraic structures over `C^n` functions

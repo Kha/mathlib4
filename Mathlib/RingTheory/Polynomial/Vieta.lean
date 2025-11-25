@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Polynomial.Splits
 public import Mathlib.RingTheory.MvPolynomial.Symmetric.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Ring.Multiset
 
 /-!
 # Vieta's Formula

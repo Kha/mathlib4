@@ -5,10 +5,21 @@ Authors: Riccardo Brasca
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Splits
-public import Mathlib.FieldTheory.RatFunc.AsPolynomial
 public import Mathlib.NumberTheory.ArithmeticFunction
 public import Mathlib.RingTheory.RootsOfUnity.Complex
+public import Mathlib.FieldTheory.Separable
+public import Mathlib.FieldTheory.RatFunc.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Polynomial.BigOperators
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Data.Int.Basic
+import Mathlib.FieldTheory.RatFunc.AsPolynomial
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Cyclotomic polynomials.

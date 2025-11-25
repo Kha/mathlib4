@@ -6,6 +6,9 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.AlgebraicTopology.SimplexCategory.GeneratorsRelations.Basic
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Ring.Nat
 /-! # Epi-mono factorization in the simplex category presented by generators and relations
 
 This file aims to establish that there is a nice epi-mono factorization in `SimplexCategoryGenRel`.

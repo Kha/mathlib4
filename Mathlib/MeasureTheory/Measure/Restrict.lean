@@ -8,6 +8,22 @@ module
 public import Mathlib.MeasureTheory.Measure.Comap
 public import Mathlib.MeasureTheory.Measure.QuasiMeasurePreserving
 public import Mathlib.Data.Set.Card
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Finset.Powerset
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Logic.Equiv.List
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Restricting a measure to a subset or a subtype

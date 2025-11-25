@@ -7,6 +7,14 @@ module
 
 public import Mathlib.NumberTheory.NumberField.FinitePlaces
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.NumberTheory.NumberField.Norm
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # The Product Formula for number fields

@@ -5,12 +5,29 @@ Authors: Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
-public import Mathlib.Algebra.BigOperators.Pi
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
-public import Mathlib.Data.Finsupp.Ext
 public import Mathlib.Data.Finsupp.Indicator
+public import Mathlib.Algebra.Group.Finsupp
+public import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Data.Finset.Union
+public import Mathlib.Algebra.Group.Hom.Instances
+public import Mathlib.Algebra.Group.Submonoid.Defs
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Data.Finset.Lattice.Union
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Big operators for finsupps

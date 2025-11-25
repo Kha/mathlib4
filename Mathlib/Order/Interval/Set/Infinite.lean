@@ -5,8 +5,13 @@ Authors: Reid Barton
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Order.Interval.Set.Basic
+public import Mathlib.Order.Max
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Order.Interval.Set.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Infinitude of intervals

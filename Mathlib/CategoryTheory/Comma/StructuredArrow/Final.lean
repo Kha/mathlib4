@@ -5,8 +5,9 @@ Authors: Jakob von Raumer
 -/
 module
 
-public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
 public import Mathlib.CategoryTheory.Limits.Final
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
 
 /-!
 # Finality on Costructured Arrow categories

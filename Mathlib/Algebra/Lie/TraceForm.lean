@@ -5,12 +5,19 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.DirectSum.LinearMap
 public import Mathlib.Algebra.Lie.InvariantForm
 public import Mathlib.Algebra.Lie.Weights.Cartan
 public import Mathlib.Algebra.Lie.Weights.Linear
-public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.LinearAlgebra.PID
+public import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.LinearAlgebra.PID
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.DirectSum.LinearMap
+import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.RingTheory.TensorProduct.Free
 
 /-!
 # The trace and Killing forms of a Lie algebra.

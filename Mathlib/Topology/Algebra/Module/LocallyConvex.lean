@@ -5,9 +5,21 @@ Authors: Anatole Dedecker
 -/
 module
 
-public import Mathlib.Analysis.Convex.Topology
 public import Mathlib.Topology.Connected.LocPathConnected
-public import Mathlib.Analysis.Convex.PathConnected
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Topology.UniformSpace.Compact
+import Mathlib.Order.Filter.Bases.Finite
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-!
 # Locally convex topological modules

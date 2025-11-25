@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RepresentationTheory.Homological.FiniteCyclic
 public import Mathlib.RepresentationTheory.Homological.GroupHomology.LowDegree
+import Mathlib.Tactic.Lemma
 
 /-!
 # Group homology of a finite cyclic group

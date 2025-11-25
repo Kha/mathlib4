@@ -6,7 +6,16 @@ Authors: Riccardo Brasca
 module
 
 public import Mathlib.RingTheory.Polynomial.Cyclotomic.Basic
-public import Mathlib.RingTheory.RootsOfUnity.Minpoly
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Int.Basic
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.RingTheory.DedekindDomain.Basic
+import Mathlib.RingTheory.Polynomial.GaussLemma
+import Mathlib.RingTheory.RootsOfUnity.Minpoly
+import Mathlib.Data.Nat.Cast.NeZero
 
 /-!
 # Roots of cyclotomic polynomials.

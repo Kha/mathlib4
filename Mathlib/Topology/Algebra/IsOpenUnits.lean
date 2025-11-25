@@ -8,6 +8,8 @@ module
 public import Mathlib.RingTheory.Jacobson.Ideal
 public import Mathlib.Topology.Algebra.GroupWithZero
 public import Mathlib.Topology.Algebra.Nonarchimedean.AdicTopology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

@@ -6,6 +6,7 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.CatCommSq
+import Mathlib.Tactic.Lemma
 
 /-! # Morphisms of categorical cospans.
 

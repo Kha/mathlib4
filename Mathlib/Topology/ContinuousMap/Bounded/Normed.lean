@@ -9,6 +9,18 @@ public import Mathlib.Algebra.Module.MinimalAxioms
 public import Mathlib.Analysis.Normed.Order.Lattice
 public import Mathlib.Analysis.Normed.Operator.Basic
 public import Mathlib.Topology.ContinuousMap.Bounded.Basic
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Inheritance of normed algebraic structures by bounded continuous functions

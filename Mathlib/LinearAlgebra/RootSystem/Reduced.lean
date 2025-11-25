@@ -6,6 +6,11 @@ Authors: Oliver Nash, Scott Carnahan
 module
 
 public import Mathlib.LinearAlgebra.RootSystem.IsValuedIn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Reduced root pairings

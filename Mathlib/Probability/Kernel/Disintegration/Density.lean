@@ -6,8 +6,26 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.Kernel.Composition.MapComap
-public import Mathlib.Probability.Martingale.Convergence
 public import Mathlib.Probability.Process.PartitionFiltration
+public import Mathlib.Probability.Martingale.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.Probability.Martingale.Convergence
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Kernel density

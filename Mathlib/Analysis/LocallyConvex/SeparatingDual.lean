@@ -6,9 +6,21 @@ Authors: Sébastien Gouëzel, Filippo A. E. Nuccio
 module
 
 public import Mathlib.Algebra.Central.Defs
-public import Mathlib.Analysis.LocallyConvex.Separation
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
-public import Mathlib.LinearAlgebra.Dual.Lemmas
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.RCLike.Basic
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.LinearAlgebra.Dual.Defs
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Topology.Algebra.Module.LocallyConvex
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.LocallyConvex.Separation
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Spaces with separating dual

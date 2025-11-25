@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.CommAlgCat.Basic
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The co-Cartesian monoidal category structure on commutative `R`-algebras

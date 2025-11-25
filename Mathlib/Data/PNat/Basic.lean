@@ -5,11 +5,16 @@ Authors: Mario Carneiro, Ralf Stephan, Neil Strickland, Ruben Van de Velde
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Divisibility
 public import Mathlib.Algebra.Order.Positive.Ring
 public import Mathlib.Algebra.Order.Ring.Nat
-public import Mathlib.Algebra.Order.Sub.Basic
 public import Mathlib.Data.PNat.Equiv
+public import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # The positive natural numbers

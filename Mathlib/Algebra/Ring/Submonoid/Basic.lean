@@ -8,6 +8,8 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Basic
 public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Lemmas about additive closures of `Subsemigroup`. -/
 

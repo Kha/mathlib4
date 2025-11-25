@@ -6,7 +6,16 @@ Authors: David Loeffler
 module
 
 public import Mathlib.NumberTheory.LSeries.HurwitzZeta
-public import Mathlib.Analysis.PSeriesComplex
+import Mathlib.Analysis.PSeries
+import Mathlib.Analysis.PSeriesComplex
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.PNat.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Definition of the Riemann zeta function

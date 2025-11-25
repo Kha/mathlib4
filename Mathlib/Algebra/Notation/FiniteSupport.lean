@@ -6,7 +6,11 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Notation.Support
-public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Finiteness of support

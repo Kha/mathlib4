@@ -6,9 +6,16 @@ Authors: Thomas Browning
 module
 
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
-public import Mathlib.GroupTheory.Abelianization.Defs
-public import Mathlib.GroupTheory.Commutator.Finite
 public import Mathlib.GroupTheory.Transfer
+public import Mathlib.GroupTheory.Rank
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.GroupTheory.Abelianization.Defs
+import Mathlib.GroupTheory.Commutator.Finite
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Schreier's Lemma

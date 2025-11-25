@@ -5,14 +5,19 @@ Authors: Kenny Lau, Mario Carneiro, Johan Commelin, Amelia Livingston, Anne Baan
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
-public import Mathlib.Algebra.Regular.Basic
-public import Mathlib.Algebra.Ring.NonZeroDivisors
 public import Mathlib.Data.Fintype.Prod
 public import Mathlib.GroupTheory.MonoidLocalization.MonoidWithZero
 public import Mathlib.RingTheory.OreLocalization.Ring
-public import Mathlib.Tactic.ApplyFun
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Localizations of commutative rings

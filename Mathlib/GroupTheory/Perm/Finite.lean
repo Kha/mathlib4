@@ -5,10 +5,14 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.Data.Finite.Sum
 public import Mathlib.GroupTheory.OrderOfElement
 public import Mathlib.GroupTheory.Perm.Support
 public import Mathlib.Logic.Equiv.Fintype
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Sum
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
 
 /-!
 # Permutations on `Fintype`s

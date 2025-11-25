@@ -6,8 +6,15 @@ Authors: Johan Commelin, Robert Y. Lewis
 module
 
 public import Mathlib.Algebra.MvPolynomial.Counit
-public import Mathlib.Algebra.MvPolynomial.Invertible
 public import Mathlib.RingTheory.WittVector.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.Invertible
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.LinearAlgebra.Matrix.Notation
+import Mathlib.Algebra.BigOperators.Ring.Finset
 
 /-!
 # Witt vectors

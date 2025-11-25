@@ -5,10 +5,17 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Int
-public import Mathlib.Data.ZMod.QuotientGroup
 public import Mathlib.GroupTheory.Index
 public import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.ZMod.QuotientGroup
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-! # Index of submodules of free ℤ-modules (considered as an `AddSubgroup`).
 

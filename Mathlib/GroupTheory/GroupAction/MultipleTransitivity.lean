@@ -5,11 +5,20 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.GroupTheory.GroupAction.Primitive
 public import Mathlib.GroupTheory.SpecificGroups.Alternating
 public import Mathlib.GroupTheory.GroupAction.SubMulAction.OfFixingSubgroup
-public import Mathlib.SetTheory.Cardinal.Embedding
-public import Mathlib.SetTheory.Cardinal.Arithmetic
+public import Mathlib.Data.ENat.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Perm
+import Mathlib.GroupTheory.GroupAction.Transitive
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.SetTheory.Cardinal.Embedding
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Int.Units
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-! # Multiple transitivity
 

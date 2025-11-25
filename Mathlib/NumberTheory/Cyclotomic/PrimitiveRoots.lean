@@ -5,15 +5,31 @@ Authors: Alex J. Best, Riccardo Brasca, Eric Rodriguez
 -/
 module
 
-public import Mathlib.Data.Nat.Factorization.LCM
-public import Mathlib.Data.Nat.Factorization.PrimePow
-public import Mathlib.Data.PNat.Prime
 public import Mathlib.NumberTheory.Cyclotomic.Basic
 public import Mathlib.RingTheory.Adjoin.PowerBasis
-public import Mathlib.RingTheory.Norm.Transitivity
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
-public import Mathlib.RingTheory.Polynomial.Cyclotomic.Expand
-public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.RingTheory.Norm.Defs
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.Algebra.CharP.Two
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.PNat.Prime
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.LinearAlgebra.Dimension.Constructions
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.Norm.Transitivity
+import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.NeZero
+import Mathlib.Data.Nat.Factorization.PrimePow
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Data.Nat.Prime.Pow
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Expand
+import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 /-!
 # Primitive roots in cyclotomic fields

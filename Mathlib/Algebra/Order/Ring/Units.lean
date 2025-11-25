@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Ring.Subring.Units
 public import Mathlib.GroupTheory.Index
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Units
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-! # Lemmas about units of ordered rings -/
 

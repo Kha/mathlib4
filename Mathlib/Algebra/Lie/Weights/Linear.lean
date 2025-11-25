@@ -6,8 +6,15 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.Weights.Basic
-public import Mathlib.LinearAlgebra.Trace
-public import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Lie.Engel
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Lie modules with linear weights

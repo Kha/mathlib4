@@ -6,8 +6,21 @@ Authors: Jeremy Tan
 module
 
 public import Mathlib.Combinatorics.SimpleGraph.Clique
-public import Mathlib.Combinatorics.SimpleGraph.DegreeSum
 public import Mathlib.Order.Partition.Equipartition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Fintype.Pigeonhole
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Turán's theorem

@@ -6,6 +6,7 @@ Authors: Quang Dao
 module
 
 public import Mathlib.Data.Fin.Tuple.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Take operations on tuples

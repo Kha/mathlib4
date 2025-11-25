@@ -6,10 +6,21 @@ Authors: Johannes Hölzl, Patrick Massot, Casper Putz, Anne Baanen, Antoine Labe
 module
 
 public import Mathlib.LinearAlgebra.Contraction
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
-public import Mathlib.RingTheory.Finiteness.Prod
-public import Mathlib.RingTheory.TensorProduct.Finite
-public import Mathlib.RingTheory.TensorProduct.Free
+public import Mathlib.LinearAlgebra.Projection
+public import Mathlib.Algebra.Ring.Commute
+public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.LinearAlgebra.Matrix.Trace
+public import Mathlib.RingTheory.Nilpotent.Defs
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.LinearAlgebra.TensorProduct.Basis
+import Mathlib.RingTheory.Finiteness.Prod
+import Mathlib.RingTheory.Nilpotent.Lemmas
+import Mathlib.RingTheory.TensorProduct.Finite
+import Mathlib.RingTheory.TensorProduct.Free
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 /-!
 # Trace of a linear map

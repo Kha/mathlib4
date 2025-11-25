@@ -6,13 +6,21 @@ Authors: Jan-David Salchow, Sébastien Gouëzel, Jean Lo, Yury Kudryashov, Fréd
 -/
 module
 
-public import Mathlib.Algebra.Module.Opposite
-public import Mathlib.Topology.Algebra.Group.Quotient
 public import Mathlib.Topology.Algebra.Ring.Basic
-public import Mathlib.Topology.UniformSpace.UniformEmbedding
-public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
 public import Mathlib.LinearAlgebra.Pi
 public import Mathlib.LinearAlgebra.Quotient.Defs
+public import Mathlib.Topology.Separation.Regular
+public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+import Mathlib.Topology.Maps.OpenQuotient
+import Mathlib.Topology.UniformSpace.UniformEmbedding
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Topology.Algebra.Group.Quotient
 
 /-!
 # Theory of topological modules

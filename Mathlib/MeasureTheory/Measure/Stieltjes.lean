@@ -5,10 +5,41 @@ Authors: Johannes Hölzl, Yury Kudryashov, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
 public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
-public import Mathlib.Topology.Algebra.UniformMulAction
 public import Mathlib.Topology.Order.LeftRightLim
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Algebra.UniformMulAction
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Stieltjes measures on the real line

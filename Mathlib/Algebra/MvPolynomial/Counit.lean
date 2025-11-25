@@ -6,6 +6,7 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.MvPolynomial.Eval
+import Mathlib.Tactic.TypeStar
 
 /-!
 ## Counit morphisms for multivariate polynomials

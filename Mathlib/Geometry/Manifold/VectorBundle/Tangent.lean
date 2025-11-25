@@ -6,6 +6,18 @@ Authors: Floris van Doorn, Heather Macbeth
 module
 
 public import Mathlib.Geometry.Manifold.VectorBundle.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.Basic
+import Mathlib.Geometry.Manifold.ContMDiff.Constructions
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
 
 /-! # Tangent bundles
 

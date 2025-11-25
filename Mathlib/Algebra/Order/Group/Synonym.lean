@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Order.Synonym
+public import Mathlib.Algebra.Notation.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Group structure on the order type synonyms

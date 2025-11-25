@@ -6,8 +6,18 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.Computability.PartrecCode
-public import Mathlib.Tactic.Ring
-public import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Ackermann function

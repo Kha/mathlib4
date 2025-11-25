@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Algebra.Equiv
 public import Mathlib.Algebra.Ring.TransferInstance
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Transfer algebraic structures across `Equiv`s

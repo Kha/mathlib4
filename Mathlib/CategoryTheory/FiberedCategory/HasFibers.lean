@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.FiberedCategory.Fiber
 public import Mathlib.CategoryTheory.FiberedCategory.Fibered
+import Mathlib.Tactic.Lemma
 
 /-!
 

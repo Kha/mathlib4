@@ -7,10 +7,14 @@ module
 
 public import Mathlib.Algebra.Category.Grp.Preadditive
 public import Mathlib.Algebra.Group.Shrink
-public import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
 public import Mathlib.Data.DFinsupp.BigOperators
-public import Mathlib.Data.DFinsupp.Small
 public import Mathlib.GroupTheory.QuotientGroup.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
+import Mathlib.Data.DFinsupp.Ext
+import Mathlib.Data.DFinsupp.Small
+import Mathlib.Logic.Small.Basic
 /-!
 # The category of additive commutative groups has all colimits.
 

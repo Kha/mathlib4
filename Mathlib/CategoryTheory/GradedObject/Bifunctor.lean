@@ -6,6 +6,8 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.GradedObject
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 # The action of bifunctors on graded objects
 

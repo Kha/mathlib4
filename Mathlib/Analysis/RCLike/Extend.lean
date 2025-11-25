@@ -5,9 +5,9 @@ Authors: Ruben Van de Velde
 -/
 module
 
-public import Mathlib.Algebra.Algebra.RestrictScalars
 public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.LinearAlgebra.Dual.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extending an `ℝ`-linear functional to a `𝕜`-linear functional

@@ -9,6 +9,10 @@ public import Mathlib.Data.Finset.Preimage
 public import Mathlib.Data.Finset.Prod
 public import Mathlib.Order.Hom.WithTopBot
 public import Mathlib.Order.Interval.Set.UnorderedInterval
+public import Mathlib.Data.Finset.Option
+public import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Locally finite orders

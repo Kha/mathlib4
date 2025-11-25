@@ -6,6 +6,8 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Sites.DenseSubsite.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The equivalence of categories of sheaves of a dense subsite

@@ -6,6 +6,9 @@ Authors: Kim Morrison, Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Comma.Arrow
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Commutative squares

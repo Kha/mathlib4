@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Order.BoundedOrder.Basic
 public import Mathlib.Order.Lattice
+public import Mathlib.Order.RelClasses
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.Monotone.Basic
 
 /-!
 # Bounded lattices

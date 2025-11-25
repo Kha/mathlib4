@@ -6,7 +6,17 @@ Authors: Johannes Hölzl, Mario Carneiro, Kyle Miller
 module
 
 public import Mathlib.Data.Fintype.EquivFin
-public import Mathlib.Tactic.Nontriviality
+public import Mathlib.Data.Nat.Find
+public import Mathlib.Tactic.Simproc.ExistsAndEq
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Finset.SymmDiff
+import Mathlib.Data.Set.Restrict
+import Mathlib.Data.Set.SymmDiff
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Nontriviality.Core
 
 /-!
 # Finite sets

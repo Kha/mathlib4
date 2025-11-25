@@ -5,9 +5,17 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Order.GaloisConnection.Basic
-public import Mathlib.Order.Interval.Set.Basic
-public import Mathlib.Order.WellFounded
+public import Mathlib.Order.Bounds.Defs
+public import Mathlib.Order.GaloisConnection.Defs
+public import Mathlib.Order.Hom.Basic
+import Batteries.Tactic.Init
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.ByContra
+import Mathlib.Tactic.Contrapose
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Cofinal sets

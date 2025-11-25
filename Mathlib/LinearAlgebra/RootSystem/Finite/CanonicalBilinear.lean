@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Algebra.Ring.SumsOfSquares
 public import Mathlib.LinearAlgebra.RootSystem.RootPositive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # The canonical bilinear form on a finite root pairing

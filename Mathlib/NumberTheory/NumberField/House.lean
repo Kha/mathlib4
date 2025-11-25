@@ -5,9 +5,13 @@ Authors: Michail Karatarakis
 -/
 module
 
-public import Mathlib.NumberTheory.SiegelsLemma
-public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic
 public import Mathlib.NumberTheory.NumberField.EquivReindex
+import Mathlib.NumberTheory.SiegelsLemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 

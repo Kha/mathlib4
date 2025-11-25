@@ -6,10 +6,17 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Group.Nat.Even
-public import Mathlib.Data.Nat.Cast.Basic
-public import Mathlib.Data.Nat.Cast.Commute
-public import Mathlib.Data.Set.Operations
-public import Mathlib.Logic.Function.Iterate
+public import Mathlib.Algebra.Divisibility.Basic
+public import Mathlib.Algebra.Ring.Nat
+public import Mathlib.Algebra.Group.Units.Defs
+public import Mathlib.Algebra.Ring.Hom.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.Commute
 
 /-!
 # Even and odd elements in rings

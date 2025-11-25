@@ -5,8 +5,18 @@ Authors: David Loeffler
 -/
 module
 
-public import Mathlib.NumberTheory.ZetaValues
 public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.NumberTheory.BernoulliPolynomials
+import Mathlib.NumberTheory.ZetaValues
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Data.Int.Basic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+import Mathlib.Data.Int.Cast.Field
+import Mathlib.Data.Rat.Cast.Lemmas
 
 /-!
 # Special values of Hurwitz and Riemann zeta functions

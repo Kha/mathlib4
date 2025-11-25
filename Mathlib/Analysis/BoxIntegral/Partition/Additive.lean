@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Analysis.BoxIntegral.Partition.Split
 public import Mathlib.Analysis.Normed.Operator.Mul
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
 
 /-!
 # Box additive functions

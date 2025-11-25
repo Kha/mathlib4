@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Analysis.Normed.Lp.lpSpace
 public import Mathlib.Topology.Sets.Compacts
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # The Kuratowski embedding

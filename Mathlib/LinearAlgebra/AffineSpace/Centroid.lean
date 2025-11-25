@@ -6,6 +6,11 @@ Authors: Joseph Myers
 module
 
 public import Mathlib.LinearAlgebra.AffineSpace.Combination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Centroid of a Finite Set of Points in Affine Space

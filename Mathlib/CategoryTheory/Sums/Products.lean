@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Sums.Associator
 public import Mathlib.CategoryTheory.Products.Associator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Functors out of sums of categories.

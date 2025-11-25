@@ -5,8 +5,9 @@ Authors: Kim Morrison, Riccardo Brasca, Adam Topaz, Jujian Zhang, Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.Additive
 public import Mathlib.CategoryTheory.Abelian.Projective.Resolution
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Left-derived functors

@@ -6,6 +6,8 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.EffectiveEpi.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 
 # Composition of effective epimorphisms

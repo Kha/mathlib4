@@ -5,12 +5,15 @@ Authors: Kevin Buzzard, Sidharth Hariharan
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Div
-public import Mathlib.Logic.Function.Basic
-public import Mathlib.RingTheory.Coprime.Lemmas
 public import Mathlib.RingTheory.Localization.FractionRing
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.LinearCombination
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.Algebra.Polynomial.Degree.Definitions
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Div
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 

@@ -6,7 +6,12 @@ Authors: Nicolò Cavalleri
 module
 
 public import Mathlib.Geometry.Manifold.ContMDiffMap
-public import Mathlib.Geometry.Manifold.MFDeriv.Basic
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
 
 /-!
 # `C^n` monoid

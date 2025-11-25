@@ -5,8 +5,18 @@ Authors: Yunzhou Xie, Kenny Lau, Jiayang Hong
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+public import Mathlib.LinearAlgebra.DFinsupp
+public import Mathlib.LinearAlgebra.InvariantBasisNumber
+public import Mathlib.Tactic.Abel
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
 
 /-!
 

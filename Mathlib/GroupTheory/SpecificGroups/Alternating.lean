@@ -5,13 +5,22 @@ Authors: Aaron Anderson, Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Algebra.Ring.CharZero
-public import Mathlib.Data.Fintype.Units
-public import Mathlib.GroupTheory.IndexNormal
-public import Mathlib.GroupTheory.Perm.Fin
 public import Mathlib.GroupTheory.Subgroup.Simple
 public import Mathlib.Logic.Equiv.Fin.Rotate
-public import Mathlib.Tactic.IntervalCases
+public import Mathlib.GroupTheory.Perm.Cycle.Type
+import Mathlib.GroupTheory.IndexNormal
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Units
+import Mathlib.GroupTheory.Perm.Fin
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Int.Units
+import Mathlib.Data.Int.Order.Units
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Alternating Groups

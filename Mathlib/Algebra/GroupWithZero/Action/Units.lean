@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Group.Action.Units
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
 public import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Multiplicative actions with zero on and by `Mˣ`

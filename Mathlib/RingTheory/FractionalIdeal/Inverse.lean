@@ -6,6 +6,8 @@ Authors: Kenji Nakagawa, Anne Baanen, Filippo A. E. Nuccio
 module
 
 public import Mathlib.RingTheory.FractionalIdeal.Operations
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Inverse operator for fractional ideals

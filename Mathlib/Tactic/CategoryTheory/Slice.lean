@@ -5,8 +5,8 @@ Authors: Kim Morrison
 -/
 module
 
-public meta import Mathlib.CategoryTheory.Category.Basic
-public meta import Mathlib.Tactic.Conv
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
 
 /-!
 # The `slice` tactic

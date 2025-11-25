@@ -5,10 +5,20 @@ Authors: Anatole Dedecker
 -/
 module
 
-public import Mathlib.Topology.Coherent
 public import Mathlib.Topology.UniformSpace.Equiv
-public import Mathlib.Topology.UniformSpace.Pi
-public import Mathlib.Topology.UniformSpace.UniformApproximation
+public import Mathlib.Tactic.ApplyFun
+public import Mathlib.Topology.UniformSpace.UniformConvergence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Coherent
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Prod
+import Mathlib.Topology.UniformSpace.UniformApproximation
+import Mathlib.Order.Filter.Bases.Finite
 
 /-!
 # Topology and uniform structure of uniform convergence

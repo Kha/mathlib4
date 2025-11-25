@@ -6,7 +6,14 @@ Authors: Antoine Labelle
 module
 
 public import Mathlib.LinearAlgebra.Contraction
-public import Mathlib.Algebra.Group.Equiv.TypeTags
+public import Mathlib.Algebra.Algebra.RestrictScalars
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Algebra.DirectSum.Module
+public import Mathlib.Algebra.MonoidAlgebra.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.OfFn
 
 /-!
 # Monoid representations

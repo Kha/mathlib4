@@ -5,9 +5,26 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Data.Nat.Factorization.LCM
-public import Mathlib.Algebra.Group.TypeTags.Finite
 public import Mathlib.RingTheory.RootsOfUnity.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Algebra.CharP.Reduced
+import Mathlib.Algebra.CharP.Two
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Group.TypeTags.Finite
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Primitive roots of unity

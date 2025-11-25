@@ -5,7 +5,19 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Portmanteau
+public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.MeasureTheory.Measure.Portmanteau
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Convergence in distribution

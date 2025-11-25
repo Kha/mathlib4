@@ -5,7 +5,14 @@ Authors: Jeremy Avigad, Sébastien Gouëzel, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Congr
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Data.Int.Cast.Pi
+public import Mathlib.Topology.Algebra.Module.Equiv
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
 
 /-!
 # Fréchet derivative of constant functions

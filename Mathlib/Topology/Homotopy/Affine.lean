@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Homotopy.Path
 public import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Affine homotopy between two continuous maps

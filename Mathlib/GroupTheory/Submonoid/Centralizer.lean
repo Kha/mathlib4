@@ -7,6 +7,9 @@ module
 
 public import Mathlib.GroupTheory.Subsemigroup.Centralizer
 public import Mathlib.GroupTheory.Submonoid.Center
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Centralizers of magmas and monoids

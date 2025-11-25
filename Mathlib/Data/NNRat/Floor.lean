@@ -6,9 +6,15 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.Order.Floor.Semiring
-public import Mathlib.Data.NNRat.Order
 public import Mathlib.Data.Rat.Floor
 public meta import Mathlib.Data.Rat.Floor
+public import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.NNRat.Order
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Nonneg.Field
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Floor Function for Non-negative Rational Numbers

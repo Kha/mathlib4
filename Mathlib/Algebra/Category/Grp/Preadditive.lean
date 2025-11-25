@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.Grp.Basic
 public import Mathlib.CategoryTheory.Preadditive.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The category of additive commutative groups is preadditive.

@@ -8,6 +8,11 @@ module
 public import Mathlib.MeasureTheory.Measure.Decomposition.Hahn
 public import Mathlib.MeasureTheory.Measure.Sub
 public import Mathlib.MeasureTheory.VectorMeasure.Decomposition.Jordan
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Jordan decomposition from signed measure subtraction

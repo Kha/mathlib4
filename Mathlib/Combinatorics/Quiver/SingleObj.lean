@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Combinatorics.Quiver.Cast
 public import Mathlib.Combinatorics.Quiver.Symmetric
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Single-object quiver

@@ -6,6 +6,7 @@ Authors: Johan Commelin, Filippo A. E. Nuccio, Andrew Yang
 module
 
 public import Mathlib.RingTheory.Ideal.Prime
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Prime spectrum of a commutative (semi)ring as a type

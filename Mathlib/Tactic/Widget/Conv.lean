@@ -7,7 +7,10 @@ module
 
 public meta import Mathlib.Tactic.Widget.SelectPanelUtils
 public meta import Mathlib.Data.String.Defs
-public meta import Batteries.Tactic.Lint
+public import Batteries.Tactic.Lint.Misc
+public import Lean.Server.Rpc.RequestHandling
+public import Mathlib.Tactic.Widget.SelectPanelUtils
+import ProofWidgets.Component.OfRpcMethod
 
 /-! # Conv widget
 

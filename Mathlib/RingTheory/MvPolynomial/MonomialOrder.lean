@@ -5,12 +5,18 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Data.Finsupp.Lex
 public import Mathlib.Data.Finsupp.MonomialOrder
-public import Mathlib.Data.Finsupp.WellFounded
-public import Mathlib.Data.List.TFAE
-public import Mathlib.RingTheory.MvPolynomial.Homogeneous
 public import Mathlib.RingTheory.Nilpotent.Defs
+public import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Regular.Basic
+import Mathlib.Algebra.Regular.Pow
+import Mathlib.RingTheory.MvPolynomial.Homogeneous
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Nontriviality.Core
 
 /-! # Degree and leading coefficient of polynomials with respect to a monomial order
 

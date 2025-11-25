@@ -5,8 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
 public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Analytic.CPolynomialDef
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Analytic.CPolynomial
+import Mathlib.Analysis.Calculus.TangentCone.Basic
 
 /-!
 # Higher smoothness of continuously polynomial functions

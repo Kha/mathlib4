@@ -7,6 +7,23 @@ module
 
 public import Mathlib.MeasureTheory.Integral.FinMeasAdditive
 public import Mathlib.Analysis.Normed.Operator.Extend
+public import Mathlib.MeasureTheory.Function.SimpleFuncDenseLp
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Function.LpOrder
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Group.Subgroup.Order
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.MeasureTheory.Function.LpSpace.Complete
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
 
 /-!
 # Extension of a linear function from indicators to L1

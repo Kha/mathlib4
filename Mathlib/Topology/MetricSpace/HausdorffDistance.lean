@@ -5,9 +5,22 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.Topology.MetricSpace.IsometricSMul
-public import Mathlib.Tactic.Finiteness
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Topology.Order.Real
+public import Mathlib.Topology.UniformSpace.Real
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
 
 /-!
 # Hausdorff distance

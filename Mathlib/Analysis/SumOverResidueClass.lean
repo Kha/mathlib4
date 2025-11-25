@@ -5,9 +5,25 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Normed.Group.Basic
 public import Mathlib.Data.ZMod.Basic
-public import Mathlib.Topology.Instances.ENNReal.Lemmas
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Sums over residue classes

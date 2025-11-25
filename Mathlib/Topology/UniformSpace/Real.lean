@@ -6,7 +6,13 @@ Authors: Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Topology.ContinuousMap.Basic
-public import Mathlib.Topology.MetricSpace.Cauchy
+public import Mathlib.Topology.MetricSpace.Pseudo.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # The reals are complete

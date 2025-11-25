@@ -5,8 +5,9 @@ Authors: Robin Carlier
 -/
 module
 
-public import Mathlib.CategoryTheory.Functor.Category
 public import Mathlib.CategoryTheory.Products.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Joins of categories

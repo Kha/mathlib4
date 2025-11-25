@@ -5,8 +5,17 @@ Authors: Chris Hughes, Thomas Browning
 -/
 module
 
-public import Mathlib.GroupTheory.Perm.Cycle.Type
 public import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Card
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.GroupTheory.Perm.Cycle.Type
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # p-groups

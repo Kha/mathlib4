@@ -6,7 +6,10 @@ Authors: Yakov Pechersky
 module
 
 public import Mathlib.Analysis.Normed.Ring.Basic
-public import Mathlib.Analysis.Normed.Group.Ultra
+public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Group.Ultra
 
 /-!
 # Ultrametric norms on rings where the norm of one is one

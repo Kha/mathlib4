@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Category.BddLat
 public import Mathlib.Order.Hom.CompleteLattice
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of complete lattices

@@ -6,7 +6,11 @@ Authors: Kenny Lau, Anne Baanen
 module
 
 public import Mathlib.Algebra.Algebra.Equiv
-public import Mathlib.LinearAlgebra.Span.Basic
+public import Mathlib.LinearAlgebra.Span.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Span.Basic
 
 /-!
 # Towers of algebras

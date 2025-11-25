@@ -5,10 +5,14 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Pseudo.Basic
-public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 public import Mathlib.Topology.MetricSpace.Pseudo.Pi
-public import Mathlib.Topology.Order.IsLUB
+public import Mathlib.Topology.MetricSpace.Pseudo.Constructions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-! ## Proper spaces
 

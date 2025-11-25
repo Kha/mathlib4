@@ -6,9 +6,8 @@ Authors: Chris Birkbeck
 module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.MoebiusAction
-public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs
-public import Mathlib.LinearAlgebra.Matrix.SpecialLinearGroup
-public import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # Slash actions

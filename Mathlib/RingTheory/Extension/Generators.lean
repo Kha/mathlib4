@@ -5,11 +5,16 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Cotangent
 public import Mathlib.RingTheory.Localization.Away.Basic
 public import Mathlib.RingTheory.MvPolynomial.Tower
-public import Mathlib.RingTheory.TensorProduct.Basic
 public import Mathlib.RingTheory.Extension.Basic
+public import Mathlib.RingTheory.FiniteType
+public import Mathlib.Algebra.MvPolynomial.CommRing
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
 
 /-!
 

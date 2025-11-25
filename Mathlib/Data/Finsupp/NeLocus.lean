@@ -6,6 +6,7 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Group.Finsupp
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Locus of unequal values of finitely supported functions

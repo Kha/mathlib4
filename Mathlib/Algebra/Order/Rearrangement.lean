@@ -6,12 +6,16 @@ Authors: Mantas Bakšys
 module
 
 public import Mathlib.Algebra.Order.Module.Defs
-public import Mathlib.Algebra.Order.Module.Synonym
-public import Mathlib.Algebra.Order.Monoid.OrderDual
-public import Mathlib.Data.Finset.Max
-public import Mathlib.Data.Prod.Lex
-public import Mathlib.GroupTheory.Perm.Support
 public import Mathlib.Order.Monotone.Monovary
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Max
+import Mathlib.Data.Prod.Lex
+import Mathlib.GroupTheory.Perm.Support
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Rearrangement inequality

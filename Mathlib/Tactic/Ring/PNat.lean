@@ -6,7 +6,9 @@ Authors: Mario Carneiro
 module
 
 public meta import Mathlib.Tactic.Ring.Basic
-public meta import Mathlib.Data.PNat.Basic
+public import Mathlib.Data.PNat.Basic
+public meta import Mathlib.Data.PNat.Defs
+public import Mathlib.Tactic.Ring.Basic
 
 /-!
 # Additional instances for `ring` over `PNat`

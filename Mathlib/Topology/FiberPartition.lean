@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Topology.LocallyConstant.Basic
 public import Mathlib.Logic.Function.FiberPartition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Range
 /-!
 
 This file provides some API surrounding `Function.Fiber` (see

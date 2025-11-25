@@ -5,13 +5,19 @@ Authors: Johan Commelin, Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.CharP.Defs
-public import Mathlib.Algebra.Polynomial.AlgebraMap
-public import Mathlib.Algebra.Polynomial.Basic
 public import Mathlib.RingTheory.MvPowerSeries.Basic
-public import Mathlib.Tactic.MoveAdd
 public import Mathlib.Algebra.MvPolynomial.Equiv
-public import Mathlib.RingTheory.Ideal.Basic
+public import Mathlib.Algebra.Field.IsField
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.MoveAdd
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Basic
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Polynomial.Eval.Degree
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Formal power series (in one variable)

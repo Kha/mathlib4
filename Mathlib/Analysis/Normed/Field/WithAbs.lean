@@ -5,9 +5,16 @@ Authors: Salvatore Mercuri
 -/
 module
 
-public import Mathlib.Analysis.Normed.Module.Completion
 public import Mathlib.Analysis.Normed.Ring.WithAbs
 public import Mathlib.FieldTheory.Separable
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Topology.Algebra.UniformRing
+public import Mathlib.Topology.MetricSpace.Completion
+public import Mathlib.Analysis.Normed.Field.Lemmas
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Normed.Module.Completion
 
 /-!
 # WithAbs for fields

@@ -5,8 +5,20 @@ Authors: Neil Strickland
 -/
 module
 
-public import Mathlib.Algebra.Field.GeomSum
 public import Mathlib.Algebra.Order.Ring.Defs
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Partial sums of geometric series in an ordered field

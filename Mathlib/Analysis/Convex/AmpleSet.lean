@@ -5,10 +5,16 @@ Authors: Anatole Dedecker, Floris van Doorn
 -/
 module
 
-public import Mathlib.Algebra.CharP.Invertible
-public import Mathlib.Analysis.Normed.Module.Convex
-public import Mathlib.Analysis.NormedSpace.Connected
 public import Mathlib.Topology.Algebra.ContinuousAffineEquiv
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Invertible
+import Mathlib.Analysis.Convex.Contractible
+import Mathlib.Analysis.NormedSpace.Connected
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.Quotient.Basic
 
 /-!
 # Ample subsets of real vector spaces

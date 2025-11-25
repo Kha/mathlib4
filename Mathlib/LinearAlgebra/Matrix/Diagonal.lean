@@ -7,6 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.Dimension.LinearMap
 public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Constructions
 
 /-!
 # Diagonal matrices

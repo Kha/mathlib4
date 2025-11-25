@@ -9,9 +9,9 @@ public import Mathlib.Data.Nat.Notation
 public import Mathlib.Control.Functor
 public import Mathlib.Data.SProd
 public import Mathlib.Util.CompileInductive
-public import Batteries.Tactic.Lint.Basic
 public import Batteries.Data.List.Basic
-public import Batteries.Logic
+import Batteries.Logic
+import Mathlib.Tactic.TypeStar
 
 /-!
 ## Definitions on lists

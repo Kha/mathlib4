@@ -5,7 +5,14 @@ Authors: Ben Eltschig
 -/
 module
 
-public import Mathlib.Analysis.LocallyConvex.WithSeminorms
+public import Mathlib.Topology.Connected.LocPathConnected
+public import Mathlib.Topology.Defs.Sequences
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Delta-generated topological spaces

@@ -5,13 +5,21 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.MvPolynomial.PDeriv
-public import Mathlib.Algebra.Polynomial.AlgebraMap
 public import Mathlib.Algebra.Polynomial.Derivative
-public import Mathlib.Algebra.Polynomial.Eval.SMul
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
 public import Mathlib.RingTheory.Polynomial.Pochhammer
+public import Mathlib.Algebra.Ring.Rat
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.MvPolynomial.PDeriv
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Eval.SMul
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Bernstein polynomials

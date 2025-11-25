@@ -5,11 +5,16 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.NumberTheory.Padics.PadicNumbers
-public import Mathlib.Topology.Algebra.Valued.ValuedField
 public import Mathlib.Topology.Algebra.Valued.WithVal
-public import Mathlib.Topology.GDelta.MetrizableSpace
+public import Mathlib.Topology.Algebra.UniformRing
+import Mathlib.Tactic.Lemma
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.Valued.ValuedField
 
 /-!
 # Equivalence between `ℚ_[p]` and `(Rat.padicValuation p).Completion`

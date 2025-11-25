@@ -6,9 +6,23 @@ Authors: Zhouhang Zhou
 module
 
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
-public import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Norm
 public import Mathlib.MeasureTheory.Measure.WithDensity
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+import Mathlib.MeasureTheory.Integral.Lebesgue.Norm
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Function with finite integral

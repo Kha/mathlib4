@@ -5,8 +5,9 @@ Authors: Xavier Généreux, María Inés de Frutos Fernández
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.SkewMonoidAlgebra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 # Univariate skew polynomials
 

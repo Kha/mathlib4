@@ -7,8 +7,15 @@ module
 
 public import Mathlib.Topology.Perfect
 public import Mathlib.Topology.MetricSpace.Polish
-public import Mathlib.Topology.MetricSpace.CantorScheme
-public import Mathlib.Topology.Metrizable.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.MetricSpace.CantorScheme
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Perfect Sets

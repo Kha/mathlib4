@@ -8,10 +8,17 @@ module
 public import Mathlib.Algebra.Group.Subgroup.Defs
 public import Mathlib.Algebra.Group.Support
 public import Mathlib.Algebra.Order.Group.PosPart
-public import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
-public import Mathlib.Algebra.Order.Pi
 public import Mathlib.Topology.DiscreteSubset
 public import Mathlib.Topology.Separation.Hausdorff
+public import Mathlib.Order.Hom.Lattice
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Type of functions with locally finite support

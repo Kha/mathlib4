@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.DFinsupp
 public import Mathlib.LinearAlgebra.TensorProduct.Associator
+import Mathlib.Tactic.TypeStar
 
 /-! # Polynomial laws on modules
 

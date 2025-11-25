@@ -6,6 +6,13 @@ Authors: Jujian Zhang, Kevin Buzzard
 module
 
 public import Mathlib.CategoryTheory.Preadditive.Projective.Basic
+import Mathlib.Order.WithBot
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+import Mathlib.CategoryTheory.Limits.Preserves.Finite
 
 /-!
 # Injective objects and categories with enough injectives

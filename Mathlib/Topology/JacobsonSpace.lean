@@ -5,9 +5,12 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.LocalAtTarget
-public import Mathlib.Topology.Separation.Regular
-public import Mathlib.Tactic.StacksAttribute
+public import Mathlib.Topology.Sets.OpenCover
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.LocalAtTarget
+import Mathlib.Topology.LocallyClosed
+import Mathlib.Data.Set.Disjoint
 
 /-!
 

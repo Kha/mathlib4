@@ -5,13 +5,32 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Units
-public import Mathlib.Algebra.Order.Monoid.LocallyFiniteOrder
-public import Mathlib.Data.Int.Interval
-public import Mathlib.GroupTheory.Archimedean
-public import Mathlib.GroupTheory.OrderOfElement
-public import Mathlib.GroupTheory.SpecificGroups.Cyclic
-public import Mathlib.Order.Interval.Finset.DenselyOrdered
+public import Mathlib.Algebra.Group.Subgroup.Pointwise
+public import Mathlib.Algebra.Group.Subsemigroup.Operations
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Algebra.Order.Group.Int
+public import Mathlib.Algebra.Order.Hom.MonoidWithZero
+public import Mathlib.Algebra.Order.Hom.TypeTags
+public import Mathlib.Data.Int.Cast.Lemmas
+public import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.GroupTheory.Archimedean
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.Interval
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Group.Subgroup.Order
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Group.Units
+import Mathlib.Algebra.Order.Monoid.LocallyFiniteOrder
+import Mathlib.Algebra.Order.Monoid.TypeTags
+import Mathlib.Order.Interval.Finset.DenselyOrdered
+import Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual
 
 /-!
 # Archimedean groups are either discrete or densely ordered

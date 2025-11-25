@@ -5,8 +5,11 @@ Authors: Yaël Dillies, Bhavik Mehta
 -/
 module
 
-public import Mathlib.Analysis.Convex.Combination
 public import Mathlib.Analysis.Convex.Extreme
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Algebra.Order.Field.Basic
 
 /-!
 # Convex independence

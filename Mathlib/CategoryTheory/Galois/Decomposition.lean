@@ -6,8 +6,14 @@ Authors: Christian Merten
 module
 
 public import Mathlib.CategoryTheory.Galois.GaloisObjects
-public import Mathlib.CategoryTheory.Limits.Shapes.CombinedProducts
-public import Mathlib.Data.Finite.Sum
+public import Mathlib.CategoryTheory.Limits.Shapes.ConcreteCategory
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.FintypeCat
+import Mathlib.Data.Finite.Sum
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Shapes.CombinedProducts
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Decomposition of objects into connected components and applications

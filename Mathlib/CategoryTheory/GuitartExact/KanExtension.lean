@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.GuitartExact.Basic
 public import Mathlib.CategoryTheory.Functor.KanExtension.Adjunction
+import Mathlib.Tactic.Lemma
 
 /-!
 # Guitart exact squares and Kan extensions

@@ -5,7 +5,11 @@ Authors: Yakov Pechersky, Anthony DeRossi
 -/
 module
 
-public import Mathlib.Data.List.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
 
 /-!
 # Properties of `List.reduceOption`

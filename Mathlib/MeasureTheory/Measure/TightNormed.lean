@@ -8,6 +8,16 @@ module
 public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.MeasureTheory.Measure.Tight
 public import Mathlib.Order.CompletePartialOrder
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Tight sets of measures in normed spaces

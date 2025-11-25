@@ -5,9 +5,25 @@ Authors: Antoine Chambert-Loir, Richard Copley
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Rat
 public import Mathlib.GroupTheory.Complement
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import Mathlib.Data.Fintype.Option
+public import Mathlib.Data.Fintype.Prod
+public import Mathlib.Data.Rat.Defs
+public import Mathlib.Algebra.Module.Submodule.Basic
+public import Mathlib.Algebra.Module.Submodule.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Rat
+import Mathlib.Data.Fintype.Sigma
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-! # Lemma of B. H. Neumann on coverings of a group by cosets.
 

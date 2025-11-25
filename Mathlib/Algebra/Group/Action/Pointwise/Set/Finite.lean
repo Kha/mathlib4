@@ -5,9 +5,14 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Basic
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
-public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Algebra.Group.Action.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Action.Basic
+import Mathlib.Data.Set.Finite.Basic
 
 /-! # Finiteness lemmas for pointwise operations on sets -/
 

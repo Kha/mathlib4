@@ -7,7 +7,11 @@ module
 
 public import Mathlib.LinearAlgebra.DFinsupp
 public import Mathlib.LinearAlgebra.TensorProduct.Quotient
-public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+public import Mathlib.Algebra.Exact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+import Mathlib.Algebra.Order.Group.Action
 
 /-!
 # Reducing a module modulo an element of the ring

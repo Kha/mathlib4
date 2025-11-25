@@ -7,7 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Localization.Bousfield
 public import Mathlib.CategoryTheory.MorphismProperty.TransfiniteComposition
-public import Mathlib.CategoryTheory.SmallObject.WellOrderInductionData
+import Mathlib.CategoryTheory.SmallObject.WellOrderInductionData
 
 /-!
 # LeftBousfield.W is stable under transfinite compositions

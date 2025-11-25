@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Functor.KanExtension.Basic
 public import Mathlib.CategoryTheory.Localization.Predicate
+import Mathlib.Tactic.Lemma
 
 /-!
 # Right derived functors

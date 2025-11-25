@@ -6,8 +6,11 @@ Authors: Attila Gáspár
 module
 
 public import Mathlib.Algebra.AddTorsor.Basic
-public import Mathlib.Topology.Algebra.Monoid
 public import Mathlib.Topology.Algebra.Group.Defs
+public import Mathlib.Topology.Algebra.MulAction
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Algebra.Monoid
 
 /-!
 # Topological torsors of additive groups

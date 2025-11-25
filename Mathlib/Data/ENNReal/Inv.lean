@@ -6,6 +6,17 @@ Authors: Johannes Hölzl, Yury Kudryashov
 module
 
 public import Mathlib.Data.ENNReal.Operations
+public import Mathlib.Algebra.Group.Units.Equiv
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Real
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Results about division in extended non-negative reals

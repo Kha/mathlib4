@@ -5,7 +5,14 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
 
 /-!
 # Convergence of Taylor series of holomorphic functions

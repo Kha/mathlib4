@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Triangulated.Basic
 public import Mathlib.CategoryTheory.Triangulated.Opposite.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Triangles in the opposite category of a (pre)triangulated category

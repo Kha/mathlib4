@@ -5,10 +5,12 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Module.Projective
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
 public import Mathlib.Topology.Algebra.SeparationQuotient.Basic
-public import Mathlib.Topology.Maps.OpenQuotient
+public import Mathlib.Topology.UniformSpace.UniformEmbedding
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Projective
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Algebraic operations on `SeparationQuotient`

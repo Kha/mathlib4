@@ -6,6 +6,7 @@ Authors: Florent Schaffhauser, Artie Khovanov
 module
 
 public import Mathlib.Algebra.Ring.SumsOfSquares
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Semireal rings

@@ -5,11 +5,21 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Indicator
-public import Mathlib.Order.ConditionallyCompleteLattice.Indexed
-public import Mathlib.Algebra.Order.Group.Synonym
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
 public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+public import Mathlib.Algebra.Notation.Indicator
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Set.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Group.Synonym
 
 /-!
 # Support of a function in an order

@@ -5,10 +5,16 @@ Authors: Yury Kudryashov, Sébastien Gouëzel, Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.Convex.Jensen
-public import Mathlib.Analysis.Convex.Mul
-public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Analysis.Convex.Jensen
+import Mathlib.Analysis.Convex.Mul
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Mean value inequalities

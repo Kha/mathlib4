@@ -5,8 +5,11 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Unramified.Locus
 public import Mathlib.RingTheory.LocalProperties.Basic
+public import Mathlib.RingTheory.Unramified.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Unramified.Locus
 
 /-!
 

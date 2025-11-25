@@ -5,8 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Order.Lattice
 public import Mathlib.Tactic.Order
+public import Batteries.Tactic.Init
+public import Mathlib.Tactic.ByContra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Circular order hierarchy

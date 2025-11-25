@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Logic.OpClass
 public import Mathlib.Order.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Order.Monotone.Basic
 
 /-!
 # `max` and `min`

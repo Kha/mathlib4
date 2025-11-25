@@ -6,6 +6,21 @@ Authors: Kalle Kytölä
 module
 
 public import Mathlib.Topology.MetricSpace.HausdorffDistance
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsSet
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Thickenings in pseudo-metric spaces

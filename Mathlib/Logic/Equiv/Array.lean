@@ -5,8 +5,8 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Vector.Basic
 public import Mathlib.Logic.Equiv.List
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalences involving `Array`

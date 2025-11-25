@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.ExternalProduct.KanExtension
 public import Mathlib.CategoryTheory.Products.Associator
+import Mathlib.Tactic.Lemma
 
 /-!
 # Day convolution monoidal structure

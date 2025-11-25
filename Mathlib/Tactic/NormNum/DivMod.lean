@@ -5,8 +5,14 @@ Authors: Anne Baanen, Mario Carneiro
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Basic
-public meta import Mathlib.Tactic.NormNum.Ineq
+public import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.Lemma
+meta import Mathlib.Data.Int.Init
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # `norm_num` extension for integer div/mod and divides

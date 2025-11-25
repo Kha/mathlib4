@@ -5,11 +5,18 @@ Authors: Pierre-Alexandre Bazin
 -/
 module
 
-public import Mathlib.Algebra.Module.DedekindDomain
-public import Mathlib.LinearAlgebra.FreeModule.PID
-public import Mathlib.Algebra.Module.Projective
-public import Mathlib.Algebra.Category.ModuleCat.Biproducts
-public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.Algebra.DirectSum.Module
+public import Mathlib.Algebra.Module.Torsion.Basic
+public import Mathlib.RingTheory.DedekindDomain.Ideal.Basic
+import Mathlib.Algebra.Module.DedekindDomain
+import Mathlib.Algebra.Module.Projective
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.Colon
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Category.ModuleCat.Biproducts
+import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # Structure of finitely generated modules over a PID

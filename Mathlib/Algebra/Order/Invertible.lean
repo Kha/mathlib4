@@ -6,8 +6,12 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Order.Ring.Defs
-public import Mathlib.Algebra.Ring.Invertible
-public import Mathlib.Data.Nat.Cast.Order.Ring
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Group.Invertible.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Invertible
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Lemmas about `invOf` in ordered (semi)rings.

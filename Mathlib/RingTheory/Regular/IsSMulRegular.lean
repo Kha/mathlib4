@@ -5,10 +5,12 @@ Authors: Brendan Murphy
 -/
 module
 
-public import Mathlib.Algebra.Module.Torsion.Basic
 public import Mathlib.RingTheory.Flat.Basic
 public import Mathlib.RingTheory.Ideal.AssociatedPrime.Basic
 public import Mathlib.RingTheory.QuotSMulTop
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Torsion.Basic
 
 /-!
 # Lemmas about the `IsSMulRegular` Predicate

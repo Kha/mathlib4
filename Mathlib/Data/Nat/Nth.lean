@@ -5,13 +5,18 @@ Authors: Yaël Dillies, Vladimir Goryachev, Kyle Miller, Kim Morrison, Eric Rodr
 -/
 module
 
-public import Mathlib.Data.List.GetD
 public import Mathlib.Data.Nat.Count
-public import Mathlib.Data.Nat.SuccPred
-public import Mathlib.Order.Interval.Set.Monotone
 public import Mathlib.Order.OrderIsoNat
-public import Mathlib.Order.WellFounded
 public import Mathlib.Data.Finset.Sort
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.List.GetD
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Data.Set.List
+import Mathlib.Data.Set.Monotone
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Order.Interval.Set.Monotone
 
 /-!
 # The `n`th Number Satisfying a Predicate

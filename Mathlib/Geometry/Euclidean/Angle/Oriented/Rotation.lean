@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
 public import Mathlib.Geometry.Euclidean.Angle.Oriented.Basic
+public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.LinearAlgebra.Dimension.Finite
 
 /-!
 # Rotations by oriented angles.

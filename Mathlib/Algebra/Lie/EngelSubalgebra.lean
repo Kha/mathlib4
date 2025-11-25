@@ -5,11 +5,13 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Lie.Engel
-public import Mathlib.Algebra.Lie.Normalizer
-public import Mathlib.Algebra.Lie.OfAssociative
-public import Mathlib.Algebra.Lie.Subalgebra
-public import Mathlib.Data.Finset.NatAntidiagonal
+public import Mathlib.Algebra.Lie.Nilpotent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Lie.Engel
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Engel subalgebras

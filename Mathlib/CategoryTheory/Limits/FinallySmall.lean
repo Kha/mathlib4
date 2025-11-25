@@ -5,8 +5,10 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.Logic.Small.Set
-public import Mathlib.CategoryTheory.Filtered.Final
+public import Mathlib.CategoryTheory.EssentiallySmall
+public import Mathlib.CategoryTheory.Limits.Final
+import Mathlib.CategoryTheory.Filtered.Final
+import Mathlib.Logic.Small.Set
 
 /-!
 # Finally small categories

@@ -7,10 +7,12 @@ module
 
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
-public import Mathlib.CategoryTheory.Limits.Types.Colimits
-public import Mathlib.CategoryTheory.Limits.Types.Images
-public import Mathlib.CategoryTheory.Limits.Types.Filtered
-public import Mathlib.CategoryTheory.Limits.Yoneda
+public import Mathlib.CategoryTheory.Filtered.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Yoneda
+import Mathlib.CategoryTheory.Limits.Types.Filtered
+import Mathlib.CategoryTheory.Limits.Types.Images
 
 /-!
 # Facts about (co)limits of functors into concrete categories

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.Multiplicity
 public import Mathlib.Data.Nat.Factors
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # `p`-adic Valuation

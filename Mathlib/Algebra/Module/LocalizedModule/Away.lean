@@ -6,6 +6,7 @@ Authors: Yongle Hu
 module
 
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localizations of modules away from an element

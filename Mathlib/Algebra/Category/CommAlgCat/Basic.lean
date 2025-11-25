@@ -7,8 +7,11 @@ module
 
 public import Mathlib.Algebra.Category.AlgCat.Basic
 public import Mathlib.Algebra.Category.Ring.Under.Basic
-public import Mathlib.CategoryTheory.Limits.Over
-public import Mathlib.CategoryTheory.WithTerminal.Cone
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Over
+import Mathlib.CategoryTheory.WithTerminal.Cone
+import Mathlib.Algebra.Category.Ring.Limits
 
 /-!
 # The category of commutative algebras over a commutative ring

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.Projective.Preserves
 public import Mathlib.RepresentationTheory.Rep
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Coinduced representations

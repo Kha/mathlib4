@@ -5,7 +5,12 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Topology.Algebra.Monoid
+public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Algebra.Monoid
 
 /-! # Approximate units
 

@@ -6,6 +6,7 @@ Authors: Kim Morrison, Markus Himmel, Bhavik Mehta, Andrew Yang, Emily Riehl, Ca
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.PullbackCone
+import Mathlib.Tactic.Lemma
 
 /-!
 # HasPullback

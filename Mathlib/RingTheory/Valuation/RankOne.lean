@@ -5,11 +5,14 @@ Authors: María Inés de Frutos-Fernández
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Units
-public import Mathlib.Algebra.Order.GroupWithZero.WithZero
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Data.Real.Embedding
 public import Mathlib.RingTheory.Valuation.ValuativeRel.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Real.Embedding
+import Mathlib.Algebra.Order.Group.Units
+import Mathlib.Algebra.Order.GroupWithZero.WithZero
+import Mathlib.Algebra.Order.Monoid.TypeTags
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-!
 # Rank one valuations

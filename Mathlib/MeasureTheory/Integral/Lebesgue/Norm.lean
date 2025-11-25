@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.Normed.Group.Basic
 public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Interactions between the Lebesgue integral and norms

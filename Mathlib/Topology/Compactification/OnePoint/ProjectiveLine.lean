@@ -5,11 +5,19 @@ Authors: Bjørn Kjos-Hanssen, Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.QuadraticDiscriminant
 public import Mathlib.Data.Matrix.Action
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.FinTwo
 public import Mathlib.LinearAlgebra.Projectivization.Action
 public import Mathlib.Topology.Compactification.OnePoint.Basic
+public import Mathlib.Algebra.Module.TransferInstance
+public import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Algebra.QuadraticDiscriminant
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # One-point compactification and projectivization

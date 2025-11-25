@@ -6,6 +6,10 @@ Authors: Yoh Tanimoto
 module
 
 public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+public import Mathlib.RingTheory.TwoSidedIdeal.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
 
 /-!
 # Compactly supported bounded continuous functions

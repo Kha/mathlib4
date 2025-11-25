@@ -5,9 +5,13 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Order.Pi
 public import Mathlib.Algebra.Order.Star.Basic
 public import Mathlib.Algebra.Star.Conjneg
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Order properties of conjugation-negation

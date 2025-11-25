@@ -6,6 +6,9 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Order.Filter.CountableInter
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Image
+import Mathlib.Order.Filter.Basic
 
 /-!
 # Filters with countable intersections and countable separating families

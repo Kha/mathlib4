@@ -6,9 +6,14 @@ Authors: Bhavik Mehta
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
-public import Mathlib.Data.Nat.Cast.Field
-public import Mathlib.Data.Nat.Factorization.PrimePow
 public import Mathlib.NumberTheory.ArithmeticFunction
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.Field
+import Mathlib.Data.Nat.Factorization.Induction
+import Mathlib.Data.Nat.Factorization.PrimePow
+import Mathlib.Data.Nat.Prime.Pow
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # The von Mangoldt Function

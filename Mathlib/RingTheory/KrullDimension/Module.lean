@@ -5,8 +5,16 @@ Authors: Nailin Guan
 -/
 module
 
-public import Mathlib.RingTheory.KrullDimension.NonZeroDivisors
-public import Mathlib.RingTheory.Spectrum.Prime.Module
+public import Mathlib.RingTheory.Support
+public import Mathlib.RingTheory.Spectrum.Prime.Topology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Ideal.Colon
+import Mathlib.RingTheory.KrullDimension.NonZeroDivisors
+import Mathlib.Tactic.Attr.Register
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.RingTheory.Spectrum.Prime.Module
 
 /-!
 

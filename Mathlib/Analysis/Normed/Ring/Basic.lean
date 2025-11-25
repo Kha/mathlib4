@@ -9,6 +9,16 @@ public import Mathlib.Algebra.Algebra.Subalgebra.Basic
 public import Mathlib.Analysis.Normed.Group.Constructions
 public import Mathlib.Analysis.Normed.Group.Subgroup
 public import Mathlib.Analysis.Normed.Group.Submodule
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Normed rings

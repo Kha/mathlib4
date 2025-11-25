@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
 public import Mathlib.Geometry.Euclidean.Projection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Angles and orthogonal projection.

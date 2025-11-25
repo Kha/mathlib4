@@ -7,9 +7,13 @@ module
 
 public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Algebra.Group.Hom.Basic
-public import Mathlib.Algebra.Order.Group.Unbundled.Basic
-public import Mathlib.Algebra.Order.Monoid.OrderDual
 public import Mathlib.Order.Hom.Basic
+public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 /-!
 # Ordered monoid and group homomorphisms
 

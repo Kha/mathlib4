@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Exact
 public import Mathlib.LinearAlgebra.BilinearMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The Left Exactness of Hom

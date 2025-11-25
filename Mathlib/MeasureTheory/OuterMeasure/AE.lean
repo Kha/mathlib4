@@ -6,6 +6,10 @@ Authors: Mario Carneiro, Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.OuterMeasure.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # The “almost everywhere” filter of co-null sets.

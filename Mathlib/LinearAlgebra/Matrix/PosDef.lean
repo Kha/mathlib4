@@ -6,12 +6,21 @@ Authors: Alexander Bentkamp, Mohanad Ahmed
 module
 
 public import Mathlib.Algebra.CharP.Invertible
-public import Mathlib.Algebra.Order.Ring.Star
 public import Mathlib.Data.Real.Star
-public import Mathlib.LinearAlgebra.Matrix.DotProduct
 public import Mathlib.LinearAlgebra.Matrix.Hermitian
-public import Mathlib.LinearAlgebra.Matrix.Vec
 public import Mathlib.LinearAlgebra.QuadraticForm.Basic
+public import Mathlib.Algebra.Order.Star.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Star.BigOperators
+import Mathlib.Algebra.Star.Pi
+import Mathlib.LinearAlgebra.Matrix.DotProduct
+import Mathlib.LinearAlgebra.Matrix.Vec
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-! # Positive Definite Matrices
 

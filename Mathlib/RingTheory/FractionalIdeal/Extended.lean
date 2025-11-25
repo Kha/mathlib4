@@ -5,7 +5,15 @@ Authors: James Sundstrom, Xavier Roblot
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.FractionalIdeal.Basic
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Extension of fractional ideals

@@ -5,11 +5,14 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
 public import Mathlib.Algebra.GroupWithZero.Associated
-public import Mathlib.Algebra.GroupWithZero.Submonoid.Primal
-public import Mathlib.Order.WellFounded
+public import Mathlib.Algebra.BigOperators.Group.Multiset.Defs
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.GroupWithZero.Submonoid.Primal
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Unique factorization

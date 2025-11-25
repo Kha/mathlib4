@@ -5,10 +5,36 @@ Authors: Anne Baanen
 -/
 module
 
-public import Mathlib.LinearAlgebra.Dimension.DivisionRing
 public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
-public import Mathlib.RingTheory.Finiteness.Quotient
 public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.RingTheory.Ideal.Quotient.Basic
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.RingTheory.Nakayama
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.Data.ZMod.QuotientRing
+import Mathlib.LinearAlgebra.Dimension.Localization
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Quotient
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Ramification index and inertia degree

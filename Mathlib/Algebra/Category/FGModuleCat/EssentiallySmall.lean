@@ -6,7 +6,9 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.Category.FGModuleCat.Basic
-public import Mathlib.RingTheory.Finiteness.Cardinality
+public import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
 
 /-!
 # The category of finitely generated modules over a ring is essentially small

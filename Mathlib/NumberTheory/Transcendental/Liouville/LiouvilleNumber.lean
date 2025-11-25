@@ -6,6 +6,16 @@ Authors: Damiano Testa, Jujian Zhang
 module
 
 public import Mathlib.NumberTheory.Transcendental.Liouville.Basic
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 

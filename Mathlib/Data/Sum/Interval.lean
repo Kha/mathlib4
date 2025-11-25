@@ -5,9 +5,10 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Finset.Sum
 public import Mathlib.Data.Sum.Order
 public import Mathlib.Order.Interval.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Finite intervals in a disjoint union

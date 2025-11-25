@@ -5,8 +5,14 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Data.Multiset.Fintype
-public import Mathlib.FieldTheory.SplittingField.Construction
+public import Mathlib.Algebra.Polynomial.Factors
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Multiset.Fintype
+import Mathlib.FieldTheory.SplittingField.Construction
+import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-! # Results about coefficients of polynomials being integral -/
 

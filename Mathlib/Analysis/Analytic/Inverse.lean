@@ -6,8 +6,34 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Analytic.Composition
-public import Mathlib.Analysis.Analytic.Linear
-public import Mathlib.Tactic.Positivity
+public import Mathlib.Topology.OpenPartialHomeomorph
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.Field.GeomSum
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Group.Fin.Tuple
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 

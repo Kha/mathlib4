@@ -5,7 +5,12 @@ Authors: Abby J. Goldberg, Mario Carneiro
 -/
 module
 
-public meta import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.Basic
 
 /-!
 # linear_combination' Tactic

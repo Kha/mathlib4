@@ -6,6 +6,12 @@ Authors: Mitchell Horner
 module
 
 public import Mathlib.Analysis.Convex.Function
+public import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Convex and concave piecewise functions

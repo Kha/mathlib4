@@ -6,9 +6,14 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.CategoryTheory.Functor.OfSequence
-public import Mathlib.CategoryTheory.Sites.Coherent.LocallySurjective
-public import Mathlib.CategoryTheory.Sites.EpiMono
-public import Mathlib.CategoryTheory.Sites.Subcanonical
+public import Mathlib.CategoryTheory.Sites.LocallyBijective
+public import Mathlib.CategoryTheory.Sites.Coherent.Comparison
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Sites.EpiMono
+import Mathlib.CategoryTheory.Sites.Subcanonical
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Sites.Coherent.CoherentSheaves
+import Mathlib.CategoryTheory.Sites.Coherent.LocallySurjective
 /-!
 
 # Limits of epimorphisms in coherent topoi

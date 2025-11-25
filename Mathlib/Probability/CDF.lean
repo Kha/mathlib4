@@ -6,6 +6,13 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.Kernel.Disintegration.CondCDF
+import Mathlib.Tactic.Lemma
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Cumulative distribution function of a real probability measure

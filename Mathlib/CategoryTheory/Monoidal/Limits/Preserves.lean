@@ -6,7 +6,10 @@ Authors: Robin Carlier
 module
 
 public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
-public import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.FunctorCategory.Basic
 
 /-!
 # Miscellany about preservations of (co)limits in monoidal categories

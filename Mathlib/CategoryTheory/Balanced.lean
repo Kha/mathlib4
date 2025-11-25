@@ -5,7 +5,8 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.EpiMono
+public import Mathlib.CategoryTheory.Opposites
+import Mathlib.CategoryTheory.EpiMono
 
 /-!
 # Balanced categories

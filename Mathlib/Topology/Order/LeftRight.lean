@@ -6,7 +6,17 @@ Authors: Anatole Dedecker
 module
 
 public import Mathlib.Order.Antichain
-public import Mathlib.Topology.ContinuousOn
+public import Mathlib.Tactic.Common
+public import Mathlib.Topology.Defs.Filter
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Left and right continuity

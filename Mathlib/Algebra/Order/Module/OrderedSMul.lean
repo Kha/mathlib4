@@ -6,10 +6,16 @@ Authors: Frédéric Dupuis
 module
 
 public import Mathlib.Algebra.Field.Defs
-public import Mathlib.Algebra.Group.Action.Basic
 public import Mathlib.Algebra.GroupWithZero.Action.Pi
 public import Mathlib.Algebra.GroupWithZero.Action.Prod
 public import Mathlib.Algebra.Order.Module.Defs
+public import Mathlib.Algebra.Ring.Nat
+public import Mathlib.Algebra.Order.GroupWithZero.Action.Synonym
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Algebra.Group.Action.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Ordered scalar product

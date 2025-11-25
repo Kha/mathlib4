@@ -6,6 +6,8 @@ Authors: Fangming Li, Jujian Zhang
 module
 
 public import Mathlib.RingTheory.KrullDimension.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Spectrum.Prime.Basic
 
 /-!
 # The Krull dimension of a field

@@ -6,6 +6,11 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Topology.CompactOpen
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.NAry
+import Mathlib.Order.Filter.Finite
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # Second countable topology on `C(X, Y)`

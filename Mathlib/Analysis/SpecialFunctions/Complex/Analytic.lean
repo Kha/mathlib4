@@ -5,10 +5,19 @@ Authors: Geoffrey Irving
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Composition
-public import Mathlib.Analysis.Analytic.Constructions
-public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
 
 /-!
 # Various complex special functions are analytic

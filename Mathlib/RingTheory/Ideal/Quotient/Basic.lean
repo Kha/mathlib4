@@ -5,12 +5,18 @@ Authors: Kenny Lau, Chris Hughes, Mario Carneiro, Anne Baanen
 -/
 module
 
-public import Mathlib.GroupTheory.QuotientGroup.Finite
-public import Mathlib.LinearAlgebra.Quotient.Defs
-public import Mathlib.RingTheory.Congruence.Basic
 public import Mathlib.RingTheory.Ideal.Basic
 public import Mathlib.RingTheory.Ideal.Quotient.Defs
-public import Mathlib.Tactic.FinCases
+public import Mathlib.Algebra.Module.Pi
+import Mathlib.Tactic.FastInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Pi
+import Mathlib.GroupTheory.QuotientGroup.Finite
+import Mathlib.RingTheory.Congruence.Basic
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Ideal quotients

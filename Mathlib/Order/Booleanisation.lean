@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Order.BooleanAlgebra.Basic
 public import Mathlib.Order.Hom.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Adding complements to a generalized Boolean algebra

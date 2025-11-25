@@ -7,6 +7,11 @@ module
 
 public import Mathlib.FieldTheory.LinearDisjoint
 public import Mathlib.RingTheory.DedekindDomain.Different
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
 
 /-!
 # Disjoint extensions with coprime different ideals

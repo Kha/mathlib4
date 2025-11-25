@@ -9,6 +9,9 @@ public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
 public import Mathlib.Algebra.Homology.ShortComplex.SnakeLemma
 public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
 public import Mathlib.Algebra.Homology.HomologicalComplexLimits
+public import Mathlib.Algebra.Homology.ShortComplex.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The homology sequence

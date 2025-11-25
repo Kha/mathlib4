@@ -5,8 +5,10 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.IntegralCompProd
 public import Mathlib.Probability.Kernel.Disintegration.StandardBorel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Probability.Kernel.Composition.IntegralCompProd
 
 /-!
 # Lebesgue and Bochner integrals of conditional kernels

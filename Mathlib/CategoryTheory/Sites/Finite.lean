@@ -6,7 +6,11 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.CategoryTheory.Sites.Pretopology
-public import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Range
 
 /-! # The Finite Pretopology
 

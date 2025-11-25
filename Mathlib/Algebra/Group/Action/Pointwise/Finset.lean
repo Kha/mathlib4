@@ -9,6 +9,10 @@ public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 public import Mathlib.Algebra.Group.Pointwise.Finset.Scalar
 public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.SymmDiff
+import Mathlib.Algebra.Group.Action.Basic
 
 /-!
 # Pointwise actions of finsets

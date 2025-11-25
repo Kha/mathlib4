@@ -8,6 +8,8 @@ module
 public import Mathlib.RingTheory.PowerSeries.Trunc
 public import Mathlib.RingTheory.PowerSeries.Inverse
 public import Mathlib.RingTheory.Derivation.Basic
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Algebra.Order.Sub.Basic
 
 /-!
 # Definitions

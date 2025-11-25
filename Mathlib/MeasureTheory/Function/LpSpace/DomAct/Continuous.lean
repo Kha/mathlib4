@@ -6,9 +6,46 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.Function.LpSpace.DomAct.Basic
-public import Mathlib.MeasureTheory.Function.LpSpace.ContinuousCompMeasurePreserving
 public import Mathlib.Topology.Algebra.Constructions.DomMulAct
 import all Mathlib.MeasureTheory.Function.LpSpace.DomAct.Basic  -- for `to_additive` to unfold proof
+import Mathlib.Tactic.Bound
+import Mathlib.Tactic.ContinuousFunctionalCalculus
+import Mathlib.Tactic.SetLike
+import Mathlib.Tactic.ToAdditive
+import Mathlib.Data.EReal.Inv
+import Mathlib.Data.Finset.Attr
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.List.Infix
+import Mathlib.Data.Rat.Floor
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.UpperLower.Basic
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Bound.Init
+import Mathlib.Tactic.Continuity.Init
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Tactic.Measurability.Init
+import Mathlib.Tactic.NormNum.Abs
+import Mathlib.Tactic.NormNum.DivMod
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Tactic.NormNum.GCD
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Tactic.Positivity.Basic
+import Mathlib.Algebra.Order.BigOperators.Expect
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Field.Power
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Module.Algebra
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Data.List.Perm.Subperm
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Data.Sym.Sym2.Init
+import Mathlib.MeasureTheory.Function.LpSpace.ContinuousCompMeasurePreserving
+import Mathlib.Algebra.BigOperators.Group.List.Defs
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Continuity of the action of `Mᵈᵐᵃ` on `MeasureSpace.Lp E p μ`

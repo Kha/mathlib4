@@ -5,8 +5,9 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.DerivedCategory.Fractions
 public import Mathlib.Algebra.Homology.SingleHomology
+public import Mathlib.Algebra.Homology.DerivedCategory.HomologySequence
+import Mathlib.Algebra.Homology.DerivedCategory.Fractions
 
 /-! # The fully faithful embedding of the abelian category in its derived category
 

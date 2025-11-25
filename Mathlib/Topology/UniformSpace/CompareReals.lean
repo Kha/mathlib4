@@ -8,6 +8,9 @@ module
 public import Mathlib.Topology.Instances.Rat
 public import Mathlib.Topology.UniformSpace.AbsoluteValue
 public import Mathlib.Topology.UniformSpace.Completion
+import Mathlib.Topology.Order.T5
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Comparison of Cauchy reals and Bourbaki reals

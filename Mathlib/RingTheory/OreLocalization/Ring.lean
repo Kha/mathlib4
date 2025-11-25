@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.Algebra.Defs
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.RingTheory.OreLocalization.NonZeroDivisors
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 

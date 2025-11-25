@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Topology.Category.TopCat.Basic
 public import Mathlib.Topology.Homeomorph.Lemmas
+import Mathlib.Tactic.Lemma
 
 /-!
 # Lifting topological spaces to a higher universe

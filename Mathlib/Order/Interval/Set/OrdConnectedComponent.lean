@@ -5,8 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Order.Interval.Set.OrdConnected
-public import Mathlib.Data.Set.Lattice.Image
+public import Mathlib.Data.Set.BooleanAlgebra
+public import Mathlib.Order.Interval.Set.UnorderedInterval
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Logic.Equiv.Set
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 # Order connected components of a set

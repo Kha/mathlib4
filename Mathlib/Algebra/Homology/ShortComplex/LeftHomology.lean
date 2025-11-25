@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.Kernels
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Left Homology of short complexes

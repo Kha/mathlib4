@@ -9,6 +9,9 @@ public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 public import Mathlib.LinearAlgebra.Matrix.SpecialLinearGroup
 public import Mathlib.LinearAlgebra.GeneralLinearGroup
 public import Mathlib.Algebra.Ring.Subring.Units
+public import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The General Linear group $GL(n, R)$

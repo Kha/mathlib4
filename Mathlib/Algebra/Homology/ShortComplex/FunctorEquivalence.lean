@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.ShortComplex.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Short complexes in functor categories

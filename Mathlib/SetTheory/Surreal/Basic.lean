@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Algebra.Order.Hom.Monoid
 public import Mathlib.SetTheory.Game.Ordinal
-public import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Data.Nat.Cast.Basic
 
 deprecated_module
   "This module is now at `CombinatorialGames.Surreal.Basic` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

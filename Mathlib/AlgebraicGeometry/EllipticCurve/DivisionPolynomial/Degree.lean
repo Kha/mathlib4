@@ -6,7 +6,14 @@ Authors: David Kurniadi Angdinata
 module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.DivisionPolynomial.Basic
-public import Mathlib.Tactic.ComputeDegree
+import Mathlib.Tactic.ComputeDegree
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Int.Parity
 
 /-!
 # Division polynomials of Weierstrass curves

@@ -6,7 +6,10 @@ Authors: Johannes Hölzl, Jens Wagemaker
 module
 
 public import Mathlib.Algebra.GroupWithZero.Associated
-public import Mathlib.Algebra.Ring.Units
+public import Mathlib.Algebra.Ring.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Units
 
 /-!
 # Associated elements in rings

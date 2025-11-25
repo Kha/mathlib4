@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Exact
 public import Mathlib.Algebra.Module.LocalizedModule.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization of modules is an exact functor

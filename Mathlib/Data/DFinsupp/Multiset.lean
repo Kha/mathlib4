@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.DFinsupp.BigOperators
 public import Mathlib.Data.DFinsupp.Order
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.DFinsupp.Ext
+import Mathlib.Algebra.Group.Nat.Hom
 
 /-!
 # Equivalence between `Multiset` and `ℕ`-valued finitely supported functions

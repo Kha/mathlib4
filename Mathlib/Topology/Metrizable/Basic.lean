@@ -5,7 +5,10 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.MetricSpace.Basic
+public import Mathlib.Topology.MetricSpace.Defs
+public import Mathlib.Topology.Separation.Hausdorff
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.Basic
 
 /-!
 # Metrizability of a T₃ topological space with second countable topology

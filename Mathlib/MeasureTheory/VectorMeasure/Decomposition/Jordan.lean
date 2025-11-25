@@ -8,6 +8,15 @@ module
 public import Mathlib.MeasureTheory.VectorMeasure.Decomposition.Hahn
 public import Mathlib.MeasureTheory.Measure.MutuallySingular
 public import Mathlib.Topology.Algebra.UniformMulAction
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.SymmDiff
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Jordan decomposition

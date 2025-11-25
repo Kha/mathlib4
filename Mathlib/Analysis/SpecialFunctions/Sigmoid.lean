@@ -5,12 +5,37 @@ Authors: Gaëtan Serré, Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Inv
 public import Mathlib.Analysis.InnerProductSpace.Basic
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 public import Mathlib.MeasureTheory.Constructions.Polish.EmbeddingReal
 public import Mathlib.Topology.Algebra.Module.ModuleTopology
+public import Mathlib.Tactic.Bound
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Analytic.Composition
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Inv
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Sigmoid function

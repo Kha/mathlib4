@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 public import Mathlib.Topology.Bornology.Hom
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of bornologies

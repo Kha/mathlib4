@@ -6,11 +6,19 @@ Authors: David Loeffler
 module
 
 public import Mathlib.Analysis.Fourier.AddCircle
-public import Mathlib.Analysis.Fourier.FourierTransform
-public import Mathlib.Analysis.PSeries
 public import Mathlib.Analysis.Distribution.FourierSchwartz
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
 public import Mathlib.Topology.ContinuousMap.Periodic
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Data.Countable.Basic
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 /-!
 # Poisson's summation formula

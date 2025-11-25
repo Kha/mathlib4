@@ -5,9 +5,11 @@ Authors: Kim Morrison, Reid Barton, Joël Riou
 -/
 module
 
-public import Mathlib.Logic.UnivLE
 public import Mathlib.CategoryTheory.Limits.HasLimits
 public import Mathlib.CategoryTheory.Limits.Types.ColimitType
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Colimits in the category of types

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Sites.Sieves
 public import Mathlib.CategoryTheory.EffectiveEpi.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 
 # Effective epimorphic sieves

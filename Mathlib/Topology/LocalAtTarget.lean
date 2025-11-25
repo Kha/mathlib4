@@ -5,10 +5,13 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Topology.Homeomorph.Lemmas
 public import Mathlib.Topology.Sets.OpenCover
-public import Mathlib.Topology.LocallyClosed
 public import Mathlib.Topology.Maps.Proper.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.LocallyClosed
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Homeomorph.Lemmas
 
 /-!
 # Properties of maps that are local at the target or at the source.

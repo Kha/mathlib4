@@ -6,9 +6,18 @@ Authors: Chris Birkbeck
 module
 
 public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
-public import Mathlib.Analysis.Calculus.UniformLimitsDeriv
-public import Mathlib.Analysis.Normed.Group.FunctionSeries
 public import Mathlib.Topology.Algebra.InfiniteSum.UniformOn
+public import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Calculus.UniformLimitsDeriv
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Normed.Group.FunctionSeries
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
 
 /-!
 # Differentiability of sum of functions

@@ -5,9 +5,16 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
 public import Mathlib.Topology.Algebra.ContinuousAffineMap
 public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
 
 /-!
 # Smooth affine maps

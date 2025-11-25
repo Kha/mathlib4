@@ -5,9 +5,19 @@ Authors: Chris Hughes, Yury Kudryashov, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
 public import Mathlib.Algebra.Module.Defs
-public import Mathlib.Data.Fintype.BigOperators
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Data.Fintype.Pi
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.End
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Finite sums over modules over a ring

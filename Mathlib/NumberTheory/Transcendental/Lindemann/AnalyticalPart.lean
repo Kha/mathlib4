@@ -6,11 +6,23 @@ Authors: Yuyang Zhao
 module
 
 public import Mathlib.Algebra.Polynomial.SumIteratedDerivative
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
-public import Mathlib.RingTheory.Int.Basic
-public import Mathlib.Topology.Algebra.Polynomial
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.Int.Basic
+import Mathlib.Topology.Algebra.Polynomial
+import Mathlib.Algebra.Polynomial.Degree.Domain
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Polynomial
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Analytic part of the Lindemann-Weierstrass theorem

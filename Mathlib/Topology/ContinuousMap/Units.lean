@@ -5,9 +5,12 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.Normed.Ring.Units
 public import Mathlib.Algebra.Algebra.Spectrum.Basic
 public import Mathlib.Topology.ContinuousMap.Algebra
+public import Mathlib.Analysis.Normed.Field.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Ring.Units
 
 /-!
 # Units of continuous functions

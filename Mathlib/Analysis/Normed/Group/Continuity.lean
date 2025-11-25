@@ -6,9 +6,25 @@ Authors: Patrick Massot, Johannes Hölzl, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Normed.Group.Basic
-public import Mathlib.Topology.Algebra.Ring.Real
-public import Mathlib.Topology.Metrizable.Uniformity
-public import Mathlib.Topology.Sequences
+public import Mathlib.Topology.UniformSpace.Real
+public import Mathlib.Algebra.Group.Subgroup.Ker
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Sequences
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Continuity of the norm on (semi)groups

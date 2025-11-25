@@ -6,10 +6,21 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.Probability.ConditionalProbability
-public import Mathlib.Probability.Kernel.Basic
-public import Mathlib.Probability.Kernel.Composition.MeasureComp
-public import Mathlib.Tactic.Peel
-public import Mathlib.MeasureTheory.MeasurableSpace.Pi
+public import Mathlib.Probability.Kernel.Composition.CompNotation
+public import Mathlib.Probability.Kernel.Composition.MeasureCompProd
+public import Mathlib.Probability.Kernel.Composition.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.MeasureTheory.MeasurableSpace.Pi
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Tactic.Attr.Register
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.Probability.Kernel.Composition.MeasureComp
 
 /-!
 # Independence with respect to a kernel and a measure

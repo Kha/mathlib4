@@ -5,8 +5,8 @@ Authors: Lu-Ming Zhang
 -/
 module
 
-public import Mathlib.Data.Matrix.Basic
 public import Mathlib.Data.Matrix.Block
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Symmetric matrices

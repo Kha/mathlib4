@@ -6,10 +6,40 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.Convex.Between
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 public import Mathlib.Topology.MetricSpace.Holder
 public import Mathlib.Topology.MetricSpace.MetricSeparated
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.Logic.Encodable.Lattice
+import Mathlib.Order.CompleteLattice.Finset
+import Mathlib.Order.Filter.IsBounded
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Hausdorff measure and metric (outer) measures

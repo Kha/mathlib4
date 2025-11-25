@@ -6,7 +6,16 @@ Authors: Yury Kudryashov, Patrick Massot, Eric Wieser, Yaël Dillies
 module
 
 public import Mathlib.Analysis.Normed.Module.Basic
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Normed.Group.Continuity
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Basic facts about real (semi)normed spaces

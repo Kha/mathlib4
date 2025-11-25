@@ -6,7 +6,16 @@ Authors: Devon Tuma
 module
 
 public import Mathlib.Algebra.Polynomial.Eval.Defs
-public import Mathlib.Analysis.Asymptotics.Lemmas
+public import Mathlib.Analysis.Asymptotics.Defs
+public import Mathlib.Topology.Algebra.Monoid.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
 
 /-!
 # Super-Polynomial Function Decay

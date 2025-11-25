@@ -5,12 +5,27 @@ Authors: Vincent Beffara, Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Analytic.Constructions
 public import Mathlib.Analysis.Calculus.DSlope
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
-public import Mathlib.Analysis.Analytic.Uniqueness
 public import Mathlib.Order.Filter.EventuallyConst
-public import Mathlib.Topology.Perfect
+public import Mathlib.Topology.DiscreteSubset
+public import Mathlib.Analysis.Analytic.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Analytic.Uniqueness
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Principle of isolated zeros

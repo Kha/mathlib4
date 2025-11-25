@@ -6,9 +6,16 @@ Authors: María Inés de Frutos-Fernández
 module
 
 public import Mathlib.Analysis.Normed.Field.Basic
-public import Mathlib.Analysis.Normed.Group.Ultra
 public import Mathlib.RingTheory.Valuation.RankOne
 public import Mathlib.Topology.Algebra.Valued.ValuationTopology
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Order.Ring.Basic
+public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.RCLike.Basic
+import Mathlib.Analysis.Normed.Group.Ultra
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
 
 /-!
 # Correspondence between nontrivial nonarchimedean norms and rank one valuations

@@ -6,6 +6,9 @@ Authors: Jovan Gerbscheid, Newell Jensen
 module
 
 public import Mathlib.Topology.MetricSpace.Congruence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
 
 /-!
 # Similarities

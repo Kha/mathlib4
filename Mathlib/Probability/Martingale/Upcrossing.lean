@@ -5,10 +5,27 @@ Authors: Kexing Ying
 -/
 module
 
-public import Mathlib.Order.Interval.Set.Monotone
 public import Mathlib.Probability.Process.HittingTime
 public import Mathlib.Probability.Martingale.Basic
-public import Mathlib.Tactic.AdaptationNote
+public import Mathlib.Probability.Notation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.AlexandrovDiscrete
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Order.ConditionallyCompleteLattice.Finset
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Order.Interval.Set.Monotone
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 

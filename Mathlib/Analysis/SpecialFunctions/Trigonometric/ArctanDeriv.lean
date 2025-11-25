@@ -6,7 +6,18 @@ Authors: Chris Hughes, Abhimanyu Pallavi Sudhir, Jean Lo, Calle Sönne, Benjamin
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.ComplexDeriv
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Complex.RealDeriv
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Inverse
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.ComplexDeriv
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Derivatives of the `tan` and `arctan` functions.

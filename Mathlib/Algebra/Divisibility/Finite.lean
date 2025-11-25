@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Divisibility.Basic
 public import Mathlib.Data.Fintype.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Divisibility in finite types

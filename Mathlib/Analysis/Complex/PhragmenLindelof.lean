@@ -5,8 +5,36 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Complex.AbsMax
 public import Mathlib.Analysis.Asymptotics.SuperpolynomialDecay
+public import Mathlib.Analysis.Calculus.DiffContOnCl
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.AbsMax
+import Mathlib.Analysis.Complex.ReImTopology
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Disjoint
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Phragmen-Lindelöf principle

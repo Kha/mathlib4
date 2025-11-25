@@ -6,9 +6,18 @@ Authors: Anatole Dedecker, Eric Wieser
 module
 
 public import Mathlib.Analysis.Normed.Algebra.Exponential
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
 public import Mathlib.Analysis.Complex.Exponential
-public import Mathlib.Topology.MetricSpace.CauSeqFilter
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.MetricSpace.CauSeqFilter
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Calculus.FDeriv.Analytic
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
 
 /-!
 # Calculus results on exponential in a Banach algebra

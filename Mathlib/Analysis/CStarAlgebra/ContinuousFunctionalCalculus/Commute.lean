@@ -6,6 +6,11 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Instances
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
 
 /-! # Commuting with applications of the continuous functional calculus
 

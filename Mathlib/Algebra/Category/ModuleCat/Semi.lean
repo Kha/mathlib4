@@ -12,6 +12,8 @@ public import Mathlib.Algebra.Module.Equiv.Basic
 public import Mathlib.Algebra.Module.PUnit
 public import Mathlib.CategoryTheory.Conj
 public import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of `R`-modules

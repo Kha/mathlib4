@@ -6,9 +6,8 @@ Authors: Jujian Zhang, Kim Morrison, Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.QuasiIso
-public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
 public import Mathlib.Algebra.Homology.SingleHomology
-public import Mathlib.CategoryTheory.Preadditive.Injective.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # Injective resolutions

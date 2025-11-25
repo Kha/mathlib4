@@ -5,11 +5,16 @@ Authors: Markus Himmel, Kim Morrison
 -/
 module
 
-public import Mathlib.Algebra.Group.Ext
 public import Mathlib.CategoryTheory.Simple
 public import Mathlib.CategoryTheory.Linear.Basic
-public import Mathlib.CategoryTheory.Endomorphism
-public import Mathlib.FieldTheory.IsAlgClosed.Spectrum
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.IsAlgClosed.Spectrum
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.LocalRing.Basic
 
 /-!
 # Schur's lemma

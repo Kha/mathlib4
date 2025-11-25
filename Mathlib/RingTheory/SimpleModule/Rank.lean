@@ -5,8 +5,10 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
 public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
 
 /-!
 # A module over a division ring is simple iff it has rank one

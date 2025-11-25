@@ -5,8 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Order.Minimal
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Finset.Empty
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Basic
 
 /-!
 # Finite preorders and finite sets in a preorder

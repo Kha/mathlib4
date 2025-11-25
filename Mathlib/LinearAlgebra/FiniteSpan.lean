@@ -8,6 +8,9 @@ module
 public import Mathlib.GroupTheory.OrderOfElement
 public import Mathlib.LinearAlgebra.Span.Defs
 public import Mathlib.Algebra.Module.Equiv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finite.Prod
 
 /-!
 

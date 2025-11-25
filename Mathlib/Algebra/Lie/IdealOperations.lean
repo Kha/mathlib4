@@ -6,6 +6,7 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.Ideal
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Ideal operations for Lie algebras

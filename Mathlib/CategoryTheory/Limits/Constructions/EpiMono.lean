@@ -5,9 +5,11 @@ Authors: Bhavik Mehta
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Shapes.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
+public import Mathlib.CategoryTheory.Functor.EpiMono
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.PullbackCone
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
+import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono
 
 /-!
 # Relating monomorphisms and epimorphisms to limits and colimits

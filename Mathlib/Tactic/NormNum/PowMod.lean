@@ -5,7 +5,12 @@ Authors: Markus Himmel
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Algebra.NeZero
+import Mathlib.Data.Nat.Basic
+import Mathlib.Tactic.NormNum.Pow
 
 /-!
 # `norm_num` handling for expressions of the form `a ^ b % m`.

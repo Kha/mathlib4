@@ -5,11 +5,27 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Data.NNReal.Basic
 public import Mathlib.Topology.Algebra.InfiniteSum.Order
-public import Mathlib.Topology.Algebra.InfiniteSum.Ring
-public import Mathlib.Topology.Algebra.Ring.Real
-public import Mathlib.Topology.ContinuousMap.Basic
+public import Mathlib.Topology.UniformSpace.Real
+public import Mathlib.Order.Filter.AtTopBot.Tendsto
+public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Topology.Order.T5
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Ring
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Topology on `ℝ≥0`

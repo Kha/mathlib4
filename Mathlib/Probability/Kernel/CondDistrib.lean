@@ -5,8 +5,21 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.Lemmas
-public import Mathlib.Probability.Kernel.Disintegration.Unique
+public import Mathlib.Probability.Notation
+public import Mathlib.Topology.GDelta.MetrizableSpace
+public import Mathlib.Probability.Kernel.Composition.CompNotation
+public import Mathlib.Probability.Kernel.Disintegration.StandardBorel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Probability.Kernel.MeasurableIntegral
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Probability.Kernel.Composition.Lemmas
+import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Probability.Kernel.Disintegration.Integral
+import Mathlib.Probability.Kernel.Disintegration.Unique
 
 /-!
 # Regular conditional probability distribution

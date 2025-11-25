@@ -5,10 +5,11 @@ Authors: Stephen Morgan, Kim Morrison, Johannes Hölzl, Reid Barton
 -/
 module
 
-public import Mathlib.CategoryTheory.Equivalence
 public import Mathlib.CategoryTheory.EqToHom
 public import Mathlib.Order.Hom.Basic
-public import Mathlib.Data.ULift
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 

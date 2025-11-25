@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Quotient
 public import Mathlib.CategoryTheory.Sites.Hypercover.One
 public import Mathlib.CategoryTheory.Filtered.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of `1`-hypercovers up to homotopy

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Polynomial.Module.Basic
 public import Mathlib.RingTheory.TensorProduct.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # PolynomialModule is isomorphic to a tensor product

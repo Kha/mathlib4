@@ -6,6 +6,10 @@ Authors: Johannes Hölzl, Floris van Doorn, Sébastien Gouëzel, Alex J. Best
 module
 
 public import Mathlib.Algebra.Group.Defs
+public import Batteries.Data.List.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Lemmas
 
 /-!
 # Sums and products from lists

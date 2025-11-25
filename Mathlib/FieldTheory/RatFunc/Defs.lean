@@ -6,8 +6,9 @@ Authors: Anne Baanen
 module
 
 public import Mathlib.Algebra.Polynomial.Basic
-public import Mathlib.Algebra.Ring.NonZeroDivisors
 public import Mathlib.RingTheory.Localization.FractionRing
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.NonZeroDivisors
 
 /-!
 # The field of rational functions

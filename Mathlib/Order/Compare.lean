@@ -5,8 +5,9 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Ordering.Basic
 public import Mathlib.Order.Synonym
+import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Comparison

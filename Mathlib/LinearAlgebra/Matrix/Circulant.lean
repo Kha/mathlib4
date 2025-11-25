@@ -5,9 +5,11 @@ Authors: Lu-Ming Zhang
 -/
 module
 
-public import Mathlib.Algebra.Group.Fin.Basic
 public import Mathlib.LinearAlgebra.Matrix.Symmetric
-public import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Group.Fin.Basic
 
 /-!
 # Circulant matrices

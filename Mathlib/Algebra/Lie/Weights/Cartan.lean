@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Lie.CartanSubalgebra
 public import Mathlib.Algebra.Lie.Weights.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Weights and roots of Lie modules and Lie algebras with respect to Cartan subalgebras

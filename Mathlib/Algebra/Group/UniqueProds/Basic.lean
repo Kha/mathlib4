@@ -5,13 +5,20 @@ Authors: Damiano Testa
 -/
 module
 
-public import Mathlib.Algebra.Group.Equiv.Opposite
 public import Mathlib.Algebra.Group.Finsupp
-public import Mathlib.Algebra.Group.Pi.Lemmas
-public import Mathlib.Algebra.Group.Pointwise.Finset.Basic
 public import Mathlib.Algebra.Group.TypeTags.Basic
-public import Mathlib.Algebra.Group.ULift
 public import Mathlib.Data.DFinsupp.Defs
+public import Mathlib.Algebra.Opposites
+public import Mathlib.Data.Finset.Preimage
+public import Mathlib.Data.Finset.Prod
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.ULift
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Group.Equiv.Opposite
+import Mathlib.Algebra.Group.Pi.Lemmas
+import Mathlib.Algebra.Group.Pointwise.Finset.Basic
 
 /-!
 # Unique products and related notions

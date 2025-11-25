@@ -5,9 +5,14 @@ Authors: Hannah Fechtner
 -/
 module
 
-public import Mathlib.Data.List.Lex
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Order.RelClasses
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Order.Defs.Unbundled
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Lex
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Shortlex ordering of lists.

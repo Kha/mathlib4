@@ -5,10 +5,28 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.NumberTheory.RamificationInertia.Unramified
 public import Mathlib.RingTheory.Conductor
 public import Mathlib.RingTheory.FractionalIdeal.Extended
-public import Mathlib.RingTheory.Trace.Quotient
+public import Mathlib.RingTheory.Discriminant
+public import Mathlib.LinearAlgebra.BilinearForm.DualLattice
+public import Mathlib.RingTheory.DedekindDomain.Dvr
+public import Mathlib.RingTheory.FractionalIdeal.Inverse
+public import Mathlib.RingTheory.IntegralClosure.IntegralRestrict
+public import Mathlib.RingTheory.Unramified.Locus
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.NumberTheory.RamificationInertia.Unramified
+import Mathlib.RingTheory.DedekindDomain.IntegralClosure
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Quotient
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.RingHom.Finite
+import Mathlib.RingTheory.Trace.Quotient
+import Mathlib.RingTheory.Unramified.Field
+import Mathlib.RingTheory.Unramified.LocalRing
+import Mathlib.RingTheory.LocalRing.ResidueField.Instances
 
 /-!
 # The different ideal

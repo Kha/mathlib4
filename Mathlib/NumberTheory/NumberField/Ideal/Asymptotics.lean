@@ -5,8 +5,17 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.NormLeOne
 public import Mathlib.NumberTheory.NumberField.ClassNumber
+public import Mathlib.NumberTheory.NumberField.Units.Regulator
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.MetricSpace.Polish
+import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.NormLeOne
+import Mathlib.NumberTheory.NumberField.Discriminant.Basic
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Topology.Algebra.Order.Field
 
 /-!
 # Asymptotics on integral ideals of a number field

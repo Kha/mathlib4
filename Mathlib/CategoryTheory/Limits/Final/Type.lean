@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Limits.Final
+import Mathlib.Tactic.Lemma
 
 /-!
 # Action of an initial functor on sections

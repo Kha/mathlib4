@@ -5,14 +5,36 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Analytic.CPolynomial
-public import Mathlib.Analysis.Analytic.Inverse
-public import Mathlib.Analysis.Analytic.Within
 public import Mathlib.Analysis.Calculus.Deriv.Basic
 public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
-public import Mathlib.Analysis.Calculus.FDeriv.Add
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
-public import Mathlib.Analysis.Normed.Module.Completion
+public import Mathlib.Topology.OpenPartialHomeomorph
+public import Mathlib.Analysis.Analytic.CPolynomialDef
+public import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.Analytic.CPolynomial
+import Mathlib.Analysis.Analytic.Inverse
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Analysis.Analytic.Within
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Group.Fin.Tuple
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Congr
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Calculus.TangentCone.Basic
+import Mathlib.Analysis.Normed.Module.Completion
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Fréchet derivatives of analytic functions.

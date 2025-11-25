@@ -6,6 +6,8 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Topology.ContinuousMap.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Cocompact continuous maps

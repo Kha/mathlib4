@@ -5,7 +5,20 @@ Authors: David Loeffler, Stefan Kebekus
 -/
 module
 
-public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Topology.DiscreteSubset
+public import Mathlib.Analysis.Analytic.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.IsolatedZeros
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Meromorphic functions

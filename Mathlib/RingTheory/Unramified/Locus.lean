@@ -6,8 +6,11 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Spectrum.Prime.Topology
-public import Mathlib.RingTheory.Etale.Kaehler
 public import Mathlib.RingTheory.Support
+public import Mathlib.RingTheory.Unramified.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Etale.Kaehler
 
 /-!
 # Unramified locus of an algebra

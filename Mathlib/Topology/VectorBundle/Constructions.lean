@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Topology.FiberBundle.Constructions
 public import Mathlib.Topology.VectorBundle.Basic
-public import Mathlib.Analysis.Normed.Operator.Prod
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Operator.Prod
 
 /-!
 # Standard constructions on vector bundles

@@ -5,11 +5,24 @@ Authors: Alexander Bentkamp, Yury Kudryashov, Yaël Dillies, Joël Riou
 -/
 module
 
-public import Mathlib.Analysis.Convex.Combination
-public import Mathlib.Analysis.Convex.PathConnected
-public import Mathlib.Topology.Algebra.Monoid.FunOnFinite
-public import Mathlib.Topology.MetricSpace.ProperSpace.Real
-public import Mathlib.Topology.UnitInterval
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Analysis.Convex.Hull
+public import Mathlib.LinearAlgebra.Finsupp.Pi
+public import Mathlib.Topology.Connected.PathConnected
+public import Mathlib.Topology.MetricSpace.Pseudo.Pi
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Topology.Order.T5
+import Mathlib.Topology.Algebra.Monoid.FunOnFinite
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # The standard simplex

@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Topology.OpenPartialHomeomorph
 public import Mathlib.Topology.Connected.LocPathConnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # Charted spaces

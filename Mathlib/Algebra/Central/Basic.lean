@@ -6,6 +6,11 @@ Authors: Kevin Buzzard, Jujian Zhang, Yunzhou Xie
 module
 
 public import Mathlib.Algebra.Central.Defs
+public import Mathlib.Algebra.Algebra.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
 
 /-!
 # Central Algebras

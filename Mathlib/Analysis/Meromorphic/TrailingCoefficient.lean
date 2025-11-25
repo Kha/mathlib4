@@ -6,6 +6,19 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.Meromorphic.Order
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Analysis.Analytic.Constructions
+import Mathlib.Analysis.Analytic.Linear
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Topology.Algebra.Module.PerfectSpace
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The Trailing Coefficient of a Meromorphic Function

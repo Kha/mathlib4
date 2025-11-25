@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Complex.Arg
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.CharP.Basic
+import Mathlib.Data.Countable.Basic
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
 
 /-!
 # The complex `log` function

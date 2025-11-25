@@ -6,6 +6,12 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Instances
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.Bounds.Image
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
 
 /-! # Isometric continuous functional calculus
 

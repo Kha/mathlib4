@@ -5,8 +5,8 @@ Authors: Jannis Limperg
 -/
 module
 
-public import Mathlib.Util.AssertExists
 public import Mathlib.Data.List.Defs
+import Mathlib.Util.AssertExists
 
 /-!
 # Lemmas about List.*Idx functions.

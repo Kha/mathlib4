@@ -5,8 +5,9 @@ Authors: Sina Hazratpour
 -/
 module
 
-public import Mathlib.CategoryTheory.Functor.FullyFaithful
 public import Mathlib.CategoryTheory.MorphismProperty.Composition
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Wide subcategories

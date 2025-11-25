@@ -7,9 +7,15 @@ module
 
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.Order.Module.Defs
-public import Mathlib.Algebra.Order.Module.Synonym
-public import Mathlib.Algebra.Order.Monoid.OrderDual
 public import Mathlib.Order.Monotone.Monovary
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Module.Synonym
+import Mathlib.Algebra.Order.Monoid.OrderDual
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
+import Mathlib.Algebra.Order.Monoid.Unbundled.Pow
 
 /-!
 # Monovarying functions and algebraic operations

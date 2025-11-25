@@ -6,7 +6,18 @@ Authors: Lucas Whitfield, Johan Commelin
 module
 
 public import Mathlib.Algebra.Lie.Weights.Basic
-public import Mathlib.RingTheory.Finiteness.Nilpotent
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Eigenspace.Triangularizable
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Nilpotent
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Lie's theorem for Solvable Lie algebras.

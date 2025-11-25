@@ -5,11 +5,22 @@ Authors: Joseph Myers
 -/
 module
 
-public import Mathlib.Data.Fin.VecNotation
-public import Mathlib.Data.Sign.Basic
 public import Mathlib.LinearAlgebra.AffineSpace.Combination
 public import Mathlib.LinearAlgebra.AffineSpace.AffineEquiv
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import Mathlib.Data.Sign.Defs
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Sign.Basic
+import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Affine independence

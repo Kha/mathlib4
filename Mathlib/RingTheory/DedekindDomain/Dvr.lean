@@ -5,8 +5,17 @@ Authors: Kenji Nakagawa, Anne Baanen, Filippo A. E. Nuccio, Yongle Hu
 -/
 module
 
-public import Mathlib.RingTheory.DiscreteValuationRing.TFAE
-public import Mathlib.RingTheory.LocalProperties.IntegrallyClosed
+public import Mathlib.RingTheory.DedekindDomain.Basic
+public import Mathlib.RingTheory.DiscreteValuationRing.Basic
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.RingTheory.DiscreteValuationRing.TFAE
+import Mathlib.RingTheory.LocalProperties.IntegrallyClosed
+import Mathlib.RingTheory.Localization.Integral
+import Mathlib.RingTheory.Localization.LocalizationLocalization
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Dedekind domains

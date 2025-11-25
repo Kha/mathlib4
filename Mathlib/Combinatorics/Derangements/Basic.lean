@@ -7,9 +7,8 @@ module
 
 public import Mathlib.Dynamics.FixedPoints.Basic
 public import Mathlib.GroupTheory.Perm.Option
-public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Logic.Equiv.Option
-public import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Derangements on types

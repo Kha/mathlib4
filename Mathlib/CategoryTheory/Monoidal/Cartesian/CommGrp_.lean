@@ -5,9 +5,9 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.CategoryTheory.Monoidal.Cartesian.CommMon_
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp_
 public import Mathlib.CategoryTheory.Monoidal.CommGrp_
+import Mathlib.CategoryTheory.Monoidal.Cartesian.CommMon_
 
 /-!
 # Yoneda embedding of `CommGrp C`

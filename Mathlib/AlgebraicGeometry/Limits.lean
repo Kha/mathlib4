@@ -6,8 +6,19 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
-public import Mathlib.AlgebraicGeometry.Pullbacks
 public import Mathlib.AlgebraicGeometry.AffineScheme
+public import Mathlib.AlgebraicGeometry.Gluing
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
+public import Mathlib.Topology.Category.TopCat.Limits.Products
+import Mathlib.AlgebraicGeometry.Pullbacks
+import Mathlib.CategoryTheory.Extensive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Monad.Adjunction
+import Mathlib.Data.Set.Disjoint
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
 
 /-!
 # (Co)Limits of Schemes

@@ -5,9 +5,23 @@ Authors: Benjamin Davidson
 -/
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Log.NegMulLog
-public import Mathlib.Analysis.SpecialFunctions.NonIntegrable
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.SpecialFunctions.NonIntegrable
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.SpecialFunctions.Log.NegMulLog
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integrability of Special Functions

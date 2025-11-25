@@ -5,8 +5,15 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.CompMap
 public import Mathlib.Probability.Kernel.Composition.ParallelComp
+public import Mathlib.Probability.Kernel.Composition.Comp
+public import Mathlib.Probability.Kernel.Composition.MapComap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.Probability.Kernel.Composition.CompMap
 
 /-!
 # Product and composition of kernels

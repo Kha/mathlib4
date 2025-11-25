@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Pullback
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PushforwardContinuous
+import Mathlib.Tactic.Lemma
 
 /-!
 # Pullback of sheaves of modules

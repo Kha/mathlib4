@@ -5,9 +5,14 @@ Authors: Johan Commelin, Kenny Lau
 -/
 module
 
-public import Mathlib.Algebra.CharP.Defs
 public import Mathlib.RingTheory.Multiplicity
 public import Mathlib.RingTheory.PowerSeries.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-! # Formal power series (in one variable) - Order
 

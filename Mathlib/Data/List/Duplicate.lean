@@ -5,7 +5,11 @@ Authors: Yakov Pechersky, Chris Hughes
 -/
 module
 
-public import Mathlib.Data.List.Nodup
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Basic
+import Mathlib.Data.List.Nodup
 
 /-!
 # List duplicates

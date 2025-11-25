@@ -5,9 +5,11 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Finset.Basic
 public import Mathlib.Data.Finset.Image
-public import Mathlib.Data.Fintype.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # `Finset`s are a Boolean algebra

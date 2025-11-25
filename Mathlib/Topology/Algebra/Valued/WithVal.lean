@@ -9,6 +9,10 @@ public import Mathlib.RingTheory.Valuation.ValuativeRel.Basic
 public import Mathlib.Topology.UniformSpace.Completion
 public import Mathlib.Topology.Algebra.Valued.ValuationTopology
 public import Mathlib.NumberTheory.NumberField.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.FieldTheory.PurelyInseparable.Basic
 
 /-!
 # Ring topologised by a valuation

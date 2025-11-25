@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.ContinuedFractions.Basic
 public import Mathlib.Algebra.Order.Floor.Defs
+public import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Computable Continued Fractions

@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Subgroup.Defs
 public import Mathlib.Algebra.Order.Group.Unbundled.Basic
 public import Mathlib.Algebra.Order.Monoid.Submonoid
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Construct ordered groups from groups with a specified positive cone.

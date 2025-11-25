@@ -7,7 +7,14 @@ module
 
 public import Mathlib.RingTheory.DedekindDomain.Dvr
 public import Mathlib.RingTheory.IntegralClosure.IntegralRestrict
-public import Mathlib.RingTheory.LocalRing.Quotient
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.DiscreteValuationRing.TFAE
+import Mathlib.RingTheory.LocalRing.Quotient
+import Mathlib.RingTheory.RingHom.Finite
+import Mathlib.RingTheory.Trace.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 

@@ -6,6 +6,10 @@ Authors: Michael Blyth
 module
 
 public import Mathlib.LinearAlgebra.Projectivization.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 # Subspaces of Projective Space

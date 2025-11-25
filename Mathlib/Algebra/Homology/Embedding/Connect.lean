@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.Embedding.RestrictionHomology
+public import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Connecting a chain complex and a cochain complex

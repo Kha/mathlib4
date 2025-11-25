@@ -8,6 +8,13 @@ module
 public import Mathlib.Data.Fintype.Option
 public import Mathlib.Topology.Homeomorph.Lemmas
 public import Mathlib.Topology.Sets.Opens
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # The OnePoint Compactification

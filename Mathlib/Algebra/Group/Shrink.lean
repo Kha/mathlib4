@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Action.TransferInstance
 public import Mathlib.Logic.Small.Defs
-public import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Transfer group structures from `α` to `Shrink α`

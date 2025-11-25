@@ -5,10 +5,27 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
-public import Mathlib.Analysis.CStarAlgebra.SpecialFunctions.PosPart
-public import Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic
 public import Mathlib.Topology.ApproximateUnit
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.CStarAlgebra.Spectrum
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Data.Real.StarOrdered
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Module.Field
+import Mathlib.Algebra.Order.Ring.Canonical
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
+import Mathlib.Analysis.CStarAlgebra.SpecialFunctions.PosPart
+import Mathlib.Algebra.Order.Interval.Set.Group
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-! # Nonnegative contractions in a C⋆-algebra form an approximate unit
 

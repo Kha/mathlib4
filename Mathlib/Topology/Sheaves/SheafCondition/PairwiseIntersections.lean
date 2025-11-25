@@ -7,9 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Category.Pairwise
 public import Mathlib.CategoryTheory.Limits.Constructions.BinaryProducts
-public import Mathlib.CategoryTheory.Limits.Final
-public import Mathlib.CategoryTheory.Limits.Preserves.Basic
 public import Mathlib.Topology.Sheaves.SheafCondition.OpensLeCover
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
 
 /-!
 # Equivalent formulations of the sheaf condition

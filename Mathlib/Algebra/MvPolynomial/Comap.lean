@@ -6,6 +6,7 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.MvPolynomial.Rename
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `comap` operation on `MvPolynomial`

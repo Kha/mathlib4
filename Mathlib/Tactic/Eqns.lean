@@ -8,8 +8,6 @@ module
 public import Mathlib.Init
 public meta import Lean.Meta.Eqns
 public meta import Batteries.Lean.NameMapAttribute
-public meta import Lean.Elab.Exception
-public meta import Lean.Elab.InfoTree.Main
 
 /-! # The `@[eqns]` attribute
 

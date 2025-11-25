@@ -5,8 +5,11 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Mathlib.RepresentationTheory.Homological.GroupCohomology.Basic
 public import Mathlib.RepresentationTheory.Homological.GroupCohomology.LowDegree
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Functoriality of group cohomology

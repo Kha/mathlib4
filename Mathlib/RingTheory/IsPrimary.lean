@@ -5,8 +5,12 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.LinearAlgebra.Quotient.Basic
-public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.LinearAlgebra.Quotient.Defs
+public import Mathlib.Algebra.Module.Submodule.Pointwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.RingTheory.Ideal.Operations
 
 /-!
 # Primary submodules

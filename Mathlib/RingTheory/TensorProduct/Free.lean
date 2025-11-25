@@ -7,8 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.DirectSum.Finsupp
 public import Mathlib.LinearAlgebra.Finsupp.Pi
-public import Mathlib.LinearAlgebra.FreeModule.Basic
 public import Mathlib.LinearAlgebra.Matrix.ToLin
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Results on bases of tensor products

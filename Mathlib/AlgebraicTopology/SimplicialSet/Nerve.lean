@@ -7,6 +7,8 @@ module
 
 public import Mathlib.AlgebraicTopology.SimplicialSet.Basic
 public import Mathlib.CategoryTheory.ComposableArrows.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

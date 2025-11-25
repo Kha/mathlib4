@@ -5,9 +5,16 @@ Authors: Jireh Loreaux, Jon Bannon
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.Unitization
 public import Mathlib.Analysis.CStarAlgebra.Classes
-public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.Analysis.Normed.Operator.Mul
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Analysis.CStarAlgebra.Unitization
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 
 /-!
 # Multiplier Algebra of a C⋆-algebra

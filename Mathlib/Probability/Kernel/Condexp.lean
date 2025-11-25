@@ -5,9 +5,17 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.MeasureComp
 public import Mathlib.Probability.Kernel.CondDistrib
-public import Mathlib.Probability.ConditionalProbability
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Indicator
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Probability.Kernel.Composition.MeasureComp
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Kernel associated with a conditional expectation

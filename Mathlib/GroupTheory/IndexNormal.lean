@@ -5,9 +5,16 @@ Authors: Antoine Chambert-Loir
 -/
 module
 
-public import Mathlib.Data.Finite.Perm
-public import Mathlib.Data.Nat.Prime.Factorial
 public import Mathlib.GroupTheory.Index
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Data.Finite.Perm
+import Mathlib.GroupTheory.Coset.Card
+import Mathlib.GroupTheory.GroupAction.Quotient
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Factorial
 
 /-! # Subgroups of small index are normal
 

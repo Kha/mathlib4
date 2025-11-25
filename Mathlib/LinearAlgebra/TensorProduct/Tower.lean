@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.LinearAlgebra.TensorProduct.Associator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Span.Basic
 
 /-!
 # The `A`-module structure on `M ⊗[R] N`

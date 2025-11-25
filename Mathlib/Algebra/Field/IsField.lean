@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Tactic.Common
+public import Mathlib.Logic.ExistsUnique
+import Mathlib.Tactic.Lemma
 
 /-!
 # `IsField` predicate

@@ -5,8 +5,21 @@ Authors: Johannes Hölzl, Mario Carneiro, Jeremy Avigad
 -/
 module
 
-public import Mathlib.Order.Filter.AtTopBot.Basic
-public import Mathlib.Topology.Closure
+public import Mathlib.Tactic.Common
+public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Order.Filter.AtTopBot.Defs
+public import Mathlib.Order.Filter.Bases.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
+import Mathlib.Topology.Closure
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Tendsto
 
 /-!
 # Neighborhoods in topological spaces

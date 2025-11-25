@@ -5,11 +5,14 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Divisibility.Hom
 public import Mathlib.Algebra.Group.Even
-public import Mathlib.Algebra.Group.Nat.Hom
 public import Mathlib.Algebra.Ring.Hom.Defs
 public import Mathlib.Algebra.Ring.Nat
+public import Mathlib.Algebra.Divisibility.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Group.Nat.Hom
 
 /-!
 # Cast of natural numbers (additional theorems)

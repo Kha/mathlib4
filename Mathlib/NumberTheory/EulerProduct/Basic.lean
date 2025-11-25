@@ -5,10 +5,25 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
-public import Mathlib.Analysis.SpecificLimits.Normed
 public import Mathlib.NumberTheory.ArithmeticFunction
 public import Mathlib.NumberTheory.SmoothNumbers
+public import Mathlib.Analysis.Normed.Field.Basic
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.SpecificLimits.Normed
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Analysis.Normed.Ring.InfiniteSum
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
 
 /-!
 # Euler Products

@@ -5,8 +5,11 @@ Authors: Manuel Candales, Benjamin Davidson
 -/
 module
 
-public import Mathlib.Geometry.Euclidean.Sphere.Power
-public import Mathlib.Geometry.Euclidean.Triangle
+public import Mathlib.Geometry.Euclidean.Sphere.Basic
+public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
+import Mathlib.Tactic.TypeStar
+import Mathlib.Geometry.Euclidean.Triangle
+import Mathlib.Geometry.Euclidean.Sphere.Power
 
 /-!
 # Ptolemy's theorem

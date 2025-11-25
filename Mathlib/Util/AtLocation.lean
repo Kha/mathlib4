@@ -8,6 +8,7 @@ module
 public import Mathlib.Init
 public meta import Lean.Elab.Tactic.Location
 public meta import Lean.Meta.Tactic.Simp.Main
+import Lean.Elab.Tactic.Location
 
 /-!
 # Rewriting at specified locations

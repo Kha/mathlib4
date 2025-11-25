@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Condensed.TopComparison
 public import Mathlib.Topology.Category.CompactlyGenerated
+public import Mathlib.CategoryTheory.Adjunction.Restrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Category.TopCat.EpiMono
 /-!
 
 # The adjunction between condensed sets and topological spaces

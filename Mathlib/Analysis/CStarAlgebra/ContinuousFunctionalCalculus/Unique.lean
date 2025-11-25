@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.NonUnital
-public import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousMap.StoneWeierstrass
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Uniqueness of the continuous functional calculus

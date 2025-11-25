@@ -8,6 +8,10 @@ module
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.Data.Finset.Lattice.Fold
 public import Mathlib.Data.Rel
+public import Mathlib.Algebra.Notation.Pi.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 
 /-!
 # Pseudometrics as bundled functions

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Category.PartOrd
 public import Mathlib.Order.Hom.BoundedLattice
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The categories of semilattices

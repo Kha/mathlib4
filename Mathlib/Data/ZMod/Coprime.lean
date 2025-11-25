@@ -5,11 +5,15 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Algebra.EuclideanDomain.Int
-public import Mathlib.Data.Nat.Prime.Int
-public import Mathlib.Data.ZMod.Basic
-public import Mathlib.RingTheory.Int.Basic
-public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.RingTheory.Coprime.Basic
+public import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Algebra.GCDMonoid.Nat
+import Mathlib.Data.ZMod.Basic
+import Mathlib.RingTheory.Coprime.Lemmas
+import Mathlib.RingTheory.Int.Basic
+import Mathlib.Data.Nat.Prime.Int
 
 /-!
 # Coprimality and vanishing

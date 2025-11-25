@@ -5,8 +5,12 @@ Authors: Joanna Choules
 -/
 module
 
-public import Mathlib.CategoryTheory.CofilteredSystem
 public import Mathlib.Combinatorics.SimpleGraph.Subgraph
+public import Mathlib.CategoryTheory.Category.Preorder
+public import Mathlib.CategoryTheory.Types.Basic
+import Mathlib.CategoryTheory.CofilteredSystem
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Homomorphisms from finite subgraphs

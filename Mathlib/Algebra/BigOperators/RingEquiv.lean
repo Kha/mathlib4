@@ -6,8 +6,12 @@ Authors: Johannes Hölzl, Callum Sutton, Yury Kudryashov
 module
 
 public import Mathlib.Algebra.Ring.Equiv
-public import Mathlib.Algebra.Ring.Opposite
 public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Opposite
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Lemmas
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Results about mapping big operators across ring equivalences

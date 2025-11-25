@@ -9,5 +9,6 @@ public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
 public import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
 public import Mathlib.MeasureTheory.Integral.Lebesgue.MeasurePreserving
 public import Mathlib.MeasureTheory.Integral.Lebesgue.Norm
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module (since := "2025-04-13")

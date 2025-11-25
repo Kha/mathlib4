@@ -5,8 +5,13 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.AlgebraicGeometry.EllipticCurve.NormalForms
 public import Mathlib.FieldTheory.IsSepClosed
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.AlgebraicGeometry.EllipticCurve.NormalForms
 
 /-!
 

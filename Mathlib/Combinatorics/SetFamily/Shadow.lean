@@ -5,9 +5,14 @@ Authors: Bhavik Mehta, Alena Gusakov, Yaël Dillies
 -/
 module
 
-public import Mathlib.Data.Finset.Grade
 public import Mathlib.Data.Finset.Sups
-public import Mathlib.Logic.Function.Iterate
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Grade
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Shadows

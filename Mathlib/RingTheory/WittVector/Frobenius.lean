@@ -5,11 +5,23 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.Algebra.Algebra.ZMod
-public import Mathlib.Data.Nat.Multiplicity
 public import Mathlib.FieldTheory.Perfect
-public import Mathlib.RingTheory.WittVector.Basic
 public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.Algebra.Field.ZMod
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.ZMod
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Nat.Multiplicity
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 ## The Frobenius operator

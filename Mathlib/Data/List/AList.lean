@@ -6,6 +6,8 @@ Authors: Sean Leather, Mario Carneiro
 module
 
 public import Mathlib.Data.List.Sigma
+import Batteries.Tactic.SeqFocus
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Association Lists

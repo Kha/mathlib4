@@ -9,10 +9,25 @@ public import Mathlib.Algebra.Order.ToIntervalMod
 public import Mathlib.Algebra.Ring.AddAut
 public import Mathlib.Data.Nat.Totient
 public import Mathlib.GroupTheory.Divisible
-public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
-public import Mathlib.Topology.Algebra.Order.Field
 public import Mathlib.Topology.IsLocalHomeomorph
-public import Mathlib.Topology.Order.T5
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Topology.Order.LeftRight
+public import Mathlib.Topology.Algebra.Group.Quotient
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Interval.Set.Group
 
 /-!
 # The additive circle

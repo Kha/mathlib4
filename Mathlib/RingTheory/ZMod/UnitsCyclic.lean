@@ -5,11 +5,23 @@ Authors: Antoine Chambert-Loir, Junyan Xu
 -/
 module
 
-public import Mathlib.Algebra.Order.Star.Basic
-public import Mathlib.Analysis.Normed.Ring.Lemmas
-public import Mathlib.Data.Nat.Choose.Dvd
-public import Mathlib.Data.ZMod.Units
-public import Mathlib.FieldTheory.Finite.Basic
+public import Mathlib.Algebra.Field.ZMod
+import Mathlib.RingTheory.IntegralDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.ZMod.Units
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.GroupTheory.SpecificGroups.Cyclic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Star.Basic
+import Mathlib.Algebra.Ring.Int.Parity
+import Mathlib.Analysis.Normed.Ring.Lemmas
+import Mathlib.Data.Nat.Choose.Dvd
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Data.Nat.Prime.Basic
 
 /-! # Cyclicity of the units of `ZMod n`
 

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
 public import Mathlib.CategoryTheory.Abelian.Transfer
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Abelian
+import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
 
 /-!
 # The category of sheaves of modules is abelian

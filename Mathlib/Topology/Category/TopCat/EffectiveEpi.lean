@@ -5,8 +5,10 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.CategoryTheory.EffectiveEpi.RegularEpi
-public import Mathlib.Topology.Category.TopCat.Limits.Pullbacks
+public import Mathlib.CategoryTheory.EffectiveEpi.Basic
+public import Mathlib.Topology.Category.TopCat.Basic
+import Mathlib.CategoryTheory.EffectiveEpi.RegularEpi
+import Mathlib.Topology.Category.TopCat.Limits.Pullbacks
 /-!
 
 # Effective epimorphisms in `TopCat`

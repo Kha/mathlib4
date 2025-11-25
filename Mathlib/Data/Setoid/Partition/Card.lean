@@ -8,6 +8,9 @@ module
 public import Mathlib.Algebra.BigOperators.Finprod
 public import Mathlib.Data.Set.Card
 public import Mathlib.Data.Setoid.Partition
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-! # Cardinality of parts of partitions
 

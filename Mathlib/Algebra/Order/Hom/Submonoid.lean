@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Operations
 public import Mathlib.Algebra.Order.Hom.Monoid
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Isomorphism of submonoids of ordered monoids

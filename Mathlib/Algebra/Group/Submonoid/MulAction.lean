@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.Defs
 public import Mathlib.Algebra.Group.Action.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Actions by `Submonoid`s

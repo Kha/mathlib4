@@ -6,9 +6,11 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf
-public import Mathlib.Algebra.Category.ModuleCat.Limits
 public import Mathlib.CategoryTheory.Sites.LocallyBijective
-public import Mathlib.CategoryTheory.Sites.Whiskering
+public import Mathlib.Algebra.Group.TransferInstance
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Grp.ForgetCorepresentable
+import Mathlib.Algebra.Category.ModuleCat.Limits
 
 /-!
 # Sheaves of modules over a sheaf of rings

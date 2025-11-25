@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Matrix.Mul
 public import Mathlib.Algebra.Ring.Opposite
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Actions by matrices on vectors through `*ᵥ` and `ᵥ*`, cast as `Module`s

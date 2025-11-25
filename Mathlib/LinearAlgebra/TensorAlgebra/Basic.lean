@@ -8,8 +8,9 @@ module
 public import Mathlib.Algebra.FreeAlgebra
 public import Mathlib.Algebra.RingQuot
 public import Mathlib.Algebra.TrivSqZeroExt
-public import Mathlib.Algebra.Algebra.Operations
 public import Mathlib.LinearAlgebra.Multilinear.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
 
 /-!
 # Tensor Algebras

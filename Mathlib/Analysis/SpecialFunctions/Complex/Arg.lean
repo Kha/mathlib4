@@ -7,6 +7,15 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Angle
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # The argument of a complex number.

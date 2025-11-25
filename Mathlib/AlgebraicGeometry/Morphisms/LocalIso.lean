@@ -6,6 +6,7 @@ Authors: Christian Merten
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.LocalClosure
+import Mathlib.Tactic.Lemma
 
 /-!
 # Local isomorphisms

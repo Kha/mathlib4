@@ -6,7 +6,9 @@ Authors: Damiano Testa
 module
 
 public import Mathlib.Algebra.Field.Subfield.Defs
-public import Mathlib.Algebra.Order.Ring.InjSurj
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.InjSurj
 
 /-!
 # Ordered instances on subfields

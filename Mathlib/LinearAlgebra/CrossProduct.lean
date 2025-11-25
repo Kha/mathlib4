@@ -7,9 +7,14 @@ module
 
 public import Mathlib.Algebra.Lie.Basic
 public import Mathlib.LinearAlgebra.BilinearMap
-public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
-public import Mathlib.LinearAlgebra.Matrix.Notation
+public import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.OfFn
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
 
 /-!
 # Cross products

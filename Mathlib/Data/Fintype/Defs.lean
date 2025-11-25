@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Finset.Filter
 public import Mathlib.Data.Finite.Defs
+public import Mathlib.Lean.Meta.CongrTheorems
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
 
 /-!
 # Finite types

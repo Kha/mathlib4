@@ -9,6 +9,12 @@ public import Mathlib.Analysis.Convex.Between
 public import Mathlib.Analysis.Convex.StrictConvexSpace
 public import Mathlib.Analysis.Normed.Affine.AddTorsor
 public import Mathlib.Analysis.Normed.Affine.Isometry
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Betweenness in affine spaces for strictly convex spaces

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.GroupWithZero.Basic
 public import Mathlib.GroupTheory.GroupAction.ConjAct
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conjugation action of a group with zero on itself

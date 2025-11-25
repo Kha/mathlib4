@@ -5,9 +5,15 @@ Authors: Aaron Anderson, Jalex Stark
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
-public import Mathlib.LinearAlgebra.Matrix.CharP
+public import Mathlib.Algebra.Field.ZMod
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Frobenius
+import Mathlib.Algebra.CharP.Reduced
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.LinearAlgebra.Matrix.CharP
+import Mathlib.RingTheory.Polynomial.Basic
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 /-!
 # Results on characteristic polynomials and traces over finite fields.

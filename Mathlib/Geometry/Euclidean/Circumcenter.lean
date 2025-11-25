@@ -7,9 +7,14 @@ module
 
 public import Mathlib.Geometry.Euclidean.Projection
 public import Mathlib.Geometry.Euclidean.Sphere.Basic
-public import Mathlib.LinearAlgebra.AffineSpace.Simplex.Centroid
-public import Mathlib.LinearAlgebra.AffineSpace.FiniteDimensional
-public import Mathlib.Tactic.DeriveFintype
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.LinearAlgebra.AffineSpace.Simplex.Centroid
+import Mathlib.Algebra.BigOperators.Group.Finset.Indicator
 
 /-!
 # Circumcenter and circumradius

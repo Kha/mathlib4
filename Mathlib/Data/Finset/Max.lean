@@ -5,8 +5,10 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Finset.Card
 public import Mathlib.Data.Finset.Lattice.Fold
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Basic
 
 /-!
 # Maximum and minimum of finite sets

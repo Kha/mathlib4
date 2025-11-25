@@ -6,6 +6,11 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Dual
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Finite.Powerset
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Matroid Restriction

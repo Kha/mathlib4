@@ -5,9 +5,22 @@ Authors: Martin Zinkevich, Vincent Beffara, Etienne Marion
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Pi
-public import Mathlib.Probability.Independence.Integrable
 public import Mathlib.Probability.Notation
+public import Mathlib.Probability.Independence.Basic
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Integral.Pi
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.Probability.Independence.Integrable
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integration in Probability Theory

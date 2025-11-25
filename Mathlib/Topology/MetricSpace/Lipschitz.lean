@@ -11,6 +11,13 @@ public import Mathlib.Topology.EMetricSpace.Lipschitz
 public import Mathlib.Topology.Maps.Proper.Basic
 public import Mathlib.Topology.MetricSpace.Basic
 public import Mathlib.Topology.MetricSpace.Bounded
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Lipschitz continuous functions

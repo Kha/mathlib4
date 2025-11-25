@@ -5,10 +5,11 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Data.Matrix.Basis
-public import Mathlib.Data.Matrix.Composition
 public import Mathlib.RingTheory.MatrixAlgebra
 public import Mathlib.RingTheory.PolynomialAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Polynomial.Monomial
 
 /-!
 # Algebra isomorphism between matrices of polynomials and polynomials of matrices

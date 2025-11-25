@@ -5,8 +5,10 @@ Authors: Dagur Asgeirsson
 -/
 module
 
-public import Mathlib.Topology.Category.CompHausLike.EffectiveEpi
-public import Mathlib.Topology.Category.LightProfinite.Limits
+public import Mathlib.CategoryTheory.Sites.Coherent.Basic
+public import Mathlib.Topology.Category.LightProfinite.Basic
+import Mathlib.Topology.Category.CompHausLike.EffectiveEpi
+import Mathlib.Topology.Category.LightProfinite.Limits
 /-!
 
 # Effective epimorphisms in `LightProfinite`

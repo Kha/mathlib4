@@ -5,9 +5,14 @@ Authors: Floris van Doorn, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Set.Lattice.Image
-public import Mathlib.Order.Interval.Set.LinearOrder
-public import Mathlib.Order.MinMax
+public import Mathlib.Data.Set.BooleanAlgebra
+import Mathlib.Order.MinMax
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
 
 /-!
 # Extra lemmas about intervals

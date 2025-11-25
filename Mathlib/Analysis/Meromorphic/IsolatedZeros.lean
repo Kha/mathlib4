@@ -6,6 +6,9 @@ Authors: Stefan Kebekus
 module
 
 public import Mathlib.Analysis.Meromorphic.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Algebra.Module.PerfectSpace
 
 /-!
 # Principles of Isolated Zeros and Identity Principles for Meromorphic Functions

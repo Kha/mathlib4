@@ -5,10 +5,16 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Data.Set.Pairwise.Basic
 public import Mathlib.Data.SetLike.Basic
 public import Mathlib.Order.Directed
-public import Mathlib.Order.Hom.Set
+public import Mathlib.Logic.Pairwise
+public import Mathlib.Data.Set.Subsingleton
+public import Mathlib.Order.Hom.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Order.Hom.Set
+import Mathlib.Data.Set.Pairwise.Basic
 
 /-!
 # Chains and flags

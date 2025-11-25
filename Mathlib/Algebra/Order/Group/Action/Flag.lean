@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 public import Mathlib.Algebra.Order.Group.Action.End
 public import Mathlib.Order.Preorder.Chain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Action on flags

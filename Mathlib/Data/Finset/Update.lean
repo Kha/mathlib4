@@ -6,7 +6,9 @@ Authors: Floris van Doorn
 module
 
 public import Mathlib.Data.Finset.Pi
-public import Mathlib.Logic.Function.DependsOn
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Update a function on a set of values

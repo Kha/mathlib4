@@ -6,6 +6,9 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Algebra.Group.Action.Faithful
+public import Batteries.Tactic.Init
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Sum instances for additive and multiplicative actions

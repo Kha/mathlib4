@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Order.Ring.Defs
 public import Mathlib.Algebra.Order.Ring.Unbundled.Rat
 public import Mathlib.Algebra.Ring.Rat
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.Ring.Basic
 
 /-!
 # The rational numbers form a linear ordered field

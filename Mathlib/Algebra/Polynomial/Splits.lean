@@ -7,7 +7,21 @@ module
 
 public import Mathlib.Algebra.Polynomial.Factors
 public import Mathlib.Algebra.Polynomial.Lifts
-public import Mathlib.RingTheory.Polynomial.Tower
+public import Mathlib.Algebra.Polynomial.FieldDivision
+public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+public import Mathlib.Algebra.Field.Subfield.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Data.Nat.WithBot
+import Mathlib.RingTheory.Polynomial.Tower
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.GroupWithZero.Units.Lemmas
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Algebra.Polynomial.Degree.Units
+import Mathlib.Algebra.Polynomial.Eval.Degree
 
 /-!
 # Split polynomials

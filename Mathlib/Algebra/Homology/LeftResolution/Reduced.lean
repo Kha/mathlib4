@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Homology.LeftResolution.Transport
 public import Mathlib.CategoryTheory.Idempotents.FunctorExtension
-public import Mathlib.CategoryTheory.MorphismProperty.Retract
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.MorphismProperty.Retract
 
 /-!
 # Left resolutions which preserve the zero object

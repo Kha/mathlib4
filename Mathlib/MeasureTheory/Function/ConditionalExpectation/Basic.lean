@@ -6,6 +6,14 @@ Authors: Rémy Degenne
 module
 
 public import Mathlib.MeasureTheory.Function.ConditionalExpectation.CondexpL1
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Function.ConditionalExpectation.Unique
+import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-! # Conditional expectation
 

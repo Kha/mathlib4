@@ -5,9 +5,19 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
-public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
-public import Mathlib.RingTheory.Adjoin.Field
+public import Mathlib.Algebra.Polynomial.Splits
+public import Mathlib.FieldTheory.Minpoly.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Algebraic.Defs
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Adjoin.Basic
+import Mathlib.RingTheory.Adjoin.Field
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
 
 /-!
 # Splitting fields

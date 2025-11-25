@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Algebra.Category.ModuleCat.Sheaf
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.ChangeOfRings
-public import Mathlib.CategoryTheory.Sites.LocallySurjective
+import Mathlib.Algebra.Category.Grp.ForgetCorepresentable
 
 /-!
 # Change of sheaf of rings

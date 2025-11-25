@@ -6,7 +6,17 @@ Authors: Zhouhang Zhou
 module
 
 public import Mathlib.Algebra.Notation.Support
-public import Mathlib.Data.Set.Piecewise
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Tauto
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Image
+import Mathlib.Data.Set.Insert
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Lean.Meta.CongrTheorems
 
 /-!
 # Indicator function

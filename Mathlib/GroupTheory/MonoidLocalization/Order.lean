@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.GroupTheory.MonoidLocalization.Basic
+public import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Ordered structures on localizations of commutative monoids

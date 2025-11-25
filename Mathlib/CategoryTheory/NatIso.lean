@@ -6,7 +6,7 @@ Authors: Tim Baumann, Stephen Morgan, Kim Morrison, Floris van Doorn
 module
 
 public import Mathlib.CategoryTheory.Functor.Category
-public import Mathlib.CategoryTheory.Iso
+import Mathlib.Tactic.Lemma
 
 /-!
 # Natural isomorphisms

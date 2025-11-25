@@ -9,6 +9,10 @@ public import Mathlib.Algebra.MonoidAlgebra.Basic
 public import Mathlib.Analysis.Complex.Circle
 public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Topology.ContinuousMap.Bounded.Star
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Star.BigOperators
 
 /-!
 # Definition of BoundedContinuousFunction.char

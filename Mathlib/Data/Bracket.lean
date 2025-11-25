@@ -5,7 +5,8 @@ Authors: Patrick Lutz, Oliver Nash
 -/
 module
 
-public import Mathlib.Tactic.TypeStar
+public import Mathlib.Init
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bracket Notation

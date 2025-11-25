@@ -8,6 +8,9 @@ module
 public import Mathlib.Data.Finset.NatAntidiagonal
 public import Mathlib.Data.Finsupp.Multiset
 public import Mathlib.Data.Multiset.Antidiagonal
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.Units.Basic
 
 /-!
 # The `Finsupp` counterpart of `Multiset.antidiagonal`.

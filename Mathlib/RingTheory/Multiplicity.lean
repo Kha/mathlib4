@@ -6,10 +6,19 @@ Authors: Robert Y. Lewis, Chris Hughes, Daniel Weber
 module
 
 public import Mathlib.Algebra.GroupWithZero.Associated
-public import Mathlib.Algebra.Ring.Divisibility.Basic
-public import Mathlib.Algebra.Ring.Int.Defs
 public import Mathlib.Data.ENat.Basic
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.Group.Equiv.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Divisibility.Hom
+import Mathlib.Algebra.Prime.Lemmas
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Multiplicity of a divisor

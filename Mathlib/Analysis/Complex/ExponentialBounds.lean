@@ -5,8 +5,12 @@ Authors: Mario Carneiro, Joseph Myers
 -/
 module
 
-public import Mathlib.Analysis.Complex.Exponential
-public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Tactic.NormNum.Abs
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.NormNum.OfScientific
+import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Bounds on specific values of the exponential

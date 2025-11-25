@@ -5,9 +5,23 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Indicator
-public import Mathlib.Analysis.PSeries
 public import Mathlib.NumberTheory.SmoothNumbers
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Nat.Sqrt
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Order.Lattice
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.ENNReal.Lemmas
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Data.Nat.Cast.Order.Field
 
 /-!
 # The sum of the reciprocals of the primes diverges

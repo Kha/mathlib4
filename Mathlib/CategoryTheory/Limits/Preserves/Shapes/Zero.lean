@@ -5,8 +5,11 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 public import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
 
 /-!
 # Preservation of zero objects and zero morphisms

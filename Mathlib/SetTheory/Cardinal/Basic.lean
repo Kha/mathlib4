@@ -5,14 +5,31 @@ Authors: Johannes Hölzl, Mario Carneiro, Floris van Doorn
 -/
 module
 
-public import Mathlib.Data.Countable.Small
-public import Mathlib.Data.Fintype.BigOperators
-public import Mathlib.Data.Fintype.Powerset
-public import Mathlib.Data.Nat.Cast.Order.Basic
 public import Mathlib.Data.Set.Countable
-public import Mathlib.Logic.Small.Set
-public import Mathlib.Logic.UnivLE
 public import Mathlib.SetTheory.Cardinal.Order
+public import Mathlib.Logic.Denumerable
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Data.Vector.Defs
+public import Mathlib.Logic.Small.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Data.ULift
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Countable.Small
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Data.Fintype.Powerset
+import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.NAry
+import Mathlib.Logic.Small.Basic
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Basic results on cardinal numbers

@@ -6,6 +6,9 @@ Authors: Hanting Zhang
 module
 
 public import Mathlib.LinearAlgebra.AffineSpace.AffineSubspace.Basic
+public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! # Pointwise instances on `AffineSubspace`s
 

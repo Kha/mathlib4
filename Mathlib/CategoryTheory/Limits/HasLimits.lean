@@ -6,10 +6,9 @@ Authors: Reid Barton, Mario Carneiro, Kim Morrison, Floris van Doorn
 module
 
 public import Mathlib.CategoryTheory.Limits.IsLimit
-public import Mathlib.CategoryTheory.Category.ULift
-public import Mathlib.CategoryTheory.EssentiallySmall
-public import Mathlib.CategoryTheory.Functor.EpiMono
-public import Mathlib.Logic.Equiv.Basic
+public import Mathlib.Logic.UnivLE
+import Mathlib.CategoryTheory.EssentiallySmall
+import Mathlib.CategoryTheory.Functor.EpiMono
 
 /-!
 # Existence of limits and colimits

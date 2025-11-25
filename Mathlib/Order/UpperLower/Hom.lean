@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Hom.CompleteLattice
 public import Mathlib.Order.UpperLower.Principal
+import Mathlib.Tactic.TypeStar
 
 /-!
 # `UpperSet.Ici` etc. as `Sup`/`sSup`/`Inf`/`sInf`-homomorphisms

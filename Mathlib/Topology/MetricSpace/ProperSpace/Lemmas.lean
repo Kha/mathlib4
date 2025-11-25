@@ -5,10 +5,14 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.Order.Compact
 public import Mathlib.Topology.MetricSpace.ProperSpace
-public import Mathlib.Topology.Order.IntermediateValue
 public import Mathlib.Topology.Order.LocalExtr
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Order.Compact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Proper spaces

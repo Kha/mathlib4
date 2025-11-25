@@ -5,8 +5,10 @@ Authors: Scott Carnahan, Oliver Nash
 -/
 module
 
-public import Mathlib.Algebra.Module.Submodule.Invariant
 public import Mathlib.LinearAlgebra.RootSystem.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Finiteness.Basic
 
 /-!
 # Root pairings taking values in a subring

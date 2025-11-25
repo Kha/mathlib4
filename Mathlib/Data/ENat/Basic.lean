@@ -5,14 +5,24 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.Group.Nat.Units
 public import Mathlib.Algebra.Order.AddGroupWithTop
-public import Mathlib.Algebra.Order.Ring.Nat
 public import Mathlib.Algebra.Order.Ring.WithTop
 public import Mathlib.Algebra.Order.Sub.WithTop
 public import Mathlib.Data.ENat.Defs
-public import Mathlib.Data.Nat.Cast.Order.Basic
 public import Mathlib.Data.Nat.SuccPred
+public import Mathlib.Algebra.Ring.Basic
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Algebra.Order.Group.Nat
+public import Mathlib.Algebra.Order.Monoid.WithTop
+public import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Definition and basic properties of extended natural numbers

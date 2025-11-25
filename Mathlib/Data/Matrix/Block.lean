@@ -5,9 +5,13 @@ Authors: Ellen Arlt, Blair Shi, Sean Leather, Mario Carneiro, Johan Commelin
 -/
 module
 
-public import Mathlib.Data.Matrix.Basic
 public import Mathlib.Data.Matrix.Composition
 public import Mathlib.LinearAlgebra.Matrix.ConjTranspose
+public import Mathlib.Data.Fintype.Sigma
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Block Matrices

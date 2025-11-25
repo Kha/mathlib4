@@ -5,14 +5,22 @@ Authors: Kenny Lau, Chris Hughes, Anne Baanen
 -/
 module
 
-public import Mathlib.Data.Matrix.Basic
 public import Mathlib.Data.Matrix.Block
 public import Mathlib.LinearAlgebra.Matrix.Notation
-public import Mathlib.LinearAlgebra.Matrix.RowCol
-public import Mathlib.GroupTheory.GroupAction.Ring
-public import Mathlib.GroupTheory.Perm.Fin
 public import Mathlib.LinearAlgebra.Alternating.Basic
 public import Mathlib.LinearAlgebra.Matrix.SemiringInverse
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.Basic
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.GroupTheory.Perm.Fin
+import Mathlib.GroupTheory.Perm.Finite
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Data.Int.Order.Units
+import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Determinant of a matrix

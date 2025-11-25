@@ -5,8 +5,13 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.RingHom.FinitePresentation
-public import Mathlib.RingTheory.Smooth.Locus
+public import Mathlib.RingTheory.LocalProperties.Basic
+public import Mathlib.RingTheory.Smooth.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.RingHom.FinitePresentation
+import Mathlib.RingTheory.Smooth.Locus
+import Mathlib.RingTheory.Localization.Away.AdjoinRoot
 
 /-!
 # Smooth ring homomorphisms

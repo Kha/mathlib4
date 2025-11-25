@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Opposite
 public import Mathlib.Data.Set.Operations
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The opposite of a set

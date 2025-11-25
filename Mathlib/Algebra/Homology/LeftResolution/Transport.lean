@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.LeftResolution.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 
 /-!
 # Transport left resolutions along equivalences

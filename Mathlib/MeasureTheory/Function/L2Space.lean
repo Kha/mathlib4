@@ -5,11 +5,20 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.LinearMap
 public import Mathlib.Analysis.RCLike.Lemmas
 public import Mathlib.MeasureTheory.Function.LpSpace.ContinuousFunctions
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Inner
 public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.LinearMap
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-! # `L^2` space
 

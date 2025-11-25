@@ -5,8 +5,10 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.Algebra.Category.ModuleCat.EpiMono
-public import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
+public import Mathlib.LinearAlgebra.Quotient.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
+import Mathlib.Algebra.Category.ModuleCat.EpiMono
 
 /-!
 # The concrete (co)kernels in the category of modules are (co)kernels in the categorical sense.

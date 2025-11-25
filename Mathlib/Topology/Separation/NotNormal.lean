@@ -5,8 +5,13 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Real.Cardinality
-public import Mathlib.Topology.TietzeExtension
+public import Mathlib.SetTheory.Cardinal.Continuum
+public import Mathlib.Topology.Separation.Regular
+import Mathlib.Topology.TietzeExtension
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.Real.Cardinality
+import Mathlib.Data.Countable.Basic
+import Mathlib.Topology.Metrizable.Uniformity
 /-!
 # Not normal topological spaces
 

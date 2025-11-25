@@ -5,7 +5,12 @@ Authors: Kenny Lau, Chris Hughes, Mario Carneiro
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.Lattice
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.RingTheory.Ideal.Defs
+public import Mathlib.Algebra.Module.Submodule.Lattice
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.RingTheory.Ideal.Lattice
 
 /-!
 

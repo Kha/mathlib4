@@ -7,7 +7,10 @@ module
 
 public import Mathlib.Data.Nat.Find
 public import Mathlib.Data.Set.Basic
-public import Mathlib.Tactic.ByContra
+import Batteries.Tactic.Init
+import Mathlib.Tactic.ByContra
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.AssertExists
 
 /-!
 # Further lemmas about the natural numbers

@@ -6,7 +6,9 @@ Authors: Jujian Zhang, Yunzhou Xie
 module
 
 public import Mathlib.Algebra.Central.Defs
-public import Mathlib.Data.Matrix.Basis
+public import Mathlib.Data.Matrix.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Matrix.Basis
 
 /-!
 # The matrix algebra is a central algebra

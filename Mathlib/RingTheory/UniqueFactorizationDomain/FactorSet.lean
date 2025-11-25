@@ -5,8 +5,23 @@ Authors: Johannes Hölzl, Jens Wagemaker, Aaron Anderson
 -/
 module
 
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Basic
-public import Mathlib.Tactic.Ring
+public import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Data.Multiset.UnionInter
+public import Mathlib.Data.Nat.Find
+public import Mathlib.RingTheory.UniqueFactorizationDomain.Defs
+public import Mathlib.Algebra.Order.Group.Multiset
+public import Mathlib.Algebra.Order.Monoid.Unbundled.WithTop
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.RingTheory.UniqueFactorizationDomain.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Group.Units.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Set of factors

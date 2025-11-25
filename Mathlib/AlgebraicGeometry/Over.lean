@@ -7,6 +7,7 @@ module
 
 public import Mathlib.AlgebraicGeometry.Scheme
 public import Mathlib.CategoryTheory.Comma.Over.OverClass
+import Mathlib.Tactic.Lemma
 
 /-!
 # Typeclasses for `S`-schemes and `S`-morphisms

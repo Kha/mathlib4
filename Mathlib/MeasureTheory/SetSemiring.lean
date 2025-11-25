@@ -5,10 +5,15 @@ Authors: Rémy Degenne, Peter Pfaffelhuber
 -/
 module
 
-public import Mathlib.Data.Nat.Lattice
 public import Mathlib.Data.Set.Accumulate
-public import Mathlib.Data.Set.Pairwise.Lattice
 public import Mathlib.MeasureTheory.PiSystem
+public import Mathlib.Order.Disjointed
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Data.Set.Pairwise.Lattice
 
 /-! # Semirings and rings of sets
 

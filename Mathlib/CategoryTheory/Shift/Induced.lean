@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Shift.CommShift
+import Mathlib.Tactic.Lemma
 
 /-!
 # Shift induced from a category to another

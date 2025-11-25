@@ -6,6 +6,7 @@ Authors: Chris Birkbeck
 module
 
 public import Mathlib.GroupTheory.Index
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Commensurability for subgroups

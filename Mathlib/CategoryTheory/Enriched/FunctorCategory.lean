@@ -7,8 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
 public import Mathlib.CategoryTheory.Enriched.Ordinary.Basic
-public import Mathlib.CategoryTheory.Functor.Category
 public import Mathlib.CategoryTheory.Limits.Shapes.End
+import Mathlib.Tactic.Lemma
 
 /-!
 # Functor categories are enriched

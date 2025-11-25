@@ -6,6 +6,9 @@ Authors: Kyle Miller
 module
 
 public import Mathlib.Data.List.Sym
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
 
 /-! # Unordered tuples of elements of a multiset
 

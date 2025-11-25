@@ -6,7 +6,9 @@ Authors: Dagur Asgeirsson
 module
 
 public import Mathlib.Topology.Category.LightProfinite.AsLimit
-public import Mathlib.Topology.Category.Profinite.Extend
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Topology.Category.Profinite.Extend
 
 /-!
 

@@ -6,11 +6,24 @@ Authors: Jireh Loreaux
 module
 
 public import Mathlib.Topology.Algebra.Algebra
-public import Mathlib.Topology.ContinuousMap.Compact
-public import Mathlib.Topology.UrysohnsLemma
 public import Mathlib.Analysis.RCLike.Basic
-public import Mathlib.Analysis.Normed.Ring.Units
 public import Mathlib.Topology.Algebra.Module.CharacterSpace
+public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Topology.Compactness.LocallyCompact
+public import Mathlib.Topology.ContinuousMap.Star
+public import Mathlib.Topology.Metrizable.Uniformity
+public import Mathlib.Topology.Sets.Opens
+public import Mathlib.Topology.Algebra.Ring.Ideal
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.ContinuousMap.Compact
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Analysis.Normed.Ring.Units
 
 /-!
 # Ideals of continuous functions

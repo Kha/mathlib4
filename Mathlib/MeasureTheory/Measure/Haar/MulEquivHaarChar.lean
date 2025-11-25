@@ -6,6 +6,9 @@ Authors: Kevin Buzzard
 module
 
 public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.MeasureTheory.Measure.Haar.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Scaling Haar measure by a continuous isomorphism

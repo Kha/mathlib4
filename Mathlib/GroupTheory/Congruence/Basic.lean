@@ -6,8 +6,11 @@ Authors: Amelia Livingston
 module
 
 public import Mathlib.Algebra.Group.Submonoid.Operations
-public import Mathlib.Data.Setoid.Basic
 public import Mathlib.GroupTheory.Congruence.Hom
+public import Mathlib.Tactic.Conv
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruence relations

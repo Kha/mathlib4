@@ -6,6 +6,10 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.RestrictScalars
 
 /-!
 # The characteristic predicate of tensor product

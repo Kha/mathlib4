@@ -6,7 +6,16 @@ Authors: Martin Dvorak
 module
 
 public import Mathlib.Computability.Language
-import Mathlib.Data.Finset.Image
+import Mathlib.Control.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SetLike
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Attr
+import Mathlib.Data.List.Infix
+import Mathlib.Tactic.Attr.Core
+import Mathlib.Tactic.Finiteness.Attr
+import Mathlib.Tactic.GCongr.CoreAttrs
+import Mathlib.Data.List.Perm.Subperm
 
 /-!
 # Context-Free Grammars

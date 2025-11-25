@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Enriched.Ordinary.Basic
 public import Mathlib.CategoryTheory.Closed.Monoidal
+import Mathlib.Tactic.Lemma
 
 /-!
 # A closed monoidal category is enriched in itself

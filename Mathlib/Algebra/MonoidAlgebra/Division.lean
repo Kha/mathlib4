@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Hom.End
 public import Mathlib.Algebra.MonoidAlgebra.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Division of `AddMonoidAlgebra` by monomials

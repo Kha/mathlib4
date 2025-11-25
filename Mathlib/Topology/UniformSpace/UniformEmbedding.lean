@@ -8,6 +8,17 @@ module
 public import Mathlib.Topology.UniformSpace.Cauchy
 public import Mathlib.Topology.UniformSpace.Separation
 public import Mathlib.Topology.DenseEmbedding
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Set.Prod
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Prod
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Uniform embeddings of uniform spaces.

@@ -5,11 +5,32 @@ Authors: Yury Kudryashov, Alex Kontorovich, Heather Macbeth
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
-public import Mathlib.MeasureTheory.Measure.Haar.Quotient
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.Topology.Algebra.Order.Floor
-public import Mathlib.Topology.Instances.AddCircle.Real
+public import Mathlib.MeasureTheory.Group.FundamentalDomain
+public import Mathlib.MeasureTheory.Measure.Doubling
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.ZMultiples
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.MeasureTheory.Measure.Haar.Quotient
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Topology.Algebra.Order.Floor
+import Mathlib.Algebra.Group.Subgroup.ZPowers.Lemmas
 
 /-!
 # Integrals of periodic functions

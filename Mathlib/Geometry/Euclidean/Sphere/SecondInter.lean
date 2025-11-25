@@ -6,6 +6,11 @@ Authors: Joseph Myers
 module
 
 public import Mathlib.Geometry.Euclidean.Sphere.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Geometry.Euclidean.Basic
 
 /-!
 # Second intersection of a sphere and a line

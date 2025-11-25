@@ -5,9 +5,22 @@ Authors: Attila Gáspár
 -/
 module
 
-public import Mathlib.Analysis.Convex.Between
-public import Mathlib.Analysis.Convex.Topology
 public import Mathlib.Topology.Algebra.Group.AddTorsor
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Order.Filter.Pointwise
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Between
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Map
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso
 
 /-!
 # Asymptotic cone of a set

@@ -5,8 +5,11 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.Algebra.Homology.DerivedCategory.HomologySequence
 public import Mathlib.Algebra.Homology.Embedding.CochainComplex
+public import Mathlib.Algebra.Homology.DerivedCategory.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Homology.DerivedCategory.HomologySequence
+import Mathlib.Algebra.Homology.HomotopyCategory.Triangulated
 
 /-! # Calculus of fractions in the derived category
 

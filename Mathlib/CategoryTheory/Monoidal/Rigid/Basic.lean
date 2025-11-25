@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Tactic.CategoryTheory.Monoidal.Basic
 public import Mathlib.CategoryTheory.Closed.Monoidal
-public import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
 
 /-!
 # Rigid (autonomous) monoidal categories

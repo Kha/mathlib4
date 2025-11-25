@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.NoZeroSMulDivisors.Defs
 public import Mathlib.Algebra.Group.Action.Pi
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Pi instances for NoZeroSMulDivisors

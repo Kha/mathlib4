@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Algebra.MvPolynomial.PDeriv
 public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.GroupTheory.MonoidLocalization.Basic
 
 /-!
 # Euler's homogeneous identity

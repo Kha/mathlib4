@@ -5,7 +5,12 @@ Authors: Ira Fesefeldt
 -/
 module
 
-public import Mathlib.SetTheory.Ordinal.Arithmetic
+public import Mathlib.Order.FixedPoints
+public import Mathlib.SetTheory.Ordinal.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Set.Restrict
+import Mathlib.SetTheory.Cardinal.Basic
+import Mathlib.SetTheory.Ordinal.Arithmetic
 
 /-!
 # Ordinal Approximants for the Fixed points on complete lattices

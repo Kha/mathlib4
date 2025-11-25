@@ -5,10 +5,14 @@ Authors: Johannes Hölzl, Mario Carneiro, Jeremy Avigad
 -/
 module
 
-public import Mathlib.Data.Set.Finite.Basic
-public import Mathlib.Data.Set.Finite.Range
 public import Mathlib.Data.Set.Lattice
 public import Mathlib.Topology.Defs.Filter
+public import Mathlib.Data.Finite.Defs
+public import Mathlib.Data.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Finite.Basic
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # Openness and closedness of a set

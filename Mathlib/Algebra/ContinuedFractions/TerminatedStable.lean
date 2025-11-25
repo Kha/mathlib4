@@ -5,7 +5,10 @@ Authors: Kevin Kappelmann
 -/
 module
 
-public import Mathlib.Algebra.ContinuedFractions.Translations
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.ContinuedFractions.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.ContinuedFractions.Translations
 
 /-!
 # Stabilisation of gcf Computations Under Termination

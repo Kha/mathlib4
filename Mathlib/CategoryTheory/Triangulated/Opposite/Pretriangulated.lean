@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Triangulated.Opposite.Triangle
 public import Mathlib.CategoryTheory.Triangulated.HomologicalFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The (pre)triangulated structure on the opposite category

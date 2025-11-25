@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Probability.Process.HittingTime
 public import Mathlib.Probability.Martingale.Basic
+public import Mathlib.Probability.Notation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-! # Optional stopping theorem (fair game theorem)
 

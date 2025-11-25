@@ -5,8 +5,15 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.Algebra.Field.ZMod
 public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
+import Mathlib.GroupTheory.Exponent
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Equiv
+import Mathlib.Algebra.Field.ZMod
+import Mathlib.Data.ZMod.QuotientRing
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.Data.Nat.Prime.Int
+import Mathlib.RingTheory.Ideal.Quotient.Basic
 
 /-!
 # Ideal of `ℤ`

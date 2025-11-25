@@ -6,7 +6,7 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Algebra.DirectSum.Module
-public import Mathlib.Data.Finsupp.ToDFinsupp
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Results on direct sums and finitely supported functions.

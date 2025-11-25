@@ -5,8 +5,12 @@ Authors: Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Group.Action.Basic
 public import Mathlib.Algebra.Group.Pointwise.Set.Scalar
+public import Mathlib.Algebra.Group.Action.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Data.Set.Image
+import Mathlib.Algebra.Group.Action.Basic
 
 /-!
 # Support of an element under an action

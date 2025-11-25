@@ -6,6 +6,8 @@ Authors: Kim Morrison, Markus Himmel
 module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Zero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Kernels and cokernels

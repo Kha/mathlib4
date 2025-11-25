@@ -5,9 +5,19 @@ Authors: Dylan MacKenzie
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Intervals
 public import Mathlib.Algebra.Module.Defs
-public import Mathlib.Tactic.Abel
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.Nat.SuccPred
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
+import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 /-!
 # Summation by parts

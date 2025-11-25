@@ -5,8 +5,9 @@ Authors: Mario Carneiro, Emily Riehl, Joël Riou, Johan Commelin, Nick Ward
 -/
 module
 
-public import Mathlib.AlgebraicTopology.SimplicialSet.Nerve
 public import Mathlib.AlgebraicTopology.SimplicialSet.Path
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.Superscript
 
 /-!
 # Strict Segal simplicial sets

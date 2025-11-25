@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Algebra.Homology.Linear
 public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
-public import Mathlib.Tactic.Abel
+public import Mathlib.Algebra.Homology.ShortComplex.Preadditive
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Chain homotopies

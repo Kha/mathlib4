@@ -5,10 +5,20 @@ Authors: Aaron Anderson, Gabin Kolly
 -/
 module
 
-public import Mathlib.Data.Fintype.Order
 public import Mathlib.Order.Closure
 public import Mathlib.ModelTheory.Semantics
-public import Mathlib.ModelTheory.Encoding
+public import Mathlib.Data.Set.Countable
+public import Mathlib.Data.Set.Lattice
+public import Mathlib.Logic.Small.Defs
+import Mathlib.ModelTheory.Encoding
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Order
+import Mathlib.Logic.Small.Basic
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.Bounds.Image
+import Mathlib.SetTheory.Cardinal.Basic
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # First-Order Substructures

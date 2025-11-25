@@ -5,12 +5,13 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Mathlib.Topology.Compactness.Lindelof
-public import Mathlib.Topology.Compactness.SigmaCompact
-public import Mathlib.Topology.Connected.TotallyDisconnected
-public import Mathlib.Topology.Inseparable
 public import Mathlib.Topology.Separation.Regular
 public import Mathlib.Topology.GDelta.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Separation properties of topological spaces.

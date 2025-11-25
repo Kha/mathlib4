@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Functor.Currying
 public import Mathlib.CategoryTheory.Functor.Trifunctor
 public import Mathlib.CategoryTheory.Products.Associator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Currying of functors in three variables

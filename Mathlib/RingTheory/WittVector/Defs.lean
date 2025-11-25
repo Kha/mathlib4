@@ -6,6 +6,12 @@ Authors: Johan Commelin, Robert Y. Lewis
 module
 
 public import Mathlib.RingTheory.WittVector.StructurePolynomial
+public import Mathlib.Data.Fin.VecNotation
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.TypeStar
+import Mathlib.GroupTheory.GroupAction.Ring
+import Mathlib.LinearAlgebra.Matrix.Notation
+import Mathlib.Algebra.Order.Ring.Nat
 
 /-!
 # Witt vectors

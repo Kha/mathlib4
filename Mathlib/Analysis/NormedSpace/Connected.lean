@@ -5,11 +5,26 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Convex.Contractible
-public import Mathlib.Analysis.Convex.Topology
-public import Mathlib.Analysis.Normed.Module.Convex
-public import Mathlib.LinearAlgebra.Dimension.DivisionRing
-public import Mathlib.Topology.Algebra.Module.Cardinality
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.Topology.Homotopy.Contractible
+public import Mathlib.Analysis.Normed.Group.Continuity
+public import Mathlib.Analysis.Normed.Module.Basic
+import Mathlib.LinearAlgebra.Projection
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Analysis.Convex.Contractible
+import Mathlib.Analysis.Convex.PathConnected
+import Mathlib.Data.List.OfFn
+import Mathlib.Data.Set.Disjoint
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.Analysis.Normed.Module.Convex
+import Mathlib.Topology.Algebra.Module.Cardinality
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Connectedness of subsets of vector spaces

@@ -8,8 +8,11 @@ module
 public import Mathlib.Algebra.Group.Subgroup.Basic
 public import Mathlib.Algebra.Group.Subsemigroup.Operations
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
-public import Mathlib.Algebra.Order.Monoid.Basic
 public import Mathlib.Order.Atoms
+public import Mathlib.Algebra.Order.Monoid.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Monoid.Basic
 
 /-!
 # Facts about ordered structures and ordered instances on subgroups

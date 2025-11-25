@@ -7,9 +7,17 @@ module
 
 public import Mathlib.Algebra.Order.Antidiag.Pi
 public import Mathlib.Data.Finsupp.Multiset
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.Data.Nat.Factorial.BigOperators
-public import Mathlib.Data.Nat.Factorial.DoubleFactorial
+public import Mathlib.Data.Finset.NoncommProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Data.Nat.Cast.Commute
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Data.Nat.Factorial.BigOperators
+import Mathlib.Data.Nat.Factorial.DoubleFactorial
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Multinomial

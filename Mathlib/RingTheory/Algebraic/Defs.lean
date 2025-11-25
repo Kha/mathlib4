@@ -6,6 +6,8 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+import Mathlib.Tactic.Lemma
 
 /-!
 # Algebraic elements and algebraic extensions

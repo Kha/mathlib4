@@ -5,10 +5,23 @@ Authors: Weiyi Wang
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Pointwise.CompleteLattice
 public import Mathlib.Algebra.Order.Hom.Monoid
-public import Mathlib.Algebra.Order.Module.Defs
 public import Mathlib.Data.Real.Archimedean
+public import Mathlib.Data.Rat.Cast.CharZero
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.NatInt
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.Order.Bounds.Image
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Group.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Module.Defs
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.Order.Group.Pointwise.CompleteLattice
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Embedding of archimedean groups into reals

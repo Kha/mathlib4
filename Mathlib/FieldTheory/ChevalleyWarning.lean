@@ -5,7 +5,16 @@ Authors: Johan Commelin
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Basic
+public import Mathlib.Algebra.CharP.Defs
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.MvPolynomial.Degrees
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.FieldTheory.Finite.Basic
+import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # The Chevalley–Warning theorem

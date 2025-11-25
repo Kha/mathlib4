@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Triangulated.Opposite.Basic
 public import Mathlib.CategoryTheory.Shift.ShiftedHom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-! Shifted morphisms in the opposite category
 

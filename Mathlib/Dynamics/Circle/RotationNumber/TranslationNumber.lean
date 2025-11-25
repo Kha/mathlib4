@@ -5,11 +5,40 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Order.Iterate
-public import Mathlib.Order.SemiconjSup
-public import Mathlib.Topology.Order.MonotoneContinuity
-public import Mathlib.Algebra.CharP.Defs
+public import Mathlib.Algebra.Group.Units.Hom
+public import Mathlib.Algebra.Order.Group.End
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+public import Mathlib.Algebra.Order.Monoid.Unbundled.MinMax
+import Mathlib.Order.Iterate
+import Mathlib.Order.SemiconjSup
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.CharP.Defs
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.Compact
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Topology.Order.MonotoneContinuity
+import Mathlib.Topology.Order.T5
+import Mathlib.Algebra.Group.Commute.Units
+import Mathlib.Algebra.Group.Semiconj.Units
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Translation number of a monotone real map that commutes with `x ↦ x + 1`

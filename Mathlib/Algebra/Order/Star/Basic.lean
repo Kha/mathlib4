@@ -6,14 +6,16 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Algebra.Group.Submonoid.Operations
-public import Mathlib.Algebra.GroupWithZero.Regular
 public import Mathlib.Algebra.Order.Module.Defs
-public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Algebra.Order.Group.Opposite
-public import Mathlib.Algebra.Star.SelfAdjoint
 public import Mathlib.Algebra.Star.StarRingHom
-public import Mathlib.Tactic.ContinuousFunctionalCalculus
 public import Mathlib.Algebra.Star.StarProjection
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Regular
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-! # Star ordered rings
 

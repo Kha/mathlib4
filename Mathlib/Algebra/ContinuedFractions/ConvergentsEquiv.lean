@@ -5,10 +5,17 @@ Authors: Kevin Kappelmann
 -/
 module
 
-public import Mathlib.Algebra.ContinuedFractions.ContinuantsRecurrence
-public import Mathlib.Algebra.ContinuedFractions.TerminatedStable
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
+public import Mathlib.Algebra.ContinuedFractions.Basic
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.ContinuedFractions.ContinuantsRecurrence
+import Mathlib.Algebra.ContinuedFractions.TerminatedStable
+import Mathlib.Algebra.ContinuedFractions.Translations
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Data.Seq.Basic
+import Mathlib.Data.Stream.Init
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Equivalence of Recursive and Direct Computations of Convergents of Generalized Continued Fractions

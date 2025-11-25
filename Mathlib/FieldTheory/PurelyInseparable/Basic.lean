@@ -5,8 +5,20 @@ Authors: Jz Pan
 -/
 module
 
-public import Mathlib.Algebra.CharP.IntermediateField
 public import Mathlib.FieldTheory.SeparableClosure
+import Mathlib.FieldTheory.Extension
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.Algebra
+import Mathlib.Algebra.CharP.IntermediateField
+import Mathlib.Algebra.CharP.Reduced
+import Mathlib.FieldTheory.IntermediateField.Algebraic
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 

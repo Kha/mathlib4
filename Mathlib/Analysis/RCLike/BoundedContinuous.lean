@@ -6,9 +6,12 @@ Authors: Jakob Stiefel
 module
 
 public import Mathlib.Algebra.Algebra.Subalgebra.Tower
-public import Mathlib.Analysis.Normed.Operator.NNNorm
 public import Mathlib.Analysis.RCLike.Basic
 public import Mathlib.Topology.ContinuousMap.Bounded.Star
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Algebra.IsSimpleRing
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Analysis.Normed.Operator.NNNorm
 
 /-! # Results on bounded continuous functions with `RCLike` values -/
 

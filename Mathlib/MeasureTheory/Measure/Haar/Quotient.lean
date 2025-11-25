@@ -5,11 +5,19 @@ Authors: Alex Kontorovich, Heather Macbeth
 -/
 module
 
-public import Mathlib.Algebra.Group.Opposite
 public import Mathlib.MeasureTheory.Constructions.Polish.Basic
 public import Mathlib.MeasureTheory.Group.FundamentalDomain
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
 public import Mathlib.MeasureTheory.Measure.Haar.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.MeasureTheory.Group.Action
+import Mathlib.MeasureTheory.Group.Prod
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Haar quotient measure

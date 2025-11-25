@@ -5,7 +5,19 @@ Authors: Johannes Hölzl, Mario Carneiro, Jeremy Avigad
 -/
 module
 
-public import Mathlib.Topology.ClusterPt
+public import Mathlib.Tactic.Common
+public import Mathlib.Tactic.Continuity
+public import Mathlib.Order.Filter.Basic
+public import Mathlib.Topology.Defs.Filter
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Basic
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.Filter.Lift
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
 
 /-!
 # Continuity in topological spaces

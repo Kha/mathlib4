@@ -5,12 +5,24 @@ Authors: Kim Morrison, Shing Tak Lam, Mario Carneiro
 -/
 module
 
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Tactic.Ring
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Algebra.Order.Group.Nat
-public import Mathlib.Algebra.Ring.Defs
 import all Init.Data.Repr  -- for exposing `toDigitsCore`
+public import Mathlib.Algebra.Ring.Nat
+public import Mathlib.Data.Nat.Cast.Order.Basic
+public import Mathlib.Data.Nat.Cast.Order.Ring
+import Mathlib.Order.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Digits of a natural number

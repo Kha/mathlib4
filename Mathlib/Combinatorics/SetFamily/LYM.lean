@@ -5,12 +5,24 @@ Authors: Bhavik Mehta, Alena Gusakov, Yaël Dillies
 -/
 module
 
-public import Mathlib.Algebra.Field.Basic
-public import Mathlib.Algebra.Field.Rat
-public import Mathlib.Combinatorics.Enumerative.DoubleCounting
 public import Mathlib.Combinatorics.SetFamily.Shadow
-public import Mathlib.Data.NNRat.Order
-public import Mathlib.Data.Nat.Cast.Order.Ring
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Algebra.Field.Rat
+import Mathlib.Combinatorics.Enumerative.DoubleCounting
+import Mathlib.Data.NNRat.Order
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Lubell-Yamamoto-Meshalkin inequality and Sperner's theorem

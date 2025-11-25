@@ -5,8 +5,21 @@ Authors: Jan-David Salchow, Sébastien Gouëzel, Jean Lo
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.Bilinear
-public import Mathlib.Analysis.Normed.Operator.NNNorm
+public import Mathlib.Analysis.Normed.Operator.Basic
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Operator.Bilinear
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Operators on complete normed spaces

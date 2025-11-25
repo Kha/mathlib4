@@ -5,8 +5,18 @@ Authors: Yiming Fu
 -/
 module
 
-public import Mathlib.RingTheory.DedekindDomain.PID
-public import Mathlib.RingTheory.KrullDimension.PID
+public import Mathlib.RingTheory.Noetherian.Defs
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+public import Mathlib.RingTheory.Localization.AtPrime.Basic
+public import Mathlib.RingTheory.Spectrum.Maximal.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.DedekindDomain.PID
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.KrullDimension.PID
+import Mathlib.RingTheory.LocalProperties.IntegrallyClosed
+import Mathlib.RingTheory.LocalProperties.Submodule
+import Mathlib.RingTheory.Noetherian.Basic
 
 /-!
 # Local properties for semilocal rings

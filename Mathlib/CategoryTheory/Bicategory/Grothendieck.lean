@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.LocallyDiscrete
 public import Mathlib.CategoryTheory.Bicategory.NaturalTransformation.Pseudo
+import Mathlib.Tactic.Lemma
 
 /-!
 # The Grothendieck and CoGrothendieck constructions

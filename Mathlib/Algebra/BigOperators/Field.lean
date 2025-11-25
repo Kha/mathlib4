@@ -5,9 +5,17 @@ Authors: Bhavik Mehta, Daniel Weber
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Data.Finset.Density
+public import Mathlib.Data.Finset.Union
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.NNRat.Order
+import Mathlib.Tactic.Positivity.Core
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Ring.Multiset
+import Mathlib.Algebra.Order.Field.Rat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Results about big operators with values in a field

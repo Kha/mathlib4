@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Center
 public import Mathlib.Algebra.Group.Subsemigroup.Defs
+import Mathlib.Util.AssertExists
 
 /-!
 # Centers of semigroups, as subsemigroups.

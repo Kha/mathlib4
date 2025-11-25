@@ -8,6 +8,9 @@ module
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Completion
 public import Mathlib.RingTheory.DedekindDomain.FiniteAdeleRing
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
 
 /-!
 # The adele ring of a number field

@@ -7,7 +7,15 @@ module
 
 public import Mathlib.Analysis.LocallyConvex.WithSeminorms
 public import Mathlib.Topology.Semicontinuous
-public import Mathlib.Topology.Baire.Lemmas
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Baire.Lemmas
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
 
 /-!
 # Barrelled spaces and the Banach-Steinhaus theorem / Uniform Boundedness Principle

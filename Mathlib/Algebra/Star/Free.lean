@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Star.Basic
 public import Mathlib.Algebra.FreeAlgebra
+public import Mathlib.Algebra.Algebra.Opposite
+import Mathlib.Tactic.TypeStar
 
 /-!
 # A *-algebra structure on the free algebra.

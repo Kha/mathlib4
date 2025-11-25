@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Topology.Algebra.FilterBasis
 public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+public import Mathlib.Topology.UniformSpace.Cauchy
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Uniform properties of neighborhood bases in topological algebra

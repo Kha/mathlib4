@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Preserves.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteProducts
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.FinCategory.AsType
 
 /-!
 # Preservation of finite (co)limits.

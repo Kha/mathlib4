@@ -6,6 +6,7 @@ Authors: Johan Commelin, Floris van Doorn
 module
 
 public import Mathlib.Order.WellFoundedSet
+import Mathlib.Tactic.TypeStar
 
 /-! # Multiplication antidiagonal -/
 

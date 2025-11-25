@@ -6,6 +6,15 @@ Authors: Zhouhang Zhou, Sébastien Gouëzel, Frédéric Dupuis
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Orthonormal
+public import Mathlib.Algebra.DirectSum.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Subspaces of inner product spaces

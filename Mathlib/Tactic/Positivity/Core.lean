@@ -5,13 +5,19 @@ Authors: Mario Carneiro, Heather Macbeth, Yaël Dillies
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Core
-public meta import Mathlib.Tactic.HaveI
-public meta import Mathlib.Algebra.Order.Invertible
-public meta import Mathlib.Algebra.Order.Ring.Cast
 public meta import Mathlib.Control.Basic
-public meta import Mathlib.Data.Nat.Cast.Basic
-public meta import Qq
+public import Mathlib.Tactic.Common
+public import Mathlib.Tactic.NormNum.Core
+public import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Invertible
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 ## `positivity` core functionality

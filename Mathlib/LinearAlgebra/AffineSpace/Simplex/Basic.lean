@@ -8,6 +8,12 @@ module
 public import Mathlib.Data.Finset.Sort
 public import Mathlib.LinearAlgebra.AffineSpace.Independent
 public import Mathlib.LinearAlgebra.AffineSpace.Restrict
+public import Mathlib.Data.Nat.Cast.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Simplex in affine space

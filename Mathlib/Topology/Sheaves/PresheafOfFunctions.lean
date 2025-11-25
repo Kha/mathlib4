@@ -6,6 +6,7 @@ Authors: Kim Morrison
 module
 
 public import Mathlib.Topology.Sheaves.Presheaf
+import Mathlib.Tactic.TypeStar
 /-!
 # Presheaves of functions
 

@@ -6,6 +6,10 @@ Authors: Anne Baanen, Eric Wieser
 module
 
 public import Mathlib.Data.Fin.Tuple.Basic
+import Qq.Typ
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Matrix and vector notation

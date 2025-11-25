@@ -6,6 +6,12 @@ Authors: Yury Kudryashov, Reid Barton
 module
 
 public import Mathlib.Topology.Separation.Regular
+public import Mathlib.Order.Preorder.Chain
+import Mathlib.Order.Zorn
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Order.Preorder.Finite
+import Mathlib.Topology.Compactness.LocallyCompact
 
 /-!
 # The shrinking lemma

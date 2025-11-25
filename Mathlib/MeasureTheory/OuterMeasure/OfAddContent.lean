@@ -5,9 +5,12 @@ Authors: Rémy Degenne, Peter Pfaffelhuber
 -/
 module
 
-public import Mathlib.MeasureTheory.SetSemiring
 public import Mathlib.MeasureTheory.Measure.AddContent
 public import Mathlib.MeasureTheory.Measure.Trim
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Algebra.InfiniteSum.Order
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Carathéodory's extension theorem

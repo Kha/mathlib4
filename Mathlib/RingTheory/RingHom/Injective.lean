@@ -6,6 +6,7 @@ Authors: Andrew Yang, Qi Ge, Christian Merten
 module
 
 public import Mathlib.RingTheory.RingHomProperties
+import Mathlib.Tactic.Lemma
 
 /-! # Meta properties of injective ring homomorphisms -/
 

@@ -5,13 +5,25 @@ Authors: Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.NatAntidiagonal
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Ring.GeomSum
-public import Mathlib.Topology.Algebra.InfiniteSum.Constructions
-public import Mathlib.Topology.Algebra.InfiniteSum.NatInt
-public import Mathlib.Topology.Algebra.GroupWithZero
 public import Mathlib.Topology.Algebra.Ring.Basic
+public import Mathlib.Topology.Separation.Regular
+public import Mathlib.Algebra.Order.Antidiag.Prod
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.BigOperators.NatAntidiagonal
+import Mathlib.Algebra.GroupWithZero.Commute
+import Mathlib.Algebra.Ring.GeomSum
+import Mathlib.Topology.Algebra.GroupWithZero
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Finset
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Infinite sum in a ring

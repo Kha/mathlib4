@@ -6,7 +6,25 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.Calculus.LineDeriv.Basic
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.LocallyConvex.SeparatingDual
+import Mathlib.Analysis.LocallyConvex.WithSeminorms
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.Dual.Lemmas
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Analysis.Normed.Operator.Mul
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Integration by parts for line derivatives

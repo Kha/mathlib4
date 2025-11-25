@@ -6,9 +6,11 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.AlgebraicGeometry.Restrict
-public import Mathlib.CategoryTheory.Adjunction.Limits
-public import Mathlib.CategoryTheory.Adjunction.Opposites
-public import Mathlib.CategoryTheory.Adjunction.Reflective
+public import Mathlib.Topology.Sheaves.Functors
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Ring.Units
+import Mathlib.CategoryTheory.Adjunction.Opposites
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Adjunction between `Γ` and `Spec`

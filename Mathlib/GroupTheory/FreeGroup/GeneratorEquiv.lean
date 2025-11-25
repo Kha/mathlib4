@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.FreeAbelianGroup.Finsupp
 public import Mathlib.GroupTheory.FreeGroup.IsFreeGroup
 public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+public import Mathlib.Data.Int.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Isomorphisms between free groups imply equivalences of their generators

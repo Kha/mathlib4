@@ -5,9 +5,14 @@ Authors: Bhavik Mehta, Rishi Mehta, Linus Sommer
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Nat
-public import Mathlib.Algebra.Order.Group.Nat
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Nat
+import Mathlib.Data.List.Count
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Hamiltonian Graphs

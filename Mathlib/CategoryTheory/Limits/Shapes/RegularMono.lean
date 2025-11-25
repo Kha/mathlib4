@@ -8,9 +8,7 @@ module
 public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.HasPullback
 public import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
-public import Mathlib.CategoryTheory.MorphismProperty.Basic
 public import Mathlib.CategoryTheory.MorphismProperty.Composition
-public import Mathlib.Lean.Expr.Basic
 
 /-!
 # Definitions and basic properties of regular monomorphisms and epimorphisms.

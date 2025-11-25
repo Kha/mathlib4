@@ -7,7 +7,16 @@ module
 
 public import Mathlib.MeasureTheory.Measure.Doubling
 public import Mathlib.MeasureTheory.Covering.Vitali
-public import Mathlib.MeasureTheory.Covering.Differentiation
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.MeasureTheory.Integral.Average
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.MeasureTheory.Covering.Differentiation
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 
 /-!
 # Uniformly locally doubling measures and Lebesgue's density theorem

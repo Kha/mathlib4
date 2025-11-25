@@ -8,6 +8,13 @@ module
 public import Mathlib.FieldTheory.Normal.Closure
 public import Mathlib.FieldTheory.IsAlgClosed.Basic
 public import Mathlib.FieldTheory.IntermediateField.Algebraic
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
+public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.FieldTheory.Minpoly.Field
+import Mathlib.FieldTheory.SplittingField.IsSplittingField
+import Mathlib.RingTheory.Algebraic.Integral
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
 
 /-!
 # Relative Algebraic Closure

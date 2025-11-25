@@ -7,8 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Bicategory.Strict.Basic
 public import Mathlib.CategoryTheory.ConcreteCategory.Bundled
-public import Mathlib.CategoryTheory.Discrete.Basic
 public import Mathlib.CategoryTheory.Types.Basic
+import Mathlib.Data.ULift
+import Mathlib.Tactic.Lemma
 
 /-!
 # Category of categories

@@ -5,12 +5,21 @@ Authors: Mario Carneiro, Kevin Buzzard
 -/
 module
 
-public import Mathlib.Algebra.Order.SuccPred.PartialSups
-public import Mathlib.LinearAlgebra.Quotient.Basic
 public import Mathlib.RingTheory.Noetherian.Defs
-public import Mathlib.RingTheory.Finiteness.Cardinality
-public import Mathlib.RingTheory.Finiteness.Finsupp
-public import Mathlib.RingTheory.Ideal.Prod
+public import Mathlib.Order.PartialSups
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+public import Mathlib.LinearAlgebra.Quotient.Defs
+import Mathlib.LinearAlgebra.StdBasis
+import Mathlib.Order.Antisymmetrization
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.Option
+import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.Ideal.Prod
+import Mathlib.Algebra.Order.SuccPred.PartialSups
 
 /-!
 # Noetherian rings and modules

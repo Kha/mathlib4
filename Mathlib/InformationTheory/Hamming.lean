@@ -6,6 +6,11 @@ Authors: Wrenna Robson
 module
 
 public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Algebra.Module.Pi
+public import Mathlib.Data.Fintype.Pi
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Nontrivial.Basic
+import Mathlib.Algebra.Order.Group.Nat
 
 /-!
 # Hamming spaces

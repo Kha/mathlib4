@@ -5,9 +5,25 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.MeasureTheory.Covering.OneDim
-public import Mathlib.Order.Monotone.Extension
+public import Mathlib.MeasureTheory.Measure.Stieltjes
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Set.Monotone
+import Mathlib.MeasureTheory.Covering.Differentiation
+import Mathlib.MeasureTheory.Covering.OneDim
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.Monotone.Extension
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.Deriv.Slope
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Congr
 
 /-!
 # Differentiability of monotone functions

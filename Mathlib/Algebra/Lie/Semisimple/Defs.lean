@@ -6,6 +6,8 @@ Authors: Oliver Nash, Johan Commelin
 module
 
 public import Mathlib.Algebra.Lie.Solvable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Semisimple Lie algebras

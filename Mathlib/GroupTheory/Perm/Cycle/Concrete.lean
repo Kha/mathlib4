@@ -5,9 +5,13 @@ Authors: Yakov Pechersky
 -/
 module
 
-public import Mathlib.Data.List.Cycle
 public import Mathlib.GroupTheory.Perm.Cycle.Type
-public import Mathlib.GroupTheory.Perm.List
+public import Mathlib.Algebra.Order.Monoid.NatCast
+public import Mathlib.Data.Nat.Cast.Order.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.List.Dedup
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

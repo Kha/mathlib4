@@ -9,6 +9,9 @@ module
 public import Mathlib.Algebra.Module.Submodule.Ker
 public import Mathlib.Algebra.Module.Submodule.RestrictScalars
 public import Mathlib.Data.Set.Finite.Range
+public import Mathlib.Data.Fintype.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Range of linear maps

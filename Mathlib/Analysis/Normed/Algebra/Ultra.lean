@@ -5,8 +5,10 @@ Authors: Jiedong Jiang
 -/
 module
 
-public import Mathlib.Analysis.Normed.Field.Ultra
 public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.Topology.MetricSpace.Ultra.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Field.Ultra
 
 /-!
 # Normed algebra preserves ultrametricity

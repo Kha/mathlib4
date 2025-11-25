@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Ring.Action.Basic
 public import Mathlib.GroupTheory.GroupAction.ConjAct
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Conjugation action of a ring on itself

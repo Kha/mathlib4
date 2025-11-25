@@ -5,9 +5,11 @@ Authors: Violeta Hernández Palacios
 -/
 module
 
-public import Mathlib.Order.GameAdd
 public import Mathlib.Order.RelIso.Set
 public import Mathlib.SetTheory.ZFC.Basic
+import Mathlib.Order.GameAdd
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Von Neumann ordinals

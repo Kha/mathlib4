@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Analysis.Normed.Unbundled.RingSeminorm
 public import Mathlib.Analysis.Seminorm
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Algebra norms

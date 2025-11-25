@@ -6,10 +6,19 @@ Authors: Junyan Xu
 module
 
 public import Mathlib.FieldTheory.SeparableClosure
-public import Mathlib.FieldTheory.PurelyInseparable.Basic
-public import Mathlib.LinearAlgebra.FreeAlgebra
-public import Mathlib.Order.Interval.Set.WithBotTop
 public import Mathlib.Order.DirectedInverseSystem
+public import Mathlib.SetTheory.Ordinal.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Directed
+import Mathlib.Algebra.Notation
+import Mathlib.FieldTheory.Finiteness
+import Mathlib.LinearAlgebra.FreeAlgebra
+import Mathlib.Tactic.Lemma
+import Mathlib.FieldTheory.PurelyInseparable.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.SetTheory.Cardinal.Arithmetic
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
+import Mathlib.Order.Interval.Set.WithBotTop
 
 /-!
 # Number of embeddings of an algebraic extension of infinite separable degree

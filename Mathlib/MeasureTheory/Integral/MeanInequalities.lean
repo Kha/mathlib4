@@ -5,10 +5,24 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.MeanInequalities
-public import Mathlib.Analysis.MeanInequalitiesPow
-public import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+public import Mathlib.Data.Real.ConjExponents
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+import Mathlib.Analysis.MeanInequalities
+import Mathlib.Analysis.MeanInequalitiesPow
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Finiteness
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.BigOperators.Option
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Mean value inequalities for integrals

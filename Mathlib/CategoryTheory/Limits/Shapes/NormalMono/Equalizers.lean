@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.NormalMono.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.FiniteProducts
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Normal mono categories with finite products and kernels have all equalizers.

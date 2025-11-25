@@ -5,10 +5,22 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Analysis.Convex.Function
 public import Mathlib.Analysis.Convex.StrictConvexSpace
-public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
 public import Mathlib.MeasureTheory.Integral.Average
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Convex.Combination
+import Mathlib.Analysis.Convex.Topology
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Jensen's inequality for integrals

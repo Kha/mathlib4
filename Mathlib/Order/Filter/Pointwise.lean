@@ -7,14 +7,20 @@ module
 
 public import Mathlib.Algebra.Group.Action.Pointwise.Set.Basic
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
-public import Mathlib.Algebra.Order.Group.OrderIso
 public import Mathlib.Algebra.Order.Monoid.Defs
 public import Mathlib.Algebra.Ring.Defs
-public import Mathlib.Order.Filter.AtTopBot.Map
-public import Mathlib.Order.Filter.Finite
 public import Mathlib.Order.Filter.NAry
-public import Mathlib.Order.Filter.Ultrafilter.Defs
+public import Mathlib.Tactic.Common
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Algebra.GroupWithZero.Units.Basic
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Order.Filter.AtTopBot.Map
+import Mathlib.Order.Filter.Ultrafilter.Defs
 
 /-!
 # Pointwise operations on filters

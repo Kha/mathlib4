@@ -6,12 +6,20 @@ Authors: Johan Commelin
 module
 
 public import Mathlib.Algebra.BigOperators.Expect
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.Field.Canonical
 public import Mathlib.Algebra.Order.Nonneg.Floor
-public import Mathlib.Data.Real.Pointwise
 public import Mathlib.Data.NNReal.Defs
-public import Mathlib.Order.ConditionallyCompleteLattice.Group
+public import Mathlib.Algebra.Notation.Indicator
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Indicator
+import Mathlib.Data.Real.Pointwise
+import Mathlib.Order.ConditionallyCompleteLattice.Group
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Basic results on nonnegative real numbers

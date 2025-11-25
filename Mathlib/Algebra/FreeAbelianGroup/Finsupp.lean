@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.BigOperators.Finsupp.Basic
 public import Mathlib.Algebra.Module.End
 public import Mathlib.GroupTheory.FreeAbelianGroup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Finsupp.Ext
+import Mathlib.Data.Int.Cast.Lemmas
 
 /-!
 # Isomorphism between `FreeAbelianGroup X` and `X →₀ ℤ`

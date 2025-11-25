@@ -7,8 +7,14 @@ module
 
 public import Mathlib.RingTheory.Ideal.MinimalPrime.Basic
 public import Mathlib.RingTheory.Nilpotent.Lemmas
-public import Mathlib.RingTheory.Noetherian.Basic
 public import Mathlib.RingTheory.Spectrum.Prime.Defs
+public import Mathlib.RingTheory.Ideal.Prod
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.Lattice
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Algebra.BigOperators.Group.Multiset.Basic
 
 /-!
 # Prime spectrum of a commutative (semi)ring

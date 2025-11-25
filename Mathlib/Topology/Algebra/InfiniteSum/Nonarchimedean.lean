@@ -5,10 +5,23 @@ Authors: Mitchell Lee
 -/
 module
 
-public import Mathlib.Algebra.Group.Subgroup.Finite
-public import Mathlib.Topology.Algebra.InfiniteSum.GroupCompletion
-public import Mathlib.Topology.Algebra.InfiniteSum.Ring
-public import Mathlib.Topology.Algebra.Nonarchimedean.Completion
+public import Mathlib.Topology.UniformSpace.Cauchy
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.Algebra.IsUniformGroup.Defs
+public import Mathlib.Topology.Algebra.Nonarchimedean.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Nat.Lattice
+import Mathlib.Algebra.Group.Subgroup.Finite
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.Prod
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.InfiniteSum.Group
+import Mathlib.Topology.Algebra.InfiniteSum.GroupCompletion
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Nonarchimedean.Completion
 
 /-!
 # Infinite sums and products in nonarchimedean abelian groups

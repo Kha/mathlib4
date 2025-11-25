@@ -9,6 +9,10 @@ public import Mathlib.Order.Ideal
 public import Mathlib.Topology.Sets.Compacts
 public import Mathlib.Topology.Sets.OpenCover
 public import Mathlib.Topology.Spectral.Hom
+public import Mathlib.Topology.Connected.TotallyDisconnected
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
 
 /-!
 

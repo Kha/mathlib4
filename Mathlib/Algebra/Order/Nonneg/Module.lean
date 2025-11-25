@@ -8,6 +8,8 @@ module
 public import Mathlib.Algebra.Module.RingHom
 public import Mathlib.Algebra.Order.Module.Defs
 public import Mathlib.Algebra.Order.Nonneg.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Modules over nonnegative elements

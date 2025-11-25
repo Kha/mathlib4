@@ -8,6 +8,7 @@ module
 public import Mathlib.Order.Circular
 public import Mathlib.Order.Fin.Basic
 public import Mathlib.Data.ZMod.Defs
+import Mathlib.Tactic.Lemma
 
 /-!
 # The circular order on `ZMod n`

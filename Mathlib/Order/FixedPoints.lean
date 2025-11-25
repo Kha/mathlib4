@@ -5,9 +5,9 @@ Authors: Johannes Hölzl, Kenny Lau, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Dynamics.FixedPoints.Basic
 public import Mathlib.Order.Hom.Order
 public import Mathlib.Order.OmegaCompletePartialOrder
+import Mathlib.Data.Set.Image
 
 /-!
 # Fixed point construction on complete lattices

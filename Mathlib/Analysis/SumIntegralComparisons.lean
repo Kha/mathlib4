@@ -6,7 +6,13 @@ Authors: Kevin H. Wilson
 module
 
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.Data.Set.Function
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.BigOperators.Intervals
+import Mathlib.Data.Set.Monotone
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Comparing sums and integrals

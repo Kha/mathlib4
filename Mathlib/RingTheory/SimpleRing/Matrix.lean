@@ -5,8 +5,10 @@ Authors: Jujian Zhang
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Ideal
-public import Mathlib.RingTheory.SimpleRing.Basic
+public import Mathlib.Data.Matrix.Mul
+public import Mathlib.RingTheory.SimpleRing.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Matrix.Ideal
 
 /-!
 The matrix ring over a simple ring is simple

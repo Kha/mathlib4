@@ -7,8 +7,10 @@ module
 
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
 public import Mathlib.CategoryTheory.Shift.Basic
-public import Mathlib.Data.Set.Subsingleton
 public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Data.Set.Insert
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of graded objects

@@ -5,10 +5,22 @@ Authors: Robert Y. Lewis, Leonardo de Moura, Mario Carneiro, Floris van Doorn, S
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Abs
-public import Mathlib.Algebra.Order.Ring.Pow
-public import Mathlib.Algebra.Ring.CharZero
 public import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Algebra.Ring.Parity
+public meta import Mathlib.Tactic.Positivity.Core
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Algebra.Ring.CharZero
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Pow
+import Mathlib.Algebra.Ring.Int.Parity
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Lemmas about powers in ordered fields.

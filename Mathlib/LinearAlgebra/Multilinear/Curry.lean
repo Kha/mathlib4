@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Fintype.Sort
 public import Mathlib.LinearAlgebra.Multilinear.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Currying of multilinear maps

@@ -5,9 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.Normed.Order.Lattice
-public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
 public import Mathlib.MeasureTheory.Function.LpSpace.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Order related properties of Lp spaces

@@ -5,10 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.Order.ExtendFrom
-public import Mathlib.Topology.Order.Compact
 public import Mathlib.Topology.Order.LocalExtr
-public import Mathlib.Topology.Order.T5
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Order.Compact
+import Mathlib.Topology.Order.ExtendFrom
+import Mathlib.Topology.Order.T5
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Rolle's Theorem (topological part)

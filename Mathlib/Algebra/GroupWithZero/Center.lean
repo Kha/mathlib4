@@ -6,7 +6,12 @@ Authors: Eric Wieser, Jireh Loreaux
 module
 
 public import Mathlib.Algebra.Group.Center
-public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
+import Mathlib.Algebra.GroupWithZero.Units.Basic
 
 /-!
 # Center of a group with zero

@@ -6,9 +6,19 @@ Authors: Johannes Hölzl, Jeremy Avigad, Yury Kudryashov, Patrick Massot
 module
 
 public import Mathlib.Order.Filter.Bases.Basic
-public import Mathlib.Order.Filter.AtTopBot.Tendsto
-public import Mathlib.Order.Nat
-public import Mathlib.Tactic.Subsingleton
+public import Mathlib.Order.Filter.AtTopBot.Defs
+import Mathlib.Order.Nat
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Subsingleton
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Use
+import Mathlib.Util.AssertExists
+import Mathlib.Order.BoundedOrder.Monotone
+import Mathlib.Order.Filter.Map
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Order.Filter.AtTopBot.Tendsto
+import Mathlib.Order.Interval.Set.Basic
 
 /-!
 # Basic results on `Filter.atTop` and `Filter.atBot` filters

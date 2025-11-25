@@ -6,7 +6,11 @@ Authors: Vincent Beffara
 module
 
 public import Mathlib.Topology.CompactOpen
-public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Order.Interval.Set.ProjIcc
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Order.ProjIcc
 
 /-!
 # Continuous bundled maps on intervals

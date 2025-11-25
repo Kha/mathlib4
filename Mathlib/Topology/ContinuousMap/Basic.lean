@@ -6,9 +6,12 @@ Authors: Nicolò Cavalleri
 module
 
 public import Mathlib.Data.Set.UnionLift
-public import Mathlib.Topology.ContinuousMap.Defs
-public import Mathlib.Topology.Homeomorph.Defs
 public import Mathlib.Topology.Separation.Hausdorff
+public import Mathlib.Topology.ContinuousOn
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # Continuous bundled maps

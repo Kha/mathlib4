@@ -6,8 +6,13 @@ Authors: Johannes Hölzl, Mario Carneiro, Kevin Buzzard, Yury Kudryashov, Eric W
 module
 
 public import Mathlib.Algebra.Algebra.Prod
-public import Mathlib.Algebra.Group.Graph
 public import Mathlib.LinearAlgebra.Span.Basic
+public import Mathlib.Algebra.Module.Equiv.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Graph
+import Mathlib.Data.Set.NAry
+import Mathlib.Data.Set.Prod
 
 /-! ### Products of modules
 

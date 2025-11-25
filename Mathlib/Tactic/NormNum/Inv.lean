@@ -5,9 +5,13 @@ Authors: Mario Carneiro
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum.Basic
-public meta import Mathlib.Data.Rat.Cast.CharZero
-public meta import Mathlib.Algebra.Field.Basic
+public import Mathlib.Algebra.Field.Rat
+public import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Rat.Cast.CharZero
 
 /-!
 # `norm_num` plugins for `Rat.cast` and `⁻¹`.

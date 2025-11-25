@@ -7,7 +7,11 @@ module
 
 public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
 public import Mathlib.RingTheory.LocalProperties.Basic
-public import Mathlib.RingTheory.Spectrum.Maximal.Localization
+public import Mathlib.RingTheory.Localization.AsSubring
+public import Mathlib.RingTheory.Spectrum.Maximal.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.IntegralClosure.IsIntegral.Basic
+import Mathlib.RingTheory.Spectrum.Maximal.Localization
 
 /-!
 # `IsIntegrallyClosed` is a local property

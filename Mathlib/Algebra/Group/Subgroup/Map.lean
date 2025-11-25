@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Group.Subgroup.Lattice
 public import Mathlib.Algebra.Group.TypeTags.Hom
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.GaloisConnection.Basic
+import Mathlib.Data.Set.Lattice.Image
 
 /-!
 # `map` and `comap` for subgroups

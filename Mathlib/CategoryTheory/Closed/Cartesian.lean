@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Closed.Monoidal
 public import Mathlib.CategoryTheory.Monoidal.Cartesian.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
 
 /-!
 # Cartesian closed categories

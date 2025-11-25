@@ -6,11 +6,34 @@ Authors: Xavier Roblot
 module
 
 public import Mathlib.Algebra.Module.ZLattice.Covolume
-public import Mathlib.Analysis.Real.Pi.Bounds
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.ConvexBody
 public import Mathlib.NumberTheory.NumberField.Discriminant.Defs
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex
-public import Mathlib.Tactic.Rify
+public import Mathlib.Algebra.CharP.IntermediateField
+import Mathlib.FieldTheory.PrimitiveElement
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Qify
+import Mathlib.Tactic.Rify
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Data.Int.Interval
+import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.RingTheory.DedekindDomain.Dvr
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.MetricSpace.Polish
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Ring.Pow
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Analysis.SpecialFunctions.Log.Base
+import Mathlib.Data.Rat.Cast.Order
 
 /-!
 # Number field discriminant

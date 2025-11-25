@@ -5,9 +5,31 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
 public import Mathlib.Probability.Kernel.Composition.CompProd
 public import Mathlib.Probability.Kernel.Disintegration.MeasurableStieltjes
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Probability.Kernel.MeasurableLIntegral
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.MonotoneConvergence
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Sub
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Building a Markov kernel from a conditional cumulative distribution function

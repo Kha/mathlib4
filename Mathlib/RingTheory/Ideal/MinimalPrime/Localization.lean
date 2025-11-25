@@ -6,7 +6,15 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Ideal.MinimalPrime.Basic
-public import Mathlib.RingTheory.Localization.AtPrime.Basic
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Localization.Defs
+public import Mathlib.RingTheory.Ideal.Quotient.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.RingTheory.Localization.AtPrime.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 

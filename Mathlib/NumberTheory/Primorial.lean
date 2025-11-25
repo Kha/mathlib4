@@ -5,12 +5,20 @@ Authors: Patrick Stevens, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Algebra.BigOperators.Associated
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.Ring.Abs
-public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.Data.Nat.Choose.Dvd
-public import Mathlib.Data.Nat.Prime.Basic
+public import Mathlib.Algebra.Ring.Parity
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Algebra.BigOperators.Associated
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Nat.Choose.Dvd
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Data.Nat.Prime.Basic
+import Mathlib.Order.Interval.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
 
 /-!
 # Primorial

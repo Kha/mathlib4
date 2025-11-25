@@ -5,9 +5,15 @@ Authors: Chris Hughes
 -/
 module
 
-public import Mathlib.RingTheory.Finiteness.Basic
-public import Mathlib.RingTheory.Finiteness.Nakayama
 public import Mathlib.RingTheory.Jacobson.Ideal
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Quotient.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Nakayama
+import Mathlib.Tactic.GRewrite.Elab
 
 /-!
 # Nakayama's lemma

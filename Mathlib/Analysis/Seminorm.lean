@@ -5,11 +5,23 @@ Authors: Jean Lo, Yaël Dillies, Moritz Doll
 -/
 module
 
-public import Mathlib.Algebra.Order.Pi
 public import Mathlib.Analysis.Convex.Function
 public import Mathlib.Analysis.LocallyConvex.Basic
 public import Mathlib.Analysis.Normed.Module.Basic
-public import Mathlib.Data.Real.Pointwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Algebra.Order.Pi
+import Mathlib.Data.Real.Pointwise
+import Mathlib.Order.Bounds.Image
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Monoid.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.GroupWithZero.Action.Pointwise.Set
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Seminorms

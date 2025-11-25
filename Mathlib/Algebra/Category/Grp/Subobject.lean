@@ -5,8 +5,10 @@ Authors: Markus Himmel
 -/
 module
 
-public import Mathlib.Algebra.Category.Grp.ZModuleEquivalence
-public import Mathlib.Algebra.Category.ModuleCat.Subobject
+public import Mathlib.CategoryTheory.Subobject.WellPowered
+public import Mathlib.Algebra.Category.Grp.Basic
+import Mathlib.Algebra.Category.Grp.ZModuleEquivalence
+import Mathlib.Algebra.Category.ModuleCat.Subobject
 
 /-!
 # The category of abelian groups is well-powered

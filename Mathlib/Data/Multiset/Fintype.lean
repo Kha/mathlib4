@@ -6,7 +6,12 @@ Authors: Kyle Miller
 module
 
 public import Mathlib.Data.Fintype.Card
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Data.Finset.Prod
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Multiset coercion to type

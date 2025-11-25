@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Multiplicity
 public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Multiset.OrderedMonoid
 
 /-!
 # Unique factorization and multiplicity

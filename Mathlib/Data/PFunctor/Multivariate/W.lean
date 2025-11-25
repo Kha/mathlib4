@@ -6,6 +6,7 @@ Authors: Jeremy Avigad, Simon Hudon
 module
 
 public import Mathlib.Data.PFunctor.Multivariate.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The W construction as a multivariate polynomial functor.

@@ -5,10 +5,19 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Algebra.Central.Defs
 public import Mathlib.Analysis.LocallyConvex.SeparatingDual
-public import Mathlib.Analysis.NormedSpace.Multilinear.Basic
-public import Mathlib.LinearAlgebra.Dual.Lemmas
+public import Mathlib.Analysis.Normed.Operator.Bilinear
+public import Mathlib.Topology.Algebra.Module.Multilinear.Topology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Sequences
+import Mathlib.Topology.MetricSpace.Cauchy
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Operator.NNNorm
+import Mathlib.Analysis.NormedSpace.Multilinear.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
 
 /-! # Completeness of spaces of linear and multilinear maps
 

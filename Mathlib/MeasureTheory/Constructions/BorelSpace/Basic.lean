@@ -6,9 +6,19 @@ Authors: Johannes Hölzl, Yury Kudryashov
 module
 
 public import Mathlib.MeasureTheory.Group.Arithmetic
-public import Mathlib.Topology.GDelta.MetrizableSpace
-public import Mathlib.Topology.Instances.EReal.Lemmas
 public import Mathlib.Topology.Instances.Rat
+public import Mathlib.MeasureTheory.MeasurableSpace.CountablyGenerated
+public import Mathlib.Topology.GDelta.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.Rat.Encodable
+import Mathlib.Data.Set.Piecewise
+import Mathlib.MeasureTheory.Measure.AEMeasurable
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Metrizable.Uniformity
 
 /-!
 # Borel (measurable) space

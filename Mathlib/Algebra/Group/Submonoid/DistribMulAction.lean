@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Submonoid.MulAction
 public import Mathlib.Algebra.GroupWithZero.Action.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Util.AssertExists
 
 /-!
 # Distributive actions by submonoids

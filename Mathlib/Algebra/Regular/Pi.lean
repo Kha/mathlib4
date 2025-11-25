@@ -6,6 +6,7 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.Algebra.Regular.SMul
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Results about `IsRegular` and pi types

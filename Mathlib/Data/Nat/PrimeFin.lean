@@ -7,8 +7,17 @@ module
 
 public import Mathlib.Data.Countable.Defs
 public import Mathlib.Data.Nat.Factors
-public import Mathlib.Data.Nat.Prime.Infinite
-public import Mathlib.Data.Set.Finite.Lattice
+public import Mathlib.Data.Finset.Insert
+public import Mathlib.Data.Finset.Lattice.Basic
+import Mathlib.Order.Nat
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Basic
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Algebra.Ring.Basic
+import Mathlib.Data.Finset.Basic
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.Data.Nat.Prime.Infinite
+import Mathlib.Data.Set.Finite.Lattice
 
 /-!
 # Prime numbers

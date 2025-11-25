@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.Basis.Basic
 public import Mathlib.LinearAlgebra.Pi
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bases indexed by `Fin`

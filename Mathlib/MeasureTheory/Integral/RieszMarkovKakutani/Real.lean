@@ -5,10 +5,35 @@ Authors: Yoh Tanimoto, Oliver Butterley
 -/
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
 public import Mathlib.MeasureTheory.Integral.CompactlySupported
 public import Mathlib.MeasureTheory.Integral.RieszMarkovKakutani.Basic
-public import Mathlib.Order.Interval.Set.Union
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.PartitionOfUnity
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Data.ENNReal.BigOperators
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.Set.Disjoint
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.Order.Filter.AtTopBot.Archimedean
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.Union
+import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 /-!
 # Riesz–Markov–Kakutani representation theorem for real-linear functionals

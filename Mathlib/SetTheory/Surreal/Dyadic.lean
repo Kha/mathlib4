@@ -5,15 +5,23 @@ Authors: Apurva Nakade
 -/
 module
 
-public import Mathlib.Algebra.Algebra.Defs
-public import Mathlib.Algebra.Order.Group.Basic
-public import Mathlib.Algebra.Ring.Regular
 public import Mathlib.GroupTheory.MonoidLocalization.Away
 public import Mathlib.RingTheory.Localization.Defs
 public import Mathlib.SetTheory.Game.Birthday
 public import Mathlib.SetTheory.Surreal.Multiplication
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Data.Nat.Cast.Basic
+import Mathlib.Algebra.Group.Torsion
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.Data.Int.Basic
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Tactic.Linter.DeprecatedModule
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Ring.Int
+import Mathlib.Data.Int.Cast.Lemmas
 
 deprecated_module
   "This module is now at `CombinatorialGames.Surreal.Dyadic` in the CGT repo <https://github.com/vihdzp/combinatorial-games>"

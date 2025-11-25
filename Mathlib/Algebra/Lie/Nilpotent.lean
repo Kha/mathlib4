@@ -6,12 +6,17 @@ Authors: Oliver Nash
 module
 
 public import Mathlib.Algebra.Lie.Solvable
-public import Mathlib.Algebra.Lie.Quotient
 public import Mathlib.Algebra.Lie.Normalizer
-public import Mathlib.Algebra.Order.Archimedean.Basic
 public import Mathlib.LinearAlgebra.Eigenspace.Basic
-public import Mathlib.RingTheory.Artinian.Module
-public import Mathlib.RingTheory.Nilpotent.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Peel
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Nilpotent.Basic
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Archimedean.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Nilpotent Lie algebras

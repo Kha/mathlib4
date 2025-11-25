@@ -5,12 +5,14 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Init.Data.ULift
-public import Init.Data.Fin.Fold
-public import Init.Data.List.Nat.Pairwise
-public import Init.Data.List.Nat.Range
 public import Mathlib.NumberTheory.NumberField.Basic
-public import Mathlib.RingTheory.Localization.NormTrace
+public import Mathlib.RingTheory.Discriminant
+public import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.Int.Basic
+import Mathlib.RingTheory.Localization.NormTrace
+import Mathlib.Algebra.Group.Int.Units
 
 /-!
 # Number field discriminant

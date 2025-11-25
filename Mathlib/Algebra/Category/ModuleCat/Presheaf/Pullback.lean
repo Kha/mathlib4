@@ -9,6 +9,9 @@ public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Generator
 public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Pushforward
 public import Mathlib.CategoryTheory.Adjunction.PartialAdjoint
 public import Mathlib.CategoryTheory.Adjunction.CompositionIso
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Category.Grp.Colimits
+import Mathlib.Algebra.Category.ModuleCat.Presheaf.Colimits
 
 /-!
 # Pullback of presheaves of modules

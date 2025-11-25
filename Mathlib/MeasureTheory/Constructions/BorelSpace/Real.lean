@@ -5,10 +5,45 @@ Authors: Johannes Hölzl, Yury Kudryashov
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
-public import Mathlib.MeasureTheory.MeasurableSpace.Prod
 public import Mathlib.MeasureTheory.Measure.Typeclasses.NoAtoms
-public import Mathlib.Topology.Instances.Real.Lemmas
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+public import Mathlib.Topology.Instances.EReal.Lemmas
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Data.Countable.Basic
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.Data.EReal.Inv
+import Mathlib.Data.Rat.Encodable
+import Mathlib.Logic.Equiv.List
+import Mathlib.MeasureTheory.Function.AEMeasurableSequence
+import Mathlib.MeasureTheory.MeasurableSpace.Prod
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.Basic
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.LeftRight
+import Mathlib.Topology.Order.LiminfLimsup
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Semiring
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Sub.Basic
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Order.Interval.Set.Disjoint
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Topology.Algebra.InfiniteSum.Constructions
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.Instances.NNReal.Lemmas
+import Mathlib.Topology.Instances.Real.Lemmas
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Borel (measurable) spaces ℝ, ℝ≥0, ℝ≥0∞

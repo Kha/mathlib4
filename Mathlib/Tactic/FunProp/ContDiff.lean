@@ -5,11 +5,9 @@ Authors: Tomáš Skřivan
 -/
 module
 
-public meta import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
-public meta import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public meta import Mathlib.Analysis.SpecialFunctions.Log.Deriv
-public meta import Mathlib.Tactic.FunProp
-public meta import Mathlib.Tactic.FunProp.Differentiable
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module
   "fun_prop knows about ContDiff(At/On) directly; no need to import this file any more"

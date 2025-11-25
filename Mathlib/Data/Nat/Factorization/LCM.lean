@@ -5,8 +5,13 @@ Authors: Paul Lezeau
 -/
 module
 
-public import Mathlib.Data.Nat.Factorization.Basic
-public import Mathlib.Data.Nat.GCD.BigOperators
+public import Mathlib.Data.Nat.Factorization.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Factorization.Basic
+import Mathlib.Data.Nat.GCD.BigOperators
+import Mathlib.Data.Nat.Prime.Basic
 
 /-!
 # Lemmas about `factorizationLCMLeft`

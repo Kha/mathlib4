@@ -6,9 +6,24 @@ Authors: Chris Birkbeck
 module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
-public import Mathlib.Analysis.PSeries
-public import Mathlib.Order.Interval.Finset.Box
-public import Mathlib.Analysis.Asymptotics.Defs
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Asymptotics.Lemmas
+import Mathlib.Analysis.Complex.Asymptotics
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Bounded
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Order.Interval.Finset.Box
+import Mathlib.Topology.Algebra.InfiniteSum.Basic
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.Ring.Real
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Summability of Eisenstein series

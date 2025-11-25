@@ -5,8 +5,18 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
-public import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+import Mathlib.Analysis.Calculus.FDeriv.Linear
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Normed.Operator.Prod
+import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 
 /-! ## Equivalence of manifold differentiability with the basic definition for functions between
 vector spaces

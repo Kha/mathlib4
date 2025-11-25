@@ -7,6 +7,16 @@ module
 
 public import Mathlib.Probability.Moments.Variance
 public import Mathlib.MeasureTheory.Function.UniformIntegrable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Identically distributed random variables

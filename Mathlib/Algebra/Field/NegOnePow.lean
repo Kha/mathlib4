@@ -7,7 +7,9 @@ module
 
 public import Mathlib.Algebra.Field.Defs
 public import Mathlib.Algebra.Ring.NegOnePow
-public import Mathlib.Tactic.NormNum
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Int.Parity
 
 /-! # Integer powers of `-1` in a field -/
 

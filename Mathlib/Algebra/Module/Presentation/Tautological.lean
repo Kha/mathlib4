@@ -6,6 +6,7 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Module.Presentation.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The tautological presentation of a module

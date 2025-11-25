@@ -7,6 +7,15 @@ module
 
 public import Mathlib.Algebra.Polynomial.Degree.Support
 public import Mathlib.Data.ENat.Basic
+public import Mathlib.Algebra.Polynomial.Coeff
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Polynomial.Degree.Operations
+import Mathlib.Data.Nat.Cast.WithTop
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Trailing degree of univariate polynomials

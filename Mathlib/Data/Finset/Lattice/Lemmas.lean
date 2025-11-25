@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Data.Finset.Insert
 public import Mathlib.Data.Finset.Lattice.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
 
 /-!
 # Lemmas about the lattice structure of finite sets

@@ -9,6 +9,7 @@ public import Mathlib.Analysis.Normed.Operator.LinearIsometry
 public import Mathlib.Analysis.Normed.Operator.ContinuousLinearMap
 public import Mathlib.Analysis.Normed.Module.Basic
 public import Mathlib.LinearAlgebra.Basis.VectorSpace
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The span of a single vector

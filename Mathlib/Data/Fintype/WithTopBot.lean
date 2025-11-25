@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Fintype.Option
 public import Mathlib.Order.TypeTags
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Fintype instances for `WithTop α` and `WithBot α`

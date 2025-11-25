@@ -6,6 +6,7 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Data.Multiset.Bind
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Sections of a multiset

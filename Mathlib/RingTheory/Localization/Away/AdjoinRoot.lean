@@ -7,6 +7,7 @@ module
 
 public import Mathlib.RingTheory.AdjoinRoot
 public import Mathlib.RingTheory.Localization.Away.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 The `R`-`AlgEquiv` between the localization of `R` away from `r` and

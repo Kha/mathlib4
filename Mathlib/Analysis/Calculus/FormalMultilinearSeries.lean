@@ -6,6 +6,10 @@ Authors: Sébastien Gouëzel
 module
 
 public import Mathlib.Analysis.NormedSpace.Multilinear.Curry
+public import Mathlib.Data.Nat.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Group.Fin.Tuple
 
 /-!
 # Formal multilinear series

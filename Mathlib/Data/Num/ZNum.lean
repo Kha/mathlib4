@@ -5,9 +5,18 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Ring.Cast
-public import Mathlib.Data.Int.Cast.Lemmas
 public import Mathlib.Data.Num.Lemmas
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Int.Init
+import Mathlib.Data.Nat.Size
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Int.Cast.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic
+import Mathlib.Data.Nat.Cast.Order.Ring
 
 /-!
 # Properties of the `ZNum` representation of integers

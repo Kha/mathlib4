@@ -6,6 +6,8 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.Algebra.Group.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Util.AssertExists
 
 /-!
 # `PUnit` is a commutative group

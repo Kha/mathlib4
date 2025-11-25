@@ -5,8 +5,9 @@ Authors: Johan Commelin, Jujian Zhang
 -/
 module
 
-public import Mathlib.RingTheory.TwoSidedIdeal.Basic
 public import Mathlib.RingTheory.TwoSidedIdeal.Lattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Kernel of a ring homomorphism as a two-sided ideal

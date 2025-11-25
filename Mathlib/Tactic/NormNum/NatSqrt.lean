@@ -5,7 +5,13 @@ Authors: Mario Carneiro, Kyle Miller
 -/
 module
 
-public meta import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Common
+public meta import Batteries.Data.Nat.Basic
+public import Batteries.Data.Nat.Basic
+public import Mathlib.Tactic.NormNum.Core
+public meta import Mathlib.Tactic.NormNum.Core
+import Mathlib.Tactic.Lemma
+import Mathlib.Data.Nat.Sqrt
 
 /-! # `norm_num` extension for `Nat.sqrt`
 

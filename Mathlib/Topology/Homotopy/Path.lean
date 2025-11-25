@@ -7,7 +7,11 @@ module
 
 public import Mathlib.Topology.Homotopy.Basic
 public import Mathlib.Topology.Connected.PathConnected
-public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Convex.Basic
+import Mathlib.Topology.Order.ProjIcc
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Homotopy between paths

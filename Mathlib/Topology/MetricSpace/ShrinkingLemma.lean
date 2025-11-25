@@ -5,10 +5,14 @@ Authors: Yury Kudryashov
 -/
 module
 
-public import Mathlib.Topology.EMetricSpace.Paracompact
-public import Mathlib.Topology.MetricSpace.Basic
-public import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
-public import Mathlib.Topology.ShrinkingLemma
+public import Mathlib.Topology.MetricSpace.Defs
+public import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Order.OmegaCompletePartialOrder
+import Mathlib.Topology.ShrinkingLemma
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.EMetricSpace.Paracompact
+import Mathlib.Topology.MetricSpace.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
 
 /-!
 # Shrinking lemma in a proper metric space

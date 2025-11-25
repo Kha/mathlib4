@@ -9,8 +9,13 @@ public import Mathlib.Algebra.Group.Idempotent
 public import Mathlib.Algebra.Ring.Equiv
 public import Mathlib.Algebra.Ring.PUnit
 public import Mathlib.Order.Hom.BoundedLattice
-public import Mathlib.Tactic.Abel
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Common
+public import Mathlib.Tactic.NormNum.Core
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Boolean rings

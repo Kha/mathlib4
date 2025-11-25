@@ -6,10 +6,23 @@ Authors: Mario Carneiro, Johannes Hölzl, Sander Dahmen, Kim Morrison
 module
 
 public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
-public import Mathlib.LinearAlgebra.Dimension.Subsingleton
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
-public import Mathlib.SetTheory.Cardinal.Cofinality
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Module.BigOperators
+import Mathlib.LinearAlgebra.Basis.Cardinality
+import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Finiteness.Finsupp
+import Mathlib.RingTheory.Ideal.Operations
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Nontriviality.Core
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
 
 /-!
 # Conditions for rank to be finite

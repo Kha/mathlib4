@@ -6,6 +6,9 @@ Authors: Kevin Buzzard, David Kurniadi Angdinata, Jz Pan
 module
 
 public import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
+public import Mathlib.Tactic.LinearCombination
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.Lemma
 
 /-!
 # Change of variables of Weierstrass curves

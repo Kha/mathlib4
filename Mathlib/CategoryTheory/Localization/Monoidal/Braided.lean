@@ -7,6 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Localization.Monoidal.Basic
 public import Mathlib.CategoryTheory.Monoidal.Braided.Multifunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

@@ -6,7 +6,9 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.Constructions
-public import Mathlib.Data.Set.Notation
+public import Mathlib.Data.Set.Restrict
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Maps between matroids

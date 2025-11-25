@@ -5,17 +5,17 @@ Authors: Mario Carneiro, Kyle Miller
 -/
 module
 
-public meta import Lean.Elab.BuiltinCommand
 public meta import Lean.Elab.MacroArgUtil
-public meta import Mathlib.Lean.Elab.Term
 public meta import Lean.PrettyPrinter.Delaborator  -- shake: keep (dependency of elaborator output)
 public meta import Mathlib.Lean.PrettyPrinter.Delaborator
-public meta import Mathlib.Tactic.ScopedNS
-public meta import Batteries.Linter.UnreachableTactic
-public meta import Batteries.Util.ExtendedBinder
 public meta import Batteries.Lean.Syntax
-public meta import Lean.Elab.AuxDef
-public meta import Lean.PrettyPrinter.Delaborator.Builtins
+public import Batteries.Linter.UnreachableTactic
+public import Batteries.Util.ExtendedBinder
+public import Mathlib.Tactic.ScopedNS
+public import Mathlib.Lean.Elab.Term
+import Lean.Elab.AuxDef
+import Lean.Parser.Syntax
+import Mathlib.Util.WithWeakNamespace
 
 /-!
 # The notation3 macro, simulating Lean 3's notation.

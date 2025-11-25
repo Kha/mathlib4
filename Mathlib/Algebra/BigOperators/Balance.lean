@@ -6,6 +6,9 @@ Authors: Yaël Dillies, Bhavik Mehta
 module
 
 public import Mathlib.Algebra.BigOperators.Expect
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Balancing a function

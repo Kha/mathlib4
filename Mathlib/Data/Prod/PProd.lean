@@ -5,8 +5,9 @@ Authors: Eric Wieser
 -/
 module
 
-public import Batteries.Logic
-public import Mathlib.Tactic.TypeStar
+public import Mathlib.Init
+import Batteries.Logic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Extra facts about `PProd`

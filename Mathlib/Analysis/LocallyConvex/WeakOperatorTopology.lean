@@ -8,6 +8,13 @@ module
 public import Mathlib.Analysis.LocallyConvex.WithSeminorms
 public import Mathlib.Analysis.LocallyConvex.SeparatingDual
 public import Mathlib.Topology.Algebra.Module.StrongTopology
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.Algebra.Group.Pointwise
+import Mathlib.Topology.Algebra.IsUniformGroup.Constructions
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-!
 # The weak operator topology

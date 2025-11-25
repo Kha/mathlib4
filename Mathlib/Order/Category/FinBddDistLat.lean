@@ -8,6 +8,9 @@ module
 public import Mathlib.Data.Fintype.Order
 public import Mathlib.Order.Category.BddDistLat
 public import Mathlib.Order.Category.FinPartOrd
+import Mathlib.CategoryTheory.Elementwise
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The category of finite bounded distributive lattices

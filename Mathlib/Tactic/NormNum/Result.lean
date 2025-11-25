@@ -6,11 +6,17 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Algebra.Field.Defs
-public import Mathlib.Algebra.GroupWithZero.Invertible
 public meta import Mathlib.Data.Sigma.Basic
 public import Mathlib.Algebra.Ring.Nat
-public import Mathlib.Data.Int.Cast.Basic
 public meta import Qq.MetaM
+public import Qq.Macro
+public import Qq.Typ
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Group.Invertible.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Data.Int.Cast.Basic
 
 /-!
 ## The `Result` type for `norm_num`

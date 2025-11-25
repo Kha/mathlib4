@@ -6,6 +6,7 @@ Authors: Shing Tak Lam
 module
 
 public import Mathlib.Topology.Homotopy.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 

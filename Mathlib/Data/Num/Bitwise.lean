@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Num.Basic
 public import Mathlib.Data.Vector.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Bitwise operations using binary representation of integers

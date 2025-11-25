@@ -5,10 +5,16 @@ Authors: Oliver Nash
 -/
 module
 
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
-public import Mathlib.LinearAlgebra.FreeModule.PID
 public import Mathlib.LinearAlgebra.Eigenspace.Basic
 public import Mathlib.LinearAlgebra.Trace
+public import Mathlib.Algebra.DirectSum.Module
+public import Mathlib.Data.Finite.Sigma
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FreeModule.PID
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Noetherian.Basic
 
 /-!
 # Linear maps between direct sums

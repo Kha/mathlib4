@@ -6,6 +6,8 @@ Authors: Calle Sönne, Joël Riou, Ravi Vakil
 module
 
 public import Mathlib.CategoryTheory.MorphismProperty.Limits
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Constructions.BinaryProducts
 
 /-!
 

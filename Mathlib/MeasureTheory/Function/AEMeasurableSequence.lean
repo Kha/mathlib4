@@ -5,8 +5,8 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.MeasurableSpace.Basic
 public import Mathlib.MeasureTheory.Measure.MeasureSpaceDef
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Sequence of measurable functions associated to a sequence of a.e.-measurable functions

@@ -7,6 +7,11 @@ module
 
 public import Mathlib.Algebra.Lie.Basic
 public import Mathlib.RingTheory.Artinian.Module
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Bounds.Image
+import Mathlib.Algebra.Module.Submodule.Basic
 
 /-!
 # Lie subalgebras

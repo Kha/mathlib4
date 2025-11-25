@@ -6,6 +6,8 @@ Authors: Dagur Asgeirsson, Joël Riou
 module
 
 public import Mathlib.CategoryTheory.Limits.Final
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 
 # Conditions for `parallelPair` to be initial

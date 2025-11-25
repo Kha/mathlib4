@@ -7,6 +7,12 @@ module
 
 public import Mathlib.Geometry.Manifold.Diffeomorph
 public import Mathlib.Topology.IsLocalHomeomorph
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
 
 /-!
 # Local diffeomorphisms between manifolds

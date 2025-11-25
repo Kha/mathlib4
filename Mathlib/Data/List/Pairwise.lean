@@ -5,9 +5,12 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Batteries.Data.List.Pairwise
 public import Mathlib.Logic.Pairwise
-public import Mathlib.Logic.Relation
+public import Batteries.Data.List.Basic
+import Batteries.Tactic.Alias
+import Mathlib.Logic.Relation
+import Mathlib.Tactic.TypeStar
+import Batteries.Data.List.Pairwise
 
 /-!
 # Pairwise relations on a list

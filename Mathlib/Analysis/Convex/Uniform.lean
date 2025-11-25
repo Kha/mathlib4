@@ -6,6 +6,13 @@ Authors: Yaël Dillies
 module
 
 public import Mathlib.Analysis.Convex.StrictConvexSpace
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Analysis.Normed.Module.RCLike.Real
 
 /-!
 # Uniformly convex spaces

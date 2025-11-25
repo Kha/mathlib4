@@ -5,9 +5,16 @@ Authors: Joachim Breitner
 -/
 module
 
-public import Mathlib.GroupTheory.OrderOfElement
-public import Mathlib.Data.Nat.GCD.BigOperators
 public import Mathlib.Order.SupIndep
+public import Mathlib.Data.Finset.NoncommProd
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Algebra.Group.Subgroup.Ker
+import Mathlib.GroupTheory.OrderOfElement
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Data.Nat.GCD.BigOperators
 
 /-!
 # Canonical homomorphism from a finite family of monoids

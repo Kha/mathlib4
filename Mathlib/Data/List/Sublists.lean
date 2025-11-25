@@ -6,10 +6,16 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Data.Nat.Choose.Basic
-public import Mathlib.Data.List.FinRange
-public import Mathlib.Data.List.Perm.Basic
-public import Mathlib.Data.List.Lex
-public import Mathlib.Data.List.Induction
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+public import Mathlib.Data.List.Monad
+import Batteries.Data.List.Perm
+import Mathlib.Data.List.FinRange
+import Mathlib.Data.List.Induction
+import Mathlib.Data.List.Lex
+import Mathlib.Data.List.Nodup
+import Mathlib.Data.Prod.Basic
+import Mathlib.Data.List.Perm.Basic
 
 /-! # sublists
 

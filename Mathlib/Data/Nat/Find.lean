@@ -6,8 +6,11 @@ Authors: Leonardo de Moura, Johannes Hölzl, Mario Carneiro
 module
 
 public import Mathlib.Data.Nat.Basic
-public import Mathlib.Tactic.Push
 public import Batteries.WF
+import Batteries.Tactic.Init
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.SplitIfs
 
 /-!
 # `Nat.find` and `Nat.findGreatest`

@@ -5,9 +5,12 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.Opposites
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
 public import Mathlib.CategoryTheory.Localization.CalculusOfFractions
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+import Mathlib.CategoryTheory.Adjunction.Opposites
+import Mathlib.CategoryTheory.Localization.Opposite
 
 /-!
 # The calculus of fractions deduced from an adjunction

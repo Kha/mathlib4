@@ -6,8 +6,34 @@ Authors: Zhouhang Zhou, Yury Kudryashov, Patrick Massot
 module
 
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.MeasureTheory.Measure.Real
-public import Mathlib.Order.Filter.IndicatorFunction
+public import Mathlib.Topology.ContinuousMap.Compact
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Sequences
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Order.Filter.IndicatorFunction
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.UniformSpace.HeineCantor
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Indicator
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.Indicator
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.Algebra.InfiniteSum.Module
+import Mathlib.Topology.Algebra.Order.Group
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The dominated convergence theorem

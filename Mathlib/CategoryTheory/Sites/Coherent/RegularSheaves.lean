@@ -6,11 +6,17 @@ Authors: Dagur Asgeirsson, Filippo A. E. Nuccio, Riccardo Brasca
 module
 
 public import Mathlib.CategoryTheory.EffectiveEpi.Preserves
-public import Mathlib.CategoryTheory.Limits.Final.ParallelPair
 public import Mathlib.CategoryTheory.Preadditive.Projective.Basic
 public import Mathlib.CategoryTheory.Sites.Canonical
 public import Mathlib.CategoryTheory.Sites.Coherent.Basic
-public import Mathlib.CategoryTheory.Sites.EffectiveEpimorphic
+public import Mathlib.CategoryTheory.Limits.Final
+public import Mathlib.CategoryTheory.Limits.Types.Equalizers
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.CategoryTheory.Sites.EffectiveEpimorphic
+import Mathlib.CategoryTheory.Limits.Final.ParallelPair
+import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
 /-!
 
 # Sheaves for the regular topology

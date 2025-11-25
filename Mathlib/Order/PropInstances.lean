@@ -6,6 +6,7 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Order.Disjoint
+import Mathlib.Tactic.TypeStar
 
 /-!
 

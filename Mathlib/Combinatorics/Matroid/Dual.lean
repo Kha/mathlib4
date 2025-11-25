@@ -6,6 +6,9 @@ Authors: Peter Nelson
 module
 
 public import Mathlib.Combinatorics.Matroid.IndepAxioms
+public import Mathlib.Order.Minimal
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Matroid Duality

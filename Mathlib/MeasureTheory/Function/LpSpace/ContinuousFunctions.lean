@@ -5,10 +5,13 @@ Authors: Rémy Degenne, Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Analysis.Normed.Operator.NormedSpace
 public import Mathlib.MeasureTheory.Function.LpSpace.Basic
 public import Mathlib.MeasureTheory.Measure.OpenPos
 public import Mathlib.Topology.ContinuousMap.Compact
+public import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Topology.Algebra.InfiniteSum.Module
 
 /-!
 # Continuous functions in Lp space

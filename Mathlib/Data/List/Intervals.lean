@@ -5,9 +5,13 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Data.List.Lattice
-public import Mathlib.Data.Bool.Basic
-public import Mathlib.Order.Lattice
+public import Mathlib.Tactic.Common
+public import Mathlib.Util.CompileInductive
+public import Batteries.Data.List.Basic
+public import Mathlib.Data.Nat.Notation
+import Mathlib.Order.Lattice
+import Batteries.Data.List.Lemmas
+import Mathlib.Data.List.Lattice
 
 /-!
 # Intervals in ℕ

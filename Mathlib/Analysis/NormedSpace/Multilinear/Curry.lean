@@ -7,6 +7,14 @@ module
 
 public import Mathlib.Analysis.NormedSpace.Multilinear.Basic
 public import Mathlib.LinearAlgebra.Multilinear.Curry
+public import Mathlib.Data.Fintype.BigOperators
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Group.Fin.Tuple
+import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 /-!
 # Currying and uncurrying continuous multilinear maps

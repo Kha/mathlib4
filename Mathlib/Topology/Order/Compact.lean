@@ -6,9 +6,26 @@ Authors: Patrick Massot, Yury Kudryashov
 module
 
 public import Mathlib.Topology.Algebra.Support
-public import Mathlib.Topology.Order.IntermediateValue
-public import Mathlib.Topology.Order.IsLUB
 public import Mathlib.Topology.Order.LocalExtr
+public import Mathlib.Topology.Connected.Basic
+public import Mathlib.Topology.Order.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Order.Filter.Finite
+import Mathlib.Order.Filter.Tendsto
+import Mathlib.Topology.Order.DenselyOrdered
+import Mathlib.Topology.Order.IntermediateValue
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.LeftRightNhds
+import Mathlib.Algebra.Order.Group.Synonym
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.LinearOrder
+import Mathlib.Order.Interval.Set.Pi
 
 /-!
 # Compactness of a closed interval

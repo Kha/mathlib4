@@ -6,9 +6,19 @@ Authors: Violeta Hernández Palacios
 module
 
 public import Mathlib.SetTheory.Ordinal.Enum
-public import Mathlib.Tactic.TFAE
 public import Mathlib.Topology.Order.IsNormal
-public import Mathlib.Topology.Order.Monotone
+public import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TFAE
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Topology.NhdsWithin
+import Mathlib.Topology.Order.IsLUB
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Order.Interval.Set.Basic
+import Mathlib.Order.Interval.Set.OrdConnected
 
 /-!
 ### Topology of ordinals

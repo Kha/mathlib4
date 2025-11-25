@@ -6,6 +6,10 @@ Authors: Robert Y. Lewis
 module
 
 public meta import Mathlib.Tactic.Linarith.Datatypes
+public meta import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Tactic.Linarith.Datatypes
+public meta import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Parsing input expressions into linear form

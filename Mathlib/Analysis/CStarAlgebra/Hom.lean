@@ -5,7 +5,14 @@ Authors: Jireh Loreaux
 -/
 module
 
-public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+public import Mathlib.Analysis.CStarAlgebra.Classes
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.UrysohnsLemma
+import Mathlib.Analysis.CStarAlgebra.Spectrum
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
+import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Unique
 
 /-! # Properties of C⋆-algebra homomorphisms
 

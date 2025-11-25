@@ -6,10 +6,19 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.Geometry.RingedSpace.LocallyRingedSpace
-public import Mathlib.Algebra.Category.Ring.Constructions
-public import Mathlib.Geometry.RingedSpace.OpenImmersion
-public import Mathlib.CategoryTheory.Limits.Types.Coequalizers
-public import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
+public import Mathlib.Algebra.Category.Ring.Limits
+import Mathlib.CategoryTheory.Adjunction.Limits
+import Mathlib.Geometry.RingedSpace.OpenImmersion
+import Mathlib.Algebra.Category.Ring.Constructions
+import Mathlib.Algebra.Category.Ring.FilteredColimits
+import Mathlib.Algebra.Category.Ring.Instances
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
+import Mathlib.CategoryTheory.Limits.Shapes.RegularMono
+import Mathlib.CategoryTheory.Limits.Types.Coequalizers
+import Mathlib.RingTheory.LocalRing.RingHom.Basic
+import Mathlib.Topology.Category.TopCat.Adjunctions
+import Mathlib.Topology.Category.TopCat.EpiMono
 
 /-!
 # Colimits of LocallyRingedSpace

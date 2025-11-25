@@ -6,7 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.CategoryTheory.GradedObject.Bifunctor
-public import Mathlib.CategoryTheory.Functor.Trifunctor
+public import Mathlib.CategoryTheory.Limits.Preserves.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 /-!
 # The action of trifunctors on graded objects
 

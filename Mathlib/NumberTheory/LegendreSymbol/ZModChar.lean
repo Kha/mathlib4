@@ -5,9 +5,12 @@ Authors: Michael Stoll
 -/
 module
 
-public import Mathlib.Data.Int.Range
 public import Mathlib.Data.ZMod.Basic
 public import Mathlib.NumberTheory.MulChar.Basic
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Int.Range
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Algebra.Order.Group.Unbundled.Int
 
 /-!
 # Quadratic characters on ℤ/nℤ

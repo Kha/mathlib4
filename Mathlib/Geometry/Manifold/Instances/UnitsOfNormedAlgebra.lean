@@ -6,6 +6,12 @@ Authors: Nicolò Cavalleri, Heather Macbeth, Winston Yin
 module
 
 public import Mathlib.Geometry.Manifold.Algebra.LieGroup
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.Algebra.Group.Invertible.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Normed.Ring.Units
 
 /-!
 # Units of a normed algebra

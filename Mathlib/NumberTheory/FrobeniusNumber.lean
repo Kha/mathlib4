@@ -5,7 +5,25 @@ Authors: Alex Zhao, Daniel Buth, Sebastian Meier, Junyan Xu
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.NatInt
+public import Mathlib.RingTheory.Noetherian.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.Zify
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Algebra.GCDMonoid.Nat
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Nat.ModEq
+import Mathlib.RingTheory.Ideal.NatInt
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Group.Abs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Divisibility.Basic
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Frobenius Number

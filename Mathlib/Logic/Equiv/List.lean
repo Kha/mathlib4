@@ -6,6 +6,7 @@ Authors: Mario Carneiro
 module
 
 public import Mathlib.Logic.Denumerable
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Equivalences involving `List`-like types

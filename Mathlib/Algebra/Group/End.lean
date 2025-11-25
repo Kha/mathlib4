@@ -9,8 +9,11 @@ public import Mathlib.Algebra.Group.Equiv.TypeTags
 public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.Algebra.Group.Prod
 public import Mathlib.Algebra.Group.Units.Equiv
-public import Mathlib.Data.Set.Basic
 public import Mathlib.Tactic.Common
+import Mathlib.Tactic.ExtendDoc
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Basic
 
 /-!
 # Monoids of endomorphisms, groups of automorphisms

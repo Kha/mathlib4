@@ -5,9 +5,11 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
-public import Mathlib.CategoryTheory.Elementwise
 public import Mathlib.Topology.Sheaves.Presheaf
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+import Mathlib.CategoryTheory.Limits.Shapes.StrongEpi
+import Mathlib.Topology.Category.TopCat.EpiMono
 
 /-!
 # Presheafed spaces

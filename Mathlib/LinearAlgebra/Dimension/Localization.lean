@@ -5,12 +5,26 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Module.LocalizedModule.Submodule
-public import Mathlib.LinearAlgebra.Dimension.DivisionRing
 public import Mathlib.RingTheory.IsTensorProduct
-public import Mathlib.RingTheory.Localization.BaseChange
-public import Mathlib.RingTheory.Localization.FractionRing
-public import Mathlib.RingTheory.OreLocalization.OreSet
+public import Mathlib.LinearAlgebra.Dimension.RankNullity
+public import Mathlib.LinearAlgebra.FreeModule.Basic
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+import Mathlib.Logic.UnivLE
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Algebra.Field.Equiv
+import Mathlib.Algebra.Ring.NonZeroDivisors
+import Mathlib.Data.Fintype.BigOperators
+import Mathlib.LinearAlgebra.Dimension.DivisionRing
+import Mathlib.LinearAlgebra.Dimension.Free
+import Mathlib.LinearAlgebra.Dimension.Subsingleton
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.RingTheory.Localization.BaseChange
+import Mathlib.RingTheory.OreLocalization.OreSet
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Module.LocalizedModule.Submodule
 
 /-!
 # Rank of localization

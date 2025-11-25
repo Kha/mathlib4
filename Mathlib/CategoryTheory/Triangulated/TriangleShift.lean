@@ -5,9 +5,10 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.Linear.LinearFunctor
 public import Mathlib.CategoryTheory.Triangulated.Rotate
 public import Mathlib.Algebra.Ring.NegOnePow
+public import Mathlib.Algebra.Module.Basic
+import Mathlib.Tactic.Lemma
 
 /-!
 # The shift on the category of triangles

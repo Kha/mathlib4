@@ -6,6 +6,17 @@ Authors: Kexing Ying
 module
 
 public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Data.ENNReal.Inv
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Topology.Metrizable.Real
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Egorov theorem

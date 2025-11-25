@@ -5,9 +5,17 @@ Authors: Xavier Roblot
 -/
 module
 
-public import Mathlib.RingTheory.FractionalIdeal.Basic
 public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
-public import Mathlib.RingTheory.Localization.NormTrace
+public import Mathlib.RingTheory.FractionalIdeal.Operations
+public import Mathlib.RingTheory.Localization.Module
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Localization.NormTrace
+import Mathlib.RingTheory.Norm.Basic
+import Mathlib.RingTheory.SimpleModule.Basic
+import Mathlib.Algebra.Order.AbsoluteValue.Basic
+import Mathlib.Algebra.Order.Ring.Abs
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Rat
 
 /-!
 

@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
 public import Mathlib.RepresentationTheory.Homological.GroupCohomology.Basic
 public import Mathlib.RepresentationTheory.Invariants
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Algebra.Category.Grp.EpiMono
 
 /-!
 # The low-degree cohomology of a `k`-linear `G`-representation

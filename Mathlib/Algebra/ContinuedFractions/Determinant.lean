@@ -5,9 +5,15 @@ Authors: Kevin Kappelmann
 -/
 module
 
-public import Mathlib.Algebra.ContinuedFractions.ContinuantsRecurrence
-public import Mathlib.Algebra.ContinuedFractions.TerminatedStable
-public import Mathlib.Tactic.Ring
+public import Mathlib.Util.CompileInductive
+public import Mathlib.Algebra.ContinuedFractions.Basic
+public import Mathlib.Algebra.Group.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.ContinuedFractions.ContinuantsRecurrence
+import Mathlib.Algebra.ContinuedFractions.TerminatedStable
+import Mathlib.Algebra.ContinuedFractions.Translations
+import Mathlib.Algebra.Field.Basic
+import Mathlib.Tactic.Ring.RingNF
 
 /-!
 # Determinant Formula for Simple Continued Fraction

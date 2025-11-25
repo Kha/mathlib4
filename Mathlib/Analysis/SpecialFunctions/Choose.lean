@@ -5,9 +5,16 @@ Authors: Mitchell Horner
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
-public import Mathlib.Data.Nat.Cast.Field
+public import Mathlib.Data.Nat.Choose.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.Module.Rat
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Nat.Cast.Field
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.Algebra.Ring.Real
 
 /-!
 # Binomial coefficients and factorial variants

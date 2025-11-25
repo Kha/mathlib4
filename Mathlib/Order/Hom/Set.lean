@@ -8,8 +8,9 @@ module
 public import Mathlib.Logic.Equiv.Set
 public import Mathlib.Order.Hom.Basic
 public import Mathlib.Order.Interval.Set.Defs
-public import Mathlib.Order.WellFounded
-public import Mathlib.Tactic.MinImports
+import Mathlib.Order.WellFounded
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Order homomorphisms and sets

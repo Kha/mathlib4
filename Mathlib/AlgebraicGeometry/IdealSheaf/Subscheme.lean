@@ -6,9 +6,13 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.AlgebraicGeometry.Morphisms.Preimmersion
-public import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
 public import Mathlib.AlgebraicGeometry.IdealSheaf.Basic
-public import Mathlib.CategoryTheory.Adjunction.Opposites
+public import Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap
+import Mathlib.Tactic.Lemma
+import Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated
+import Mathlib.CategoryTheory.Adjunction.Opposites
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.Algebra.Category.Ring.FilteredColimits
 
 /-!
 # Subscheme associated to an ideal sheaf

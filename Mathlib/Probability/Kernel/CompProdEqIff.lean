@@ -5,7 +5,13 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Probability.Kernel.Composition.AbsolutelyContinuous
+public import Mathlib.Probability.Kernel.WithDensity
+public import Mathlib.Probability.Kernel.Composition.MeasureCompProd
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
+import Mathlib.Probability.Kernel.RadonNikodym
+import Mathlib.Probability.Kernel.Composition.AbsolutelyContinuous
 
 /-!
 # Condition for two kernels to be equal almost everywhere

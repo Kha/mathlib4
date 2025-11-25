@@ -7,6 +7,9 @@ module
 
 public import Mathlib.CategoryTheory.Closed.Monoidal
 public import Mathlib.CategoryTheory.ObjectProperty.Retract
+public import Mathlib.CategoryTheory.Functor.EpiMono
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 

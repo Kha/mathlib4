@@ -5,11 +5,31 @@ Authors: Zhouhang Zhou, Yury Kudryashov, Sébastien Gouëzel, Rémy Degenne
 -/
 module
 
-public import Mathlib.MeasureTheory.Group.MeasurableEquiv
 public import Mathlib.MeasureTheory.Integral.Bochner.L1
 public import Mathlib.MeasureTheory.Integral.IntegrableOn
-public import Mathlib.MeasureTheory.Measure.OpenPos
-public import Mathlib.MeasureTheory.Measure.Real
+public import Mathlib.Data.Real.ConjExponents
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Data.ENNReal.Operations
+import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.MeasureTheory.Integral.MeanInequalities
+import Mathlib.MeasureTheory.Measure.Real
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Tactic.Monotonicity.Attr
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Group.MinMax
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Real
+import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+import Mathlib.MeasureTheory.Integral.Lebesgue.Norm
+import Mathlib.Order.Filter.AtTopBot.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Bochner integral

@@ -6,8 +6,9 @@ Authors: Simon Hudon, Kim Morrison
 module
 
 public import Mathlib.CategoryTheory.EqToHom
-public import Mathlib.CategoryTheory.NatIso
 public import Mathlib.CategoryTheory.Products.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Categories of indexed families of objects.

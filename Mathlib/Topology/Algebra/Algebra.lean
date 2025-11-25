@@ -8,6 +8,11 @@ module
 public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
 public import Mathlib.Algebra.Algebra.Tower
 public import Mathlib.Topology.Algebra.Module.LinearMap
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Topology.UniformSpace.UniformEmbedding
 
 /-!
 # Topological (sub)algebras

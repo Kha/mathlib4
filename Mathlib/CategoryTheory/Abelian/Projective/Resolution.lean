@@ -7,7 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Preadditive.Projective.Resolution
 public import Mathlib.Algebra.Homology.HomotopyCategory
-public import Mathlib.Tactic.SuppressCompilation
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.SuppressCompilation
 
 /-!
 # Abelian categories with enough projectives have projective resolutions

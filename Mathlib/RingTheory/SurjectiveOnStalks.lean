@@ -7,6 +7,9 @@ module
 
 public import Mathlib.RingTheory.Localization.AtPrime.Basic
 public import Mathlib.RingTheory.TensorProduct.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Ring Homomorphisms surjective on stalks

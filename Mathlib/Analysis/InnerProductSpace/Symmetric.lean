@@ -5,10 +5,20 @@ Authors: Moritz Doll, Frédéric Dupuis, Heather Macbeth
 -/
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Subspace
-public import Mathlib.Analysis.Normed.Operator.Banach
-public import Mathlib.LinearAlgebra.SesquilinearForm.Basic
 public import Mathlib.Analysis.InnerProductSpace.Orthogonal
+public import Mathlib.LinearAlgebra.Projection
+public import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Ring.Idempotent
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.RingTheory.LocalRing.Basic
+import Mathlib.Tactic.NormNum.Eq
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Operator.Banach
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Symmetric linear maps in an inner product space

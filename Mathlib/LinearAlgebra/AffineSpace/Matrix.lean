@@ -7,6 +7,9 @@ module
 
 public import Mathlib.LinearAlgebra.AffineSpace.Basis
 public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Matrix results for barycentric co-ordinates

@@ -7,6 +7,9 @@ module
 
 public import Mathlib.Algebra.Group.Hom.Defs
 public import Mathlib.GroupTheory.Congruence.Defs
+import Mathlib.Tactic.Coe
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Congruence relations and homomorphisms

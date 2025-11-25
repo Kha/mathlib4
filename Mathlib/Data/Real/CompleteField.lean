@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Algebra.Order.CompleteField
 public import Mathlib.Data.Real.Sqrt
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Order.Archimedean.Hom
 
 /-!
 # The reals are a conditionally complete linearly ordered field

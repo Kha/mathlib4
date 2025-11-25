@@ -5,9 +5,32 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.Algebra.Module.ZLattice.Basic
-public import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
-public import Mathlib.Analysis.PSeries
+public import Mathlib.Data.Int.Interval
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Topology.Algebra.Module.FiniteDimension
+import Mathlib.Analysis.PSeries
+import Mathlib.Tactic.Group
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Dimension.Finite
+import Mathlib.LinearAlgebra.FreeModule.StrongRankCondition
+import Mathlib.RingTheory.Finiteness.Cardinality
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.ZLattice.Basic
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Group.OrderIso
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Analysis.Normed.Group.InfiniteSum
+import Mathlib.Data.Int.Cast.Field
+import Mathlib.Topology.Algebra.InfiniteSum.Real
+import Mathlib.Topology.Algebra.InfiniteSum.Ring
+import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.LocallyFinite
 
 /-!
 # Convergence of `p`-series on lattices

@@ -5,19 +5,17 @@ Authors: Mario Carneiro, Heather Macbeth, Yaël Dillies
 -/
 module
 
-public meta import Mathlib.Algebra.Order.Group.PosPart
-public meta import Mathlib.Algebra.Order.Ring.Basic
-public meta import Mathlib.Algebra.Order.Hom.Basic
-public meta import Mathlib.Data.Int.CharZero
-public meta import Mathlib.Data.Nat.Factorial.Basic
-public meta import Mathlib.Data.NNRat.Defs
-public meta import Mathlib.Data.PNat.Defs
 public meta import Mathlib.Tactic.Positivity.Core
-public meta import Qq
 public import Mathlib.Algebra.Order.Group.PosPart  -- shake: keep (Qq dependency)
 public import Mathlib.Data.Nat.Factorial.Basic  -- shake: keep (Qq dependency)
 public import Mathlib.Data.Int.CharZero  -- shake: keep (Qq dependency)
 public import Mathlib.Data.PNat.Defs  -- shake: keep (Qq dependency)
+public import Mathlib.Tactic.Positivity.Core
+import Mathlib.Tactic.HaveI
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.NNRat.Defs
+import Mathlib.Algebra.Order.Hom.Basic
 
 /-!
 ## `positivity` core extensions

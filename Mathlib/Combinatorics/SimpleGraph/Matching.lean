@@ -8,10 +8,16 @@ module
 public import Mathlib.Combinatorics.SimpleGraph.Clique
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Subgraph
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.WalkCounting
-public import Mathlib.Combinatorics.SimpleGraph.DegreeSum
-public import Mathlib.Combinatorics.SimpleGraph.Operations
-public import Mathlib.Data.Set.Card.Arithmetic
-public import Mathlib.Data.Set.Functor
+import Mathlib.Order.Minimal
+import Mathlib.Tactic.AdaptationNote
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Combinatorics.SimpleGraph.DegreeSum
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Functor
+import Mathlib.Order.Preorder.Finite
+import Mathlib.Data.Set.Card.Arithmetic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
 
 /-!
 # Matchings

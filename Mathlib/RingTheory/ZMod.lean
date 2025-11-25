@@ -6,10 +6,13 @@ Authors: Alex J. Best
 module
 
 public import Mathlib.Algebra.Squarefree.Basic
-public import Mathlib.Algebra.EuclideanDomain.Int
-public import Mathlib.Data.ZMod.Basic
-public import Mathlib.RingTheory.Nilpotent.Lemmas
-public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Data.ZMod.Defs
+public import Mathlib.RingTheory.Ideal.Maps
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.EuclideanDomain.Int
+import Mathlib.Data.ZMod.Basic
+import Mathlib.RingTheory.Nilpotent.Lemmas
 
 /-!
 # Ring-theoretic facts about `ZMod n`

@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Data.Vector.Basic
 public import Mathlib.Logic.Equiv.Finset
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Encodability of Pi types

@@ -5,8 +5,18 @@ Authors: Kenji Nakagawa, Anne Baanen, Filippo A. E. Nuccio
 -/
 module
 
-public import Mathlib.RingTheory.Ideal.GoingUp
-public import Mathlib.RingTheory.Polynomial.RationalRoot
+public import Mathlib.RingTheory.Ideal.Over
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.RingTheory.IntegralClosure.Algebra.Basic
+public import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Defs
+public import Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+import Mathlib.RingTheory.PrincipalIdealDomain
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Ideal.GoingUp
+import Mathlib.RingTheory.Polynomial.RationalRoot
+import Mathlib.Algebra.Algebra.Subalgebra.Tower
+import Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic
+import Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic
 
 /-!
 # Dedekind rings and domains

@@ -5,8 +5,10 @@ Authors: Kevin Buzzard, Yunzhou Xie, Eric Wieser
 -/
 module
 
-public import Mathlib.Data.Matrix.Basic
 public import Mathlib.Data.Matrix.Basis
+public import Mathlib.Data.Fintype.Prod
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Fintype.BigOperators
 
 /-!
 # Composition of matrices

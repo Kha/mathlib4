@@ -5,10 +5,12 @@ Authors: Joël Riou
 -/
 module
 
-public import Mathlib.CategoryTheory.ObjectProperty.CompleteLattice
-public import Mathlib.CategoryTheory.ObjectProperty.FullSubcategory
 public import Mathlib.CategoryTheory.ObjectProperty.Opposite
-public import Mathlib.Logic.Small.Basic
+public import Mathlib.Order.CompleteLattice.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ObjectProperty.CompleteLattice
+import Mathlib.Logic.Small.Basic
 
 /-!
 # Smallness of a property of objects

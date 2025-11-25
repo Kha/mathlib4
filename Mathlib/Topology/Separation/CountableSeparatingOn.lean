@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Filter.CountableSeparatingOn
 public import Mathlib.Topology.Separation.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Countable separating families of sets in topological spaces

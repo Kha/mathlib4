@@ -5,11 +5,20 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
-public import Mathlib.RingTheory.FiniteLength
 public import Mathlib.RingTheory.SimpleModule.Isotypic
-public import Mathlib.RingTheory.SimpleRing.Congr
-public import Mathlib.RingTheory.SimpleRing.Matrix
+public import Mathlib.RingTheory.Artinian.Module
+public import Mathlib.RingTheory.SimpleRing.Defs
+import Batteries.Util.ProofWanted
+import Mathlib.RingTheory.FiniteLength
+import Mathlib.Tactic.TFAE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Field.Opposite
+import Mathlib.Data.Finite.Card
+import Mathlib.RingTheory.Finiteness.Basic
+import Mathlib.RingTheory.Noetherian.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.RingTheory.SimpleRing.Congr
+import Mathlib.RingTheory.SimpleRing.Matrix
 
 /-!
 # Wedderburn–Artin Theorem

@@ -7,6 +7,8 @@ module
 
 public import Mathlib.RingTheory.Norm.Defs
 public import Mathlib.RingTheory.Trace.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 /-!
 # Relation between norms and traces

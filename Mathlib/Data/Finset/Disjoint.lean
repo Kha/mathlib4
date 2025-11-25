@@ -6,6 +6,9 @@ Authors: Leonardo de Moura, Jeremy Avigad, Minchao Wu, Mario Carneiro
 module
 
 public import Mathlib.Data.Finset.Insert
+public import Mathlib.Data.Set.Pairwise.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Disjoint
 
 /-!
 # Disjoint finite sets

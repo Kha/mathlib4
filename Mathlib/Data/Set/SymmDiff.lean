@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.BooleanAlgebra.Set
 public import Mathlib.Order.SymmDiff
+import Mathlib.Util.AssertExists
 
 /-! # Symmetric differences of sets -/
 

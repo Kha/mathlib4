@@ -7,6 +7,7 @@ module
 
 public import Mathlib.LinearAlgebra.Prod
 public import Mathlib.LinearAlgebra.TensorProduct.Tower
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tensor products of products

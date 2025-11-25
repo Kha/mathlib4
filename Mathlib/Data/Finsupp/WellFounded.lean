@@ -5,8 +5,10 @@ Authors: Junyan Xu
 -/
 module
 
-public import Mathlib.Data.DFinsupp.WellFounded
 public import Mathlib.Data.Finsupp.Lex
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.DFinsupp.WellFounded
 
 /-!
 # Well-foundedness of the lexicographic and product orders on `Finsupp`

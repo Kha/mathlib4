@@ -5,11 +5,21 @@ Authors: Chris Birkbeck, David Loeffler
 -/
 module
 
-public import Mathlib.Analysis.Complex.CauchyIntegral
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
-public import Mathlib.Geometry.Manifold.Algebra.Structures
-public import Mathlib.Geometry.Manifold.ContMDiff.Atlas
-public import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Geometry.Manifold.ContMDiff.Defs
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.Deriv.ZPow
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Geometry.Manifold.Algebra.Structures
+import Mathlib.Geometry.Manifold.ContMDiff.Atlas
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
 
 /-!
 # Manifold structure on the upper half plane.

@@ -6,8 +6,14 @@ Authors: Johannes Hölzl, Mario Carneiro, Floris van Doorn, Violeta Hernández P
 module
 
 public import Mathlib.SetTheory.Cardinal.ToNat
-public import Mathlib.SetTheory.Cardinal.ENat
 public import Mathlib.SetTheory.Ordinal.Enum
+public import Mathlib.Algebra.Order.Monoid.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Set
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Ordinal.Family
+import Mathlib.Algebra.Order.Monoid.NatCast
+import Mathlib.Data.Nat.Cast.Order.Basic
 
 /-!
 # Omega, aleph, and beth functions

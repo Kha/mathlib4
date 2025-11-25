@@ -5,7 +5,15 @@ Authors: Eric Wieser, Gaëtan Serré
 -/
 module
 
-public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Tactic.Lemma
+import Mathlib.Topology.Compactness.LocallyCompact
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Order.Interval.Set.Image
+import Mathlib.Order.Interval.Set.OrdConnected
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # The canonical measure on the unit interval

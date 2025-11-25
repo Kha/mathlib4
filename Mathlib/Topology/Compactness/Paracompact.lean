@@ -5,8 +5,15 @@ Authors: Reid Barton, Yury Kudryashov
 -/
 module
 
-public import Mathlib.Data.Option.Basic
 public import Mathlib.Topology.Separation.Regular
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Data.Set.Prod
+import Mathlib.Topology.Maps.Basic
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Range
 
 /-!
 # Paracompact topological spaces

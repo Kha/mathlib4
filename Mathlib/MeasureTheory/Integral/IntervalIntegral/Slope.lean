@@ -7,6 +7,10 @@ module
 
 public import Mathlib.LinearAlgebra.AffineSpace.Slope
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+import Mathlib.Tactic.FieldSimp
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Some properties of the interval integral of `fun x ↦ slope f x (x + c)`, given a constant `c : ℝ`

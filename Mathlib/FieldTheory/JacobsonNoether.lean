@@ -6,11 +6,18 @@ Authors: Filippo A. E. Nuccio, Huanyu Zheng, Sihan Wu, Wanyi He, Weichen Jiao, Y
 module
 
 public import Mathlib.Algebra.Central.Defs
-public import Mathlib.Algebra.CharP.LinearMaps
-public import Mathlib.Algebra.CharP.Subring
-public import Mathlib.Algebra.GroupWithZero.Conj
 public import Mathlib.Algebra.Lie.OfAssociative
-public import Mathlib.FieldTheory.PurelyInseparable.Basic
+public import Mathlib.FieldTheory.Separable
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.CharP.LinearMaps
+import Mathlib.Algebra.CharP.Subring
+import Mathlib.Algebra.GroupWithZero.Conj
+import Mathlib.Algebra.GroupWithZero.Invertible
+import Mathlib.FieldTheory.PurelyInseparable.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
 
 /-!
 # The Jacobson-Noether theorem

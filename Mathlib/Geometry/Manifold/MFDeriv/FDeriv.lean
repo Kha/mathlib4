@@ -5,7 +5,11 @@ Authors: Sébastien Gouëzel, Floris van Doorn
 -/
 module
 
-public import Mathlib.Geometry.Manifold.MFDeriv.Basic
+public import Mathlib.Geometry.Manifold.MFDeriv.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.Attr.Register
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Geometry.Manifold.MFDeriv.Basic
 
 /-!
 ### Relations between vector space derivative and manifold derivative

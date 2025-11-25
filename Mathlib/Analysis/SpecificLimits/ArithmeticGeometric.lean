@@ -5,7 +5,25 @@ Authors: Rémy Degenne
 -/
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+import Batteries.Tactic.Congr
+import Mathlib.Tactic.Field
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Order.Filter.AtTopBot.Field
+import Mathlib.Order.Filter.AtTopBot.Group
+import Mathlib.Topology.Algebra.Order.Field
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # Arithmetic-geometric sequences

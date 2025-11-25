@@ -5,11 +5,24 @@ Authors: Floris van Doorn, Patrick Massot
 -/
 module
 
-public import Mathlib.Algebra.GroupWithZero.Indicator
-public import Mathlib.Algebra.Module.Basic
 public import Mathlib.Algebra.Order.Group.Unbundled.Abs
-public import Mathlib.Topology.Homeomorph.Defs
 public import Mathlib.Topology.Separation.Hausdorff
+public import Mathlib.Algebra.Group.Action.Pi
+public import Mathlib.Algebra.GroupWithZero.Action.Defs
+import Mathlib.Order.Cover
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Topology.Closure
+import Mathlib.Topology.ClusterPt
+import Mathlib.Topology.ContinuousOn
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Algebra.Group.Support
+import Mathlib.Algebra.GroupWithZero.Indicator
+import Mathlib.Algebra.Module.Basic
+import Mathlib.Data.Set.Disjoint
+import Mathlib.Order.Filter.Finite
+import Mathlib.Tactic.GRewrite.Elab
+import Mathlib.Topology.Maps.Basic
 
 /-!
 # The topological support of a function

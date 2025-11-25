@@ -5,10 +5,24 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli
-public import Mathlib.Topology.ContinuousMap.Bounded.Normed
 public import Mathlib.Topology.MetricSpace.Gluing
 public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Topology.ContinuousMap.Bounded.Basic
+import Mathlib.Topology.Neighborhoods
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Topology.Bornology.Real
+import Mathlib.Topology.MetricSpace.Equicontinuity
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Topology.Order.Monotone
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli
+import Mathlib.Topology.ContinuousMap.Bounded.Normed
+import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
 
 /-!
 # The Gromov-Hausdorff distance is realized

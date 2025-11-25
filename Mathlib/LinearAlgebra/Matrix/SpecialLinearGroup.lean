@@ -7,8 +7,15 @@ module
 
 public import Mathlib.LinearAlgebra.Matrix.Adjugate
 public import Mathlib.LinearAlgebra.Matrix.ToLin
-public import Mathlib.LinearAlgebra.Matrix.Transvection
 public import Mathlib.RingTheory.RootsOfUnity.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.GroupTheory.MonoidLocalization.Basic
+import Mathlib.LinearAlgebra.Matrix.Transvection
+import Mathlib.RingTheory.SimpleRing.Basic
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Data.Nat.Cast.NeZero
 
 /-!
 # The Special Linear group $SL(n, R)$

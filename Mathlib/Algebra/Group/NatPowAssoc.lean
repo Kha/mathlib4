@@ -7,8 +7,14 @@ module
 
 public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.Algebra.Group.Prod
-public import Mathlib.Algebra.Ring.Int.Defs
-public import Mathlib.Data.Nat.Cast.Basic
+public import Mathlib.Tactic.Common
+public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Group.Nat.Defs
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Int.Defs
+import Mathlib.Data.Int.Cast.Basic
+import Mathlib.Data.Nat.Cast.Basic
 
 /-!
 # Typeclasses for power-associative structures

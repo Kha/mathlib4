@@ -7,17 +7,30 @@ module
 
 public import Mathlib.Algebra.Group.Conj
 public import Mathlib.Algebra.Group.Subgroup.Lattice
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
 public import Mathlib.Data.Finset.Fin
 public import Mathlib.Data.Finset.Sort
 public import Mathlib.Data.Fintype.Perm
 public import Mathlib.Data.Fintype.Prod
 public import Mathlib.Data.Fintype.Sum
-public import Mathlib.Data.Int.Order.Units
 public import Mathlib.GroupTheory.Perm.Support
 public import Mathlib.Logic.Equiv.Fintype
-public import Mathlib.Tactic.NormNum.Ineq
 public import Mathlib.Data.Finset.Sigma
+public import Mathlib.Algebra.Ring.Units
+public import Mathlib.Algebra.Ring.Int.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Tactic.NormNum.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Order.Group.Nat
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Ring.Int.Units
+import Mathlib.Data.Int.Order.Units
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Int
 
 /-!
 # Sign of a permutation

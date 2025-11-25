@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Module.Equiv.Basic
 public import Mathlib.Algebra.Module.Submodule.Map
 public import Mathlib.LinearAlgebra.Span.Defs
 public import Mathlib.Order.Sublattice
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # The lattice of invariant submodules

@@ -6,6 +6,9 @@ Authors: Joël Riou
 module
 
 public import Mathlib.Algebra.Homology.Embedding.TruncLEHomology
+public import Mathlib.Algebra.Homology.Embedding.TruncGEHomology
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Complementary embeddings

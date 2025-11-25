@@ -7,8 +7,10 @@ module
 
 public import Mathlib.Algebra.Algebra.Bilinear
 public import Mathlib.LinearAlgebra.Basis.Defs
-public import Mathlib.LinearAlgebra.Basis.Submodule
 public import Mathlib.RingTheory.Ideal.Span
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Regular
+import Mathlib.LinearAlgebra.Basis.Submodule
 
 /-!
 # The basis of ideals

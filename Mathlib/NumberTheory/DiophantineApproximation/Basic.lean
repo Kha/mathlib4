@@ -6,9 +6,31 @@ Authors: Michael Geißer, Michael Stoll
 module
 
 public import Mathlib.NumberTheory.Real.Irrational
-public import Mathlib.RingTheory.Coprime.Lemmas
-public import Mathlib.RingTheory.Int.Basic
-public import Mathlib.Tactic.Basic
+public import Mathlib.Data.Rat.Floor
+public import Mathlib.RingTheory.Coprime.Basic
+import Mathlib.Tactic.Field
+import Mathlib.Algebra.EuclideanDomain.Basic
+import Mathlib.Algebra.EuclideanDomain.Field
+import Mathlib.Data.Finite.Prod
+import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.Interval
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.RingTheory.Int.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Ring.RingNF
+import Mathlib.Algebra.Group.Int.Units
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Floor.Ring
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Group.Int
+import Mathlib.Algebra.Order.Ring.Cast
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Data.Set.Finite.Lattice
+import Mathlib.Data.Set.Finite.Lemmas
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Ring.Unbundled.Basic
 
 /-!
 # Diophantine Approximation

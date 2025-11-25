@@ -7,10 +7,13 @@ module
 
 public import Mathlib.CategoryTheory.SmallObject.Construction
 public import Mathlib.CategoryTheory.SmallObject.TransfiniteIteration
-public import Mathlib.CategoryTheory.SmallObject.TransfiniteCompositionLifting
 public import Mathlib.CategoryTheory.MorphismProperty.IsSmall
 public import Mathlib.AlgebraicTopology.RelativeCellComplex.Basic
 public import Mathlib.SetTheory.Cardinal.Regular
+public import Mathlib.CategoryTheory.MorphismProperty.LiftingProperty
+import Mathlib.Tactic.Lemma
+import Mathlib.CategoryTheory.Limits.Comma
+import Mathlib.CategoryTheory.SmallObject.TransfiniteCompositionLifting
 
 /-!
 # Cardinals that are suitable for the small object argument

@@ -9,6 +9,8 @@ public import Mathlib.CategoryTheory.Localization.HasLocalization
 public import Mathlib.CategoryTheory.Center.Localization
 public import Mathlib.CategoryTheory.Center.Linear
 public import Mathlib.CategoryTheory.Linear.LinearFunctor
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Localization of linear categories

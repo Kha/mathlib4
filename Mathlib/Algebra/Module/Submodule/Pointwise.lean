@@ -6,9 +6,19 @@ Authors: Eric Wieser, Jujian Zhang
 module
 
 public import Mathlib.Algebra.GroupWithZero.Subgroup
-public import Mathlib.Algebra.Order.Group.Action
 public import Mathlib.LinearAlgebra.Finsupp.Supported
-public import Mathlib.LinearAlgebra.Span.Basic
+public import Mathlib.Order.OmegaCompletePartialOrder
+public import Mathlib.Algebra.BigOperators.GroupWithZero.Action
+public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.Order.BoundedOrder.Lattice
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.Module.Submodule.Basic
+import Mathlib.Algebra.Order.Group.Action
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Group.Pointwise.Set.Lattice
 
 /-! # Pointwise instances on `Submodule`s
 

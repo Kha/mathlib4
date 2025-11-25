@@ -7,6 +7,7 @@ module
 
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
 public import Mathlib.CategoryTheory.Limits.Types.Limits
+import Mathlib.Tactic.Lemma
 
 /-!
 # Multiequalizers in Type

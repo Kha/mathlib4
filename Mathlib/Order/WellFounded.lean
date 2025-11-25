@@ -5,8 +5,12 @@ Authors: Jeremy Avigad, Mario Carneiro
 -/
 module
 
-public import Mathlib.Data.Set.Function
 public import Mathlib.Order.Bounds.Defs
+public import Mathlib.Data.Set.Basic
+import Batteries.Tactic.Init
+import Mathlib.Tactic.ByContra
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Function
 
 /-!
 # Well-founded relations

@@ -8,8 +8,9 @@ module
 public import Mathlib.Order.OmegaCompletePartialOrder
 public import Mathlib.CategoryTheory.Limits.Shapes.Products
 public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
-public import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
 public import Mathlib.CategoryTheory.ConcreteCategory.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.Limits.Constructions.LimitsOfProductsAndEqualizers
 
 /-!
 # Category of types with an omega complete partial order

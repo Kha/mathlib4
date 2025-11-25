@@ -5,9 +5,10 @@ Authors: Andrew Yang
 -/
 module
 
-public import Mathlib.RingTheory.Smooth.Pi
-public import Mathlib.RingTheory.Unramified.Pi
 public import Mathlib.RingTheory.Etale.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.RingTheory.Smooth.Pi
+import Mathlib.RingTheory.Unramified.Pi
 
 /-!
 

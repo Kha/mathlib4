@@ -5,8 +5,15 @@ Authors: Etienne Marion
 -/
 module
 
-public import Mathlib.MeasureTheory.Constructions.Polish.StronglyMeasurable
 public import Mathlib.Probability.Process.Filtration
+public import Mathlib.MeasureTheory.Constructions.Polish.Basic
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Set.Piecewise
+import Mathlib.Topology.GDelta.MetrizableSpace
+import Mathlib.Topology.Instances.Discrete
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.MeasureTheory.Constructions.Polish.StronglyMeasurable
+import Mathlib.Order.Filter.AtTopBot.Basic
 
 /-!
 # Factorization of a map from measurability

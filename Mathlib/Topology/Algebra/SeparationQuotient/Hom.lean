@@ -5,8 +5,8 @@ Authors: Yoh Tanimoto
 -/
 module
 
-public import Mathlib.Topology.Algebra.ContinuousMonoidHom
 public import Mathlib.Topology.Algebra.SeparationQuotient.Basic
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Lift of `MonoidHom M N` to `MonoidHom (SeparationQuotient M) N`

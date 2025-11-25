@@ -6,6 +6,9 @@ Authors: Andrew Yang
 module
 
 public import Mathlib.RingTheory.Unramified.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.Ring.Idempotent
 
 /-!
 

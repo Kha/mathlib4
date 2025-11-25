@@ -5,9 +5,13 @@ Authors: Dexin Zhang
 -/
 module
 
-public import Mathlib.Logic.UnivLE
 public import Mathlib.SetTheory.Ordinal.Rank
 public import Mathlib.SetTheory.ZFC.Basic
+import Mathlib.Logic.UnivLE
+import Mathlib.Tactic.TypeStar
+import Mathlib.Logic.Small.Basic
+import Mathlib.Order.ConditionallyCompleteLattice.Indexed
+import Mathlib.SetTheory.Ordinal.Family
 
 /-!
 # Ordinal ranks of PSet and ZFSet

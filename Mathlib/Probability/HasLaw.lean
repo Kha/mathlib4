@@ -7,6 +7,10 @@ module
 
 public import Mathlib.Probability.Density
 public import Mathlib.Probability.Moments.Variance
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+import Mathlib.Topology.MetricSpace.ProperSpace.Real
 
 /-!
 # Law of a random variable

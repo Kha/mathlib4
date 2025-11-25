@@ -9,6 +9,8 @@ public import Mathlib.Algebra.Algebra.Pi
 public import Mathlib.LinearAlgebra.TensorProduct.Pi
 public import Mathlib.LinearAlgebra.TensorProduct.Prod
 public import Mathlib.RingTheory.TensorProduct.Maps
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Tensor product and products of algebras

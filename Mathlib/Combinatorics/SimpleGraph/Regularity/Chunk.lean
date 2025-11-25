@@ -8,6 +8,23 @@ module
 public import Mathlib.Combinatorics.SimpleGraph.Regularity.Bound
 public import Mathlib.Combinatorics.SimpleGraph.Regularity.Equitabilise
 public import Mathlib.Combinatorics.SimpleGraph.Regularity.Uniform
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Algebra.Order.Chebyshev
+import Mathlib.Algebra.Ring.Commute
+import Mathlib.Data.Rat.BigOperators
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Field.Basic
+import Mathlib.Algebra.Order.Group.Defs
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Data.Rat.Cast.Lemmas
+import Mathlib.Data.Rat.Cast.Order
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Algebra.Order.Group.Unbundled.Basic
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Chunk of the increment partition for Szemerédi Regularity Lemma

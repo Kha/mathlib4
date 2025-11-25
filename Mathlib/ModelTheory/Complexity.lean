@@ -6,6 +6,8 @@ Authors: Aaron Anderson
 module
 
 public import Mathlib.ModelTheory.Equivalence
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Quantifier Complexity

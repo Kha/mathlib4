@@ -6,6 +6,7 @@ Authors: Kenny Lau
 module
 
 public import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+import Mathlib.Tactic.Lemma
 
 /-!
 # Grassmannians

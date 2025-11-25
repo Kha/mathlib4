@@ -6,6 +6,7 @@ Authors: Eric Wieser
 module
 
 public import Mathlib.LinearAlgebra.CliffordAlgebra.Conjugation
+import Mathlib.Tactic.TypeStar
 
 /-!
 # Star structure on `CliffordAlgebra`

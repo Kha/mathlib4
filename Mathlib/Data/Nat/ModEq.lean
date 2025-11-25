@@ -5,10 +5,18 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Unbundled.Int
-public import Mathlib.Algebra.Ring.Nat
 public import Mathlib.Data.Int.GCD
-public import Mathlib.Data.Nat.GCD.Basic
+public import Mathlib.Algebra.Group.Int.Defs
+public import Mathlib.Algebra.Group.Nat.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+import Mathlib.Algebra.NeZero
+import Mathlib.Tactic.Lemma
+import Mathlib.Algebra.GroupWithZero.Divisibility
+import Mathlib.Algebra.Ring.Nat
+import Mathlib.Data.Int.Init
+import Mathlib.Algebra.Group.Nat.Units
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Algebra.Order.Group.Unbundled.Int
 
 /-!
 # Congruences modulo a natural number

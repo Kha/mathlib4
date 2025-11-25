@@ -7,6 +7,13 @@ module
 
 public import Mathlib.Algebra.Algebra.Basic
 public import Mathlib.LinearAlgebra.Basis.Basic
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.Algebra.NoZeroSMulDivisors.Basic
+import Mathlib.LinearAlgebra.Span.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Group.Submonoid.BigOperators
+import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 /-!
 # Bases of submodules

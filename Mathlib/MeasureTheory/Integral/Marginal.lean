@@ -6,6 +6,10 @@ Authors: Floris van Doorn, Heather Macbeth
 module
 
 public import Mathlib.MeasureTheory.Constructions.Pi
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Finset.Lattice.Lemmas
+import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+import Mathlib.MeasureTheory.Integral.Lebesgue.Map
 
 /-!
 # Marginals of multivariate functions

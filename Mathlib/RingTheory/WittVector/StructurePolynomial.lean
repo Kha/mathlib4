@@ -5,9 +5,16 @@ Authors: Johan Commelin, Robert Y. Lewis
 -/
 module
 
-public import Mathlib.FieldTheory.Finite.Polynomial
-public import Mathlib.NumberTheory.Basic
 public import Mathlib.RingTheory.WittVector.WittPolynomial
+import Mathlib.NumberTheory.Basic
+import Mathlib.Tactic.ApplyFun
+import Mathlib.Tactic.TypeStar
+import Mathlib.Data.Rat.Lemmas
+import Mathlib.FieldTheory.Finite.Polynomial
+import Mathlib.Algebra.Order.Ring.Nat
+import Mathlib.Algebra.Order.Ring.Rat
+import Mathlib.Data.Rat.Cast.Defs
+import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 
 /-!
 # Witt structure polynomials

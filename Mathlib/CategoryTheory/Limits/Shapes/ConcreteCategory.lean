@@ -5,16 +5,17 @@ Authors: Joël Riou, Kim Morrison, Adam Topaz
 -/
 module
 
-public import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
-public import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
-public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts
 public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
-public import Mathlib.CategoryTheory.Limits.Shapes.Kernels
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
-public import Mathlib.CategoryTheory.Limits.Types.Coproducts
 public import Mathlib.CategoryTheory.Limits.Types.Products
 public import Mathlib.CategoryTheory.Limits.Types.Pullbacks
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Pullbacks
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+import Mathlib.CategoryTheory.Limits.ConcreteCategory.Basic
+import Mathlib.CategoryTheory.Limits.Types.Coproducts
 
 /-!
 # Limits in concrete categories

@@ -6,10 +6,26 @@ Authors: Yury Kudryashov
 module
 
 public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.Analysis.SpecialFunctions.Sqrt
 public import Mathlib.Analysis.Normed.Module.Ball.Homeomorph
-public import Mathlib.Analysis.Calculus.ContDiff.WithLp
-public import Mathlib.Analysis.Calculus.FDeriv.WithLp
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Tactic.TypeStar
+import Mathlib.Analysis.InnerProductSpace.Continuous
+import Mathlib.Analysis.SpecialFunctions.Sqrt
+import Mathlib.Topology.Instances.RealVectorSpace
+import Mathlib.Topology.Metrizable.Uniformity
+import Mathlib.Algebra.Order.Ring.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.ContDiff.WithLp
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Bilinear
+import Mathlib.Analysis.Calculus.FDeriv.Comp
+import Mathlib.Analysis.Calculus.FDeriv.Prod
+import Mathlib.Analysis.Calculus.FDeriv.WithLp
 
 /-!
 # Calculus in inner product spaces

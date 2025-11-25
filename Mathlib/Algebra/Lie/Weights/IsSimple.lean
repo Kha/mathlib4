@@ -6,7 +6,12 @@ Authors: Janos Wolosz
 module
 
 public import Mathlib.Algebra.Lie.Weights.RootSystem
-public import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
+public import Mathlib.LinearAlgebra.RootSystem.Irreducible
+import Mathlib.Tactic.Lemma
+import Mathlib.Tactic.TypeStar
+import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+import Mathlib.Algebra.Lie.Semisimple.Basic
+import Mathlib.LinearAlgebra.RootSystem.Finite.Lemmas
 
 /-!
 # Simple Lie algebras
