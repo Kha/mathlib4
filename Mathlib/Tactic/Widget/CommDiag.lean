@@ -7,7 +7,9 @@ module
 
 public meta import ProofWidgets.Component.PenroseDiagram
 public meta import ProofWidgets.Presentation.Expr
-public meta import Mathlib.CategoryTheory.Category.Basic
+public import Mathlib.CategoryTheory.Category.Basic
+public import ProofWidgets.Component.PenroseDiagram
+public import ProofWidgets.Presentation.Expr
 
 /-! This module defines tactic/meta infrastructure for displaying commutative diagrams in the
 infoview. -/

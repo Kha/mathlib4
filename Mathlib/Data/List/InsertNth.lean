@@ -5,7 +5,7 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.Data.List.InsertIdx
+public import Mathlib.Data.List.Basic
 
 /-!
 This is a stub file for importing `Mathlib/Data/List/InsertNth.lean`,

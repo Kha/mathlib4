@@ -5,7 +5,7 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public meta import Mathlib.Data.ENat.Basic
+public import Mathlib.Data.ENat.Basic
 
 /-!
 # `enat_to_nat`

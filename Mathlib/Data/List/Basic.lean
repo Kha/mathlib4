@@ -6,12 +6,14 @@ Authors: Parikshit Khanna, Jeremy Avigad, Leonardo de Moura, Floris van Doorn, M
 module
 
 public import Mathlib.Control.Basic
-public import Mathlib.Data.Option.Basic
 public import Mathlib.Data.List.Defs
 public import Mathlib.Data.List.Monad
 public import Mathlib.Logic.OpClass
 public import Mathlib.Logic.Unique
 public import Mathlib.Tactic.Common
+public import Batteries.Tactic.Lint.Simp
+public import Batteries.Tactic.SeqFocus
+public import Mathlib.Data.Option.Defs
 
 /-!
 # Basic properties of lists

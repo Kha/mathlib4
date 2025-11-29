@@ -5,9 +5,6 @@ Authors: Vasilii Nesterov
 -/
 module
 
-public meta import Mathlib.Order.BoundedOrder.Basic
-public meta import Mathlib.Order.Lattice
-public meta import Qq
 public import Mathlib.Order.BoundedOrder.Basic  -- shake: keep (Qq dependency)
 public import Mathlib.Order.Lattice  -- shake: keep (Qq dependency)
 

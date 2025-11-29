@@ -6,11 +6,11 @@ Authors: Kyle Miller
 module
 
 public meta import Lean.Meta.Transform
-public meta import Lean.Meta.Inductive
 public meta import Lean.Elab.Deriving.Basic
 public meta import Lean.Elab.Deriving.Util  -- shake: keep (???)
 import Mathlib.Logic.Encodable.Basic
 import Mathlib.Data.Nat.Pairing
+public import Lean.Parser.Extra
 
 /-!
 # `Encodable` deriving handler

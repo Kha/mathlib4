@@ -7,6 +7,11 @@ module
 
 public meta import Mathlib.Tactic.FunProp.FunctionData
 public meta import Mathlib.Lean.Meta.RefinedDiscrTree.Basic
+public import Lean.Elab.ErrorExplanation
+public import Mathlib.Lean.Meta.RefinedDiscrTree.Basic
+public import Std.Do.Triple.SpecLemmas
+public import Std.Tactic.BVDecide.Normalize.BitVec
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 /-!
 ## `funProp`

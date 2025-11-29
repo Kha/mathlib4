@@ -5,8 +5,17 @@ Authors: Jeremy Avigad, Leonardo de Moura, Mario Carneiro, Johannes Hölzl
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Defs
-public import Mathlib.Algebra.Order.Monoid.Prod
 public import Mathlib.Tactic.Linter.DeprecatedModule
+public import Mathlib.Algebra.Group.Defs
+public import Mathlib.Data.Bool.Basic
+public import Mathlib.Data.Nat.Basic
+public import Mathlib.Data.Prod.Basic
+public import Mathlib.Data.Set.Operations
+public import Mathlib.Logic.Relation
+public import Mathlib.Order.Basic
+public import Mathlib.Tactic.Attr.Core
+public import Mathlib.Tactic.Finiteness.Attr
+public import Mathlib.Tactic.Push
+public import Mathlib.Util.CompileInductive
 
 deprecated_module (since := "2025-04-16")

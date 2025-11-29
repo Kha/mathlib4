@@ -6,7 +6,6 @@ Authors: Ilmārs Cīrulis, Alex Meiburg
 module
 
 public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
-public import Mathlib.Analysis.NormedSpace.Normalize
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Affine
 public import Mathlib.Geometry.Euclidean.Angle.Unoriented.Basic
 

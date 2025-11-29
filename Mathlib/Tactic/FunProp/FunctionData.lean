@@ -5,10 +5,15 @@ Authors: Tomáš Skřivan
 -/
 module
 
-public meta import Qq
 
 public meta import Mathlib.Tactic.FunProp.Mor
-public meta import Mathlib.Tactic.FunProp.ToBatteries
+public import Lean.Elab.ErrorExplanation
+public import Lean.Meta.Tactic.TryThis
+public import Mathlib.Tactic.FunProp.Mor
+public import Mathlib.Tactic.FunProp.ToBatteries
+public import Std.Do.Triple.SpecLemmas
+public import Std.Tactic.BVDecide.Normalize.BitVec
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 /-!
 ## `funProp` data structure holding information about a function

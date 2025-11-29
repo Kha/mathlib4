@@ -11,6 +11,7 @@ public import Mathlib.Tactic.FunProp
 public import Mathlib.Tactic.MkIffOfInductiveProp
 public import Mathlib.Tactic.ToAdditive
 public import Mathlib.Util.AssertExists
+public import Mathlib.Data.Nat.Notation
 
 /-!
 # Basic definitions about topological spaces

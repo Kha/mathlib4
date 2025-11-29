@@ -6,7 +6,10 @@ Authors: Patrick Massot
 module
 
 public meta import Mathlib.Tactic.Widget.SelectPanelUtils
-public meta import Mathlib.Tactic.CongrM
+public import Mathlib.Logic.Basic
+public import Mathlib.Logic.Function.Defs
+public import Mathlib.Tactic.Widget.SelectPanelUtils
+public import ProofWidgets.Component.OfRpcMethod
 
 /-! # CongrM widget
 

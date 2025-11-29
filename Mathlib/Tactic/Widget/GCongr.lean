@@ -6,7 +6,9 @@ Authors: Patrick Massot
 module
 
 public meta import Mathlib.Tactic.Widget.SelectPanelUtils
-public meta import Mathlib.Tactic.GCongr
+public import Mathlib.Tactic.GCongr
+public import Mathlib.Tactic.Widget.SelectPanelUtils
+public import ProofWidgets.Component.OfRpcMethod
 
 /-! # GCongr widget
 

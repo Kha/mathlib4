@@ -9,6 +9,7 @@ public import Mathlib.Init
 public import Mathlib.Lean.Environment
 public import Lean.Server.InfoUtils
 public import Lean.Meta.TryThis
+public import Batteries.Tactic.Lint.Misc
 
 /-!
 # Additions to `Lean.Elab.InfoTree.Main`

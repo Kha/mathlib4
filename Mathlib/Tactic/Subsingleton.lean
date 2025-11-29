@@ -5,7 +5,7 @@ Authors: Kyle Miller
 -/
 module
 
-public meta import Mathlib.Logic.Basic
+public import Mathlib.Logic.Basic
 
 /-!
 # `subsingleton` tactic

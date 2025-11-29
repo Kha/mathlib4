@@ -5,7 +5,6 @@ Authors: Rémy Degenne, Kexing Ying
 -/
 module
 
-public import Mathlib.Probability.Notation
 public import Mathlib.Probability.Process.Stopping
 public import Mathlib.Probability.Process.Predictable
 

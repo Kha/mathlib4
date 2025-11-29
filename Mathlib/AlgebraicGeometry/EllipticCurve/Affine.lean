@@ -5,8 +5,14 @@ Authors: David Kurniadi Angdinata
 -/
 module
 
-public import Mathlib.Algebra.Polynomial.Bivariate
-public import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
-public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+public import Batteries.Data.Fin.Lemmas
+public import Mathlib.Algebra.Ring.Action.Basic
+public import Mathlib.Control.Monad.Basic
+public import Mathlib.Data.Setoid.Basic
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Data.Vector.Basic
+public import Mathlib.Order.UpperLower.Basic
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
 
 deprecated_module (since := "2025-05-03")

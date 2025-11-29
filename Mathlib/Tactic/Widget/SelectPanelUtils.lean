@@ -7,8 +7,12 @@ module
 
 public meta import Lean.Meta.ExprLens
 public meta import ProofWidgets.Component.MakeEditLink
-public meta import ProofWidgets.Component.OfRpcMethod -- needed in all files using this one.
 public meta import Mathlib.Tactic.Widget.SelectInsertParamsClass
+public import Mathlib.Tactic.Widget.SelectInsertParamsClass
+public import ProofWidgets.Component.MakeEditLink
+public meta import ProofWidgets.Data.Html
+public import ProofWidgets.Data.Html
+public import Std.Do.Triple.SpecLemmas
 
 /-! # Selection panel utilities
 

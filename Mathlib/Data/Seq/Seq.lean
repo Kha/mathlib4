@@ -1,5 +1,5 @@
 module
 
-public import Mathlib.Data.Seq.Basic
+public import Mathlib.Tactic.ENatToNat
 
 deprecated_module (since := "2025-08-26")
