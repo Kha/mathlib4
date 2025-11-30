@@ -5,7 +5,6 @@ Authors: Kyle Miller
 -/
 module
 
-public import Mathlib.Tactic.Basic
 public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module "The lift_lets tactic was moved to Lean core; \

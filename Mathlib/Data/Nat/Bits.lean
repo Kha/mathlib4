@@ -9,6 +9,7 @@ public import Mathlib.Data.Nat.BinaryRec
 public import Mathlib.Data.List.Defs
 public import Mathlib.Tactic.Convert
 public import Mathlib.Util.AssertExists
+public import Std.Tactic.BVDecide.Normalize.Bool
 
 /-!
 # Additional properties of binary recursion on `Nat`

@@ -1,11 +1,12 @@
 module
 
-public import Batteries.Data.Fin.Lemmas
-public import Mathlib.Algebra.Order.Ring.Basic
-public import Mathlib.Algebra.Ring.Action.Basic
-public import Mathlib.Combinatorics.SimpleGraph.Basic
-public import Mathlib.Control.Monad.Basic
-public import Mathlib.Order.ConditionallyCompleteLattice.Basic
-public import Mathlib.Order.UpperLower.Basic
+public import Mathlib.Combinatorics.SimpleGraph.Init
+public import Mathlib.Data.Finset.Attr
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Tactic.Bound.Init
+public import Mathlib.Tactic.Common
+public import Mathlib.Tactic.Finiteness.Attr
+public import Mathlib.Tactic.SetLike
+public import Mathlib.Util.CompileInductive
 
 deprecated_module (since := "2025-08-21")

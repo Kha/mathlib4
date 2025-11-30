@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Logic.Basic
 public import Mathlib.Order.Defs.LinearOrder
+public import Std.Tactic.BVDecide.Normalize.Bool
 
 /-!
 # Booleans

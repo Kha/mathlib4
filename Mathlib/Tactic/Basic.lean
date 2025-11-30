@@ -6,7 +6,6 @@ Authors: Mario Carneiro, Kyle Miller
 module
 
 public meta import Lean
-public import Lean
 public import Mathlib.Tactic.PPWithUniv
 
 /-!

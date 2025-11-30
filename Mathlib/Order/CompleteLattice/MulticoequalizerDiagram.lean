@@ -9,12 +9,9 @@ public import Mathlib.Order.CompleteLattice.Lemmas
 public import Mathlib.CategoryTheory.Category.Preorder
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
 public import Mathlib.CategoryTheory.CommSq
-public import Mathlib.Data.Fin.Embedding
 public import Mathlib.Data.Finset.Attr
-public import Mathlib.Data.List.Infix
-public import Mathlib.Data.List.Perm.Basic
-public import Mathlib.Data.List.Perm.Subperm
 public import Mathlib.Tactic.SetLike
+public import Mathlib.Tactic.Attr.Core
 
 /-!
 # Multicoequalizer diagrams in complete lattices

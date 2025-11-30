@@ -9,6 +9,7 @@ public meta import Mathlib.Tactic.CC.Datatypes
 public import Mathlib.Tactic.CC.Datatypes
 public import Mathlib.Tactic.Relation.Rfl
 public import Mathlib.Tactic.Relation.Symm
+public import Mathlib.Logic.Basic
 
 /-!
 # Make proofs from a congruence closure

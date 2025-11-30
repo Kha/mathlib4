@@ -7,8 +7,6 @@ module
 
 public import Mathlib.Algebra.ContinuedFractions.ContinuantsRecurrence
 public import Mathlib.Algebra.ContinuedFractions.TerminatedStable
-public import Mathlib.Algebra.BigOperators.Group.List.Defs
-public import Mathlib.Data.List.Perm.Basic
 public import Mathlib.Tactic.NormNum.Inv
 public import Mathlib.Tactic.NormNum.Pow
 

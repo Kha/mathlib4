@@ -11,8 +11,7 @@ public import Mathlib.Algebra.Group.Equiv.Defs
 public import Mathlib.Algebra.BigOperators.Group.List.Defs
 public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Group.Nat.Defs
-public import Mathlib.Data.List.Perm.Basic
-public import Mathlib.Order.Basic
+public import Mathlib.Data.List.Basic
 
 /-!
 # Free monoid over a given alphabet

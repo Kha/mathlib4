@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Init
 public meta import Lean.Meta.Tactic.TryThis
-public import Lean.Meta.Tactic.TryThis
 
 /-!
 # Adaptation notes

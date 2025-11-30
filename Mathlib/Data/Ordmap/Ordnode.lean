@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Order.Compare
 public import Mathlib.Data.Nat.PSub
+public import Batteries.Data.List.Basic
 
 /-!
 # Ordered sets

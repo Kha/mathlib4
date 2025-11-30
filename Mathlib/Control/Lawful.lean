@@ -5,7 +5,6 @@ Authors: Sebastian Ullrich
 -/
 module
 
-public import Mathlib.Tactic.Basic
 public import Mathlib.Tactic.Lemma
 
 /-!

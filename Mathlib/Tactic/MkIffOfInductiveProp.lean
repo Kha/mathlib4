@@ -9,8 +9,6 @@ public meta import Lean.Elab.DeclarationRange
 public meta import Lean.Meta.Tactic.Cases
 public meta import Mathlib.Lean.Meta
 public meta import Mathlib.Lean.Name
-public import Batteries.Data.List.Lemmas
-public import Batteries.Lean.Except
 public import Mathlib.Tactic.TypeStar
 
 /-!

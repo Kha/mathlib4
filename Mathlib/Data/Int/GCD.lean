@@ -11,9 +11,9 @@ public import Mathlib.Data.Set.Operations
 public import Mathlib.Order.Basic
 public import Mathlib.Order.Bounds.Defs
 public import Mathlib.Algebra.Group.Int.Defs
-public import Mathlib.Data.Int.Basic
 public import Mathlib.Algebra.Divisibility.Basic
 public import Mathlib.Algebra.Group.Nat.Defs
+public import Mathlib.Data.Nat.Basic
 
 /-!
 # Extended GCD and divisibility over ℤ

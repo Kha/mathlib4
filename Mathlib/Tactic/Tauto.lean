@@ -7,8 +7,6 @@ module
 
 public meta import Mathlib.Lean.Elab.Tactic.Basic
 public import Mathlib.Logic.Basic  -- shake: keep (dependency of tactic output)
-public import Batteries.Data.List.Lemmas
-public import Batteries.Lean.Except
 public import Mathlib.Tactic.CasesM
 public import Mathlib.Tactic.Core
 public import Qq

@@ -9,7 +9,6 @@ public import Mathlib.CategoryTheory.MorphismProperty.HasCardinalLT
 public import Mathlib.CategoryTheory.ObjectProperty.HasCardinalLT
 public import Mathlib.CategoryTheory.Products.Unitor
 public import Mathlib.CategoryTheory.Category.Preorder
-public import Mathlib.CategoryTheory.HomCongr
 
 /-!
 # `κ`-filtered categories and `κ`-directed poset

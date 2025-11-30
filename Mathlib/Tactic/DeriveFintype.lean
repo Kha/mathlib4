@@ -6,8 +6,6 @@ Authors: Kyle Miller
 module
 
 public import Mathlib.Data.Fintype.OfMap  -- shake: keep (metaprogram output dependency)
-public import Mathlib.Algebra.BigOperators.Group.List.Defs
-public import Mathlib.Data.Fin.Embedding
 public import Mathlib.Tactic.ProxyType
 
 /-!

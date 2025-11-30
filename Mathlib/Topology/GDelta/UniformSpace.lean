@@ -6,7 +6,8 @@ Authors: Sébastien Gouëzel, Yury Kudryashov
 module
 
 public import Mathlib.Data.EReal.Inv
-public import Mathlib.Tactic.Bound
-public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Algebra.Order.Module.Field
+public import Mathlib.Topology.Algebra.InfiniteSum.Order
+public import Mathlib.Topology.MetricSpace.Bounded
 
 deprecated_module (since := "2025-05-07")

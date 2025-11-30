@@ -14,6 +14,7 @@ public import Mathlib.Lean.Meta.RefinedDiscrTree.Lookup
 public import Mathlib.Tactic.FunProp.Decl
 public import Mathlib.Tactic.FunProp.FunctionData
 public import Mathlib.Tactic.FunProp.Types
+public meta import Std.Do.Triple.SpecLemmas
 
 /-!
 ## `fun_prop` environment extensions storing theorems for `fun_prop`

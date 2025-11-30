@@ -7,7 +7,6 @@ module
 
 public import Mathlib.CategoryTheory.FinCategory.Basic
 public import Mathlib.CategoryTheory.Limits.Shapes.Multiequalizer
-public import Mathlib.Algebra.BigOperators.Group.List.Defs
 public import Mathlib.Data.Fintype.Sum
 public import Mathlib.Tactic.ProxyType
 

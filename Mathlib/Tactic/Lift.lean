@@ -7,8 +7,9 @@ module
 
 public meta import Batteries.Lean.Expr
 public meta import Batteries.Lean.Meta.UnusedNames
-public import Mathlib.Tactic.Basic
 public import Mathlib.Tactic.TypeStar
+public meta import Lean.Elab.Tactic.RCases
+public meta import Std.Do.Triple.SpecLemmas
 
 /-!
 # lift tactic

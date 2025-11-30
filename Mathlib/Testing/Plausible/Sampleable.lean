@@ -9,9 +9,6 @@ public import Mathlib.Data.Int.Order.Basic
 public meta import Mathlib.Data.List.Monad
 public meta import Mathlib.Data.PNat.Defs
 public import Plausible.Sampleable
-public import Batteries.Control.Lemmas
-public import Mathlib.Data.Nat.Basic
-public import Mathlib.Order.Basic
 public import Plausible.Arbitrary
 public import Plausible.Gen
 public import Plausible.Random

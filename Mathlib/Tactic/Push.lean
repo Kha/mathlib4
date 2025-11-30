@@ -12,6 +12,7 @@ public import Mathlib.Logic.Basic
 public import Mathlib.Tactic.Conv
 public import Mathlib.Tactic.Push.Attr
 public import Mathlib.Util.AtLocation
+public import Lean.Meta.Tactic.Simp.Rewrite
 
 /-!
 # The `push`, `push_neg` and `pull` tactics

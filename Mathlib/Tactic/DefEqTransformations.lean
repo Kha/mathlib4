@@ -5,7 +5,10 @@ Authors: Kyle Miller
 -/
 module
 
-public import Mathlib.Tactic.Basic
+public meta import Lean.Elab.Tactic.Conv.Basic
+public meta import Lean.Elab.Tactic.Location
+public import Mathlib.Init
+public meta import Std.Do.Triple.SpecLemmas
 
 /-! # Tactics that transform types into definitionally equal types
 

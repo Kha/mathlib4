@@ -6,7 +6,6 @@ Authors: Kyle Miller
 module
 
 public meta import Batteries.Tactic.Lint.Misc
-public import Mathlib.Tactic.Basic
 public import Mathlib.Tactic.Linter.DeprecatedModule
 
 deprecated_module "The extract_let tactic was moved to Lean core; \

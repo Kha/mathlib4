@@ -8,6 +8,7 @@ module
 public import Mathlib.Data.Nat.Choose.Sum
 public import Mathlib.Probability.ProbabilityMassFunction.Constructions
 public import Mathlib.Tactic.FinCases
+public import Batteries.Data.Fin.Lemmas
 
 /-!
 # The binomial distribution

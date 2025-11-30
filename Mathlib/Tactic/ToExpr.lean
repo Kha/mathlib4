@@ -5,7 +5,6 @@ Authors: Kyle Miller
 -/
 module
 
-public import Lean.Meta.Tactic.TryThis
 public import Mathlib.Init
 
 /-!

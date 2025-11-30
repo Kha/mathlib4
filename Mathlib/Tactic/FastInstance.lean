@@ -7,7 +7,6 @@ module
 
 public meta import Lean.Elab.SyntheticMVars
 public import Mathlib.Init
-public import Lean
 /-!
 # The `fast_instance%` term elaborator
 -/

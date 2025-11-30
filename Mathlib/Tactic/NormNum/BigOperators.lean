@@ -6,7 +6,6 @@ Authors: Anne Baanen, Floris van Doorn
 module
 
 public import Mathlib.Algebra.BigOperators.Group.Finset.Basic  -- shake: keep (Qq dependency)
-public import Mathlib.Data.Fin.Embedding
 public import Mathlib.Tactic.NormNum.Basic
 
 /-!

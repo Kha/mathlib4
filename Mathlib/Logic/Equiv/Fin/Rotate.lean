@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Fin.Basic
 public import Mathlib.Logic.Equiv.Fin.Basic
+public import Batteries.Data.Fin.Lemmas
 
 /-!
 # Cyclic permutations on `Fin n`

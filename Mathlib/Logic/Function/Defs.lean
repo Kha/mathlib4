@@ -8,7 +8,6 @@ module
 public import Mathlib.Tactic.Attr.Register
 public import Mathlib.Tactic.Lemma
 public import Mathlib.Tactic.TypeStar
-public import Lean.Meta.Tactic.TryThis
 
 /-!
 # General operations on functions

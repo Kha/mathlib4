@@ -9,8 +9,8 @@ public meta import Mathlib.Util.AtomM
 public meta import Qq
 public import Batteries.Tactic.Exact
 public import Batteries.Tactic.Init
-public import Mathlib.Logic.Basic
 public import Mathlib.Util.AtomM
+public import Mathlib.Tactic.Basic
 
 /-!
 

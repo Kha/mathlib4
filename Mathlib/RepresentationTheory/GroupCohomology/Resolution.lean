@@ -5,20 +5,12 @@ Authors: Amelia Livingston
 -/
 module
 
-public import Batteries.Data.Fin.Lemmas
-public import Mathlib.Algebra.Ring.Action.Basic
-public import Mathlib.CategoryTheory.ConcreteCategory.Elementwise
-public import Mathlib.CategoryTheory.Elementwise
-public import Mathlib.CategoryTheory.HomCongr
-public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.CommSq
-public import Mathlib.Control.Monad.Basic
 public import Mathlib.Data.Rat.Cast.Order
-public import Mathlib.Data.Setoid.Basic
-public import Mathlib.Data.Vector.Basic
-public import Mathlib.Order.UpperLower.Basic
 public import Mathlib.Tactic.NormNum.Abs
 public import Mathlib.Tactic.NormNum.DivMod
 public import Mathlib.Tactic.NormNum.OfScientific
 public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Data.Finset.Attr
 
 deprecated_module (since := "2025-06-14")

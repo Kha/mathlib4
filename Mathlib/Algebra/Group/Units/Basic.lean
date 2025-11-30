@@ -11,9 +11,7 @@ public import Mathlib.Algebra.Group.Units.Defs
 public import Mathlib.Logic.Unique
 public import Mathlib.Tactic.Lift
 public import Mathlib.Tactic.Subsingleton
-public import Mathlib.Data.Prod.Basic
 public import Mathlib.Tactic.Attr.Core
-public import Mathlib.Tactic.ToDual
 
 /-!
 # Units (i.e., invertible elements) of a monoid

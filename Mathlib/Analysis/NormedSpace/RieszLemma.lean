@@ -3,7 +3,7 @@ module
 public import Mathlib.Algebra.Order.Module.Algebra
 public import Mathlib.Analysis.Normed.Group.Basic
 public import Mathlib.Data.EReal.Inv
-public import Mathlib.Tactic.Bound
-public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Topology.Algebra.InfiniteSum.Order
+public import Mathlib.Topology.MetricSpace.Bounded
 
 deprecated_module (since := "2025-11-21")

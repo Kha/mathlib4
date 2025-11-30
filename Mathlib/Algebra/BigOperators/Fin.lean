@@ -10,6 +10,7 @@ public import Mathlib.Algebra.Group.Action.Pi
 public import Mathlib.Data.Fintype.BigOperators
 public import Mathlib.Data.Fintype.Fin
 public import Mathlib.Logic.Equiv.Fin.Basic
+public import Batteries.Data.Fin.Lemmas
 
 /-!
 # Big operators and `Fin`

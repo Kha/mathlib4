@@ -7,7 +7,6 @@ module
 
 public meta import Qq.MetaM
 public import Mathlib.Logic.Nontrivial.Basic -- shake: keep (tactic dependency)
-public import Mathlib.Tactic.Attr.Core
 public import Qq.Macro
 public import Qq.Typ
 

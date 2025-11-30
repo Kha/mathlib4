@@ -7,12 +7,6 @@ module
 
 public import Mathlib.Init
 public import Aesop.Frontend.Command
-public import Batteries.Control.Lemmas
-public import Lean.Elab.ErrorExplanation
-public import Lean.Meta.Tactic.TryThis
-public import Std.Do.Triple.SpecLemmas
-public import Std.Tactic.BVDecide.Normalize.BitVec
-public import Std.Tactic.BVDecide.Normalize.Prop
 
 /-!
 # Bound Rule Set

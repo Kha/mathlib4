@@ -8,7 +8,6 @@ module
 public import Mathlib.Init
 public meta import Lean.Elab.Tactic.ElabTerm
 public meta import Lean.Meta.Tactic.TryThis
-public import Lean.Meta.Tactic.TryThis
 /-!
 
 # Tactic `change? term`

@@ -12,7 +12,6 @@ public import Mathlib.Data.List.InsertIdx
 public import Mathlib.Data.List.Induction
 public import Batteries.Data.List.Perm
 public import Mathlib.Data.List.Perm.Basic
-public import Mathlib.Data.Prod.Basic
 public import Mathlib.Order.Lattice
 public import Mathlib.Tactic.Finiteness.Attr
 public import Mathlib.Tactic.Simproc.ExistsAndEq

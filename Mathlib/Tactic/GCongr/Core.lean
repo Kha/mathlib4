@@ -9,9 +9,7 @@ public meta import Lean
 public meta import Batteries.Lean.Except
 public meta import Mathlib.Tactic.GCongr.ForwardAttr
 import all Lean.Meta.Tactic.Apply
-public import Batteries.Lean.Except
 public import Batteries.Tactic.Exact
-public import Lean
 public import Mathlib.Order.Defs.Unbundled
 public import Mathlib.Tactic.Core
 public import Mathlib.Tactic.GCongr.ForwardAttr

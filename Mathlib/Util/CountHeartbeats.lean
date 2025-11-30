@@ -8,7 +8,6 @@ module
 public import Mathlib.Init
 public meta import Lean.Util.Heartbeats
 public meta import Lean.Meta.Tactic.TryThis
-public import Lean.Meta.Tactic.TryThis
 
 /-!
 Defines a command wrapper that prints the number of heartbeats used in the enclosed command.
