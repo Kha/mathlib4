@@ -8,6 +8,7 @@ module
 public import Mathlib.Combinatorics.Quiver.Prefunctor
 public import Mathlib.Logic.Lemmas
 public import Batteries.Data.List.Basic
+public import Mathlib.Tactic.ToDual
 
 /-!
 # Paths in quivers

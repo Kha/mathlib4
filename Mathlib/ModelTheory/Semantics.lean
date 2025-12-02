@@ -8,6 +8,7 @@ module
 public import Mathlib.Data.Finset.Basic
 public import Mathlib.ModelTheory.Syntax
 public import Mathlib.Data.List.ProdSigma
+public import Batteries.Data.Fin.Lemmas
 
 /-!
 # Basics on First-Order Semantics

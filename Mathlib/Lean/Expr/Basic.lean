@@ -7,8 +7,6 @@ Floris van Doorn, Edward Ayers, Arthur Paulino, Thomas R. Murrills
 module
 
 public import Mathlib.Init
-public import Lean.Meta.Tactic.Rewrite
-public import Batteries.Tactic.Alias
 public import Lean.Elab.Binders
 
 /-!

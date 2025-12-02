@@ -7,8 +7,8 @@ module
 
 public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Basic
 public import Mathlib.CategoryTheory.Filtered.FinallySmall
-public import Mathlib.CategoryTheory.Limits.Preserves.Filtered
-public import Mathlib.CategoryTheory.Sites.LocallyBijective
+public import Mathlib.CategoryTheory.Sites.Sheaf
+public import Mathlib.Tactic.Continuity
 
 /-!
 # Points of a site

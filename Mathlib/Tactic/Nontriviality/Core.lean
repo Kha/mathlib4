@@ -6,9 +6,10 @@ Authors: Sébastien Gouëzel, Mario Carneiro
 module
 
 public meta import Qq.MetaM
-public meta import Mathlib.Logic.Nontrivial.Basic
-public meta import Mathlib.Tactic.Attr.Core
 public import Mathlib.Logic.Nontrivial.Basic -- shake: keep (tactic dependency)
+public meta import Aesop
+public import Qq
+public import Qq.Typ
 
 /-! # The `nontriviality` tactic. -/
 
