@@ -5,6 +5,7 @@ Authors: Kim Morrison
 -/
 module
 
+public meta import Aesop
 public import Mathlib.CategoryTheory.Category.Basic
 
 /-!

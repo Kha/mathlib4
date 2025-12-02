@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Algebra.Order.Module.Algebra
 public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
-public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Data.Sym.Sym2
 public import Mathlib.MeasureTheory.Measure.Real
 public import Mathlib.Tactic.NormNum.GCD
 

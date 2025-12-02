@@ -5,8 +5,8 @@ Authors: David Kurniadi Angdinata
 -/
 module
 
-public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Data.Sym.Sym2
 public import Mathlib.Tactic.NormNum.GCD
-public import Mathlib.Tactic.Positivity.Finset
+public import Mathlib.Tactic.Positivity
 
 deprecated_module (since := "2025-05-03")

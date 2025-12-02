@@ -5,9 +5,7 @@ Authors: Kim Morrison
 -/
 module
 
-public import Mathlib.CategoryTheory.Category.Init
-public import Mathlib.Tactic.Common
-public import Mathlib.Util.CompileInductive
+public import Mathlib.CategoryTheory.Category.Basic  -- shake: keep (tactic output dependency)
 
 /-!
 # The `slice` tactic

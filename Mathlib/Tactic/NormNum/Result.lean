@@ -11,6 +11,7 @@ public meta import Mathlib.Data.Sigma.Basic
 public import Mathlib.Algebra.Ring.Nat
 public import Mathlib.Data.Int.Cast.Basic
 public meta import Qq.MetaM
+public meta import Mathlib.Tactic.ToDual
 
 /-!
 ## The `Result` type for `norm_num`

@@ -7,6 +7,7 @@ module
 
 public meta import Batteries.Lean.Expr
 public import Mathlib.Logic.Function.Basic
+public meta import Mathlib.Tactic.Basic
 
 /-!
 # `choose` tactic

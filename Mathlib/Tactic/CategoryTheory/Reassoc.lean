@@ -8,6 +8,8 @@ module
 public import Mathlib.CategoryTheory.Functor.Basic
 public meta import Mathlib.Lean.Meta.Simp
 public meta import Mathlib.Tactic.Simps.Basic
+public meta import Aesop
+public meta import Mathlib.Tactic.ToDual
 public import Mathlib.Util.AddRelatedDecl
 
 /-!

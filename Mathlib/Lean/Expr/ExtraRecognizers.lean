@@ -5,7 +5,7 @@ Authors: Kyle Miller
 -/
 module
 
-public import Aesop.BuiltinRules
+public import Aesop
 public import Mathlib.Data.Set.CoeSort
 public import Mathlib.Tactic.ToDual
 

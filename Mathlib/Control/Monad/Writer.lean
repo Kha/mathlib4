@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Logic.Equiv.Defs
-public import Std.Do.Triple.SpecLemmas
 
 /-!
 # Writer monads

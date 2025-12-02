@@ -7,11 +7,7 @@ module
 
 public import Mathlib.Data.List.Lex
 public import Mathlib.Order.RelClasses
-public import Mathlib.Data.Rat.Cast.Order
-public import Mathlib.Tactic.NormNum.Abs
-public import Mathlib.Tactic.NormNum.DivMod
-public import Mathlib.Tactic.NormNum.OfScientific
-public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Tactic.NormNum
 
 /-!
 # Shortlex ordering of lists.

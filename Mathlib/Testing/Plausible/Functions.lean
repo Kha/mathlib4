@@ -15,8 +15,8 @@ public import Mathlib.Data.DFinsupp.Defs
 public import Mathlib.Data.Finsupp.Defs
 public import Mathlib.Data.Int.Range
 public import Mathlib.Data.List.Sigma
-public import Mathlib.Tactic.Bound.Init
 public import Mathlib.Data.PNat.Notation
+public import Mathlib.Tactic.Bound.Init
 
 /-!
 ## `Plausible`: generators for functions

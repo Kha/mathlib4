@@ -11,6 +11,7 @@ public import Mathlib.Algebra.Order.Group.PosPart  -- shake: keep (Qq dependency
 public import Mathlib.Data.Nat.Factorial.Basic  -- shake: keep (Qq dependency)
 public import Mathlib.Data.Int.CharZero  -- shake: keep (Qq dependency)
 public import Mathlib.Data.PNat.Defs  -- shake: keep (Qq dependency)
+public import Mathlib.Algebra.Order.Ring.Basic  -- shake: keep (Qq dependency)
 public import Mathlib.Algebra.Order.Hom.Basic
 public import Mathlib.Data.NNRat.Defs
 public import Mathlib.Tactic.Positivity.Core

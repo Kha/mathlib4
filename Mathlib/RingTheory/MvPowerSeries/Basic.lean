@@ -9,11 +9,7 @@ public import Mathlib.Algebra.Order.Antidiag.Finsupp
 public import Mathlib.Data.Finsupp.Weight
 public import Mathlib.LinearAlgebra.Pi
 public import Mathlib.Algebra.MvPolynomial.Basic
-public import Mathlib.Data.Rat.Cast.Order
-public import Mathlib.Tactic.NormNum.Abs
-public import Mathlib.Tactic.NormNum.DivMod
-public import Mathlib.Tactic.NormNum.OfScientific
-public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Tactic.NormNum
 
 /-!
 # Formal (multivariate) power series

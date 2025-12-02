@@ -11,7 +11,6 @@ public import Mathlib.Data.ENat.Lattice
 public import Mathlib.Order.Atoms
 public import Mathlib.Order.RelSeries
 public import Mathlib.Tactic.FinCases
-public import Mathlib.Data.Int.Basic
 
 /-!
 # Krull dimension of a preordered set and height of an element

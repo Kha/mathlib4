@@ -7,7 +7,8 @@ module
 
 public meta import Qq.MetaM
 public import Mathlib.Logic.Nontrivial.Basic -- shake: keep (tactic dependency)
-public import Qq.Macro
+public meta import Aesop
+public import Qq
 public import Qq.Typ
 
 /-! # The `nontriviality` tactic. -/

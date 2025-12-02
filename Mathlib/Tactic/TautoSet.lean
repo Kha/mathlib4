@@ -6,6 +6,7 @@ Authors: Lenny Taelman
 module
 
 public import Mathlib.Data.Set.SymmDiff  -- shake: keep (Qq dependency)
+public meta import Aesop
 
 /-!
 # The `tauto_set` tactic

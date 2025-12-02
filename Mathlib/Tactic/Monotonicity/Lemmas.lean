@@ -5,10 +5,11 @@ Authors: Simon Hudon
 -/
 module
 
-public import Mathlib.Algebra.Order.Group.Abs  -- shake: keep (used in `attribute` only)
-public import Mathlib.Algebra.Order.Ring.Defs  -- shake: keep (used in `attribute` only)
-public import Mathlib.Algebra.Order.Sub.Unbundled.Basic  -- shake: keep (used in `attribute` only)
-public import Mathlib.Data.Set.Lattice  -- shake: keep (used in `attribute` only)
+public import Mathlib.Algebra.Order.Group.Defs
+public import Mathlib.Algebra.Order.Group.Unbundled.Abs
+public import Mathlib.Algebra.Order.Ring.Unbundled.Basic
+public import Mathlib.Algebra.Order.Sub.Unbundled.Basic
+public import Mathlib.Data.Set.Lattice
 
 /-! # Lemmas for the `mono` tactic
 

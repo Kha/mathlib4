@@ -8,11 +8,12 @@ module
 
 public meta import Lean.Elab.Tactic.Location
 public meta import Mathlib.Tactic.Push.Attr
+public import Lean
 public import Mathlib.Logic.Basic
+public meta import Mathlib.Tactic.Basic
 public import Mathlib.Tactic.Conv
 public import Mathlib.Tactic.Push.Attr
 public import Mathlib.Util.AtLocation
-public import Lean.Meta.Tactic.Simp.Rewrite
 
 /-!
 # The `push`, `push_neg` and `pull` tactics

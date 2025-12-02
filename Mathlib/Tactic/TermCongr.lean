@@ -9,7 +9,7 @@ public meta import Mathlib.Lean.Expr.Basic
 public meta import Mathlib.Lean.Meta.CongrTheorems
 public meta import Mathlib.Logic.Basic
 public import Batteries.Tactic.Lint.Misc
-public import Lean.Meta.CongrTheorems
+public import Lean
 public import Mathlib.Init
 
 /-! # `congr(...)` congruence quotations

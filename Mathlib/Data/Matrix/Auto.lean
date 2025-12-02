@@ -7,9 +7,9 @@ module
 
 public import Mathlib.Data.Finset.Attr
 public import Mathlib.Tactic.Bound.Init
-public import Mathlib.Tactic.SetLike
 public import Mathlib.Tactic.Common
 public import Mathlib.Tactic.Finiteness.Attr
+public import Mathlib.Tactic.SetLike
 public import Mathlib.Util.CompileInductive
 
 /-! # Automatically generated lemmas for working with concrete matrices

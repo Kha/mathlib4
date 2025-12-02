@@ -8,7 +8,7 @@ module
 public meta import Mathlib.Tactic.FunProp
 public import Mathlib.Algebra.Order.Module.Algebra
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
-public import Mathlib.Tactic.Positivity.Finset
+public import Mathlib.Tactic.Positivity
 
 deprecated_module
   "fun_prop knows about Differentiable(At/On) directly; no need to import this file any more"

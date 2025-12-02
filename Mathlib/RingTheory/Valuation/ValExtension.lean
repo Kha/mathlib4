@@ -6,10 +6,6 @@ Authors: Jiedong Jiang, Bichang Lei
 module
 
 public import Mathlib.Data.Finset.Attr
-public import Mathlib.Data.Rat.Cast.Order
-public import Mathlib.Tactic.NormNum.Abs
-public import Mathlib.Tactic.NormNum.DivMod
-public import Mathlib.Tactic.NormNum.OfScientific
-public import Mathlib.Tactic.NormNum.Pow
+public import Mathlib.Tactic.NormNum
 
 deprecated_module (since := "2025-05-06")

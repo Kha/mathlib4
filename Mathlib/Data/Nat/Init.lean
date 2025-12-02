@@ -13,7 +13,7 @@ public import Mathlib.Tactic.Basic
 public import Mathlib.Tactic.Lemma
 public import Mathlib.Tactic.TypeStar
 public import Mathlib.Util.AssertExists
-public import Std.Tactic.BVDecide.Normalize.Prop
+public import Std.Tactic.BVDecide.Normalize
 
 /-!
 # Basic operations on the natural numbers

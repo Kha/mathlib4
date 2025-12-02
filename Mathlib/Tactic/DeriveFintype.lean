@@ -7,6 +7,8 @@ module
 
 public import Mathlib.Data.Fintype.OfMap  -- shake: keep (metaprogram output dependency)
 public import Mathlib.Tactic.ProxyType
+public meta import Mathlib.Tactic.ToAdditive
+public meta import Mathlib.Tactic.ToDual
 
 /-!
 # The `Fintype` derive handler

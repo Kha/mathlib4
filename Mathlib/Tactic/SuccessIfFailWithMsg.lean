@@ -9,7 +9,6 @@ public meta import Lean.Elab.Eval
 public meta import Lean.Elab.Tactic.BuiltinTactic
 public import Mathlib.Init
 public meta import Lean.Meta.Tactic.TryThis
-public import Lean.Meta.Tactic.TryThis
 
 /-!
 # Success If Fail With Message

@@ -7,7 +7,6 @@ module
 
 public import Mathlib.RingTheory.Ideal.Prime
 public import Mathlib.RingTheory.Ideal.Span
-public import Mathlib.Tactic.Ring.RingNF
 
 /-!
 

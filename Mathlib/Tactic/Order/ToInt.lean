@@ -6,7 +6,7 @@ Authors: Vasilii Nesterov
 module
 
 public meta import Mathlib.Tactic.Order.CollectFacts
-public import Batteries.Data.List.Pairwise
+public import Batteries.Data.List
 public import Batteries.Tactic.GeneralizeProofs
 public import Mathlib.Tactic.Order.CollectFacts
 public import Mathlib.Util.Qq

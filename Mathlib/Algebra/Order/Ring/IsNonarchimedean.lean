@@ -7,7 +7,6 @@ module
 
 public import Mathlib.Algebra.Order.Hom.Basic
 public import Mathlib.Data.Nat.Choose.Sum
-public import Mathlib.Algebra.Order.Ring.Basic
 
 /-!
 # Nonarchimedean functions

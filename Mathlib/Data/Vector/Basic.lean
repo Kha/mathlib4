@@ -11,7 +11,6 @@ public import Mathlib.Data.List.OfFn
 public import Mathlib.Control.Applicative
 public import Mathlib.Control.Traversable.Basic
 public import Mathlib.Algebra.BigOperators.Group.List.Basic
-public import Batteries.Data.List.Scan
 
 /-!
 # Additional theorems and definitions about the `Vector` type

@@ -9,6 +9,7 @@ public meta import Batteries.Tactic.Lint.Basic
 public meta import Mathlib.Data.Ineq
 public import Mathlib.Data.Ineq
 public import Mathlib.Data.Nat.Cast.Order.Ring
+public meta import Mathlib.Tactic.ToAdditive
 
 /-!
 # Lemmas for `linarith`.

@@ -12,7 +12,7 @@ public import Batteries.Logic
 public import Batteries.Tactic.Lint.Misc
 public import Mathlib.Tactic.Lemma
 public import Mathlib.Tactic.TypeStar
-public import Std.Tactic.BVDecide.Normalize.Prop
+public import Std.Tactic.BVDecide.Normalize
 
 /-!
 # Basic logic properties
