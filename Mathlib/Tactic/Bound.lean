@@ -124,7 +124,7 @@ that do not require additional imports within this file.
 attribute [bound] le_refl
 
 -- 0 ≤, 0 <
-attribute [bound] sq_nonneg Nat.cast_nonneg abs_nonneg Nat.zero_lt_succ
+attribute [bound] Nat.cast_nonneg abs_nonneg Nat.zero_lt_succ
   sub_nonneg_of_le sub_pos_of_lt inv_nonneg_of_nonneg inv_pos_of_pos tsub_pos_of_lt mul_pos
   mul_nonneg add_nonneg
 
@@ -137,18 +137,13 @@ attribute [bound] le_abs_self neg_abs_le neg_le_neg tsub_le_tsub_right mul_le_mu
 attribute [bound] neg_lt_neg sub_lt_sub_left sub_lt_sub_right add_lt_add_left
   add_lt_add_right mul_lt_mul_of_pos_left mul_lt_mul_of_pos_right
 
--- min and max
-attribute [bound] min_le_right min_le_left le_max_left le_max_right le_min max_le lt_min max_lt
-
--- Memorize a few constants to avoid going to `norm_num`
-attribute [bound] zero_le_one zero_lt_one zero_le_two zero_lt_two
-
 /-!
 ### Forward rules for `bound`
 -/
 
 -- Bound applies `le_of_lt` to all hypotheses
 attribute [bound_forward] le_of_lt
+
 
 /-!
 ### Guessing rules: when we don't know how to recurse

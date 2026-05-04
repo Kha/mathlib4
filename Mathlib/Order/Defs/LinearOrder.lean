@@ -13,6 +13,7 @@ public import Mathlib.Tactic.Push.Attr
 public import Mathlib.Tactic.Simps.Basic
 public import Mathlib.Tactic.SplitIfs
 public import Mathlib.Order.Defs.PartialOrder
+public meta import Mathlib.Tactic.Bound.Attribute
 
 /-!
 # Orders
@@ -151,17 +152,17 @@ theorem min_def' (a b : α) : min a b = if b ≤ a then b else a := by
 theorem max_def' (a b : α) : max a b = if b ≤ a then a else b := by
   obtain h | h | h := lt_trichotomy a b <;> simp [le_of_lt, not_le_of_gt, h, max_def]
 
-@[to_dual le_max_left]
+@[to_dual (attr := bound) le_max_left]
 lemma min_le_left (a b : α) : min a b ≤ a := by
   rw [min_def]
   split_ifs with h <;> simp [h, le_of_not_ge]
 
-@[to_dual le_max_right]
+@[to_dual (attr := bound) le_max_right]
 lemma min_le_right (a b : α) : min a b ≤ b := by
   rw [min_def]
   split_ifs with h <;> simp [h]
 
-@[to_dual max_le]
+@[to_dual (attr := bound) max_le]
 lemma le_min (h₁ : c ≤ a) (h₂ : c ≤ b) : c ≤ min a b := by
   rw [min_def]
   split_ifs <;> assumption
@@ -197,7 +198,7 @@ lemma min_eq_right (h : b ≤ a) : min a b = b := min_comm b a ▸ min_eq_left h
 @[to_dual] lemma min_eq_left_of_lt (h : a < b) : min a b = a := min_eq_left (le_of_lt h)
 @[to_dual] lemma min_eq_right_of_lt (h : b < a) : min a b = b := min_eq_right (le_of_lt h)
 
-@[to_dual max_lt]
+@[to_dual (attr := bound) max_lt]
 lemma lt_min (h₁ : a < b) (h₂ : a < c) : a < min b c := by
   cases le_total b c <;> simp [min_eq_left, min_eq_right, *]
 

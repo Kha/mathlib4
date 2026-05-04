@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Order.Monoid.Unbundled.Basic
 public import Mathlib.Algebra.Order.ZeroLEOne
 public import Mathlib.Data.Nat.Cast.Defs
+public meta import Mathlib.Tactic.Bound.Attribute
 
 /-!
 # Order of numerals in an `AddMonoidWithOne`.
@@ -29,6 +30,7 @@ lemma lt_one_add [One α] [AddZeroClass α] [PartialOrder α] [ZeroLEOneClass α
 
 variable [AddMonoidWithOne α]
 
+@[bound]
 lemma zero_le_two [Preorder α] [ZeroLEOneClass α] [AddLeftMono α] :
     (0 : α) ≤ 2 := by
   rw [← one_add_one_eq_two]
@@ -63,7 +65,7 @@ section
 variable [AddLeftMono α]
 
 /-- See `zero_lt_two'` for a version with the type explicit. -/
-@[simp] lemma zero_lt_two : (0 : α) < 2 := zero_lt_one.trans_le one_le_two
+@[simp, bound] lemma zero_lt_two : (0 : α) < 2 := zero_lt_one.trans_le one_le_two
 
 /-- See `zero_lt_three'` for a version with the type explicit. -/
 @[simp] lemma zero_lt_three : (0 : α) < 3 := by
