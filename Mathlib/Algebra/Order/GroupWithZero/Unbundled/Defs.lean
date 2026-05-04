@@ -222,19 +222,19 @@ instance (priority := 100) MulRightStrictMono.toMulPosReflectLE [MulRightReflect
     MulPosReflectLE α where
   elim _ _ _ := ‹MulRightReflectLE α›.le_of_mul_le_mul_right'
 
-@[gcongr]
+@[gcongr, bound]
 theorem mul_le_mul_of_nonneg_left [PosMulMono α] (hbc : b ≤ c) (ha : 0 ≤ a) : a * b ≤ a * c :=
   PosMulMono.mul_le_mul_of_nonneg_left ha hbc
 
-@[gcongr]
+@[gcongr, bound]
 theorem mul_le_mul_of_nonneg_right [MulPosMono α] (hbc : b ≤ c) (ha : 0 ≤ a) : b * a ≤ c * a :=
   MulPosMono.mul_le_mul_of_nonneg_right ha hbc
 
-@[gcongr]
+@[gcongr, bound]
 theorem mul_lt_mul_of_pos_left [PosMulStrictMono α] (hbc : b < c) (ha : 0 < a) : a * b < a * c :=
   PosMulStrictMono.mul_lt_mul_of_pos_left ha hbc
 
-@[gcongr]
+@[gcongr, bound]
 theorem mul_lt_mul_of_pos_right [MulPosStrictMono α] (hbc : b < c) (ha : 0 < a) : b * a < c * a :=
   MulPosStrictMono.mul_lt_mul_of_pos_right ha hbc
 

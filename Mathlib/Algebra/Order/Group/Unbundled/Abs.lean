@@ -8,6 +8,7 @@ module
 public import Mathlib.Algebra.Group.Even
 public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.Algebra.Order.Group.Lattice
+public meta import Mathlib.Tactic.Bound.Attribute
 public meta import Mathlib.Tactic.ToDual
 
 /-!
@@ -66,7 +67,7 @@ meta def abs.unexpander : Lean.PrettyPrinter.Unexpander
 
 @[to_additive] lemma mabs_le' : |a|ₘ ≤ b ↔ a ≤ b ∧ a⁻¹ ≤ b := sup_le_iff
 
-@[to_additive] lemma le_mabs_self (a : α) : a ≤ |a|ₘ := le_sup_left
+@[to_additive (attr := bound)] lemma le_mabs_self (a : α) : a ≤ |a|ₘ := le_sup_left
 
 @[to_additive] lemma inv_le_mabs (a : α) : a⁻¹ ≤ |a|ₘ := le_sup_right
 
@@ -106,7 +107,7 @@ attribute [gcongr] abs_le_abs_of_nonneg
 
 variable [MulRightMono α]
 
-@[to_additive (attr := simp) abs_nonneg] lemma one_le_mabs (a : α) : 1 ≤ |a|ₘ := by
+@[to_additive (attr := simp, bound) abs_nonneg] lemma one_le_mabs (a : α) : 1 ≤ |a|ₘ := by
   apply pow_two_semiclosed _
   rw [mabs, pow_two, mul_sup, sup_mul, ← pow_two, inv_mul_cancel, sup_comm, ← sup_assoc]
   apply le_sup_right
@@ -238,7 +239,7 @@ variable [MulLeftMono α] {a b : α}
 @[to_additive abs_pos_of_neg] lemma one_lt_mabs_of_lt_one (h : a < 1) : 1 < |a|ₘ :=
   one_lt_mabs.2 h.ne
 
-@[to_additive] lemma inv_mabs_le (a : α) : |a|ₘ⁻¹ ≤ a := by
+@[to_additive (attr := bound)] lemma inv_mabs_le (a : α) : |a|ₘ⁻¹ ≤ a := by
   obtain h | h := le_total 1 a
   · simpa [mabs_of_one_le h] using (inv_le_one'.2 h).trans h
   · simp [mabs_of_le_one h]

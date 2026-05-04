@@ -204,7 +204,7 @@ theorem Right.mul_lt_mul [MulLeftMono α]
     a * c < b * d :=
   mul_lt_mul_of_lt_of_le h₁ h₂.le
 
-@[to_additive (attr := gcongr high) add_le_add]
+@[to_additive (attr := gcongr high, bound) add_le_add]
 theorem mul_le_mul' [MulLeftMono α] [MulRightMono α]
     {a b c d : α} (h₁ : a ≤ b) (h₂ : c ≤ d) :
     a * c ≤ b * d := by grw [h₁, h₂]
@@ -414,7 +414,7 @@ section LE
 
 variable [LE α]
 
-@[to_additive le_add_of_nonneg_right]
+@[to_additive (attr := bound) le_add_of_nonneg_right]
 theorem le_mul_of_one_le_right' [MulLeftMono α] {a b : α} (h : 1 ≤ b) :
     a ≤ a * b :=
   calc
@@ -428,7 +428,7 @@ theorem mul_le_of_le_one_right' [MulLeftMono α] {a b : α} (h : b ≤ 1) :
     a * b ≤ a * 1 := mul_le_mul_right h a
     _ = a := mul_one a
 
-@[to_additive le_add_of_nonneg_left]
+@[to_additive (attr := bound) le_add_of_nonneg_left]
 theorem le_mul_of_one_le_left' [MulRightMono α] {a b : α} (h : 1 ≤ b) :
     a ≤ b * a :=
   calc
@@ -712,7 +712,7 @@ theorem lt_mul_of_lt_of_one_lt' [MulLeftMono α] {a b c : α} (hbc : b < c)
 
 /-- Assumes left covariance.
 The lemma assuming right covariance is `Right.one_le_mul`. -/
-@[to_additive Left.add_nonneg /-- Assumes left covariance.
+@[to_additive (attr := bound) Left.add_nonneg /-- Assumes left covariance.
 The lemma assuming right covariance is `Right.add_nonneg`. -/]
 theorem Left.one_le_mul [MulLeftMono α] {a b : α} (ha : 1 ≤ a) (hb : 1 ≤ b) :
     1 ≤ a * b :=

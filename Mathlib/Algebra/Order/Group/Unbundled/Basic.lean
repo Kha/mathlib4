@@ -573,7 +573,7 @@ section Preorder
 
 variable [Preorder α] [MulLeftMono α] {a b c d : α}
 
-@[to_additive (attr := gcongr) sub_le_sub]
+@[to_additive (attr := gcongr, bound) sub_le_sub]
 theorem div_le_div'' (hab : a ≤ b) (hcd : c ≤ d) : a / d ≤ b / c := by
   rw [div_eq_mul_inv, div_eq_mul_inv, mul_comm b, mul_inv_le_inv_mul_iff, mul_comm]
   exact mul_le_mul' hab hcd
@@ -596,7 +596,7 @@ variable [MulRightStrictMono α] {a b c : α}
 theorem div_lt_div_iff_right (c : α) : a / c < b / c ↔ a < b := by
   simpa only [div_eq_mul_inv] using mul_lt_mul_iff_right _
 
-@[to_additive (attr := gcongr) sub_lt_sub_right]
+@[to_additive (attr := gcongr, bound) sub_lt_sub_right]
 theorem div_lt_div_right' (h : a < b) (c : α) : a / c < b / c :=
   (div_lt_div_iff_right c).2 h
 
@@ -642,7 +642,7 @@ theorem div_lt_div_iff_left (a : α) : a / b < a / c ↔ c < b := by
 theorem inv_lt_div_iff_lt_mul : a⁻¹ < b / c ↔ c < a * b := by
   rw [div_eq_mul_inv, lt_mul_inv_iff_mul_lt, inv_mul_lt_iff_lt_mul]
 
-@[to_additive (attr := gcongr) sub_lt_sub_left]
+@[to_additive (attr := gcongr, bound) sub_lt_sub_left]
 theorem div_lt_div_left' (h : a < b) (c : α) : c / b < c / a :=
   (div_lt_div_iff_left c).2 h
 

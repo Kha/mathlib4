@@ -98,6 +98,7 @@ theorem le_add_tsub : a ≤ b + (a - b) :=
 theorem add_tsub_le_left : a + b - a ≤ b :=
   tsub_le_iff_left.mpr le_rfl
 
+@[bound]
 theorem tsub_le_tsub_right (h : a ≤ b) (c : α) : a - c ≤ b - c :=
   tsub_le_iff_left.mpr <| h.trans le_add_tsub
 

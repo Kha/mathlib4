@@ -121,18 +121,15 @@ that do not require additional imports within this file.
 -/
 
 -- 0 ≤, 0 <
-attribute [bound] Nat.cast_nonneg abs_nonneg Nat.zero_lt_succ
+attribute [bound] Nat.cast_nonneg Nat.zero_lt_succ
   sub_nonneg_of_le sub_pos_of_lt inv_nonneg_of_nonneg inv_pos_of_pos tsub_pos_of_lt mul_pos
-  mul_nonneg add_nonneg
+  mul_nonneg
 
 -- ≤
-attribute [bound] le_abs_self neg_abs_le neg_le_neg tsub_le_tsub_right mul_le_mul_of_nonneg_left
-  mul_le_mul_of_nonneg_right le_add_of_nonneg_right le_add_of_nonneg_left
-  sub_le_sub add_le_add mul_le_mul
+attribute [bound] mul_le_mul
 
 -- <
-attribute [bound] neg_lt_neg sub_lt_sub_left sub_lt_sub_right add_lt_add_left
-  add_lt_add_right mul_lt_mul_of_pos_left mul_lt_mul_of_pos_right
+attribute [bound] add_lt_add_left add_lt_add_right
 
 
 /-!

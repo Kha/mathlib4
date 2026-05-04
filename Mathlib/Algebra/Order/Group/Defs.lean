@@ -122,11 +122,11 @@ section NormNumLemmas
 expected signatures. -/
 variable [CommGroup α] [PartialOrder α] [IsOrderedMonoid α] {a b : α}
 
-@[to_additive (attr := gcongr) neg_le_neg]
+@[to_additive (attr := gcongr, bound) neg_le_neg]
 theorem inv_le_inv' : a ≤ b → b⁻¹ ≤ a⁻¹ :=
   inv_le_inv_iff.mpr
 
-@[to_additive (attr := gcongr) neg_lt_neg]
+@[to_additive (attr := gcongr, bound) neg_lt_neg]
 theorem inv_lt_inv' : a < b → b⁻¹ < a⁻¹ :=
   inv_lt_inv_iff.mpr
 
