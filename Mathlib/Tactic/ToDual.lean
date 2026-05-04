@@ -15,6 +15,30 @@ public import Mathlib.Tactic.Translate.ToDual
 
 public meta section
 
+namespace Mathlib.Tactic.ToDual
+open Lean Elab Translate
+
+@[attribute] def toDualDoTranslateAttr : AttributeImpl where
+  name := `to_dual_do_translate
+  descr := "Auxiliary attribute for `to_dual` stating \
+    that the operations on this type should be translated."
+  add name _ _ := doTranslateAttr.add name true
+
+@[attribute] def toDualDontTranslateAttr : AttributeImpl where
+  name := `to_dual_dont_translate
+  descr := "Auxiliary attribute for `to_dual` stating \
+    that the operations on this type should not be translated."
+  add name _ _ := doTranslateAttr.add name false
+
+@[attribute] def toDualAttr : AttributeImpl where
+  name := `to_dual
+  descr := "Transport to dual"
+  add := fun src stx kind ↦ discard do
+    addTranslationAttr data src (← elabTranslationAttr src stx) kind
+  applicationTime := .afterCompilation
+
+end Mathlib.Tactic.ToDual
+
 attribute [to_dual self (reorder := 3 4)] LE.le LT.lt GE.ge GT.gt
 attribute [to_dual self (reorder := 2 (1 2))] LE.mk LT.mk
 

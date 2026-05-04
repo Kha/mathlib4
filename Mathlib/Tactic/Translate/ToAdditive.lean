@@ -269,18 +269,6 @@ initialize ignoreArgsAttr : NameMapExtension (List Nat) ←
 @[inherit_doc TranslateData.doTranslateAttr]
 initialize doTranslateAttr : NameMapExtension Bool ← registerNameMapExtension _
 
-initialize
-  registerBuiltinAttribute {
-    name := `to_additive_do_translate
-    descr := "Auxiliary attribute for `to_additive` stating \
-      that the operations on this type should be translated."
-    add name _ _ := doTranslateAttr.add name true }
-  registerBuiltinAttribute {
-    name := `to_additive_dont_translate
-    descr := "Auxiliary attribute for `to_additive` stating \
-      that the operations on this type should not be translated."
-    add name _ _ := doTranslateAttr.add name false }
-
 /-- Maps multiplicative names to their additive counterparts. -/
 initialize translations : NameMapExtension TranslationInfo ← registerNameMapExtension _
 
@@ -391,15 +379,6 @@ def data : TranslateData where
   changeNumeral := true
   isDual := false
   guessNameData := { nameDict, abbreviationDict }
-
-initialize registerBuiltinAttribute {
-    name := `to_additive
-    descr := "Transport multiplicative to additive"
-    add := fun src stx kind ↦ discard do
-      addTranslationAttr data src (← elabTranslationAttr src stx) kind
-    -- we (presumably) need to run after compilation to properly add the `simp` attribute
-    applicationTime := .afterCompilation
-  }
 
 /-- `insert_to_additive_translation mulName addName` inserts the translation `mulName ↦ addName`
 into the `to_additive` dictionary. This is useful for translating namespaces that don't (yet)

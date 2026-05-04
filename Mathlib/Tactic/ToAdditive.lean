@@ -15,6 +15,31 @@ public meta section
 
 set_option linter.privateModule false
 
+namespace Mathlib.Tactic.ToAdditive
+open Lean Elab Translate
+
+@[attribute] def toAdditiveDoTranslateAttr : AttributeImpl where
+  name := `to_additive_do_translate
+  descr := "Auxiliary attribute for `to_additive` stating \
+    that the operations on this type should be translated."
+  add name _ _ := doTranslateAttr.add name true
+
+@[attribute] def toAdditiveDontTranslateAttr : AttributeImpl where
+  name := `to_additive_dont_translate
+  descr := "Auxiliary attribute for `to_additive` stating \
+    that the operations on this type should not be translated."
+  add name _ _ := doTranslateAttr.add name false
+
+@[attribute] def toAdditiveAttr : AttributeImpl where
+  name := `to_additive
+  descr := "Transport multiplicative to additive"
+  add := fun src stx kind ↦ discard do
+    addTranslationAttr data src (← elabTranslationAttr src stx) kind
+  -- we (presumably) need to run after compilation to properly add the `simp` attribute
+  applicationTime := .afterCompilation
+
+end Mathlib.Tactic.ToAdditive
+
 attribute [to_additive_do_translate] Empty PEmpty Unit PUnit
 attribute [to_additive_ignore_args 2] Subtype
 

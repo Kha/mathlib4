@@ -126,18 +126,6 @@ initialize unfoldBoundaries : UnfoldBoundaryExt ← registerUnfoldBoundaryExt
 @[inherit_doc TranslateData.doTranslateAttr]
 initialize doTranslateAttr : NameMapExtension Bool ← registerNameMapExtension _
 
-initialize
-  registerBuiltinAttribute {
-    name := `to_dual_do_translate
-    descr := "Auxiliary attribute for `to_dual` stating \
-      that the operations on this type should be translated."
-    add name _ _ := doTranslateAttr.add name true }
-  registerBuiltinAttribute {
-    name := `to_dual_dont_translate
-    descr := "Auxiliary attribute for `to_dual` stating \
-      that the operations on this type should not be translated."
-    add name _ _ := doTranslateAttr.add name false }
-
 /-- Maps names to their dual counterparts. -/
 initialize translations : NameMapExtension TranslationInfo ← registerNameMapExtension _
 
@@ -274,13 +262,5 @@ proof that is translated. Instead, a casting function is inserted. This casting 
 translated by the translation attribute. -/
 elab "to_dual_insert_cast_fun" declName:ident " := " valStx₁:term ", " valStx₂:term : command =>
   elabInsertCastFun declName valStx₁ valStx₂ data
-
-initialize registerBuiltinAttribute {
-    name := `to_dual
-    descr := "Transport to dual"
-    add := fun src stx kind ↦ discard do
-      addTranslationAttr data src (← elabTranslationAttr src stx) kind
-    applicationTime := .afterCompilation
-  }
 
 end Mathlib.Tactic.ToDual

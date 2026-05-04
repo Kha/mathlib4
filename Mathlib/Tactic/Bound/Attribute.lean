@@ -7,6 +7,7 @@ module
 
 public import Aesop
 public import Mathlib.Tactic.Bound.Init
+public import Mathlib.Tactic.Linarith.Frontend
 public import Qq
 
 /-!
@@ -117,7 +118,7 @@ uses specialized lemmas for goals of the form `1 ≤ x, 1 < x, x ≤ 1, x < 1`.
 
 See also `@[bound_forward]` which marks a lemma as a forward rule for `bound`: these lemmas are
 applied to hypotheses to extract inequalities (e.g. `HasPowerSeriesOnBall.r_pos`). -/
-initialize Lean.registerBuiltinAttribute {
+@[attribute] def boundAttr : Lean.AttributeImpl where
   name := `bound
   descr := "Register a theorem as an apply rule for the `bound` tactic."
   applicationTime := .afterCompilation
@@ -132,7 +133,6 @@ initialize Lean.registerBuiltinAttribute {
   erase := fun decl =>
     let ruleFilter := { name := decl, scope := .global, builders := #[], phases := #[] }
     Aesop.Frontend.eraseGlobalRules Aesop.RuleSetNameFilter.all ruleFilter (checkExists := true)
-}
 
 /-- Attribute for `forward` rules for the `bound` tactic.
 
@@ -141,5 +141,55 @@ context. A typical example is exposing an inequality field of a structure, such 
 `HasPowerSeriesOnBall.r_pos`. -/
 macro "bound_forward" : attr =>
   `(attr|aesop safe forward (rule_sets := [$(Lean.mkIdent `Bound):ident]))
+
+/-!
+### Apply rules for `bound`
+
+Most `bound` lemmas are registered in-place where the lemma is declared. These are the basic
+arithmetic/order lemmas which would create circular import issues if registered at their
+declaration sites.
+-/
+
+lemma Nat.cast_pos_of_pos {R : Type} [Semiring R] [PartialOrder R] [IsOrderedRing R] [Nontrivial R]
+    {n : ℕ} : 0 < n → 0 < (n : R) :=
+  Nat.cast_pos.mpr
+
+lemma Nat.one_le_cast_of_le {α : Type} [AddCommMonoidWithOne α] [PartialOrder α]
+    [AddLeftMono α] [ZeroLEOneClass α]
+    [CharZero α] {n : ℕ} : 1 ≤ n → 1 ≤ (n : α) :=
+  Nat.one_le_cast.mpr
+
+-- Reflexivity
+attribute [bound] le_refl
+
+-- 0 ≤, 0 <
+attribute [bound] sq_nonneg Nat.cast_nonneg abs_nonneg Nat.zero_lt_succ pow_pos pow_nonneg
+  sub_nonneg_of_le sub_pos_of_lt inv_nonneg_of_nonneg inv_pos_of_pos tsub_pos_of_lt mul_pos
+  mul_nonneg div_pos div_nonneg add_nonneg
+
+-- 1 ≤, ≤ 1
+attribute [bound] Nat.one_le_cast_of_le one_le_mul_of_one_le_of_one_le
+
+-- ≤
+attribute [bound] le_abs_self neg_abs_le neg_le_neg tsub_le_tsub_right mul_le_mul_of_nonneg_left
+  mul_le_mul_of_nonneg_right le_add_of_nonneg_right le_add_of_nonneg_left le_mul_of_one_le_right
+  mul_le_of_le_one_right sub_le_sub add_le_add mul_le_mul
+
+-- <
+attribute [bound] Nat.cast_pos_of_pos neg_lt_neg sub_lt_sub_left sub_lt_sub_right add_lt_add_left
+  add_lt_add_right mul_lt_mul_of_pos_left mul_lt_mul_of_pos_right
+
+-- min and max
+attribute [bound] min_le_right min_le_left le_max_left le_max_right le_min max_le lt_min max_lt
+
+-- Memorize a few constants to avoid going to `norm_num`
+attribute [bound] zero_le_one zero_lt_one zero_le_two zero_lt_two
+
+/-!
+### Forward rules for `bound`
+-/
+
+-- Bound applies `le_of_lt` to all hypotheses
+attribute [bound_forward] le_of_lt
 
 end Mathlib.Tactic.Bound
