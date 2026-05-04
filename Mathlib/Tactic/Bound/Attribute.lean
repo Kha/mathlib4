@@ -7,6 +7,7 @@ module
 
 public import Aesop
 public import Mathlib.Tactic.Bound.Init
+public import Mathlib.Order.Defs.PartialOrder
 public import Qq
 
 /-!
@@ -140,5 +141,16 @@ context. A typical example is exposing an inequality field of a structure, such 
 `HasPowerSeriesOnBall.r_pos`. -/
 macro "bound_forward" : attr =>
   `(attr|aesop safe forward (rule_sets := [$(Lean.mkIdent `Bound):ident]))
+
+/-!
+### Apply rules for `bound` from imported modules
+
+Lemmas defined in files this module imports are tagged here. Lemmas in files that already
+transitively import this module are tagged inline at their declaration. The remaining lemmas live
+in cycle-affected files and are tagged in `Mathlib.Tactic.Bound`.
+-/
+
+attribute [bound] le_refl
+attribute [bound_forward] le_of_lt
 
 end Mathlib.Tactic.Bound

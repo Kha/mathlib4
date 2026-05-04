@@ -120,9 +120,6 @@ Most `bound` lemmas are registered in-place where the lemma is declared. These a
 that do not require additional imports within this file.
 -/
 
--- Reflexivity
-attribute [bound] le_refl
-
 -- 0 ≤, 0 <
 attribute [bound] Nat.cast_nonneg abs_nonneg Nat.zero_lt_succ
   sub_nonneg_of_le sub_pos_of_lt inv_nonneg_of_nonneg inv_pos_of_pos tsub_pos_of_lt mul_pos
@@ -136,13 +133,6 @@ attribute [bound] le_abs_self neg_abs_le neg_le_neg tsub_le_tsub_right mul_le_mu
 -- <
 attribute [bound] neg_lt_neg sub_lt_sub_left sub_lt_sub_right add_lt_add_left
   add_lt_add_right mul_lt_mul_of_pos_left mul_lt_mul_of_pos_right
-
-/-!
-### Forward rules for `bound`
--/
-
--- Bound applies `le_of_lt` to all hypotheses
-attribute [bound_forward] le_of_lt
 
 
 /-!
