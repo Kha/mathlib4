@@ -30,7 +30,7 @@ variable [AddMonoidWithOne α] [PartialOrder α]
 variable [AddLeftMono α] [ZeroLEOneClass α]
 
 /-- Specialisation of `Nat.cast_nonneg'`, which seems to be easier for Lean to use. -/
-@[simp]
+@[simp, bound]
 theorem cast_nonneg {α} [Semiring α] [PartialOrder α] [IsOrderedRing α] (n : ℕ) : 0 ≤ (n : α) :=
   cast_nonneg' n
 

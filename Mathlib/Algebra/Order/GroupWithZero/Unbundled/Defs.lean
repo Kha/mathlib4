@@ -350,7 +350,7 @@ theorem mul_lt_mul_of_pos' [PosMulStrictMono α] [MulPosStrictMono α]
   (mul_lt_mul_of_pos_right h₁ c0).trans (mul_lt_mul_of_pos_left h₂ b0)
 
 alias mul_le_mul := mul_le_mul_of_nonneg'
-attribute [gcongr] mul_le_mul
+attribute [gcongr, bound] mul_le_mul
 
 alias mul_lt_mul := mul_lt_mul_of_pos_of_nonneg'
 

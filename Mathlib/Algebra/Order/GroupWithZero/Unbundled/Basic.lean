@@ -38,10 +38,11 @@ section Preorder
 variable [Preorder α]
 
 /-- Assumes left covariance. -/
+@[bound]
 theorem Left.mul_pos [PosMulStrictMono α] (ha : 0 < a) (hb : 0 < b) : 0 < a * b := by
   simpa only [mul_zero] using mul_lt_mul_of_pos_left hb ha
 
-alias mul_pos := Left.mul_pos
+@[bound] alias mul_pos := Left.mul_pos
 
 theorem mul_neg_of_pos_of_neg [PosMulStrictMono α] (ha : 0 < a) (hb : b < 0) : a * b < 0 := by
   simpa only [mul_zero] using mul_lt_mul_of_pos_left hb ha
@@ -62,10 +63,11 @@ theorem mul_pos_iff_of_pos_right [MulPosStrictMono α] [MulPosReflectLT α] (h :
     0 < a * b ↔ 0 < a := by simpa using mul_lt_mul_iff_left₀ (b := 0) h
 
 /-- Assumes left covariance. -/
+@[bound]
 theorem Left.mul_nonneg [PosMulMono α] (ha : 0 ≤ a) (hb : 0 ≤ b) : 0 ≤ a * b := by
   simpa only [mul_zero] using mul_le_mul_of_nonneg_left hb ha
 
-alias mul_nonneg := Left.mul_nonneg
+@[bound] alias mul_nonneg := Left.mul_nonneg
 
 theorem mul_nonpos_of_nonneg_of_nonpos [PosMulMono α] (ha : 0 ≤ a) (hb : b ≤ 0) : a * b ≤ 0 := by
   simpa only [mul_zero] using mul_le_mul_of_nonneg_left hb ha
@@ -838,11 +840,11 @@ variable [PosMulReflectLT G₀] {a b c : G₀}
   apply lt_of_mul_lt_mul_left _ ha.le
   simpa [ha.ne']
 
-alias ⟨_, inv_pos_of_pos⟩ := inv_pos
+@[bound] alias ⟨_, inv_pos_of_pos⟩ := inv_pos
 
 @[simp] lemma inv_nonneg : 0 ≤ a⁻¹ ↔ 0 ≤ a := by simp only [le_iff_eq_or_lt, inv_pos, zero_eq_inv]
 
-alias ⟨_, inv_nonneg_of_nonneg⟩ := inv_nonneg
+@[bound] alias ⟨_, inv_nonneg_of_nonneg⟩ := inv_nonneg
 
 lemma one_div_pos : 0 < 1 / a ↔ 0 < a := one_div a ▸ inv_pos
 lemma one_div_nonneg : 0 ≤ 1 / a ↔ 0 ≤ a := one_div a ▸ inv_nonneg

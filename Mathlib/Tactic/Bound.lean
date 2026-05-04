@@ -116,21 +116,16 @@ lemma Nat.one_le_cast_of_le {α : Type} [AddCommMonoidWithOne α] [PartialOrder 
 /-!
 ### Apply rules for `bound`
 
-Most `bound` lemmas are registered in-place where the lemma is declared. These are only the lemmas
-that do not require additional imports within this file.
+Most `bound` lemmas are registered where the lemma is declared. The remaining lemmas live in
+files we can't pull into `Mathlib.Tactic.Bound.Attribute` (cycle or `assert_not_exists`
+violations) and in Lean core (which we don't own).
 -/
 
--- 0 ≤, 0 <
-attribute [bound] Nat.cast_nonneg Nat.zero_lt_succ
-  sub_nonneg_of_le sub_pos_of_lt inv_nonneg_of_nonneg inv_pos_of_pos tsub_pos_of_lt mul_pos
-  mul_nonneg
+-- Defined in Lean core
+attribute [bound] Nat.zero_lt_succ
 
--- ≤
-attribute [bound] mul_le_mul
-
--- <
-attribute [bound] add_lt_add_left add_lt_add_right
-
+-- Defined in `Mathlib.Algebra.Order.Sub.Basic`, which we cannot import here
+attribute [bound] tsub_pos_of_lt
 
 /-!
 ### Guessing rules: when we don't know how to recurse

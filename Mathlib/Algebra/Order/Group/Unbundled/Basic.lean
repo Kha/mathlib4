@@ -481,6 +481,7 @@ theorem one_le_div' : 1 ≤ a / b ↔ b ≤ a := by
   rw [← mul_le_mul_iff_right b, one_mul, div_eq_mul_inv, inv_mul_cancel_right]
 
 alias ⟨le_of_sub_nonneg, sub_nonneg_of_le⟩ := sub_nonneg
+attribute [bound] sub_nonneg_of_le
 
 @[to_additive sub_nonpos]
 theorem div_le_one' : a / b ≤ 1 ↔ a ≤ b := by
@@ -605,6 +606,7 @@ theorem one_lt_div' : 1 < a / b ↔ b < a := by
   rw [← mul_lt_mul_iff_right b, one_mul, div_eq_mul_inv, inv_mul_cancel_right]
 
 alias ⟨lt_of_sub_pos, sub_pos_of_lt⟩ := sub_pos
+attribute [bound] sub_pos_of_lt
 
 @[to_additive (attr := simp) sub_neg /-- For `a - -b = a + b`, see `sub_neg_eq_add`. -/]
 theorem div_lt_one' : a / b < 1 ↔ a < b := by
