@@ -102,10 +102,12 @@ Once Aesop can do general terms directly, we can remove these:
   https://github.com/leanprover-community/aesop/issues/107
 -/
 
+@[bound]
 lemma Nat.cast_pos_of_pos {R : Type} [Semiring R] [PartialOrder R] [IsOrderedRing R] [Nontrivial R]
     {n : ℕ} : 0 < n → 0 < (n : R) :=
   Nat.cast_pos.mpr
 
+@[bound]
 lemma Nat.one_le_cast_of_le {α : Type} [AddCommMonoidWithOne α] [PartialOrder α]
     [AddLeftMono α] [ZeroLEOneClass α]
     [CharZero α] {n : ℕ} : 1 ≤ n → 1 ≤ (n : α) :=
@@ -122,20 +124,17 @@ that do not require additional imports within this file.
 attribute [bound] le_refl
 
 -- 0 ≤, 0 <
-attribute [bound] sq_nonneg Nat.cast_nonneg abs_nonneg Nat.zero_lt_succ pow_pos pow_nonneg
+attribute [bound] sq_nonneg Nat.cast_nonneg abs_nonneg Nat.zero_lt_succ
   sub_nonneg_of_le sub_pos_of_lt inv_nonneg_of_nonneg inv_pos_of_pos tsub_pos_of_lt mul_pos
-  mul_nonneg div_pos div_nonneg add_nonneg
-
--- 1 ≤, ≤ 1
-attribute [bound] Nat.one_le_cast_of_le one_le_mul_of_one_le_of_one_le
+  mul_nonneg add_nonneg
 
 -- ≤
 attribute [bound] le_abs_self neg_abs_le neg_le_neg tsub_le_tsub_right mul_le_mul_of_nonneg_left
-  mul_le_mul_of_nonneg_right le_add_of_nonneg_right le_add_of_nonneg_left le_mul_of_one_le_right
-  mul_le_of_le_one_right sub_le_sub add_le_add mul_le_mul
+  mul_le_mul_of_nonneg_right le_add_of_nonneg_right le_add_of_nonneg_left
+  sub_le_sub add_le_add mul_le_mul
 
 -- <
-attribute [bound] Nat.cast_pos_of_pos neg_lt_neg sub_lt_sub_left sub_lt_sub_right add_lt_add_left
+attribute [bound] neg_lt_neg sub_lt_sub_left sub_lt_sub_right add_lt_add_left
   add_lt_add_right mul_lt_mul_of_pos_left mul_lt_mul_of_pos_right
 
 -- min and max

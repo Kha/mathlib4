@@ -317,9 +317,11 @@ theorem mul_le_of_le_one_left [MulPosMono α] (hb : 0 ≤ b) (h : a ≤ 1) : a *
 theorem le_mul_of_one_le_left [MulPosMono α] (hb : 0 ≤ b) (h : 1 ≤ a) : b ≤ a * b := by
   simpa only [one_mul] using mul_le_mul_of_nonneg_right h hb
 
+@[bound]
 theorem mul_le_of_le_one_right [PosMulMono α] (ha : 0 ≤ a) (h : b ≤ 1) : a * b ≤ a := by
   simpa only [mul_one] using mul_le_mul_of_nonneg_left h ha
 
+@[bound]
 theorem le_mul_of_one_le_right [PosMulMono α] (ha : 0 ≤ a) (h : 1 ≤ b) : a ≤ a * b := by
   simpa only [mul_one] using mul_le_mul_of_nonneg_left h ha
 
@@ -364,7 +366,7 @@ variable [Preorder M₀] {a b : M₀} {m n : ℕ}
   | 0 => (pow_one a).symm ▸ ha
   | _ + 1 => pow_succ a _ ▸ mul_nonneg (pow_succ_nonneg ha _) ha
 
-@[simp] lemma pow_nonneg [ZeroLEOneClass M₀] [PosMulMono M₀] (ha : 0 ≤ a) : ∀ n, 0 ≤ a ^ n
+@[simp, bound] lemma pow_nonneg [ZeroLEOneClass M₀] [PosMulMono M₀] (ha : 0 ≤ a) : ∀ n, 0 ≤ a ^ n
   | 0 => pow_zero a ▸ zero_le_one
   | n + 1 => pow_succ a n ▸ mul_nonneg (pow_nonneg ha _) ha
 
@@ -391,6 +393,7 @@ lemma sq_le [PosMulMono M₀] (h₀ : 0 ≤ a) (h₁ : a ≤ 1) : a ^ 2 ≤ a :=
 lemma pow_le_one₀ [PosMulMono M₀] {n : ℕ} (ha₀ : 0 ≤ a) (ha₁ : a ≤ 1) : a ^ n ≤ 1 :=
   pow_zero a ▸ pow_right_anti₀ ha₀ ha₁ (Nat.zero_le n)
 
+@[bound]
 lemma one_le_mul_of_one_le_of_one_le [ZeroLEOneClass M₀] [PosMulMono M₀] (ha : 1 ≤ a) (hb : 1 ≤ b) :
     (1 : M₀) ≤ a * b := ha.trans <| le_mul_of_one_le_right (zero_le_one.trans ha) hb
 
@@ -527,7 +530,7 @@ variable [PosMulStrictMono M₀]
   | 0 => by simpa using ha
   | _ + 1 => pow_succ a _ ▸ mul_pos (pow_succ_pos ha _) ha
 
-@[simp] lemma pow_pos [ZeroLEOneClass M₀] (ha : 0 < a) : ∀ n, 0 < a ^ n
+@[simp, bound] lemma pow_pos [ZeroLEOneClass M₀] (ha : 0 < a) : ∀ n, 0 < a ^ n
   | 0 => by nontriviality; rw [pow_zero]; exact zero_lt_one
   | _ + 1 => pow_succ a _ ▸ mul_pos (pow_pos ha _) ha
 
@@ -866,9 +869,11 @@ theorem MulPosReflectLE.of_posMulReflectLT_of_mulPosMono [MulPosMono G₀] : Mul
 
 attribute [local instance] PosMulReflectLT.toPosMulStrictMono PosMulReflectLT.toPosMulReflectLE
 
+@[bound]
 lemma div_pos (ha : 0 < a) (hb : 0 < b) : 0 < a / b := by
   rw [div_eq_mul_inv]; exact mul_pos ha (inv_pos.2 hb)
 
+@[bound]
 lemma div_nonneg (ha : 0 ≤ a) (hb : 0 ≤ b) : 0 ≤ a / b := by
   rw [div_eq_mul_inv]; exact mul_nonneg ha (inv_nonneg.2 hb)
 
