@@ -113,19 +113,6 @@ lemma Nat.one_le_cast_of_le {α : Type} [AddCommMonoidWithOne α] [PartialOrder 
     [CharZero α] {n : ℕ} : 1 ≤ n → 1 ≤ (n : α) :=
   Nat.one_le_cast.mpr
 
-/-!
-### Apply rules for `bound`
-
-Most `bound` lemmas are registered where the lemma is declared. The remaining lemmas live in
-files we can't pull into `Mathlib.Tactic.Bound.Attribute` (cycle or `assert_not_exists`
-violations) and in Lean core (which we don't own).
--/
-
--- Defined in Lean core
-attribute [bound] Nat.zero_lt_succ
-
--- Defined in `Mathlib.Algebra.Order.Sub.Basic`, which we cannot import here
-attribute [bound] tsub_pos_of_lt
 
 /-!
 ### Guessing rules: when we don't know how to recurse

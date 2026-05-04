@@ -10,6 +10,7 @@ public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
 public import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 public import Mathlib.Algebra.Group.Equiv.Basic
 public import Mathlib.Algebra.Group.Even
+public meta import Mathlib.Tactic.Bound.Attribute
 /-!
 # Lemmas about subtraction in unbundled canonically ordered monoids
 -/
@@ -54,6 +55,7 @@ theorem tsub_self_add (a b : α) : a - (a + b) = 0 :=
 theorem tsub_pos_iff_not_le : 0 < a - b ↔ ¬a ≤ b := by
   rw [pos_iff_ne_zero, Ne, tsub_eq_zero_iff_le]
 
+@[bound]
 theorem tsub_pos_of_lt (h : a < b) : 0 < b - a :=
   tsub_pos_iff_not_le.mpr h.not_ge
 

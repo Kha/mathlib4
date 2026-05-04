@@ -150,7 +150,7 @@ transitively import this module are tagged inline at their declaration. The rema
 in cycle-affected files and are tagged in `Mathlib.Tactic.Bound`.
 -/
 
-attribute [bound] le_refl
+attribute [bound] le_refl Nat.zero_lt_succ
 attribute [bound_forward] le_of_lt
 
 end Mathlib.Tactic.Bound
