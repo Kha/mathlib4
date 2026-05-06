@@ -255,16 +255,7 @@ macro "to_additive?" rest:attrArgs : attr => `(attr| to_additive ? $rest)
 
 
 @[inherit_doc to_additive_ignore_args]
-initialize ignoreArgsAttr : NameMapExtension (List Nat) ←
-  registerNameMapAttribute {
-    name := `to_additive_ignore_args
-    descr :=
-      "Auxiliary attribute for `to_additive` stating that certain arguments are not additivized."
-    add := fun _ stx ↦ do
-      let ids ← match stx with
-        | `(attr| to_additive_ignore_args $[$ids:num]*) => pure <| ids.map (·.getNat - 1)
-        | _ => throwUnsupportedSyntax
-      return ids.toList }
+initialize ignoreArgsAttr : NameMapExtension (List Nat) ← registerNameMapExtension _
 
 @[inherit_doc TranslateData.doTranslateAttr]
 initialize doTranslateAttr : NameMapExtension Bool ← registerNameMapExtension _

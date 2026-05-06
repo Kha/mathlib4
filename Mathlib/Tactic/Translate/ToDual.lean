@@ -109,16 +109,7 @@ syntax (name := to_dual) "to_dual" "?"? attrArgs : attr
 macro "to_dual?" rest:attrArgs : attr => `(attr| to_dual ? $rest)
 
 @[inherit_doc to_dual_ignore_args]
-initialize ignoreArgsAttr : NameMapExtension (List Nat) ←
-  registerNameMapAttribute {
-    name  := `to_dual_ignore_args
-    descr :=
-      "Auxiliary attribute for `to_dual` stating that certain arguments are not dualized."
-    add := fun _ stx ↦ do
-      let ids ← match stx with
-        | `(attr| to_dual_ignore_args $[$ids:num]*) => pure <| ids.map (·.getNat - 1)
-        | _ => throwUnsupportedSyntax
-      return ids.toList }
+initialize ignoreArgsAttr : NameMapExtension (List Nat) ← registerNameMapExtension _
 
 @[inherit_doc TranslateData.unfoldBoundaries?]
 initialize unfoldBoundaries : UnfoldBoundaryExt ← registerUnfoldBoundaryExt

@@ -18,6 +18,16 @@ public meta section
 namespace Mathlib.Tactic.ToDual
 open Lean Elab Translate
 
+@[attribute] def toDualIgnoreArgsAttr : AttributeImpl where
+  name := `to_dual_ignore_args
+  descr :=
+    "Auxiliary attribute for `to_dual` stating that certain arguments are not dualized."
+  add := fun src stx _kind => do
+    let ids ← match stx with
+      | `(attr| to_dual_ignore_args $[$ids:num]*) => pure <| ids.map (·.getNat - 1)
+      | _ => throwUnsupportedSyntax
+    ignoreArgsAttr.add src ids.toList
+
 @[attribute] def toDualDoTranslateAttr : AttributeImpl where
   name := `to_dual_do_translate
   descr := "Auxiliary attribute for `to_dual` stating \
