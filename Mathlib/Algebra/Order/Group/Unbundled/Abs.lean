@@ -8,7 +8,7 @@ module
 public import Mathlib.Algebra.Group.Even
 public import Mathlib.Algebra.Group.Pi.Basic
 public import Mathlib.Algebra.Order.Group.Lattice
-public meta import Mathlib.Tactic.Bound.Attribute
+public import Mathlib.Tactic.Bound.Attribute
 public meta import Mathlib.Tactic.ToDual
 
 /-!

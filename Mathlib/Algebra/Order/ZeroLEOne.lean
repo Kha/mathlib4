@@ -8,7 +8,7 @@ module
 public import Mathlib.Algebra.Notation.Pi.Defs
 public import Mathlib.Algebra.Notation.Prod
 public import Mathlib.Order.Basic
-public meta import Mathlib.Tactic.Bound.Attribute
+public import Mathlib.Tactic.Bound.Attribute
 
 /-!
 # Typeclass expressing `0 ≤ 1`.

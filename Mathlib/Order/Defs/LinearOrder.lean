@@ -13,7 +13,7 @@ public import Mathlib.Tactic.Push.Attr
 public import Mathlib.Tactic.Simps.Basic
 public import Mathlib.Tactic.SplitIfs
 public import Mathlib.Order.Defs.PartialOrder
-public meta import Mathlib.Tactic.Bound.Attribute
+public import Mathlib.Tactic.Bound.Attribute
 
 /-!
 # Orders

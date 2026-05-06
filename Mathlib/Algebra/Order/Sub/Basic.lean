@@ -10,7 +10,7 @@ public import Mathlib.Algebra.Order.Monoid.Canonical.Defs
 public import Mathlib.Algebra.Order.Sub.Unbundled.Basic
 public import Mathlib.Algebra.Group.Equiv.Basic
 public import Mathlib.Algebra.Group.Even
-public meta import Mathlib.Tactic.Bound.Attribute
+public import Mathlib.Tactic.Bound.Attribute
 /-!
 # Lemmas about subtraction in unbundled canonically ordered monoids
 -/
